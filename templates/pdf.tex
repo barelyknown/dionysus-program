@@ -1,0 +1,45 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\usepackage{microtype}
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,
+  urlcolor=black
+}
+\setlength{\parskip}{0.9em}
+\setlength{\parindent}{0pt}
+
+$if(numbersections)$
+  $else$
+    \setcounter{secnumdepth}{0}
+$endif$
+
+\begin{document}
+
+\begin{titlepage}
+  \centering
+  \vspace*{5cm}
+  {\Huge\bfseries $title$ \par}
+  \vspace{1.5cm}
+  $if(description)$
+    {\Large\itshape $description$ \par}
+    \vspace{3cm}
+  $endif$
+  \vfill
+  $if(author)$
+    {\Large\scshape $for(author)$$author$$sep$ \\[0.5cm]$endfor$ \par}
+    \vspace{0.8cm}
+  $endif$
+  $if(date)$
+    {\large $date$ \par}
+  $endif$
+\end{titlepage}
+
+\setcounter{page}{1}
+\onehalfspacing
+
+$body$
+
+\end{document}

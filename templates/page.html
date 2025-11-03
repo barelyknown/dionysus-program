@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>$if(title-prefix)$$title-prefix$ – $endif$$pagetitle$</title>
+  $if(description)$<meta name="description" content="$description$">$endif$
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <header class="page-header">
+      <h1>$title$</h1>
+      $if(description)$<p class="page-subtitle">$description$</p>$endif$
+      $if(author)$<p class="page-author">$for(author)$$author$$sep$, $endfor$</p>$endif$
+      $if(date)$<p class="page-date">$date$</p>$endif$
+    </header>
+    <article class="essay-content">
+$body$
+    </article>
+  </main>
+</body>
+</html>
