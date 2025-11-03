@@ -1,0 +1,33 @@
+# Repository Guidelines
+
+## Project Structure & Module Organization
+- `essay.md` holds the canonical Markdown source with YAML metadata (title, description, author, date, rights).
+- `build.sh` orchestrates builds, emitting HTML/PDF/Markdown into the repo root and `dist/`.
+- `templates/` and `filters/` contain the Pandoc templates and Lua filters that shape HTML/PDF output.
+- `styles.css` defines the site typography; `index.html` is generated, not hand-edited.
+- `dist/` ships generated artifacts: `dionysus-program.pdf` and a copy of the Markdown (`essay.md`).
+
+## Build, Test, and Development Commands
+- `./build.sh` — Regenerates `index.html`, copies `dist/essay.md`, and rebuilds `dist/dionysus-program.pdf`. Requires `pandoc` and ideally `xelatex` for PDFs.
+- `open index.html` — Quick local preview in a browser (macOS). Use any static file server if preferred.
+- `open dist/dionysus-program.pdf` — Spot-check the PDF output after a build.
+
+## Coding Style & Naming Conventions
+- Keep edits in `essay.md`; avoid manual tweaks to generated `index.html` or `dist/*`.
+- CSS sticks to semantic class names (`.page-header`, `.page-download`) and prefers serif typography; maintain indentation at two spaces.
+- Lua filters follow concise naming (`remove-title.lua`, `pdf.lua`); continue dispatching logic by Pandoc element type.
+
+## Testing Guidelines
+- No automated test suite exists. After running `./build.sh`, manually verify:
+  - Header metadata renders correctly in both HTML and PDF.
+  - Download links (`/dist/dionysus-program.pdf`, `/dist/essay.md`) resolve.
+  - Custom domain CNAME remains intact if Pages deploy warnings appear.
+
+## Commit & Pull Request Guidelines
+- Match existing commit style: imperative headlines (e.g., `Serve Markdown copy via dist downloads`).
+- Group related file changes (template + generated outputs + README note) in the same commit for traceability.
+- Pull requests should include: summary of content changes, confirmation that `./build.sh` ran cleanly, and screenshots/PDF snippets if typography or layout shifted.
+
+## Deployment Notes
+- Pushing to `main` triggers GitHub Pages; ensure `.nojekyll` and `CNAME` remain in the root.
+- For domain or SSL issues, re-run `./build.sh`, push, then re-check Pages settings before altering DNS.
