@@ -37,14 +37,11 @@ $endif$
   $endif$
 \end{titlepage}
 
-$if(rights)$
-\clearpage
-\thispagestyle{empty}
-\vspace*{4cm}
-{\small\itshape $rights$}
-\vfill
-\clearpage
-$endif$
+
+  \vfill
+  $if(rights)$
+    {\footnotesize\itshape $rights$ \par}
+  $endif$
 
 \setcounter{page}{1}
 \onehalfspacing
