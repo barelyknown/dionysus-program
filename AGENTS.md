@@ -24,7 +24,7 @@
   - Custom domain CNAME remains intact if Pages deploy warnings appear.
 
 ## Commit & Pull Request Guidelines
-- Match existing commit style: imperative headlines (e.g., `Serve Markdown copy via dist downloads`).
+- Prefer Conventional Commit prefixes (e.g., `feat: add Markdown download link`, `fix: correct PDF title page`) while staying concise.
 - Group related file changes (template + generated outputs + README note) in the same commit for traceability.
 - Pull requests should include: summary of content changes, confirmation that `./build.sh` ran cleanly, and screenshots/PDF snippets if typography or layout shifted.
 
