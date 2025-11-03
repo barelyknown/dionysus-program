@@ -5,20 +5,21 @@ This repository contains a single static webpage that renders the essay “The D
 ## Project structure
 
 ```
-├─ build.sh                  # One-step HTML/PDF build script
-├─ dist/                     # Generated artifacts (PDF lives here)
-├─ filters/remove-title.lua  # Removes the duplicate H1 for HTML & PDF
-├─ filters/pdf.lua           # PDF-only tweaks (title paragraph + page breaks)
-├─ index.html                # Static page for GitHub Pages (generated)
-├─ styles.css                # Hand-tuned stylesheet
-├─ templates/page.html       # Pandoc HTML template
-├─ templates/pdf.tex         # Pandoc LaTeX template for the PDF title page
-└─ essay.md                  # Source markdown with metadata front matter
+├─ LICENSE                   # © 2025 Sean Devine. All rights reserved.
+├─ build.sh                   # One-step HTML/PDF build script
+├─ dist/                      # Generated artifacts (PDF lives here)
+├─ filters/remove-title.lua   # Removes the duplicate H1 for HTML & PDF
+├─ filters/pdf.lua            # PDF-only tweaks (title paragraph + page breaks)
+├─ index.html                 # Static page for GitHub Pages (generated)
+├─ styles.css                 # Hand-tuned stylesheet
+├─ templates/page.html        # Pandoc HTML template
+├─ templates/pdf.tex          # Pandoc LaTeX template for the PDF title page
+└─ essay.md                   # Source markdown with metadata front matter (title, author, date, description, rights)
 ```
 
 ## Updating the essay
 
-1. Edit `essay.md` (the YAML block at the top feeds metadata into the build template).
+1. Edit `essay.md` (the YAML block at the top feeds metadata into the build template—update the `rights` line if the year changes).
 2. Run the build script:
    ```bash
    ./build.sh
@@ -48,4 +49,4 @@ You can open `index.html` directly in a browser (double-click in Finder or `open
 
 ## License
 
-No explicit license is provided; feel free to adapt the layout for your own work unless you intend to redistribute it.
+See `LICENSE` for the copyright notice. All rights reserved.
