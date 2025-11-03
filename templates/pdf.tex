@@ -37,14 +37,18 @@ $endif$
   $endif$
 \end{titlepage}
 
+$if(rights)$
+\clearpage
+\thispagestyle{empty}
+\vspace*{4cm}
+{\small\itshape $rights$}
+\vfill
+\clearpage
+$endif$
+
 \setcounter{page}{1}
 \onehalfspacing
 
 $body$
-
-$if(rights)$
-\vfill
-{\small\itshape $rights$}
-$endif$
 
 \end{document}
