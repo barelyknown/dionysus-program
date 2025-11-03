@@ -7,7 +7,7 @@ This repository contains a single static webpage that renders the essay “The D
 ```
 ├─ LICENSE                   # © 2025 Sean Devine. All rights reserved.
 ├─ build.sh                   # One-step HTML/PDF build script
-├─ dist/                      # Generated artifacts (PDF lives here)
+├─ dist/                      # Generated artifacts (PDF + essay markdown copy live here)
 ├─ filters/remove-title.lua   # Removes the duplicate H1 for HTML & PDF
 ├─ filters/pdf.lua            # PDF-only tweaks (title paragraph + page breaks)
 ├─ index.html                 # Static page for GitHub Pages (generated)
@@ -24,7 +24,7 @@ This repository contains a single static webpage that renders the essay “The D
    ```bash
    ./build.sh
    ```
-   This overwrites `index.html` and refreshes `dist/dionysus-program.pdf`. The script requires Pandoc; install it with `brew install pandoc` if it’s missing. The PDF step depends on `xelatex` (installable via `brew install mactex-no-gui`); if it isn’t available, the script will skip PDF generation with a notice.
+   This overwrites `index.html`, refreshes `dist/dionysus-program.pdf`, and copies `essay.md` into `dist/essay.md`. The script requires Pandoc; install it with `brew install pandoc` if it’s missing. The PDF step depends on `xelatex` (installable via `brew install mactex-no-gui`); if it isn’t available, the script will skip PDF generation with a notice.
 3. Commit and push.
 
 > If you prefer not to use the script, you can still run Pandoc manually with `pandoc essay.md --from=markdown --to=html5 --template=templates/page.html --standalone --lua-filter=filters/remove-title.lua -o index.html`.

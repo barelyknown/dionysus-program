@@ -25,6 +25,9 @@ pandoc "$ESSAY_MD" \
 
 echo "Wrote HTML to $HTML_OUT"
 
+cp "$ESSAY_MD" "$DIST_DIR/essay.md"
+echo "Copied Markdown to $DIST_DIR/essay.md"
+
 PDF_ENGINE=""
 if command -v xelatex >/dev/null 2>&1; then
   PDF_ENGINE="xelatex"
