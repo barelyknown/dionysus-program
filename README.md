@@ -11,7 +11,7 @@ This repository contains a single static webpage that renders the essay “The D
 ├─ filters/remove-title.lua   # Removes the duplicate H1 for HTML & PDF
 ├─ filters/pdf.lua            # PDF-only tweaks (title paragraph + page breaks)
 ├─ index.html                 # Static page for GitHub Pages (generated)
-├─ styles.css                 # Hand-tuned stylesheet
+├─ styles.css                 # Hand-tuned stylesheet (header includes PDF/Markdown download links)
 ├─ templates/page.html        # Pandoc HTML template
 ├─ templates/pdf.tex          # Pandoc LaTeX template for the PDF title page
 └─ essay.md                   # Source markdown with metadata front matter (title, author, date, description, rights)

@@ -14,6 +14,11 @@
       $if(description)$<p class="page-subtitle">$description$</p>$endif$
       $if(author)$<p class="page-author">$for(author)$$author$$sep$, $endfor$</p>$endif$
       $if(date)$<p class="page-date">$date$</p>$endif$
+      <p class="page-download">
+        <a href="dist/dionysus-program.pdf">Download PDF</a>
+        <span aria-hidden="true">·</span>
+        <a href="essay.md">Download Markdown</a>
+      </p>
     </header>
     <article class="essay-content">
 $body$
