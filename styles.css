@@ -87,6 +87,18 @@ main {
   margin-top: 1.4rem;
 }
 
+.page-footer {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.page-rights {
+  font-size: 0.85rem;
+  color: var(--muted-color);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
 h2, h3, h4, h5 {
   font-weight: 500;
   color: var(--accent-color);
