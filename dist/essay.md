@@ -24,7 +24,7 @@ AI compresses all of this. With scaling laws in hand, cycles that used to take d
 
 The Dionysus Program is a way to move fast by breaking things because it teaches how to mend what you break into something stronger. Its loop is simple and total: critique → dissolution → reconstitution → renewal.
 
-> Call the speed at which a person, team, organization, or city digests error into new structure its **epimetabolic rate**. When the rate is high, the melt does not stall; it rebinds quickly and cleanly.
+Call the speed at which a person, team, organization, or city digests error into new structure its **epimetabolic rate**. When the rate is high, the melt does not stall; it rebinds quickly and cleanly.
 
 Accountability, split: In ordinary time, we practice Apollonian accountability—answering to the best available knowledge, meanings, and processes we’ve already stabilized (forecast → act → score). In liminality, we practice Dionysian accountability—answering to the rituals and rules of the container that keep the melt non-violent and raise epimetabolic rate by metabolizing loss (call the rite → follow the vows → publish the recognition → exit on time). We toggle modes deliberately.
 
