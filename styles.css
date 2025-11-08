@@ -119,12 +119,12 @@ main {
 .dedication {
   text-align: center;
   font-style: italic;
-  margin: 6rem auto 4rem;
+  margin: 3rem auto 2rem;
   font-size: 1.1rem;
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
   align-items: center;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 
 .dedication-line {
