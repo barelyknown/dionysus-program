@@ -121,6 +121,16 @@ main {
   font-style: italic;
   margin: 6rem auto 4rem;
   font-size: 1.1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.dedication-line {
+  width: 120px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(68, 64, 59, 0.45), transparent);
 }
 
 .page-footer {

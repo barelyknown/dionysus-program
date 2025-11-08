@@ -7,7 +7,11 @@ rights: "© 2025 Sean Devine. All rights reserved."
 ---
 
 ```{=html}
-<div class="dedication"><em>To Esthergen.</em></div>
+<div class="dedication" role="note">
+  <div class="dedication-line" aria-hidden="true"></div>
+  <em>To Esthergen.</em>
+  <div class="dedication-line" aria-hidden="true"></div>
+</div>
 ```
 
 ```{=latex}
