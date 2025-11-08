@@ -18,6 +18,18 @@ local function is_appendix_header(el)
   return false
 end
 
+local function has_class(el, class)
+  if not el.classes then
+    return false
+  end
+  for _, c in ipairs(el.classes) do
+    if c == class then
+      return true
+    end
+  end
+  return false
+end
+
 function Pandoc(doc)
   if not FORMAT:match('latex') then
     return doc
@@ -38,6 +50,21 @@ function Pandoc(doc)
 
     if (is_act_header(el) or is_appendix_header(el)) and #blocks > 0 then
       table.insert(blocks, pandoc.RawBlock('latex', '\\clearpage'))
+    end
+
+    if el.t == 'Div' and has_class(el, 'dedication') then
+      local dedication_body = pandoc.write(pandoc.Pandoc(el.content), 'latex'):gsub('%s*$', '')
+      local latex = string.format([[
+\thispagestyle{empty}
+\vspace*{\stretch{1}}
+\begin{center}
+%s
+\end{center}
+\vspace*{\stretch{2}}
+\clearpage
+]], dedication_body)
+      table.insert(blocks, pandoc.RawBlock('latex', latex))
+      goto continue
     end
 
     table.insert(blocks, el)

@@ -120,10 +120,12 @@ main {
   gap: 1rem;
 }
 
-.dedication-line {
+.dedication::after {
+  content: "";
   width: 120px;
   height: 1px;
   background: linear-gradient(90deg, transparent, rgba(68, 64, 59, 0.45), transparent);
+  margin-top: 0.75rem;
 }
 
 .page-footer {
