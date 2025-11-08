@@ -103,14 +103,7 @@ main {
   color: #181714;
 }
 
-.page-header::after {
-  content: "";
-  display: block;
-  width: 72px;
-  height: 1px;
-  background: linear-gradient(90deg, transparent, rgba(68, 64, 59, 0.35), transparent);
-  margin: 2.4rem auto 0;
-}
+/* divider removed beneath header to keep dedication spacing tight */
 
 .essay-content > * + * {
   margin-top: 1.4rem;
