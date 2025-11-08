@@ -6,7 +6,19 @@ description: "Move fast by breaking things—and mending them into something str
 rights: "© 2025 Sean Devine. All rights reserved."
 ---
 
-To Esthergen.
+```{=html}
+<div class="dedication"><em>To Esthergen.</em></div>
+```
+
+```{=latex}
+\thispagestyle{empty}
+\vspace*{\stretch{1}}
+\begin{center}
+\emph{To Esthergen.}
+\end{center}
+\vspace*{\stretch{2}}
+\clearpage
+```
 
 # The Dionysus Program
 

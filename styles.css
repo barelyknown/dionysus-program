@@ -116,6 +116,13 @@ main {
   margin-top: 1.4rem;
 }
 
+.dedication {
+  text-align: center;
+  font-style: italic;
+  margin: 6rem auto 4rem;
+  font-size: 1.1rem;
+}
+
 .page-footer {
   margin-top: 4rem;
   text-align: center;
