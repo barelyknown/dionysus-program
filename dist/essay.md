@@ -20,7 +20,9 @@ AI compresses all of this. With scaling laws in hand, cycles that used to take d
 
 The Dionysus Program is a way to move fast by breaking things because it teaches how to mend what you break into something stronger. Its loop is simple and total: critique → dissolution → reconstitution → renewal.
 
-Accountability, split: In ordinary time, we practice Apollonian accountability—answering to the best available knowledge, meanings, and processes we’ve already stabilized (forecast → act → score). In liminality, we practice Dionysian accountability—answering to the rituals and rules of the container that keep the melt non-violent and metabolize loss (call the rite → follow the vows → publish the recognition → exit on time). We toggle modes deliberately.
+> Call the speed at which a person, team, organization, or city digests error into new structure its **epimetabolic rate**. When the rate is high, the melt does not stall; it rebinds quickly and cleanly.
+
+Accountability, split: In ordinary time, we practice Apollonian accountability—answering to the best available knowledge, meanings, and processes we’ve already stabilized (forecast → act → score). In liminality, we practice Dionysian accountability—answering to the rituals and rules of the container that keep the melt non-violent and raise epimetabolic rate by metabolizing loss (call the rite → follow the vows → publish the recognition → exit on time). We toggle modes deliberately.
 
 The engine is Popperian error-correction; the stabilizers are ritual (Victor Turner), aesthetics (Nietzsche), and tragedy (Hegel). At every scale—person, team, organization, city—the loop repeats, fractally self-similar. We hold a non-violent center with an anti-scapegoat, use beauty as heat so dissolution becomes bearable, and practice tragic metabolism so the self can turn breakdown into understanding. The output is a culture that can learn without end and remain human.
 
@@ -47,6 +49,7 @@ Durkheim named what happens next. Shared norms and stories coordinate not just b
 Mechanically, anomie is a collapse in common knowledge. Thomas Schelling showed that coordination depends less on private beliefs and more on what we believe others believe we all believe. When new explanations refute the grounds of yesterday’s actions, we lose the public signals that make choice legible. Reputation systems jitter. Incentives flatten. Risk-taking polarizes. Cultural energy cools.
 
 Merton extended Durkheim to “strain”: when legitimate paths to legitimate ends vanish, people adapt via retreat, ritualism, innovation, or rebellion. In a high-turbulence epoch, all four appear. Retreat: “I log my hours and disengage.” Ritualism: “I follow process and avoid blame.” Innovation: “I go rogue.” Rebellion: “I burn it down.” None reconstitute shared meaning by themselves.
+Anomie blooms when epimetabolic rate drops—when we can break meanings faster than we can remake them.
 
 ### 3) Vibrating Vacuum
 
@@ -54,7 +57,7 @@ Girard’s mimetic theory keeps the camera on desire. We learn what to want by w
 
 Two paths open. The first is violent unification through scapegoating. Find a person or a group to carry the blame; purge them; feel cleansed. This works—for a minute. The second path is numb stagnation—lower desire (neo-stoicism as mass anesthesia), narrow attention, and go quiet. This also “works,” at the cost of civilization-scale slack.
 
-Neither is acceptable. We need a non-violent stabilizer that allows full-force criticism without collapse. We need a way to heat the culture without burning it. We need a form that metabolizes loss into knowledge. That requires ritual, beauty, and tragedy.
+Neither is acceptable. The non-violent alternative is to raise epimetabolic rate—heat the culture without burning it, and turn loss into structure on a deadline. We need a way to heat the culture without burning it. We need a form that metabolizes loss into knowledge. That requires ritual, beauty, and tragedy.
 
 ---
 
@@ -97,7 +100,7 @@ Operate it:
 
 ### 5) Beautiful Heat
 
-Dissolution is cold. Nietzsche saw why the Greeks staged the Dionysia: to face the terror and truth of change aesthetically—turning knowledge into felt form so it could be borne. Beauty is not decoration; it is metabolic fuel. It converts loss into coherence.
+Dissolution is cold. Nietzsche saw why the Greeks staged the Dionysia: to face the terror and truth of change aesthetically—turning knowledge into felt form so it could be borne. Beauty is not decoration; it is fuel for epimetabolic rate. It converts loss into coherence.
 
 Durkheim’s “collective effervescence” is not limited to religion or stadiums. Aesthetic synchronization—music, story, dance, visual symbol—re-binds attention and affect when concepts alone cannot. Kant and Schiller treated aesthetic education as training freedom: beauty teaches us to want without coercion.
 
@@ -117,7 +120,7 @@ Beauty supplies heat without choosing a side. It makes pain sayable and, therefo
 
 ### 6) Tragic Metabolism
 
-Tragedy is a learning machine. Aristotle named its arc; Nietzsche gave it dignity; Hegel explained its engine: the subject becomes its own object—recognizes itself in what it negates—and rises through negation (Aufhebung) to a higher form. The point is not purgation; it is comprehension.
+Tragedy is the gearbox of epimetabolic rate. Aristotle named its arc; Nietzsche gave it dignity; Hegel explained its engine: the subject becomes its own object—recognizes itself in what it negates—and rises through negation (Aufhebung) to a higher form. The point is not purgation; it is comprehension.
 
 Install tragedy as method:
 
@@ -153,7 +156,7 @@ Translate to knowledge and culture: build systems that treat breakdown as nouris
 
 * Sunset Budgets: allocate time and money for decomposing assets—unbundling products, disassembling teams, deleting features. Fund decay as a first-class function, not a grudging cost. The reward is space and reusable parts.
 
-* Hormesis Quotas: schedule small, non-catastrophic stressors—chaos drills, adversarial patches, leaderless sprints—to keep the system metabolically active. Taleb’s antifragility depends on this: low-level volatility inoculates against ruin.
+* Hormesis Quotas: schedule small, non-catastrophic stressors—chaos drills, adversarial patches, leaderless sprints—to keep the system’s epimetabolic rate high. Taleb’s antifragility depends on this: low-level volatility inoculates against ruin.
 
 * Deprecation Ceremonies: dignify the end of roles and rules. Give them names; mark the time; publish “obituaries” that tell the truth; redeem symbols for new use. It prevents undead norms from clogging living pathways.
 
@@ -184,13 +187,15 @@ Two ledgers, one toggle:
 
 Metrics that matter (with phase tags):
 
-* Melt half-life (Dionysian→Apollonian bridge) — time from critique to a visible dissolution event. Too long, you are calcifying; too short, you are flailing.
+* **Epimetabolic rate (bridge)** — fraction of dissolutions that convert into binding changes per unit time. *How to track:* count verdicts or rule-changes per week divided by open dissolutions; trend by team/org and across cycles.
 
-* Reconstitution lag (Dionysian) — time from dissolution to a named replacement rule. Too long, you are anomic; too short, you are papering over recognition.
+* Dissolution recognition time (D→A bridge) — time from critique to a visible dissolution event. Too long, you are calcifying; too short, you are flailing.
+
+* Binding change time (Dionysian) — time from dissolution to a named replacement rule. Too long, you are anomic; too short, you are papering over recognition.
 
 * Scapegoat sentinel (Dionysian) — count instances of personal blame in liminal spaces. The number should trend to zero.
 
-* Aesthetic minutes (Dionysian—track, don’t target) — time spent in communal beauty during change cycles. Must correlate with shorter reconstitution lag; otherwise it’s anesthesia.
+* Aesthetic minutes (Dionysian—track, don’t target) — time spent in communal beauty during change cycles. Should correlate with a higher epimetabolic rate (and shorter binding-change time); otherwise it’s anesthesia.
 
 * Mimetic temperature (Dionysian) — survey willingness to imitate openly. Extremely low indicates anti-mimesis; extremely high indicates unbounded rivalry. Keep it temperate.
 
