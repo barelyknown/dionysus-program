@@ -6,6 +6,8 @@ description: "Move fast by breaking things—and mending them into something str
 rights: "© 2025 Sean Devine. All rights reserved."
 ---
 
+To Esthergen.
+
 # The Dionysus Program
 
 Move fast by breaking things—and mending them into something stronger.
