@@ -16,9 +16,9 @@ Move fast by breaking things—and mending them into something stronger.
 
 ### Overture: The Melt and the Method
 
-Knowledge is unbounded. That is not a slogan; it is the condition of our lives. As Karl Popper showed, we advance by mercilessly killing our errors. David Deutsch spelled the consequence: every explanation we hold is provisional, and a better one can appear at any time. Progress is not patchwork repair; it is controlled demolition.
+Knowledge is unbounded. The only uniquely significant thing about humans is our ability to create new explanations. As Karl Popper showed, we advance by mercilessly killing our errors. David Deutsch spelled the consequence: every explanation we hold is provisional, and a better one can appear at any time. Progress is not patchwork repair; it is controlled demolition.
 
-Demolition has a social cost. The more accurate our explanations become, the more they dissolve the meanings we built on top of the old ones. Roles, rituals, and identities stabilize around yesterday’s truths. When those truths are refuted, structures of value and belonging wobble. Émile Durkheim called the resulting condition anomie: normlessness, drift, inner cold. René Girard added the mimetic mechanics: when common objects of desire lose legitimacy, imitation doesn’t disappear; it flips. We become anti-mimetic—defining ourselves by negation, craving status in non-participation, oscillating between apathy and scapegoat hunts.
+Demolition has a social cost. The more accurate our explanations become, the more they dissolve the meanings we built on top of the old ones. Roles, rituals, and identities stabilize around yesterday’s truths. When those truths are superseded, structures of value and belonging wobble. Émile Durkheim called the resulting condition anomie: normlessness, drift, inner cold. René Girard added the mimetic mechanics: when common objects of desire lose legitimacy, imitation doesn’t disappear; it flips. We become anti-mimetic—defining ourselves by negation, craving status in non-participation, oscillating between apathy and scapegoat hunts.
 
 AI compresses all of this. With scaling laws in hand, cycles that used to take decades now happen in quarters. Expertise half-lives shrink. Institutional calendars lag the frontier. If we treat the turbulence as an engineering problem, we will overbuild guardrails that freeze progress. If we ignore the human problem, we will shatter meaning and culture. Those are the wrong choices.
 
@@ -26,7 +26,7 @@ The Dionysus Program is a way to move fast by breaking things because it teaches
 
 Call the speed at which a person, team, organization, or city digests error into new structure its epimetabolic rate. When the rate is high, the melt does not stall; it rebinds quickly and cleanly.
 
-Accountability, split: In ordinary time, we practice Apollonian accountability—answering to the best available knowledge, meanings, and processes we’ve already stabilized (forecast → act → score). In liminality, we practice Dionysian accountability—answering to the rituals and rules of the container that keep the melt non-violent and raise epimetabolic rate by metabolizing loss (call the rite → follow the vows → publish the recognition → exit on time). We toggle modes deliberately.
+Accountability, split: Call the ordinary operating mode Run Time. In Run Time, we practice Apollonian accountability—answering to the best available knowledge, meanings, and processes we’ve already stabilized (forecast → act → score). During liminal phases, which we name Ritual Time, we practice Dionysian accountability—answering to the rituals and rules of the container that keep the melt non-violent and raise epimetabolic rate by metabolizing loss (call the rite → follow the vows → publish the recognition → exit on time). Accountability does not relax between the modes; what inverts are the expectations. In Run Time, the obligation is to execute and minimize surprise; in Ritual Time, the obligation is to surface critique, expose live contradictions, and let structures be put genuinely at risk inside the container. We toggle modes deliberately and we name the mode we are in.
 
 The engine is Popperian error-correction; the stabilizers are ritual (Victor Turner), aesthetics (Nietzsche), and tragedy (Hegel). At every scale—person, team, organization, city—the loop repeats, fractally self-similar. We hold a non-violent center with an anti-scapegoat, use beauty as heat so dissolution becomes bearable, and practice tragic metabolism so the self can turn breakdown into understanding. The output is a culture that can learn without end and remain human.
 
@@ -83,12 +83,12 @@ Key elements:
 
 * No-person blame covenant. A formal promise that during liminal phases, personal responsibility is off the table; only structures and hypotheses are. Violations are themselves violations of the center.
 
-* Common-knowledge signals. Clear start and stop flags (“The Crossing begins now,” “The Crossing is closed”). Everyone knows that everyone knows we’re in ritual time.
+* Common-knowledge signals. Clear start and stop flags (“The Crossing begins now,” “The Crossing is closed”). Everyone knows that everyone knows whether we are in Ritual Time or Run Time, so people can match their level of agreeability or disagreeability to the moment.
 
 * Severability and reversibility. Like Popper’s “piecemeal engineering,” we structure experiments to fail safely. That makes criticism cheaper and more honest.
 
 This is ritual as engineering. It channels heat away from bodies and into forms.  
-Dionysian accountability (liminal): while the frame is molten, we hold ourselves to the container—no-sacrifice vow, stewarded rules, beauty cadence, tragic trial—and to clear exit criteria. We do not demand output metrics here; we demand fidelity to the rite that makes output possible again.
+Ritual Time / Dionysian accountability: while the frame is molten, we hold ourselves to the container—no-sacrifice vow, stewarded rules, beauty cadence, tragic trial—and to clear exit criteria. We do not demand output metrics here; we demand fidelity to the rite that makes output possible again.
 
 You already know secular versions: blameless postmortems, code review norms, mock trials in courts, moot parliaments, null hypothesis testing. The difference is making them explicit anti-scapegoat containers tied to calendars and roles.
 
@@ -185,9 +185,9 @@ The loop—critique → dissolution → reconstitution → renewal—wins becaus
 * The Renormalization Rule: as you scale up, lengthen the liminal period, widen participation, and thicken symbols. Keep the verbs the same. Attack objects; not people. Bring heat; avoid harm. Bind commitments; publish them.
 
 Two ledgers, one toggle:  
- • Dionysian (liminal) ledger — container integrity, participation parity, affect cooling after rites, rule fidelity, clarity of exit.  
- • Apollonian (operating) ledger — prediction accuracy, error-correction speed, leverage per unit knowledge, reversibility index, safety margins.  
- We measure the first inside the Crossing; we measure the second after Touch Down.
+ • Ritual Time / Dionysian (liminal) ledger — container integrity, participation parity, affect cooling after rites, rule fidelity, clarity of exit.  
+ • Run Time / Apollonian (operating) ledger — prediction accuracy, error-correction speed, leverage per unit knowledge, reversibility index, safety margins.  
+ We measure the first inside the Crossing; we measure the second after Touch Down. In Ritual Time, we score how intensely people questioned the work; in Run Time, we score how reliably they execute the commitments that survived.
 
 Metrics that matter (with phase tags):
 
@@ -195,21 +195,21 @@ Metrics that matter (with phase tags):
 
 * Dissolution recognition time (D→A bridge) — time from critique to a visible dissolution event. Too long, you are calcifying; too short, you are flailing.
 
-* Binding change time (Dionysian) — time from dissolution to a named replacement rule. Too long, you are anomic; too short, you are papering over recognition.
+* Binding change time (Ritual Time / Dionysian) — time from dissolution to a named replacement rule. Too long, you are anomic; too short, you are papering over recognition.
 
-* Scapegoat sentinel (Dionysian) — count instances of personal blame in liminal spaces. The number should trend to zero.
+* Scapegoat sentinel (Ritual Time / Dionysian) — count instances of personal blame in liminal spaces. The number should trend to zero.
 
-* Aesthetic minutes (Dionysian—track, don’t target) — time spent in communal beauty during change cycles. Should correlate with a higher epimetabolic rate (and shorter binding-change time); otherwise it’s anesthesia.
+* Aesthetic minutes (Ritual Time / Dionysian—track, don’t target) — time spent in communal beauty during change cycles. Should correlate with a higher epimetabolic rate (and shorter binding-change time); otherwise it’s anesthesia.
 
-* Mimetic temperature (Dionysian) — survey willingness to imitate openly. Extremely low indicates anti-mimesis; extremely high indicates unbounded rivalry. Keep it temperate.
+* Mimetic temperature (Ritual Time / Dionysian) — survey willingness to imitate openly. Extremely low indicates anti-mimesis; extremely high indicates unbounded rivalry. Keep it temperate.
 
-* Prediction accuracy (Apollonian) — score forecasts after reentry; reward accuracy and corrigibility.
+* Prediction accuracy (Run Time / Apollonian) — score forecasts after reentry; reward accuracy and corrigibility.
 
-* Error-correction speed (Apollonian) — time to detect, repair, disseminate.
+* Error-correction speed (Run Time / Apollonian) — time to detect, repair, disseminate.
 
-* Reversibility index (Apollonian) — fraction of decisions with low-cost rollback paths.
+* Reversibility index (Run Time / Apollonian) — fraction of decisions with low-cost rollback paths.
 
-* Safety margins (Apollonian) — SLO adherence, near-miss capture rate.
+* Safety margins (Run Time / Apollonian) — SLO adherence, near-miss capture rate.
 
 Taleb’s antifragility inverts here: we gain from uncertainty not primarily through option-like payoffs, but by designing a culture that digests its own mistakes. Popper and Deutsch keep epistemic arrows pointing to better explanations; Mandelbrot keeps structure scalable; Turner and Nietzsche keep the heart supplied.
 
@@ -256,7 +256,7 @@ The Dionysus Program is not about being more “resilient.” It is about becomi
 Anti-Scapegoat Protocol:
 
 1. Declare: “No person is the problem; the problem is the problem.”  
-    State the mode: “We are in Dionysian accountability; outputs pause, container rules govern.”
+    State the mode: “We are in Ritual Time / Dionysian accountability; outputs pause, container rules govern; you are accountable for participating fully in the rite.”
 
 2. Name the anti-scapegoat (artifact, charter, metric).
 
@@ -266,7 +266,7 @@ Anti-Scapegoat Protocol:
 
 5. Close with a verdict and binding speech: “We commit to… until…”
 
-6. Publish, schedule the next review, and flip the mode: “We return to Apollonian accountability; forecasts resume and will be scored.”
+6. Publish, schedule the next review, and flip the mode: “We are back in Run Time / Apollonian accountability; forecasts resume and will be scored; you are accountable for commitments and follow-through.”
 
 Tragic Postmortem Template:
 
@@ -276,11 +276,11 @@ Tragic Postmortem Template:
 
 * Anagnorisis: We learned about ourselves that…
 
-* Act: We bind to change X (rename role Y, add ritual Z). (Dionysian accountability fulfilled; Apollonian accountability resumes at reentry.)
+* Act: We bind to change X (rename role Y, add ritual Z). (Ritual Time / Dionysian accountability fulfilled; Run Time / Apollonian accountability resumes at reentry.)
 
 Aesthetic Heat Checklist:
 
-Dionysian accountability = keep the heat on purpose: these rites are obligations, not ornament.
+Ritual Time / Dionysian accountability = keep the heat on purpose: these rites are obligations, not ornament.
 
 * Loss exhibit created and displayed
 
@@ -311,9 +311,10 @@ Fractal Calendar:
 * Quarterly: Great Dissolution + external critics + re-charters
 
 * Yearly: Rite of Redress + civic festival
+* Tag each block explicitly as Run Time or Ritual Time, and say the mode out loud at the start so people can aim their criticism and cooperation correctly.
 
 ---
 
 Touch down means bringing knowledge back to earth. It means letting better explanations reshape life without tearing life apart. It means building a culture where criticism is not cruelty, where beauty is not luxury, where ritual is not superstition, and where tragedy is not defeat.
 
-This is a demand for leaders, builders, teachers, stewards: install the loop. Put the anti-scapegoat on the altar. Turn up the beautiful heat. Write your losses as tragedies and act on what they teach. Eat your decay. Fractalize your calendar. Practice Dionysian accountability while the metal is molten, then flip cleanly to Apollonian accountability once it sets. Move fast by breaking things—and mend what you break into something stronger.
+This is a demand for leaders, builders, teachers, stewards: install the loop. Put the anti-scapegoat on the altar. Turn up the beautiful heat. Write your losses as tragedies and act on what they teach. Eat your decay. Fractalize your calendar. Practice Ritual Time / Dionysian accountability while the metal is molten, then flip cleanly to Run Time / Apollonian accountability once it sets. Move fast by breaking things—and mend what you break into something stronger.
