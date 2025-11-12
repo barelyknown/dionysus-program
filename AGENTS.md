@@ -18,10 +18,7 @@
 - Lua filters follow concise naming (`remove-title.lua`, `pdf.lua`); continue dispatching logic by Pandoc element type.
 
 ## Testing Guidelines
-- No automated test suite exists. After running `./build.sh`, manually verify:
-  - Header metadata renders correctly in both HTML and PDF.
-  - Download links (`/dist/dionysus-program.pdf`, `/dist/essay.md`) resolve.
-  - Custom domain CNAME remains intact if Pages deploy warnings appear.
+- No automated test suite exists.
 
 ## Commit & Pull Request Guidelines
 - Prefer Conventional Commit prefixes (e.g., `feat: add Markdown download link`, `fix: correct PDF title page`) while staying concise.
@@ -31,3 +28,4 @@
 ## Deployment Notes
 - Pushing to `main` triggers GitHub Pages; ensure `.nojekyll` and `CNAME` remain in the root.
 - For domain or SSL issues, re-run `./build.sh`, push, then re-check Pages settings before altering DNS.
+- Do not commit or push unless directed to do so.
