@@ -16,23 +16,23 @@ Move fast by breaking things—and mending them into something stronger.
 
 ### Why Was the Apollo Program Not Enough?
 
-In the twentieth century, humanity already ran an Apollo Program. NASA’s Apollo missions, from 1961 to 1972, designed, built, and repeatedly launched a stack of metal and fuel that put humans on the Moon and brought them home. It was a triumph of systems engineering and project management: specify requirements, decompose problems, model trajectories, close feedback loops, eliminate variance.
+In the twentieth century, humanity ran the Apollo Program. NASA’s Apollo missions, from 1961 to 1972, designed, built, and repeatedly launched a stack of metal and fuel that put humans on the Moon and brought them home. It was a triumph of systems engineering and project management: specify requirements, decompose problems, model trajectories, close feedback loops, eliminate variance.
 
 The program itself was named after the Greek god Apollo. NASA manager Abe Silverstein pulled the name from a book of mythology in 1960; “Apollo riding his chariot across the Sun” felt proportionate to the scale of the project. Apollo, in that mythic register, is the god of light, clarity, and measure—the one who makes the sky legible.
 
 Nietzsche made that mythic contrast explicit. In *The Birth of Tragedy* he uses “Apollonian” to name the drive toward form, order, individuation, lucid representation—our capacity to carve clean shapes out of chaos. “Dionysian” names the opposite but necessary drive: intoxication, loss of boundaries, collective ecstasy, the felt unity of life in all its terror and excess. Greek tragedy, for him, is what happens when Apollo and Dionysus are forced to collaborate. Neither wins; the form holds because both are present.
 
-The historical Apollo Program is what happens when the Apollonian wins almost completely. It worked. On a finite mission with a narrow objective—land here, at this time, with this payload—mechanistic thinking is unbeatable. You want prediction, control, redundancy, checklists, simulations. You want orbit equations, not myths.
+The historical Apollo Program is what happens when the Apollonian wins almost completely. It worked. On a finite mission with a narrow objective—land here, at this time, with this payload—mechanistic thinking is unbeatable. You want prediction, control, redundancy, checklists, simulations. You want orbit equations, not rituals.
 
 But mechanistic thinking has a blind spot. It treats the human meaning of the work as an externality. It can route around despair and conflict for a while by ignoring them, or by delegating them to HR, politics, or “culture fit.” It can take us very far in technical space, but not indefinitely in human space. It cannot, on its own, metabolize the way new knowledge melts the roles, symbols, and identities that gave people a reason to show up.
 
-As explanatory power compounds, the Apollo stance scales linearly while the turbulence scales exponentially. We know how to aim a rocket at a coordinate on the Moon. We do not yet know how to aim a civilization at open-ended discovery without tearing its social fabric. For that, the Apollonian virtues of precision and control are necessary but insufficient.
+As explanatory power compounds, the Apollo-style control is bottlenecked by our epimetabolic rate, while the turbulence rises with everything we have not yet digested. We know how to aim a rocket at a spot on the Moon. We do not yet know how to aim civilization at open-ended discovery without tearing its social fabric. For that, the Apollonian virtues of precision and control are necessary but insufficient.
 
-This is why the Dionysus Program exists. It is not an alternative flight plan that replaces Apollo. It is Apollo’s counterweight and complement, in exactly Nietzsche’s sense. Where Apollo optimizes known systems, Dionysus teaches us how to let systems die and be reborn without violence—without sacrificing yourself or other selves. Where Apollo narrows variance, Dionysus opens a controlled space for excess, feeling, beauty, and ritual so that loss can be faced rather than displaced.
+This is why the Dionysus Program exists. It is not an alternative flight plan that replaces Apollo. It is Apollo’s counterweight and complement, in exactly Nietzsche’s sense. Where Apollo optimizes known systems, Dionysus teaches us how to let systems die and be reborn without violence—without sacrificing your self or other selves. Where Apollo narrows variance, Dionysus opens a controlled space for excess, feeling, beauty, and ritual so that loss can become gain.
 
 In the language used elsewhere in this essay: Apollo governs Run Time—prediction, execution, scored forecasts, safety margins. Dionysus governs Ritual Time—containers in which critique is welcomed, meanings are allowed to melt, and new commitments are forged in public. Apollo flies the rocket; Dionysus raises the epimetabolic rate of the culture that designs, launches, and survives it.
 
-To get to the Moon, Apollo was enough. To live with infinite improvable knowledge, we have to run both programs together. Apollo gets us off the pad; Dionysus keeps us human while we keep going.
+To get to the Moon, Apollo was enough. To infinity and beyond, we have to run both programs together. Apollo gets us off the pad; Dionysus keeps us human while we keep going.
 
 ```{=latex}
 \newpage
