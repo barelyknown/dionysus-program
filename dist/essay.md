@@ -34,7 +34,9 @@ In the language used elsewhere in this essay: Apollo governs Run Time—predicti
 
 To get to the Moon, Apollo was enough. To live with infinite improvable knowledge, we have to run both programs together. Apollo gets us off the pad; Dionysus keeps us human while we keep going.
 
-\newpage{=latex}
+```{=latex}
+\newpage
+```
 
 ### Overture: The Melt and the Method
 
