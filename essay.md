@@ -34,6 +34,8 @@ In the language used elsewhere in this essay: Apollo governs Run Time—predicti
 
 To get to the Moon, Apollo was enough. To live with infinite improvable knowledge, we have to run both programs together. Apollo gets us off the pad; Dionysus keeps us human while we keep going.
 
+\\newpage
+
 ### Overture: The Melt and the Method
 
 Knowledge is unbounded. The only uniquely significant thing about humans is our ability to create new explanations. As Karl Popper showed, we advance by mercilessly killing our errors. David Deutsch spelled the consequence: every explanation we hold is provisional, and a better one can appear at any time. Progress is not patchwork repair; it is controlled demolition.
