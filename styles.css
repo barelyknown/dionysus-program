@@ -192,6 +192,10 @@ blockquote {
   font-style: italic;
 }
 
+blockquote p:first-child {
+  margin-top: 0;
+}
+
 a {
   color: inherit;
   text-decoration: none;
