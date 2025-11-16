@@ -211,6 +211,9 @@ Key elements:
 * Hard-to-vary test. A candidate survives only if its core explanation cannot be freely tweaked or reworded without losing its ability to explain the observed facts and make risky predictions. Document: (a) the facts explained, (b) the explanatory parts that cannot vary, and (c) at least one risky prediction to score after reentry.
 
 This is ritual as engineering. It channels heat away from bodies and into forms.  
+
+Rituals also owe part of their power to feeling given rather than endlessly negotiable. To preserve that, keep the design surface small: a limited steward group sketches and iterates the container, then offers it to the wider team as a stable form. Everyone can help test and critique the rite in use; not everyone should be in the room rewriting its bones every cycle, or it will never acquire the opacity and taken-for-grantedness that real social facts need.
+
 Ritual Time / Dionysian accountability: while the frame is molten, we hold ourselves to the container—no-sacrifice vow, stewarded rules, beauty cadence, tragic trial—and to clear exit criteria. We do not demand output metrics here; we demand fidelity to the rite that makes output possible again. Ritual Time suspends performance scoring—not standards of rationality or personal responsibility; accountability is re-aimed at fidelity to the container and high-quality criticism.
 
 You already know secular versions: blameless postmortems, code review norms, mock trials in courts, moot parliaments, null hypothesis testing. The difference is making them explicit anti-scapegoat containers tied to calendars and roles.
@@ -224,6 +227,8 @@ Operate it:
 * Org: a quarterly Great Dissolution. Pre-commit the targets: strategies, pricing models, review processes. Invite external critics. Close with re-charters, promotions aligned with what survived, and dignified retirement for what did not. Apply the hard-to-vary test and record at least one risky prediction to be scored after reentry. Record a reach delta: list the new problem-classes this verdict unlocks that the prior rule could not explain.
 
 * City: an annual Rite of Redress. Citizens bring cases against policies and institutions; the objects stand trial. Independent jurors rule. The community commits to the verdicts. The people do not go on the pyre. Apply the hard-to-vary test and record at least one risky prediction to be scored after reentry. Record a reach delta: list the new problem-classes this verdict unlocks that the prior rule could not explain.
+
+Before you run any of these rites, check ritual readiness. The authority of a Crossing or Rite of Redress doesn’t come only from clever design; it rides on pre-existing density of trust, shared history, and at least a thin moral community. Run a simple readiness audit: how many repeated, non-transactional experiences has this group already shared? Is there a live story about what we are together that people actually believe? If the answer is “not much,” start with smaller, lower-heat containers and move slower. Pushing Dionysian intensity faster than the social fabric can bear is itself a low-epimetabolic move: you get backlash, cynicism, and management theater instead of metabolized change.
 
 ### 5) Beautiful Heat
 
@@ -306,6 +311,8 @@ The loop—critique → dissolution → reconstitution → renewal—wins becaus
   * Yearly: civic Rite of Redress and city festival. Policy trials. Public retirements and renewals. Founding myths updated with care.
 
 * The Renormalization Rule: as you scale up, lengthen the liminal period, widen participation, and thicken symbols. Keep the verbs the same. Attack objects; not people. Bring heat; avoid harm. Bind commitments; publish them.
+
+Meta-fractal: the Dionysus Program does not stand outside its own loop. The small group stewarding these forms should periodically treat the program itself as an anti-scapegoat—running a relatively private Crossing on its charters, vocabulary, and metrics. Score it on the same ledgers; let it shed and rename parts that no longer serve. That self-application keeps the program from hardening into the kind of frozen, over-explained orthodoxy it was designed to dissolve.
 
 Two ledgers, one toggle:  
  • Ritual Time / Dionysian (liminal) ledger — container integrity, participation parity, affect cooling after rites, rule fidelity, clarity of exit.  
