@@ -50,7 +50,7 @@ To get to the Moon, Apollo was enough. To infinity and beyond, we have to run bo
 \newpage
 ```
 
-### What Type of Game Are We Playing, and How Are We Willing to Win?
+### The Wins That Break The Game
 
 If we are playing an “infinite game” in James Carse’s sense—a game played so that play can continue—the goal is to stay in the game and keep it worth playing.
 
