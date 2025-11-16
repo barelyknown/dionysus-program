@@ -52,63 +52,53 @@ To get to the Moon, Apollo was enough. To infinity and beyond, we have to run bo
 
 ### What Type of Game Are We Playing, and How Are We Willing to Win?
 
-If we are playing an “infinite game” in James Carse’s sense, the goal is not to win once and walk away. The goal is to stay in the game and keep it worth playing—for you, your team, and whoever comes after you.
+If we are playing an “infinite game” in James Carse’s sense—a game played so that play can continue—the goal is to stay in the game and keep it worth playing.
 
-If that is the goal, some common ways of “winning” are off the table. They can keep an organization running for a while, but only by damaging the people in it or the future it is supposed to serve.
+If that is the goal, some common ways of “winning” will lose. They are all ways of playing for finite wins at the expense of the infinite game itself.
 
 When meaning starts to melt—when old stories, roles, and norms stop making sense—most leaders reach for some mix of three moves:
 
-1. Self-erasure (violence inward).  
+1. Self-erasure (violence inward, against the self).  
    Ask people to shrink themselves so the melt barely registers.
 
-   * “Be more stoic.”
-   * “Detach from what you really care about, for the mission.”
+   * “Be more stoic. Detach from want entirely. Shrink your identity.”
    * “Leave the rest of who you are at the door and just do the job.”
-     Or keep everyone sedated and distracted enough that they do not feel the contradictions. The organization stays calm because the people inside it go numb.
+   * “Numb your feelings or distract yourself.”
 
-2. Coercive order (violence downward/sideways).  
+2. Coercive order (violence downward/sideways, through power).  
    Keep meaning stable by keeping a standing capacity to punish anyone who threatens it.
 
-   * Hard versions: open tyranny, fear-based management.
-   * Soft versions: informal enforcement cliques, “culture” that quietly punishes dissent, “alignment” backed by legal and economic power.
-     The message is simple: the story stands; if you cross it, you pay.
+   * “Follow the process or you’ll be fired.”
+   * “Align with the culture or you’ll be ostracized.”
+   * “Agree with leadership or you’ll be demoted.”
 
-3. Abdication (violence outward/forward).  
-   Refuse to deal with the melt at all and let the world do the cutting.
+3. Abdication (violence outward/forward, through neglect).  
+   Refuse to deal with the melt at all and let competition and uncertainty act beyond your control.
 
-   * Underfund or endlessly delay adaptation.
-   * Hide behind “the market,” “regulation,” or “forces beyond our control.”
-   * Retreat into enclaves and let competitors, shocks, and future generations absorb the cost.
-     Harm still happens; you just outsource it to someone else and to later.
+   * “Focus on short-term results.”
+   * “Stick to what we know.”
+   * “Stop investing in new things until things return to normal.”
 
-These strategies are often mixed. For example:
-
-* The “Huxley” option—keep everyone entertained, wellness-optimized, and a bit sedated—is self-erasure with better branding.
-* “Just do better Apollo”—more process, more metrics, more HR—is usually self-erasure plus abdication: squeeze people to fit the machine and let the unmeasured damage show up as “externalities.”
-* “Let the AI decide” can easily become coercive order in silicon: freeze the objective function, hide it, and enforce it.
-
-From the outside, these approaches can look successful. They produce stability, output, and headlines. That is why they are tempting.
+These strategies can be mixed and matched in various ways and degrees. Those variants may look different on the surface, but they share the same core logic: they win today by spending down the team and its future. In the short term, and from the outside, they can look like a success. They produce stability, output, and headlines. That is why they are tempting.
 
 But they all fail an infinite game on two fronts:
 
 * Morally, because they treat people and the future as tools—things you are allowed to burn through to stay in control.
 * Practically, because they quietly destroy the very capacity to adapt that you need to survive.
 
+In Dionysus Program terms, all three are low-epimetabolic strategies: they trade away the capacity to digest error into new structure in exchange for the illusion of control.
+
 More concretely:
 
 * Self-erasure fails because a game that continues by hollowing out its players is not worth winning. If stability requires people to give up thick selves—real identities, real loves, real conflict—what is left is a shell. Over time it also stops working: the real fuel for learning (desire, identification, honest disagreement) has been treated as a bug, so the system stops being able to digest new knowledge.
 
-* Coercive order fails because it has to keep proving it can hurt you. You need an explicit or implicit army and you have to use it often enough that everyone believes in it. That burns trust and attention, pushes critique underground, and makes the whole structure brittle. You can win many short, finite games this way, but every win is pyrrhic.
+* Coercive order fails because the more you rely on force, the less anyone believes in the game itself. The mechanism is a death spiral: every act of discipline teaches people to optimize for safety over truth, which quietly kills the feedback loops that adaptation depends on.
 
-* Abdication fails because the environment is not neutral. Choosing not to metabolize melt does not protect anyone; it guarantees that the cuts will come later, from somewhere else, and with no form. Markets, competitors, and shocks do the knife work leaders refused to ritualize. The damage to people, trust, and coordination is the same or worse—just easier to deny.
+* Abdication fails because “letting things play out” is not neutral; it is quietly choosing whatever the strongest external pressure wants. Mechanically, every deferred decision turns into an uncontrolled experiment where random shocks, rival agendas, and path dependence redraw your future without your consent.
 
-If we are serious about playing an infinite game, we have to keep score differently.
+Finite games themselves aren’t evil; they’re how we get anything done. But in an infinite game, every finite game must be aligned with the ultimate objective and scored accordingly.
 
-Self-erasure, coercive order, and abdication are all ways of winning today by spending down the team and its future. They treat people as means, not ends. They treat the future as someone else’s problem. They fail both ethically and operationally.
-
-Infinite games are won by being worthy of continuation.
-
-The Dionysus Program is a strategy for infinite games. It says: instead of numbing people, forcing them, or looking away, build explicit ways to metabolize melting meaning—out in the open, on purpose—so that loss is turned into a better future and stronger selves, not into hidden forms of violence.
+The Dionysus Program is a strategy for infinite games. It says: instead of numbing people, forcing them, or looking away, build explicit ways to metabolize melting meaning—out in the open, on purpose—so that loss is turned into a better future and stronger selves, not into hidden forms of violence that lead to stagnation or worse.
 
 ```{=latex}
 \iffalse
