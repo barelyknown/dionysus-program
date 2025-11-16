@@ -147,7 +147,7 @@ The Dionysus Program is a way to move fast by breaking things because it teaches
 
 Call the speed at which a person, team, organization, or city digests error into new structure its epimetabolic rate. When the rate is high, the melt does not stall; it rebinds quickly and cleanly.
 
-Accountability, split: Call the ordinary operating mode Run Time. In Run Time, we practice Apollonian accountability—answering to the best available knowledge, meanings, and processes we’ve already stabilized (forecast → act → score). During liminal phases, which we name Ritual Time, we practice Dionysian accountability—answering to the rituals and rules of the container that keep the melt non-violent and raise epimetabolic rate by metabolizing loss (call the rite → follow the vows → publish the recognition → exit on time). Accountability does not relax between the modes; what inverts are the expectations. In Run Time, the obligation is to execute and minimize surprise; in Ritual Time, the obligation is to surface critique, expose live contradictions, and let structures be put genuinely at risk inside the container. We toggle modes deliberately and we name the mode we are in.
+Accountability, split: Call the ordinary operating mode Run Time. In Run Time, we practice Apollonian accountability—answering to the best available knowledge, meanings, and processes we’ve already stabilized (forecast → act → score). During liminal phases, which we name Ritual Time, we practice Dionysian accountability—answering to the rituals and rules of the container that keep the melt non-violent and raise epimetabolic rate by metabolizing loss (call the rite → follow the vows → publish the recognition → exit on time). Standards of rationality and personal responsibility do not relax between modes. What inverts is only what everyone is accountable to: Ritual Time suspends performance scoring and output targets and re-aims accountability toward fidelity to the rite and reason-giving; Run Time restores performance scoring and decision-owner accountability for the explanations and commitments they endorse. We toggle modes deliberately and we name the mode we are in.
 
 The engine is Popperian error-correction; the stabilizers are ritual—the liturgical layer of repeatable containers around error—(Victor Turner), aesthetics (Nietzsche), and tragedy (Hegel). At every scale—person, team, organization, city—the loop repeats, fractally self-similar. We hold a non-violent center with an anti-scapegoat, use beauty as heat so dissolution becomes bearable, and practice tragic metabolism so the self can turn breakdown into understanding. The output is a culture that can learn without end and remain human.
 
@@ -194,32 +194,36 @@ Victor Turner gives the choreography: separation → limen → reincorporation. 
 
 * Separation: We bracket blame. “No person is on trial.” We designate the anti-scapegoat—a charter, an assumption document, a test suite, a prototype, a policy—something everyone can legitimately attack. We move the heat to the symbol.
 
-* Limen: We perform the trial of ideas. We maximize conflict under rule. Red teams. Adversarial tests. Public proofs. We record the hits. We ritualize non-defensiveness: the builder speaks last; the critic holds the floor; the process owns the pain.
+* Limen: We perform the trial of ideas. We maximize conflict under rule. Red teams. Adversarial tests. Public proofs. We record the hits. We ritualize non-defensiveness: the builder speaks last; the critic holds the floor; the process owns the pain. The standing right of criticism is live: rival explanations and tests may be tabled at any time under the same rules of the container.
 
 * Reincorporation: We declare verdicts and new commitments in public. We bind them with oaths or signatures. We redistribute roles. We retire old symbols with honors (and without shame).
 
 Key elements:
 
-* No-person blame covenant. A formal promise that during liminal phases, personal responsibility is off the table; only structures and hypotheses are. Violations are themselves violations of the center.
+* No-person blame covenant. During liminal phases, critique targets artifacts, assumptions, and rules—not persons. Personal responsibility is constant but re-aimed: in Ritual Time, individuals are accountable for reason-giving, openness to refutation, and fidelity to the container; at reentry, they are accountable for the decisions and commitments they endorse.
 
 * Common-knowledge signals. Clear start and stop flags (“The Crossing begins now,” “The Crossing is closed”). Everyone knows that everyone knows whether we are in Ritual Time or Run Time, so people can match their level of agreeability or disagreeability to the moment.
 
+* Standing right of criticism. During Ritual Time, any participant may introduce a rival explanation and a falsifiable test plan without permission; retaliation or chilling is a breach of the container and itself subject to remedy.
+
 * Severability and reversibility. Like Popper’s “piecemeal engineering,” we structure experiments to fail safely. That makes criticism cheaper and more honest.
 
+* Hard-to-vary test. A candidate survives only if its core explanation cannot be freely tweaked or reworded without losing its ability to explain the observed facts and make risky predictions. Document: (a) the facts explained, (b) the explanatory parts that cannot vary, and (c) at least one risky prediction to score after reentry.
+
 This is ritual as engineering. It channels heat away from bodies and into forms.  
-Ritual Time / Dionysian accountability: while the frame is molten, we hold ourselves to the container—no-sacrifice vow, stewarded rules, beauty cadence, tragic trial—and to clear exit criteria. We do not demand output metrics here; we demand fidelity to the rite that makes output possible again.
+Ritual Time / Dionysian accountability: while the frame is molten, we hold ourselves to the container—no-sacrifice vow, stewarded rules, beauty cadence, tragic trial—and to clear exit criteria. We do not demand output metrics here; we demand fidelity to the rite that makes output possible again. Ritual Time suspends performance scoring—not standards of rationality or personal responsibility; accountability is re-aimed at fidelity to the container and high-quality criticism.
 
 You already know secular versions: blameless postmortems, code review norms, mock trials in courts, moot parliaments, null hypothesis testing. The difference is making them explicit anti-scapegoat containers tied to calendars and roles.
 
 Operate it:
 
-* Personal: designate “the assumption of the week” as your anti-scapegoat. Attack it with your best critiques and your friends’ best attacks. No self-hate; only assumption-hate. Publish a verdict: keep, revise, discard.
+* Personal: designate “the assumption of the week” as your anti-scapegoat. Attack it with your best critiques and your friends’ best attacks. No self-hate; only assumption-hate. Publish a verdict: keep, revise, discard. Apply the hard-to-vary test and record at least one risky prediction to be scored after reentry. Record a reach delta: list the new problem-classes this verdict unlocks that the prior rule could not explain.
 
-* Team: run a weekly Crossing. Nominate one artifact as the anti-scapegoat. Drill it. Contain the fight to the artifact. Close with an oath: “We commit to X until Y evidence.”
+* Team: run a weekly Crossing. Nominate one artifact as the anti-scapegoat. Drill it. Contain the fight to the artifact. Close with an oath: “We commit to X until Y evidence.” Apply the hard-to-vary test and record at least one risky prediction to be scored after reentry. Record a reach delta: list the new problem-classes this verdict unlocks that the prior rule could not explain.
 
-* Org: a quarterly Great Dissolution. Pre-commit the targets: strategies, pricing models, review processes. Invite external critics. Close with re-charters, promotions aligned with what survived, and dignified retirement for what did not.
+* Org: a quarterly Great Dissolution. Pre-commit the targets: strategies, pricing models, review processes. Invite external critics. Close with re-charters, promotions aligned with what survived, and dignified retirement for what did not. Apply the hard-to-vary test and record at least one risky prediction to be scored after reentry. Record a reach delta: list the new problem-classes this verdict unlocks that the prior rule could not explain.
 
-* City: an annual Rite of Redress. Citizens bring cases against policies and institutions; the objects stand trial. Independent jurors rule. The community commits to the verdicts. The people do not go on the pyre.
+* City: an annual Rite of Redress. Citizens bring cases against policies and institutions; the objects stand trial. Independent jurors rule. The community commits to the verdicts. The people do not go on the pyre. Apply the hard-to-vary test and record at least one risky prediction to be scored after reentry. Record a reach delta: list the new problem-classes this verdict unlocks that the prior rule could not explain.
 
 ### 5) Beautiful Heat
 
@@ -306,6 +310,7 @@ The loop—critique → dissolution → reconstitution → renewal—wins becaus
 Two ledgers, one toggle:  
  • Ritual Time / Dionysian (liminal) ledger — container integrity, participation parity, affect cooling after rites, rule fidelity, clarity of exit.  
  • Run Time / Apollonian (operating) ledger — prediction accuracy, error-correction speed, leverage per unit knowledge, reversibility index, safety margins.  
+ Across both ledgers, standards of rationality and personal responsibility remain constant; only the object of accountability toggles.  
  We measure the first inside the Crossing; we measure the second after Touch Down. In Ritual Time, we score how intensely people questioned the work; in Run Time, we score how reliably they execute the commitments that survived.
 
 Metrics that matter (with phase tags):
@@ -323,6 +328,8 @@ Metrics that matter (with phase tags):
 * Mimetic temperature (Ritual Time / Dionysian) — survey willingness to imitate openly. Extremely low indicates anti-mimesis; extremely high indicates unbounded rivalry. Keep it temperate.
 
 * Prediction accuracy (Run Time / Apollonian) — score forecasts after reentry; reward accuracy and corrigibility.
+
+* Reach delta (Run Time / Apollonian) — count of distinct problem-classes or phenomena the new rule/model now explains that the predecessor did not. How to track: enumerate newly covered classes with concrete examples; require a brief justification for each and score them at Touch Down.
 
 * Error-correction speed (Run Time / Apollonian) — time to detect, repair, disseminate.
 
@@ -376,14 +383,18 @@ Anti-Scapegoat Protocol:
 
 1. Declare: “No person is the problem; the problem is the problem.”  
     State the mode: “We are in Ritual Time / Dionysian accountability; outputs pause, container rules govern; you are accountable for participating fully in the rite.”
+    Affirm the standing right of criticism: any participant may table a rival explanation and test plan without permission; retaliation is a breach of the rite.
 
 2. Name the anti-scapegoat (artifact, charter, metric).
 
 3. Open the Crossing with a visible signal and an aesthetic artifact.
 
 4. Red-team the object under rule; record attacks and defenses.
+    Run the hard-to-vary test: list the facts explained, mark the parts that cannot vary without loss, and register at least one risky prediction to be scored after reentry.
 
 5. Close with a verdict and binding speech: “We commit to… until…”
+    Log the hard-to-vary outcome and the risky prediction in the public record to be scored at Touch Down.
+    Capture reach delta: enumerate the additional problem-classes explained by the surviving proposal versus its predecessor.
 
 6. Publish, schedule the next review, and flip the mode: “We are back in Run Time / Apollonian accountability; forecasts resume and will be scored; you are accountable for commitments and follow-through.”
 
