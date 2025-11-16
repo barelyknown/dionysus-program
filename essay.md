@@ -316,8 +316,9 @@ Meta-fractal: the Dionysus Program does not stand outside its own loop. The smal
 
 Two ledgers, one toggle:
 
-• Ritual Time / Dionysian (liminal) ledger — container integrity, participation parity, affect cooling after rites, rule fidelity, clarity of exit.
-• Run Time / Apollonian (operating) ledger — prediction accuracy, leverage per unit knowledge, reversibility, safety.
+* Ritual Time / Dionysian (liminal) ledger — container integrity, participation parity, affect cooling after rites, rule fidelity, clarity of exit.
+
+* Run Time / Apollonian (operating) ledger — prediction accuracy, leverage per unit knowledge, reversibility, safety.
 
 Across both ledgers, standards of rationality and personal responsibility remain constant; only the object of accountability toggles.
 
@@ -327,17 +328,17 @@ Measurement here is deliberately light. In complex, path-dependent human systems
 
 A short list of metrics that matter (with phase tags):
 
-Epimetabolic rate (bridge) — fraction of dissolutions that convert into binding changes per unit time. How to track: count verdicts or rule-changes per week divided by open dissolutions; trend by team/org and across cycles. Use it as a rough climate indicator, not a quota.
+* Epimetabolic rate (bridge) — fraction of dissolutions that convert into binding changes per unit time. How to track: count verdicts or rule-changes per week divided by open dissolutions; trend by team/org and across cycles. Use it as a rough climate indicator, not a quota.
 
-Cycle time from critique to binding change (bridge) — time from a serious, publicly logged critique to a named replacement rule or commitment. Too long, you are calcifying; too short, you are papering over recognition. The point is to notice drift, not to force uniform speeds.
+* Cycle time from critique to binding change (bridge) — time from a serious, publicly logged critique to a named replacement rule or commitment. Too long, you are calcifying; too short, you are papering over recognition. The point is to notice drift, not to force uniform speeds.
 
-Scapegoat sentinel (Ritual Time / Dionysian) — count clear instances of personal blame or retaliation in liminal spaces. The number should trend toward zero. Treat spikes as prompts for narrative inquiry (“What in the container design made scapegoating feel necessary?”), not as reasons to hunt for culprits.
+* Scapegoat sentinel (Ritual Time / Dionysian) — count clear instances of personal blame or retaliation in liminal spaces. The number should trend toward zero. Treat spikes as prompts for narrative inquiry (“What in the container design made scapegoating feel necessary?”), not as reasons to hunt for culprits.
 
-Prediction accuracy (Run Time / Apollonian) — score forecasts after reentry; reward both accuracy and corrigibility. This is the conventional Popperian ledger: did we in fact see what we said we expected to see?
+* Prediction accuracy (Run Time / Apollonian) — score forecasts after reentry; reward both accuracy and corrigibility. This is the conventional Popperian ledger: did we in fact see what we said we expected to see?
 
-Reach delta (Run Time / Apollonian) — count of distinct problem-classes or phenomena the new rule/model now explains that the predecessor did not. How to track: enumerate newly covered classes with concrete examples; require a brief justification for each and score them at Touch Down. The emphasis is on articulated reach, not on hitting a number.
+* Reach delta (Run Time / Apollonian) — count of distinct problem-classes or phenomena the new rule/model now explains that the predecessor did not. How to track: enumerate newly covered classes with concrete examples; require a brief justification for each and score them at Touch Down. The emphasis is on articulated reach, not on hitting a number.
 
-Reversibility index (Run Time / Apollonian, optional) — fraction of significant decisions made with low-cost rollback paths. Use it as a design check: are we structuring commitments so they can fail safely and feed the Scrap Heap, or are we quietly backing ourselves into irreversible corners?
+* Reversibility index (Run Time / Apollonian, optional) — fraction of significant decisions made with low-cost rollback paths. Use it as a design check: are we structuring commitments so they can fail safely and feed the Scrap Heap, or are we quietly backing ourselves into irreversible corners?
 
 The rest of the signal should remain qualitative and storied: narratives from tragic postmortems, the texture of festivals and inversions, the feel of crossings that actually cooled mimetic rivalry versus those that felt like management theater. Numbers can keep us honest about whether the loop is alive; they cannot replace the lived experience of the rites themselves.
 
