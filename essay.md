@@ -324,23 +324,7 @@ Across both ledgers, standards of rationality and personal responsibility remain
 
 We measure the first inside the Crossing; we measure the second after Touch Down. In Ritual Time, we score how intensely and honestly people questioned the work; in Run Time, we score how reliably they execute the commitments that survived.
 
-Measurement here is deliberately light. In complex, path-dependent human systems, any metric that becomes a primary target will deform the underlying practice. If you over-instrument Ritual Time, you quietly drag it back under Apollonian control and turn the rite into another performance review. The point of these numbers is navigation, not optimization: they should be read mostly in retrospect, and if any one of them starts to dominate behavior or distort the felt quality of the container, the right move is to downgrade or discard it.
-
-A short list of metrics that matter (with phase tags):
-
-* Epimetabolic rate (bridge) — fraction of dissolutions that convert into binding changes per unit time. How to track: count verdicts or rule-changes per week divided by open dissolutions; trend by team/org and across cycles. Use it as a rough climate indicator, not a quota.
-
-* Cycle time from critique to binding change (bridge) — time from a serious, publicly logged critique to a named replacement rule or commitment. Too long, you are calcifying; too short, you are papering over recognition. The point is to notice drift, not to force uniform speeds.
-
-* Scapegoat sentinel (Ritual Time / Dionysian) — count clear instances of personal blame or retaliation in liminal spaces. The number should trend toward zero. Treat spikes as prompts for narrative inquiry (“What in the container design made scapegoating feel necessary?”), not as reasons to hunt for culprits.
-
-* Prediction accuracy (Run Time / Apollonian) — score forecasts after reentry; reward both accuracy and corrigibility. This is the conventional Popperian ledger: did we in fact see what we said we expected to see?
-
-* Reach delta (Run Time / Apollonian) — count of distinct problem-classes or phenomena the new rule/model now explains that the predecessor did not. How to track: enumerate newly covered classes with concrete examples; require a brief justification for each and score them at Touch Down. The emphasis is on articulated reach, not on hitting a number.
-
-* Reversibility index (Run Time / Apollonian, optional) — fraction of significant decisions made with low-cost rollback paths. Use it as a design check: are we structuring commitments so they can fail safely and feed the Scrap Heap, or are we quietly backing ourselves into irreversible corners?
-
-The rest of the signal should remain qualitative and storied: narratives from tragic postmortems, the texture of festivals and inversions, the feel of crossings that actually cooled mimetic rivalry versus those that felt like management theater. Numbers can keep us honest about whether the loop is alive; they cannot replace the lived experience of the rites themselves.
+We measure lightly. Forecasts are scored and big bets are written down and remembered, but any metric that becomes a primary target or starts to distort the feel of the rites should be killed immediately. The practices and stories are senior to the numbers; numbers may help us stay honest about whether the loop is alive, but they never get to define what the rite is for.
 
 Taleb’s antifragility inverts here: we gain from uncertainty not primarily through option-like payoffs, but by designing a culture that digests its own mistakes. Popper and Deutsch keep epistemic arrows pointing to better explanations; Mandelbrot keeps structure scalable; Turner and Nietzsche keep the heart supplied.
 
