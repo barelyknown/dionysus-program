@@ -214,6 +214,10 @@ This is ritual as engineering. It channels heat away from bodies and into forms.
 
 Rituals also owe part of their power to feeling given rather than endlessly negotiable. To preserve that, keep the design surface small: a limited steward group sketches and iterates the container, then offers it to the wider team as a stable form. Everyone can help test and critique the rite in use; not everyone should be in the room rewriting its bones every cycle, or it will never acquire the opacity and taken-for-grantedness that real social facts need.
 
+Skin-in-the-Game Rule. Every rite must be owned by the person or group with the most downside in its scope. The people who stand to lose the most if the verdict or commitments are wrong must be inside the container as named owners, not outside it as designers or observers. Facilitation can be delegated; accountability cannot. A Crossing about a product must be owned by the leader whose charter lives or dies by that product, not by a neutral “ritual team.” A civic Rite of Redress must implicate the officials whose policies are on trial, not just professional conveners. If the stewards of the rite carry less risk than the participants, the program has slipped into priesthood and should be stopped or restructured.
+
+Lindy-first design. When you need a container, start by stealing the shape from something older than your organization: court procedure, guild apprenticeships, academic seminars, religious feasts and fasts, shareholder meetings, union congresses, village festivals. Change the names and stakes to fit your context, but keep the skeleton. New rites are allowed, but they are experimental and provisional by default; if you cannot find a pre-modern cousin for a form, be suspicious of it until it proves itself over multiple cycles.
+
 Ritual Time / Dionysian accountability: while the frame is molten, we hold ourselves to the container—no-sacrifice vow, stewarded rules, beauty cadence, tragic trial—and to clear exit criteria. We do not demand output metrics here; we demand fidelity to the rite that makes output possible again. Ritual Time suspends performance scoring—not standards of rationality or personal responsibility; accountability is re-aimed at fidelity to the container and high-quality criticism.
 
 You already know secular versions: blameless postmortems, code review norms, mock trials in courts, moot parliaments, null hypothesis testing. The difference is making them explicit anti-scapegoat containers tied to calendars and roles.
@@ -345,6 +349,8 @@ Practices to run tomorrow:
 * Fractalize your calendar. Add daily, weekly, quarterly, yearly loops with invariants: attack objects, not people; open with beauty; close with binding speech.
 
 Lineage as design:
+
+The Dionysus Program is intentionally conservative about form. Almost nothing here is truly new; it is a recombination of long-lived civilizational vessels—trials, synods, festivals, postmortems, fasts and feasts—under modern names. When in doubt, we prefer to bend existing rites to new uses rather than invent our own from scratch.
 
 * Popper and Deutsch give you the epistemic engine. You will break things by necessity.
 
