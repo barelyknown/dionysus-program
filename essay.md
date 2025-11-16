@@ -10,6 +10,11 @@ rights: "© 2025 Sean Devine. All rights reserved."
 _To Esthergen._
 :::
 
+```{=latex}
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+```
+
 # The Dionysus Program
 
 Move fast by breaking things—and mending them into something stronger.
@@ -45,9 +50,80 @@ To get to the Moon, Apollo was enough. To infinity and beyond, we have to run bo
 \newpage
 ```
 
+### What Type of Game Are We Playing, and How Are We Willing to Win?
+
+If we are playing an “infinite game” in James Carse’s sense, the goal is not to win once and walk away. The goal is to stay in the game and keep it worth playing—for you, your team, and whoever comes after you.
+
+If that is the goal, some common ways of “winning” are off the table. They can keep an organization running for a while, but only by damaging the people in it or the future it is supposed to serve.
+
+When meaning starts to melt—when old stories, roles, and norms stop making sense—most leaders reach for some mix of three moves:
+
+1. Self-erasure (violence against the individual).  
+   Ask people to shrink themselves so the melt barely registers.
+
+   * “Be more stoic.”
+   * “Detach from what you really care about, for the mission.”
+   * “Leave the rest of who you are at the door and just do the job.”
+     Or keep everyone sedated and distracted enough that they do not feel the contradictions. The organization stays calm because the people inside it go numb.
+
+2. Coercive order (violence from the institution).  
+   Keep meaning stable by keeping a standing capacity to punish anyone who threatens it.
+
+   * Hard versions: open tyranny, fear-based management.
+   * Soft versions: informal enforcement cliques, “culture” that quietly punishes dissent, “alignment” backed by legal and economic power.
+     The message is simple: the story stands; if you cross it, you pay.
+
+3. Abdication (violence pushed into the environment).  
+   Refuse to deal with the melt at all and let the world do the cutting.
+
+   * Underfund or endlessly delay adaptation.
+   * Hide behind “the market,” “regulation,” or “forces beyond our control.”
+   * Retreat into enclaves and let competitors, shocks, and future generations absorb the cost.
+     Harm still happens; you just outsource it to someone else and to later.
+
+These strategies are often mixed. For example:
+
+* The “Huxley” option—keep everyone entertained, wellness-optimized, and a bit sedated—is self-erasure with better branding.
+* “Just do better Apollo”—more process, more metrics, more HR—is usually self-erasure plus abdication: squeeze people to fit the machine and let the unmeasured damage show up as “externalities.”
+* “Let the AI decide” can easily become coercive order in silicon: freeze the objective function, hide it, and enforce it.
+
+From the outside, these approaches can look successful. They produce stability, output, and headlines. That is why they are tempting.
+
+But they all fail an infinite game on two fronts:
+
+* Morally, because they treat people and the future as tools—things you are allowed to burn through to stay in control.
+* Practically, because they quietly destroy the very capacity to adapt that you need to survive.
+
+More concretely:
+
+* Self-erasure fails because a game that continues by hollowing out its players is not worth winning. If stability requires people to give up thick selves—real identities, real loves, real conflict—what is left is a shell. Over time it also stops working: the real fuel for learning (desire, identification, honest disagreement) has been treated as a bug, so the system stops being able to digest new knowledge.
+
+* Coercive order fails because it has to keep proving it can hurt you. You need an explicit or implicit army and you have to use it often enough that everyone believes in it. That burns trust and attention, pushes critique underground, and makes the whole structure brittle. You can win many short, finite games this way, but every win is pyrrhic.
+
+* Abdication fails because the environment is not neutral. Choosing not to metabolize melt does not protect anyone; it guarantees that the cuts will come later, from somewhere else, and with no form. Markets, competitors, and shocks do the knife work leaders refused to ritualize. The damage to people, trust, and coordination is the same or worse—just easier to deny.
+
+If we are serious about playing an infinite game, we have to keep score differently.
+
+Self-erasure, coercive order, and abdication are all ways of winning today by spending down the team and its future. They treat people as means, not ends. They treat the future as someone else’s problem. They fail both ethically and operationally.
+
+Infinite games are won by being worthy of continuation.
+
+The Dionysus Program is a strategy for infinite games. It says: instead of numbing people, forcing them, or looking away, build explicit ways to metabolize melting meaning—out in the open, on purpose—so that loss is turned into a better future and stronger selves, not into hidden forms of violence.
+
+```{=latex}
+\iffalse
+```
+
+---
+
+```{=latex}
+\fi
+\newpage
+```
+
 ### How To Read This Document
 
-This essay leans heavily on canonical versions of certain ideas and on naming the people who developed them: Popper on error-correction, Deutsch on explanations, Durkheim on anomie, Girard on mimesis and scapegoats, Turner on ritual, Nietzsche on Apollo and Dionysus, Hegel on tragedy, Prigogine and Ohsumi on autophagy and dissipative structures, Taleb and Mandelbrot on volatility and fractals. That is a design choice. These ideas have been argued, refined, and popularized in public for decades. As a result, large language models are unusually good at explaining them in whatever terms are most accessible to a particular reader—if the reader knows what to ask for.
+This essay leans heavily on canonical versions of certain ideas and on naming the people who developed them: Carse on finite and infinite games, Popper on error-correction, Deutsch on explanations, Durkheim on anomie, Girard on mimesis and scapegoats, Turner on ritual, Nietzsche on Apollo and Dionysus, Hegel on tragedy, Prigogine and Ohsumi on autophagy and dissipative structures, Taleb and Mandelbrot on volatility and fractals. That is a design choice. These ideas have been argued, refined, and popularized in public for decades. As a result, large language models are unusually good at explaining them in whatever terms are most accessible to a particular reader—if the reader knows what to ask for.
 
 To make that work, give the model direct access to this document whenever possible: paste the full text (or the relevant sections) into the prompt, or use an AI-aware browser/reader that lets the model see the page you are currently viewing. With the essay in context, the model can not only explain Popper, Durkheim, or Girard in your language; it can also show you precisely how those ideas are being used in the surrounding paragraphs, and it can do so with much leaner prompts.
 
@@ -84,8 +160,6 @@ Call the speed at which a person, team, organization, or city digests error into
 Accountability, split: Call the ordinary operating mode Run Time. In Run Time, we practice Apollonian accountability—answering to the best available knowledge, meanings, and processes we’ve already stabilized (forecast → act → score). During liminal phases, which we name Ritual Time, we practice Dionysian accountability—answering to the rituals and rules of the container that keep the melt non-violent and raise epimetabolic rate by metabolizing loss (call the rite → follow the vows → publish the recognition → exit on time). Accountability does not relax between the modes; what inverts are the expectations. In Run Time, the obligation is to execute and minimize surprise; in Ritual Time, the obligation is to surface critique, expose live contradictions, and let structures be put genuinely at risk inside the container. We toggle modes deliberately and we name the mode we are in.
 
 The engine is Popperian error-correction; the stabilizers are ritual—the liturgical layer of repeatable containers around error—(Victor Turner), aesthetics (Nietzsche), and tragedy (Hegel). At every scale—person, team, organization, city—the loop repeats, fractally self-similar. We hold a non-violent center with an anti-scapegoat, use beauty as heat so dissolution becomes bearable, and practice tragic metabolism so the self can turn breakdown into understanding. The output is a culture that can learn without end and remain human.
-
----
 
 ## Act I — Entropy of Dissolution
 
