@@ -58,7 +58,7 @@ If that is the goal, some common ways of “winning” are off the table. They c
 
 When meaning starts to melt—when old stories, roles, and norms stop making sense—most leaders reach for some mix of three moves:
 
-1. Self-erasure (violence against the individual).  
+1. Self-erasure (violence inward).  
    Ask people to shrink themselves so the melt barely registers.
 
    * “Be more stoic.”
@@ -66,14 +66,14 @@ When meaning starts to melt—when old stories, roles, and norms stop making sen
    * “Leave the rest of who you are at the door and just do the job.”
      Or keep everyone sedated and distracted enough that they do not feel the contradictions. The organization stays calm because the people inside it go numb.
 
-2. Coercive order (violence from the institution).  
+2. Coercive order (violence downward/sideways).  
    Keep meaning stable by keeping a standing capacity to punish anyone who threatens it.
 
    * Hard versions: open tyranny, fear-based management.
    * Soft versions: informal enforcement cliques, “culture” that quietly punishes dissent, “alignment” backed by legal and economic power.
      The message is simple: the story stands; if you cross it, you pay.
 
-3. Abdication (violence pushed into the environment).  
+3. Abdication (violence outward/forward).  
    Refuse to deal with the melt at all and let the world do the cutting.
 
    * Underfund or endlessly delay adaptation.
