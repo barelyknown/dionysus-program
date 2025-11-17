@@ -372,74 +372,85 @@ The Dionysus Program is not about being more “resilient.” It is about becomi
 
 ---
 
-## Appendix: A Short Field Manual
+\newpage
 
-Anti-Scapegoat Protocol:
+## Appendix A: Minimum Viable Program
 
-1. Declare: “No person is the problem; the problem is the problem.”  
-    State the mode: “We are in Ritual Time / Dionysian accountability; outputs pause, container rules govern; you are accountable for participating fully in the rite.”
-    Affirm the standing right of criticism: any participant may table a rival explanation and test plan without permission; retaliation is a breach of the rite.
+The full Dionysus Program is meant to scale—from one person to a city. But most of the practical benefit comes from a very small set of habits. You do not need a new org chart or a priesthood to start. You need a handful of containers that keep criticism, beauty, and belonging in the same room on a schedule.
 
-2. Name the anti-scapegoat (artifact, charter, metric).
+“Minimum viable” here means the smallest program that preserves the shape of the loop: critique → dissolution → reconstitution → renewal. It keeps the Run Time / Ritual Time split real, protects the standing right of criticism, and treats decay as fuel instead of waste. Everything else in this essay is elaboration.
 
-3. Open the Crossing with a visible signal and an aesthetic artifact.
+What follows is the minimal install for a single team, founding group, class, or board.
 
-4. Red-team the object under rule; record attacks and defenses.
-    Run the hard-to-vary test: list the facts explained, mark the parts that cannot vary without loss, and register at least one risky prediction to be scored after reentry.
+### 1. Name the Mode
 
-5. Close with a verdict and binding speech: “We commit to… until…”
-    Log the hard-to-vary outcome and the risky prediction in the public record to be scored at Touch Down.
-    Capture reach delta: enumerate the additional problem-classes explained by the surviving proposal versus its predecessor.
+The first move is to make the toggle explicit.
 
-6. Publish, schedule the next review, and flip the mode: “We are back in Run Time / Apollonian accountability; forecasts resume and will be scored; you are accountable for commitments and follow-through.”
+In ordinary operation you are in Run Time. People are accountable for forecasts, decisions, and outcomes. Critique is in service of execution.
 
-Tragic Postmortem Template:
+When you step into liminal space, you say so out loud: “We are in Ritual Time.” From that moment until the close, the group is accountable to the container: the no-scapegoat covenant, the rules of the rite, the clock that will bring you back. Output targets pause; reason-giving and participation become the obligation.
 
-* Hamartia: Our decisive mistake was…
+In practice, the minimum is:
 
-* Peripeteia: The reversal was triggered by…
+* At the start of any meeting meant to question assumptions or metabolize a loss, declare the mode and the end time.
+* At the end, flip back explicitly: “Ritual Time is over; we are back in Run Time.”
 
-* Anagnorisis: We learned about ourselves that…
+That sentence is the hinge between the two ledgers: how well we held the rite, and how well we later executed the commitments that emerged from it.
 
-* Act: We bind to change X (rename role Y, add ritual Z). (Ritual Time / Dionysian accountability fulfilled; Run Time / Apollonian accountability resumes at reentry.)
+### 2. The Weekly Crossing
 
-Aesthetic Heat Checklist:
+The second move is a regular Crossing where one object, not any person, stands trial.
 
-Ritual Time / Dionysian accountability = keep the heat on purpose: these rites are obligations, not ornament.
+Once per week, for a fixed short block:
 
-* Loss exhibit created and displayed
+* Declare Ritual Time and restate the covenant: “No person is the problem; the problem is the problem.”
+* Name a single anti-scapegoat: a roadmap, charter, metric, policy, design. All heat goes there.
+* Open with a small aesthetic artifact—a diagram, story, demo—that makes the stakes felt.
+* Red-team the object under rule. Anyone may table a rival explanation and test plan. The builder speaks last. Retaliation is out of bounds.
+* Apply a hard-to-vary test: note the facts this proposal actually explains, the parts that cannot move without breaking that fit, and one risky prediction to be scored later.
+* Close with binding speech: “We commit to X until Y,” and log it where everyone can see it.
 
-* Festival or inversion scheduled
+Skin-in-the-game is mandatory: the leader with the most downside in the Crossing’s scope sits inside the container and owns the verdict. Facilitation can be delegated; accountability cannot.
 
-* Aesthetic opening baked into critical reviews
+A single honest Crossing per week is enough to change how a group experiences criticism. It gives conflict a home and keeps mimetic pressure aimed at artifacts instead of people.
 
-* Naming and language aligned with the new order
+### 3. Tragic Postmortems
 
-Autophagic Operations:
+The third move is to narrate real failures as tragedies that teach, not as whodunits or PR.
 
-* Scrap Heap Library maintained
+Once per cycle that matters for you—monthly for a team, quarterly for an organization—you pick one consequential miss and run a Tragic Postmortem:
 
-* Sunset budget spent
+* Hamartia: “Our decisive mistake was…” (an internal error, not pure bad luck).
+* Peripeteia: “The reversal was triggered by…” (the moment reality inverted your expectation).
+* Anagnorisis: “We learned about ourselves that…” (a pattern in how you see, choose, or reward).
+* Act: “Therefore we bind to change X…” (rename a role, reverse a rule, add or retire a ritual, kill or replace a metric).
 
-* Hormesis drill run
+Run it in Ritual Time; close by naming the concrete change and where it will live in Run Time. You do not humiliate individuals. You let the group see itself as object and come back slightly higher.
 
-* Deprecation ceremony held
+### 4. Eat Your Decay
 
-* Reverse apprenticeship assigned
+The fourth move is to make decomposition visible and useful.
 
-Fractal Calendar:
+At minimum:
 
-* Daily: One sentence recognition + one small act
+* Keep a simple Scrap Heap Library: a shared folder or board where dead code, retired policies, rejected designs, and decommissioned rituals go with a one-line note on what assumption was slain or what test won. New people start there.
+* Hold brief deprecation ceremonies for anything that mattered: name what is ending, thank it for what it enabled, state clearly why it no longer serves, and release people from its grip.
+* Reserve a small sunset budget each cycle—some time and attention explicitly set aside for unshipping, deleting, unbundling, simplifying.
 
-* Weekly: Crossing + aesthetic opening + binding closure
+The point is not sentimentality; it is autophagy. You stop letting old structures haunt the present in silence and instead turn them into compost for the next explanation.
 
-* Quarterly: Great Dissolution + external critics + re-charters
+### 5. A Small Fractal Calendar
 
-* Yearly: Rite of Redress + civic festival
-* Tag each block explicitly as Run Time or Ritual Time, and say the mode out loud at the start so people can aim their criticism and cooperation correctly.
+The final move is to put the loop on a calendar so it repeats at different scales with the same verbs.
 
----
+A minimum viable calendar for a team might look like:
 
-Touch down means bringing knowledge back to earth. It means letting better explanations reshape life without tearing life apart. It means building a culture where criticism is not cruelty, where beauty is not luxury, where ritual is not superstition, and where tragedy is not defeat.
+* Daily (personal): one line of anagnorisis—“Today I realized I was wrong about X; therefore I will Y”—plus one small act consistent with it.
+* Weekly (team): one Crossing with a named anti-scapegoat, aesthetic opening, hard-to-vary test, and binding closure.
+* Quarterly (org): one longer Crossing—a modest Great Dissolution—where a major strategy, pricing model, or review process stands trial, at least one external critic is invited, and re-charters and retirements are made public.
 
-This is a demand for leaders, builders, teachers, stewards: install the loop. Put the anti-scapegoat on the altar. Turn up the beautiful heat. Write your losses as tragedies and act on what they teach. Eat your decay. Fractalize your calendar. Practice Ritual Time / Dionysian accountability while the metal is molten, then flip cleanly to Run Time / Apollonian accountability once it sets. Move fast by breaking things—and mend what you break into something stronger.
+If your scope is larger than a team, you can sketch the outline of a yearly Rite of Redress: a day when policies, not people, face those they govern and some verdicts stick. Early versions can be small and rough; the key is that they exist and are named.
+
+At every scale, you tag time blocks as Run Time or Ritual Time and say the mode out loud. You resist the urge to smooth away the serrated edge where critique meets order. Frequent small corrections prevent rarer, catastrophic ones.
+
+Installed together, these five practices already constitute a Dionysus Program in miniature. You toggle the mode, give conflict a lawful altar, tell your losses as tragedies, feed on your own decay, and let the loop repeat. The forms can be simple and improvised; what matters is that they exist, and that you keep them. The rest is elaboration and ornament.
