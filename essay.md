@@ -27,9 +27,9 @@ The program itself was named after the Greek god Apollo. NASA manager Abe Silver
 
 Nietzsche made that mythic contrast explicit. In *The Birth of Tragedy* he uses “Apollonian” to name the drive toward form, order, individuation, lucid representation—our capacity to carve clean shapes out of chaos. “Dionysian” names the opposite but necessary drive: intoxication, loss of boundaries, collective ecstasy, the felt unity of life in all its terror and excess. Greek tragedy, for him, is what happens when Apollo and Dionysus are forced to collaborate. Neither wins; the form holds because both are present.
 
-The historical Apollo Program is what happens when the Apollonian wins almost completely. It worked. On a finite mission with a narrow objective—land here, at this time, with this payload—mechanistic thinking is unbeatable. You want prediction, control, redundancy, checklists, simulations. You want orbit equations, not rituals.
+The historical Apollo Program is what happens when the Apollonian wins almost completely. It worked. On a finite mission with a narrow objective—land here, at this time, with this payload—mechanistic thinking is unbeatable. You want prediction, control, redundancy, checklists, simulations. You want orbit equations, not rituals; a world that can be modeled as smooth curves and point masses, not the rough coastline of actual human fears, loyalties, and desires.
 
-But mechanistic thinking has a blind spot. It treats the human meaning of the work as an externality. It can route around despair and conflict for a while by ignoring them, or by delegating them to HR, politics, or “culture fit.” It can take us very far in technical space, but not indefinitely in human space. It cannot, on its own, metabolize the way new knowledge melts the roles, symbols, and identities that gave people a reason to show up.
+But mechanistic thinking has a blind spot. It treats the human meaning of the work as an externality. Its instinct is to smooth away rough edges in the name of efficiency—rounding off the very irregularities where meaning, conflict, and renewal actually live. It can route around despair and conflict for a while by ignoring them, or by delegating them to HR, politics, or “culture fit.” It can take us very far in technical space, but not indefinitely in human space. It cannot, on its own, metabolize the way new knowledge melts the roles, symbols, and identities that gave people a reason to show up.
 
 As explanatory power compounds, Apollo-style control is bottlenecked not by physics, but by how quickly we can turn disruptive knowledge into new norms, roles, and institutions. We know how to aim a rocket at a spot on the Moon. We do not yet know how to aim civilization at open-ended discovery without tearing its social fabric. For that, the Apollonian virtues of precision and control are necessary but insufficient.
 
@@ -79,7 +79,7 @@ When meaning starts to melt—when old stories, roles, and norms stop making sen
    * “Stick to what we know.”
    * “Stop investing in new things until things return to normal.”
 
-These strategies can be mixed and matched in various ways and degrees. Those variants may look different on the surface, but they share the same core logic: they win today by spending down the team and its future. In the short term, and from the outside, they can look like a success. They produce stability, output, and headlines. That is why they are tempting.
+These strategies can be mixed and matched in various ways and degrees. Those variants may look different on the surface, but they share the same core logic: they win today by spending down the team and its future. In the short term, and from the outside, they can look like a success. They produce stability, output, and headlines—smoothing the visible curve while the underlying roughness of resentment, drift, and anomie piles up off the balance sheet. That is why they are tempting.
 
 But they all fail an infinite game on two fronts:
 
@@ -113,7 +113,7 @@ The Dionysus Program is a strategy for infinite games. It says: instead of numbi
 
 ### How To Read This Document
 
-This essay leans heavily on canonical versions of certain ideas and on naming the people who developed them: Carse on finite and infinite games, Popper on error-correction, Deutsch on explanations, Durkheim on anomie, Girard on mimesis and scapegoats, Turner on ritual, Nietzsche on Apollo and Dionysus, Hegel on tragedy, Prigogine and Ohsumi on autophagy and dissipative structures, Taleb and Mandelbrot on volatility and fractals. That is a design choice. These ideas have been argued, refined, and popularized in public for decades. As a result, large language models are unusually good at explaining them in whatever terms are most accessible to a particular reader—if the reader knows what to ask for.
+This essay leans heavily on canonical versions of certain ideas and on naming the people who developed them: Carse on finite and infinite games, Popper on error-correction, Deutsch on explanations, Durkheim on anomie, Girard on mimesis and scapegoats, Turner on ritual, Nietzsche on Apollo and Dionysus, Hegel on tragedy, Prigogine and Ohsumi on autophagy and dissipative structures, Taleb and Mandelbrot on volatility, roughness, and fractals. That is a design choice. These ideas have been argued, refined, and popularized in public for decades. As a result, large language models are unusually good at explaining them in whatever terms are most accessible to a particular reader—if the reader knows what to ask for.
 
 To make that work, give the model direct access to this document whenever possible: paste the full text (or the relevant sections) into the prompt, or use an AI-aware browser/reader that lets the model see the page you are currently viewing. With the essay in context, the model can not only explain Popper, Durkheim, or Girard in your language; it can also show you precisely how those ideas are being used in the surrounding paragraphs, and it can do so with much leaner prompts.
 
@@ -141,7 +141,7 @@ Knowledge is unbounded. The only uniquely significant thing about humans is our 
 
 Demolition has a social cost. The more accurate our explanations become, the more they dissolve the meanings we built on top of the old ones. Roles, rituals, and identities stabilize around yesterday’s truths. When those truths are superseded, structures of value and belonging wobble. Émile Durkheim called the resulting condition anomie: normlessness, drift, inner cold. René Girard added the mimetic mechanics: when common objects of desire lose legitimacy, imitation doesn’t disappear; it flips. We become anti-mimetic—defining ourselves by negation, craving status in non-participation, oscillating between apathy and scapegoat hunts.
 
-AI compresses all of this. With scaling laws in hand, cycles that used to take decades now happen in quarters. Expertise half-lives shrink. Institutional calendars lag the frontier. If we treat the turbulence as an engineering problem, we will overbuild guardrails that freeze progress. If we ignore the human problem, we will shatter meaning and culture. Those are the wrong choices.
+AI compresses all of this. With scaling laws in hand, cycles that used to take decades now happen in quarters. Expertise half-lives shrink. Institutional calendars lag the frontier. If we treat the turbulence as an engineering problem, we will try to smooth the curve—overbuilding guardrails that freeze progress. If we ignore the human problem, we get the opposite mistake: letting all the roughness hit bare skin and shatter meaning and culture. Those are the wrong choices.
 
 The Dionysus Program is a way to move fast by breaking things because it teaches how to mend what you break into something stronger. Its loop is simple and total: critique → dissolution → reconstitution → renewal.
 
@@ -210,7 +210,7 @@ Key elements:
 
 * Hard-to-vary test. A candidate survives only if its core explanation cannot be freely tweaked or reworded without losing its ability to explain the observed facts and make risky predictions. Document: (a) the facts explained, (b) the explanatory parts that cannot vary, and (c) at least one risky prediction to score after reentry.
 
-This is ritual as engineering. It channels heat away from bodies and into forms.  
+This is ritual as engineering. It channels heat away from bodies and into forms. It preserves the necessary roughness of criticism and conflict while giving it a non-destructive shape, instead of smoothing it into silence or letting it explode into scapegoating.  
 
 Rituals also owe part of their power to feeling given rather than endlessly negotiable. To preserve that, keep the design surface small: a limited steward group sketches and iterates the container, then offers it to the wider team as a stable form. Everyone can help test and critique the rite in use; not everyone should be in the room rewriting its bones every cycle, or it will never acquire the opacity and taken-for-grantedness that real social facts need.
 
@@ -302,7 +302,7 @@ Heraclitus sits underneath: the river remains the river because it never is the 
 
 ### 8) Pro-Fractal
 
-The loop—critique → dissolution → reconstitution → renewal—wins because it is scale-free. Mandelbrot’s fractal geometry helps: self-similar structures repeat across magnitudes. Build the loop so the verbs are invariant and the parameters scale.
+The loop—critique → dissolution → reconstitution → renewal—wins because it is scale-free. Mandelbrot’s fractal geometry helps: self-similar structures repeat across magnitudes. What stays constant is roughness—the serrated edge where critique meets order. Zoom in or out and that boundary should never look perfectly smooth; it should be alive with small corrections so that fewer breaks have to arrive as catastrophic shocks. Build the loop so the verbs are invariant and the parameters scale.
 
 * The Fractal Calendar:
 
