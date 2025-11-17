@@ -98,7 +98,7 @@ More concretely:
 
 Finite games themselves aren’t evil; they’re how we get anything done. But in an infinite game, every finite game must be aligned with the ultimate objective and scored accordingly.
 
-The Dionysus Program is a strategy for infinite games. It says: instead of numbing people, forcing them, or looking away, build explicit ways to metabolize melting meaning—out in the open, on purpose—so that loss is turned into a better future and stronger selves, not into hidden forms of violence that lead to stagnation or worse.
+The Dionysus Program is a strategy for infinite games. Infinite games don’t need more dashboards; they need higher epimetabolic rate. It says: instead of numbing people, forcing them, or looking away, build explicit ways to metabolize melting meaning—out in the open, on purpose—so that loss is turned into a better future and stronger selves, not into hidden forms of violence that lead to stagnation or worse.
 
 ```{=latex}
 \iffalse
@@ -146,6 +146,8 @@ AI compresses all of this. With scaling laws in hand, cycles that used to take d
 The Dionysus Program is a way to move fast by breaking things because it teaches how to mend what you break into something stronger. Its loop is simple and total: critique → dissolution → reconstitution → renewal.
 
 Call the speed at which a person, team, organization, or city digests error into new structure its epimetabolic rate. When the rate is high, the melt does not stall; it rebinds quickly and cleanly.
+
+Epimetabolic rate is the only real scoreboard of this program. Revenue, valuation, headcount, shipping velocity, even “engagement” are derivative statistics; they go up or down for many reasons. What the Dionysus Program is actually trying to maximize is how quickly a group can notice that its explanations are wrong, dissolve the structures built on top of them, and bind that loss back into better structure without burning people. If the forms in this essay do not raise your epimetabolic rate, they are theater and should be killed.
 
 Accountability, split: Call the ordinary operating mode Run Time. In Run Time, we practice Apollonian accountability—answering to the best available knowledge, meanings, and processes we’ve already stabilized (forecast → act → score). During liminal phases, which we name Ritual Time, we practice Dionysian accountability—answering to the rituals and rules of the container that keep the melt non-violent and raise epimetabolic rate by metabolizing loss (call the rite → follow the vows → publish the recognition → exit on time). Standards of rationality and personal responsibility do not relax between modes. What inverts is only what everyone is accountable to: Ritual Time suspends performance scoring and output targets and re-aims accountability toward fidelity to the rite and reason-giving; Run Time restores performance scoring and decision-owner accountability for the explanations and commitments they endorse. We toggle modes deliberately and we name the mode we are in.
 
@@ -324,11 +326,19 @@ Two ledgers, one toggle:
 
 * Run Time / Apollonian (operating) ledger — prediction accuracy, leverage per unit knowledge, reversibility, safety.
 
+Both ledgers exist to raise epimetabolic rate. The liminal ledger asks: did we create a container where criticism was honest, roles and meanings could safely melt, and new explanations could actually surface? The operating ledger asks: once we had those explanations, how reliably did we act on them in the world? If the answer is “yes” on both ledgers, epimetabolic rate went up. If not, it did not—regardless of what the quarterly numbers say.
+
 Across both ledgers, standards of rationality and personal responsibility remain constant; only the object of accountability toggles.
 
-We measure the first inside the Crossing; we measure the second after Touch Down. In Ritual Time, we score how intensely and honestly people questioned the work; in Run Time, we score how reliably they execute the commitments that survived.
+We measure the first ledger inside the Crossing; we measure the second after Touch Down. In Ritual Time, we score how intensely and safely people questioned the work; in Run Time, we score how reliably they executed the commitments that survived. Both measurements are just instruments. The underlying variable is the same: did our capacity to digest error into new structure increase?
 
-We measure lightly. Forecasts are scored and big bets are written down and remembered, but any metric that becomes a primary target or starts to distort the feel of the rites should be killed immediately. The practices and stories are senior to the numbers; numbers may help us stay honest about whether the loop is alive, but they never get to define what the rite is for.
+Signs that your epimetabolic rate is actually increasing:
+
+* The half-life of bad explanations is shrinking: it takes weeks, not years, for “everyone knows X” to be replaced once X is refuted.
+* Postmortems lead to visible structural changes—roles renamed, metrics retired, rituals added or killed—not just documents and platitudes.
+* Fewer topics feel “undiscussable”; the set of things you can put on the table without social penalty is getting larger, not smaller.
+
+We measure lightly. Forecasts are scored and big bets are written down and remembered, but any metric that becomes a primary target or starts to distort the feel of the rites should be killed immediately. The practices and stories are senior to the numbers; numbers may help us stay honest about whether the loop is alive, but they never get to define what the rite is for. If a ritual, metric, or role does not increase your epimetabolic rate, it is overhead and should be deprecated.
 
 Taleb’s antifragility inverts here: we gain from uncertainty not primarily through option-like payoffs, but by designing a culture that digests its own mistakes. Popper and Deutsch keep epistemic arrows pointing to better explanations; Mandelbrot keeps structure scalable; Turner and Nietzsche keep the heart supplied.
 
@@ -379,6 +389,8 @@ The Dionysus Program is not about being more “resilient.” It is about becomi
 The full Dionysus Program is meant to scale—from one person to a city. But most of the practical benefit comes from a very small set of habits. You do not need a new org chart or a priesthood to start. You need a handful of containers that keep criticism, beauty, and belonging in the same room on a schedule.
 
 “Minimum viable” here means the smallest program that preserves the shape of the loop: critique → dissolution → reconstitution → renewal. It keeps the Run Time / Ritual Time split real, protects the standing right of criticism, and treats decay as fuel instead of waste. Everything else in this essay is elaboration.
+
+In practice: if the minimum install does not make it cheaper and faster for your group to admit error, change its mind in public, and update how it actually behaves, it has not raised your epimetabolic rate and it is not yet a Dionysus Program. Try again or cut forms until the loop runs.
 
 What follows is the minimal install for a single team, founding group, class, or board.
 
@@ -453,4 +465,4 @@ If your scope is larger than a team, you can sketch the outline of a yearly Rite
 
 At every scale, you tag time blocks as Run Time or Ritual Time and say the mode out loud. You resist the urge to smooth away the serrated edge where critique meets order. Frequent small corrections prevent rarer, catastrophic ones.
 
-Installed together, these five practices already constitute a Dionysus Program in miniature. You toggle the mode, give conflict a lawful altar, tell your losses as tragedies, feed on your own decay, and let the loop repeat. The forms can be simple and improvised; what matters is that they exist, and that you keep them. The rest is elaboration and ornament.
+Installed together, these five practices already constitute a Dionysus Program in miniature. You toggle the mode, give conflict a lawful altar, tell your losses as tragedies, feed on your own decay, and let the loop repeat. The forms can be simple and improvised; what matters is that they exist, and that you keep them. The rest is elaboration and ornament. If you want a single test of whether they are working, it is this: six months from now, is it easier and faster for this group to change its mind in public than it is today? If yes, your epimetabolic rate is rising. If no, the rest is ornament.
