@@ -22,6 +22,12 @@
         <a href="dist/essay.md">Markdown</a>
       </p>
     </header>
+    $if(toc)$
+    <nav class="page-toc" aria-label="Table of contents">
+      <p class="toc-heading">$if(toc-title)$$toc-title$$else$Contents$endif$</p>
+      $table-of-contents$
+    </nav>
+    $endif$
     <article class="essay-content">
 $body$
     </article>

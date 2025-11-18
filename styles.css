@@ -103,6 +103,51 @@ main {
   color: #181714;
 }
 
+.page-toc {
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  padding: 1.8rem 2.4rem 2rem;
+  background: #faf8f4;
+  margin: 2.2rem auto 3rem;
+  max-width: 640px;
+}
+
+.toc-heading {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.32em;
+  color: rgba(65, 64, 59, 0.8);
+  margin-bottom: 1.4rem;
+}
+
+.page-toc ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+.page-toc li {
+  margin: 0.45rem 0;
+  line-height: 1.5;
+}
+
+.page-toc li a {
+  color: var(--accent-color);
+  border: none;
+  text-decoration: none;
+}
+
+.page-toc li a:hover {
+  text-decoration: underline;
+}
+
+.page-toc ul ul {
+  padding-left: 1.4rem;
+  margin-top: 0.3rem;
+  border-left: 1px solid rgba(65, 64, 59, 0.18);
+  padding-top: 0.3rem;
+}
+
 /* divider removed beneath header to keep dedication spacing tight */
 
 .essay-content > * + * {

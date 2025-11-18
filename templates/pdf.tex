@@ -44,6 +44,17 @@ $endif$
 \setcounter{page}{1}
 \onehalfspacing
 
+$if(toc)$
+  $if(toc-title)$
+    \renewcommand{\contentsname}{$toc-title$}
+  $endif$
+  $if(toc-depth)$
+    \setcounter{tocdepth}{$toc-depth$}
+  $endif$
+  \tableofcontents
+  \newpage
+$endif$
+
 $body$
 
 \end{document}

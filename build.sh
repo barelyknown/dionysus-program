@@ -17,6 +17,9 @@ mkdir -p "$DIST_DIR"
 
 pandoc "$ESSAY_MD" \
   --from=markdown \
+  --toc \
+  --toc-depth=3 \
+  --metadata=toc-title:"Contents" \
   --to=html5 \
   --template="$TEMPLATE" \
   --standalone \
@@ -36,6 +39,9 @@ fi
 if [[ -n "$PDF_ENGINE" ]]; then
   pandoc "$ESSAY_MD" \
     --from=markdown \
+    --toc \
+    --toc-depth=3 \
+    --metadata=toc-title:"Contents" \
     --pdf-engine="$PDF_ENGINE" \
     --standalone \
     --lua-filter="$ROOT_DIR/filters/remove-title.lua" \

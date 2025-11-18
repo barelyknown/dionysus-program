@@ -19,6 +19,21 @@ _To Esthergen._
 
 Move fast by breaking things—and mending them into something stronger.
 
+## Introduction
+
+The first four mini essays outline why this program exists, what it protects, and how to read the remaining acts. Consider them a shared introduction you can return to before diving into the rituals and practices.
+
+```{=latex}
+\iffalse
+```
+
+---
+
+```{=latex}
+\fi
+\newpage
+```
+
 ### Why Was the Apollo Program Not Enough?
 
 In the twentieth century, humanity ran the Apollo Program. NASA’s Apollo missions, from 1961 to 1972, designed, built, and repeatedly launched a stack of metal and fuel that put humans on the Moon and brought them home. It was a triumph of systems engineering and project management: specify requirements, decompose problems, model trajectories, close feedback loops, eliminate variance.
