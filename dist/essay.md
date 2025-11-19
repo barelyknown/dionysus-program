@@ -154,7 +154,7 @@ The Dionysus Program is a strategy for infinite games. Infinite games don’t ne
 
 ### How To Read This Document
 
-This essay leans heavily on canonical versions of certain ideas and on naming the people who developed them: Carse on finite and infinite games, Popper on error-correction, Deutsch on explanations, Durkheim on anomie, Girard on mimesis and scapegoats, Turner on ritual, Nietzsche on Apollo and Dionysus, Hegel on tragedy, Prigogine and Ohsumi on autophagy and dissipative structures, Taleb and Mandelbrot on volatility, roughness, and fractals. That is a design choice. These ideas have been argued, refined, and popularized in public for decades. As a result, large language models are unusually good at explaining them in whatever terms are most accessible to a particular reader—if the reader knows what to ask for.
+This essay leans heavily on canonical versions of certain ideas and on naming the people who developed them: Carse on finite and infinite games, Popper on error-correction, Deutsch on explanations, Confucius on ritual (Li) and humaneness (Ren), Durkheim on anomie, Girard on mimesis and scapegoats, Ibn Khaldun on group feeling (Asabiyyah), Turner on ritual, Nietzsche on Apollo and Dionysus, Hegel on tragedy, Prigogine and Ohsumi on autophagy and dissipative structures, Taleb and Mandelbrot on volatility, roughness, and fractals. That is a design choice. These ideas have been argued, refined, and popularized in public for decades. As a result, large language models are unusually good at explaining them in whatever terms are most accessible to a particular reader—if the reader knows what to ask for.
 
 To make that work, give the model direct access to this document whenever possible: paste the full text (or the relevant sections) into the prompt, or use an AI-aware browser/reader that lets the model see the page you are currently viewing. With the essay in context, the model can not only explain Popper, Durkheim, or Girard in your language; it can also show you precisely how those ideas are being used in the surrounding paragraphs, and it can do so with much leaner prompts.
 
@@ -464,6 +464,10 @@ The Dionysus Program is intentionally conservative about form. Almost nothing he
 * Popper and Deutsch give you the epistemic engine. You will break things by necessity.
 
 * Durkheim and Merton give you the diagnosis of drift. Expect anomie. Don’t misread it as a personal failure.
+
+* Confucius gives you the critical distinction between Li (form) and Ren (humaneness). Never exceed your Ren with Li.
+
+* Ibn Khaldun gives you Asabiyyah, the measure of a group’s binding force.
 
 * Girard gives you the hazard and the lever. Avoid scapegoats; deploy an anti-scapegoat.
 
