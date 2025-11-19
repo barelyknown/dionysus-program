@@ -143,9 +143,7 @@ main {
 
 .page-toc ul ul {
   padding-left: 1.4rem;
-  margin-top: 0.3rem;
   border-left: 1px solid rgba(65, 64, 59, 0.18);
-  padding-top: 0.3rem;
 }
 
 /* divider removed beneath header to keep dedication spacing tight */
