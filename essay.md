@@ -21,7 +21,7 @@ Move fast by breaking things—and mending them into something stronger.
 
 ## Introduction
 
-The first four mini essays outline why this program exists, what it protects, and how to read the remaining acts. Consider them a shared introduction you can return to before diving into the rituals and practices.
+The first four mini essays outline why this program exists, what it protects, and how to read the remaining acts. Between the acts you’ll find two interludes that work as gates: one checks whether you have the relational density to run the rites at all, the other checks whether the stewards can avoid turning those rites into a standing priesthood. Consider them a shared introduction you can return to before diving into the rituals and practices.
 
 ```{=latex}
 \iffalse
@@ -154,7 +154,7 @@ The Dionysus Program is a strategy for infinite games. Infinite games don’t ne
 
 ### How To Read This Document
 
-This essay leans heavily on canonical versions of certain ideas and on naming the people who developed them: Carse on finite and infinite games, Popper on error-correction, Deutsch on explanations, Confucius on ritual (Li) and humaneness (Ren), Durkheim on anomie, Girard on mimesis and scapegoats, Ibn Khaldun on group feeling (Asabiyyah), Turner on ritual, Nietzsche on Apollo and Dionysus, Hegel on tragedy, Prigogine and Ohsumi on autophagy and dissipative structures, Taleb and Mandelbrot on volatility, roughness, and fractals. That is a design choice. These ideas have been argued, refined, and popularized in public for decades. As a result, large language models are unusually good at explaining them in whatever terms are most accessible to a particular reader—if the reader knows what to ask for.
+This essay leans heavily on canonical versions of certain ideas and on naming the people who developed them: Carse on finite and infinite games, Popper on error-correction, Deutsch on explanations, Confucius on ritual (Li) and humaneness (Ren), Durkheim on anomie, Girard on mimesis and scapegoats, Ibn Khaldun on group feeling (Asabiyyah), Weber and Michels on bureaucracy and oligarchy, Turner on ritual, Nietzsche on Apollo and Dionysus, Hegel on tragedy, Prigogine and Ohsumi on autophagy and dissipative structures, Taleb and Mandelbrot on volatility, roughness, and fractals, plus classical patterns like Cincinnatus and Athenian sortition on how extraordinary authority should be granted and withdrawn. That is a design choice. These ideas have been argued, refined, and popularized in public for decades. As a result, large language models are unusually good at explaining them in whatever terms are most accessible to a particular reader—if the reader knows what to ask for.
 
 To make that work, give the model direct access to this document whenever possible: paste the full text (or the relevant sections) into the prompt, or use an AI-aware browser/reader that lets the model see the page you are currently viewing. With the essay in context, the model can not only explain Popper, Durkheim, or Girard in your language; it can also show you precisely how those ideas are being used in the surrounding paragraphs, and it can do so with much leaner prompts.
 
@@ -236,7 +236,7 @@ Neither is acceptable. The non-violent alternative is to raise epimetabolic rate
 \newpage
 ```
 
-## Interlude — The Readiness Gate
+## Interlude I — The Readiness Gate
 
 ### The Poverty of Forms
 
@@ -313,11 +313,13 @@ Key elements:
 
 This is ritual as engineering. It channels heat away from bodies and into forms. It preserves the necessary roughness of criticism and conflict while giving it a non-destructive shape, instead of smoothing it into silence or letting it explode into scapegoating.  
 
-Rituals also owe part of their power to feeling given rather than endlessly negotiable. To preserve that, keep the design surface small: a limited steward group sketches and iterates the container, then offers it to the wider team as a stable form. Everyone can help test and critique the rite in use; not everyone should be in the room rewriting its bones every cycle, or it will never acquire the opacity and taken-for-grantedness that real social facts need.
+Rituals also owe part of their power to feeling given rather than endlessly negotiable. To preserve that, keep the design surface small: a limited steward group, drawn from active operators for short rotating terms, sketches and iterates the container, then returns to ordinary work while the form itself stays stable. Everyone can help test and critique the rite in use; not everyone should be in the room rewriting its bones every cycle, or it will never acquire the opacity and taken-for-grantedness that real social facts need.
 
 Skin-in-the-Game Rule. Every rite must be owned by the person or group with the most downside in its scope. The people who stand to lose the most if the verdict or commitments are wrong must be inside the container as named owners, not outside it as designers or observers. Facilitation can be delegated; accountability cannot. A Crossing about a product must be owned by the leader whose charter lives or dies by that product, not by a neutral “ritual team.” A civic Rite of Redress must implicate the officials whose policies are on trial, not just professional conveners. If the stewards of the rite carry less risk than the participants, the program has slipped into priesthood and should be stopped or restructured.
+Interlude II (“The Cincinnatus Rule”) makes that restructuring concrete: stewardship must rotate through real operators on short, bounded terms, with a built-in return to ordinary work.
 
 Lindy-first design. When you need a container, start by stealing the shape from something older than your organization: court procedure, guild apprenticeships, academic seminars, religious feasts and fasts, shareholder meetings, union congresses, village festivals. Change the names and stakes to fit your context, but keep the skeleton. New rites are allowed, but they are experimental and provisional by default; if you cannot find a pre-modern cousin for a form, be suspicious of it until it proves itself over multiple cycles.
+The governance of the rites themselves—who stewards them, how long, with what risks and protections—is handled later under the Cincinnatus Design; treat the rules here as the operational core, and Interlude II as the guardrail that keeps them from hardening into a priesthood.
 
 Ritual Time / Dionysian accountability: while the frame is molten, we hold ourselves to the container—no-sacrifice vow, stewarded rules, beauty cadence, tragic trial—and to clear exit criteria. We do not demand output metrics here; we demand fidelity to the rite that makes output possible again. Ritual Time suspends performance scoring—not standards of rationality or personal responsibility; accountability is re-aimed at fidelity to the container and high-quality criticism.
 
@@ -379,7 +381,100 @@ Install tragedy as method:
 
 The difference between tragedy and farce is whether recognition lands in structure. With tragedy, the self metabolizes destruction into comprehension. Without it, destruction returns.
 
+```{=latex}
+\iffalse
+```
+
 ---
+
+```{=latex}
+\fi
+\newpage
+```
+
+## Interlude II — The Cincinnatus Rule
+
+### The Farmer-King
+
+The Romans told a story that should sit behind any attempt to build a ritual layer.
+
+Cincinnatus was a farmer. In the legend, envoys from the Senate find him at the plow and offer him absolute power—dictator of Rome—for a limited crisis. He wipes the mud from his hands, accepts the mandate, raises an army, breaks the siege, and then does the part that matters for us: sixteen days later, with the danger passed, he resigns and goes back to his field.
+
+Three moves, mechanically: he is called up from ordinary work, not down from a permanent office; his authority is extraordinary but tightly scoped to a specific emergency; and when the scope closes, he lays the authority down and returns to the plow. Call this pattern the Cincinnatus Rule: anyone given liminal authority must be drawn from real operators, empowered to act decisively on a bounded mission, and then required—by form, not just by personal virtue—to rejoin ordinary work. No one gets to live in the temple.
+
+The Dionysus Program needs Cincinnatus because its rites create exactly the kind of liminal authority that tends to harden into priesthood. A small group of stewards can convene Crossings, set anti-scapegoats, decide when the culture enters or leaves Ritual Time, and interpret what the vows “really mean.” Without constraints, that group congeals into ritual oligarchy: a class whose primary job is to manage liminality for others. Interlude I (“The Readiness Gate”) warned against Li without Ren—form without substance. This interlude warns against the next failure mode once both are present: sacerdotal capture, where the forms become a habitat and power base for their stewards.
+
+### Ritual Oligarchy and Sacerdotal Capture
+
+Max Weber described how live, charismatic movements routinize themselves. Early on, authority is personal and volatile; it lives in specific acts of courage, sacrifice, and insight. To survive beyond the founding generation, that energy gets frozen into offices, rules, and procedures: charisma becomes bureaucracy. Robert Michels extended the pattern into his iron law of oligarchy: once you have organization, you have a leadership layer with privileged information and agenda control, and over time that layer tends to protect its own continuity more fiercely than the mission that justified it.
+
+Apply that arc to ritual. First, a group of high-Ren operators improvises rites so they can metabolize conflict and melt meanings without blowing themselves up. Then they routinize: write charters, set calendars, appoint “ritual stewards” so the forms can scale. Then the steward role itself stabilizes and becomes desirable. At that point you have sacerdotal capture: a priestly stratum whose relationship to the rites is mainly administrative—designing, convening, and explaining them—while their income, status, and identity depend on those forms continuing in roughly their current shape. That dependency subtly bends decisions.
+
+In a captured Dionysus Program, you see a “ritual team” or “culture office” become the exclusive site of anti-scapegoat design and Crossing schedules, even though its members no longer own operating charters. Stewardship becomes full-time; the stewards stop shipping products, running cases, teaching classes. Criticism of the rites themselves is coded as bad manners rather than as a normal part of the epimetabolic loop. The net effect is to lower epimetabolic rate: rituals installed to accelerate error digestion now protect the people who run them from error; forms meant as containers for conflict become topics that cannot themselves be safely questioned. The program designed to keep the organization from freezing becomes a new layer of ice. This is not primarily a moral failure; it is Weber and Michels doing their work unless you design against them.
+
+### Symptoms of Ritual Oligarchy
+
+Ritual oligarchy is easiest to see in its downstream effects. Five symptoms matter most for the Dionysus Program.
+
+#### 1. Agenda Control
+
+In principle, any artifact, policy, or assumption can be nominated as an anti-scapegoat and put on trial. In practice, whoever controls the agenda controls what is ever exposed to the heat. When stewards quietly decide what is “appropriate” to question, low-risk artifacts are repeatedly chosen (a feature spec, a minor process) while high-stakes structures (compensation, promotion, the ritual program itself) never reach the altar. The group’s apparent capacity for self-critique stays high, but the most leveraged errors are off-limits, and epimetabolic rate falls because the core of the game is never at stake.
+
+#### 2. Moral Hazard
+
+Ritual stewards can create real downside. A Crossing can kill a product; a Rite of Redress can overturn a policy; a Great Dissolution can reorder careers. In a healthy program, those who call the heat stand in it: they own charters that live or die by the verdicts. In ritual oligarchy, stewards enjoy moral hazard: they can summon risk for others while remaining structurally insulated themselves. When intense rites misfire—destroying trust or compounding error—the costs are socialized and the steward role is untouched. Participants learn to treat the program as theater that happens to them, not as a tool they own.
+
+#### 3. Interpretive Monopoly
+
+Rituals need shared interpretation to function, but when a small group monopolizes the right to say what the rites “really mean,” the forms cease to be tools and become dogma. Stewards act as authorized expositors; ordinary participants defer their own judgment in favor of “how the ritual team reads this”; criticism of a rite’s structure is reframed as misunderstanding rather than as a legitimate objection. Hard-to-vary explanations are replaced by hard-to-question ones. A program designed to keep meanings meltable becomes a new source of frozen meaning.
+
+#### 4. Ritual Inflation
+
+Priesthoods justify themselves by increasing the amount and complexity of ritual needed. If a steward’s status depends on being indispensable to the rites, the temptation is to multiply them and make them harder to run without expert help. You see ever-longer liminal phases with fuzzy exit criteria, proliferating categories of rites with subtle rules, and vocabulary creep that makes the program less legible to newcomers and operators. The cognitive and temporal tax on participation rises until high-value operators treat the rites as overhead to be minimized. The containers are still on the calendar, but they are empty of real heat.
+
+#### 5. Negative Selection on Epimetabolic Talent
+
+The people you most want near your error-digestion machinery are those who notice contradictions early, name them clearly, and act on what they learn—high epimetabolic talent. Ritual oligarchy pushes those people away. They sense when forms serve stewards more than truth; their critiques of the program are unwelcome; they have better things to do than argue with a clerisy. They opt out or leave. Those who remain or advance are, on average, more comfortable with frozen forms and less willing to entertain destabilizing questions. The culture becomes increasingly unable to metabolize error even as it spends more time talking about how important that metabolism is.
+
+Left unchecked, these dynamics turn the Dionysus Program into what it was meant to prevent: a brittle, self-referential system that preserves its own forms at the expense of truth and people. The fix has to be structural, not merely exhortational.
+
+### The Cincinnatus Design: Four Countermeasures
+
+The Skin-in-the-Game Rule and Lindy-first design already push against capture: rites must be owned by those with the most downside, and their skeletons should be stolen from long-lived institutions. The Cincinnatus Design adds four governance constraints aimed directly at ritual oligarchy.
+
+#### 1. Sortition Selectors
+
+Sortition selectors break the link between wanting to run the rites and ending up in charge of them. Steward roles are filled by lottery from a qualified pool of active operators—people who still carry real charters, have demonstrated Ren in the eyes of peers and reports, and have skin in the domains where they will steward. Terms are short and non-sequential; gaps between terms are mandatory. The steward group stays small, and stewardship is framed as a temporary civic duty, not a career track. Because everyone knows that anyone in the pool might be called up and then sent back to ordinary work, the rites feel owned by the whole group rather than by a separate caste.
+
+#### 2. The Law of Conservation of Risk
+
+The Law of Conservation of Risk says that any real downside created by a rite must be borne at least as much by stewards as by participants. In practice this means stewards only convene rites whose consequences land inside their own operating world, and they make explicit how they personally stand to lose if verdicts are wrong. They are not neutral conveners sitting above the blast radius; they are players who will live under the new commitments. When risk is conserved in this way, stewards treat liminal authority as a serious bet rather than as a costless performance, and participants experience them as fellow citizens of the game, not as umpires who never bat.
+
+#### 3. Hard Limits on Liminality
+
+Hard limits on liminality prevent Ritual Time from becoming a permanent habitat. Stewardship is a bounded slice of someone’s life: a fraction of their time, for a fixed season, alongside primary work that remains Run Time. Titles foreground operating roles (“engineer,” “teacher,” “council member”) with stewardship as a dated annotation, not the other way around. The rites themselves are similarly bounded: each liminal phase has a declared start and stop, clear exit criteria, and a sharp re-entry into ordinary accountability. Liminality stays hot and scarce—something people pass through with attention and respect—rather than diffusing into an endless workshop atmosphere where no one is quite sure whether anything is binding.
+
+#### 4. The Jester’s Privilege
+
+The Jester’s Privilege keeps criticism of the stewards and the program metabolizable instead of taboo. Each significant rite designates one or two participants as Jesters for its duration, ideally drawn by lot from those affected. Their role is to question the structure and timing of the rite itself, point out performative or hypocritical patterns, and name places where the program feels captured or ornamental, using humor or plain speech as they like. Speech under the cap is protected from retaliation and from being weaponized in performance reviews. After major rites, a short “Jester report” captures what they saw without rebuttal. The point is not to turn every Crossing into a roast; it is to ensure that the forms and their stewards can themselves be treated as anti-scapegoats when needed, instead of floating above critique.
+
+### Return to the Plow
+
+The Dionysus Program lives or dies on whether it stays subordinate to real work. The rites are not the point; they exist to raise epimetabolic rate so that a person, team, organization, or city can keep learning without burning its people. The Cincinnatus Rule turns that priority into structure: stewards are drawn from operators by some fair calling mechanism, given temporary liminal authority under explicit risk-sharing, spend most of their time in Run Time, are open to protected internal criticism, and then are required to lay the role down and go back to the plow. No one is allowed to become a permanent “keeper of the rites.”
+
+If you are already in ritual oligarchy, the way out is itself a rite. Treat the program as an anti-scapegoat: run a Crossing on the steward structure, selection process, term limits, and risk rules; put Weber and Michels on the table as mechanisms to be defused, not just names to cite; let Jesters speak freely; and then bind to concrete changes that reinstall rotation, sortition, risk conservation, and hard limits on liminality, including your own disappearance from any permanent steward role. At larger scales, the same pattern shows up as citizen assemblies drawn by lot, time-limited commissions, and sunset clauses on extraordinary powers—constitutional Cincinnatus Rules that force even the most serious offices to return to the plow.
+
+A simple test remains: if someone in your system can plausibly build a long, comfortable career primarily as a “keeper of the rites,” you are already in ritual oligarchy. The remedy is not personal denunciation; it is redesign—shift authority back onto operators, restore rotation and risk, re-open criticism—and build the expectation into the bones of the program that everyone, sooner or later, goes home from the temple and back to work.
+```{=latex}
+\iffalse
+```
+
+---
+
+```{=latex}
+\fi
+\newpage
+```
 
 ## Act III — Negentropy of Renewal
 
@@ -417,7 +512,7 @@ The loop—critique → dissolution → reconstitution → renewal—wins becaus
 
 * The Renormalization Rule: as you scale up, lengthen the liminal period, widen participation, and thicken symbols. Keep the verbs the same. Attack objects; not people. Bring heat; avoid harm. Bind commitments; publish them.
 
-Meta-fractal: the Dionysus Program does not stand outside its own loop. The small group stewarding these forms should periodically treat the program itself as an anti-scapegoat—running a relatively private Crossing on its charters, vocabulary, and metrics. Score it on the same ledgers; let it shed and rename parts that no longer serve. That self-application keeps the program from hardening into the kind of frozen, over-explained orthodoxy it was designed to dissolve.
+Meta-fractal: the Dionysus Program does not stand outside its own loop. The small group stewarding these forms should periodically treat the program itself as an anti-scapegoat—especially its steward selection, term limits, and risk-sharing rules—and run a relatively private Crossing on its charters, vocabulary, and metrics. Score it on the same ledgers; let it shed and rename parts that no longer serve, aided by the protected internal criticism encoded in the Jester’s Privilege. That self-application keeps the program from hardening into the kind of frozen, over-explained orthodoxy it was designed to dissolve.
 
 Two ledgers, one toggle:
 
@@ -449,6 +544,8 @@ Practices to run tomorrow:
 
 * Install the anti-scapegoat. Write a no-person blame covenant. Choose one artifact for your next Crossing. Put it on trial. Publish the verdict and your next oath.
 
+* Guard against ritual oligarchy. Treat stewardship as a rotating duty for active owners (ideally by lot), cap term and time spent, and write down how stewards personally share the downside of any rites they convene.
+
 * Add beautiful heat. Commission a one-page, illustrated obituary for a recently killed project. Hang it in your main room. Open your next review with it.
 
 * Run a tragic postmortem. Use hamartia → peripeteia → anagnorisis → act. Record the insights and the structural change. Rename the involved role to mark the learning.
@@ -468,6 +565,8 @@ The Dionysus Program is intentionally conservative about form. Almost nothing he
 * Confucius gives you the critical distinction between Li (form) and Ren (humaneness). Never exceed your Ren with Li.
 
 * Ibn Khaldun gives you Asabiyyah, the measure of a group’s binding force.
+
+* Weber and Michels give you the drift path from charisma to bureaucracy to oligarchy; Cincinnatus and Athenian sortition give you the counter-pattern of temporary, operator-drawn, lottery-selected authority that must return to ordinary work.
 
 * Girard gives you the hazard and the lever. Avoid scapegoats; deploy an anti-scapegoat.
 
@@ -527,7 +626,7 @@ Once per week, for a fixed short block:
 
 Skin-in-the-game is mandatory: the leader with the most downside in the Crossing’s scope sits inside the container and owns the verdict. Facilitation can be delegated; accountability cannot.
 
-A single honest Crossing per week is enough to change how a group experiences criticism. It gives conflict a home and keeps mimetic pressure aimed at artifacts instead of people.
+A single honest Crossing per week is enough to change how a group experiences criticism. It gives conflict a home and keeps mimetic pressure aimed at artifacts instead of people. Treat facilitation and stewardship here as a rotating duty drawn from active operators, not as a standing role; whoever stewards a Crossing returns to ordinary work once it closes.
 
 ### 3. Tragic Postmortems
 
@@ -568,4 +667,4 @@ If your scope is larger than a team, you can sketch the outline of a yearly Rite
 
 At every scale, you tag time blocks as Run Time or Ritual Time and say the mode out loud. You resist the urge to smooth away the serrated edge where critique meets order. Frequent small corrections prevent rarer, catastrophic ones.
 
-Installed together, these five practices already constitute a Dionysus Program in miniature. You toggle the mode, give conflict a lawful altar, tell your losses as tragedies, feed on your own decay, and let the loop repeat. The forms can be simple and improvised; what matters is that they exist, and that you keep them. The rest is elaboration and ornament. If you want a single test of whether they are working, it is this: six months from now, is it easier and faster for this group to change its mind in public than it is today? If yes, your epimetabolic rate is rising. If no, the rest is ornament.
+Installed together, these five practices already constitute a Dionysus Program in miniature. You toggle the mode, give conflict a lawful altar, tell your losses as tragedies, feed on your own decay, and let the loop repeat. The forms can be simple and improvised; what matters is that they exist, and that you keep them. The rest is elaboration and ornament. If you want a single test of whether they are working, it is this: six months from now, is it easier and faster for this group to change its mind in public than it is today? If yes, your epimetabolic rate is rising. If no, the rest is ornament. And if someone here can plausibly make a career mainly as “keeper of the rites,” you have work to do on governance before you add more form.
