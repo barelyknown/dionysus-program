@@ -2,6 +2,14 @@
 
 This repository contains a single static webpage that renders the essay “The Dionysus Program.” The layout is intentionally minimal and borrows from the tone of hellaprompter.com's article design: centered column, serif typography, gentle borders, and understated hover states. The page is ready to publish on GitHub Pages without any build tooling.
 
+## Abstract
+
+“The Dionysus Program” argues that Apollo-style control—precision, prediction, and process—cannot by itself guide open-ended progress. It pairs Apollo with Dionysus: ritualized containers that let teams dissolve and remake meaning without violence. The essay calls the speed of that metabolism an epimetabolic rate and treats raising it as the true scoreboard. It introduces anti-scapegoat rites (critique artifacts, not people), readiness gates that test for trust (Ren/Asabiyyah), aesthetic “heat” to make change bearable, and tragic postmortems that turn recognition into new structure. The result is a program for running Run Time and Ritual Time in deliberate alternation so groups can keep learning while staying human.
+
+## Website
+
+- https://www.dionysusprogram.com
+
 ## Project structure
 
 ```
