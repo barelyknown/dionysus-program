@@ -710,6 +710,8 @@ $$\Phi_t = \frac{\max(0, \Delta S_t)}{\max(\epsilon, \quad R_t - R_{t+1})}$$
 * Medium $\Phi$ (The Pyrrhic Victory): You are gaining structure, but you are spending down social capital to do it. You are winning the quarter but losing the team.
 * Low $\Phi$ (The Pyre): You are buying small improvements at the cost of massive social damage. You are burning the furniture to heat the house.
 
+[Explore the interactive simulation →](simulation.html){.sim-link}
+
 ---
 
 \newpage

@@ -258,6 +258,24 @@ a:hover {
   border-bottom-color: #171612;
 }
 
+.sim-link {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.6rem 1.2rem;
+  background: #faf8f4;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  font-size: 0.95rem;
+  color: var(--accent-color);
+  border-bottom: 1px solid var(--border-color);
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.sim-link:hover {
+  background: #f0ede6;
+  border-color: var(--accent-color);
+}
+
 .page-footer {
   margin-top: 3.5rem;
   text-align: center;
@@ -293,5 +311,401 @@ a:hover {
 
   ul, ol {
     margin-left: 1.25rem;
+  }
+}
+
+/* Epimetabolic Simulation Styles */
+.simulation-container {
+  margin: 3rem 0;
+}
+
+.sim-wrapper {
+  background: #faf8f4;
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  padding: 2rem;
+  margin: 2rem -1rem;
+}
+
+.sim-header {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.sim-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--accent-color);
+  margin: 0 0 0.5rem 0;
+}
+
+.sim-subtitle {
+  font-style: italic;
+  color: var(--muted-color);
+  font-size: 0.95rem;
+  margin: 0;
+}
+
+.sim-grid {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 2rem;
+}
+
+.sim-controls {
+  border-right: 1px solid var(--border-color);
+  padding-right: 1.5rem;
+}
+
+.sim-controls-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+.sim-controls-col {
+  /* Individual column styling if needed */
+}
+
+.sim-section-title {
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--muted-color);
+  margin: 0 0 1.5rem 0;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+.sim-slider-group {
+  margin-bottom: 1.25rem;
+}
+
+.sim-slider-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 0.25rem;
+}
+
+.sim-slider-label {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--accent-color);
+}
+
+.sim-symbol {
+  font-style: italic;
+  margin-right: 0.4rem;
+}
+
+.sim-slider-value {
+  font-family: ui-monospace, "SF Mono", Menlo, monospace;
+  font-size: 0.8rem;
+  color: var(--muted-color);
+  background: rgba(0,0,0,0.04);
+  padding: 0.15rem 0.5rem;
+  border-radius: 3px;
+}
+
+.sim-slider-desc {
+  font-size: 0.75rem;
+  font-style: italic;
+  color: var(--muted-color);
+  margin: 0 0 0.5rem 0;
+  line-height: 1.4;
+}
+
+.sim-slider {
+  width: 100%;
+  height: 4px;
+  background: rgba(0,0,0,0.1);
+  border-radius: 2px;
+  appearance: none;
+  cursor: pointer;
+}
+
+.sim-slider::-webkit-slider-thumb {
+  appearance: none;
+  width: 14px;
+  height: 14px;
+  background: var(--accent-color);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.15s ease;
+}
+
+.sim-slider::-webkit-slider-thumb:hover {
+  transform: scale(1.15);
+}
+
+.sim-slider::-moz-range-thumb {
+  width: 14px;
+  height: 14px;
+  background: var(--accent-color);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.sim-constants-section {
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(0,0,0,0.08);
+}
+
+.sim-constants-title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.sim-reroll {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.sim-reroll-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.65rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--muted-color);
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  transition: color 0.2s ease;
+}
+
+.sim-reroll-btn:hover {
+  color: var(--accent-color);
+}
+
+.sim-reroll-btn svg {
+  transition: transform 0.5s ease;
+}
+
+.sim-reroll-btn:hover svg {
+  transform: rotate(180deg);
+}
+
+.sim-visualization {
+  min-width: 0;
+}
+
+.sim-chart-container {
+  background: #fff;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+}
+
+.sim-chart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.sim-chart-title {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--accent-color);
+  margin: 0;
+}
+
+.sim-chart-range {
+  font-weight: 400;
+  color: var(--muted-color);
+  font-size: 0.9rem;
+  margin-left: 0.5rem;
+}
+
+.sim-death-spiral {
+  font-size: 0.65rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #b91c1c;
+  background: #fef2f2;
+  padding: 0.35rem 0.75rem;
+  border-radius: 9999px;
+  border: 1px solid #fecaca;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
+}
+
+.sim-chart {
+  height: 320px;
+  width: 100%;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.sim-metrics {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.sim-metric {
+  background: #fff;
+  border-left: 3px solid var(--accent-color);
+  padding: 1rem 1.25rem;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+}
+
+.sim-metric-reach {
+  border-left-color: var(--accent-color);
+}
+
+.sim-metric-trust {
+  border-left-color: #b45309;
+}
+
+.sim-metric-trust.collapsed {
+  border-left-color: #b91c1c;
+  background: #fef7f7;
+}
+
+.sim-metric-title {
+  font-size: 0.65rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--muted-color);
+  margin: 0 0 0.5rem 0;
+}
+
+.sim-metric-value-row {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+}
+
+.sim-metric-value {
+  font-size: 2rem;
+  font-weight: 400;
+  color: var(--accent-color);
+  line-height: 1;
+}
+
+.sim-metric-delta {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.sim-metric-delta.positive {
+  color: #16a34a;
+}
+
+.sim-metric-delta.negative {
+  color: #b91c1c;
+}
+
+.sim-metric-hint {
+  font-size: 0.75rem;
+  color: var(--muted-color);
+  margin-top: 0.5rem;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.sim-metric-status {
+  font-size: 0.85rem;
+  font-weight: 500;
+  margin-top: 0.25rem;
+}
+
+.sim-metric-status.ok {
+  color: #b45309;
+}
+
+.sim-metric-status.danger {
+  color: #b91c1c;
+}
+
+.sim-info {
+  background: #f5f5f4;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  padding: 1.25rem;
+}
+
+.sim-info-content {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.sim-info-icon {
+  color: var(--muted-color);
+  flex-shrink: 0;
+  margin-top: 0.15rem;
+}
+
+.sim-info p {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: var(--muted-color);
+  margin: 0 0 0.75rem 0;
+}
+
+.sim-info p:last-child {
+  margin-bottom: 0;
+}
+
+.sim-info strong {
+  color: var(--accent-color);
+}
+
+.sim-info em {
+  color: var(--accent-color);
+  font-weight: 500;
+}
+
+@media (max-width: 860px) {
+  .sim-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .sim-controls {
+    border-right: none;
+    border-bottom: 1px solid var(--border-color);
+    padding-right: 0;
+    padding-bottom: 1.5rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .sim-wrapper {
+    margin: 1.5rem -0.5rem;
+    padding: 1.25rem;
+    border-radius: 0;
+  }
+
+  .sim-metrics {
+    grid-template-columns: 1fr;
+  }
+
+  .sim-chart {
+    height: 260px;
+  }
+
+  .sim-controls-grid {
+    grid-template-columns: 1fr;
   }
 }
