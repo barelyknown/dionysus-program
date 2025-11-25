@@ -64,96 +64,111 @@ const ARCHETYPES = {
     name: 'The Dionysian Ideal',
     category: 'Thriving',
     description: 'High melt converted to growth, trust grows alongside reach.',
-    params: { mu_env: 12, mu_choice: 5, L: 18, R0: 150, rho: 0.5, beta: 3.5, tau: 0.5 }
+    params: { mu_env: 12, mu_choice: 5, L: 18, R0: 150, rho: 0.5, beta: 3.5, tau: 0.5 },
+    cases: 'index.html#cases-dionysian-ideal'
   },
   HIGH_PERFORMER: {
     name: 'The High Performer',
     category: 'Thriving',
     description: 'Strong growth, trust maintained. Sustainable and productive.',
-    params: { mu_env: 12, mu_choice: 5, L: 18, R0: 150, rho: 0.3, beta: 2.0, tau: 1.5 }
+    params: { mu_env: 12, mu_choice: 5, L: 18, R0: 150, rho: 0.3, beta: 2.0, tau: 1.5 },
+    cases: 'index.html#cases-high-performer'
   },
   VIRTUOUS_CYCLE: {
     name: 'The Virtuous Cycle',
     category: 'Thriving',
     description: 'Trust and capability reinforce each other upward.',
-    params: { mu_env: 12, mu_choice: 8, L: 18, R0: 20, rho: 0.5, beta: 3.5, tau: 0.5 }
+    params: { mu_env: 12, mu_choice: 8, L: 18, R0: 20, rho: 0.5, beta: 3.5, tau: 0.5 },
+    cases: 'index.html#cases-virtuous-cycle'
   },
   MODERATE_GROWTH: {
     name: 'Moderate Growth',
     category: 'Thriving',
     description: 'Healthy but unspectacular. The organizational B+.',
-    params: { mu_env: 12, mu_choice: 8, L: 18, R0: 100, rho: 0.5, beta: 1.0, tau: 0.5 }
+    params: { mu_env: 12, mu_choice: 8, L: 18, R0: 100, rho: 0.5, beta: 1.0, tau: 0.5 },
+    cases: 'index.html#cases-moderate-growth'
   },
   // Edge Cases
   FRAGILE_SURVIVOR: {
     name: 'The Fragile Survivor',
     category: 'Edge Cases',
     description: 'Survival depends on luck. No margin for error.',
-    params: { mu_env: 12, mu_choice: 0, L: 18, R0: 150, rho: 0.15, beta: 3.5, tau: 1.5 }
+    params: { mu_env: 12, mu_choice: 0, L: 18, R0: 150, rho: 0.15, beta: 3.5, tau: 1.5 },
+    cases: 'index.html#cases-fragile-survivor'
   },
   GAMBLER: {
     name: 'The Gambler',
     category: 'Edge Cases',
     description: 'Bet big on disruption. Volatile outcomes.',
-    params: { mu_env: 3, mu_choice: 5, L: 12, R0: 150, rho: 0.15, beta: 1.0, tau: 1.5 }
+    params: { mu_env: 3, mu_choice: 5, L: 12, R0: 150, rho: 0.15, beta: 1.0, tau: 1.5 },
+    cases: 'index.html#cases-gambler'
   },
   // Pyrrhic
   PYRRHIC_LEADER: {
     name: 'The Pyrrhic Leader',
     category: 'Pyrrhic',
     description: 'Ahead competitively but burning through the team.',
-    params: { mu_env: 12, mu_choice: 5, L: 18, R0: 100, rho: 0.5, beta: 0.2, tau: 2.5 }
+    params: { mu_env: 12, mu_choice: 5, L: 18, R0: 100, rho: 0.5, beta: 0.2, tau: 2.5 },
+    cases: 'index.html#cases-pyrrhic-leader'
   },
   CHURN_MACHINE: {
     name: 'The Churn Machine',
     category: 'Pyrrhic',
     description: 'High rotation prevents decay but also prevents memory.',
-    params: { mu_env: 12, mu_choice: 5, L: 18, R0: 100, rho: 0.5, beta: 0.2, tau: 1.5 }
+    params: { mu_env: 12, mu_choice: 5, L: 18, R0: 100, rho: 0.5, beta: 0.2, tau: 1.5 },
+    cases: 'index.html#cases-churn-machine'
   },
   // Decline
   SLOW_DECLINE: {
     name: 'The Slow Decline',
     category: 'Decline',
     description: 'Losing ground slowly. Needs intervention to reverse.',
-    params: { mu_env: 1, mu_choice: 0, L: 8, R0: 20, rho: 0.05, beta: 0.5, tau: 1.5 }
+    params: { mu_env: 1, mu_choice: 0, L: 8, R0: 20, rho: 0.05, beta: 0.5, tau: 1.5 },
+    cases: 'index.html#cases-slow-decline'
   },
   // Competitive Collapse
   SITTING_DUCK: {
     name: 'The Sitting Duck',
     category: 'Competitive Collapse',
     description: 'Refused to engage with disruption. Industry moved on.',
-    params: { mu_env: 5, mu_choice: 0, L: 5, R0: 100, rho: 0.15, beta: 0.2, tau: 2.5 }
+    params: { mu_env: 5, mu_choice: 0, L: 5, R0: 100, rho: 0.15, beta: 0.2, tau: 2.5 },
+    cases: 'index.html#cases-sitting-duck'
   },
   OUTPACED: {
     name: 'The Outpaced',
     category: 'Competitive Collapse',
     description: 'Tried to keep up but couldn\'t. Good team, wrong decade.',
-    params: { mu_env: 5, mu_choice: 2, L: 5, R0: 100, rho: 0.3, beta: 2.0, tau: 0.5 }
+    params: { mu_env: 5, mu_choice: 2, L: 5, R0: 100, rho: 0.3, beta: 2.0, tau: 0.5 },
+    cases: 'index.html#cases-outpaced'
   },
   // Internal Collapse
   MANAGEMENT_THEATER: {
     name: 'Management Theater',
     category: 'Internal Collapse',
     description: 'Rituals exceed trust. Hollow performances destroy.',
-    params: { mu_env: 5, mu_choice: 8, L: 12, R0: 10, rho: 0.05, beta: 0.2, tau: 2.5 }
+    params: { mu_env: 5, mu_choice: 8, L: 12, R0: 10, rho: 0.05, beta: 0.2, tau: 2.5 },
+    cases: 'index.html#cases-management-theater'
   },
   OVERWHELMED: {
     name: 'The Overwhelmed',
     category: 'Internal Collapse',
     description: 'Melt exceeds capacity. Even good intent can\'t keep up.',
-    params: { mu_env: 1, mu_choice: 8, L: 2, R0: 10, rho: 0, beta: 0.2, tau: 1.5 }
+    params: { mu_env: 1, mu_choice: 8, L: 2, R0: 10, rho: 0, beta: 0.2, tau: 1.5 },
+    cases: 'index.html#cases-overwhelmed'
   },
   OLIGARCHIC_DECAY: {
     name: 'Oligarchic Decay',
     category: 'Internal Collapse',
     description: 'No rotation, stewardship calcifies. Weber wins.',
-    params: { mu_env: 1, mu_choice: 5, L: 18, R0: 10, rho: 0.02, beta: 0.2, tau: 0.5 }
+    params: { mu_env: 1, mu_choice: 5, L: 18, R0: 10, rho: 0.02, beta: 0.2, tau: 0.5 },
+    cases: 'index.html#cases-oligarchic-decay'
   },
   DEATH_SPIRAL: {
     name: 'The Death Spiral',
     category: 'Internal Collapse',
     description: 'Decay exceeds growth. Trust evaporates.',
-    params: { mu_env: 1, mu_choice: 8, L: 8, R0: 10, rho: 0.5, beta: 0.2, tau: 2.5 }
+    params: { mu_env: 1, mu_choice: 8, L: 8, R0: 10, rho: 0.5, beta: 0.2, tau: 2.5 },
+    cases: 'index.html#cases-death-spiral'
   }
 };
 
@@ -374,7 +389,11 @@ function EpimetabolicSimulation() {
         })
       ),
       selectedArchetype && h('p', { className: 'sim-archetype-desc' },
-        ARCHETYPES[selectedArchetype].description
+        ARCHETYPES[selectedArchetype].description,
+        ARCHETYPES[selectedArchetype].cases && h('span', null,
+          ' ',
+          h('a', { href: ARCHETYPES[selectedArchetype].cases, className: 'sim-cases-link' }, 'See historical cases →')
+        )
       )
     ),
     // Chart at full width
