@@ -118,18 +118,39 @@ them into something stronger.</p>
       <li><a href="#objective-explanatory-reach-s"
       id="toc-objective-explanatory-reach-s">Objective: Explanatory
       Reach (<span class="math inline"><em>S</em></span>)</a></li>
-      <li><a href="#variables-controllable-inputs"
-      id="toc-variables-controllable-inputs">Variables: Controllable
-      Inputs</a></li>
+      <li><a href="#variables-inputs-and-environment"
+      id="toc-variables-inputs-and-environment">Variables: Inputs and
+      Environment</a></li>
       <li><a href="#constants-fixed-parameters"
       id="toc-constants-fixed-parameters">Constants: Fixed
       Parameters</a></li>
       <li><a href="#equations-system-dynamics"
       id="toc-equations-system-dynamics">Equations: System
       Dynamics</a></li>
+      <li><a href="#failure-conditions"
+      id="toc-failure-conditions">Failure Conditions</a></li>
       <li><a href="#diagnostic-epimetabolic-rate-phi"
       id="toc-diagnostic-epimetabolic-rate-phi">Diagnostic: Epimetabolic
       Rate (<span class="math inline"><em>Φ</em></span>)</a></li>
+      </ul></li>
+      <li><a href="#archetypes-the-space-of-organizational-fates"
+      id="toc-archetypes-the-space-of-organizational-fates">Archetypes:
+      The Space of Organizational Fates</a>
+      <ul>
+      <li><a href="#thriving-archetypes"
+      id="toc-thriving-archetypes">Thriving Archetypes</a></li>
+      <li><a href="#edge-case-archetypes"
+      id="toc-edge-case-archetypes">Edge Case Archetypes</a></li>
+      <li><a href="#pyrrhic-archetypes"
+      id="toc-pyrrhic-archetypes">Pyrrhic Archetypes</a></li>
+      <li><a href="#decline-archetypes"
+      id="toc-decline-archetypes">Decline Archetypes</a></li>
+      <li><a href="#competitive-collapse-archetypes"
+      id="toc-competitive-collapse-archetypes">Competitive Collapse
+      Archetypes</a></li>
+      <li><a href="#internal-collapse-archetypes"
+      id="toc-internal-collapse-archetypes">Internal Collapse
+      Archetypes</a></li>
       </ul></li>
       <li><a href="#appendix-a-minimum-viable-program"
       id="toc-appendix-a-minimum-viable-program">Appendix A: Minimum
@@ -1220,16 +1241,35 @@ lose reach. We forget how to solve problems we used to handle
 (institutional amnesia) as the social structures holding that knowledge
 dissolve.</li>
 </ul>
-<h3 id="variables-controllable-inputs">Variables: Controllable
-Inputs</h3>
-<p>These are the seven inputs that define the specific state of your
-organization at cycle <span class="math inline"><em>t</em></span>. You
-can influence these directly.</p>
+<h3 id="variables-inputs-and-environment">Variables: Inputs and
+Environment</h3>
+<p>These inputs define the state of your organization at cycle <span
+class="math inline"><em>t</em></span>. Some you control; some you
+don’t.</p>
+<h4 id="melt-rate-mu_t">Melt Rate (<span
+class="math inline"><em>μ</em><sub><em>t</em></sub></span>)</h4>
+<p>Melt has two components:</p>
 <ul>
-<li><p><span class="math inline"><em>μ</em><sub><em>t</em></sub></span>
-— Melt Rate: The intensity of exogenous disruption
-(entropy/falsification) hitting the system at time <span
-class="math inline"><em>t</em></span>.</p></li>
+<li><p><span
+class="math inline"><em>μ</em><sub><em>t</em></sub><sup>env</sup></span>
+— Environmental Melt: The disruption the world imposes on you—market
+shifts, technological change, competitor moves, regulatory upheaval.
+This is <strong>not a choice</strong>. It is weather.</p></li>
+<li><p><span
+class="math inline"><em>μ</em><sub><em>t</em></sub><sup>choice</sup></span>
+— Chosen Melt: The disruption you deliberately take on—R&amp;D,
+experimentation, creative destruction, entering new markets. This
+<strong>is</strong> a choice.</p></li>
+</ul>
+<p><span
+class="math display"><em>μ</em><sub><em>t</em></sub> = <em>μ</em><sub><em>t</em></sub><sup>env</sup> + <em>μ</em><sub><em>t</em></sub><sup>choice</sup></span></p>
+<p>The critical insight: you cannot escape environmental melt by
+ignoring it. If <span
+class="math inline"><em>μ</em><sup>env</sup></span> is high, you must
+either build the capacity to metabolize it or be outcompeted by those
+who do.</p>
+<h4 id="controllable-inputs">Controllable Inputs</h4>
+<ul>
 <li><p><span class="math inline"><em>L</em><sub><em>t</em></sub></span>
 — Li: The architectural capacity of the ritual forms (e.g., Crossings,
 Postmortems) at time <span
@@ -1357,7 +1397,37 @@ state:</p>
 class="math display">𝔼[<em>C</em><sub><em>t</em> + 1</sub>∣<em>C</em><sub><em>t</em></sub>] = <em>ρ</em> ⋅ 1 + (1−<em>ρ</em>) ⋅ <em>C</em><sub><em>t</em></sub>(1−<em>δ</em>)</span></p>
 <p><span class="math display">$$C^* = \frac{\rho}{1 -
 (1-\rho)(1-\delta)}$$</span></p></li>
+<li><p>Competitive Threshold (<span
+class="math inline"><em>S̄</em></span>): The minimum explanatory reach
+required to survive in your environment. This rises with cumulative
+environmental melt—every problem the world generates that you don’t
+solve, someone else will.</p>
+<p><span
+class="math display"><em>S̄</em><sub><em>t</em> + 1</sub> = <em>S̄</em><sub><em>t</em></sub> + <em>μ</em><sub><em>t</em></sub><sup>env</sup></span></p>
+<p>Or equivalently: <span class="math inline">$\bar{S}_t = S_0 +
+\sum_{i=0}^{t-1} \mu^{\text{env}}_i$</span></p></li>
 </ol>
+<h3 id="failure-conditions">Failure Conditions</h3>
+<p>The system can fail in two distinct ways:</p>
+<ol type="1">
+<li><p><strong>Internal Collapse</strong> (Trust Death Spiral): <span
+class="math inline"><em>R</em><sub><em>t</em></sub> ≤ 0</span></p>
+<p>The organization burns through its social capital. Even if it was
+winning competitively, the team dissolves.</p></li>
+<li><p><strong>Competitive Collapse</strong> (Outpaced): <span
+class="math inline"><em>S</em><sub><em>t</em></sub> &lt; <em>S̄</em><sub><em>t</em></sub></span></p>
+<p>The organization falls behind the cumulative demands of its
+environment. Even with healthy trust, it becomes irrelevant—outcompeted
+by others who metabolized the same environmental melt into
+structure.</p></li>
+</ol>
+<p>An organization can collapse internally while ahead competitively
+(burned the team but was winning), collapse competitively while
+internally healthy (good culture, obsolete capabilities), or both.
+Survival requires <span
+class="math inline"><em>R</em><sub><em>t</em></sub> &gt; 0</span>
+<strong>and</strong> <span
+class="math inline"><em>S</em><sub><em>t</em></sub> ≥ <em>S̄</em><sub><em>t</em></sub></span>.</p>
 <h3 id="diagnostic-epimetabolic-rate-phi">Diagnostic: Epimetabolic Rate
 (<span class="math inline"><em>Φ</em></span>)</h3>
 <p>Finally, we define the scalar diagnostic for the system. This metric
@@ -1378,6 +1448,430 @@ burning the furniture to heat the house.</li>
 </ul>
 <p><a href="simulation.html" class="sim-link">Explore the interactive
 simulation →</a></p>
+<hr />
+<h2 id="archetypes-the-space-of-organizational-fates">Archetypes: The
+Space of Organizational Fates</h2>
+<p>The Epimetabolic Equation generates a finite taxonomy of
+qualitatively distinct trajectories. These are not personality types or
+value judgments—they are dynamical attractors. Given a configuration of
+parameters, your organization will tend toward one of these fates.
+Understanding which attractor you’re approaching is the first step
+toward changing course.</p>
+<p>Each archetype below describes: the <strong>situation</strong> (what
+parameters look like), the <strong>dynamics</strong> (what happens
+mechanically), and the <strong>outcome</strong> (where you end up).
+Links let you watch each pattern unfold in the simulator.</p>
+<h3 id="thriving-archetypes">Thriving Archetypes</h3>
+<p><strong>The Dionysian Ideal</strong> — <a
+href="simulation.html?archetype=DIONYSIAN_IDEAL">See simulation</a></p>
+<p>A research lab that runs weekly “murder boards” where any project can
+be challenged, but the challenges come wrapped in genuine curiosity and
+the room shares wine afterward. A startup where the postmortem for a
+failed launch becomes the origin story everyone tells with pride. An
+investment committee that rotates the devil’s advocate role and treats
+the best dissent as a gift. These organizations have learned to
+<em>want</em> the melt—to seek out the hardest problems and the sharpest
+critics—because they’ve built the ritual capacity to turn that heat into
+growth. They get stronger every time something breaks.</p>
+<p><em>Situation:</em> High environmental melt (<span
+class="math inline"><em>μ</em><sup>env</sup></span>), high ritual
+capacity (<span class="math inline"><em>L</em></span>), high beauty
+(<span class="math inline"><em>β</em></span>), adequate rotation (<span
+class="math inline"><em>ρ</em></span>), and robust initial trust (<span
+class="math inline"><em>R</em><sub>0</sub></span>). The organization
+faces real challenges and has built the infrastructure to metabolize
+them.</p>
+<p><em>Dynamics:</em> Each cycle, Omega (<span
+class="math inline">min (<em>L</em>⋅<em>C</em>,<em>R</em>)</span>) is
+large enough to absorb most of the melt. Growth <span
+class="math inline"><em>G</em></span> compounds because beauty amplifies
+it (<span class="math inline">1 + <em>λ</em><em>β</em></span>). Decay
+<span class="math inline"><em>D</em></span> stays low because overflow
+is minimal and there’s no theater (rituals don’t exceed trust). Trust
+actually <em>grows</em> because <span
+class="math inline"><em>α</em><em>β</em><em>G</em> &gt; <em>γ</em><em>D</em></span>—successful
+metabolism deposits new social capital.</p>
+<p><em>Outcome:</em> Explanatory reach <span
+class="math inline"><em>S</em></span> climbs well above the competitive
+threshold <span class="math inline"><em>S̄</em></span>. Trust <span
+class="math inline"><em>R</em></span> increases over time. The
+organization gets stronger the more disruption it faces. This is the
+goal state of the Dionysus Program.</p>
+<hr />
+<p><strong>The High Performer</strong> — <a
+href="simulation.html?archetype=HIGH_PERFORMER">See simulation</a></p>
+<p>A well-run engineering team that ships consistently, holds decent
+retros, and maintains a healthy culture—but the retros are a bit rote,
+the celebrations a bit perfunctory. A consulting firm where partners
+trust each other and clients keep coming back, but nobody would call the
+work environment <em>beautiful</em>. These organizations do most things
+right. They’re not broken. They’re just not transcendent. They win by
+showing up and executing, not by turning disruption into fuel.</p>
+<p><em>Situation:</em> Similar to the Dionysian Ideal but with slightly
+lower beauty or less frequent rotation. The fundamentals are sound but
+not optimized.</p>
+<p><em>Dynamics:</em> Growth exceeds decay consistently. Trust remains
+stable or grows modestly. Some inefficiency creeps in—perhaps
+stewardship drifts a bit between rotations, or lower beauty means less
+amplification—but nothing breaks.</p>
+<p><em>Outcome:</em> Strong positive trajectory on <span
+class="math inline"><em>S</em></span>, staying ahead of <span
+class="math inline"><em>S̄</em></span>. Sustainable but leaving
+performance on the table. The organizational B+.</p>
+<hr />
+<p><strong>The Virtuous Cycle</strong> — <a
+href="simulation.html?archetype=VIRTUOUS_CYCLE">See simulation</a></p>
+<p>Three founders in a garage who barely know each other but commit from
+day one to radical honesty and beautiful ritual—Friday demos with real
+feedback, Monday planning with real dissent, and a norm that the person
+who was most wrong last week opens the next meeting. They start with
+almost no trust, but every successful collision deposits more. Within a
+year, they can have conversations that would destroy most teams. The
+early investment in <em>how</em> they work together compounds into a
+capacity that lets them take on problems far above their weight
+class.</p>
+<p><em>Situation:</em> High beauty, high rotation, but starting from low
+initial trust (<span class="math inline"><em>R</em><sub>0</sub></span>).
+A young team or new initiative that hasn’t accumulated social capital
+yet.</p>
+<p><em>Dynamics:</em> The key is that <span
+class="math inline"><em>α</em><em>β</em><em>G</em></span> is large
+relative to <span class="math inline"><em>γ</em><em>D</em></span>. Each
+successful metabolism deposits significant trust because beauty
+amplifies the earn rate. As <span class="math inline"><em>R</em></span>
+grows, Omega grows, allowing more melt to be processed, generating more
+growth, depositing more trust. Positive feedback takes hold.</p>
+<p><em>Outcome:</em> Both <span class="math inline"><em>S</em></span>
+and <span class="math inline"><em>R</em></span> curve upward together.
+The organization bootstraps from fragility to robustness. Often seen in
+tight founding teams who invest heavily in ritual and aesthetics from
+day one.</p>
+<hr />
+<p><strong>Moderate Growth</strong> — <a
+href="simulation.html?archetype=MODERATE_GROWTH">See simulation</a></p>
+<p>A mid-sized company where things basically work. Meetings happen,
+decisions get made, products ship. Nobody writes blog posts about the
+culture, but nobody dreads Monday either. The organization grows, solves
+problems, maintains its position. It’s the statistical middle of the
+distribution—neither optimized nor dysfunctional, neither inspiring nor
+dispiriting. Most healthy organizations live here most of the time.</p>
+<p><em>Situation:</em> Adequate capacity across the board, nothing
+exceptional. Moderate beauty, moderate rotation, reasonable trust.</p>
+<p><em>Dynamics:</em> Growth exceeds decay by a comfortable margin. No
+single parameter is a bottleneck, but none is a lever either. The system
+hums along.</p>
+<p><em>Outcome:</em> Steady positive trajectory. <span
+class="math inline"><em>S</em></span> stays above <span
+class="math inline"><em>S̄</em></span> with margin to spare. Not
+exciting, but sustainable. Many healthy mature organizations live
+here.</p>
+<hr />
+<h3 id="edge-case-archetypes">Edge Case Archetypes</h3>
+<p><strong>The Fragile Survivor</strong> — <a
+href="simulation.html?archetype=FRAGILE_SURVIVOR">See simulation</a></p>
+<p>A team operating right at the edge—enough capacity to handle normal
+variation, but no buffer for bad luck. When the critical leader happens
+to be present during the crisis, they pull through. When the crisis hits
+during a transition, they don’t. Run the tape ten times and you get five
+survivals and five collapses. The organization isn’t broken; it’s just
+one unlucky quarter away from breaking. Every success feels like a near
+miss because it was.</p>
+<p><em>Situation:</em> Parameters are tuned such that outcomes depend
+heavily on stochastic factors—particularly the timing of stewardship
+resets. Rotation rate is moderate, and the system is operating near its
+limits.</p>
+<p><em>Dynamics:</em> In good runs, <span
+class="math inline"><em>C</em></span> resets at fortuitous moments,
+keeping Omega high when it matters. In bad runs, <span
+class="math inline"><em>C</em></span> drifts low during high-melt
+periods, causing overflow and decay spikes. The margin between growth
+and decay is thin.</p>
+<p><em>Outcome:</em> Sometimes survives, sometimes collapses—depending
+on luck. No margin for error. A gust of wind in the wrong direction and
+it falls.</p>
+<hr />
+<p><strong>The Gambler</strong> — <a
+href="simulation.html?archetype=GAMBLER">See simulation</a></p>
+<p>A startup that deliberately takes on more disruption than anyone
+asked for—pivoting quarterly, rewriting the core product annually,
+treating every assumption as a hypothesis to be destroyed. When the bets
+pay off, they leapfrog competitors who were playing it safe. When the
+bets don’t pay off, they burn through runway, trust, and talent
+simultaneously. The founders will later either be on magazine covers or
+cautionary tales, and the difference has as much to do with timing and
+luck as with skill.</p>
+<p><em>Situation:</em> Chosen melt (<span
+class="math inline"><em>μ</em><sup>choice</sup></span>) exceeds
+environmental melt (<span
+class="math inline"><em>μ</em><sup>env</sup></span>). The organization
+deliberately takes on more disruption than the environment
+demands—aggressive R&amp;D, constant experimentation, “move fast and
+break things.”</p>
+<p><em>Dynamics:</em> High total melt creates high potential growth but
+also high overflow risk. When capacity keeps up, growth is spectacular.
+When it doesn’t, decay compounds. The variance across runs is
+enormous.</p>
+<p><em>Outcome:</em> Bimodal: either dramatic success or dramatic
+failure. When it works, it looks like genius. When it fails, it looks
+like recklessness. The startup death-or-glory trajectory.</p>
+<hr />
+<h3 id="pyrrhic-archetypes">Pyrrhic Archetypes</h3>
+<p><strong>The Pyrrhic Leader</strong> — <a
+href="simulation.html?archetype=PYRRHIC_LEADER">See simulation</a></p>
+<p>The company that’s crushing its quarterly numbers while hemorrhaging
+talent. Glassdoor reviews mention “great for your resume, terrible for
+your soul.” The exec team points to market share; the HR team quietly
+tracks the attrition. Every all-hands meeting celebrates wins that
+everyone knows came at a cost nobody will name out loud. The
+organization is winning—and everyone inside knows it can’t last. They’re
+spending down a trust account that took years to build and will take
+years to rebuild, if it can be rebuilt at all.</p>
+<p><em>Situation:</em> High melt, high capacity, but very low beauty
+(<span class="math inline"><em>β</em></span>). The organization can
+process disruption but does so brutally—no aesthetic buffer, no warmth
+in the rituals.</p>
+<p><em>Dynamics:</em> Growth happens because Omega is adequate. But
+trust erodes because the earn rate (<span
+class="math inline"><em>α</em><em>β</em><em>G</em></span>) is suppressed
+by low beauty while the burn rate (<span
+class="math inline"><em>γ</em><em>D</em></span>) isn’t. Each cycle, the
+organization gains reach but loses social capital. Critically, <span
+class="math inline"><em>S</em></span> stays above <span
+class="math inline"><em>S̄</em></span>—they’re winning competitively.</p>
+<p><em>Outcome:</em> Market success masking internal dysfunction. “We’re
+number one… and no one wants to work here.” Eventually <span
+class="math inline"><em>R</em></span> depletes and the team dissolves,
+but until then, the dashboards look great.</p>
+<hr />
+<p><strong>The Churn Machine</strong> — <a
+href="simulation.html?archetype=CHURN_MACHINE">See simulation</a></p>
+<p>A company that reorganizes every six months. New leaders, new
+priorities, new structures—the org chart is a living document that
+nobody bothers to memorize. This prevents any particular faction from
+calcifying into permanence, which is good. But it also means nobody
+accumulates the deep context needed to make hard tradeoffs wisely. Every
+new leader starts from scratch, reinvents wheels, makes mistakes their
+predecessor already learned from. The organization never gets captured
+by an oligarchy, but it also never builds on its own history. Progress
+is real but feels like running on a treadmill.</p>
+<p><em>Situation:</em> Very high rotation rate (<span
+class="math inline"><em>ρ</em></span>), low beauty. Stewardship resets
+constantly—new leaders, new initiatives, perpetual reorganization.</p>
+<p><em>Dynamics:</em> <span class="math inline"><em>C</em></span> never
+drifts far because it’s always being reset. This prevents oligarchic
+decay. But it also prevents institutional memory from accumulating. Low
+beauty means trust doesn’t grow even when metabolism succeeds. The
+organization is always starting over.</p>
+<p><em>Outcome:</em> Survives but never compounds. No calcification, but
+no depth either. Growth is real but feels Sisyphean.</p>
+<hr />
+<h3 id="decline-archetypes">Decline Archetypes</h3>
+<p><strong>The Slow Decline</strong> — <a
+href="simulation.html?archetype=SLOW_DECLINE">See simulation</a></p>
+<p>A department that used to be central and is now a backwater. Nothing
+dramatic happened—no layoffs, no scandals, no visible failure. Just a
+slow fade. The best people quietly transferred to other teams. The
+rituals got a little staler each year. The problems got a little less
+interesting. Nobody decided to let it die; it just stopped mattering.
+Ten years from now, someone will ask why this team still exists, and
+nobody will have a good answer. The decline is so gradual that at no
+single moment does intervention feel urgent—which is exactly why
+intervention never comes.</p>
+<p><em>Situation:</em> Low environmental melt, low chosen melt, modest
+capacity. The organization isn’t facing much disruption and isn’t
+seeking any.</p>
+<p><em>Dynamics:</em> With low total melt, growth is modest. But decay,
+while also low, slightly exceeds growth—perhaps due to theater from
+underutilized ritual capacity, or stewardship drift in a low-rotation
+environment. The gap is small but persistent.</p>
+<p><em>Outcome:</em> <span class="math inline"><em>S</em></span> falls
+slowly relative to <span class="math inline"><em>S̄</em></span> (which
+rises slowly given low <span
+class="math inline"><em>μ</em><sup>env</sup></span>). Survivable for a
+long time. The organization doesn’t notice it’s dying because quarterly
+changes are within noise. The frog in warming water.</p>
+<hr />
+<h3 id="competitive-collapse-archetypes">Competitive Collapse
+Archetypes</h3>
+<p>These organizations fail not because trust evaporates, but because
+they fall behind the cumulative demands of their environment. The team
+is fine; the product is obsolete.</p>
+<p><strong>The Sitting Duck</strong> — <a
+href="simulation.html?archetype=SITTING_DUCK">See simulation</a></p>
+<p>A newspaper that had a great newsroom, loyal subscribers, and a
+culture reporters loved—and decided not to invest in digital because
+“our readers prefer print.” A retailer with excellent customer service
+and deep community roots that watched e-commerce grow and chose not to
+compete. A law firm with brilliant partners who dismissed legal tech as
+“not how serious work gets done.” The world changed; they didn’t. Their
+trust was fine. Their rituals were fine. Their culture was fine. They
+just became irrelevant. When the end came, longtime employees were
+genuinely confused: “But we were doing everything right.” They were—by
+the standards of a world that no longer existed.</p>
+<p><em>Situation:</em> High environmental melt (<span
+class="math inline"><em>μ</em><sup>env</sup></span>) but near-zero
+chosen melt (<span
+class="math inline"><em>μ</em><sup>choice</sup></span>). The world is
+changing rapidly, but the organization has decided not to engage with
+it.</p>
+<p><em>Dynamics:</em> With low total melt, the organization avoids
+overflow and decay. Trust may even be healthy. But <span
+class="math inline"><em>S̄</em></span> rises by <span
+class="math inline"><em>μ</em><sup>env</sup></span> every cycle while
+<span class="math inline"><em>S</em></span> barely grows. The gap widens
+inexorably.</p>
+<p><em>Outcome:</em> Competitive collapse with trust intact. “We had a
+great team. Then the industry moved on without us.” The organization
+chose stability while the world chose disruption. Disruption happened
+<em>to</em> them, not <em>with</em> them.</p>
+<hr />
+<p><strong>The Outpaced</strong> — <a
+href="simulation.html?archetype=OUTPACED">See simulation</a></p>
+<p>A company that saw the disruption coming and tried to respond—hired
+consultants, launched initiatives, created innovation labs. They
+<em>wanted</em> to transform. But they couldn’t metabolize change fast
+enough. The new skills took longer to build than the market gave them.
+The pilots succeeded but couldn’t scale. The culture adapted but not at
+the pace the environment demanded. Unlike the Sitting Duck, they
+engaged; unlike the winners, they couldn’t keep up. There’s no villain
+in this story, no decision that was obviously wrong at the time. They
+simply lost a race where second place and last place pay the same.</p>
+<p><em>Situation:</em> Moderate environmental melt, some chosen melt—the
+organization is trying to keep up. But capacity (<span
+class="math inline"><em>L</em></span>) or trust (<span
+class="math inline"><em>R</em><sub>0</sub></span>) is insufficient for
+the pace the environment sets.</p>
+<p><em>Dynamics:</em> The organization engages with change but can’t
+metabolize it fast enough. Overflow generates some decay. Growth is
+positive but slower than <span
+class="math inline"><em>μ</em><sup>env</sup></span>. Each cycle, <span
+class="math inline"><em>S̄</em></span> pulls further ahead.</p>
+<p><em>Outcome:</em> Lost the race with dignity intact. Trust didn’t
+collapse; they simply couldn’t learn fast enough. Good team, wrong
+decade. Sometimes the world just moves faster than you can adapt.</p>
+<hr />
+<h3 id="internal-collapse-archetypes">Internal Collapse Archetypes</h3>
+<p>These organizations fail because trust evaporates—the team dissolves
+even if the competitive position was viable.</p>
+<p><strong>Management Theater</strong> — <a
+href="simulation.html?archetype=MANAGEMENT_THEATER">See
+simulation</a></p>
+<p>The calendar is full of meetings with important names: Strategy
+Reviews, Alignment Sessions, Culture Conversations. Slide decks are
+polished. Facilitators are trained. The problem is that no one believes
+any of it. Everyone knows the real decisions happen elsewhere—in Slack
+DMs, in the CEO’s head, in the politics between two SVPs. The rituals
+continue because stopping them would be an admission, and admissions are
+dangerous. So people show up, say the expected things, and leave. Each
+hollow ceremony makes the next one harder to take seriously. The
+organization is dying of its own process—not because it has too much
+structure, but because the structure has become untethered from any
+actual collective sense-making. The forms are observed; the substance is
+absent.</p>
+<p><em>Situation:</em> High ritual capacity (<span
+class="math inline"><em>L</em></span>) relative to available trust
+(<span class="math inline"><em>R</em><sub>0</sub></span>). The
+organization has elaborate ceremonies—postmortems, all-hands, planning
+cycles—but not the social capital to fill them authentically.</p>
+<p><em>Dynamics:</em> Theater <span
+class="math inline"> = max (0,<em>L</em>⋅<em>C</em>−<em>R</em>)</span>
+is large. This generates decay via <span
+class="math inline"><em>κ</em> ⋅ Theater/<em>β</em></span>, which burns
+trust directly. Each hollow ritual makes the next one worse. The gap
+between <span class="math inline"><em>L</em> ⋅ <em>C</em></span> and
+<span class="math inline"><em>R</em></span> widens as <span
+class="math inline"><em>R</em></span> falls.</p>
+<p><em>Outcome:</em> Rapid trust collapse. The rituals that were
+supposed to build alignment instead accelerate dissolution. Death by
+meeting culture. The forms are observed; the substance is absent.</p>
+<hr />
+<p><strong>The Overwhelmed</strong> — <a
+href="simulation.html?archetype=OVERWHELMED">See simulation</a></p>
+<p>The pitch deck promised hypergrowth and the market delivered. Now the
+team is doubling every quarter, the product is being rebuilt while
+customers use it, and the competitive landscape shifts weekly. There’s
+no time to document anything, no time to onboard properly, no time to
+process the last pivot before the next one. Good people are burning out
+or quitting. Institutional knowledge walks out the door faster than it
+accumulates. The founders know this is unsustainable, but the
+alternative—slowing down—feels like death. They’re not wrong: in their
+market, it might be. This is the tragedy of organizations that succeed
+too fast for their own infrastructure. The melt rate isn’t a choice;
+it’s a condition of survival. The only question is whether they can
+build capacity faster than complexity accumulates.</p>
+<p><em>Situation:</em> Very high melt (environmental, chosen, or both)
+relative to capacity. A hyper-growth startup, or an organization facing
+massive external disruption without time to build infrastructure.</p>
+<p><em>Dynamics:</em> Overflow <span
+class="math inline"> = max (0,<em>μ</em>−<em>Ω</em>)</span> is
+persistently large. This generates decay via <span
+class="math inline">Overflow<sup>2</sup> ⋅ <em>τ</em></span>—the
+quadratic term makes high overflow devastating. Even good intentions
+can’t keep up. Trust burns faster than metabolism can deposit it.</p>
+<p><em>Outcome:</em> Rapid internal collapse. The melt rate simply
+exceeds what the system can handle. The only solutions are: reduce melt
+(if possible), massively increase <span
+class="math inline"><em>L</em></span> (takes time), or accept that this
+configuration is unsurvivable.</p>
+<hr />
+<p><strong>Oligarchic Decay</strong> — <a
+href="simulation.html?archetype=OLIGARCHIC_DECAY">See simulation</a></p>
+<p>The founding team was brilliant. They built the culture, designed the
+rituals, embodied the values. The problem is that they never left.
+Twenty years later, the same people run the same meetings, and something
+has calcified. The rituals still happen, but they’ve become performances
+for an audience of one—the permanent leadership—rather than genuine
+collective sense-making. New ideas get filtered through “what will the
+founders think.” Talented people join, realize the ceiling, and leave.
+The organization has become a court, not a team. Michels called this the
+iron law of oligarchy: every organization tends toward rule by a
+self-perpetuating elite. The only antidote is rotation, but by the time
+the pattern is visible, the incumbents have every incentive to resist
+it. They’re not bad people; they’re just people who’ve confused their
+presence with the organization’s health.</p>
+<p><em>Situation:</em> Very low rotation rate (<span
+class="math inline"><em>ρ</em></span>), substantial ritual capacity.
+Leaders stay in place; stewardship is not refreshed.</p>
+<p><em>Dynamics:</em> <span class="math inline"><em>C</em></span> drifts
+toward zero as <span
+class="math inline">(1−<em>δ</em>)<sup><em>t</em></sup></span>
+compounds. Omega shrinks even though <span
+class="math inline"><em>L</em></span> and <span
+class="math inline"><em>R</em></span> haven’t changed. Overflow grows.
+The rituals nominally exist but have been captured by a permanent
+priesthood who cannot allow their own forms to be questioned. Weber and
+Michels were right.</p>
+<p><em>Outcome:</em> Internal collapse via stewardship failure. The iron
+law of oligarchy in action. The solution is rotation—but by the time
+this pattern is visible, the incumbents have strong incentives to resist
+it.</p>
+<hr />
+<p><strong>The Death Spiral</strong> — <a
+href="simulation.html?archetype=DEATH_SPIRAL">See simulation</a></p>
+<p>It started with a bad quarter. Then the best engineer left. Then the
+budget got cut, which meant fewer resources for the rituals that might
+have helped, which meant more informal politics, which meant more
+burnout, which meant more departures. Each problem makes the next one
+worse. The organization is caught in a vortex where declining trust
+reduces capacity, reduced capacity increases overflow, overflow
+accelerates decay, and decay burns what trust remains. No single
+parameter is fatal. The death spiral is an emergent property of their
+interaction—a system that has crossed into a regime where all the
+feedback loops point the same direction: down. By the time leadership
+recognizes the pattern, the intervention required is usually larger than
+what the remaining trust can support. This is the generic attractor for
+undercapitalized organizations facing disruption. Most organizations
+that fail, fail this way.</p>
+<p><em>Situation:</em> Multiple compounding failures: high melt, low
+capacity, low beauty, some theater. No single parameter is catastrophic,
+but the combination is.</p>
+<p><em>Dynamics:</em> Decay exceeds growth consistently. Trust falls,
+which shrinks Omega, which increases overflow, which accelerates decay,
+which burns more trust. Negative feedback takes hold.</p>
+<p><em>Outcome:</em> Rapid collapse. Each cycle makes the next one
+harder until the system cannot continue. This is the generic attractor
+for undercapitalized organizations facing disruption without adequate
+ritual infrastructure.</p>
 <hr />
 <h2 id="appendix-a-minimum-viable-program">Appendix A: Minimum Viable
 Program</h2>

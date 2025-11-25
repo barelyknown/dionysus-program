@@ -57,6 +57,116 @@ const SettingsIcon = () => h('svg', { width: 12, height: 12, viewBox: '0 0 24 24
   h('circle', { cx: 12, cy: 12, r: 3 })
 );
 
+// Archetype presets with representative parameters
+const ARCHETYPES = {
+  // Thriving
+  DIONYSIAN_IDEAL: {
+    name: 'The Dionysian Ideal',
+    category: 'Thriving',
+    description: 'High melt converted to growth, trust grows alongside reach.',
+    params: { mu_env: 12, mu_choice: 5, L: 18, R0: 150, rho: 0.5, beta: 3.5, tau: 0.5 }
+  },
+  HIGH_PERFORMER: {
+    name: 'The High Performer',
+    category: 'Thriving',
+    description: 'Strong growth, trust maintained. Sustainable and productive.',
+    params: { mu_env: 12, mu_choice: 5, L: 18, R0: 150, rho: 0.3, beta: 2.0, tau: 1.5 }
+  },
+  VIRTUOUS_CYCLE: {
+    name: 'The Virtuous Cycle',
+    category: 'Thriving',
+    description: 'Trust and capability reinforce each other upward.',
+    params: { mu_env: 12, mu_choice: 8, L: 18, R0: 20, rho: 0.5, beta: 3.5, tau: 0.5 }
+  },
+  MODERATE_GROWTH: {
+    name: 'Moderate Growth',
+    category: 'Thriving',
+    description: 'Healthy but unspectacular. The organizational B+.',
+    params: { mu_env: 12, mu_choice: 8, L: 18, R0: 100, rho: 0.5, beta: 1.0, tau: 0.5 }
+  },
+  // Edge Cases
+  FRAGILE_SURVIVOR: {
+    name: 'The Fragile Survivor',
+    category: 'Edge Cases',
+    description: 'Survival depends on luck. No margin for error.',
+    params: { mu_env: 12, mu_choice: 0, L: 18, R0: 150, rho: 0.15, beta: 3.5, tau: 1.5 }
+  },
+  GAMBLER: {
+    name: 'The Gambler',
+    category: 'Edge Cases',
+    description: 'Bet big on disruption. Volatile outcomes.',
+    params: { mu_env: 3, mu_choice: 5, L: 12, R0: 150, rho: 0.15, beta: 1.0, tau: 1.5 }
+  },
+  // Pyrrhic
+  PYRRHIC_LEADER: {
+    name: 'The Pyrrhic Leader',
+    category: 'Pyrrhic',
+    description: 'Ahead competitively but burning through the team.',
+    params: { mu_env: 12, mu_choice: 5, L: 18, R0: 100, rho: 0.5, beta: 0.2, tau: 2.5 }
+  },
+  CHURN_MACHINE: {
+    name: 'The Churn Machine',
+    category: 'Pyrrhic',
+    description: 'High rotation prevents decay but also prevents memory.',
+    params: { mu_env: 12, mu_choice: 5, L: 18, R0: 100, rho: 0.5, beta: 0.2, tau: 1.5 }
+  },
+  // Decline
+  SLOW_DECLINE: {
+    name: 'The Slow Decline',
+    category: 'Decline',
+    description: 'Losing ground slowly. Needs intervention to reverse.',
+    params: { mu_env: 1, mu_choice: 0, L: 8, R0: 20, rho: 0.05, beta: 0.5, tau: 1.5 }
+  },
+  // Competitive Collapse
+  SITTING_DUCK: {
+    name: 'The Sitting Duck',
+    category: 'Competitive Collapse',
+    description: 'Refused to engage with disruption. Industry moved on.',
+    params: { mu_env: 5, mu_choice: 0, L: 5, R0: 100, rho: 0.15, beta: 0.2, tau: 2.5 }
+  },
+  OUTPACED: {
+    name: 'The Outpaced',
+    category: 'Competitive Collapse',
+    description: 'Tried to keep up but couldn\'t. Good team, wrong decade.',
+    params: { mu_env: 5, mu_choice: 2, L: 5, R0: 100, rho: 0.3, beta: 2.0, tau: 0.5 }
+  },
+  // Internal Collapse
+  MANAGEMENT_THEATER: {
+    name: 'Management Theater',
+    category: 'Internal Collapse',
+    description: 'Rituals exceed trust. Hollow performances destroy.',
+    params: { mu_env: 5, mu_choice: 8, L: 12, R0: 10, rho: 0.05, beta: 0.2, tau: 2.5 }
+  },
+  OVERWHELMED: {
+    name: 'The Overwhelmed',
+    category: 'Internal Collapse',
+    description: 'Melt exceeds capacity. Even good intent can\'t keep up.',
+    params: { mu_env: 1, mu_choice: 8, L: 2, R0: 10, rho: 0, beta: 0.2, tau: 1.5 }
+  },
+  OLIGARCHIC_DECAY: {
+    name: 'Oligarchic Decay',
+    category: 'Internal Collapse',
+    description: 'No rotation, stewardship calcifies. Weber wins.',
+    params: { mu_env: 1, mu_choice: 5, L: 18, R0: 10, rho: 0.02, beta: 0.2, tau: 0.5 }
+  },
+  DEATH_SPIRAL: {
+    name: 'The Death Spiral',
+    category: 'Internal Collapse',
+    description: 'Decay exceeds growth. Trust evaporates.',
+    params: { mu_env: 1, mu_choice: 8, L: 8, R0: 10, rho: 0.5, beta: 0.2, tau: 2.5 }
+  }
+};
+
+// Group archetypes by category for the selector
+const ARCHETYPE_CATEGORIES = [
+  { name: 'Thriving', keys: ['DIONYSIAN_IDEAL', 'HIGH_PERFORMER', 'VIRTUOUS_CYCLE', 'MODERATE_GROWTH'] },
+  { name: 'Edge Cases', keys: ['FRAGILE_SURVIVOR', 'GAMBLER'] },
+  { name: 'Pyrrhic', keys: ['PYRRHIC_LEADER', 'CHURN_MACHINE'] },
+  { name: 'Decline', keys: ['SLOW_DECLINE'] },
+  { name: 'Competitive Collapse', keys: ['SITTING_DUCK', 'OUTPACED'] },
+  { name: 'Internal Collapse', keys: ['MANAGEMENT_THEATER', 'OVERWHELMED', 'OLIGARCHIC_DECAY', 'DEATH_SPIRAL'] }
+];
+
 function SliderControl({ label, symbol, value, min, max, step, desc, onChange }) {
   return h('div', { className: 'sim-slider-group' },
     h('div', { className: 'sim-slider-header' },
@@ -80,29 +190,91 @@ function SliderControl({ label, symbol, value, min, max, step, desc, onChange })
   );
 }
 
+// Parse archetype from URL query params
+function getArchetypeFromURL() {
+  const params = new URLSearchParams(window.location.search);
+  const archetype = params.get('archetype');
+  if (archetype && ARCHETYPES[archetype]) {
+    return archetype;
+  }
+  return null;
+}
+
+// Update URL when archetype changes
+function updateURL(archetypeKey) {
+  const url = new URL(window.location);
+  if (archetypeKey) {
+    url.searchParams.set('archetype', archetypeKey);
+  } else {
+    url.searchParams.delete('archetype');
+  }
+  window.history.replaceState({}, '', url);
+}
+
 function EpimetabolicSimulation() {
-  const [inputs, setInputs] = useState({
-    mu: 5.0,
-    L: 8.0,
-    rho: 0.1,
-    beta: 1.0,
-    tau: 1.5,
-    R0: 100.0,
-    alpha: 0.02,
-    gamma: 0.10,
-    delta: 0.05,
-    kappa: 0.50,
-    lambda: 0.20
-  });
+  // Check URL for initial archetype
+  const initialArchetype = getArchetypeFromURL();
+  const initialParams = initialArchetype
+    ? Object.assign({}, {
+        mu_env: 3.0,
+        mu_choice: 2.0,
+        L: 8.0,
+        rho: 0.1,
+        beta: 1.0,
+        tau: 1.5,
+        R0: 100.0,
+        alpha: 0.02,
+        gamma: 0.10,
+        delta: 0.05,
+        kappa: 0.50,
+        lambda: 0.20
+      }, ARCHETYPES[initialArchetype].params)
+    : {
+        mu_env: 3.0,
+        mu_choice: 2.0,
+        L: 8.0,
+        rho: 0.1,
+        beta: 1.0,
+        tau: 1.5,
+        R0: 100.0,
+        alpha: 0.02,
+        gamma: 0.10,
+        delta: 0.05,
+        kappa: 0.50,
+        lambda: 0.20
+      };
+
+  const [inputs, setInputs] = useState(initialParams);
 
   const [simulationData, setSimulationData] = useState([]);
   const [seed, setSeed] = useState(Date.now());
+  const [collapseType, setCollapseType] = useState(null);
+  const [selectedArchetype, setSelectedArchetype] = useState(initialArchetype);
+
+  function selectArchetype(key) {
+    if (key === '') {
+      setSelectedArchetype(null);
+      updateURL(null);
+      return;
+    }
+    const archetype = ARCHETYPES[key];
+    if (archetype) {
+      setSelectedArchetype(key);
+      updateURL(key);
+      setInputs(function(prev) {
+        return Object.assign({}, prev, archetype.params);
+      });
+      setSeed(Date.now());
+    }
+  }
 
   useEffect(function() {
     var data = [];
     var S = 10.0;
+    var S_threshold = 10.0; // Competitive threshold starts at initial S
     var R = inputs.R0;
     var C = 1.0;
+    var collapse = null;
 
     var randomVals = [];
     for (var i = 0; i < 100; i++) {
@@ -110,17 +282,22 @@ function EpimetabolicSimulation() {
       randomVals.push(x - Math.floor(x));
     }
 
+    var mu = inputs.mu_env + inputs.mu_choice;
+
     for (var t = 0; t < 100; t++) {
       var Omega = Math.min(inputs.L * C, R);
       var Theater = Math.max(0, (inputs.L * C) - R);
-      var Overflow = Math.max(0, inputs.mu - Omega);
+      var Overflow = Math.max(0, mu - Omega);
 
-      var G = Math.min(inputs.mu, Omega) * (1 + inputs.lambda * inputs.beta);
+      var G = Math.min(mu, Omega) * (1 + inputs.lambda * inputs.beta);
       var safeBeta = Math.max(0.1, inputs.beta);
       var D = (Math.pow(Overflow, 2) * inputs.tau) + ((inputs.kappa * Theater) / safeBeta);
 
       var deltaS = G - D;
       S = S + deltaS;
+
+      // Competitive threshold rises with environmental melt
+      S_threshold = S_threshold + inputs.mu_env;
 
       var R_prev = R;
       R = Math.max(0, R + (inputs.alpha * inputs.beta * G) - (inputs.gamma * D));
@@ -137,14 +314,25 @@ function EpimetabolicSimulation() {
       data.push({
         t: t,
         S: parseFloat(S.toFixed(2)),
+        S_threshold: parseFloat(S_threshold.toFixed(2)),
         R: parseFloat(R.toFixed(2)),
         C: parseFloat(C_prev.toFixed(2))
       });
+
+      // Check failure conditions
+      if (collapse === null) {
+        if (R <= 0) {
+          collapse = 'internal';
+        } else if (S < S_threshold) {
+          collapse = 'competitive';
+        }
+      }
 
       if (R <= 0) break;
     }
 
     setSimulationData(data);
+    setCollapseType(collapse);
   }, [inputs, seed]);
 
   function updateInput(key, value) {
@@ -155,15 +343,45 @@ function EpimetabolicSimulation() {
     });
   }
 
-  var lastData = simulationData[simulationData.length - 1] || { S: 0, R: 0 };
-  var collapsed = simulationData.length < 100;
+  var lastData = simulationData[simulationData.length - 1] || { S: 0, R: 0, S_threshold: 10 };
+  var internalCollapse = simulationData.length < 100;
+  var competitiveCollapse = collapseType === 'competitive';
+  var anyCollapse = internalCollapse || competitiveCollapse;
+
+  var collapseLabel = null;
+  if (internalCollapse) {
+    collapseLabel = 'Internal Collapse (Trust → 0)';
+  } else if (competitiveCollapse) {
+    collapseLabel = 'Competitive Collapse (S < S̄)';
+  }
 
   return h('div', { className: 'sim-wrapper' },
+    // Archetype selector
+    h('div', { className: 'sim-archetype-selector' },
+      h('label', { className: 'sim-archetype-label' }, 'Load Archetype:'),
+      h('select', {
+        className: 'sim-archetype-select',
+        value: selectedArchetype || '',
+        onChange: function(e) { selectArchetype(e.target.value); }
+      },
+        h('option', { value: '' }, '— Select an archetype —'),
+        ARCHETYPE_CATEGORIES.map(function(cat) {
+          return h('optgroup', { key: cat.name, label: cat.name },
+            cat.keys.map(function(key) {
+              return h('option', { key: key, value: key }, ARCHETYPES[key].name);
+            })
+          );
+        })
+      ),
+      selectedArchetype && h('p', { className: 'sim-archetype-desc' },
+        ARCHETYPES[selectedArchetype].description
+      )
+    ),
     // Chart at full width
     h('div', { className: 'sim-chart-container' },
       h('div', { className: 'sim-chart-header' },
         h('h4', { className: 'sim-chart-title' }, 'System Evolution ', h('span', { className: 'sim-chart-range' }, '(t=0 to 100)')),
-        collapsed && h('span', { className: 'sim-death-spiral' }, 'Death Spiral Detected')
+        collapseLabel && h('span', { className: 'sim-death-spiral' }, collapseLabel)
       ),
       h('div', { className: 'sim-chart' },
         h(ResponsiveContainer, { width: '100%', height: '100%' },
@@ -175,6 +393,7 @@ function EpimetabolicSimulation() {
             h(Tooltip, { contentStyle: { backgroundColor: '#faf8f4', borderColor: '#e7e2da', fontFamily: '"Iowan Old Style", Palatino, serif', fontSize: '14px', boxShadow: '0 4px 6px -1px rgba(0,0,0,0.1)', padding: '12px' }, itemStyle: { color: '#333' }, labelStyle: { color: '#9ca3af', marginBottom: '8px', fontSize: '12px', textTransform: 'uppercase', letterSpacing: '0.1em' } }),
             h(Legend, { verticalAlign: 'top', height: 36, iconType: 'plainline', wrapperStyle: { paddingBottom: '20px', fontSize: '12px', fontFamily: 'system-ui, sans-serif' } }),
             h(Line, { yAxisId: 'left', type: 'monotone', dataKey: 'S', name: 'Explanatory Reach (S)', stroke: '#41403b', strokeWidth: 2.5, dot: false, activeDot: { r: 5, fill: '#41403b', stroke: '#fff', strokeWidth: 2 }, isAnimationActive: true, animationDuration: 1000 }),
+            h(Line, { yAxisId: 'left', type: 'monotone', dataKey: 'S_threshold', name: 'Competitive Threshold (S̄)', stroke: '#dc2626', strokeWidth: 1.5, strokeDasharray: '2 2', dot: false, activeDot: { r: 4, fill: '#dc2626', stroke: '#fff', strokeWidth: 2 }, isAnimationActive: true, animationDuration: 1000 }),
             h(Line, { yAxisId: 'left', type: 'monotone', dataKey: 'R', name: 'Ren (Trust)', stroke: '#b45309', strokeWidth: 2, strokeDasharray: '4 4', dot: false, activeDot: { r: 5, fill: '#b45309', stroke: '#fff', strokeWidth: 2 }, isAnimationActive: true, animationDuration: 1000 }),
             h(Line, { yAxisId: 'right', type: 'stepAfter', dataKey: 'C', name: 'Stewardship (C)', stroke: '#d4d4d4', strokeWidth: 1.5, dot: false, isAnimationActive: false })
           )
@@ -187,27 +406,27 @@ function EpimetabolicSimulation() {
         h('h5', { className: 'sim-metric-title' }, 'Final Reach (', h('em', null, 'S'), ')'),
         h('div', { className: 'sim-metric-value-row' },
           h('div', { className: 'sim-metric-value' }, lastData.S.toFixed(1)),
-          h('div', { className: 'sim-metric-delta ' + (lastData.S > 10 ? 'positive' : 'negative') },
-            (lastData.S - 10) > 0 ? '+' : '',
-            (lastData.S - 10).toFixed(1)
+          h('div', { className: 'sim-metric-delta ' + (lastData.S > lastData.S_threshold ? 'positive' : 'negative') },
+            'vs S̄: ', (lastData.S - lastData.S_threshold).toFixed(1)
           )
         ),
-        h('div', { className: 'sim-metric-hint' }, 'Target: Maximize S without breaking R.')
+        h('div', { className: 'sim-metric-hint' }, 'Must stay above competitive threshold (S̄).')
       ),
-      h('div', { className: 'sim-metric sim-metric-trust ' + (collapsed ? 'collapsed' : '') },
+      h('div', { className: 'sim-metric sim-metric-trust ' + (anyCollapse ? 'collapsed' : '') },
         h('h5', { className: 'sim-metric-title' }, 'Ren (Trust) (', h('em', null, 'R'), ')'),
         h('div', { className: 'sim-metric-value' }, lastData.R.toFixed(1)),
-        h('div', { className: 'sim-metric-status ' + (collapsed ? 'danger' : 'ok') },
-          collapsed ? 'Collapse at t=' + simulationData.length : 'System Survives'
+        h('div', { className: 'sim-metric-status ' + (anyCollapse ? 'danger' : 'ok') },
+          anyCollapse ? (internalCollapse ? 'Internal collapse at t=' + simulationData.length : 'Outpaced by competition') : 'System Survives'
         )
       )
     ),
     // Two-column controls
     h('div', { className: 'sim-controls-grid' },
       h('div', { className: 'sim-controls-col' },
-        h('h4', { className: 'sim-section-title' }, 'Variables'),
+        h('h4', { className: 'sim-section-title' }, 'Environment & Choices'),
+        h(SliderControl, { label: 'Environmental Melt', symbol: 'μᵉⁿᵛ', value: inputs.mu_env, min: 0, max: 15, step: 0.5, desc: 'Disruption the world imposes. Not a choice.', onChange: function(v) { updateInput('mu_env', v); } }),
+        h(SliderControl, { label: 'Chosen Melt', symbol: 'μᶜʰᵒⁱᶜᵉ', value: inputs.mu_choice, min: 0, max: 10, step: 0.5, desc: 'Deliberate disruption (R&D, experiments).', onChange: function(v) { updateInput('mu_choice', v); } }),
         h(SliderControl, { label: 'Initial Ren (Trust)', symbol: 'R₀', value: inputs.R0, min: 10, max: 200, step: 10, desc: 'Starting social capital / trust.', onChange: function(v) { updateInput('R0', v); } }),
-        h(SliderControl, { label: 'Melt Rate', symbol: 'μ', value: inputs.mu, min: 0, max: 20, step: 0.5, desc: 'Intensity of exogenous disruption.', onChange: function(v) { updateInput('mu', v); } }),
         h(SliderControl, { label: 'Li (Ritual)', symbol: 'L', value: inputs.L, min: 1, max: 20, step: 0.5, desc: 'Architectural capacity of the forms.', onChange: function(v) { updateInput('L', v); } }),
         h(SliderControl, { label: 'Rotation Rate', symbol: 'ρ', value: inputs.rho, min: 0, max: 1, step: 0.05, desc: 'Frequency of stewardship reset.', onChange: function(v) { updateInput('rho', v); } }),
         h(SliderControl, { label: 'Beauty', symbol: 'β', value: inputs.beta, min: 0.1, max: 5, step: 0.1, desc: 'Thermal buffer and multiplier.', onChange: function(v) { updateInput('beta', v); } }),
@@ -235,21 +454,23 @@ function EpimetabolicSimulation() {
         h('div', null,
           h('p', null,
             h('strong', null, 'How to read this model:'),
-            ' The black line represents ',
+            ' The black line is ',
             h('em', null, 'Explanatory Reach (S)'),
-            '—the ability of the organization to solve problems. The dashed gold line is ',
+            '. The red dashed line is the ',
+            h('em', null, 'Competitive Threshold (S̄)'),
+            '—fall below it and you\'re outpaced. The gold dashed line is ',
             h('em', null, 'Ren / Trust (R)'),
-            '. The faint gray background line tracks ',
+            '. The faint gray line tracks ',
             h('em', null, 'Stewardship (C)'),
             '.'
           ),
           h('p', null,
-            h('strong', null, 'Observation:'),
-            ' Note that high ',
-            h('strong', null, 'Melt (μ)'),
-            ' allows for rapid growth in Reach, but generates ',
-            h('strong', null, 'Overflow'),
-            ' if Ritual Capacity (L) is too low. This overflow becomes toxic decay (D), burning Trust faster than it can be earned.'
+            h('strong', null, 'Two failure modes:'),
+            ' (1) ',
+            h('em', null, 'Internal Collapse'),
+            '—trust burns to zero. (2) ',
+            h('em', null, 'Competitive Collapse'),
+            '—S falls below S̄. Environmental melt (μᵉⁿᵛ) raises S̄ every cycle. You can\'t ignore it; you must metabolize it or be outcompeted.'
           )
         )
       )

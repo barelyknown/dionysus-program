@@ -1,0 +1,1212 @@
+{
+  "SITTING_DUCK": {
+    "name": "The Sitting Duck",
+    "story": "Refused to engage with disruption that was coming regardless. Low μ_choice in a high μ_env environment. The organization chose stability while the world was changing around them. Trust may be healthy, culture may be fine, but they became irrelevant. \"We had a great team. Then the industry moved on without us.\"",
+    "characteristics": [
+      "Low chosen melt (μ_choice) relative to environmental melt",
+      "Trust often still healthy at time of failure",
+      "Competitive threshold rose faster than reach",
+      "Disruption happened TO them, not WITH them"
+    ],
+    "exampleCount": 3,
+    "representativeExample": {
+      "parameters": {
+        "mu_env": 5,
+        "mu_choice": 0,
+        "L": 5,
+        "R0": 100,
+        "rho": 0.15,
+        "beta": 0.2,
+        "tau": 2.5
+      },
+      "outcomes": {
+        "finalReach": -182.69690535108572,
+        "finalTrust": 10.813762519430949,
+        "finalS_threshold": 915.5,
+        "competitiveMargin": -1098.196905351086,
+        "deltaReach": -192.69690535108577,
+        "deltaTrust": -89.18623748056905,
+        "internalCollapseRate": 0.4,
+        "competitiveCollapseRate": 1,
+        "avgInternalCollapseTime": 151.75,
+        "avgCompetitiveCollapseTime": 1.7,
+        "survivalRate": 0.9055,
+        "steadyStateC": 0.7792207792207791,
+        "avgGrowth": 4.039266905649252,
+        "avgDecay": 5.441421420632644
+      }
+    },
+    "additionalExamples": [
+      {
+        "parameters": {
+          "mu_env": 5,
+          "mu_choice": 0,
+          "L": 5,
+          "R0": 150,
+          "rho": 0.15,
+          "beta": 0.2,
+          "tau": 2.5
+        },
+        "outcomes": {
+          "finalReach": -210.67593858036736,
+          "finalTrust": 51.545900787470906,
+          "competitiveMargin": -1199.1759385803673,
+          "internalCollapseRate": 0.1,
+          "competitiveCollapseRate": 1
+        }
+      },
+      {
+        "parameters": {
+          "mu_env": 5,
+          "mu_choice": 0,
+          "L": 5,
+          "R0": 150,
+          "rho": 0.02,
+          "beta": 0.2,
+          "tau": 0.5
+        },
+        "outcomes": {
+          "finalReach": -879.4858238455797,
+          "finalTrust": 26.671818069644196,
+          "competitiveMargin": -1866.98582384558,
+          "internalCollapseRate": 0.2,
+          "competitiveCollapseRate": 1
+        }
+      }
+    ]
+  },
+  "OVERWHELMED": {
+    "name": "The Overwhelmed",
+    "story": "Too much change, too little capacity to process it. The melt rate exceeds what even good rituals can handle. Common in hyper-growth startups or organizations facing massive external disruption without adequate time to build metabolic capacity.",
+    "characteristics": [
+      "Melt far exceeds ritual capacity",
+      "Constant overflow generates toxic waste",
+      "Even good intent cannot keep up",
+      "Need to either reduce melt or massively increase L"
+    ],
+    "exampleCount": 3,
+    "representativeExample": {
+      "parameters": {
+        "mu_env": 1,
+        "mu_choice": 8,
+        "L": 2,
+        "R0": 10,
+        "rho": 0,
+        "beta": 0.2,
+        "tau": 1.5
+      },
+      "outcomes": {
+        "finalReach": -135.059,
+        "finalTrust": 0,
+        "finalS_threshold": 12,
+        "competitiveMargin": -147.059,
+        "deltaReach": -145.059,
+        "deltaTrust": -10,
+        "internalCollapseRate": 1,
+        "competitiveCollapseRate": 1,
+        "avgInternalCollapseTime": 1,
+        "avgCompetitiveCollapseTime": null,
+        "survivalRate": 0.009999999999999998,
+        "steadyStateC": 0,
+        "avgGrowth": 2.0279999999999996,
+        "avgDecay": 74.5575
+      }
+    },
+    "additionalExamples": [
+      {
+        "parameters": {
+          "mu_env": 1,
+          "mu_choice": 8,
+          "L": 2,
+          "R0": 10,
+          "rho": 0,
+          "beta": 0.5,
+          "tau": 1.5
+        },
+        "outcomes": {
+          "finalReach": -134.82500000000002,
+          "finalTrust": 0,
+          "competitiveMargin": -146.82500000000002,
+          "internalCollapseRate": 1,
+          "competitiveCollapseRate": 1
+        }
+      },
+      {
+        "parameters": {
+          "mu_env": 1,
+          "mu_choice": 8,
+          "L": 2,
+          "R0": 10,
+          "rho": 0,
+          "beta": 1,
+          "tau": 1.5
+        },
+        "outcomes": {
+          "finalReach": -134.43499999999997,
+          "finalTrust": 0,
+          "competitiveMargin": -146.43499999999997,
+          "internalCollapseRate": 1,
+          "competitiveCollapseRate": 1
+        }
+      }
+    ]
+  },
+  "FRAGILE_SURVIVOR": {
+    "name": "The Fragile Survivor",
+    "story": "Sometimes survives, sometimes collapses—depending on the luck of rotation timing or other stochastic factors. Operating right at the edge of sustainability. A gust of wind in the wrong direction and it falls.",
+    "characteristics": [
+      "Survival depends on luck",
+      "Barely positive or neutral dynamics",
+      "No margin for error"
+    ],
+    "exampleCount": 3,
+    "representativeExample": {
+      "parameters": {
+        "mu_env": 12,
+        "mu_choice": 0,
+        "L": 18,
+        "R0": 150,
+        "rho": 0.15,
+        "beta": 3.5,
+        "tau": 1.5
+      },
+      "outcomes": {
+        "finalReach": 2888.8332098407886,
+        "finalTrust": 322.8412835198655,
+        "finalS_threshold": 2410,
+        "competitiveMargin": 478.83320984078836,
+        "deltaReach": 2878.8332098407886,
+        "deltaTrust": 172.8412835198655,
+        "internalCollapseRate": 0,
+        "competitiveCollapseRate": 0.7,
+        "avgInternalCollapseTime": null,
+        "avgCompetitiveCollapseTime": 66.14285714285714,
+        "survivalRate": 1,
+        "steadyStateC": 0.7792207792207791,
+        "avgGrowth": 19.173672910702095,
+        "avgDecay": 4.7795068614981435
+      }
+    },
+    "additionalExamples": [
+      {
+        "parameters": {
+          "mu_env": 12,
+          "mu_choice": 0,
+          "L": 12,
+          "R0": 20,
+          "rho": 0.3,
+          "beta": 3.5,
+          "tau": 1.5
+        },
+        "outcomes": {
+          "finalReach": 2878.3275839423286,
+          "finalTrust": 195.99670826699486,
+          "competitiveMargin": 468.32758394232826,
+          "internalCollapseRate": 0,
+          "competitiveCollapseRate": 0.5
+        }
+      },
+      {
+        "parameters": {
+          "mu_env": 12,
+          "mu_choice": 0,
+          "L": 12,
+          "R0": 50,
+          "rho": 0.3,
+          "beta": 3.5,
+          "tau": 1.5
+        },
+        "outcomes": {
+          "finalReach": 2878.3275839423286,
+          "finalTrust": 225.99670826699474,
+          "competitiveMargin": 468.32758394232826,
+          "internalCollapseRate": 0,
+          "competitiveCollapseRate": 0.5
+        }
+      }
+    ]
+  },
+  "DIONYSIAN_IDEAL": {
+    "name": "The Dionysian Ideal",
+    "story": "A team that has mastered the art of metabolizing error into structure. They face real challenges (high μ), have adequate ritual capacity (L), maintain trust through beauty and rotation, and grow both reach and social capital together. This is the goal state of the Dionysus Program.",
+    "characteristics": [
+      "High melt successfully converted to growth",
+      "Trust grows alongside explanatory reach",
+      "Stewardship remains healthy through rotation",
+      "Beauty provides thermal buffer for hard conversations"
+    ],
+    "exampleCount": 3,
+    "representativeExample": {
+      "parameters": {
+        "mu_env": 12,
+        "mu_choice": 5,
+        "L": 18,
+        "R0": 150,
+        "rho": 0.5,
+        "beta": 3.5,
+        "tau": 0.5
+      },
+      "outcomes": {
+        "finalReach": 5609.505327382611,
+        "finalTrust": 539.9688311228529,
+        "finalS_threshold": 2410,
+        "competitiveMargin": 3199.5053273826106,
+        "deltaReach": 5599.505327382611,
+        "deltaTrust": 389.96883112285286,
+        "internalCollapseRate": 0,
+        "competitiveCollapseRate": 0,
+        "avgInternalCollapseTime": null,
+        "avgCompetitiveCollapseTime": null,
+        "survivalRate": 1,
+        "steadyStateC": 0.9523809523809523,
+        "avgGrowth": 28.33028360256865,
+        "avgDecay": 0.3327569656555767
+      }
+    },
+    "additionalExamples": [
+      {
+        "parameters": {
+          "mu_env": 12,
+          "mu_choice": 5,
+          "L": 18,
+          "R0": 50,
+          "rho": 0.5,
+          "beta": 3.5,
+          "tau": 0.5
+        },
+        "outcomes": {
+          "finalReach": 5609.505327382611,
+          "finalTrust": 439.9688311228516,
+          "competitiveMargin": 3199.5053273826106,
+          "internalCollapseRate": 0,
+          "competitiveCollapseRate": 0
+        }
+      },
+      {
+        "parameters": {
+          "mu_env": 12,
+          "mu_choice": 5,
+          "L": 18,
+          "R0": 100,
+          "rho": 0.5,
+          "beta": 3.5,
+          "tau": 0.5
+        },
+        "outcomes": {
+          "finalReach": 5609.505327382611,
+          "finalTrust": 489.96883112285224,
+          "competitiveMargin": 3199.5053273826106,
+          "internalCollapseRate": 0,
+          "competitiveCollapseRate": 0
+        }
+      }
+    ]
+  },
+  "DEATH_SPIRAL": {
+    "name": "The Death Spiral",
+    "story": "A generic collapse where decay exceeds growth and trust evaporates. The specific cause varies but the pattern is the same: each cycle makes the next one harder until the system cannot continue.",
+    "characteristics": [
+      "Decay consistently exceeds growth",
+      "Trust depletes to zero",
+      "System cannot sustain itself"
+    ],
+    "exampleCount": 3,
+    "representativeExample": {
+      "parameters": {
+        "mu_env": 1,
+        "mu_choice": 8,
+        "L": 8,
+        "R0": 10,
+        "rho": 0.5,
+        "beta": 0.2,
+        "tau": 2.5
+      },
+      "outcomes": {
+        "finalReach": -99.39434840783744,
+        "finalTrust": 0,
+        "finalS_threshold": 21.3,
+        "competitiveMargin": -120.69434840783745,
+        "deltaReach": -109.39434840783744,
+        "deltaTrust": -10,
+        "internalCollapseRate": 1,
+        "competitiveCollapseRate": 1,
+        "avgInternalCollapseTime": 10.3,
+        "avgCompetitiveCollapseTime": 9.5,
+        "survivalRate": 0.056499999999999995,
+        "steadyStateC": 0.9523809523809523,
+        "avgGrowth": 7.331823721099065,
+        "avgDecay": 17.627719151931192
+      }
+    },
+    "additionalExamples": [
+      {
+        "parameters": {
+          "mu_env": 1,
+          "mu_choice": 8,
+          "L": 8,
+          "R0": 10,
+          "rho": 0.5,
+          "beta": 0.5,
+          "tau": 2.5
+        },
+        "outcomes": {
+          "finalReach": -87.92731217188137,
+          "finalTrust": 0,
+          "competitiveMargin": -110.62731217188139,
+          "internalCollapseRate": 1,
+          "competitiveCollapseRate": 1
+        }
+      },
+      {
+        "parameters": {
+          "mu_env": 1,
+          "mu_choice": 8,
+          "L": 8,
+          "R0": 10,
+          "rho": 0.5,
+          "beta": 0.2,
+          "tau": 1.5
+        },
+        "outcomes": {
+          "finalReach": -17.019927316653686,
+          "finalTrust": 0,
+          "competitiveMargin": -44.11992731665369,
+          "internalCollapseRate": 1,
+          "competitiveCollapseRate": 0.8
+        }
+      }
+    ]
+  },
+  "VIRTUOUS_CYCLE": {
+    "name": "The Virtuous Cycle",
+    "story": "Trust and capability reinforce each other in an upward spiral. Success builds confidence which enables harder challenges which build more capability. Often seen in tight-knit founding teams or research groups with strong shared identity. The key difference from the Dionysian Ideal is less optimal efficiency—they could push harder, but the positive reinforcement is working.",
+    "characteristics": [
+      "Trust grows significantly over time (>50% increase)",
+      "Each success enables the next challenge",
+      "Positive feedback between R and S",
+      "High beauty amplifying trust gains"
+    ],
+    "exampleCount": 3,
+    "representativeExample": {
+      "parameters": {
+        "mu_env": 12,
+        "mu_choice": 8,
+        "L": 18,
+        "R0": 20,
+        "rho": 0.5,
+        "beta": 3.5,
+        "tau": 0.5
+      },
+      "outcomes": {
+        "finalReach": 4963.390951818624,
+        "finalTrust": 339.86061356645035,
+        "finalS_threshold": 2410,
+        "competitiveMargin": 2553.3909518186233,
+        "deltaReach": 4953.390951818624,
+        "deltaTrust": 319.86061356645035,
+        "internalCollapseRate": 0,
+        "competitiveCollapseRate": 0,
+        "avgInternalCollapseTime": null,
+        "avgCompetitiveCollapseTime": null,
+        "survivalRate": 1,
+        "steadyStateC": 0.9523809523809523,
+        "avgGrowth": 29.246413602568715,
+        "avgDecay": 4.479458843475553
+      }
+    },
+    "additionalExamples": [
+      {
+        "parameters": {
+          "mu_env": 12,
+          "mu_choice": 8,
+          "L": 18,
+          "R0": 50,
+          "rho": 0.5,
+          "beta": 3.5,
+          "tau": 0.5
+        },
+        "outcomes": {
+          "finalReach": 4963.390951818624,
+          "finalTrust": 369.86061356645035,
+          "competitiveMargin": 2553.3909518186233,
+          "internalCollapseRate": 0,
+          "competitiveCollapseRate": 0
+        }
+      },
+      {
+        "parameters": {
+          "mu_env": 12,
+          "mu_choice": 8,
+          "L": 18,
+          "R0": 100,
+          "rho": 0.5,
+          "beta": 3.5,
+          "tau": 0.5
+        },
+        "outcomes": {
+          "finalReach": 4963.390951818624,
+          "finalTrust": 419.8606135664504,
+          "competitiveMargin": 2553.3909518186233,
+          "internalCollapseRate": 0,
+          "competitiveCollapseRate": 0
+        }
+      }
+    ]
+  },
+  "SLOW_DECLINE": {
+    "name": "The Slow Decline",
+    "story": "A gentler form of erosion. The organization is losing ground but at a pace that allows continued operation for a long time. May have pockets of health but systemic issues prevent overall growth.",
+    "characteristics": [
+      "Mild negative trajectory",
+      "Survivable but not thriving",
+      "Needs intervention to reverse"
+    ],
+    "exampleCount": 3,
+    "representativeExample": {
+      "parameters": {
+        "mu_env": 1,
+        "mu_choice": 0,
+        "L": 8,
+        "R0": 20,
+        "rho": 0.05,
+        "beta": 0.5,
+        "tau": 1.5
+      },
+      "outcomes": {
+        "finalReach": 209.73394222803296,
+        "finalTrust": 21.104205710780576,
+        "finalS_threshold": 210,
+        "competitiveMargin": -0.26605777196707125,
+        "deltaReach": 199.73394222803296,
+        "deltaTrust": 1.104205710780576,
+        "internalCollapseRate": 0,
+        "competitiveCollapseRate": 0.3,
+        "avgInternalCollapseTime": null,
+        "avgCompetitiveCollapseTime": 105.66666666666667,
+        "survivalRate": 1,
+        "steadyStateC": 0.5128205128205127,
+        "avgGrowth": 1.0482882506679214,
+        "avgDecay": 0.04961853952775679
+      }
+    },
+    "additionalExamples": [
+      {
+        "parameters": {
+          "mu_env": 1,
+          "mu_choice": 0,
+          "L": 8,
+          "R0": 50,
+          "rho": 0.05,
+          "beta": 0.5,
+          "tau": 1.5
+        },
+        "outcomes": {
+          "finalReach": 209.73394222803296,
+          "finalTrust": 51.104205710781216,
+          "competitiveMargin": -0.26605777196707125,
+          "internalCollapseRate": 0,
+          "competitiveCollapseRate": 0.3
+        }
+      },
+      {
+        "parameters": {
+          "mu_env": 1,
+          "mu_choice": 0,
+          "L": 8,
+          "R0": 100,
+          "rho": 0.05,
+          "beta": 0.5,
+          "tau": 1.5
+        },
+        "outcomes": {
+          "finalReach": 209.73394222803296,
+          "finalTrust": 101.10420571077994,
+          "competitiveMargin": -0.26605777196707125,
+          "internalCollapseRate": 0,
+          "competitiveCollapseRate": 0.3
+        }
+      }
+    ]
+  },
+  "OLIGARCHIC_DECAY": {
+    "name": "Oligarchic Decay",
+    "story": "The iron law of oligarchy in action. Without rotation, stewardship calcifies. Leaders protect their positions rather than serve the mission. Ritual capacity nominally exists but has been captured by a permanent priesthood who cannot allow their own forms to be questioned.",
+    "characteristics": [
+      "Very low rotation rate",
+      "Stewardship (C) drifts toward zero",
+      "Ritual exists but serves the stewards",
+      "Weber and Michels win"
+    ],
+    "exampleCount": 3,
+    "representativeExample": {
+      "parameters": {
+        "mu_env": 1,
+        "mu_choice": 5,
+        "L": 18,
+        "R0": 10,
+        "rho": 0.02,
+        "beta": 0.2,
+        "tau": 0.5
+      },
+      "outcomes": {
+        "finalReach": -72.27785177073416,
+        "finalTrust": 0,
+        "finalS_threshold": 14,
+        "competitiveMargin": -86.27785177073416,
+        "deltaReach": -82.27785177073416,
+        "deltaTrust": -10,
+        "internalCollapseRate": 1,
+        "competitiveCollapseRate": 1,
+        "avgInternalCollapseTime": 3,
+        "avgCompetitiveCollapseTime": null,
+        "survivalRate": 0.019999999999999997,
+        "steadyStateC": 0.28985507246376785,
+        "avgGrowth": 5.451683920363201,
+        "avgDecay": 26.021146863046738
+      }
+    },
+    "additionalExamples": [
+      {
+        "parameters": {
+          "mu_env": 1,
+          "mu_choice": 5,
+          "L": 18,
+          "R0": 10,
+          "rho": 0.02,
+          "beta": 0.2,
+          "tau": 1
+        },
+        "outcomes": {
+          "finalReach": -76.28064426698994,
+          "finalTrust": 0,
+          "competitiveMargin": -90.28064426698994,
+          "internalCollapseRate": 1,
+          "competitiveCollapseRate": 1
+        }
+      },
+      {
+        "parameters": {
+          "mu_env": 1,
+          "mu_choice": 5,
+          "L": 18,
+          "R0": 10,
+          "rho": 0.02,
+          "beta": 0.2,
+          "tau": 1.5
+        },
+        "outcomes": {
+          "finalReach": -80.29693211571335,
+          "finalTrust": 0,
+          "competitiveMargin": -94.29693211571335,
+          "internalCollapseRate": 1,
+          "competitiveCollapseRate": 1
+        }
+      }
+    ]
+  },
+  "MANAGEMENT_THEATER": {
+    "name": "Management Theater",
+    "story": "Rituals exceed the trust available to fill them. The organization runs elaborate postmortems, crossings, and ceremonies, but without genuine Ren these become hollow performances. The gap between Li and Ren generates toxic \"Theater\" that actively destroys trust faster than melt ever could.",
+    "characteristics": [
+      "Ritual capacity far exceeds available trust",
+      "Forms performed without substance",
+      "Each ritual makes things worse",
+      "Death by meeting culture"
+    ],
+    "exampleCount": 3,
+    "representativeExample": {
+      "parameters": {
+        "mu_env": 5,
+        "mu_choice": 8,
+        "L": 12,
+        "R0": 10,
+        "rho": 0.05,
+        "beta": 0.2,
+        "tau": 2.5
+      },
+      "outcomes": {
+        "finalReach": -91.40231239999994,
+        "finalTrust": 0,
+        "finalS_threshold": 20,
+        "competitiveMargin": -111.40231239999996,
+        "deltaReach": -101.40231239999994,
+        "deltaTrust": -10,
+        "internalCollapseRate": 1,
+        "competitiveCollapseRate": 1,
+        "avgInternalCollapseTime": 1,
+        "avgCompetitiveCollapseTime": null,
+        "survivalRate": 0.009999999999999998,
+        "steadyStateC": 0.5128205128205127,
+        "avgGrowth": 8.991632,
+        "avgDecay": 59.692788199999974
+      }
+    },
+    "additionalExamples": [
+      {
+        "parameters": {
+          "mu_env": 5,
+          "mu_choice": 8,
+          "L": 12,
+          "R0": 10,
+          "rho": 0.15,
+          "beta": 0.2,
+          "tau": 2.5
+        },
+        "outcomes": {
+          "finalReach": -91.70231239999995,
+          "finalTrust": 0,
+          "competitiveMargin": -111.70231239999995,
+          "internalCollapseRate": 1,
+          "competitiveCollapseRate": 1
+        }
+      },
+      {
+        "parameters": {
+          "mu_env": 5,
+          "mu_choice": 8,
+          "L": 12,
+          "R0": 10,
+          "rho": 0.3,
+          "beta": 0.2,
+          "tau": 2.5
+        },
+        "outcomes": {
+          "finalReach": -92.15231239999994,
+          "finalTrust": 0,
+          "competitiveMargin": -112.15231239999996,
+          "internalCollapseRate": 1,
+          "competitiveCollapseRate": 1
+        }
+      }
+    ]
+  },
+  "COMPETITIVE_COLLAPSE": {
+    "name": "Competitive Collapse",
+    "story": "Generic competitive failure where S falls below S̄. The specific cause varies but the outcome is the same: the organization is outcompeted. They may still exist as a legal entity, but they've lost the ability to solve the problems their environment presents.",
+    "characteristics": [
+      "S falls below competitive threshold",
+      "Growth insufficient for environmental pace",
+      "May have internal problems compounding the issue"
+    ],
+    "exampleCount": 3,
+    "representativeExample": {
+      "parameters": {
+        "mu_env": 1,
+        "mu_choice": 2,
+        "L": 2,
+        "R0": 150,
+        "rho": 0.02,
+        "beta": 0.2,
+        "tau": 1
+      },
+      "outcomes": {
+        "finalReach": -986.5333954151445,
+        "finalTrust": 36.50622116604916,
+        "finalS_threshold": 210,
+        "competitiveMargin": -1196.5333954151445,
+        "deltaReach": -996.5333954151445,
+        "deltaTrust": -113.49377883395084,
+        "internalCollapseRate": 0,
+        "competitiveCollapseRate": 1,
+        "avgInternalCollapseTime": null,
+        "avgCompetitiveCollapseTime": 1,
+        "survivalRate": 1,
+        "steadyStateC": 0.28985507246376785,
+        "avgGrowth": 0.7208562131477346,
+        "avgDecay": 5.703523190223455
+      }
+    },
+    "additionalExamples": [
+      {
+        "parameters": {
+          "mu_env": 1,
+          "mu_choice": 2,
+          "L": 2,
+          "R0": 100,
+          "rho": 0.05,
+          "beta": 0.2,
+          "tau": 1
+        },
+        "outcomes": {
+          "finalReach": -547.3522000787551,
+          "finalTrust": 22.555556876128687,
+          "competitiveMargin": -755.452200078755,
+          "internalCollapseRate": 0.1,
+          "competitiveCollapseRate": 1
+        }
+      },
+      {
+        "parameters": {
+          "mu_env": 1,
+          "mu_choice": 2,
+          "L": 2,
+          "R0": 150,
+          "rho": 0.05,
+          "beta": 0.2,
+          "tau": 1
+        },
+        "outcomes": {
+          "finalReach": -550.1313961409523,
+          "finalTrust": 72.01551642806538,
+          "competitiveMargin": -760.1313961409523,
+          "internalCollapseRate": 0,
+          "competitiveCollapseRate": 1
+        }
+      }
+    ]
+  },
+  "PYRRHIC_LEADER": {
+    "name": "The Pyrrhic Leader",
+    "story": "Ahead of the competition but burning through the team. This organization is winning the market—S stays above the competitive threshold—but at the cost of eroding trust. Eventually the team dissolves and the competitive lead evaporates. \"We're number one... and no one wants to work here.\"",
+    "characteristics": [
+      "Competitive position is strong (S > S̄)",
+      "Trust eroding significantly",
+      "Market success masking internal dysfunction",
+      "Clock is ticking on social capital"
+    ],
+    "exampleCount": 3,
+    "representativeExample": {
+      "parameters": {
+        "mu_env": 12,
+        "mu_choice": 5,
+        "L": 18,
+        "R0": 100,
+        "rho": 0.5,
+        "beta": 0.2,
+        "tau": 2.5
+      },
+      "outcomes": {
+        "finalReach": 3143.5365574822313,
+        "finalTrust": 80.58947752699285,
+        "finalS_threshold": 2410,
+        "competitiveMargin": 733.5365574822313,
+        "deltaReach": 3133.5365574822313,
+        "deltaTrust": -19.41052247300715,
+        "internalCollapseRate": 0,
+        "competitiveCollapseRate": 0.2,
+        "avgInternalCollapseTime": null,
+        "avgCompetitiveCollapseTime": 22,
+        "survivalRate": 1,
+        "steadyStateC": 0.9523809523809523,
+        "avgGrowth": 17.33146761568904,
+        "avgDecay": 1.663784828277884
+      }
+    },
+    "additionalExamples": [
+      {
+        "parameters": {
+          "mu_env": 12,
+          "mu_choice": 8,
+          "L": 18,
+          "R0": 50,
+          "rho": 0.5,
+          "beta": 1,
+          "tau": 0.5
+        },
+        "outcomes": {
+          "finalReach": 3082.8653983178506,
+          "finalTrust": 42.20072789753345,
+          "competitiveMargin": 777.2653983178509,
+          "internalCollapseRate": 0.1,
+          "competitiveCollapseRate": 0.2
+        }
+      },
+      {
+        "parameters": {
+          "mu_env": 12,
+          "mu_choice": 5,
+          "L": 18,
+          "R0": 100,
+          "rho": 0.3,
+          "beta": 0.2,
+          "tau": 0.5
+        },
+        "outcomes": {
+          "finalReach": 2982.2809878666753,
+          "finalTrust": 78.51247827186181,
+          "competitiveMargin": 572.2809878666752,
+          "internalCollapseRate": 0,
+          "competitiveCollapseRate": 0.2
+        }
+      }
+    ]
+  },
+  "OUTPACED": {
+    "name": "The Outpaced",
+    "story": "Tried to keep up but couldn't. Unlike the Sitting Duck, this organization engaged with change—they chose to metabolize melt—but their capacity wasn't sufficient for the environment's pace. Good team, wrong decade. Sometimes the world just moves faster than you can learn.",
+    "characteristics": [
+      "Active engagement with melt (moderate μ_choice)",
+      "Insufficient capacity (L) or trust (R) to match μ_env",
+      "Healthy internal dynamics but falling behind",
+      "Lost the race with dignity intact"
+    ],
+    "exampleCount": 3,
+    "representativeExample": {
+      "parameters": {
+        "mu_env": 5,
+        "mu_choice": 2,
+        "L": 5,
+        "R0": 100,
+        "rho": 0.3,
+        "beta": 2,
+        "tau": 0.5
+      },
+      "outcomes": {
+        "finalReach": 640.9662407855897,
+        "finalTrust": 87.03266810888633,
+        "finalS_threshold": 1010,
+        "competitiveMargin": -369.0337592144104,
+        "deltaReach": 630.9662407855897,
+        "deltaTrust": -12.967331891113673,
+        "internalCollapseRate": 0,
+        "competitiveCollapseRate": 1,
+        "avgInternalCollapseTime": null,
+        "avgCompetitiveCollapseTime": 2.3,
+        "survivalRate": 1,
+        "steadyStateC": 0.8955223880597013,
+        "avgGrowth": 6.338662997472729,
+        "avgDecay": 3.18383179354477
+      }
+    },
+    "additionalExamples": [
+      {
+        "parameters": {
+          "mu_env": 5,
+          "mu_choice": 2,
+          "L": 5,
+          "R0": 150,
+          "rho": 0.3,
+          "beta": 2,
+          "tau": 0.5
+        },
+        "outcomes": {
+          "finalReach": 640.9662407855897,
+          "finalTrust": 137.03266810888687,
+          "competitiveMargin": -369.0337592144104,
+          "internalCollapseRate": 0,
+          "competitiveCollapseRate": 1
+        }
+      },
+      {
+        "parameters": {
+          "mu_env": 5,
+          "mu_choice": 2,
+          "L": 5,
+          "R0": 10,
+          "rho": 0.5,
+          "beta": 2,
+          "tau": 0.5
+        },
+        "outcomes": {
+          "finalReach": 845.9131740776577,
+          "finalTrust": 13.307044773263561,
+          "competitiveMargin": -164.08682592234243,
+          "internalCollapseRate": 0,
+          "competitiveCollapseRate": 1
+        }
+      }
+    ]
+  },
+  "HIGH_PERFORMER": {
+    "name": "The High Performer",
+    "story": "An organization achieving strong growth in explanatory reach while maintaining trust. Not quite optimal efficiency, but sustainable and productive. They may have minor inefficiencies in ritual or beauty, but the fundamentals are sound.",
+    "characteristics": [
+      "Consistent positive growth in reach",
+      "Trust remains stable or grows",
+      "Occasional friction but no systemic breakdown"
+    ],
+    "exampleCount": 3,
+    "representativeExample": {
+      "parameters": {
+        "mu_env": 12,
+        "mu_choice": 5,
+        "L": 18,
+        "R0": 150,
+        "rho": 0.3,
+        "beta": 2,
+        "tau": 1.5
+      },
+      "outcomes": {
+        "finalReach": 3436.1491806927384,
+        "finalTrust": 224.46475657845235,
+        "finalS_threshold": 2410,
+        "competitiveMargin": 1026.1491806927386,
+        "deltaReach": 3426.1491806927384,
+        "deltaTrust": 74.46475657845235,
+        "internalCollapseRate": 0,
+        "competitiveCollapseRate": 0.3,
+        "avgInternalCollapseTime": null,
+        "avgCompetitiveCollapseTime": 52.333333333333336,
+        "survivalRate": 1,
+        "steadyStateC": 0.8955223880597013,
+        "avgGrowth": 22.345846790901845,
+        "avgDecay": 5.215100887438129
+      }
+    },
+    "additionalExamples": [
+      {
+        "parameters": {
+          "mu_env": 8,
+          "mu_choice": 8,
+          "L": 18,
+          "R0": 100,
+          "rho": 0.3,
+          "beta": 1,
+          "tau": 1
+        },
+        "outcomes": {
+          "finalReach": 3332.312325690892,
+          "finalTrust": 136.7246731510077,
+          "competitiveMargin": 1722.3123256908916,
+          "internalCollapseRate": 0,
+          "competitiveCollapseRate": 0
+        }
+      },
+      {
+        "parameters": {
+          "mu_env": 8,
+          "mu_choice": 8,
+          "L": 18,
+          "R0": 150,
+          "rho": 0.3,
+          "beta": 1,
+          "tau": 1
+        },
+        "outcomes": {
+          "finalReach": 3332.312325690892,
+          "finalTrust": 186.72467315100593,
+          "competitiveMargin": 1722.3123256908916,
+          "internalCollapseRate": 0,
+          "competitiveCollapseRate": 0
+        }
+      }
+    ]
+  },
+  "MODERATE_GROWTH": {
+    "name": "Moderate Growth",
+    "story": "A healthy but unspectacular trajectory. Growth exceeds decay, trust is maintained, nothing is dramatically wrong or right. The organizational equivalent of a solid B+.",
+    "characteristics": [
+      "Positive but modest growth",
+      "Sustainable dynamics",
+      "Room for optimization"
+    ],
+    "exampleCount": 3,
+    "representativeExample": {
+      "parameters": {
+        "mu_env": 12,
+        "mu_choice": 8,
+        "L": 18,
+        "R0": 100,
+        "rho": 0.5,
+        "beta": 1,
+        "tau": 0.5
+      },
+      "outcomes": {
+        "finalReach": 3243.0136810792874,
+        "finalTrust": 92.9889321259767,
+        "finalS_threshold": 2410,
+        "competitiveMargin": 833.0136810792868,
+        "deltaReach": 3233.0136810792874,
+        "deltaTrust": -7.011067874023297,
+        "internalCollapseRate": 0,
+        "competitiveCollapseRate": 0.2,
+        "avgInternalCollapseTime": null,
+        "avgCompetitiveCollapseTime": 22,
+        "survivalRate": 1,
+        "steadyStateC": 0.9523809523809523,
+        "avgGrowth": 20.64452724887198,
+        "avgDecay": 4.479458843475553
+      }
+    },
+    "additionalExamples": [
+      {
+        "parameters": {
+          "mu_env": 12,
+          "mu_choice": 8,
+          "L": 18,
+          "R0": 150,
+          "rho": 0.5,
+          "beta": 1,
+          "tau": 0.5
+        },
+        "outcomes": {
+          "finalReach": 3243.0136810792874,
+          "finalTrust": 142.98893212597716,
+          "competitiveMargin": 833.0136810792868,
+          "internalCollapseRate": 0,
+          "competitiveCollapseRate": 0.2
+        }
+      },
+      {
+        "parameters": {
+          "mu_env": 8,
+          "mu_choice": 8,
+          "L": 18,
+          "R0": 50,
+          "rho": 0.3,
+          "beta": 0.2,
+          "tau": 0.5
+        },
+        "outcomes": {
+          "finalReach": 3025.5612268449922,
+          "finalTrust": 44.22930088969449,
+          "competitiveMargin": 1415.5612268449918,
+          "internalCollapseRate": 0,
+          "competitiveCollapseRate": 0
+        }
+      }
+    ]
+  },
+  "CHURN_MACHINE": {
+    "name": "The Churn Machine",
+    "story": "Rotation so high that stewardship never has time to decay—but also never has time to build institutional memory. Constant leadership turnover prevents oligarchy but also prevents deep expertise. Everything is always starting over.",
+    "characteristics": [
+      "Very high rotation rate",
+      "Stewardship always near 1.0",
+      "No oligarchy but no continuity",
+      "Perpetual restart"
+    ],
+    "exampleCount": 3,
+    "representativeExample": {
+      "parameters": {
+        "mu_env": 12,
+        "mu_choice": 5,
+        "L": 18,
+        "R0": 100,
+        "rho": 0.5,
+        "beta": 0.2,
+        "tau": 1.5
+      },
+      "outcomes": {
+        "finalReach": 3276.639343744462,
+        "finalTrust": 93.89975615321569,
+        "finalS_threshold": 2410,
+        "competitiveMargin": 866.6393437444618,
+        "deltaReach": 3266.639343744462,
+        "deltaTrust": -6.100243846784309,
+        "internalCollapseRate": 0,
+        "competitiveCollapseRate": 0.2,
+        "avgInternalCollapseTime": null,
+        "avgCompetitiveCollapseTime": 22.5,
+        "survivalRate": 1,
+        "steadyStateC": 0.9523809523809523,
+        "avgGrowth": 17.33146761568904,
+        "avgDecay": 0.9982708969667302
+      }
+    },
+    "additionalExamples": [
+      {
+        "parameters": {
+          "mu_env": 12,
+          "mu_choice": 5,
+          "L": 18,
+          "R0": 150,
+          "rho": 0.5,
+          "beta": 0.2,
+          "tau": 1.5
+        },
+        "outcomes": {
+          "finalReach": 3276.639343744462,
+          "finalTrust": 143.8997561532164,
+          "competitiveMargin": 866.6393437444618,
+          "internalCollapseRate": 0,
+          "competitiveCollapseRate": 0.2
+        }
+      },
+      {
+        "parameters": {
+          "mu_env": 12,
+          "mu_choice": 5,
+          "L": 18,
+          "R0": 150,
+          "rho": 0.5,
+          "beta": 0.2,
+          "tau": 2.5
+        },
+        "outcomes": {
+          "finalReach": 3143.5365574822313,
+          "finalTrust": 130.589477526993,
+          "competitiveMargin": 733.5365574822313,
+          "internalCollapseRate": 0,
+          "competitiveCollapseRate": 0.2
+        }
+      }
+    ]
+  },
+  "GAMBLER": {
+    "name": "The Gambler",
+    "story": "Bet big on disruption, hoping to outrun the competition. High μ_choice creates volatile outcomes—sometimes spectacular growth, sometimes catastrophic failure. This is the \"move fast and break things\" philosophy. When it works, it looks like genius. When it fails, it looks like recklessness.",
+    "characteristics": [
+      "μ_choice exceeds μ_env (deliberately aggressive)",
+      "High variance in outcomes across trials",
+      "Betting on speed over stability",
+      "Success depends heavily on execution and luck"
+    ],
+    "exampleCount": 3,
+    "representativeExample": {
+      "parameters": {
+        "mu_env": 3,
+        "mu_choice": 5,
+        "L": 12,
+        "R0": 150,
+        "rho": 0.15,
+        "beta": 1,
+        "tau": 1.5
+      },
+      "outcomes": {
+        "finalReach": 1389.7359254753887,
+        "finalTrust": 143.6071141610779,
+        "finalS_threshold": 610,
+        "competitiveMargin": 779.7359254753889,
+        "deltaReach": 1379.7359254753887,
+        "deltaTrust": -6.392885838922098,
+        "internalCollapseRate": 0,
+        "competitiveCollapseRate": 0.3,
+        "avgInternalCollapseTime": null,
+        "avgCompetitiveCollapseTime": 50.666666666666664,
+        "survivalRate": 1,
+        "steadyStateC": 0.7792207792207791,
+        "avgGrowth": 9.022904899153882,
+        "avgDecay": 2.124225271776953
+      }
+    },
+    "additionalExamples": [
+      {
+        "parameters": {
+          "mu_env": 5,
+          "mu_choice": 8,
+          "L": 12,
+          "R0": 100,
+          "rho": 0.5,
+          "beta": 2,
+          "tau": 2.5
+        },
+        "outcomes": {
+          "finalReach": 1796.3285955257652,
+          "finalTrust": 85.9506052297716,
+          "competitiveMargin": 786.328595525765,
+          "internalCollapseRate": 0,
+          "competitiveCollapseRate": 0.3
+        }
+      },
+      {
+        "parameters": {
+          "mu_env": 5,
+          "mu_choice": 8,
+          "L": 12,
+          "R0": 150,
+          "rho": 0.5,
+          "beta": 2,
+          "tau": 2.5
+        },
+        "outcomes": {
+          "finalReach": 1796.3285955257652,
+          "finalTrust": 135.9506052297702,
+          "competitiveMargin": 786.328595525765,
+          "internalCollapseRate": 0,
+          "competitiveCollapseRate": 0.3
+        }
+      }
+    ]
+  }
+}

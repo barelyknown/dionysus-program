@@ -598,11 +598,23 @@ In this model, Structure ($S$) is defined as Explanatory Reach: the range of pro
 * The Reach Delta ($\Delta S_t$): We are optimizing for the rate at which this reach expands per cycle.
 * Decay as Amnesia: When toxicity hits, we don't just "feel bad"; we lose reach. We forget how to solve problems we used to handle (institutional amnesia) as the social structures holding that knowledge dissolve.
 
-### Variables: Controllable Inputs
+### Variables: Inputs and Environment
 
-These are the seven inputs that define the specific state of your organization at cycle $t$. You can influence these directly.
+These inputs define the state of your organization at cycle $t$. Some you control; some you don't.
 
-* $\mu_t$ — Melt Rate: The intensity of exogenous disruption (entropy/falsification) hitting the system at time $t$.
+#### Melt Rate ($\mu_t$)
+
+Melt has two components:
+
+* $\mu^{\text{env}}_t$ — Environmental Melt: The disruption the world imposes on you—market shifts, technological change, competitor moves, regulatory upheaval. This is **not a choice**. It is weather.
+
+* $\mu^{\text{choice}}_t$ — Chosen Melt: The disruption you deliberately take on—R&D, experimentation, creative destruction, entering new markets. This **is** a choice.
+
+$$\mu_t = \mu^{\text{env}}_t + \mu^{\text{choice}}_t$$
+
+The critical insight: you cannot escape environmental melt by ignoring it. If $\mu^{\text{env}}$ is high, you must either build the capacity to metabolize it or be outcompeted by those who do.
+
+#### Controllable Inputs
 
 * $L_t$ — Li: The architectural capacity of the ritual forms (e.g., Crossings, Postmortems) at time $t$.
 
@@ -699,6 +711,27 @@ We update the core stocks of the system based on the flows calculated above.
 
    $$C^* = \frac{\rho}{1 - (1-\rho)(1-\delta)}$$
 
+4. Competitive Threshold ($\bar{S}$):
+   The minimum explanatory reach required to survive in your environment. This rises with cumulative environmental melt—every problem the world generates that you don't solve, someone else will.
+
+   $$\bar{S}_{t+1} = \bar{S}_t + \mu^{\text{env}}_t$$
+
+   Or equivalently: $\bar{S}_t = S_0 + \sum_{i=0}^{t-1} \mu^{\text{env}}_i$
+
+### Failure Conditions
+
+The system can fail in two distinct ways:
+
+1. **Internal Collapse** (Trust Death Spiral): $R_t \leq 0$
+
+   The organization burns through its social capital. Even if it was winning competitively, the team dissolves.
+
+2. **Competitive Collapse** (Outpaced): $S_t < \bar{S}_t$
+
+   The organization falls behind the cumulative demands of its environment. Even with healthy trust, it becomes irrelevant—outcompeted by others who metabolized the same environmental melt into structure.
+
+An organization can collapse internally while ahead competitively (burned the team but was winning), collapse competitively while internally healthy (good culture, obsolete capabilities), or both. Survival requires $R_t > 0$ **and** $S_t \geq \bar{S}_t$.
+
 ### Diagnostic: Epimetabolic Rate ($\Phi$)
 
 Finally, we define the scalar diagnostic for the system. This metric answers: "How much structure did we gain per unit of trust we burned?"
@@ -710,6 +743,210 @@ $$\Phi_t = \frac{\max(0, \Delta S_t)}{\max(\epsilon, \quad R_t - R_{t+1})}$$
 * Low $\Phi$ (The Pyre): You are buying small improvements at the cost of massive social damage. You are burning the furniture to heat the house.
 
 [Explore the interactive simulation →](simulation.html){.sim-link}
+
+---
+
+\newpage
+
+## Archetypes: The Space of Organizational Fates
+
+The Epimetabolic Equation generates a finite taxonomy of qualitatively distinct trajectories. These are not personality types or value judgments—they are dynamical attractors. Given a configuration of parameters, your organization will tend toward one of these fates. Understanding which attractor you're approaching is the first step toward changing course.
+
+Each archetype below describes: the **situation** (what parameters look like), the **dynamics** (what happens mechanically), and the **outcome** (where you end up). Links let you watch each pattern unfold in the simulator.
+
+### Thriving Archetypes
+
+**The Dionysian Ideal** — [See simulation](simulation.html?archetype=DIONYSIAN_IDEAL)
+
+A research lab that runs weekly "murder boards" where any project can be challenged, but the challenges come wrapped in genuine curiosity and the room shares wine afterward. A startup where the postmortem for a failed launch becomes the origin story everyone tells with pride. An investment committee that rotates the devil's advocate role and treats the best dissent as a gift. These organizations have learned to *want* the melt—to seek out the hardest problems and the sharpest critics—because they've built the ritual capacity to turn that heat into growth. They get stronger every time something breaks.
+
+*Situation:* High environmental melt ($\mu^{\text{env}}$), high ritual capacity ($L$), high beauty ($\beta$), adequate rotation ($\rho$), and robust initial trust ($R_0$). The organization faces real challenges and has built the infrastructure to metabolize them.
+
+*Dynamics:* Each cycle, Omega ($\min(L \cdot C, R)$) is large enough to absorb most of the melt. Growth $G$ compounds because beauty amplifies it ($1 + \lambda \beta$). Decay $D$ stays low because overflow is minimal and there's no theater (rituals don't exceed trust). Trust actually *grows* because $\alpha \beta G > \gamma D$—successful metabolism deposits new social capital.
+
+*Outcome:* Explanatory reach $S$ climbs well above the competitive threshold $\bar{S}$. Trust $R$ increases over time. The organization gets stronger the more disruption it faces. This is the goal state of the Dionysus Program.
+
+---
+
+**The High Performer** — [See simulation](simulation.html?archetype=HIGH_PERFORMER)
+
+A well-run engineering team that ships consistently, holds decent retros, and maintains a healthy culture—but the retros are a bit rote, the celebrations a bit perfunctory. A consulting firm where partners trust each other and clients keep coming back, but nobody would call the work environment *beautiful*. These organizations do most things right. They're not broken. They're just not transcendent. They win by showing up and executing, not by turning disruption into fuel.
+
+*Situation:* Similar to the Dionysian Ideal but with slightly lower beauty or less frequent rotation. The fundamentals are sound but not optimized.
+
+*Dynamics:* Growth exceeds decay consistently. Trust remains stable or grows modestly. Some inefficiency creeps in—perhaps stewardship drifts a bit between rotations, or lower beauty means less amplification—but nothing breaks.
+
+*Outcome:* Strong positive trajectory on $S$, staying ahead of $\bar{S}$. Sustainable but leaving performance on the table. The organizational B+.
+
+---
+
+**The Virtuous Cycle** — [See simulation](simulation.html?archetype=VIRTUOUS_CYCLE)
+
+Three founders in a garage who barely know each other but commit from day one to radical honesty and beautiful ritual—Friday demos with real feedback, Monday planning with real dissent, and a norm that the person who was most wrong last week opens the next meeting. They start with almost no trust, but every successful collision deposits more. Within a year, they can have conversations that would destroy most teams. The early investment in *how* they work together compounds into a capacity that lets them take on problems far above their weight class.
+
+*Situation:* High beauty, high rotation, but starting from low initial trust ($R_0$). A young team or new initiative that hasn't accumulated social capital yet.
+
+*Dynamics:* The key is that $\alpha \beta G$ is large relative to $\gamma D$. Each successful metabolism deposits significant trust because beauty amplifies the earn rate. As $R$ grows, Omega grows, allowing more melt to be processed, generating more growth, depositing more trust. Positive feedback takes hold.
+
+*Outcome:* Both $S$ and $R$ curve upward together. The organization bootstraps from fragility to robustness. Often seen in tight founding teams who invest heavily in ritual and aesthetics from day one.
+
+---
+
+**Moderate Growth** — [See simulation](simulation.html?archetype=MODERATE_GROWTH)
+
+A mid-sized company where things basically work. Meetings happen, decisions get made, products ship. Nobody writes blog posts about the culture, but nobody dreads Monday either. The organization grows, solves problems, maintains its position. It's the statistical middle of the distribution—neither optimized nor dysfunctional, neither inspiring nor dispiriting. Most healthy organizations live here most of the time.
+
+*Situation:* Adequate capacity across the board, nothing exceptional. Moderate beauty, moderate rotation, reasonable trust.
+
+*Dynamics:* Growth exceeds decay by a comfortable margin. No single parameter is a bottleneck, but none is a lever either. The system hums along.
+
+*Outcome:* Steady positive trajectory. $S$ stays above $\bar{S}$ with margin to spare. Not exciting, but sustainable. Many healthy mature organizations live here.
+
+---
+
+### Edge Case Archetypes
+
+**The Fragile Survivor** — [See simulation](simulation.html?archetype=FRAGILE_SURVIVOR)
+
+A team operating right at the edge—enough capacity to handle normal variation, but no buffer for bad luck. When the critical leader happens to be present during the crisis, they pull through. When the crisis hits during a transition, they don't. Run the tape ten times and you get five survivals and five collapses. The organization isn't broken; it's just one unlucky quarter away from breaking. Every success feels like a near miss because it was.
+
+*Situation:* Parameters are tuned such that outcomes depend heavily on stochastic factors—particularly the timing of stewardship resets. Rotation rate is moderate, and the system is operating near its limits.
+
+*Dynamics:* In good runs, $C$ resets at fortuitous moments, keeping Omega high when it matters. In bad runs, $C$ drifts low during high-melt periods, causing overflow and decay spikes. The margin between growth and decay is thin.
+
+*Outcome:* Sometimes survives, sometimes collapses—depending on luck. No margin for error. A gust of wind in the wrong direction and it falls.
+
+---
+
+**The Gambler** — [See simulation](simulation.html?archetype=GAMBLER)
+
+A startup that deliberately takes on more disruption than anyone asked for—pivoting quarterly, rewriting the core product annually, treating every assumption as a hypothesis to be destroyed. When the bets pay off, they leapfrog competitors who were playing it safe. When the bets don't pay off, they burn through runway, trust, and talent simultaneously. The founders will later either be on magazine covers or cautionary tales, and the difference has as much to do with timing and luck as with skill.
+
+*Situation:* Chosen melt ($\mu^{\text{choice}}$) exceeds environmental melt ($\mu^{\text{env}}$). The organization deliberately takes on more disruption than the environment demands—aggressive R&D, constant experimentation, "move fast and break things."
+
+*Dynamics:* High total melt creates high potential growth but also high overflow risk. When capacity keeps up, growth is spectacular. When it doesn't, decay compounds. The variance across runs is enormous.
+
+*Outcome:* Bimodal: either dramatic success or dramatic failure. When it works, it looks like genius. When it fails, it looks like recklessness. The startup death-or-glory trajectory.
+
+---
+
+### Pyrrhic Archetypes
+
+**The Pyrrhic Leader** — [See simulation](simulation.html?archetype=PYRRHIC_LEADER)
+
+The company that's crushing its quarterly numbers while hemorrhaging talent. Glassdoor reviews mention "great for your resume, terrible for your soul." The exec team points to market share; the HR team quietly tracks the attrition. Every all-hands meeting celebrates wins that everyone knows came at a cost nobody will name out loud. The organization is winning—and everyone inside knows it can't last. They're spending down a trust account that took years to build and will take years to rebuild, if it can be rebuilt at all.
+
+*Situation:* High melt, high capacity, but very low beauty ($\beta$). The organization can process disruption but does so brutally—no aesthetic buffer, no warmth in the rituals.
+
+*Dynamics:* Growth happens because Omega is adequate. But trust erodes because the earn rate ($\alpha \beta G$) is suppressed by low beauty while the burn rate ($\gamma D$) isn't. Each cycle, the organization gains reach but loses social capital. Critically, $S$ stays above $\bar{S}$—they're winning competitively.
+
+*Outcome:* Market success masking internal dysfunction. "We're number one... and no one wants to work here." Eventually $R$ depletes and the team dissolves, but until then, the dashboards look great.
+
+---
+
+**The Churn Machine** — [See simulation](simulation.html?archetype=CHURN_MACHINE)
+
+A company that reorganizes every six months. New leaders, new priorities, new structures—the org chart is a living document that nobody bothers to memorize. This prevents any particular faction from calcifying into permanence, which is good. But it also means nobody accumulates the deep context needed to make hard tradeoffs wisely. Every new leader starts from scratch, reinvents wheels, makes mistakes their predecessor already learned from. The organization never gets captured by an oligarchy, but it also never builds on its own history. Progress is real but feels like running on a treadmill.
+
+*Situation:* Very high rotation rate ($\rho$), low beauty. Stewardship resets constantly—new leaders, new initiatives, perpetual reorganization.
+
+*Dynamics:* $C$ never drifts far because it's always being reset. This prevents oligarchic decay. But it also prevents institutional memory from accumulating. Low beauty means trust doesn't grow even when metabolism succeeds. The organization is always starting over.
+
+*Outcome:* Survives but never compounds. No calcification, but no depth either. Growth is real but feels Sisyphean.
+
+---
+
+### Decline Archetypes
+
+**The Slow Decline** — [See simulation](simulation.html?archetype=SLOW_DECLINE)
+
+A department that used to be central and is now a backwater. Nothing dramatic happened—no layoffs, no scandals, no visible failure. Just a slow fade. The best people quietly transferred to other teams. The rituals got a little staler each year. The problems got a little less interesting. Nobody decided to let it die; it just stopped mattering. Ten years from now, someone will ask why this team still exists, and nobody will have a good answer. The decline is so gradual that at no single moment does intervention feel urgent—which is exactly why intervention never comes.
+
+*Situation:* Low environmental melt, low chosen melt, modest capacity. The organization isn't facing much disruption and isn't seeking any.
+
+*Dynamics:* With low total melt, growth is modest. But decay, while also low, slightly exceeds growth—perhaps due to theater from underutilized ritual capacity, or stewardship drift in a low-rotation environment. The gap is small but persistent.
+
+*Outcome:* $S$ falls slowly relative to $\bar{S}$ (which rises slowly given low $\mu^{\text{env}}$). Survivable for a long time. The organization doesn't notice it's dying because quarterly changes are within noise. The frog in warming water.
+
+---
+
+### Competitive Collapse Archetypes
+
+These organizations fail not because trust evaporates, but because they fall behind the cumulative demands of their environment. The team is fine; the product is obsolete.
+
+**The Sitting Duck** — [See simulation](simulation.html?archetype=SITTING_DUCK)
+
+A newspaper that had a great newsroom, loyal subscribers, and a culture reporters loved—and decided not to invest in digital because "our readers prefer print." A retailer with excellent customer service and deep community roots that watched e-commerce grow and chose not to compete. A law firm with brilliant partners who dismissed legal tech as "not how serious work gets done." The world changed; they didn't. Their trust was fine. Their rituals were fine. Their culture was fine. They just became irrelevant. When the end came, longtime employees were genuinely confused: "But we were doing everything right." They were—by the standards of a world that no longer existed.
+
+*Situation:* High environmental melt ($\mu^{\text{env}}$) but near-zero chosen melt ($\mu^{\text{choice}}$). The world is changing rapidly, but the organization has decided not to engage with it.
+
+*Dynamics:* With low total melt, the organization avoids overflow and decay. Trust may even be healthy. But $\bar{S}$ rises by $\mu^{\text{env}}$ every cycle while $S$ barely grows. The gap widens inexorably.
+
+*Outcome:* Competitive collapse with trust intact. "We had a great team. Then the industry moved on without us." The organization chose stability while the world chose disruption. Disruption happened *to* them, not *with* them.
+
+---
+
+**The Outpaced** — [See simulation](simulation.html?archetype=OUTPACED)
+
+A company that saw the disruption coming and tried to respond—hired consultants, launched initiatives, created innovation labs. They *wanted* to transform. But they couldn't metabolize change fast enough. The new skills took longer to build than the market gave them. The pilots succeeded but couldn't scale. The culture adapted but not at the pace the environment demanded. Unlike the Sitting Duck, they engaged; unlike the winners, they couldn't keep up. There's no villain in this story, no decision that was obviously wrong at the time. They simply lost a race where second place and last place pay the same.
+
+*Situation:* Moderate environmental melt, some chosen melt—the organization is trying to keep up. But capacity ($L$) or trust ($R_0$) is insufficient for the pace the environment sets.
+
+*Dynamics:* The organization engages with change but can't metabolize it fast enough. Overflow generates some decay. Growth is positive but slower than $\mu^{\text{env}}$. Each cycle, $\bar{S}$ pulls further ahead.
+
+*Outcome:* Lost the race with dignity intact. Trust didn't collapse; they simply couldn't learn fast enough. Good team, wrong decade. Sometimes the world just moves faster than you can adapt.
+
+---
+
+### Internal Collapse Archetypes
+
+These organizations fail because trust evaporates—the team dissolves even if the competitive position was viable.
+
+**Management Theater** — [See simulation](simulation.html?archetype=MANAGEMENT_THEATER)
+
+The calendar is full of meetings with important names: Strategy Reviews, Alignment Sessions, Culture Conversations. Slide decks are polished. Facilitators are trained. The problem is that no one believes any of it. Everyone knows the real decisions happen elsewhere—in Slack DMs, in the CEO's head, in the politics between two SVPs. The rituals continue because stopping them would be an admission, and admissions are dangerous. So people show up, say the expected things, and leave. Each hollow ceremony makes the next one harder to take seriously. The organization is dying of its own process—not because it has too much structure, but because the structure has become untethered from any actual collective sense-making. The forms are observed; the substance is absent.
+
+*Situation:* High ritual capacity ($L$) relative to available trust ($R_0$). The organization has elaborate ceremonies—postmortems, all-hands, planning cycles—but not the social capital to fill them authentically.
+
+*Dynamics:* Theater $= \max(0, L \cdot C - R)$ is large. This generates decay via $\kappa \cdot \text{Theater} / \beta$, which burns trust directly. Each hollow ritual makes the next one worse. The gap between $L \cdot C$ and $R$ widens as $R$ falls.
+
+*Outcome:* Rapid trust collapse. The rituals that were supposed to build alignment instead accelerate dissolution. Death by meeting culture. The forms are observed; the substance is absent.
+
+---
+
+**The Overwhelmed** — [See simulation](simulation.html?archetype=OVERWHELMED)
+
+The pitch deck promised hypergrowth and the market delivered. Now the team is doubling every quarter, the product is being rebuilt while customers use it, and the competitive landscape shifts weekly. There's no time to document anything, no time to onboard properly, no time to process the last pivot before the next one. Good people are burning out or quitting. Institutional knowledge walks out the door faster than it accumulates. The founders know this is unsustainable, but the alternative—slowing down—feels like death. They're not wrong: in their market, it might be. This is the tragedy of organizations that succeed too fast for their own infrastructure. The melt rate isn't a choice; it's a condition of survival. The only question is whether they can build capacity faster than complexity accumulates.
+
+*Situation:* Very high melt (environmental, chosen, or both) relative to capacity. A hyper-growth startup, or an organization facing massive external disruption without time to build infrastructure.
+
+*Dynamics:* Overflow $= \max(0, \mu - \Omega)$ is persistently large. This generates decay via $\text{Overflow}^2 \cdot \tau$—the quadratic term makes high overflow devastating. Even good intentions can't keep up. Trust burns faster than metabolism can deposit it.
+
+*Outcome:* Rapid internal collapse. The melt rate simply exceeds what the system can handle. The only solutions are: reduce melt (if possible), massively increase $L$ (takes time), or accept that this configuration is unsurvivable.
+
+---
+
+**Oligarchic Decay** — [See simulation](simulation.html?archetype=OLIGARCHIC_DECAY)
+
+The founding team was brilliant. They built the culture, designed the rituals, embodied the values. The problem is that they never left. Twenty years later, the same people run the same meetings, and something has calcified. The rituals still happen, but they've become performances for an audience of one—the permanent leadership—rather than genuine collective sense-making. New ideas get filtered through "what will the founders think." Talented people join, realize the ceiling, and leave. The organization has become a court, not a team. Michels called this the iron law of oligarchy: every organization tends toward rule by a self-perpetuating elite. The only antidote is rotation, but by the time the pattern is visible, the incumbents have every incentive to resist it. They're not bad people; they're just people who've confused their presence with the organization's health.
+
+*Situation:* Very low rotation rate ($\rho$), substantial ritual capacity. Leaders stay in place; stewardship is not refreshed.
+
+*Dynamics:* $C$ drifts toward zero as $(1-\delta)^t$ compounds. Omega shrinks even though $L$ and $R$ haven't changed. Overflow grows. The rituals nominally exist but have been captured by a permanent priesthood who cannot allow their own forms to be questioned. Weber and Michels were right.
+
+*Outcome:* Internal collapse via stewardship failure. The iron law of oligarchy in action. The solution is rotation—but by the time this pattern is visible, the incumbents have strong incentives to resist it.
+
+---
+
+**The Death Spiral** — [See simulation](simulation.html?archetype=DEATH_SPIRAL)
+
+It started with a bad quarter. Then the best engineer left. Then the budget got cut, which meant fewer resources for the rituals that might have helped, which meant more informal politics, which meant more burnout, which meant more departures. Each problem makes the next one worse. The organization is caught in a vortex where declining trust reduces capacity, reduced capacity increases overflow, overflow accelerates decay, and decay burns what trust remains. No single parameter is fatal. The death spiral is an emergent property of their interaction—a system that has crossed into a regime where all the feedback loops point the same direction: down. By the time leadership recognizes the pattern, the intervention required is usually larger than what the remaining trust can support. This is the generic attractor for undercapitalized organizations facing disruption. Most organizations that fail, fail this way.
+
+*Situation:* Multiple compounding failures: high melt, low capacity, low beauty, some theater. No single parameter is catastrophic, but the combination is.
+
+*Dynamics:* Decay exceeds growth consistently. Trust falls, which shrinks Omega, which increases overflow, which accelerates decay, which burns more trust. Negative feedback takes hold.
+
+*Outcome:* Rapid collapse. Each cycle makes the next one harder until the system cannot continue. This is the generic attractor for undercapitalized organizations facing disruption without adequate ritual infrastructure.
 
 ---
 
