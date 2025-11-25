@@ -1,9 +1,8 @@
 ---
 title: "The Dionysus Program"
 author: "Sean Devine"
-date: "2025-11-03"
 description: "Move fast by breaking things—and mending them into something stronger."
-rights: "© 2025 Sean Devine. All rights reserved."
+rights: "© 2025. All rights reserved."
 ---
 
 ::: dedication
