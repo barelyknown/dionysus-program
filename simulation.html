@@ -123,7 +123,7 @@ function EpimetabolicSimulation() {
       S = S + deltaS;
 
       var R_prev = R;
-      R = Math.max(0, R + (inputs.alpha * safeBeta * G) - (inputs.gamma * D));
+      R = Math.max(0, R + (inputs.alpha * inputs.beta * G) - (inputs.gamma * D));
 
       var isReset = randomVals[t] < inputs.rho;
       var C_prev = C;
