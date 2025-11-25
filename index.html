@@ -8,6 +8,7 @@
   <meta name="description" content="Move fast by breaking things—and
 mending them into something stronger.">
   <link rel="stylesheet" href="styles.css">
+  <script id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
 </head>
 <body>
   <main>
@@ -105,6 +106,28 @@ them into something stronger.</p>
       <li><a href="#pro-fractal"
       id="toc-pro-fractal">Pro-Fractal</a></li>
       <li><a href="#touch-down" id="toc-touch-down">Touch Down</a></li>
+      </ul></li>
+      <li><a href="#the-epimetabolic-equation"
+      id="toc-the-epimetabolic-equation">The Epimetabolic Equation</a>
+      <ul>
+      <li><a href="#a-mathematical-model-of-the-dionysus-program"
+      id="toc-a-mathematical-model-of-the-dionysus-program">A
+      Mathematical Model of The Dionysus Program</a></li>
+      <li><a href="#objective-explanatory-reach-s"
+      id="toc-objective-explanatory-reach-s">Objective: Explanatory
+      Reach (<span class="math inline"><em>S</em></span>)</a></li>
+      <li><a href="#variables-controllable-inputs"
+      id="toc-variables-controllable-inputs">Variables: Controllable
+      Inputs</a></li>
+      <li><a href="#constants-fixed-parameters"
+      id="toc-constants-fixed-parameters">Constants: Fixed
+      Parameters</a></li>
+      <li><a href="#equations-system-dynamics"
+      id="toc-equations-system-dynamics">Equations: System
+      Dynamics</a></li>
+      <li><a href="#diagnostic-epimetabolic-rate-phi"
+      id="toc-diagnostic-epimetabolic-rate-phi">Diagnostic: Epimetabolic
+      Rate (<span class="math inline"><em>Φ</em></span>)</a></li>
       </ul></li>
       <li><a href="#appendix-a-minimum-viable-program"
       id="toc-appendix-a-minimum-viable-program">Appendix A: Minimum
@@ -1170,6 +1193,187 @@ for volatility; keep the shape self-similar.</p></li>
 becoming more human under accelerating truth. It treats knowledge growth
 as a gift to be honored with form. It shows how to make speed civil. It
 makes repair a public art.</p>
+<hr />
+<h2 id="the-epimetabolic-equation">The Epimetabolic Equation</h2>
+<h3 id="a-mathematical-model-of-the-dionysus-program">A Mathematical
+Model of The Dionysus Program</h3>
+<p>This model quantifies the central thesis of the program: that an
+organization’s ability to improve is not determined by its raw
+intelligence or resources, but by its Epimetabolic Rate—the speed at
+which it can digest error into new structure without destroying its
+social fabric.</p>
+<h3 id="objective-explanatory-reach-s">Objective: Explanatory Reach
+(<span class="math inline"><em>S</em></span>)</h3>
+<p>In this model, Structure (<span
+class="math inline"><em>S</em></span>) is defined as Explanatory Reach:
+the range of problem-classes the organization can successfully address
+with its current explanations, roles, and commitments.</p>
+<ul>
+<li>The Reach Delta (<span
+class="math inline"><em>Δ</em><em>S</em><sub><em>t</em></sub></span>):
+We are optimizing for the rate at which this reach expands per
+cycle.</li>
+<li>Decay as Amnesia: When toxicity hits, we don’t just “feel bad”; we
+lose reach. We forget how to solve problems we used to handle
+(institutional amnesia) as the social structures holding that knowledge
+dissolve.</li>
+</ul>
+<h3 id="variables-controllable-inputs">Variables: Controllable
+Inputs</h3>
+<p>These are the seven inputs that define the specific state of your
+organization at cycle <span class="math inline"><em>t</em></span>. You
+can influence these directly.</p>
+<ul>
+<li><p><span class="math inline"><em>μ</em><sub><em>t</em></sub></span>
+— Melt Rate: The intensity of exogenous disruption
+(entropy/falsification) hitting the system at time <span
+class="math inline"><em>t</em></span>.</p></li>
+<li><p><span class="math inline"><em>L</em><sub><em>t</em></sub></span>
+— Li: The architectural capacity of the ritual forms (e.g., Crossings,
+Postmortems) at time <span
+class="math inline"><em>t</em></span>.</p></li>
+<li><p><span class="math inline"><em>R</em><sub><em>t</em></sub></span>
+— Ren: The density of trust and shared history (Asabiyyah) at time <span
+class="math inline"><em>t</em></span>. This is the state variable of
+social capital.</p></li>
+<li><p><span class="math inline"><em>C</em><sub><em>t</em></sub></span>
+— Cincinnatus: The integrity coefficient of stewardship at time <span
+class="math inline"><em>t</em></span> (<span
+class="math inline">0</span> to <span class="math inline">1</span>). It
+degrades if rituals are run by a permanent priesthood.</p></li>
+<li><p><span class="math inline"><em>ρ</em></span> — Rotation Rate: The
+frequency of stewardship turnover (probability of a reset per
+cycle).</p></li>
+<li><p><span class="math inline"><em>β</em><sub><em>t</em></sub></span>
+— Beauty: The thermal buffer and amplifier at time <span
+class="math inline"><em>t</em></span>. High aesthetics allow the group
+to extract more meaning from loss. (<span
+class="math inline"><em>β</em><sub><em>t</em></sub> ≥ 0.1</span>)</p></li>
+<li><p><span class="math inline"><em>τ</em><sub><em>t</em></sub></span>
+— Tau: The toxicity penalty for unprocessed error at time <span
+class="math inline"><em>t</em></span>. Defaults to high (<span
+class="math inline"> ≈ 1.5</span>).</p></li>
+</ul>
+<h3 id="constants-fixed-parameters">Constants: Fixed Parameters</h3>
+<p>These are the structural parameters of social systems.</p>
+<p>Note on Calibration: The values listed below are relative to the
+chosen time unit for <span class="math inline"><em>t</em></span>.</p>
+<ul>
+<li><p><span class="math inline"><em>α</em></span> — The Earn Rate
+(<span class="math inline"> ≈ 0.02</span>): Trust builds slowly.
+Successful metabolism of error yields only a tiny increase in social
+capital per cycle.</p></li>
+<li><p><span class="math inline"><em>γ</em></span> — The Burn Rate
+(<span class="math inline"> ≈ 0.10</span>): Trust burns fast. Toxic
+overflow destroys social capital <span class="math inline">5×</span>
+faster than success builds it.</p></li>
+<li><p><span class="math inline"><em>δ</em></span> — The Oligarchic
+Drift (<span class="math inline"> ≈ 0.05</span>): Power naturally
+freezes. Stewardship (<span class="math inline"><em>C</em></span>)
+decays over time as leaders protect their continuity.</p></li>
+<li><p><span class="math inline"><em>κ</em></span> — The Hollow Ritual
+Penalty (<span class="math inline"> ≈ 0.50</span>): Fake ritual is
+toxic. If you run high-intensity rituals without the trust to support
+them, you create “Management Theater.”</p></li>
+<li><p><span class="math inline"><em>λ</em></span> — The Aesthetic
+Multiplier (<span class="math inline"> ≈ 0.20</span>): Beauty is fuel. A
+high-beauty environment helps the group convert raw metabolized error
+into richer structure.</p></li>
+</ul>
+<h3 id="equations-system-dynamics">Equations: System Dynamics</h3>
+<p>The system evolves from <span class="math inline"><em>t</em></span>
+to <span class="math inline"><em>t</em> + 1</span> through the following
+sequence.</p>
+<h4 id="step-1-calculate-intermediate-states">Step 1: Calculate
+Intermediate States</h4>
+<p>First, we determine the system’s effective capacity and the resulting
+flows of Growth and Decay.</p>
+<ol type="1">
+<li><p>Metabolic Capacity (<span
+class="math inline"><em>Ω</em><sub><em>t</em></sub></span>): The system
+is limited by its weakest link (Integrity-adjusted Ritual
+vs. Trust).</p>
+<p><span
+class="math display"><em>Ω</em><sub><em>t</em></sub> = min (<em>L</em><sub><em>t</em></sub>⋅<em>C</em><sub><em>t</em></sub>,  <em>R</em><sub><em>t</em></sub>)</span></p></li>
+<li><p>Theater Gap (<span
+class="math inline">Theater<sub><em>t</em></sub></span>): The cognitive
+dissonance caused by running rituals that exceed available trust.</p>
+<p><span
+class="math display">Theater<sub><em>t</em></sub> = max (0,  (<em>L</em><sub><em>t</em></sub>⋅<em>C</em><sub><em>t</em></sub>)−<em>R</em><sub><em>t</em></sub>)</span></p></li>
+<li><p>Overflow (<span
+class="math inline">Overflow<sub><em>t</em></sub></span>): The amount of
+Melt that exceeds capacity.</p>
+<p><span
+class="math display">Overflow<sub><em>t</em></sub> = max (0,  <em>μ</em><sub><em>t</em></sub>−<em>Ω</em><sub><em>t</em></sub>)</span></p></li>
+</ol>
+<h4 id="step-2-calculate-growth-and-decay-terms">Step 2: Calculate
+Growth and Decay Terms</h4>
+<p>We explicitly define the positive and negative forces generated in
+this cycle.</p>
+<p>The Growth Term (<span
+class="math inline"><em>G</em><sub><em>t</em></sub></span>):
+Successfully metabolized melt, amplified by Beauty.</p>
+<p><span
+class="math display"><em>G</em><sub><em>t</em></sub> = min (<em>μ</em><sub><em>t</em></sub>,<em>Ω</em><sub><em>t</em></sub>) ⋅ (1+<em>λ</em>⋅<em>β</em><sub><em>t</em></sub>)</span></p>
+<p>The Decay Term (<span
+class="math inline"><em>D</em><sub><em>t</em></sub></span>): Toxic waste
+generated by Overflow (quadratic damage) and Theater (linear
+damage).</p>
+<p><span class="math display">$$D_t = \text{Overflow}_t^2 \cdot \tau_t +
+\frac{\kappa \cdot \text{Theater}_t}{\beta_t}$$</span></p>
+<h4 id="step-3-update-state-variables">Step 3: Update State
+Variables</h4>
+<p>We update the core stocks of the system based on the flows calculated
+above.</p>
+<ol type="1">
+<li><p>Explanatory Reach (<span class="math inline"><em>S</em></span>):
+The net change in organizational capability.</p>
+<p><span
+class="math display"><em>Δ</em><em>S</em><sub><em>t</em></sub> = <em>G</em><sub><em>t</em></sub> − <em>D</em><sub><em>t</em></sub></span></p>
+<p><span
+class="math display"><em>S</em><sub><em>t</em> + 1</sub> = <em>S</em><sub><em>t</em></sub> + <em>Δ</em><em>S</em><sub><em>t</em></sub></span></p></li>
+<li><p>Trust (<span class="math inline"><em>R</em></span>): The “Death
+Spiral” feedback loop. Trust is earned by Growth (amplified by Beauty)
+and burned by Decay.</p>
+<p><span
+class="math display"><em>R</em><sub><em>t</em> + 1</sub> = max (0,  <em>R</em><sub><em>t</em></sub>+<em>α</em>⋅<em>β</em><sub><em>t</em></sub>⋅<em>G</em><sub><em>t</em></sub>−<em>γ</em>⋅<em>D</em><sub><em>t</em></sub>)</span></p></li>
+<li><p>Stewardship (<span class="math inline"><em>C</em></span>): The
+“Iron Law” feedback loop. Integrity decays via drift unless reset by
+rotation.</p>
+<p><em>Stochastic Definition:</em></p>
+<p><span class="math display">$$C_{t+1} = \begin{cases} 1.0 &amp;
+\text{with probability } \rho \quad \text{(Reset)} \\ C_t \cdot (1 -
+\delta) &amp; \text{with probability } 1-\rho \quad \text{(Drift)}
+\end{cases}$$</span></p>
+<p><em>Analytical Expectation:</em> To predict the long-term integrity
+of the system (<span class="math inline"><em>C</em><sup>*</sup></span>)
+based on a given rotation rate (<span
+class="math inline"><em>ρ</em></span>) and drift (<span
+class="math inline"><em>δ</em></span>), we solve for the steady
+state:</p>
+<p><span
+class="math display">𝔼[<em>C</em><sub><em>t</em> + 1</sub>∣<em>C</em><sub><em>t</em></sub>] = <em>ρ</em> ⋅ 1 + (1−<em>ρ</em>) ⋅ <em>C</em><sub><em>t</em></sub>(1−<em>δ</em>)</span></p>
+<p><span class="math display">$$C^* = \frac{\rho}{1 -
+(1-\rho)(1-\delta)}$$</span></p></li>
+</ol>
+<h3 id="diagnostic-epimetabolic-rate-phi">Diagnostic: Epimetabolic Rate
+(<span class="math inline"><em>Φ</em></span>)</h3>
+<p>Finally, we define the scalar diagnostic for the system. This metric
+answers: “How much structure did we gain per unit of trust we
+burned?”</p>
+<p><span class="math display">$$\Phi_t = \frac{\max(0, \Delta
+S_t)}{\max(\epsilon, \quad R_t - R_{t+1})}$$</span></p>
+<ul>
+<li>High <span class="math inline"><em>Φ</em></span> (The Dionysian):
+You are gaining massive Reach while Trust stays flat or grows.
+Efficiency is high.</li>
+<li>Medium <span class="math inline"><em>Φ</em></span> (The Pyrrhic
+Victory): You are gaining structure, but you are spending down social
+capital to do it. You are winning the quarter but losing the team.</li>
+<li>Low <span class="math inline"><em>Φ</em></span> (The Pyre): You are
+buying small improvements at the cost of massive social damage. You are
+burning the furniture to heat the house.</li>
+</ul>
 <hr />
 <h2 id="appendix-a-minimum-viable-program">Appendix A: Minimum Viable
 Program</h2>
