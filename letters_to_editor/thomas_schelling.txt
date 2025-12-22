@@ -1,0 +1,21 @@
+To the Authors of the Dionysus Program:
+
+I have read your manifesto with the interest of a man who spent a lifetime studying how rational individuals can be made to cooperate in irrational circumstances. You have dressed your arguments in the robes of Greek tragedy and biological metaphor, which makes for spirited reading, but I suspect you know that what you are actually proposing is a rigorous system of strategic constraints.
+
+Stripped of the poetry, your program is a technology of self-command. It addresses the fundamental problem of the divided self—or in this case, the divided organization—where the short-term incentive to save face is consistently at war with the long-term interest of survival.
+
+I see three distinct mechanisms here that are worth isolating from the mythology.
+
+First, you have identified the Crossing as a focal point. In game theory, when people cannot communicate or trust one another perfectly, they search for a signal that is conspicuous and mutually recognized to coordinate their behavior. Your "Ritual Time" is a focal point. It signals a switch in the scoring rules of the game. By making the boundary distinct—by saying the mode out loud—you lower the transaction cost of switching from execution to critique. Without the distinct signal, the rational employee must assume the old rules apply and that criticism will be punished. The ritual does not create the safety; the mutual recognition of the signal creates the coordination equilibrium that allows for safety.
+
+Second, your use of the "anti-scapegoat" is a fascinating device for altering the payoff matrix of error. Usually, the cost of admitting a mistake is high and personal. By externalizing the error onto an artifact and ceremonially destroying it, you are not engaging in magic; you are engaging in cost-shifting. You are lowering the price of updating a belief. If you lower the price of a behavior, you get more of it. You want more error correction, so you have made it cheap.
+
+Third, and perhaps most importantly, your Cincinnatus Rule is a solution to the problem of credible commitment. A sovereign who cannot be removed has no incentive to bind himself. A steward who knows he must return to the plow—who knows he will soon be subject to the very rules he is currently enforcing—has a very different set of incentives. He is operating under a veil of uncertainty regarding his future status. This forces him to design rules that are fair rather than rules that are advantageous to the ruler, because he knows he will soon be the ruled.
+
+I must warn you, however, that systems of this sort are fragile. They rely on what we might call the "tipping point" of belief. If the Jester is punished even once, or if the Cincinnatus steward refuses to leave the temple just one time, the expectation of enforcement collapses. These are not robust equilibrium states; they are delicate agreements that require constant reaffirmation. A ritual that is suspected of being theater becomes worse than no ritual at all, because it acts as a signal of duplicity.
+
+You are attempting to construct a game where the dominant strategy is vulnerability. That is a difficult thing to do. Most organizations are trapped in a prisoner's dilemma where the rational move is always to hide the error and blame the neighbor. You are trying to change the game board so that cooperation becomes the self-interested move.
+
+It is an elegant attempt at solving the coordination problem of collective learning. Whether you can actually get human beings to play by these rules when the stakes are real is a different matter, but the design of the board is sound.
+
+Not Thomas Schelling

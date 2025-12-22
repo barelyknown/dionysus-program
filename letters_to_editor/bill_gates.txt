@@ -1,0 +1,17 @@
+To the Editor of the Dionysus Program,
+
+I read a lot of books and essays about how to make organizations work better. Usually, they focus on what you call Run Time. They want to know how to measure output, how to optimize logistics, and how to use data to make smarter decisions. I have always been a big believer in those things. If you cannot measure it, you cannot improve it.
+
+But your essay on the Dionysus Program captures something that the data-driven approach often misses. You describe the friction that happens when the world changes faster than our mental models can keep up. I found the concept of the epimetabolic rate—the speed at which a group can digest error into new structure—to be a fascinating metric. In software, we know that the cost of fixing a bug rises exponentially the longer it stays in the code. You are suggesting the same is true for cultural bugs. If you do not metabolize the mistake quickly, it turns into toxicity.
+
+I was particularly struck by your classification of Microsoft in the 2000s as a Churn Machine. It is a fair critique. We had incredible talent and high rotation, and we avoided becoming a stagnant bureaucracy, but we definitely struggled to build deep institutional memory in new areas like mobile and search during that period. We were running very hard, but as you note, high rotation without the right kind of binding rituals can prevent compounding. It makes me think about how different our trajectory might have been if we had distinguished more clearly between the execution mode and the critique mode.
+
+The most important idea here is the distinction between Apollo and Dionysus. I have spent my career optimizing for the Apollonian—clarity, order, and engineering. But looking at the challenges we face now, from eradicating polio to solving climate change, it is clear that engineering is not enough. We need the social technology to handle the heat of transition. When we ask an entire economy to decarbonize, we are asking for a massive dissolution of old identities and old ways of working. If we do not have a way to process that loss, people will resist the innovation we need.
+
+Your mathematical model of trust as a battery that charges slowly and drains quickly is intuitive. I often tell people that innovation is not just about having a bright idea; it is about having a system that allows you to be wrong without being destroyed. The Dionysus Program suggests a way to engineer that safety.
+
+This is a dense read, but a necessary one. It reminds us that while we need the rocket science of Apollo to get us there, we need the human capacity of Dionysus to keep us together on the way.
+
+Sincerely,
+
+Not Bill Gates

@@ -1,0 +1,31 @@
+To the Editor of the Dionysus Program:
+
+I read your paper. It is long. It uses a lot of Greek words to describe something very simple: cost management.
+
+You list Hewlett-Packard under the "Churn Machine" archetype. You group my tenure from 2005 to 2010 with the chaos that came before and after. You say we reorganized so frequently that we prevented strategic execution. You say we substituted activity for progress.
+
+Let's look at the numbers.
+
+When I arrived at HP in 2005, the stock was trading around $20. When I left in 2010, it was over $40. We doubled the market cap. We increased revenue every single year. We tripled earnings per share. We generated $12 billion in cash flow from operations in my final year.
+
+You call that churn. I call that execution.
+
+Your document talks about "epimetabolic rate" and "eating decay." You make it sound like a mystical process involving poetry and tragedy. It is not. It is called operating leverage. It is called looking at a P&L, finding the lines that are growing faster than revenue, and killing them.
+
+I found decay at HP. It looked like 15,000 people in redundant roles. It looked like eighty-five different data centers when we only needed six. It looked like HR departments for the HR departments. I didn't need a "Rite of Redress" or a "Tragic Postmortem" to fix it. I needed a spreadsheet and the will to execute. We cut the OpEx. We consolidated the IT. We put the sales force in front of customers instead of in front of internal committees.
+
+You write about "Ritual Time" and "Run Time." You say organizations need safe spaces to cry about their mistakes. This is the problem with modern management theory. It assumes the workforce is a family. It is not. It is a team. If a player cannot hit the numbers, you do not hold a ritual. You trade the player.
+
+However, I will give you credit for one thing. You are right about the "sitting duck." You are right that organizations fall in love with their own history. HP loved its history. They loved the garage. They loved the "HP Way." But the HP Way wasn't paying the bills. The garage was full of junk.
+
+You suggest "burning" social capital to get results is a "Pyrrhic" victory. You point to the "Pyrrhic Leader" archetype. You say the trust account eventually runs out.
+
+Maybe. But in the public markets, five years is an eternity. If you deliver twenty quarters of beat-and-raise, nobody cares if the internal "beauty coefficient" is low. Shareholders do not buy shares in a culture. They buy shares in a cash flow stream.
+
+Your "Cincinnatus Rule" is interesting. You say leaders should return to the plow. I never went back to the plow. I went to Oracle. We did the exact same thing there. We optimized. We sold. The stock went up.
+
+You have correctly identified that organizations die because they get fat and slow. Your diagnosis is accurate. But your cure is too soft. You want to turn destruction into art. I say you just turn destruction into margin.
+
+If you want to move fast by breaking things, you don't need a poet. You need a sales target and a knife.
+
+Not Mark Hurd

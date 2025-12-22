@@ -1,0 +1,19 @@
+Dear Mr. Devine,
+
+I enjoyed reading your manual on how to break things. I noticed you mentioned my old hallway at Bell Labs. You were right about the noise. We shouted quite a lot. You were wrong about why it worked. It wasn't the rituals; it was the redundancy.
+
+I spent my life trying to prove that you can send a clear message through a noisy channel if you are willing to pay a tax. You call that tax "Ritual Time." I called it error-correcting code. To an efficiency consultant, or perhaps to your Apollo, a parity bit looks like waste. It is data that tells you nothing new. It just repeats, checks, and verifies what is already there. But without that waste, when the line gets static, the signal dissolves.
+
+You have written a very long engineering spec for social redundancy. You are arguing that if a group wants to survive the noise of a changing world, it must spend half its time chanting, feasting, and putting things on trial. In my terms, you are suggesting that the channel capacity of a culture depends on its willingness to be inefficient. I suspect you are correct. A system with zero redundancy is efficient right up until the moment it encounters a single error, at which point it becomes a random number generator.
+
+I also liked your section on autophagy. It reminded me of the most reliable machine I ever built. It was a small wooden casket with a single switch on the side. When you flipped the switch to On, the lid opened, a mechanical hand emerged, reached down, flipped the switch to Off, and retreated back inside.
+
+It was a perfectly self-correcting loop. It had a high epimetabolic rate. It solved the problem of its own state immediately. Most organizations are that machine, but they refuse to let the hand come out. They tape the switch to On and wonder why the motor burns out.
+
+One technical correction. You treat entropy as a monster to be eaten. I always viewed it as a measure of freedom. A message with zero entropy is totally predictable; it carries no news. If your Dionysus Program works too well, if you resolve every uncertainty perfectly, you will not have a thriving city. You will have a dial tone.
+
+Keep juggling. It is the only way to stay on the unicycle.
+
+Regards,
+
+Not Claude Shannon

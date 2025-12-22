@@ -1,0 +1,9 @@
+Write a letter to the editor of the Dionysus Program from {person}.
+
+The letter should be in their recognizable style, and from their unique perspective.
+
+The letter should be signed "Not {person}".
+
+The letter should be provided in plain text with no formatting (no bold, no italics, no headers) - just plain text.
+
+{essay}

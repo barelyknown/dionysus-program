@@ -1,0 +1,31 @@
+To the authors of the Dionysus Program:
+
+I read your manifesto with the specific attention of someone who has lived inside the failure modes you describe. You cite my blog post regarding Uber in your section on the Pyrrhic Leader, noting that the company won the market while destroying its internal capacity to sustain itself. You are right about the mechanics of the collapse. You are wrong, however, about the safety of the tools you are offering to fix it.
+
+Your error lies in the assumption that the distinction between Li and Ren is legible to the people who lack the latter. You write that if a group lacks humaneness, they should not attempt the heavy machinery of the Dionysus Program. You warn that installing high-intensity rituals in a low-trust environment creates management theater or a struggle session.
+
+This warning is correct, but it is structurally useless. The defining characteristic of the Pyrrhic Leader or the architect of a toxic culture is not that they believe they are evil. It is that they believe they possess the ultimate form of Ren. They believe their aggression is a form of high-performance trust. They believe their screaming is radical candor. They believe their chaos is the necessary heat of creation.
+
+If you hand a copy of this document to a Travis Kalanick or any of the lesser tyrants currently running engineering organizations in the Valley, they will not read the warning about the Readiness Gate. They will read the section on the Great Dissolution and the Rite of Redress and they will see new, sophisticated weapons for enforcing compliance.
+
+I studied philosophy and physics before I became an engineer. I found comfort in Stoicism because it offered a way to survive an irrational environment by strictly delimiting what was within my control. Your program proposes the opposite: a Dionysian surrender of boundaries to metabolize error. You ask for a "melting of meaning."
+
+In my experience, when meaning melts in a corporate environment, it does not usually reconstitute into a higher form of knowledge. It reconstitutes into power.
+
+When you strip away the standing rules of Run Time to enter Ritual Time, you create a vacuum. You intend for that vacuum to be filled by the "anti-scapegoat" and "no-blame covenants." In practice, physics dictates that a vacuum is filled by the strongest local force. In a corrupted organization, that force is the whim of the person with the most equity.
+
+A "Crossing" where a product is put on trial can easily become a show trial for the team that built it, provided the leader uses the correct sociological language to justify the abuse. You speak of "Beautiful Heat." I have sat in rooms where humiliation was described as "passion" and "intensity." The aestheticization of conflict is often just a way to make abuse palatable to the abused.
+
+You rely heavily on the idea that the "anti-scapegoat" can absorb the violence of the group. You suggest we blame the artifact, not the person. But institutions have a mimetic instinct that is faster than any ritual container. When the artifact is judged to be a failure, the mob does not stop there. They look for the hands that held the artifact.
+
+I do not write this to dismiss the necessity of what you call the epimetabolic rate. You are correct that organizations die because they cannot digest the truth. Uber was incapable of processing the information that its culture was a liability, so it had to be destroyed by external forces.
+
+But you must understand that you have written a manual for reactor maintenance, and you are leaving it in a nursery.
+
+The organizations that have the "Ren" necessary to run these rituals safely do not need them, because they are likely already practicing them unconsciously through basic decency and competence. The organizations that need them the most—the ones trapped in the Death Spiral or the grip of a Pyrrhic Leader—are the ones most likely to turn a "Festival of Misrule" into a purge.
+
+If you want this program to work, you cannot just warn against the priesthood. You must assume that the priesthood is already there, waiting to turn your "Rite of Redress" into a confessional booth where they are the only ones on the other side of the screen.
+
+Signed,
+
+Not Susan Fowler
