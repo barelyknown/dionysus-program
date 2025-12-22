@@ -7,6 +7,8 @@ DIST_DIR="$ROOT_DIR/dist"
 PDF_OUT="$DIST_DIR/dionysus-program.pdf"
 TEMPLATE="$ROOT_DIR/templates/page.html"
 ESSAY_MD="$ROOT_DIR/essay.md"
+LETTERS_SCRIPT="$ROOT_DIR/build-letters-to-editor.js"
+LETTERS_APPENDIX="$DIST_DIR/letters-to-editor-appendix.md"
 
 if ! command -v pandoc >/dev/null 2>&1; then
   echo "pandoc is required but not installed" >&2
@@ -15,7 +17,9 @@ fi
 
 mkdir -p "$DIST_DIR"
 
-pandoc "$ESSAY_MD" \
+node "$LETTERS_SCRIPT" "$DIST_DIR"
+
+pandoc "$ESSAY_MD" "$LETTERS_APPENDIX" \
   --from=markdown \
   --toc \
   --toc-depth=3 \
@@ -37,7 +41,7 @@ if command -v xelatex >/dev/null 2>&1; then
 fi
 
 if [[ -n "$PDF_ENGINE" ]]; then
-  pandoc "$ESSAY_MD" \
+  pandoc "$ESSAY_MD" "$LETTERS_APPENDIX" \
     --from=markdown \
     --toc \
     --toc-depth=3 \

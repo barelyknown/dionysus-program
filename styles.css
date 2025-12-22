@@ -238,6 +238,13 @@ hr {
   border-top: 1px solid var(--border-color);
 }
 
+.letter-page-break {
+  display: block;
+  height: 2.5rem;
+  break-before: page;
+  page-break-before: always;
+}
+
 blockquote {
   margin: 1.8rem 0;
   padding: 0.2rem 1.5rem;
@@ -322,6 +329,13 @@ a:hover {
 
   ul, ol {
     margin-left: 1.25rem;
+  }
+}
+
+@media print {
+  .letter-page-break {
+    height: 0;
+    margin: 0;
   }
 }
 
