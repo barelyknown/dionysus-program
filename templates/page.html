@@ -17,14 +17,17 @@
       $if(author)$<p class="page-author">$for(author)$$author$$sep$, $endfor$</p>$endif$
       <p class="page-date">Est. 2025</p>
       <p class="page-download">
-        <span class="download-label">Formats</span>
-        <a href="dist/dionysus-program.pdf">PDF</a>
-        <span aria-hidden="true">·</span>
-        <a href="dist/essay.md">Markdown</a>
-        <span aria-hidden="true">·</span>
-        <a href="dist/letters-to-editor.md">Letters</a>
-        <span aria-hidden="true">·</span>
-        <a href="simulation.html">Simulation</a>
+        <span class="page-download-row">
+          <a href="dist/dionysus-program.pdf">PDF</a>
+          <span aria-hidden="true">·</span>
+          <a href="simulation.html">Simulation</a>
+        </span>
+        <span class="page-download-row">
+          <span class="download-label">Markdown:</span>
+          <a href="dist/essay.md">Essay</a>
+          <span aria-hidden="true">·</span>
+          <a href="dist/letters-to-editor.md">Letters</a>
+        </span>
       </p>
     </header>
     $if(toc)$
