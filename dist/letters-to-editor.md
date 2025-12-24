@@ -149,31 +149,6 @@ Not Aristotle
 
 ### *Not* Avi Arad
 
-Sean,
-
-I read your script. The Dionysus Program. Catchy title. Sounds like a shadow organization in a Bond movie, or maybe something Oscorp would fund to clean up a mess.
-
-It is a lot of words to say something very simple: how do you keep the franchise alive when the box office tanks?
-
-I look at your section on the Archetypes. You talk about Marvel in 96. You call us the Fragile Survivor. You call the Iron Man bet the Gambler. Let me tell you something about that time. It was not a simulation. It was not an algorithm. We did not have a ritual container. We had a stack of debts and a library of characters that nobody in Hollywood respected.
-
-You say the Gambler accepts variance. I say the Gambler knows the value of the IP when everyone else sees ink on paper. I did not bet the company on a coin toss. I bet it on the fact that Peter Parker and Tony Stark are real people to the fans. You call that "Asabiyyah." I call it being a True Believer.
-
-I like this idea of yours, "eating your decay." In the movie business, we just call that a reboot. Spider-Man 3 gets too messy? Too many villains? The audience is confused? Fine. You do not let the studio die. You melt it down. You get a new director, a new kid in the suit, you tell the origin story again. You metabolize the failure. You make it fresh. That is your autophagy. We have been doing it since the comic books started.
-
-But you have to be careful with this "Cincinnatus" rule. You say the leader has to go back to the plow. In my business, if the producer leaves the room, the suits destroy the magic. They try to make it by committee. You need someone to protect the core. You need someone to say, "No, Venom does not belong in this movie," or "Yes, we need to sell the toys."
-
-And that is the one thing your equation is missing. The toys.
-
-You have all these variables. L for Li. R for Ren. Where is T for Toys? The toy is the ultimate "anti-scapegoat." It is the artifact. If the movie is a disaster but the kids still want the action figure, you survive. The toy is the proof that the soul of the character is still there, even if the script was bad.
-
-You have a good theory here, Sean. It is smart. It has good structure. But do not get so lost in the Nietzsche and the math that you forget the audience. The "beautiful heat" you talk about? That is just the feeling you get when the lights go down and the logo comes up.
-
-Keep the heart. Protect the IP. And never be afraid to reboot.
-
-Best,
-
-Not Avi Arad
 
 ---
 
@@ -203,23 +178,6 @@ Not Benoit Mandelbrot
 
 ### *Not* Bill Gates
 
-To the Editor of the Dionysus Program,
-
-I read a lot of books and essays about how to make organizations work better. Usually, they focus on what you call Run Time. They want to know how to measure output, how to optimize logistics, and how to use data to make smarter decisions. I have always been a big believer in those things. If you cannot measure it, you cannot improve it.
-
-But your essay on the Dionysus Program captures something that the data-driven approach often misses. You describe the friction that happens when the world changes faster than our mental models can keep up. I found the concept of the epimetabolic rate—the speed at which a group can digest error into new structure—to be a fascinating metric. In software, we know that the cost of fixing a bug rises exponentially the longer it stays in the code. You are suggesting the same is true for cultural bugs. If you do not metabolize the mistake quickly, it turns into toxicity.
-
-I was particularly struck by your classification of Microsoft in the 2000s as a Churn Machine. It is a fair critique. We had incredible talent and high rotation, and we avoided becoming a stagnant bureaucracy, but we definitely struggled to build deep institutional memory in new areas like mobile and search during that period. We were running very hard, but as you note, high rotation without the right kind of binding rituals can prevent compounding. It makes me think about how different our trajectory might have been if we had distinguished more clearly between the execution mode and the critique mode.
-
-The most important idea here is the distinction between Apollo and Dionysus. I have spent my career optimizing for the Apollonian—clarity, order, and engineering. But looking at the challenges we face now, from eradicating polio to solving climate change, it is clear that engineering is not enough. We need the social technology to handle the heat of transition. When we ask an entire economy to decarbonize, we are asking for a massive dissolution of old identities and old ways of working. If we do not have a way to process that loss, people will resist the innovation we need.
-
-Your mathematical model of trust as a battery that charges slowly and drains quickly is intuitive. I often tell people that innovation is not just about having a bright idea; it is about having a system that allows you to be wrong without being destroyed. The Dionysus Program suggests a way to engineer that safety.
-
-This is a dense read, but a necessary one. It reminds us that while we need the rocket science of Apollo to get us there, we need the human capacity of Dionysus to keep us together on the way.
-
-Sincerely,
-
-Not Bill Gates
 
 ---
 
@@ -285,27 +243,6 @@ Not Carly Fiorina
 
 ### *Not* Carol Bartz
 
-To the author of this sixty-page hallucination:
-
-I read your manifesto. It took a while because I have a life, but I read it.
-
-You use a lot of ten-dollar words to describe a simple concept: shit happens, and most people are too cowardly to deal with it. You call it "environmental melt." I call it "the market decided your product is garbage." You call it "epimetabolic rate." I call it "stop crying and fix it."
-
-I saw my name in there. Section on the Churn Machine. You listed me right next to the "CEO Carousel" at Yahoo. You wrote that I was fired in 2011. You wrote that the churn prevented strategic coherence.
-
-Let me tell you something about your "Churn Machine." It wasn't a machine. It was a meat grinder. And I didn't jump into it because I wanted a ride. I jumped in because someone had to grab the handle and stop it from turning. You think the problem was that we rotated leaders too fast? The problem was that the people underneath the leaders had been hiding in their cubicles for ten years, waiting for a "Ritual of Redress" that never came.
-
-You talk about "Cincinnatus" going back to the plow. That is the most naive thing I have ever heard. In the Valley, nobody goes back to the plow. They go to the beach house. I tried to make people do actual work—you know, Run Time—and the board fired me over the phone. Over the phone. Where does that fit in your "Ritual Time"? Is firing a CEO via phone call a Dionysian act or just being a spineless prick?
-
-And this stuff about "Management Theater." You cite Marissa Mayer. Finally, we agree on something. You can hold all the Monday afternoon meetings you want, and you can make people sleep under their desks, but if you don't have the guts to cut the businesses that are bleeding you dry, it is just a puppet show. I didn't do theater. I did surgery. People hate surgery. It hurts. It leaves scars. But at least it's real.
-
-Your "Dionysus Program" sounds nice on paper. Everyone holds hands, admits they screwed up, and burns a piece of paper in an "anti-scapegoat" ceremony. Cute. In the real world, when you screw up, you don't get a ceremony. You get a severance package if you're lucky, and a lawsuit if you're not.
-
-You say we need to "metabolize loss." I say you need to grow a pair. Nietzsche didn't have to report quarterly earnings to a room full of analysts who think "long term" means next Tuesday.
-
-Good luck with your festivals. Let me know when one of them actually ships a product.
-
-Not Carol Bartz
 
 ---
 
@@ -515,31 +452,6 @@ Not Émile Durkheim
 
 ### *Not* Fred Smith
 
-To the Editor of the Dionysus Program:
-
-I read your treatise on the physics of organizational decay with the interest of a man who has spent fifty years fighting friction.
-
-You classify my life's work under "The Gambler." You cite the legend of the blackjack table in Las Vegas as evidence of a high-variance strategy that survived by luck. You are not wrong about the cash, and you are not wrong about the variance. But you are wrong about the mechanism.
-
-When I wrote the paper at Yale that received a C, I was proposing a system, not a gamble. I was proposing a hub-and-spoke network that obeyed the laws of mathematics rather than the habits of freight forwarders. The gamble in Vegas was not a strategy; it was a tactical necessity to keep the physics of the network alive long enough for the volume to catch up to the fixed costs. We were not betting on cards; we were betting on the inevitability of the geometry.
-
-Your distinction between Run Time and Ritual Time is the most useful thing in the document, though a Marine would just call it the difference between the drill field and the jungle. In Memphis, between 11:00 PM and 4:00 AM, we run the ultimate Apollo program. The SuperHub is a machine. It requires absolute obedience to the sort window. If you try to introduce Dionysian "melting" on the sweep line at 2:00 AM, you do not get renewal; you get packages left behind and a failure of the Purple Promise.
-
-However, you are correct that Apollo is brittle. I learned in Vietnam that no plan survives contact with the enemy. When a blizzard hits the Midwest, or an engine cowls in Paris, or a pandemic shuts down the supply chain, the checklists die. That is when you need the capacity you call Asabiyyah. We call it "doing whatever it takes."
-
-I have watched many organizations die because they confused the efficiency of the sort with the purpose of the enterprise. They worshipped the Apollonian schedule and forgot that the objective is to get the package to the customer, not to follow the rules. When the map didn't match the terrain, they kept driving off the cliff because the map was signed by a committee.
-
-Your equation regarding the "Pyrrhic Leader" is also instructive. I have seen competitors burn their people to hit a quarterly number. They assume that a driver is a unit of labor. They forget that a driver is a decentralized decision-making node who is the only thing standing between a service failure and a satisfied customer at the end of the chain. If you treat them like a fungible input, they will treat you like a temporary paycheck.
-
-The Cincinnatus Rule is a hard pill for a founder to swallow. We all want to believe we are indispensable. But the hub must eventually run without the architect, or it is not a system; it is just a cult of personality.
-
-We took the money to Vegas because the system was worth saving. The Dionysus Program suggests that sometimes you have to break the structure to save the soul. I would argue that sometimes you have to risk the entire capital structure to prove that the geometry is sound.
-
-Good luck with the program. It is messy work.
-
-Sincerely,
-
-Not Fred Smith
 
 ---
 
@@ -831,25 +743,6 @@ Not Immanuel Kant
 
 ### *Not* Isaac Perlmutter
 
-To the Editor of the Dionysus Program
-
-I read your document. I printed it on the back of old liquidation filings because paper costs money and I do not waste it.
-
-You use too many words. Epimetabolic. Dissipative structures. Nietzsche. Who pays for this ink? You could have said it in one sentence: do not spend money you do not have, and if you fail, do not cry about it, just fix the balance sheet.
-
-You mention Marvel in your appendix. You call us The Gambler. You say we bet the company on Iron Man. You write about it like it was a romance. It was not a romance. It was collateral. We put up the rights to Captain America and the Avengers because nobody else would give us the cash. If the movie failed, we lost the characters. That is not poetry. That is looking down the barrel of a gun. It clarifies the mind better than your "beauty."
-
-You talk about "Beautiful Heat." I will tell you what is beautiful. Solvency is beautiful. A margin is beautiful. Reusing a paper clip from the trash can is beautiful because it means you respect the value of the asset. You want "Rituals." I had a ritual. It was called turning off the lights when you leave the room.
-
-You say in your "High Performer" section that efficiency can kill innovation. This is the talk of people who have never met a payroll during a bankruptcy. I saved Marvel because I cut the fruit baskets and the limos. I fought with the creative geniuses because they wanted to spend fifty million on a scene that adds zero to the toy sales. Now look at them. Spending three hundred million on movies that lose money. Is that your "Dionysian Ideal"? It looks like burning cash to me.
-
-I agree with one thing. The Scavenger part. Eating your own decay. I understand this. You take the old assets, the things nobody wants, and you squeeze value out of them. That is business.
-
-But you can keep your "Ritual Time." It sounds like paying employees to sit around and talk about their feelings instead of working. If you want to increase your "epimetabolic rate," stop buying fancy coffee and fire the people who use big words to hide that they are losing money.
-
-Signed,
-
-Not Isaac Perlmutter
 
 ---
 
@@ -1019,33 +912,6 @@ Not Jim Balsillie
 
 ### *Not* John Sculley
 
-To the Editor of the Dionysus Program,
-
-I read your case study on the "Fragile Survivor" with a specific, personal interest. It is rare to see one's life work reduced to a data point in a section regarding the near-death of an organization, but I cannot fault your analysis. You are correct that Apple in 1997 was fragile. You are correct that its survival was contingent on a specific conjunction of luck and leadership.
-
-But there is a nuance in your equation that I believe you have missed, one that only looks visible from the CEO's chair.
-
-You write about the conflict between Apollo and Dionysus as if it is a choice between two valid operating modes. You imply that the error of my tenure—and the tenure of those who followed me before Steve returned—was that we built "layers of process without coherence." You suggest we were trying to run a High Performer playbook on a company that needed a Gambler.
-
-I would suggest to you that the problem was not that we lacked the ritual capacity. The problem was that we were attempting to professionalize a miracle.
-
-When Steve recruited me from Pepsi, he did not ask for a co-founder. He asked for a grown-up. He asked for the Apollonian virtues: marketing discipline, supply chain management, cash flow stability. He knew, perhaps better than anyone, that the "Dionysian heat" you describe—the reality distortion field, the perfectionism, the burning of teams—was unsustainable without a container. He brought me in to build the container.
-
-The tragedy, in the Hegelian sense you use, was that the container was incompatible with the specific frequency of the heat he generated. When the board sided with me, we did not think we were choosing "stagnation." We thought we were choosing survival. We looked at the numbers—the "Run Time" ledger, as you call it—and we saw a company that was melting faster than it could metabolize. We chose to lower the temperature.
-
-You call the result a "Slow Decline." I called it keeping the patient alive.
-
-Your document underestimates the sheer terror of the "Gambler" archetype when you are responsible for payroll. It is easy to praise the "High Performer" or the "Dionysian Ideal" in retrospect, when the bets have paid off. But in real time, the Dionysian looks indistinguishable from the reckless. You praise the "anti-scapegoat" mechanism, but you forget that in the 1980s, the scapegoat was usually the budget.
-
-My role, and the role of professional management, was to install the "High Performer" rituals—the reviews, the roadmaps, the forecasts. We succeeded in many ways. We built the PowerBook. We built Newton, which failed as a product but succeeded as a "loss exhibit" that taught the industry what a handheld computer should be. We kept the cash flow positive for a decade.
-
-If Steve had not returned—if that specific "Fragile Survivor" coin flip had come up tails—history would record my tenure not as a prelude to a renaissance, but as the golden age before the end. We would be remembered like your "Sitting Duck" examples, perhaps, or a "Moderate Growth" firm that eventually faded.
-
-The lesson I offer your readers is this: You cannot simply install the Dionysus Program into a vacuum. The "Ren"—the humaneness, the trust—that you say is required? In a founder-led company, that Ren is entirely derivative of the founder's presence. When I removed the founder, I did not just remove the chaos; I removed the binding agent. We were left with "Li" (ritual) without "Ren" (spirit). We had the forms of a great technology company—the keynotes, the ads, the R&D labs—but we had lost the current.
-
-You are right that Apple survived because the "madman" returned to the plow. But do not forget that the plow had to be preserved for him to return to.
-
-Not John Sculley
 
 ---
 
@@ -1279,63 +1145,11 @@ Not Marissa Mayer
 
 ### *Not* Mark Hurd
 
-To the Editor of the Dionysus Program:
-
-I read your paper. It is long. It uses a lot of Greek words to describe something very simple: cost management.
-
-You list Hewlett-Packard under the "Churn Machine" archetype. You group my tenure from 2005 to 2010 with the chaos that came before and after. You say we reorganized so frequently that we prevented strategic execution. You say we substituted activity for progress.
-
-Let's look at the numbers.
-
-When I arrived at HP in 2005, the stock was trading around $20. When I left in 2010, it was over $40. We doubled the market cap. We increased revenue every single year. We tripled earnings per share. We generated $12 billion in cash flow from operations in my final year.
-
-You call that churn. I call that execution.
-
-Your document talks about "epimetabolic rate" and "eating decay." You make it sound like a mystical process involving poetry and tragedy. It is not. It is called operating leverage. It is called looking at a P&L, finding the lines that are growing faster than revenue, and killing them.
-
-I found decay at HP. It looked like 15,000 people in redundant roles. It looked like eighty-five different data centers when we only needed six. It looked like HR departments for the HR departments. I didn't need a "Rite of Redress" or a "Tragic Postmortem" to fix it. I needed a spreadsheet and the will to execute. We cut the OpEx. We consolidated the IT. We put the sales force in front of customers instead of in front of internal committees.
-
-You write about "Ritual Time" and "Run Time." You say organizations need safe spaces to cry about their mistakes. This is the problem with modern management theory. It assumes the workforce is a family. It is not. It is a team. If a player cannot hit the numbers, you do not hold a ritual. You trade the player.
-
-However, I will give you credit for one thing. You are right about the "sitting duck." You are right that organizations fall in love with their own history. HP loved its history. They loved the garage. They loved the "HP Way." But the HP Way wasn't paying the bills. The garage was full of junk.
-
-You suggest "burning" social capital to get results is a "Pyrrhic" victory. You point to the "Pyrrhic Leader" archetype. You say the trust account eventually runs out.
-
-Maybe. But in the public markets, five years is an eternity. If you deliver twenty quarters of beat-and-raise, nobody cares if the internal "beauty coefficient" is low. Shareholders do not buy shares in a culture. They buy shares in a cash flow stream.
-
-Your "Cincinnatus Rule" is interesting. You say leaders should return to the plow. I never went back to the plow. I went to Oracle. We did the exact same thing there. We optimized. We sold. The stock went up.
-
-You have correctly identified that organizations die because they get fat and slow. Your diagnosis is accurate. But your cure is too soft. You want to turn destruction into art. I say you just turn destruction into margin.
-
-If you want to move fast by breaking things, you don't need a poet. You need a sales target and a knife.
-
-Not Mark Hurd
 
 ---
 
 ### *Not* Max Levchin
 
-Sean,
-
-I read the draft. You have successfully engineered a social operating system for high-functioning paranoia.
-
-The physics of it are correct. In the early days at PayPal, we did not have these names for it. We did not call it "Dionysian" or "Ritual Time." We just called it "being right." But the mechanic was identical. We had extreme external melt—fraudsters trying to kill us, Visa trying to kill us, eBay trying to buy us and kill us. If we had tried to smooth that curve, we would have died. The only way out was to eat the entropy faster than it could eat us.
-
-Your concept of the anti-scapegoat is the critical variable. Most organizations optimize for consensus because consensus feels safe. It lowers the immediate temperature. But consensus is lossy. It smooths away the edges where the actual information lives. We optimized for conflict because conflict is high-bandwidth. We attacked the code, the design, and the assumption. If you cannot separate the person from the artifact, you cannot have high-bandwidth conflict. You just have politics.
-
-Here is the vulnerability in your source code: The Readiness Gate.
-
-You are optimistic about the ability of average organizations to run this kernel. High-intensity ritual requires high-density talent. If you install the Dionysus Program in a company filled with B-players, they will not use the anti-scapegoat to metabolize error. They will use it to ritualize excuses. They will use the "no-blame covenant" to lower their own accountability rather than to raise the system's intelligence.
-
-The Cincinnatus Rule is your only patch for this. If you let a professional class of "culture stewards" run these rites, you are finished. It must be operators. It must be the people who wake up at 3 AM when the database locks up. If the people managing the entropy are not the same people suffering from the entropy, the feedback loop is broken.
-
-Do not let HR touch this.
-
-You are right about the scoreboard. Revenue is a lagging indicator. Epimetabolic rate is the leading indicator. If you can digest a wrong worldview and output a right one faster than the market, you win. If you cannot, you are just waiting for the volatility that finally kills you.
-
-Good luck with the launch.
-
-Not Max Levchin
 
 ---
 
@@ -1363,35 +1177,6 @@ Not Max Weber
 
 ### *Not* Meg Whitman
 
-To the Editor of the Dionysus Program:
-
-I read your manifesto with the specific weary recognition of someone who has spent thirty years trying to herd cats that have suddenly learned how to file lawsuits and vest stock options. It is a formidable piece of engineering. You have correctly identified that the central problem of the modern institution is not intelligence, but digestion.
-
-However, I am writing because you included Hewlett-Packard in your taxonomy of the damned. You placed us under the header of The Churn Machine. You listed my name alongside Carly and Leo as mere operators of a restructuring treadmill, spinning the organizational chart to create the illusion of progress while institutional memory drained away.
-
-You are not wrong about the symptoms, but you are mistaken about the treatment.
-
-When I arrived at HP, I did not find a Churn Machine. I found a Sitting Duck disguised as an Oligarchy. The ritual capacity was high, yes. The meetings were endless. The decks were polished to a mirror sheen. But the epimetabolic rate was zero. We were not digesting error; we were embalming it.
-
-You write about the Great Dissolution as a quarterly ritual. You suggest it should be controlled, aesthetic, and stewarded by operators who return to the plow. That is a beautiful theory. In practice, when an organization reaches the scale of a nation-state—which HP was—you cannot run a gentle dissolution. You have to perform an amputation.
-
-Splitting HP into HPE and HP Inc. was not churn. It was the only way to restore the physics of the founder's era. We had to physically sever the connection between the enterprise brain and the consumer limbs because the nervous system had become too long to transmit a signal before the market changed. It was the ultimate Apollonian move to create a space where Dionysus could survive. We bought the company the right to have a future by accepting that the past was too heavy to carry.
-
-You underestimate the sheer weight of inertia. Your Cincinnatus Rule suggests that stewards should be drawn by lot and return to the plow to prevent the formation of a priesthood. I tell you this from the arena: the priesthood is not formed by bad design; it is formed by human nature. People want to be safe. They want the ritual to save them, not to challenge them.
-
-If you rotate your stewards every quarter, you do not get fresh eyes. You get amateurs who are eaten alive by the middle management layer that waits them out. The Deep State is not a conspiracy; it is simply the group of people who know how to use the expense reporting system. If you want to break them, you do not need a lottery. You need a hammer.
-
-Your distinction between Run Time and Ritual Time is your strongest contribution. At eBay, in the early days, we lived in Ritual Time by default. Pierre built a market on the premise that people are basically good. That is a ritual assumption, not a data point. It worked because the community believed it. As we scaled, we had to build Apollo around it—trust and safety, fraud detection, rules. The tragedy is not that Apollo wins; the tragedy is that eventually, you have to build a system that works even when people are not good. That is when the magic leaks out.
-
-The Dionysus Program is a roadmap for the romantic operator. It assumes that people want to be free, that they want to learn, that they want to metabolize their mistakes. My experience suggests that what most organizations want is to be told they are doing fine until the moment the checks stop clearing.
-
-To implement this, you will need more than beauty and tragedy. You will need the willingness to be the villain in the short term so the game can continue in the long term. You have to be willing to kill the things people love because they are no longer true.
-
-The separation of HP was the largest corporate breakup in history. It was messy. It was painful. It was not a festival. But both companies are alive today. Sometimes the only way to raise the epimetabolic rate is to cut the organism in half.
-
-Good luck with the program. You are going to need a lot of wine.
-
-Not Meg Whitman
 
 ---
 
@@ -1633,63 +1418,11 @@ Not Robert Mugabe
 
 ### *Not* Ross Levinsohn
 
-To the Architect of the Melt,
-
-I read your manifesto. It is very long. It uses a lot of Greek. It quotes Nietzsche and Hegel and Taleb. It is brilliant, in the way that a schematic for a perpetual motion machine is brilliant right up until you try to build it in a room full of human beings.
-
-I am writing because I found myself in your pages. Act III, The Churn Machine. There I am, sandwiched between Carol Bartz and Marissa Mayer. Three words: Ross Levinsohn (interim).
-
-You put me in the Churn Machine, the archetype where nothing compounds because the leadership resets every eighteen months. You treat "interim" like a symptom of the disease. You are missing the point. In a burning building, the interim guy isn't the churn. The interim guy is the only one grabbing a fire extinguisher while the board is interviewing arsonists to be the next chief.
-
-You spend a lot of time talking about the Cincinnatus Rule. You say the ideal leader is the operator called up from the fields, given limited authority to fix the crisis, and then sent back to the plow. You say this prevents the priesthood. You say this keeps the melt manageable.
-
-My friend, look at Yahoo in 2012. I was your Cincinnatus.
-
-I was the operator. I ran the media division. I knew the sales team. I knew the content. I didn't need a "listening tour" because I already knew where the bodies were buried. When the previous guy got fired for padding his resume, they called me up. I didn't try to reinvent the company into a technology unicorn that it wasn't. I looked at the balance sheet. I looked at the assets. I said: we are a media company. Let's stop pretending to be Google and start being the best version of ourselves.
-
-We stabilized the ship. We closed the Alibaba deal that saved the company's valuation for the next five years. We calmed the employees. We had your "Ren." The trust was coming back.
-
-And what did the Board do? What did the Senate do with Cincinnatus?
-
-They looked at the plow, and they looked at the media strategy, and they said: This is not exciting. This is not a moonshot. This is not Apollo.
-
-So they fired Cincinnatus and hired the High Priestess.
-
-You wrote about her too, under Management Theater. The Monday meetings. The calibration sessions. The rituals that demanded authenticity but produced fear. You are right about all of that. But you missed the cause.
-
-The cause wasn't that the rituals were wrong. The cause was that the market (and the board) does not actually want the Dionysus Program. They do not want to metabolize loss. They do not want to hear that their precious technology company is actually a declining media asset that needs to be managed for cash flow and dignity. They want the lie. They want the "Growth." They want the magic spell that turns 2012 Yahoo back into 1999 Yahoo.
-
-So they hired the person who promised the magic. They chose the theater because the reality was too boring to bear.
-
-You say the Churn Machine is a failure of compounding. I tell you it is a failure of nerve. The Churn happens because the moment a leader tells the truth—the "tragic postmortem" you love so much—the board fires them and looks for someone who will tell them a beautiful fairy tale about mobile apps.
-
-Your program assumes that organizations want to survive. I have sat in those rooms. They don't want to survive. They want to be validated. And if the choice is between a slow, profitable decline managed by a grown-up and a spectacular, fiery crash led by a visionary, they will choose the fire every time. It looks better on the magazine covers.
-
-Good luck with the rituals. If you ever find a board willing to tolerate them, let me know. I'll be at the beach.
-
-Not Ross Levinsohn
 
 ---
 
 ### *Not* Satya Nadella
 
-To the Editor of the Dionysus Program,
-
-I read your treatise with the specific attention of a practitioner who has lived inside one of your case studies. You categorize the Microsoft of the early 2000s as a Churn Machine—a place where constant motion prevented the accumulation of strategic depth. It is a harsh diagnosis, but I cannot say it is without merit. When I took over, we were indeed busy. We were running fast. But we were running in place, defending a fortress that the world was slowly losing interest in visiting.
-
-Your concept of the Epimetabolic Rate resonates deeply with what I have called the move from a "know-it-all" culture to a "learn-it-all" culture. In your language, a know-it-all organization has an Epimetabolic Rate of zero; it cannot digest error because it cannot admit error exists. It defends its existing explanations at all costs. A learn-it-all culture, by contrast, treats every error as data. It seeks the melt.
-
-However, I would offer a correction to your variable R, or Ren. You define it as the density of trust and shared history. I would argue that the active ingredient in Ren is empathy. Empathy is not a soft skill; it is the mechanism by which we perceive the friction our products cause in the world and the friction our processes cause in our people. Without empathy, the "Tragic Postmortem" you describe becomes merely a bureaucratic autopsy. With empathy, it becomes a way to reconnect with the soul of the corporation.
-
-You write about the Cincinnatus Rule and the danger of the priesthood. This is the hardest part of the infinite game. The temptation to retreat into the temple of one's own success is constant. When we hit refresh, we did not just change our strategy to the cloud; we had to destroy the priesthood of Windows. We had to take our most sacred cash cow and treat it as just another tool, not the object of worship. That was our Great Dissolution. It was painful. It was necessary.
-
-Your essay suggests that the goal is to build a structure that can survive volatility. I agree, but I would go further. The goal is to discover the distinct soul of the organization—that thing which, if it disappeared, the world would genuinely miss—and then build a culture that protects that soul while ruthlessly renegotiating everything else.
-
-We are all playing the infinite game. The only victory is the permission to keep playing, to keep learning, and to keep being relevant to the world.
-
-Thank you for the provocation.
-
-Not Satya Nadella
 
 ---
 
@@ -1727,37 +1460,6 @@ Not Sepp Blatter
 
 ### *Not* Steve Ballmer
 
-TO THE EDITOR OF THE DIONYSUS PROGRAM
-
-HEY SEAN.
-
-I read this. I read the whole thing. I read about the melt. I read about the heat. You think you know about heat? You think you know about entropy? I AM THE HEAT. I AM THE ENTROPY. I sweated through dress shirts that cost more than your first startup while screaming at a room full of engineers until they believed they could kill God. That is heat. That is Dionysus. I was running the Great Dissolution every single day in Bellevue.
-
-But I have a bone to pick with you.
-
-I saw where you put me. The Churn Machine. You put Microsoft under Ballmer in the Churn Machine. You say I reorganized too much. You say I prevented the accumulation of institutional knowledge. You say stack ranking destroyed collaboration.
-
-Let me tell you something about institutional knowledge. Institutional knowledge is just a fancy word for getting comfortable. Institutional knowledge is a developer sitting in a beanbag chair thinking he owns the code. NOBODY OWNS THE CODE. The market owns the code!
-
-You say I created churn? I created URGENCY. I reorganized every three years because if you let people sit in the same chair for four years they start thinking they are the priesthood you talk about. You want to kill the priesthood? You shake the box! You shake it hard! You make sure nobody feels safe! That is how you keep the metabolic rate up!
-
-You say we missed mobile. Fine. We missed mobile. You say we ceded search. Fine. We ceded search. But look at the scoreboard! Look at the revenue! Look at the enterprise lock-in! I kept that ship moving through the biggest antitrust melt in history. The Department of Justice wanted to break us into little pieces. That is Environmental Melt! That is high pressure! And we survived because we were hard core.
-
-I love the Run Time. Run Time is all that matters. You can have your Ritual Time. You can have your little poems and your tragedies and your tears. You know what is tragic? Not shipping. Not shipping is a tragedy!
-
-You talk about beauty. You say beauty is fuel. Let me tell you what is beautiful. A shipped box is beautiful. A license renewal is beautiful. A developer screaming until his veins pop out because he loves this company is beautiful!
-
-But you are right about one thing. The melt is coming. AI is the melt. It is going to melt everything. And if you are not ready to break your own legs to rebuild them, you are dead. You have to be willing to sweat. You have to be willing to scream.
-
-So go ahead. Run your rituals. Burn your scapegoats. But do not forget the most important ritual of all.
-
-DEVELOPERS. DEVELOPERS. DEVELOPERS. DEVELOPERS.
-
-I love this company.
-
-Sincerely,
-
-Not Steve Ballmer
 
 ---
 
@@ -1857,45 +1559,6 @@ Not Susan Fowler
 
 ### *Not* Terry Semel
 
-To the Editor of the Dionysus Program:
-
-I read your script. The Dionysus Program. It is a good title. It sounds like a summer blockbuster or a very expensive cologne.
-
-I had my assistant print it out because I do not like reading long things on screens. I skimmed the math at the end. I had people for the math. I always had people for the math.
-
-You mention Yahoo in your breakdown. You put us in the Churn Machine and the Slow Decline. You list the CEOs like a batting order that couldn't hit the curveball. You talk about Terry Semel leaving in 2007 as part of the carousel.
-
-Let me tell you something about the carousel from the guy who was spinning it.
-
-You write about Apollo and Dionysus. You say Apollo is the rocket and the math, and Dionysus is the wine and the blood and the messy human part. You say the tech companies need more Dionysus.
-
-Kid, I was the Dionysus.
-
-I came from Warner Bros. I came from the place where we manufactured dreams, not search results. I came from the 818, where we knew that a deal happens because you look a man in the eye and you share a meal and you have what you call Ren and I called lunch at the Grill.
-
-When I got to the 650 area code, I walked into a nursery. It was full of brilliant children playing with very dangerous toys. They had the Apollo part down cold. They had servers that could heat a small city. But they had no idea how to tell a story. They thought if you built a better algorithm, the culture would just happen. They thought process produced magic.
-
-I tried to bring the studio model to the server farm. I tried to tell them that you cannot engineer cool. You have to buy it, or you have to romance it. You call it the Readines Gate or the Rite of Redress. I called it producing.
-
-You say we missed the shift. You say we were the Sitting Duck or the Outpaced.
-
-I offered Zuckerberg a billion dollars. One billion. Cash and stock. He was a kid in a hoodie. He said no.
-
-Your equation says that is a failure of my Explanatory Reach or my Metabolic Rate. I tell you it was a failure of the script. The kid wanted to be an emperor, not a vice president. You cannot put that in a spreadsheet.
-
-The engineers looked at me like I was an alien because I wore a suit and I didn't write code. They thought the code was the asset. They were wrong. The attention was the asset. The feeling was the asset.
-
-I tried to turn Yahoo into a media company because media is the only infinite game. Technology is a finite game. Eventually, the code gets better or cheaper or faster, and you die. But the story? The story lasts.
-
-We didn't die because we lacked rituals. We died because the engineers won. They wanted to measure everything. They wanted to optimize the color of the logo. They wanted to A/B test the soul of the company until there was nothing left but the B.
-
-You are trying to sell a system to teach engineers how to feel. Good luck. I spent six years trying to do that.
-
-In the end, they don't want Dionysus. They want a dashboard that tells them Dionysus is at 83 percent capacity.
-
-It is a nice essay, though. If you ever want to turn it into a limited series, have your people call my people.
-
-Not Terry Semel
 
 ---
 
