@@ -147,11 +147,6 @@ Not Aristotle
 
 ---
 
-### *Not* Avi Arad
-
-
----
-
 ### *Not* Benoit Mandelbrot
 
 To the Editor of the Dionysus Program,
@@ -173,11 +168,6 @@ Nature builds fractals because they are efficient at managing turbulence. The lu
 Do not let your readers mistake this for a metaphor. It is geometry. If they build smooth structures in a rough world, they will break. If they build rough structures, they may survive.
 
 Not Benoit Mandelbrot
-
----
-
-### *Not* Bill Gates
-
 
 ---
 
@@ -238,11 +228,6 @@ I agree with your premise: we must move fast by breaking things and mending them
 The "Churn Machine" kept the lights on. It bought the time. It preserved the entity. It was ugly. It was loud. It was not "beautiful heat." But it was heat. And in the cold vacuum of the market, heat is life.
 
 Not Carly Fiorina
-
----
-
-### *Not* Carol Bartz
-
 
 ---
 
@@ -447,11 +432,6 @@ You have written a liturgy for a secular priesthood, designed to prevent that pr
 Signed,
 
 Not Émile Durkheim
-
----
-
-### *Not* Fred Smith
-
 
 ---
 
@@ -741,11 +721,6 @@ Not Immanuel Kant
 
 ---
 
-### *Not* Isaac Perlmutter
-
-
----
-
 ### *Not* J. Robert Oppenheimer
 
 To the Editor,
@@ -907,11 +882,6 @@ But if you want to teach them how to avoid being a "Sitting Duck," tell them thi
 We weren't ducks. We were sharks. We just ran out of water.
 
 Not Jim Balsillie
-
----
-
-### *Not* John Sculley
-
 
 ---
 
@@ -1143,16 +1113,6 @@ Not Marissa Mayer
 
 ---
 
-### *Not* Mark Hurd
-
-
----
-
-### *Not* Max Levchin
-
-
----
-
 ### *Not* Max Weber
 
 To the Author of the Dionysus Program:
@@ -1172,11 +1132,6 @@ Nevertheless, your program is a worthy adversary to the iron cage. To act as if 
 I shall watch your experiment from the gallery.
 
 Not Max Weber
-
----
-
-### *Not* Meg Whitman
-
 
 ---
 
@@ -1416,16 +1371,6 @@ Not Robert Mugabe
 
 ---
 
-### *Not* Ross Levinsohn
-
-
----
-
-### *Not* Satya Nadella
-
-
----
-
 ### *Not* Sepp Blatter
 
 To the Editor of the Dionysus Program,
@@ -1455,11 +1400,6 @@ Your Dionysus Program is a clever theory for software engineers and consultants.
 With sporting regards,
 
 Not Sepp Blatter
-
----
-
-### *Not* Steve Ballmer
-
 
 ---
 
@@ -1554,11 +1494,6 @@ If you want this program to work, you cannot just warn against the priesthood. Y
 Signed,
 
 Not Susan Fowler
-
----
-
-### *Not* Terry Semel
-
 
 ---
 

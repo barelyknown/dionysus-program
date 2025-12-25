@@ -171,8 +171,16 @@ function main() {
 
   names.sort((a, b) => a.localeCompare(b, 'en', { sensitivity: 'base' }));
 
-  const downloadMarkdown = buildLettersMarkdown(names, {});
-  const appendixMarkdown = buildLettersMarkdown(names, {
+  const availableNames = names.filter((name) => {
+    const slug = slugify(name);
+    const filePath = path.join(LETTERS_DIR, `${slug}.txt`);
+    if (!fs.existsSync(filePath)) return false;
+    const content = fs.readFileSync(filePath, 'utf8').trim();
+    return content.length > 0;
+  });
+
+  const downloadMarkdown = buildLettersMarkdown(availableNames, {});
+  const appendixMarkdown = buildLettersMarkdown(availableNames, {
     htmlPageBreaks: false,
     pdfPageBreaks: true,
     htmlDividers: true,
