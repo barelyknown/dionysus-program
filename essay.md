@@ -28,6 +28,9 @@ And it did work—often spectacularly. But something kept happening.
 
 The same organizational problems would reappear. Not because the tools were wrong, but because the human substrate would reassert itself. The system would improve, then plateau. The metrics would sharpen, then become objects of theater. The machinery got tighter. The output improved. And quietly, the trust account was spent down. People became colder, more guarded, more performative—less able to tell the truth while it was still useful.
 
+Common became normal. Normal became moral.
+And once something is moral, it is expensive to change—no matter how good your metrics are.
+
 That was the first wound that later became this book: mechanistic improvement can succeed while the humans pay.
 
 Before XBE, I co-founded Partage, a freight business that evolved into a self-service wholesale brokerage. We built automated pricing and booking for spot movements. Partage was a modest success and sold in 2015. But the more important lesson was conceptual:
@@ -99,8 +102,9 @@ This book could have been written ten years ago, or a hundred. The core human dy
 So here is the contract.
 
 This book is free, except for your time and your vulnerability.
+By “vulnerability,” I mean the willingness to let your current explanations—about your work and yourself—be refuted in public.
 
-The program is a system. If you take one piece—“more candor,” or “better postmortems,” or “aesthetic rituals”—and try to staple it onto a culture that won’t metabolize error, you will get theater. The parts reinforce each other because the problem is whole.
+The program is indivisible. If you take one piece—“more candor,” or “better postmortems,” or “aesthetic rituals”—and staple it onto a culture that won’t metabolize error, you will get theater. The parts reinforce each other because the problem is whole.
 
 If what you want is tactics that let you keep your current identity intact while the world changes around you, this won’t be satisfying. But if you do commit, success will not look like a perfect machine. Success will look humane. More connected. More joyful. More resilient. It will look like people who can face disruptive truth without needing scapegoats or numbness. It will look like leaders who can move fast by breaking things—and then mend what they break into something stronger.
 
