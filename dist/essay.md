@@ -20,99 +20,93 @@ Move fast by breaking things—and mending them into something stronger.
 
 ## Preface
 
-I didn’t set out to write a book. I set out to survive a change in the world that was arriving whether I wanted it or not.
+My early success did not scale. It relied too much on personal intensity—on being smart, working hard, and tolerating pain. Those are anti-social strategies in the long run. They ask too much of other humans. They burn trust. They create brittle organizations.
 
-For the first half of my career, I lived inside the Apollo virtues. I learned to improve systems and processes the honest way: go to the floor, name the constraints, measure the flow, remove the waste, repeat. I watched optimization-based strategic sourcing transformations work across dozens of Fortune 500 organizations. I watched Lean Six Sigma take hold at Con-way and produce real, compounding gains. When you’re standing in front of a messy operation and the numbers start to move in the right direction, it’s hard not to become a believer. Apollo is intoxicating when it works.
+For the first half of my career, I lived inside the Apollo virtues. I learned to improve systems and processes the honest way: go to the floor, name the constraints, measure the flow, remove the waste, repeat. At Con-way, during the Great Recession, I helped build and roll out Lean Six Sigma as an operating system. When you’re standing in front of a messy operation and the numbers start to move in the right direction, it’s hard not to become a believer.
 
 And it did work—often spectacularly. But something kept happening.
 
-The same organizational problems would reappear. Not because the tools were wrong, but because the human substrate would reassert itself. The system would improve, then plateau. The process would tighten, then loosen. The metrics would sharpen, then become objects of theater. The improvements were large enough, and the regressions slow enough, that you could keep going. You could soldier on. You could rationalize it as “just the way people are.” You could keep stacking incremental gains.
+The same organizational problems would reappear. Not because the tools were wrong, but because the human substrate would reassert itself. The system would improve, then plateau. The metrics would sharpen, then become objects of theater. The machinery got tighter. The output improved. And quietly, the trust account was spent down. People became colder, more guarded, more performative—less able to tell the truth while it was still useful.
 
-Then I built software to implement continuous improvement methods, and the pattern accelerated.
+That was the first wound that later became this book: mechanistic improvement can succeed while the humans pay.
 
-I watched the same failures re-emerge faster because the loop was tighter: more visibility, more reporting, more dashboards, more “truth.” People would say, *If we only had better visibility, we could manage this better.* I believed that for a while. I built for it. And then I watched it fail in the one way that is hardest to ignore: we *did* have visibility, and the status quo still prevailed.
+Before XBE, I co-founded Partage, a freight business that evolved into a self-service wholesale brokerage. We built automated pricing and booking for spot movements. Partage was a modest success and sold in 2015. But the more important lesson was conceptual:
 
-Common became normal. Normal became moral. And once something is moral, it is expensive to change—no matter how good your metrics are.
+Seeing the technical trend is never enough; you have to think through the full implications—how new technology reshapes the work itself, the team that performs it, the organization that depends on it, and the industry that surrounds it.
 
-Even then, I might have left this as a background frustration: the perennial gap between what we can see and what we can do, between what we know and what we live. I had been carrying that gap for years.
+That sentence is a hinge in this book. It is the difference between tools and transformation.
 
-The obsession arrived with the scaling era of artificial intelligence.
+In 2016 I started XBE with no construction-industry experience and no capital. We began with dump-truck logistics because it was painful, legible, and close enough to my prior life. We built visibility: dashboards, reporting, “truth.” Visibility felt like power.
 
-I watched skills I had spent my adult life building become cheap in months. Not metaphorically cheap—*functionally* cheap. I watched competence compress. I watched the floor rise under everyone at once. And then I watched something more revealing than any technical breakthrough: people didn’t struggle most with the technology. They struggled with what the technology made them feel about themselves.
+Then a deeper constraint surfaced.
+
+Our largest customer was running a major interstate paving job at night. I watched trucks back up. I watched idle time accrue. I watched surplus capacity become heat—dollars burning in the dark.
+
+And then you notice the cruel part: by the time the trucks are backing up, it is too late.
+
+You can plead. You can argue. You can “optimize” around the edges. But the decision that created the waste was made hours earlier, when uncertainty was still high and when the only culturally admissible move was to over-order trucks to protect production.
+
+In messy systems, waste is often not an error. It is an insurance policy.
+
+On that job, the superintendent became emotional about the visibility. He saw himself as the hero of the work. Our dashboards told a more complicated story. After talking with him for a few days, it became clear that I needed to do less convincing and more enabling. He didn’t need another lecture about efficiency. He needed planning tools that doubled as communication tools—a way to surface uncertainty *before* the fact, and make that uncertainty socially admissible.
+
+So we built job production plans, supply–demand balancing, and shift schedule automation. Trucking surplus fell materially. Not because anyone became morally better, but because the system made a different kind of honesty possible.
+
+We also built a ritual we called Game Tape Review: a recurring review of plan performance attended by people across construction, materials, and logistics. The point was not to assign blame. The point was to study error while it was still cheap.
+
+Ritual time did something run time could not: it made it safe to be wrong in public.
+
+—
+
+I had believed artificial intelligence was “the future” in the vague way many people believe a thing without feeling it. I did not feel it until I started pushing GPT-3 hard in 2022. Then ChatGPT arrived. Then GPT-4 arrived.
+
+I watched skills I had spent my adult life building become cheap in months. Not metaphorically cheap—*functionally* cheap. And then I watched something more revealing than any technical breakthrough: people didn’t struggle most with the technology. They struggled with what the technology made them feel about themselves.
 
 That was the moment the problem clarified.
 
-The bottleneck wasn’t chips. It wasn’t data. It wasn’t algorithms. It wasn’t power. Those are real constraints, but they’re not the governing one. The governing constraint is cultural: the rate at which humans, teams, organizations, and cities can metabolize disruptive knowledge into new roles, new norms, new stories, and new commitments—without collapsing into violence, numbness, or theater.
+The governing constraint isn’t chips. It isn’t data. It isn’t algorithms. It is cultural: the rate at which humans, teams, organizations, and cities can metabolize disruptive knowledge into new roles, new norms, new stories, and new commitments—without collapsing into numbness, violence, or theater.
 
 In other words: the bottleneck is our capacity to let meaning melt and then re-bind.
 
-That is the ghost that haunts this book.
+Earlier in my career I fell into a trap: stoicism plus optimization. I judged solutions by whether they eliminated waste and whether I could implement them myself in the short run. I undervalued social scale over time. I treated identities as liabilities to be reduced rather than assets to be cultivated. I treated redundancy as waste rather than as the buffer needed to live with uncertainty—and to make room for renewal.
 
-Earlier in my career I fell into a particular trap: stoicism plus optimization. I judged solutions by whether they eliminated waste and whether I could implement them myself in the short run. I undervalued scale over time—especially social scale. I treated identities as liabilities to be reduced rather than assets to be cultivated. I treated redundancy as waste rather than as the buffer needed to deal with uncertainty and to make room for the rituals of renewal. Those were the strategies of a young man with a short horizon.
+This book exists as a response to that critique.
 
-I’ve matured. The world has changed even more.
+I entered college before the internet was widespread. I entered the workforce before smartphones existed. I made a career before I knew how to code. I learned to code long before coding agents existed. Now they do. And I have pushed them personally, hard, enough to watch the frontier move under my feet while I’m standing on it.
 
-I entered college before the internet was widespread. I entered the workforce before smartphones existed. I made a career before I knew how to code. I learned to code long before coding agents existed. I built a company before large language models existed. Now they do. And I have pushed them personally, hard, enough to watch the frontier move under my feet while I am standing on it.
+Once you see knowledge being created—and therefore destroyed—at that speed, it becomes impossible to unsee how slowly organizations change, and how rarely the delay is technical. It is almost always about status, shame, loyalty, fear, and the quiet bargains people make with themselves to keep their identities intact.
 
-Once you see knowledge being created—and therefore destroyed—at that speed, it becomes impossible to unsee how slowly organizations can move, and how rarely the delay is technical. It is almost always cultural. It is almost always about status, shame, loyalty, fear, and the quiet bargains people make with themselves to keep their identities intact.
+So I went looking for older tools—not to escape modernity, but to survive it. I wanted forms that could hold high social heat without burning people. The connections—and the machinery—are spelled out in what follows.
 
-So I went looking for older tools.
+In the last few years we took institutional capital, integrated acquisitions, launched new products, and kept growing under real consequences. The hard work wasn’t the software. It was integration: cultures, rituals, and stories about what mattered—under stress.
 
-I am a close reader of Taleb, and I trust Lindy ideas—ideas that have survived long enough to be dangerous to ignore. The bigger the problem, the more I reach for the oldest sources of knowledge, not out of nostalgia, but out of respect for selection pressure. If something has endured across centuries of human volatility, there is usually a reason. I also believe in de-specialization. The best solutions often come from combining fields that have no business speaking to each other—until they do.
+This is the context in which this program was forged: not as theory, but as survival equipment.
 
-That search created a series of “aha” moments that felt, frankly, like being caught in a current. Greek tragedy spoke the same grammar as systems engineering. Thermodynamics rhymed with organizational decay. Confucius understood something modern managers routinely miss: form is not the same as spirit. Popper’s error-correction wasn’t just a philosophy of science—it was a blueprint for moral progress. Girard’s scapegoat mechanics weren’t just anthropology—they were a warning label for every transformation program you’ve ever seen go bad.
+—
 
-The strange bedfellows met because they were all looking at the same object from different sides: what happens to humans in the presence of disruptive truth.
+I wrote this first for myself. I had a clear vision of what artificial intelligence could do, and I wanted to lean into it. I also saw how adoption would remake my identity and my role in the world. I needed a framework that could hold both facts at once: that automation of our existing capabilities is a given, and that what remains—what matters—will be cultural, moral, and relational.
 
-Some pieces were harder than others.
+Second, I wrote it for my teammates, and for my family and friends. I wanted to offer something that could be used: a program, not a mood.
 
-It took time to see that “melt” is not merely confusion—it is often an inversion of mimetic desire and rivalry. When that clicked, it led to a cascade: the anti-scapegoat, the need for warmth during ritual time, the reason beauty isn’t decoration but fuel. It took time to see that accountability inverts between run time and ritual time, and that a healthy organization must synchronize both without confusing them. It took time to understand that trust capacity is the limiting reagent, and that increasing ritual in the absence of trust is not neutral—it is counterproductive. It took time to see how fractal the right ideas are: zoom in or out and the same loop repeats.
-
-And there is still at least one unresolved tension I am carrying into publication: the ritual has to be *received* to be powerful. A rite can be perfectly designed and still fail if the group cannot accept it as binding. That is not a technical problem. It is an aesthetic and moral one. I don’t have a final answer for it. I have a set of forms that, in my experience, increase the odds. That is what this book offers: forms, and the logic underneath them.
-
-This is why I wrote the Dionysus Program.
-
-First, I wrote it for myself.
-
-I had a clear vision of what artificial intelligence could do, and I wanted to lean into it. I also saw how the adoption of AI would remake my identity and my role in the world. I needed a framework that could hold both facts at once: that automation of our existing capabilities is a given, and that what remains—what matters—will be cultural, moral, and relational. I needed a way to keep moving without hollowing out.
-
-Second, I wrote it for my teammates, and for my family and friends.
-
-I assumed—correctly—that I wasn’t the only one who would feel the ground shifting. I wanted to lead by example, but I also wanted to offer something that could be used: a program, not a mood. A set of containers that let people metabolize change with dignity, without turning every transition into a hidden war.
-
-Third, I wrote it for anyone whose head is out of the sand.
-
-If you are still debating whether this is real, you will eventually be convinced by pain. If you already know it is real, then you are the audience. This is not written for a particular job title. It is written for the reader who senses that the old promises—*work hard, master a skill, become indispensable*—are dissolving, and who refuses both cynicism and denial.
+Third, I wrote it for anyone whose head is out of the sand. If you’re still debating whether this is real, you will eventually be convinced by pain. If you already know it is real, then you are the audience.
 
 The stakes are not abstract.
 
-If you keep managing the old way, you will not merely fail; you will freeze. Your skills will be commoditized. Your teams will disengage. Your organization will become irrelevant. Or you will do “okay” for a while by consuming the trust of your organization—using fear, status, and exhaustion as fuel—until the trust account runs out. Then the fall will be hard.
+If you keep managing the old way, you will not merely fail; you will freeze. Your skills will be commoditized. Your teams will disengage. Or you will do “okay” for a while by consuming the trust of your organization—using fear, status, and exhaustion as fuel—until the trust account runs out. Then the fall will be hard.
 
-This book could have been written ten years ago, or a hundred. The core human dynamics are old. What changed is urgency. The possible rate of knowledge growth (and destruction) has jumped. That jump collapses the timeline on which culture is allowed to adapt. The future is arriving on a schedule that makes Apollo-only management insufficient.
+This book could have been written ten years ago, or a hundred. The core human dynamics are old. What changed is urgency.
 
 So here is the contract.
 
 This book is free, except for your time and your vulnerability.
 
-Knowledge is infinite. That means our knowledge of any topic is always changing. The goal is not to fix our humanity once and for all, but many times over. The work is cyclical. It is a loop: critique → dissolution → reconstitution → renewal. If you are looking for five quick tips that let you keep your current identity intact while the world changes around you, this will disappoint you. Close it now and do something else.
+The program is a system. If you take one piece—“more candor,” or “better postmortems,” or “aesthetic rituals”—and try to staple it onto a culture that won’t metabolize error, you will get theater. The parts reinforce each other because the problem is whole.
 
-The Dionysus Program is indivisible.
+If what you want is tactics that let you keep your current identity intact while the world changes around you, this won’t be satisfying. But if you do commit, success will not look like a perfect machine. Success will look humane. More connected. More joyful. More resilient. It will look like people who can face disruptive truth without needing scapegoats or numbness. It will look like leaders who can move fast by breaking things—and then mend what they break into something stronger.
 
-You cannot take one piece—“more candor,” or “better postmortems,” or “aesthetic rituals,” or “anti-scapegoat language”—and expect it to work. You cannot bolt Dionysus onto Apollo like an accessory. The parts reinforce each other because the problem is whole. The program asks you to commit to a full journey: to build containers that can hold social heat, to cultivate the trust required to fill them, to protect those containers from capture, and to let yourself be changed by what you learn inside them.
+I am not offering this as a finished cathedral. I am offering it as working machinery—tested in bloodless but real arenas. Use it. Critique it. Kill what doesn’t work. Keep what does. The program should be subject to the same rule it imposes: nothing is sacred except the commitment to metabolize error without sacrifice.
 
-If you do that, success will not look like a perfect machine.
-
-Success will look humane. More connected. More joyful. More resilient. More creative. More loving. Success will look like people who can face disruptive truth without needing scapegoats or numbness. It will look like organizations that can metabolize loss into learning without burning their people. It will look like leaders who can move fast by breaking things—and then mend what they break into something stronger.
-
-This is not a rejection of Apollo.
-
-I still love systems. I still love measurement. I still love optimization. In run time, Apollo is unbeatable. The Dionysus Program exists because Apollo cannot do everything we are now asking it to do. Apollo can put humans on the Moon. It cannot, by itself, keep humans whole while the ground truth of their lives is repeatedly rewritten. For that we need rituals, beauty, tragedy, and governance strong enough to keep those tools from becoming theater or priesthood.
-
-I am not offering this as a finished cathedral. I am offering it as working machinery—tested in bloodless but real arenas: companies, teams, relationships, selfhood. Use it. Critique it. Kill what doesn’t raise your epimetabolic rate. Keep what does. And if you improve it, publish the improvement. The program should be subject to the same rule it imposes: nothing is sacred except the commitment to metabolize error without sacrifice.
-
-If you are ready to pay the price of admission—time, attention, vulnerability—then begin.
-
-And if you are not ready, that is not a moral failure. It is information. Start smaller. Build trust. Earn the right to hold more heat.
+If you are ready to pay the price—time, attention, vulnerability—then begin.
 
 Either way, the world is not going to slow down for us.
 
@@ -131,7 +125,9 @@ So we will have to become the kind of people who can keep up—without becoming 
 
 ## Introduction
 
-The first four mini essays outline why this program exists, what it protects, and how to read the remaining acts. Between the acts you’ll find two interludes that work as gates: one checks whether you have the relational density to run the rites at all, the other checks whether the stewards can avoid turning those rites into a standing priesthood. Consider them a shared introduction you can return to before diving into the rituals and practices.
+The first four mini essays outline why this program exists, what it protects, and how to read the remaining acts.
+
+Between the acts you’ll find two interludes that work as gates: one checks whether you have the relational density to run the rites at all, the other checks whether the stewards can avoid turning those rites into a standing priesthood. Consider them a shared introduction you can return to before you attempt the more volatile practices.
 
 ```{=latex}
 \iffalse
