@@ -1,7 +1,7 @@
 ---
 title: "The Dionysus Program"
 author: "Sean Devine"
-description: "Move fast by breaking things—and mending them into something stronger."
+description: "Rites of Renewal"
 rights: "© 2025. All rights reserved."
 ---
 
