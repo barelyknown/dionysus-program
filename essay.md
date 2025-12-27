@@ -16,7 +16,7 @@ _To Esthergen._
 
 # The Dionysus Program
 
-Move fast by breaking things—and mending them into something stronger.
+Rites of Renewal
 
 ```{=latex}
 \iffalse
