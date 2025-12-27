@@ -18,6 +18,46 @@ _To Esthergen._
 
 Move fast by breaking things—and mending them into something stronger.
 
+```{=latex}
+\iffalse
+```
+
+---
+
+```{=latex}
+\fi
+\newpage
+```
+
+## About the Author
+
+Sean Devine is the Founder and CEO of XBE, a business operations platform for heavy materials, logistics, and construction. He founded XBE in 2016 with no construction-industry experience and no venture capital, and built it into one of the industry’s most innovative and enduring software businesses—scaling with sustained profitable growth and strong retention, serving tens of thousands of users across more than 100 customers, and growing to a global team of more than 100. In January 2024, he sold the majority of XBE to Banneker Partners and remained CEO and a significant shareholder. Since the transaction, he has continued to run the company while maintaining growth through a combination of organic product development and M&A, leading the acquisitions and integrations of BCMI, Gauge, and PriceBee.
+
+Since the beginning of his career, he has pursued a mission of de-specialization. He is unusually versatile across entrepreneurship, operations, leadership, software development, and strategy.
+
+Before founding XBE, he co-founded Partage in Chicago. Partage pioneered self-service spot freight brokerage by automating pricing and booking for partial- and full-truckload freight ahead of where the market would later move. In 2015, Partage’s software was acquired by TTS and its brokerage operation was acquired by MGN Logistics.
+
+From 2006 to 2010, he held multiple roles at Con-way, including Vice President of Pricing and Engineering at Con-way Freight, where he was responsible for Strategy Management and led the rollout of Lean Six Sigma as the company’s continuous improvement operating system during the Great Recession. He also served as Chief Procurement Officer and Vice President of Engineering at Con-way Inc.
+
+He attended Babson College from 1996 to 1999, where he studied Finance and Entrepreneurial Studies.
+
+He also actively invests in businesses where he believes he can uniquely see—or create—an edge.
+
+He grew up in Albany, New York, and lives in San Francisco, California, with his wife, Theresa, and their two youngest daughters.
+
+He’s [@barelyknown](https://x.com/barelyknown) on X.
+
+```{=latex}
+\iffalse
+```
+
+---
+
+```{=latex}
+\fi
+\newpage
+```
+
 ## Preface
 
 My early success did not scale. It relied too much on personal intensity—on being smart, working hard, and tolerating pain. Those are anti-social strategies in the long run. They ask too much of other humans. They burn trust. They create brittle organizations.
