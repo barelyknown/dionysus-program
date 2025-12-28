@@ -6,7 +6,7 @@
 
 Aristotle. Poetics (c. 335 BCE). [Free](https://www.gutenberg.org/ebooks/1974) · [Amazon](https://www.amazon.com/Poetics-Aristotle/dp/0140446362)
 
-Aristotle. Politics (c. 350 BCE). [Free](https://classics.mit.edu/Aristotle/politics.html) · [Amazon](https://www.amazon.com/Politics-Aristotle/dp/0226026736)
+Aristotle. Politics (c. 350 BCE). [Free](https://classics.mit.edu/Aristotle/politics.html) · [Amazon](https://www.amazon.com/s?k=Aristotle+Politics)
 
 James P. Carse. Finite and Infinite Games: A Vision of Life as Play and Possibility (1986). [Amazon](https://www.amazon.com/Finite-Infinite-Games-James-Carse/dp/1476731713)
 
@@ -26,17 +26,17 @@ René Girard. Violence and the Sacred (1972). [Amazon](https://www.amazon.com/Vi
 
 René Girard. Things Hidden Since the Foundation of the World (1978). [Amazon](https://www.amazon.com/Things-Hidden-Since-Foundation-World/dp/0804722153)
 
-René Girard. The Scapegoat (1982). [Amazon](https://www.amazon.com/Scapegoat-Rene-Girard/dp/0801839475)
+René Girard. The Scapegoat (1982). [Amazon](https://www.amazon.com/s?k=Girard+Scapegoat)
 
 Georg Wilhelm Friedrich Hegel. Phenomenology of Spirit (1807). [Free](https://www.marxists.org/reference/archive/hegel/works/ph/phprefac.htm) · [Amazon](https://www.amazon.com/Phenomenology-Spirit-G-W-F-Hegel/dp/0198245971)
 
-Heraclitus. Fragments (c. 500 BCE). [Free](https://archive.org/details/heraclitusgreekt00herauoft) · [Amazon](https://www.amazon.com/Heraclitus-Fragments-Text-Translation-Commentary/dp/0802006221)
+Heraclitus. Fragments (c. 500 BCE). [Free](https://archive.org/details/heraclitusgreekt00herauoft) · [Amazon](https://www.amazon.com/s?k=Heraclitus+Fragments)
 
 Reid Hoffman, Ben Casnocha, and Chris Yeh. The Alliance: Managing Talent in the Networked Age (2014). [Amazon](https://www.amazon.com/Alliance-Managing-Talent-Networked-Age/dp/1625275773)
 
 Reid Hoffman and Chris Yeh. Blitzscaling: The Lightning-Fast Path to Building Massively Valuable Companies (2018). [Amazon](https://www.amazon.com/Blitzscaling-Lightning-Fast-Building-Massively-Companies/dp/1524761419)
 
-Immanuel Kant. Critique of Judgment (1790). [Free](https://www.gutenberg.org/ebooks/48433) · [Amazon](https://www.amazon.com/Critique-Judgment-Oxford-Philosophical-Texts/dp/0198238975)
+Immanuel Kant. Critique of Judgment (1790). [Free](https://www.gutenberg.org/ebooks/48433) · [Amazon](https://www.amazon.com/s?k=Kant+Critique+of+Judgment)
 
 Ibn Khaldun. The Muqaddimah (1377). [Free](https://archive.org/details/IbnKhaldunTheMuqaddimah) · [Amazon](https://www.amazon.com/Muqaddimah-Introduction-History-Bollingen/dp/0691166285)
 
@@ -46,19 +46,19 @@ Benoît B. Mandelbrot and Richard L. Hudson. The (Mis)Behavior of Markets: A Fra
 
 Robert K. Merton. “Social Structure and Anomie” (1938). [Free](https://www.jstor.org/stable/2084686)
 
-Robert K. Merton. Social Theory and Social Structure (1949). [Amazon](https://www.amazon.com/Social-Theory-Structure-Robert-Merton/dp/0029211301)
+Robert K. Merton. Social Theory and Social Structure (1949). [Amazon](https://www.amazon.com/s?k=Merton+Social+Theory+and+Social+Structure)
 
-Robert Michels. Political Parties: A Sociological Study of the Oligarchical Tendencies of Modern Democracy (1911). [Free](https://archive.org/details/politicalparties00mich) · [Amazon](https://www.amazon.com/Political-Parties-Sociological-Oligarchical-Organization/dp/1614275084)
+Robert Michels. Political Parties: A Sociological Study of the Oligarchical Tendencies of Modern Democracy (1911). [Free](https://archive.org/details/politicalparties00mich) · [Amazon](https://www.amazon.com/s?k=Michels+Political+Parties)
 
 Friedrich Nietzsche. The Birth of Tragedy (1872). [Free](https://www.gutenberg.org/ebooks/51356) · [Amazon](https://www.amazon.com/Birth-Tragedy-Penguin-Classics/dp/0140433392)
 
 Yoshinori Ohsumi. Molecular Mechanisms of Autophagy in Yeast (2016). [Free](https://www.nobelprize.org/uploads/2018/06/ohsumi-lecture.pdf)
 
-Karl Popper. The Logic of Scientific Discovery (1959). [Amazon](https://www.amazon.com/Logic-Scientific-Discovery-Karl-Popper/dp/0415278449)
+Karl Popper. The Logic of Scientific Discovery (1959). [Amazon](https://www.amazon.com/s?k=Popper+Logic+of+Scientific+Discovery)
 
 Karl Popper. Conjectures and Refutations: The Growth of Scientific Knowledge (1963). [Amazon](https://www.amazon.com/Conjectures-Refutations-Scientific-Knowledge-Routledge/dp/0415285941)
 
-Ilya Prigogine and Isabelle Stengers. Order Out of Chaos: Man’s New Dialogue with Nature (1984). [Amazon](https://www.amazon.com/Order-Out-Chaos-Dialogue-Nature/dp/0553343637)
+Ilya Prigogine and Isabelle Stengers. Order Out of Chaos: Man’s New Dialogue with Nature (1984). [Amazon](https://www.amazon.com/s?k=Prigogine+Order+Out+of+Chaos)
 
 Thomas C. Schelling. The Strategy of Conflict (1960). [Amazon](https://www.amazon.com/Strategy-Conflict-New-Preface-Author/dp/0674840313)
 
