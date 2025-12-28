@@ -185,6 +185,26 @@ main {
   text-align: center;
 }
 
+.page-copyright {
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border-color);
+  color: var(--muted-color);
+  font-size: 0.95rem;
+}
+
+.page-copyright h2 {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.24em;
+  color: rgba(65, 64, 59, 0.75);
+  margin-bottom: 1.25rem;
+}
+
+.page-copyright p + p {
+  margin-top: 0.9rem;
+}
+
 .page-rights {
   font-size: 0.85rem;
   color: var(--muted-color);

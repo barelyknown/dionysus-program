@@ -1,6 +1,6 @@
 ## Appendix C: Letters to the Editor
 
-These letters are fictional. They were generated to explore the Dionysus Program's ideas from the perspectives of the source thinkers and the archetypes named in the essay. I greatly enjoyed the letters, and learned much from them too.
+The following letters are hypothetical responses imagined through the lens of the archetypes described in this book. They represent the author's synthesis of public records and philosophical stances, not the actual voices of the individuals named.
 
 I hope you do as well,
 
