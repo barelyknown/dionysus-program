@@ -10,6 +10,9 @@ ESSAY_MD="$ROOT_DIR/essay.md"
 LETTERS_SCRIPT="$ROOT_DIR/build-letters-to-editor.js"
 LETTERS_APPENDIX="$DIST_DIR/letters-to-editor-appendix.md"
 SOURCES_MD="$ROOT_DIR/appendix-sources.md"
+KEYWORDS_TXT="$ROOT_DIR/keywords.txt"
+INDEX_SCRIPT="$ROOT_DIR/build-index.js"
+INDEX_APPENDIX="$DIST_DIR/appendix-index.md"
 
 if ! command -v pandoc >/dev/null 2>&1; then
   echo "pandoc is required but not installed" >&2
@@ -19,8 +22,10 @@ fi
 mkdir -p "$DIST_DIR"
 
 node "$LETTERS_SCRIPT" "$DIST_DIR"
+node "$INDEX_SCRIPT" "$DIST_DIR" "$ESSAY_MD" "$KEYWORDS_TXT" "$LETTERS_APPENDIX" "$SOURCES_MD"
 
 pandoc "$ESSAY_MD" "$LETTERS_APPENDIX" "$SOURCES_MD" \
+  "$INDEX_APPENDIX" \
   --from=markdown \
   --toc \
   --toc-depth=3 \
@@ -46,6 +51,7 @@ fi
 
 if [[ -n "$PDF_ENGINE" ]]; then
   pandoc "$ESSAY_MD" "$LETTERS_APPENDIX" "$SOURCES_MD" \
+    "$INDEX_APPENDIX" \
     --from=markdown \
     --toc \
     --toc-depth=3 \

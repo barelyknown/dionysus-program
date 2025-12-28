@@ -69,6 +69,17 @@ function slugify(name) {
   return slug || 'unknown';
 }
 
+function slugifyHeading(name) {
+  const ascii = name
+    .normalize('NFKD')
+    .replace(/[\u0300-\u036f]/g, '');
+  const slug = ascii
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+  return slug || 'unknown';
+}
+
 function ensureDir(dir) {
   if (!fs.existsSync(dir)) {
     fs.mkdirSync(dir, { recursive: true });
@@ -107,6 +118,17 @@ function buildLettersMarkdown(names, options = {}) {
   lines.push('');
   lines.push('Sean Devine');
   lines.push('');
+  if (names.length > 0) {
+    const links = names.map((name) => {
+      const slug = slugifyHeading(name);
+      const id = prefixNot ? `not-${slug}` : slug;
+      return `[${name}](#${id})`;
+    });
+    lines.push('**Letters index:**');
+    lines.push('');
+    lines.push(links.join(' · '));
+    lines.push('');
+  }
   if (htmlDividers) {
     lines.push('<hr class="letter-divider">');
   }
@@ -134,7 +156,11 @@ function buildLettersMarkdown(names, options = {}) {
       lines.push('');
     }
 
-    const heading = prefixNot ? `### *Not* ${name}` : `### ${name}`;
+    const headingSlug = slugifyHeading(name);
+    const headingId = prefixNot ? `not-${headingSlug}` : headingSlug;
+    const heading = prefixNot
+      ? `#### *Not* ${name} {#${headingId}}`
+      : `#### ${name} {#${headingId}}`;
     lines.push(heading);
     lines.push('');
 

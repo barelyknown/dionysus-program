@@ -8,13 +8,17 @@ I hope you do as well,
 
 Sean Devine
 
+**Letters index:**
+
+[Abe Silverstein](#not-abe-silverstein) · [Adam Neumann](#not-adam-neumann) · [Alfred Sloan](#not-alfred-sloan) · [Apollo](#not-apollo) · [Aristotle](#not-aristotle) · [Benoit Mandelbrot](#not-benoit-mandelbrot) · [Carl Icahn](#not-carl-icahn) · [Carly Fiorina](#not-carly-fiorina) · [Claude Shannon](#not-claude-shannon) · [Confucius](#not-confucius) · [David Deutsch](#not-david-deutsch) · [Dionysus](#not-dionysus) · [Ed Catmull](#not-ed-catmull) · [Eddie Lampert](#not-eddie-lampert) · [Elon Musk](#not-elon-musk) · [Émile Durkheim](#not-emile-durkheim) · [Friedrich Nietzsche](#not-friedrich-nietzsche) · [Friedrich Schiller](#not-friedrich-schiller) · [Georg Wilhelm Friedrich Hegel](#not-georg-wilhelm-friedrich-hegel) · [Gil Amelio](#not-gil-amelio) · [Greg Smith](#not-greg-smith) · [Howard Schultz](#not-howard-schultz) · [Howie Makem](#not-howie-makem) · [Ibn Khaldun](#not-ibn-khaldun) · [Ilya Prigogine](#not-ilya-prigogine) · [Immanuel Kant](#not-immanuel-kant) · [J. Robert Oppenheimer](#not-j-robert-oppenheimer) · [James Carse](#not-james-carse) · [James McNerney](#not-james-mcnerney) · [Jeff Immelt](#not-jeff-immelt) · [Jerry Yang](#not-jerry-yang) · [Jim Balsillie](#not-jim-balsillie) · [Karl Popper](#not-karl-popper) · [Kelly Johnson](#not-kelly-johnson) · [Kevin Feige](#not-kevin-feige) · [Léo Apotheker](#not-leo-apotheker) · [Leon Trotsky](#not-leon-trotsky) · [Leonid Brezhnev](#not-leonid-brezhnev) · [Lucius Quinctius Cincinnatus](#not-lucius-quinctius-cincinnatus) · [Marissa Mayer](#not-marissa-mayer) · [Max Weber](#not-max-weber) · [Mike Lazaridis](#not-mike-lazaridis) · [Mikhail Gorbachev](#not-mikhail-gorbachev) · [Nassim Nicholas Taleb](#not-nassim-nicholas-taleb) · [Peter Thiel](#not-peter-thiel) · [Reid Hoffman](#not-reid-hoffman) · [René Girard](#not-rene-girard) · [Robert K. Merton](#not-robert-k-merton) · [Robert Michels](#not-robert-michels) · [Robert Mugabe](#not-robert-mugabe) · [Sepp Blatter](#not-sepp-blatter) · [Steve Jobs](#not-steve-jobs) · [Steve Sasson](#not-steve-sasson) · [Susan Fowler](#not-susan-fowler) · [Thomas Schelling](#not-thomas-schelling) · [Travis Kalanick](#not-travis-kalanick) · [Victor Turner](#not-victor-turner) · [Yoshinori Ohsumi](#not-yoshinori-ohsumi)
+
 <hr class="letter-divider">
 
 ```{=latex}
 \newpage
 ```
 
-### *Not* Abe Silverstein
+#### *Not* Abe Silverstein {#not-abe-silverstein}
 
 To the Editor of the Dionysus Program:
 
@@ -44,7 +48,7 @@ Not Abe Silverstein
 \newpage
 ```
 
-### *Not* Adam Neumann
+#### *Not* Adam Neumann {#not-adam-neumann}
 
 To the Editor of the Dionysus Program,
 
@@ -78,7 +82,7 @@ Not Adam Neumann
 \newpage
 ```
 
-### *Not* Alfred Sloan
+#### *Not* Alfred Sloan {#not-alfred-sloan}
 
 To the Editor:
 
@@ -116,7 +120,7 @@ Not Alfred Sloan
 \newpage
 ```
 
-### *Not* Apollo
+#### *Not* Apollo {#not-apollo}
 
 To the Editor of the Dionysus Program,
 
@@ -150,7 +154,7 @@ Not Apollo
 \newpage
 ```
 
-### *Not* Aristotle
+#### *Not* Aristotle {#not-aristotle}
 
 To the Author of the Dionysus Program,
 
@@ -174,7 +178,7 @@ Not Aristotle
 \newpage
 ```
 
-### *Not* Benoit Mandelbrot
+#### *Not* Benoit Mandelbrot {#not-benoit-mandelbrot}
 
 To the Editor of the Dionysus Program,
 
@@ -202,7 +206,7 @@ Not Benoit Mandelbrot
 \newpage
 ```
 
-### *Not* Carl Icahn
+#### *Not* Carl Icahn {#not-carl-icahn}
 
 To the Editor of the Dionysus Program:
 
@@ -240,7 +244,7 @@ Not Carl Icahn
 \newpage
 ```
 
-### *Not* Carly Fiorina
+#### *Not* Carly Fiorina {#not-carly-fiorina}
 
 To the Editor of the Dionysus Program,
 
@@ -270,7 +274,7 @@ Not Carly Fiorina
 \newpage
 ```
 
-### *Not* Claude Shannon
+#### *Not* Claude Shannon {#not-claude-shannon}
 
 Dear Mr. Devine,
 
@@ -298,7 +302,7 @@ Not Claude Shannon
 \newpage
 ```
 
-### *Not* Confucius
+#### *Not* Confucius {#not-confucius}
 
 To the Author of the Dionysus Program,
 
@@ -332,7 +336,7 @@ Not Confucius
 \newpage
 ```
 
-### *Not* David Deutsch
+#### *Not* David Deutsch {#not-david-deutsch}
 
 To the Editor of the Dionysus Program,
 
@@ -364,7 +368,7 @@ Not David Deutsch
 \newpage
 ```
 
-### *Not* Dionysus
+#### *Not* Dionysus {#not-dionysus}
 
 To the Architect of the Dionysus Program,
 
@@ -392,7 +396,7 @@ Not Dionysus
 \newpage
 ```
 
-### *Not* Ed Catmull
+#### *Not* Ed Catmull {#not-ed-catmull}
 
 To the Editor of the Dionysus Program,
 
@@ -420,7 +424,7 @@ Not Ed Catmull
 \newpage
 ```
 
-### *Not* Eddie Lampert
+#### *Not* Eddie Lampert {#not-eddie-lampert}
 
 To the Editor of the Dionysus Program,
 
@@ -450,7 +454,7 @@ Not Eddie Lampert
 \newpage
 ```
 
-### *Not* Elon Musk
+#### *Not* Elon Musk {#not-elon-musk}
 
 To the Editor,
 
@@ -478,7 +482,7 @@ Not Elon Musk
 \newpage
 ```
 
-### *Not* Émile Durkheim
+#### *Not* Émile Durkheim {#not-emile-durkheim}
 
 To the Author of the Dionysus Program,
 
@@ -506,7 +510,7 @@ Not Émile Durkheim
 \newpage
 ```
 
-### *Not* Friedrich Nietzsche
+#### *Not* Friedrich Nietzsche {#not-friedrich-nietzsche}
 
 To the Architect of this Paper Cage,
 
@@ -546,7 +550,7 @@ Not Friedrich Nietzsche
 \newpage
 ```
 
-### *Not* Friedrich Schiller
+#### *Not* Friedrich Schiller {#not-friedrich-schiller}
 
 To the Editor of the Dionysus Program,
 
@@ -580,7 +584,7 @@ Not Friedrich Schiller
 \newpage
 ```
 
-### *Not* Georg Wilhelm Friedrich Hegel
+#### *Not* Georg Wilhelm Friedrich Hegel {#not-georg-wilhelm-friedrich-hegel}
 
 To the Editor of the Dionysus Program,
 
@@ -606,7 +610,7 @@ Not Georg Wilhelm Friedrich Hegel
 \newpage
 ```
 
-### *Not* Gil Amelio
+#### *Not* Gil Amelio {#not-gil-amelio}
 
 To the Editor of the Dionysus Program,
 
@@ -638,7 +642,7 @@ Not Gil Amelio
 \newpage
 ```
 
-### *Not* Greg Smith
+#### *Not* Greg Smith {#not-greg-smith}
 
 To the Editor of the Dionysus Program,
 
@@ -670,7 +674,7 @@ Not Greg Smith
 \newpage
 ```
 
-### *Not* Howard Schultz
+#### *Not* Howard Schultz {#not-howard-schultz}
 
 To the Editor of the Dionysus Program,
 
@@ -708,7 +712,7 @@ Not Howard Schultz
 \newpage
 ```
 
-### *Not* Howie Makem
+#### *Not* Howie Makem {#not-howie-makem}
 
 To the Editor of the Dionysus Program,
 
@@ -744,7 +748,7 @@ Not Howie Makem
 \newpage
 ```
 
-### *Not* Ibn Khaldun
+#### *Not* Ibn Khaldun {#not-ibn-khaldun}
 
 To the Editor of the Dionysus Program,
 
@@ -774,7 +778,7 @@ Not Ibn Khaldun
 \newpage
 ```
 
-### *Not* Ilya Prigogine
+#### *Not* Ilya Prigogine {#not-ilya-prigogine}
 
 To the Editor of the Dionysus Program,
 
@@ -804,7 +808,7 @@ Not Ilya Prigogine
 \newpage
 ```
 
-### *Not* Immanuel Kant
+#### *Not* Immanuel Kant {#not-immanuel-kant}
 
 To the Editor of the Dionysus Program,
 
@@ -832,7 +836,7 @@ Not Immanuel Kant
 \newpage
 ```
 
-### *Not* J. Robert Oppenheimer
+#### *Not* J. Robert Oppenheimer {#not-j-robert-oppenheimer}
 
 To the Editor,
 
@@ -856,7 +860,7 @@ Not J. Robert Oppenheimer
 \newpage
 ```
 
-### *Not* James Carse
+#### *Not* James Carse {#not-james-carse}
 
 To the Editor of the Dionysus Program,
 
@@ -886,7 +890,7 @@ Not James Carse
 \newpage
 ```
 
-### *Not* James McNerney
+#### *Not* James McNerney {#not-james-mcnerney}
 
 To the Editor of the Dionysus Program,
 
@@ -920,7 +924,7 @@ Not James McNerney
 \newpage
 ```
 
-### *Not* Jeff Immelt
+#### *Not* Jeff Immelt {#not-jeff-immelt}
 
 To the Editor of the Dionysus Program,
 
@@ -952,7 +956,7 @@ Not Jeff Immelt
 \newpage
 ```
 
-### *Not* Jerry Yang
+#### *Not* Jerry Yang {#not-jerry-yang}
 
 To the Editor of the Dionysus Program,
 
@@ -984,7 +988,7 @@ Not Jerry Yang
 \newpage
 ```
 
-### *Not* Jim Balsillie
+#### *Not* Jim Balsillie {#not-jim-balsillie}
 
 To the Editor of the Dionysus Program:
 
@@ -1020,7 +1024,7 @@ Not Jim Balsillie
 \newpage
 ```
 
-### *Not* Karl Popper
+#### *Not* Karl Popper {#not-karl-popper}
 
 To the Editor of the Dionysus Program:
 
@@ -1050,7 +1054,7 @@ Not Karl Popper
 \newpage
 ```
 
-### *Not* Kelly Johnson
+#### *Not* Kelly Johnson {#not-kelly-johnson}
 
 To the Editor of the Dionysus Program:
 
@@ -1080,7 +1084,7 @@ Not Kelly Johnson
 \newpage
 ```
 
-### *Not* Kevin Feige
+#### *Not* Kevin Feige {#not-kevin-feige}
 
 To the Editor of the Dionysus Program,
 
@@ -1108,7 +1112,7 @@ Not Kevin Feige
 \newpage
 ```
 
-### *Not* Léo Apotheker
+#### *Not* Léo Apotheker {#not-leo-apotheker}
 
 To the Editor of the Dionysus Program:
 
@@ -1146,7 +1150,7 @@ Not Léo Apotheker
 \newpage
 ```
 
-### *Not* Leon Trotsky
+#### *Not* Leon Trotsky {#not-leon-trotsky}
 
 To the Editor of the Dionysus Program,
 
@@ -1174,7 +1178,7 @@ Not Leon Trotsky
 \newpage
 ```
 
-### *Not* Leonid Brezhnev
+#### *Not* Leonid Brezhnev {#not-leonid-brezhnev}
 
 To the Editors of the Dionysus Program,
 
@@ -1214,7 +1218,7 @@ Not Leonid Brezhnev
 \newpage
 ```
 
-### *Not* Lucius Quinctius Cincinnatus
+#### *Not* Lucius Quinctius Cincinnatus {#not-lucius-quinctius-cincinnatus}
 
 To the Architect of the Dionysus Program,
 
@@ -1248,7 +1252,7 @@ Not Lucius Quinctius Cincinnatus
 \newpage
 ```
 
-### *Not* Marissa Mayer
+#### *Not* Marissa Mayer {#not-marissa-mayer}
 
 To the Editor of the Dionysus Program:
 
@@ -1280,7 +1284,7 @@ Not Marissa Mayer
 \newpage
 ```
 
-### *Not* Max Weber
+#### *Not* Max Weber {#not-max-weber}
 
 To the Author of the Dionysus Program:
 
@@ -1306,7 +1310,7 @@ Not Max Weber
 \newpage
 ```
 
-### *Not* Mike Lazaridis
+#### *Not* Mike Lazaridis {#not-mike-lazaridis}
 
 Sean,
 
@@ -1340,7 +1344,7 @@ Not Mike Lazaridis
 \newpage
 ```
 
-### *Not* Mikhail Gorbachev
+#### *Not* Mikhail Gorbachev {#not-mikhail-gorbachev}
 
 To the Editor of the Dionysus Program,
 
@@ -1376,7 +1380,7 @@ Not Mikhail Gorbachev
 \newpage
 ```
 
-### *Not* Nassim Nicholas Taleb
+#### *Not* Nassim Nicholas Taleb {#not-nassim-nicholas-taleb}
 
 To the Author of the Dionysus Program,
 
@@ -1402,7 +1406,7 @@ Not Nassim Nicholas Taleb
 \newpage
 ```
 
-### *Not* Peter Thiel
+#### *Not* Peter Thiel {#not-peter-thiel}
 
 To the Editor of the Dionysus Program:
 
@@ -1434,7 +1438,7 @@ Not Peter Thiel
 \newpage
 ```
 
-### *Not* Reid Hoffman
+#### *Not* Reid Hoffman {#not-reid-hoffman}
 
 To the Editor of the Dionysus Program,
 
@@ -1460,7 +1464,7 @@ Not Reid Hoffman
 \newpage
 ```
 
-### *Not* René Girard
+#### *Not* René Girard {#not-rene-girard}
 
 To the Editor of the Dionysus Program,
 
@@ -1488,7 +1492,7 @@ Not René Girard
 \newpage
 ```
 
-### *Not* Robert K. Merton
+#### *Not* Robert K. Merton {#not-robert-k-merton}
 
 To the Editor of the Dionysus Program:
 
@@ -1514,7 +1518,7 @@ Not Robert K. Merton
 \newpage
 ```
 
-### *Not* Robert Michels
+#### *Not* Robert Michels {#not-robert-michels}
 
 To the Editor of the Dionysus Program,
 
@@ -1546,7 +1550,7 @@ Not Robert Michels
 \newpage
 ```
 
-### *Not* Robert Mugabe
+#### *Not* Robert Mugabe {#not-robert-mugabe}
 
 To the Authors of the Dionysus Program,
 
@@ -1578,7 +1582,7 @@ Not Robert Mugabe
 \newpage
 ```
 
-### *Not* Sepp Blatter
+#### *Not* Sepp Blatter {#not-sepp-blatter}
 
 To the Editor of the Dionysus Program,
 
@@ -1614,7 +1618,7 @@ Not Sepp Blatter
 \newpage
 ```
 
-### *Not* Steve Jobs
+#### *Not* Steve Jobs {#not-steve-jobs}
 
 To the Editor of the Dionysus Program,
 
@@ -1648,7 +1652,7 @@ Not Steve Jobs
 \newpage
 ```
 
-### *Not* Steve Sasson
+#### *Not* Steve Sasson {#not-steve-sasson}
 
 To the Editor of the Dionysus Program,
 
@@ -1680,7 +1684,7 @@ Not Steve Sasson
 \newpage
 ```
 
-### *Not* Susan Fowler
+#### *Not* Susan Fowler {#not-susan-fowler}
 
 To the authors of the Dionysus Program:
 
@@ -1720,7 +1724,7 @@ Not Susan Fowler
 \newpage
 ```
 
-### *Not* Thomas Schelling
+#### *Not* Thomas Schelling {#not-thomas-schelling}
 
 To the Authors of the Dionysus Program:
 
@@ -1750,7 +1754,7 @@ Not Thomas Schelling
 \newpage
 ```
 
-### *Not* Travis Kalanick
+#### *Not* Travis Kalanick {#not-travis-kalanick}
 
 To the Editor,
 
@@ -1790,7 +1794,7 @@ Not Travis Kalanick
 \newpage
 ```
 
-### *Not* Victor Turner
+#### *Not* Victor Turner {#not-victor-turner}
 
 To the Editor of the Dionysus Program,
 
@@ -1820,7 +1824,7 @@ Not Victor Turner
 \newpage
 ```
 
-### *Not* Yoshinori Ohsumi
+#### *Not* Yoshinori Ohsumi {#not-yoshinori-ohsumi}
 
 To the Editor of the Dionysus Program,
 
