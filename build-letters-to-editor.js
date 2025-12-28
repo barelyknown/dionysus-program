@@ -105,7 +105,7 @@ function buildLettersMarkdown(names, options = {}) {
   } = options;
   const lines = [];
   if (htmlDividerBeforeAppendix) {
-    lines.push('<hr class="letter-divider">');
+    lines.push('<hr class="letter-divider" />');
     lines.push('');
   }
   lines.push('## Appendix C: Letters to the Editor');
@@ -126,7 +126,7 @@ function buildLettersMarkdown(names, options = {}) {
     lines.push('');
   }
   if (htmlDividers) {
-    lines.push('<hr class="letter-divider">');
+    lines.push('<hr class="letter-divider" />');
   }
   if (pdfPageBreaks) {
     lines.push('');
@@ -138,7 +138,7 @@ function buildLettersMarkdown(names, options = {}) {
 
   names.forEach((name, index) => {
     if (index > 0 && htmlDividers) {
-      lines.push('<hr class="letter-divider">');
+      lines.push('<hr class="letter-divider" />');
       lines.push('');
     }
     if (index > 0 && htmlPageBreaks) {

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="2400" viewBox="0 0 1600 2400">
+  <rect width="1600" height="2400" fill="#f6f4f0"/>
+  <rect x="140" y="140" width="1320" height="2120" fill="#ffffff" stroke="#e7e2da" stroke-width="8"/>
+  <g fill="#2a2723" text-anchor="middle" font-family="Palatino, Palatino Linotype, Book Antiqua, serif">
+    <text x="800" y="780" font-size="78" letter-spacing="2">THE DIONYSUS PROGRAM</text>
+    <text x="800" y="900" font-size="46" font-style="italic">Rites of Renewal</text>
+    <text x="800" y="1850" font-size="36" letter-spacing="4">SEAN DEVINE</text>
+  </g>
+</svg>

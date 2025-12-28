@@ -10,6 +10,42 @@ local function is_act_header(el)
   return false
 end
 
+local function split_act_title(text)
+  local act, subtitle = text:match("^(Act%s+[^%s]+)%s+—%s+(.+)$")
+  if not act then
+    act, subtitle = text:match("^(Act%s+[^%s]+)%s+%-%s+(.+)$")
+  end
+  if not act then
+    act = text
+  end
+  return act, subtitle
+end
+
+local function act_title_page(text)
+  local act, subtitle = split_act_title(text)
+  local subtitle_line = ""
+  if subtitle and subtitle ~= "" then
+    subtitle_line = string.format("{\\Huge\\bfseries %s \\par}\n", subtitle)
+  else
+    subtitle_line = string.format("{\\Huge\\bfseries %s \\par}\n", act)
+  end
+  local act_line = act
+  if subtitle and subtitle ~= "" then
+    act_line = act
+  end
+  return string.format([[
+\clearpage
+\thispagestyle{empty}
+\vspace*{\stretch{1}}
+\begin{center}
+{\Large\scshape %s \par}
+\vspace{1.2cm}
+%s\end{center}
+\vspace*{\stretch{2}}
+\clearpage
+]], act_line, subtitle_line)
+end
+
 local function is_appendix_header(el)
   if el.t == "Header" and el.level == 2 then
     local text = stringify(el.content)
@@ -48,7 +84,10 @@ function Pandoc(doc)
       end
     end
 
-    if (is_act_header(el) or is_appendix_header(el)) and #blocks > 0 then
+    if is_act_header(el) then
+      local act_text = stringify(el.content)
+      table.insert(blocks, pandoc.RawBlock('latex', act_title_page(act_text)))
+    elseif is_appendix_header(el) and #blocks > 0 then
       table.insert(blocks, pandoc.RawBlock('latex', '\\clearpage'))
     end
 

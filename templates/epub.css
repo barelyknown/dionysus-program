@@ -1,0 +1,114 @@
+@namespace epub "http://www.idpf.org/2007/ops";
+
+body {
+  font-family: serif;
+  line-height: 1.5;
+  color: #1f1d1a;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 600;
+  margin: 1.1em 0 0.6em;
+  page-break-after: avoid;
+}
+
+h1 {
+  font-size: 1.6em;
+}
+
+h2 {
+  font-size: 1.35em;
+  break-before: page;
+  -webkit-break-before: page;
+}
+
+h3 {
+  font-size: 1.15em;
+}
+
+section.act-title {
+  text-align: center;
+  margin: 0;
+  break-before: page;
+  -webkit-break-before: page;
+  page-break-before: always;
+  padding-top: 6em;
+  padding-top: 30%;
+  padding-top: 30vh;
+  padding-bottom: 2em;
+}
+
+section.act-title > h2,
+h2.act-title {
+  margin: 0;
+  text-align: center;
+}
+
+body > h1:first-child,
+body > h2:first-child,
+body > h3:first-child,
+section > h1:first-child,
+section > h2:first-child,
+section > h3:first-child {
+  margin-top: 0;
+}
+
+p {
+  margin: 0 0 0.9em;
+}
+
+a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+blockquote {
+  margin: 1em 0;
+  padding-left: 0.9em;
+  border-left: 0.2em solid #cfc8bf;
+}
+
+hr {
+  display: none;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+nav[epub|type~="toc"] {
+  margin-bottom: 1.5em;
+}
+
+nav[epub|type~="toc"] ol,
+nav[epub|type~="toc"] ul {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+nav[epub|type~="toc"] li {
+  margin: 0.4em 0;
+}
+
+nav[epub|type~="toc"] ol ol,
+nav[epub|type~="toc"] ul ul {
+  padding-left: 1.2em;
+}
+
+.letter-body {
+  font-family: serif;
+  font-style: normal;
+  background: #f7f4ef;
+  border-left: 0.2em solid #cfc8bf;
+  padding: 0.8em 1em;
+  margin: 0.8em 0 1.2em;
+}
+
+.letter-body p:last-child {
+  margin-bottom: 0;
+}
+
+.sim-link {
+  margin: 1em 0 1.5em;
+}

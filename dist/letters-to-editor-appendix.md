@@ -1,4 +1,4 @@
-<hr class="letter-divider">
+<hr class="letter-divider" />
 
 ## Appendix C: Letters to the Editor
 
@@ -8,7 +8,7 @@ The following letters are hypothetical responses imagined through the lens of th
 
 [Abe Silverstein](#not-abe-silverstein) · [Adam Neumann](#not-adam-neumann) · [Alfred Sloan](#not-alfred-sloan) · [Apollo](#not-apollo) · [Aristotle](#not-aristotle) · [Benoit Mandelbrot](#not-benoit-mandelbrot) · [Carl Icahn](#not-carl-icahn) · [Carly Fiorina](#not-carly-fiorina) · [Claude Shannon](#not-claude-shannon) · [Confucius](#not-confucius) · [David Deutsch](#not-david-deutsch) · [Dionysus](#not-dionysus) · [Ed Catmull](#not-ed-catmull) · [Eddie Lampert](#not-eddie-lampert) · [Elon Musk](#not-elon-musk) · [Émile Durkheim](#not-emile-durkheim) · [Friedrich Nietzsche](#not-friedrich-nietzsche) · [Friedrich Schiller](#not-friedrich-schiller) · [Georg Wilhelm Friedrich Hegel](#not-georg-wilhelm-friedrich-hegel) · [Gil Amelio](#not-gil-amelio) · [Greg Smith](#not-greg-smith) · [Howard Schultz](#not-howard-schultz) · [Howie Makem](#not-howie-makem) · [Ibn Khaldun](#not-ibn-khaldun) · [Ilya Prigogine](#not-ilya-prigogine) · [Immanuel Kant](#not-immanuel-kant) · [J. Robert Oppenheimer](#not-j-robert-oppenheimer) · [James Carse](#not-james-carse) · [James McNerney](#not-james-mcnerney) · [Jeff Immelt](#not-jeff-immelt) · [Jerry Yang](#not-jerry-yang) · [Jim Balsillie](#not-jim-balsillie) · [Karl Popper](#not-karl-popper) · [Kelly Johnson](#not-kelly-johnson) · [Kevin Feige](#not-kevin-feige) · [Léo Apotheker](#not-leo-apotheker) · [Leon Trotsky](#not-leon-trotsky) · [Leonid Brezhnev](#not-leonid-brezhnev) · [Lucius Quinctius Cincinnatus](#not-lucius-quinctius-cincinnatus) · [Marissa Mayer](#not-marissa-mayer) · [Max Weber](#not-max-weber) · [Mike Lazaridis](#not-mike-lazaridis) · [Mikhail Gorbachev](#not-mikhail-gorbachev) · [Nassim Nicholas Taleb](#not-nassim-nicholas-taleb) · [Peter Thiel](#not-peter-thiel) · [Reid Hoffman](#not-reid-hoffman) · [René Girard](#not-rene-girard) · [Robert K. Merton](#not-robert-k-merton) · [Robert Michels](#not-robert-michels) · [Robert Mugabe](#not-robert-mugabe) · [Sepp Blatter](#not-sepp-blatter) · [Steve Jobs](#not-steve-jobs) · [Steve Sasson](#not-steve-sasson) · [Susan Fowler](#not-susan-fowler) · [Thomas Schelling](#not-thomas-schelling) · [Travis Kalanick](#not-travis-kalanick) · [Victor Turner](#not-victor-turner) · [Yoshinori Ohsumi](#not-yoshinori-ohsumi)
 
-<hr class="letter-divider">
+<hr class="letter-divider" />
 
 ```{=latex}
 \newpage
@@ -59,7 +59,7 @@ Not Abe Silverstein
 </div>
 ```
 
-<hr class="letter-divider">
+<hr class="letter-divider" />
 
 ```{=latex}
 \newpage
@@ -114,7 +114,7 @@ Not Adam Neumann
 </div>
 ```
 
-<hr class="letter-divider">
+<hr class="letter-divider" />
 
 ```{=latex}
 \newpage
@@ -173,7 +173,7 @@ Not Alfred Sloan
 </div>
 ```
 
-<hr class="letter-divider">
+<hr class="letter-divider" />
 
 ```{=latex}
 \newpage
@@ -228,7 +228,7 @@ Not Apollo
 </div>
 ```
 
-<hr class="letter-divider">
+<hr class="letter-divider" />
 
 ```{=latex}
 \newpage
@@ -273,7 +273,7 @@ Not Aristotle
 </div>
 ```
 
-<hr class="letter-divider">
+<hr class="letter-divider" />
 
 ```{=latex}
 \newpage
@@ -322,7 +322,7 @@ Not Benoit Mandelbrot
 </div>
 ```
 
-<hr class="letter-divider">
+<hr class="letter-divider" />
 
 ```{=latex}
 \newpage
@@ -381,7 +381,7 @@ Not Carl Icahn
 </div>
 ```
 
-<hr class="letter-divider">
+<hr class="letter-divider" />
 
 ```{=latex}
 \newpage
@@ -432,7 +432,7 @@ Not Carly Fiorina
 </div>
 ```
 
-<hr class="letter-divider">
+<hr class="letter-divider" />
 
 ```{=latex}
 \newpage
@@ -481,7 +481,7 @@ Not Claude Shannon
 </div>
 ```
 
-<hr class="letter-divider">
+<hr class="letter-divider" />
 
 ```{=latex}
 \newpage
@@ -536,7 +536,7 @@ Not Confucius
 </div>
 ```
 
-<hr class="letter-divider">
+<hr class="letter-divider" />
 
 ```{=latex}
 \newpage
@@ -589,7 +589,7 @@ Not David Deutsch
 </div>
 ```
 
-<hr class="letter-divider">
+<hr class="letter-divider" />
 
 ```{=latex}
 \newpage
@@ -638,7 +638,7 @@ Not Dionysus
 </div>
 ```
 
-<hr class="letter-divider">
+<hr class="letter-divider" />
 
 ```{=latex}
 \newpage
@@ -687,7 +687,7 @@ Not Ed Catmull
 </div>
 ```
 
-<hr class="letter-divider">
+<hr class="letter-divider" />
 
 ```{=latex}
 \newpage
@@ -738,7 +738,7 @@ Not Eddie Lampert
 </div>
 ```
 
-<hr class="letter-divider">
+<hr class="letter-divider" />
 
 ```{=latex}
 \newpage
@@ -787,7 +787,7 @@ Not Elon Musk
 </div>
 ```
 
-<hr class="letter-divider">
+<hr class="letter-divider" />
 
 ```{=latex}
 \newpage
@@ -836,7 +836,7 @@ Not Émile Durkheim
 </div>
 ```
 
-<hr class="letter-divider">
+<hr class="letter-divider" />
 
 ```{=latex}
 \newpage
@@ -897,7 +897,7 @@ Not Friedrich Nietzsche
 </div>
 ```
 
-<hr class="letter-divider">
+<hr class="letter-divider" />
 
 ```{=latex}
 \newpage
@@ -952,7 +952,7 @@ Not Friedrich Schiller
 </div>
 ```
 
-<hr class="letter-divider">
+<hr class="letter-divider" />
 
 ```{=latex}
 \newpage
@@ -999,7 +999,7 @@ Not Georg Wilhelm Friedrich Hegel
 </div>
 ```
 
-<hr class="letter-divider">
+<hr class="letter-divider" />
 
 ```{=latex}
 \newpage
@@ -1052,7 +1052,7 @@ Not Gil Amelio
 </div>
 ```
 
-<hr class="letter-divider">
+<hr class="letter-divider" />
 
 ```{=latex}
 \newpage
@@ -1105,7 +1105,7 @@ Not Greg Smith
 </div>
 ```
 
-<hr class="letter-divider">
+<hr class="letter-divider" />
 
 ```{=latex}
 \newpage
@@ -1164,7 +1164,7 @@ Not Howard Schultz
 </div>
 ```
 
-<hr class="letter-divider">
+<hr class="letter-divider" />
 
 ```{=latex}
 \newpage
@@ -1221,7 +1221,7 @@ Not Howie Makem
 </div>
 ```
 
-<hr class="letter-divider">
+<hr class="letter-divider" />
 
 ```{=latex}
 \newpage
@@ -1272,7 +1272,7 @@ Not Ibn Khaldun
 </div>
 ```
 
-<hr class="letter-divider">
+<hr class="letter-divider" />
 
 ```{=latex}
 \newpage
@@ -1323,7 +1323,7 @@ Not Ilya Prigogine
 </div>
 ```
 
-<hr class="letter-divider">
+<hr class="letter-divider" />
 
 ```{=latex}
 \newpage
@@ -1372,7 +1372,7 @@ Not Immanuel Kant
 </div>
 ```
 
-<hr class="letter-divider">
+<hr class="letter-divider" />
 
 ```{=latex}
 \newpage
@@ -1417,7 +1417,7 @@ Not J. Robert Oppenheimer
 </div>
 ```
 
-<hr class="letter-divider">
+<hr class="letter-divider" />
 
 ```{=latex}
 \newpage
@@ -1468,7 +1468,7 @@ Not James Carse
 </div>
 ```
 
-<hr class="letter-divider">
+<hr class="letter-divider" />
 
 ```{=latex}
 \newpage
@@ -1523,7 +1523,7 @@ Not James McNerney
 </div>
 ```
 
-<hr class="letter-divider">
+<hr class="letter-divider" />
 
 ```{=latex}
 \newpage
@@ -1576,7 +1576,7 @@ Not Jeff Immelt
 </div>
 ```
 
-<hr class="letter-divider">
+<hr class="letter-divider" />
 
 ```{=latex}
 \newpage
@@ -1629,7 +1629,7 @@ Not Jerry Yang
 </div>
 ```
 
-<hr class="letter-divider">
+<hr class="letter-divider" />
 
 ```{=latex}
 \newpage
@@ -1686,7 +1686,7 @@ Not Jim Balsillie
 </div>
 ```
 
-<hr class="letter-divider">
+<hr class="letter-divider" />
 
 ```{=latex}
 \newpage
@@ -1737,7 +1737,7 @@ Not Karl Popper
 </div>
 ```
 
-<hr class="letter-divider">
+<hr class="letter-divider" />
 
 ```{=latex}
 \newpage
@@ -1788,7 +1788,7 @@ Not Kelly Johnson
 </div>
 ```
 
-<hr class="letter-divider">
+<hr class="letter-divider" />
 
 ```{=latex}
 \newpage
@@ -1837,7 +1837,7 @@ Not Kevin Feige
 </div>
 ```
 
-<hr class="letter-divider">
+<hr class="letter-divider" />
 
 ```{=latex}
 \newpage
@@ -1896,7 +1896,7 @@ Not Léo Apotheker
 </div>
 ```
 
-<hr class="letter-divider">
+<hr class="letter-divider" />
 
 ```{=latex}
 \newpage
@@ -1945,7 +1945,7 @@ Not Leon Trotsky
 </div>
 ```
 
-<hr class="letter-divider">
+<hr class="letter-divider" />
 
 ```{=latex}
 \newpage
@@ -2006,7 +2006,7 @@ Not Leonid Brezhnev
 </div>
 ```
 
-<hr class="letter-divider">
+<hr class="letter-divider" />
 
 ```{=latex}
 \newpage
@@ -2061,7 +2061,7 @@ Not Lucius Quinctius Cincinnatus
 </div>
 ```
 
-<hr class="letter-divider">
+<hr class="letter-divider" />
 
 ```{=latex}
 \newpage
@@ -2114,7 +2114,7 @@ Not Marissa Mayer
 </div>
 ```
 
-<hr class="letter-divider">
+<hr class="letter-divider" />
 
 ```{=latex}
 \newpage
@@ -2161,7 +2161,7 @@ Not Max Weber
 </div>
 ```
 
-<hr class="letter-divider">
+<hr class="letter-divider" />
 
 ```{=latex}
 \newpage
@@ -2216,7 +2216,7 @@ Not Mike Lazaridis
 </div>
 ```
 
-<hr class="letter-divider">
+<hr class="letter-divider" />
 
 ```{=latex}
 \newpage
@@ -2273,7 +2273,7 @@ Not Mikhail Gorbachev
 </div>
 ```
 
-<hr class="letter-divider">
+<hr class="letter-divider" />
 
 ```{=latex}
 \newpage
@@ -2320,7 +2320,7 @@ Not Nassim Nicholas Taleb
 </div>
 ```
 
-<hr class="letter-divider">
+<hr class="letter-divider" />
 
 ```{=latex}
 \newpage
@@ -2373,7 +2373,7 @@ Not Peter Thiel
 </div>
 ```
 
-<hr class="letter-divider">
+<hr class="letter-divider" />
 
 ```{=latex}
 \newpage
@@ -2420,7 +2420,7 @@ Not Reid Hoffman
 </div>
 ```
 
-<hr class="letter-divider">
+<hr class="letter-divider" />
 
 ```{=latex}
 \newpage
@@ -2469,7 +2469,7 @@ Not René Girard
 </div>
 ```
 
-<hr class="letter-divider">
+<hr class="letter-divider" />
 
 ```{=latex}
 \newpage
@@ -2516,7 +2516,7 @@ Not Robert K. Merton
 </div>
 ```
 
-<hr class="letter-divider">
+<hr class="letter-divider" />
 
 ```{=latex}
 \newpage
@@ -2569,7 +2569,7 @@ Not Robert Michels
 </div>
 ```
 
-<hr class="letter-divider">
+<hr class="letter-divider" />
 
 ```{=latex}
 \newpage
@@ -2622,7 +2622,7 @@ Not Robert Mugabe
 </div>
 ```
 
-<hr class="letter-divider">
+<hr class="letter-divider" />
 
 ```{=latex}
 \newpage
@@ -2679,7 +2679,7 @@ Not Sepp Blatter
 </div>
 ```
 
-<hr class="letter-divider">
+<hr class="letter-divider" />
 
 ```{=latex}
 \newpage
@@ -2734,7 +2734,7 @@ Not Steve Jobs
 </div>
 ```
 
-<hr class="letter-divider">
+<hr class="letter-divider" />
 
 ```{=latex}
 \newpage
@@ -2787,7 +2787,7 @@ Not Steve Sasson
 </div>
 ```
 
-<hr class="letter-divider">
+<hr class="letter-divider" />
 
 ```{=latex}
 \newpage
@@ -2848,7 +2848,7 @@ Not Susan Fowler
 </div>
 ```
 
-<hr class="letter-divider">
+<hr class="letter-divider" />
 
 ```{=latex}
 \newpage
@@ -2899,7 +2899,7 @@ Not Thomas Schelling
 </div>
 ```
 
-<hr class="letter-divider">
+<hr class="letter-divider" />
 
 ```{=latex}
 \newpage
@@ -2960,7 +2960,7 @@ Not Travis Kalanick
 </div>
 ```
 
-<hr class="letter-divider">
+<hr class="letter-divider" />
 
 ```{=latex}
 \newpage
@@ -3011,7 +3011,7 @@ Not Victor Turner
 </div>
 ```
 
-<hr class="letter-divider">
+<hr class="letter-divider" />
 
 ```{=latex}
 \newpage
