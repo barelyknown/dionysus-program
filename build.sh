@@ -9,6 +9,7 @@ TEMPLATE="$ROOT_DIR/templates/page.html"
 ESSAY_MD="$ROOT_DIR/essay.md"
 LETTERS_SCRIPT="$ROOT_DIR/build-letters-to-editor.js"
 LETTERS_APPENDIX="$DIST_DIR/letters-to-editor-appendix.md"
+SOURCES_MD="$ROOT_DIR/appendix-sources.md"
 
 if ! command -v pandoc >/dev/null 2>&1; then
   echo "pandoc is required but not installed" >&2
@@ -19,7 +20,7 @@ mkdir -p "$DIST_DIR"
 
 node "$LETTERS_SCRIPT" "$DIST_DIR"
 
-pandoc "$ESSAY_MD" "$LETTERS_APPENDIX" \
+pandoc "$ESSAY_MD" "$LETTERS_APPENDIX" "$SOURCES_MD" \
   --from=markdown \
   --toc \
   --toc-depth=3 \
@@ -35,13 +36,16 @@ echo "Wrote HTML to $HTML_OUT"
 cp "$ESSAY_MD" "$DIST_DIR/essay.md"
 echo "Copied Markdown to $DIST_DIR/essay.md"
 
+cp "$SOURCES_MD" "$DIST_DIR/appendix-sources.md"
+echo "Copied sources to $DIST_DIR/appendix-sources.md"
+
 PDF_ENGINE=""
 if command -v xelatex >/dev/null 2>&1; then
   PDF_ENGINE="xelatex"
 fi
 
 if [[ -n "$PDF_ENGINE" ]]; then
-  pandoc "$ESSAY_MD" "$LETTERS_APPENDIX" \
+  pandoc "$ESSAY_MD" "$LETTERS_APPENDIX" "$SOURCES_MD" \
     --from=markdown \
     --toc \
     --toc-depth=3 \
