@@ -114,10 +114,6 @@ function buildLettersMarkdown(names, options = {}) {
     "The following letters are hypothetical responses imagined through the lens of the archetypes described in this book. They represent the author's synthesis of public records and philosophical stances, not the actual voices of the individuals named."
   );
   lines.push('');
-  lines.push('I hope you do as well,');
-  lines.push('');
-  lines.push('Sean Devine');
-  lines.push('');
   if (names.length > 0) {
     const links = names.map((name) => {
       const slug = slugifyHeading(name);
@@ -167,7 +163,28 @@ function buildLettersMarkdown(names, options = {}) {
     const slug = slugify(name);
     const content = loadLetter(slug, name).replace(/\s+$/, '');
     if (content) {
+      lines.push('```{=html}');
+      lines.push('<div class="letter-body">');
+      lines.push('```');
+      lines.push('');
+      lines.push('```{=latex}');
+      lines.push('\\begin{quote}');
+      lines.push('\\setlength{\\parskip}{0.8em}');
+      lines.push('\\setlength{\\parindent}{0pt}');
+      lines.push('\\setlength{\\leftskip}{0.4em}');
+      lines.push('\\setlength{\\rightskip}{0.4em}');
+      lines.push('\\rmfamily');
+      lines.push('```');
+      lines.push('');
       lines.push(content);
+      lines.push('');
+      lines.push('```{=latex}');
+      lines.push('\\end{quote}');
+      lines.push('```');
+      lines.push('');
+      lines.push('```{=html}');
+      lines.push('</div>');
+      lines.push('```');
       lines.push('');
     } else {
       lines.push('');

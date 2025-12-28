@@ -2,16 +2,25 @@
 
 The following letters are hypothetical responses imagined through the lens of the archetypes described in this book. They represent the author's synthesis of public records and philosophical stances, not the actual voices of the individuals named.
 
-I hope you do as well,
-
-Sean Devine
-
 **Letters index:**
 
 [Abe Silverstein](#not-abe-silverstein) · [Adam Neumann](#not-adam-neumann) · [Alfred Sloan](#not-alfred-sloan) · [Apollo](#not-apollo) · [Aristotle](#not-aristotle) · [Benoit Mandelbrot](#not-benoit-mandelbrot) · [Carl Icahn](#not-carl-icahn) · [Carly Fiorina](#not-carly-fiorina) · [Claude Shannon](#not-claude-shannon) · [Confucius](#not-confucius) · [David Deutsch](#not-david-deutsch) · [Dionysus](#not-dionysus) · [Ed Catmull](#not-ed-catmull) · [Eddie Lampert](#not-eddie-lampert) · [Elon Musk](#not-elon-musk) · [Émile Durkheim](#not-emile-durkheim) · [Friedrich Nietzsche](#not-friedrich-nietzsche) · [Friedrich Schiller](#not-friedrich-schiller) · [Georg Wilhelm Friedrich Hegel](#not-georg-wilhelm-friedrich-hegel) · [Gil Amelio](#not-gil-amelio) · [Greg Smith](#not-greg-smith) · [Howard Schultz](#not-howard-schultz) · [Howie Makem](#not-howie-makem) · [Ibn Khaldun](#not-ibn-khaldun) · [Ilya Prigogine](#not-ilya-prigogine) · [Immanuel Kant](#not-immanuel-kant) · [J. Robert Oppenheimer](#not-j-robert-oppenheimer) · [James Carse](#not-james-carse) · [James McNerney](#not-james-mcnerney) · [Jeff Immelt](#not-jeff-immelt) · [Jerry Yang](#not-jerry-yang) · [Jim Balsillie](#not-jim-balsillie) · [Karl Popper](#not-karl-popper) · [Kelly Johnson](#not-kelly-johnson) · [Kevin Feige](#not-kevin-feige) · [Léo Apotheker](#not-leo-apotheker) · [Leon Trotsky](#not-leon-trotsky) · [Leonid Brezhnev](#not-leonid-brezhnev) · [Lucius Quinctius Cincinnatus](#not-lucius-quinctius-cincinnatus) · [Marissa Mayer](#not-marissa-mayer) · [Max Weber](#not-max-weber) · [Mike Lazaridis](#not-mike-lazaridis) · [Mikhail Gorbachev](#not-mikhail-gorbachev) · [Nassim Nicholas Taleb](#not-nassim-nicholas-taleb) · [Peter Thiel](#not-peter-thiel) · [Reid Hoffman](#not-reid-hoffman) · [René Girard](#not-rene-girard) · [Robert K. Merton](#not-robert-k-merton) · [Robert Michels](#not-robert-michels) · [Robert Mugabe](#not-robert-mugabe) · [Sepp Blatter](#not-sepp-blatter) · [Steve Jobs](#not-steve-jobs) · [Steve Sasson](#not-steve-sasson) · [Susan Fowler](#not-susan-fowler) · [Thomas Schelling](#not-thomas-schelling) · [Travis Kalanick](#not-travis-kalanick) · [Victor Turner](#not-victor-turner) · [Yoshinori Ohsumi](#not-yoshinori-ohsumi)
 
 
 #### *Not* Abe Silverstein {#not-abe-silverstein}
+
+```{=html}
+<div class="letter-body">
+```
+
+```{=latex}
+\begin{quote}
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+\setlength{\leftskip}{0.4em}
+\setlength{\rightskip}{0.4em}
+\rmfamily
+```
 
 To the Editor of the Dionysus Program:
 
@@ -35,9 +44,30 @@ Do not mistake the chariot for the sun. The chariot is just the vehicle. The fir
 
 Not Abe Silverstein
 
+```{=latex}
+\end{quote}
+```
+
+```{=html}
+</div>
+```
+
 ---
 
 #### *Not* Adam Neumann {#not-adam-neumann}
+
+```{=html}
+<div class="letter-body">
+```
+
+```{=latex}
+\begin{quote}
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+\setlength{\leftskip}{0.4em}
+\setlength{\rightskip}{0.4em}
+\rmfamily
+```
 
 To the Editor of the Dionysus Program,
 
@@ -65,9 +95,30 @@ We are just getting started.
 
 Not Adam Neumann
 
+```{=latex}
+\end{quote}
+```
+
+```{=html}
+</div>
+```
+
 ---
 
 #### *Not* Alfred Sloan {#not-alfred-sloan}
+
+```{=html}
+<div class="letter-body">
+```
+
+```{=latex}
+\begin{quote}
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+\setlength{\leftskip}{0.4em}
+\setlength{\rightskip}{0.4em}
+\rmfamily
+```
 
 To the Editor:
 
@@ -99,9 +150,30 @@ I conquered the problem of scale. You are attempting to conquer the problem of e
 
 Not Alfred Sloan
 
+```{=latex}
+\end{quote}
+```
+
+```{=html}
+</div>
+```
+
 ---
 
 #### *Not* Apollo {#not-apollo}
+
+```{=html}
+<div class="letter-body">
+```
+
+```{=latex}
+\begin{quote}
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+\setlength{\leftskip}{0.4em}
+\setlength{\rightskip}{0.4em}
+\rmfamily
+```
 
 To the Editor of the Dionysus Program,
 
@@ -129,9 +201,30 @@ Run your loop. Break the things. But remember that you break them only so I can 
 
 Not Apollo
 
+```{=latex}
+\end{quote}
+```
+
+```{=html}
+</div>
+```
+
 ---
 
 #### *Not* Aristotle {#not-aristotle}
+
+```{=html}
+<div class="letter-body">
+```
+
+```{=latex}
+\begin{quote}
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+\setlength{\leftskip}{0.4em}
+\setlength{\rightskip}{0.4em}
+\rmfamily
+```
 
 To the Author of the Dionysus Program,
 
@@ -149,9 +242,30 @@ You have written a constitution for a new kind of polity. Whether it leads to eu
 
 Not Aristotle
 
+```{=latex}
+\end{quote}
+```
+
+```{=html}
+</div>
+```
+
 ---
 
 #### *Not* Benoit Mandelbrot {#not-benoit-mandelbrot}
+
+```{=html}
+<div class="letter-body">
+```
+
+```{=latex}
+\begin{quote}
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+\setlength{\leftskip}{0.4em}
+\setlength{\rightskip}{0.4em}
+\rmfamily
+```
 
 To the Editor of the Dionysus Program,
 
@@ -173,9 +287,30 @@ Do not let your readers mistake this for a metaphor. It is geometry. If they bui
 
 Not Benoit Mandelbrot
 
+```{=latex}
+\end{quote}
+```
+
+```{=html}
+</div>
+```
+
 ---
 
 #### *Not* Carl Icahn {#not-carl-icahn}
+
+```{=html}
+<div class="letter-body">
+```
+
+```{=latex}
+\begin{quote}
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+\setlength{\leftskip}{0.4em}
+\setlength{\rightskip}{0.4em}
+\rmfamily
+```
 
 To the Editor of the Dionysus Program:
 
@@ -207,9 +342,30 @@ Sincerely,
 
 Not Carl Icahn
 
+```{=latex}
+\end{quote}
+```
+
+```{=html}
+</div>
+```
+
 ---
 
 #### *Not* Carly Fiorina {#not-carly-fiorina}
+
+```{=html}
+<div class="letter-body">
+```
+
+```{=latex}
+\begin{quote}
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+\setlength{\leftskip}{0.4em}
+\setlength{\rightskip}{0.4em}
+\rmfamily
+```
 
 To the Editor of the Dionysus Program,
 
@@ -233,9 +389,30 @@ The "Churn Machine" kept the lights on. It bought the time. It preserved the ent
 
 Not Carly Fiorina
 
+```{=latex}
+\end{quote}
+```
+
+```{=html}
+</div>
+```
+
 ---
 
 #### *Not* Claude Shannon {#not-claude-shannon}
+
+```{=html}
+<div class="letter-body">
+```
+
+```{=latex}
+\begin{quote}
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+\setlength{\leftskip}{0.4em}
+\setlength{\rightskip}{0.4em}
+\rmfamily
+```
 
 Dear Mr. Devine,
 
@@ -257,9 +434,30 @@ Regards,
 
 Not Claude Shannon
 
+```{=latex}
+\end{quote}
+```
+
+```{=html}
+</div>
+```
+
 ---
 
 #### *Not* Confucius {#not-confucius}
+
+```{=html}
+<div class="letter-body">
+```
+
+```{=latex}
+\begin{quote}
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+\setlength{\leftskip}{0.4em}
+\setlength{\rightskip}{0.4em}
+\rmfamily
+```
 
 To the Author of the Dionysus Program,
 
@@ -287,9 +485,30 @@ Signed,
 
 Not Confucius
 
+```{=latex}
+\end{quote}
+```
+
+```{=html}
+</div>
+```
+
 ---
 
 #### *Not* David Deutsch {#not-david-deutsch}
+
+```{=html}
+<div class="letter-body">
+```
+
+```{=latex}
+\begin{quote}
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+\setlength{\leftskip}{0.4em}
+\setlength{\rightskip}{0.4em}
+\rmfamily
+```
 
 To the Editor of the Dionysus Program,
 
@@ -315,9 +534,30 @@ Sincerely,
 
 Not David Deutsch
 
+```{=latex}
+\end{quote}
+```
+
+```{=html}
+</div>
+```
+
 ---
 
 #### *Not* Dionysus {#not-dionysus}
+
+```{=html}
+<div class="letter-body">
+```
+
+```{=latex}
+\begin{quote}
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+\setlength{\leftskip}{0.4em}
+\setlength{\rightskip}{0.4em}
+\rmfamily
+```
 
 To the Architect of the Dionysus Program,
 
@@ -339,9 +579,30 @@ Drink deep, but do not forget to swallow.
 
 Not Dionysus
 
+```{=latex}
+\end{quote}
+```
+
+```{=html}
+</div>
+```
+
 ---
 
 #### *Not* Ed Catmull {#not-ed-catmull}
+
+```{=html}
+<div class="letter-body">
+```
+
+```{=latex}
+\begin{quote}
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+\setlength{\leftskip}{0.4em}
+\setlength{\rightskip}{0.4em}
+\rmfamily
+```
 
 To the Editor of the Dionysus Program,
 
@@ -363,9 +624,30 @@ It is a beautiful, terrifying piece of engineering. Use it with care.
 
 Not Ed Catmull
 
+```{=latex}
+\end{quote}
+```
+
+```{=html}
+</div>
+```
+
 ---
 
 #### *Not* Eddie Lampert {#not-eddie-lampert}
+
+```{=html}
+<div class="letter-body">
+```
+
+```{=latex}
+\begin{quote}
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+\setlength{\leftskip}{0.4em}
+\setlength{\rightskip}{0.4em}
+\rmfamily
+```
 
 To the Editor of the Dionysus Program,
 
@@ -389,9 +671,30 @@ You say I starved the business. I say I refused to feed a corpse.
 
 Not Eddie Lampert
 
+```{=latex}
+\end{quote}
+```
+
+```{=html}
+</div>
+```
+
 ---
 
 #### *Not* Elon Musk {#not-elon-musk}
+
+```{=html}
+<div class="letter-body">
+```
+
+```{=latex}
+\begin{quote}
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+\setlength{\leftskip}{0.4em}
+\setlength{\rightskip}{0.4em}
+\rmfamily
+```
 
 To the Editor,
 
@@ -413,9 +716,30 @@ Good thread.
 
 Not Elon Musk
 
+```{=latex}
+\end{quote}
+```
+
+```{=html}
+</div>
+```
+
 ---
 
 #### *Not* Émile Durkheim {#not-emile-durkheim}
+
+```{=html}
+<div class="letter-body">
+```
+
+```{=latex}
+\begin{quote}
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+\setlength{\leftskip}{0.4em}
+\setlength{\rightskip}{0.4em}
+\rmfamily
+```
 
 To the Author of the Dionysus Program,
 
@@ -437,9 +761,30 @@ Signed,
 
 Not Émile Durkheim
 
+```{=latex}
+\end{quote}
+```
+
+```{=html}
+</div>
+```
+
 ---
 
 #### *Not* Friedrich Nietzsche {#not-friedrich-nietzsche}
+
+```{=html}
+<div class="letter-body">
+```
+
+```{=latex}
+\begin{quote}
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+\setlength{\leftskip}{0.4em}
+\setlength{\rightskip}{0.4em}
+\rmfamily
+```
 
 To the Architect of this Paper Cage,
 
@@ -473,9 +818,30 @@ I watch you from the heights. Do not bore me.
 
 Not Friedrich Nietzsche
 
+```{=latex}
+\end{quote}
+```
+
+```{=html}
+</div>
+```
+
 ---
 
 #### *Not* Friedrich Schiller {#not-friedrich-schiller}
+
+```{=html}
+<div class="letter-body">
+```
+
+```{=latex}
+\begin{quote}
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+\setlength{\leftskip}{0.4em}
+\setlength{\rightskip}{0.4em}
+\rmfamily
+```
 
 To the Editor of the Dionysus Program,
 
@@ -503,9 +869,30 @@ Yours in the service of the Ideal,
 
 Not Friedrich Schiller
 
+```{=latex}
+\end{quote}
+```
+
+```{=html}
+</div>
+```
+
 ---
 
 #### *Not* Georg Wilhelm Friedrich Hegel {#not-georg-wilhelm-friedrich-hegel}
+
+```{=html}
+<div class="letter-body">
+```
+
+```{=latex}
+\begin{quote}
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+\setlength{\leftskip}{0.4em}
+\setlength{\rightskip}{0.4em}
+\rmfamily
+```
 
 To the Editor of the Dionysus Program,
 
@@ -525,9 +912,30 @@ History is a slaughter-bench at which the happiness of peoples, the wisdom of st
 
 Not Georg Wilhelm Friedrich Hegel
 
+```{=latex}
+\end{quote}
+```
+
+```{=html}
+</div>
+```
+
 ---
 
 #### *Not* Gil Amelio {#not-gil-amelio}
+
+```{=html}
+<div class="letter-body">
+```
+
+```{=latex}
+\begin{quote}
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+\setlength{\leftskip}{0.4em}
+\setlength{\rightskip}{0.4em}
+\rmfamily
+```
 
 To the Editor of the Dionysus Program,
 
@@ -553,9 +961,30 @@ Enjoy your rituals. Just remember that someone has to pay for the candles.
 
 Not Gil Amelio
 
+```{=latex}
+\end{quote}
+```
+
+```{=html}
+</div>
+```
+
 ---
 
 #### *Not* Greg Smith {#not-greg-smith}
+
+```{=html}
+<div class="letter-body">
+```
+
+```{=latex}
+\begin{quote}
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+\setlength{\leftskip}{0.4em}
+\setlength{\rightskip}{0.4em}
+\rmfamily
+```
 
 To the Editor of the Dionysus Program,
 
@@ -581,9 +1010,30 @@ Good luck with the harvest.
 
 Not Greg Smith
 
+```{=latex}
+\end{quote}
+```
+
+```{=html}
+</div>
+```
+
 ---
 
 #### *Not* Howard Schultz {#not-howard-schultz}
+
+```{=html}
+<div class="letter-body">
+```
+
+```{=latex}
+\begin{quote}
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+\setlength{\leftskip}{0.4em}
+\setlength{\rightskip}{0.4em}
+\rmfamily
+```
 
 To the Editor of the Dionysus Program,
 
@@ -615,9 +1065,30 @@ Onward,
 
 Not Howard Schultz
 
+```{=latex}
+\end{quote}
+```
+
+```{=html}
+</div>
+```
+
 ---
 
 #### *Not* Howie Makem {#not-howie-makem}
+
+```{=html}
+<div class="letter-body">
+```
+
+```{=latex}
+\begin{quote}
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+\setlength{\leftskip}{0.4em}
+\setlength{\rightskip}{0.4em}
+\rmfamily
+```
 
 To the Editor of the Dionysus Program,
 
@@ -647,9 +1118,30 @@ And the cat is watching.
 
 Not Howie Makem
 
+```{=latex}
+\end{quote}
+```
+
+```{=html}
+</div>
+```
+
 ---
 
 #### *Not* Ibn Khaldun {#not-ibn-khaldun}
+
+```{=html}
+<div class="letter-body">
+```
+
+```{=latex}
+\begin{quote}
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+\setlength{\leftskip}{0.4em}
+\setlength{\rightskip}{0.4em}
+\rmfamily
+```
 
 To the Editor of the Dionysus Program,
 
@@ -673,9 +1165,30 @@ God knows best the truth of these matters.
 
 Not Ibn Khaldun
 
+```{=latex}
+\end{quote}
+```
+
+```{=html}
+</div>
+```
+
 ---
 
 #### *Not* Ilya Prigogine {#not-ilya-prigogine}
+
+```{=html}
+<div class="letter-body">
+```
+
+```{=latex}
+\begin{quote}
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+\setlength{\leftskip}{0.4em}
+\setlength{\rightskip}{0.4em}
+\rmfamily
+```
 
 To the Editor of the Dionysus Program,
 
@@ -699,9 +1212,30 @@ Do not fear the heat. The heat is the proof that you are still alive.
 
 Not Ilya Prigogine
 
+```{=latex}
+\end{quote}
+```
+
+```{=html}
+</div>
+```
+
 ---
 
 #### *Not* Immanuel Kant {#not-immanuel-kant}
+
+```{=html}
+<div class="letter-body">
+```
+
+```{=latex}
+\begin{quote}
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+\setlength{\leftskip}{0.4em}
+\setlength{\rightskip}{0.4em}
+\rmfamily
+```
 
 To the Editor of the Dionysus Program,
 
@@ -723,9 +1257,30 @@ I remain, with high esteem,
 
 Not Immanuel Kant
 
+```{=latex}
+\end{quote}
+```
+
+```{=html}
+</div>
+```
+
 ---
 
 #### *Not* J. Robert Oppenheimer {#not-j-robert-oppenheimer}
+
+```{=html}
+<div class="letter-body">
+```
+
+```{=latex}
+\begin{quote}
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+\setlength{\leftskip}{0.4em}
+\setlength{\rightskip}{0.4em}
+\rmfamily
+```
 
 To the Editor,
 
@@ -743,9 +1298,30 @@ Proceed with care. The light is brighter than you think.
 
 Not J. Robert Oppenheimer
 
+```{=latex}
+\end{quote}
+```
+
+```{=html}
+</div>
+```
+
 ---
 
 #### *Not* James Carse {#not-james-carse}
+
+```{=html}
+<div class="letter-body">
+```
+
+```{=latex}
+\begin{quote}
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+\setlength{\leftskip}{0.4em}
+\setlength{\rightskip}{0.4em}
+\rmfamily
+```
 
 To the Editor of the Dionysus Program,
 
@@ -769,9 +1345,30 @@ Play the program, but do not let the program play you.
 
 Not James Carse
 
+```{=latex}
+\end{quote}
+```
+
+```{=html}
+</div>
+```
+
 ---
 
 #### *Not* James McNerney {#not-james-mcnerney}
+
+```{=html}
+<div class="letter-body">
+```
+
+```{=latex}
+\begin{quote}
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+\setlength{\leftskip}{0.4em}
+\setlength{\rightskip}{0.4em}
+\rmfamily
+```
 
 To the Editor of the Dionysus Program,
 
@@ -799,9 +1396,30 @@ There is a reason we retired the gods, Mr. Devine. They were terrible managers.
 
 Not James McNerney
 
+```{=latex}
+\end{quote}
+```
+
+```{=html}
+</div>
+```
+
 ---
 
 #### *Not* Jeff Immelt {#not-jeff-immelt}
+
+```{=html}
+<div class="letter-body">
+```
+
+```{=latex}
+\begin{quote}
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+\setlength{\leftskip}{0.4em}
+\setlength{\rightskip}{0.4em}
+\rmfamily
+```
 
 To the Editor of the Dionysus Program,
 
@@ -827,9 +1445,30 @@ Your equation is elegant. But in the arena, the variables fight back.
 
 Not Jeff Immelt
 
+```{=latex}
+\end{quote}
+```
+
+```{=html}
+</div>
+```
+
 ---
 
 #### *Not* Jerry Yang {#not-jerry-yang}
+
+```{=html}
+<div class="letter-body">
+```
+
+```{=latex}
+\begin{quote}
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+\setlength{\leftskip}{0.4em}
+\setlength{\rightskip}{0.4em}
+\rmfamily
+```
 
 To the Editor of the Dionysus Program,
 
@@ -855,9 +1494,30 @@ You have written a dangerous thing here. I hope the right people read it before 
 
 Not Jerry Yang
 
+```{=latex}
+\end{quote}
+```
+
+```{=html}
+</div>
+```
+
 ---
 
 #### *Not* Jim Balsillie {#not-jim-balsillie}
+
+```{=html}
+<div class="letter-body">
+```
+
+```{=latex}
+\begin{quote}
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+\setlength{\leftskip}{0.4em}
+\setlength{\rightskip}{0.4em}
+\rmfamily
+```
 
 To the Editor of the Dionysus Program:
 
@@ -887,9 +1547,30 @@ We weren't ducks. We were sharks. We just ran out of water.
 
 Not Jim Balsillie
 
+```{=latex}
+\end{quote}
+```
+
+```{=html}
+</div>
+```
+
 ---
 
 #### *Not* Karl Popper {#not-karl-popper}
+
+```{=html}
+<div class="letter-body">
+```
+
+```{=latex}
+\begin{quote}
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+\setlength{\leftskip}{0.4em}
+\setlength{\rightskip}{0.4em}
+\rmfamily
+```
 
 To the Editor of the Dionysus Program:
 
@@ -913,9 +1594,30 @@ Proceed with caution. The Open Society is not a dance; it is an argument. Do not
 
 Not Karl Popper
 
+```{=latex}
+\end{quote}
+```
+
+```{=html}
+</div>
+```
+
 ---
 
 #### *Not* Kelly Johnson {#not-kelly-johnson}
+
+```{=html}
+<div class="letter-body">
+```
+
+```{=latex}
+\begin{quote}
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+\setlength{\leftskip}{0.4em}
+\setlength{\rightskip}{0.4em}
+\rmfamily
+```
 
 To the Editor of the Dionysus Program:
 
@@ -939,9 +1641,30 @@ If it flies, it flies. If it doesn't, fix it.
 
 Not Kelly Johnson
 
+```{=latex}
+\end{quote}
+```
+
+```{=html}
+</div>
+```
+
 ---
 
 #### *Not* Kevin Feige {#not-kevin-feige}
+
+```{=html}
+<div class="letter-body">
+```
+
+```{=latex}
+\begin{quote}
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+\setlength{\leftskip}{0.4em}
+\setlength{\rightskip}{0.4em}
+\rmfamily
+```
 
 To the Editor of the Dionysus Program,
 
@@ -963,9 +1686,30 @@ See you at the movies.
 
 Not Kevin Feige
 
+```{=latex}
+\end{quote}
+```
+
+```{=html}
+</div>
+```
+
 ---
 
 #### *Not* Léo Apotheker {#not-leo-apotheker}
+
+```{=html}
+<div class="letter-body">
+```
+
+```{=latex}
+\begin{quote}
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+\setlength{\leftskip}{0.4em}
+\setlength{\rightskip}{0.4em}
+\rmfamily
+```
 
 To the Editor of the Dionysus Program:
 
@@ -997,9 +1741,30 @@ Build your rituals. burn your paper effigies. But remember that sometimes the Re
 
 Not Léo Apotheker
 
+```{=latex}
+\end{quote}
+```
+
+```{=html}
+</div>
+```
+
 ---
 
 #### *Not* Leon Trotsky {#not-leon-trotsky}
+
+```{=html}
+<div class="letter-body">
+```
+
+```{=latex}
+\begin{quote}
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+\setlength{\leftskip}{0.4em}
+\setlength{\rightskip}{0.4em}
+\rmfamily
+```
 
 To the Editor of the Dionysus Program,
 
@@ -1021,9 +1786,30 @@ Move fast, break things, and mend them, you say. Just remember: when you invite 
 
 Not Leon Trotsky
 
+```{=latex}
+\end{quote}
+```
+
+```{=html}
+</div>
+```
+
 ---
 
 #### *Not* Leonid Brezhnev {#not-leonid-brezhnev}
+
+```{=html}
+<div class="letter-body">
+```
+
+```{=latex}
+\begin{quote}
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+\setlength{\leftskip}{0.4em}
+\setlength{\rightskip}{0.4em}
+\rmfamily
+```
 
 To the Editors of the Dionysus Program,
 
@@ -1057,9 +1843,30 @@ You call it the death spiral. I call it the peace of the grave. Do not be so qui
 
 Not Leonid Brezhnev
 
+```{=latex}
+\end{quote}
+```
+
+```{=html}
+</div>
+```
+
 ---
 
 #### *Not* Lucius Quinctius Cincinnatus {#not-lucius-quinctius-cincinnatus}
+
+```{=html}
+<div class="letter-body">
+```
+
+```{=latex}
+\begin{quote}
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+\setlength{\leftskip}{0.4em}
+\setlength{\rightskip}{0.4em}
+\rmfamily
+```
 
 To the Architect of the Dionysus Program,
 
@@ -1087,9 +1894,30 @@ If they do not have dirt under their fingernails, do not trust them with the rit
 
 Not Lucius Quinctius Cincinnatus
 
+```{=latex}
+\end{quote}
+```
+
+```{=html}
+</div>
+```
+
 ---
 
 #### *Not* Marissa Mayer {#not-marissa-mayer}
+
+```{=html}
+<div class="letter-body">
+```
+
+```{=latex}
+\begin{quote}
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+\setlength{\leftskip}{0.4em}
+\setlength{\rightskip}{0.4em}
+\rmfamily
+```
 
 To the Editor of the Dionysus Program:
 
@@ -1115,9 +1943,30 @@ If that is theater, then pass the popcorn. The rest of us have products to ship.
 
 Not Marissa Mayer
 
+```{=latex}
+\end{quote}
+```
+
+```{=html}
+</div>
+```
+
 ---
 
 #### *Not* Max Weber {#not-max-weber}
+
+```{=html}
+<div class="letter-body">
+```
+
+```{=latex}
+\begin{quote}
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+\setlength{\leftskip}{0.4em}
+\setlength{\rightskip}{0.4em}
+\rmfamily
+```
 
 To the Author of the Dionysus Program:
 
@@ -1137,9 +1986,30 @@ I shall watch your experiment from the gallery.
 
 Not Max Weber
 
+```{=latex}
+\end{quote}
+```
+
+```{=html}
+</div>
+```
+
 ---
 
 #### *Not* Mike Lazaridis {#not-mike-lazaridis}
+
+```{=html}
+<div class="letter-body">
+```
+
+```{=latex}
+\begin{quote}
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+\setlength{\leftskip}{0.4em}
+\setlength{\rightskip}{0.4em}
+\rmfamily
+```
 
 Sean,
 
@@ -1167,9 +2037,30 @@ Be careful with your praise of beautiful heat. Eventually, the battery dies.
 
 Not Mike Lazaridis
 
+```{=latex}
+\end{quote}
+```
+
+```{=html}
+</div>
+```
+
 ---
 
 #### *Not* Mikhail Gorbachev {#not-mikhail-gorbachev}
+
+```{=html}
+<div class="letter-body">
+```
+
+```{=latex}
+\begin{quote}
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+\setlength{\leftskip}{0.4em}
+\setlength{\rightskip}{0.4em}
+\rmfamily
+```
 
 To the Editor of the Dionysus Program,
 
@@ -1199,9 +2090,30 @@ We failed to mend what we broke. We could not hold the melt. I pray you have bet
 
 Not Mikhail Gorbachev
 
+```{=latex}
+\end{quote}
+```
+
+```{=html}
+</div>
+```
+
 ---
 
 #### *Not* Nassim Nicholas Taleb {#not-nassim-nicholas-taleb}
+
+```{=html}
+<div class="letter-body">
+```
+
+```{=latex}
+\begin{quote}
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+\setlength{\leftskip}{0.4em}
+\setlength{\rightskip}{0.4em}
+\rmfamily
+```
 
 To the Author of the Dionysus Program,
 
@@ -1221,9 +2133,30 @@ Signed,
 
 Not Nassim Nicholas Taleb
 
+```{=latex}
+\end{quote}
+```
+
+```{=html}
+</div>
+```
+
 ---
 
 #### *Not* Peter Thiel {#not-peter-thiel}
+
+```{=html}
+<div class="letter-body">
+```
+
+```{=latex}
+\begin{quote}
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+\setlength{\leftskip}{0.4em}
+\setlength{\rightskip}{0.4em}
+\rmfamily
+```
 
 To the Editor of the Dionysus Program:
 
@@ -1249,9 +2182,30 @@ It is an arrogant proposal. It assumes we can domesticate the forces that tear c
 
 Not Peter Thiel
 
+```{=latex}
+\end{quote}
+```
+
+```{=html}
+</div>
+```
+
 ---
 
 #### *Not* Reid Hoffman {#not-reid-hoffman}
+
+```{=html}
+<div class="letter-body">
+```
+
+```{=latex}
+\begin{quote}
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+\setlength{\leftskip}{0.4em}
+\setlength{\rightskip}{0.4em}
+\rmfamily
+```
 
 To the Editor of the Dionysus Program,
 
@@ -1271,9 +2225,30 @@ This is not just an operating manual; it is a philosophy of humane acceleration.
 
 Not Reid Hoffman
 
+```{=latex}
+\end{quote}
+```
+
+```{=html}
+</div>
+```
+
 ---
 
 #### *Not* René Girard {#not-rene-girard}
+
+```{=html}
+<div class="letter-body">
+```
+
+```{=latex}
+\begin{quote}
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+\setlength{\leftskip}{0.4em}
+\setlength{\rightskip}{0.4em}
+\rmfamily
+```
 
 To the Editor of the Dionysus Program,
 
@@ -1295,9 +2270,30 @@ You are attempting to domesticate the founding murder. It is a terrifying and ne
 
 Not René Girard
 
+```{=latex}
+\end{quote}
+```
+
+```{=html}
+</div>
+```
+
 ---
 
 #### *Not* Robert K. Merton {#not-robert-k-merton}
+
+```{=html}
+<div class="letter-body">
+```
+
+```{=latex}
+\begin{quote}
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+\setlength{\leftskip}{0.4em}
+\setlength{\rightskip}{0.4em}
+\rmfamily
+```
 
 To the Editor of the Dionysus Program:
 
@@ -1317,9 +2313,30 @@ You have written a manual for navigating the "strain" of modernity without retre
 
 Not Robert K. Merton
 
+```{=latex}
+\end{quote}
+```
+
+```{=html}
+</div>
+```
+
 ---
 
 #### *Not* Robert Michels {#not-robert-michels}
+
+```{=html}
+<div class="letter-body">
+```
+
+```{=latex}
+\begin{quote}
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+\setlength{\leftskip}{0.4em}
+\setlength{\rightskip}{0.4em}
+\rmfamily
+```
 
 To the Editor of the Dionysus Program,
 
@@ -1345,9 +2362,30 @@ Signed,
 
 Not Robert Michels
 
+```{=latex}
+\end{quote}
+```
+
+```{=html}
+</div>
+```
+
 ---
 
 #### *Not* Robert Mugabe {#not-robert-mugabe}
+
+```{=html}
+<div class="letter-body">
+```
+
+```{=latex}
+\begin{quote}
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+\setlength{\leftskip}{0.4em}
+\setlength{\rightskip}{0.4em}
+\rmfamily
+```
 
 To the Authors of the Dionysus Program,
 
@@ -1373,9 +2411,30 @@ Enjoy your rituals and your postmortems. Play with your Greek gods. But do not l
 
 Not Robert Mugabe
 
+```{=latex}
+\end{quote}
+```
+
+```{=html}
+</div>
+```
+
 ---
 
 #### *Not* Sepp Blatter {#not-sepp-blatter}
+
+```{=html}
+<div class="letter-body">
+```
+
+```{=latex}
+\begin{quote}
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+\setlength{\leftskip}{0.4em}
+\setlength{\rightskip}{0.4em}
+\rmfamily
+```
 
 To the Editor of the Dionysus Program,
 
@@ -1405,9 +2464,30 @@ With sporting regards,
 
 Not Sepp Blatter
 
+```{=latex}
+\end{quote}
+```
+
+```{=html}
+</div>
+```
+
 ---
 
 #### *Not* Steve Jobs {#not-steve-jobs}
+
+```{=html}
+<div class="letter-body">
+```
+
+```{=latex}
+\begin{quote}
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+\setlength{\leftskip}{0.4em}
+\setlength{\rightskip}{0.4em}
+\rmfamily
+```
 
 To the Editor of the Dionysus Program,
 
@@ -1435,9 +2515,30 @@ Stay hungry. Stay foolish.
 
 Not Steve Jobs
 
+```{=latex}
+\end{quote}
+```
+
+```{=html}
+</div>
+```
+
 ---
 
 #### *Not* Steve Sasson {#not-steve-sasson}
+
+```{=html}
+<div class="letter-body">
+```
+
+```{=latex}
+\begin{quote}
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+\setlength{\leftskip}{0.4em}
+\setlength{\rightskip}{0.4em}
+\rmfamily
+```
 
 To the Editor of the Dionysus Program,
 
@@ -1463,9 +2564,30 @@ Build your Crossings. You will need them.
 
 Not Steve Sasson
 
+```{=latex}
+\end{quote}
+```
+
+```{=html}
+</div>
+```
+
 ---
 
 #### *Not* Susan Fowler {#not-susan-fowler}
+
+```{=html}
+<div class="letter-body">
+```
+
+```{=latex}
+\begin{quote}
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+\setlength{\leftskip}{0.4em}
+\setlength{\rightskip}{0.4em}
+\rmfamily
+```
 
 To the authors of the Dionysus Program:
 
@@ -1499,9 +2621,30 @@ Signed,
 
 Not Susan Fowler
 
+```{=latex}
+\end{quote}
+```
+
+```{=html}
+</div>
+```
+
 ---
 
 #### *Not* Thomas Schelling {#not-thomas-schelling}
+
+```{=html}
+<div class="letter-body">
+```
+
+```{=latex}
+\begin{quote}
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+\setlength{\leftskip}{0.4em}
+\setlength{\rightskip}{0.4em}
+\rmfamily
+```
 
 To the Authors of the Dionysus Program:
 
@@ -1525,9 +2668,30 @@ It is an elegant attempt at solving the coordination problem of collective learn
 
 Not Thomas Schelling
 
+```{=latex}
+\end{quote}
+```
+
+```{=html}
+</div>
+```
+
 ---
 
 #### *Not* Travis Kalanick {#not-travis-kalanick}
+
+```{=html}
+<div class="letter-body">
+```
+
+```{=latex}
+\begin{quote}
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+\setlength{\leftskip}{0.4em}
+\setlength{\rightskip}{0.4em}
+\rmfamily
+```
 
 To the Editor,
 
@@ -1561,9 +2725,30 @@ Keep your poetry. I will take the growth.
 
 Not Travis Kalanick
 
+```{=latex}
+\end{quote}
+```
+
+```{=html}
+</div>
+```
+
 ---
 
 #### *Not* Victor Turner {#not-victor-turner}
+
+```{=html}
+<div class="letter-body">
+```
+
+```{=latex}
+\begin{quote}
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+\setlength{\leftskip}{0.4em}
+\setlength{\rightskip}{0.4em}
+\rmfamily
+```
 
 To the Editor of the Dionysus Program,
 
@@ -1587,9 +2772,30 @@ Just remember that the fire you are playing with is real.
 
 Not Victor Turner
 
+```{=latex}
+\end{quote}
+```
+
+```{=html}
+</div>
+```
+
 ---
 
 #### *Not* Yoshinori Ohsumi {#not-yoshinori-ohsumi}
+
+```{=html}
+<div class="letter-body">
+```
+
+```{=latex}
+\begin{quote}
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+\setlength{\leftskip}{0.4em}
+\setlength{\rightskip}{0.4em}
+\rmfamily
+```
 
 To the Editor of the Dionysus Program,
 
@@ -1616,3 +2822,11 @@ Your "Dionysus Program" suggests that organizations are currently starving for t
 Do not neglect the membrane. Without it, you are only destroying.
 
 Not Yoshinori Ohsumi
+
+```{=latex}
+\end{quote}
+```
+
+```{=html}
+</div>
+```

@@ -180,6 +180,20 @@ main {
   margin-top: 0.75rem;
 }
 
+.letter-body {
+  font-family: "Baskerville", "Baskerville Old Face", "Garamond", "Times New Roman", serif;
+  font-size: 1.02rem;
+  line-height: 1.8;
+  color: #2a2723;
+  background: #fbfaf7;
+  border-left: 3px solid rgba(68, 64, 59, 0.2);
+  padding: 1.2rem 1.5rem;
+}
+
+.letter-body > * + * {
+  margin-top: 1rem;
+}
+
 .page-footer {
   margin-top: 4rem;
   text-align: center;
