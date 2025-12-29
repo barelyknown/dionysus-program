@@ -12,6 +12,7 @@
 \usepackage{longtable}
 \usepackage{booktabs}
 \usepackage{array}
+\usepackage{graphicx}
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{hyperref}
@@ -30,6 +31,16 @@ $endif$
 
 \begin{document}
 
+\thispagestyle{empty}
+\newgeometry{left=0.75in,right=0.75in,top=0.75in,bottom=0.75in}
+\begin{center}
+  \vspace*{\fill}
+  \includegraphics[width=\linewidth,height=\textheight,keepaspectratio]{templates/dionysus-program-cover.jpg}
+  \vspace*{\fill}
+\end{center}
+\restoregeometry
+\clearpage
+
 \begin{titlepage}
   \centering
   \vspace*{5cm}
@@ -43,10 +54,6 @@ $endif$
   $if(author)$
     {\Large\scshape $for(author)$$author$$sep$ \\[0.5cm]$endfor$ \par}
     \vspace{0.8cm}
-  $endif$
-  $if(rights)$
-    \vspace{1.2cm}
-    {\footnotesize\itshape $rights$ \par}
   $endif$
 \end{titlepage}
 

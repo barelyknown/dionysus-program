@@ -8,7 +8,8 @@ PDF_OUT="$DIST_DIR/dionysus-program.pdf"
 EPUB_OUT="$DIST_DIR/dionysus-program.epub"
 TEMPLATE="$ROOT_DIR/templates/page.html"
 EPUB_CSS="$ROOT_DIR/templates/epub.css"
-EPUB_COVER="$ROOT_DIR/templates/epub-cover.svg"
+EPUB_COVER="$ROOT_DIR/templates/dionysus-program-cover.jpg"
+SOCIAL_COVER="$ROOT_DIR/templates/dionysus-program-cover-wide.jpg"
 ESSAY_MD="$ROOT_DIR/essay.md"
 LETTERS_SCRIPT="$ROOT_DIR/build-letters-to-editor.js"
 LETTERS_APPENDIX="$DIST_DIR/letters-to-editor-appendix.md"
@@ -48,6 +49,14 @@ echo "Copied Markdown to $DIST_DIR/essay.md"
 
 cp "$SOURCES_MD" "$DIST_DIR/appendix-sources.md"
 echo "Copied sources to $DIST_DIR/appendix-sources.md"
+
+cp "$EPUB_COVER" "$DIST_DIR/dionysus-program-cover.jpg"
+echo "Copied cover to $DIST_DIR/dionysus-program-cover.jpg"
+
+if [[ -f "$SOCIAL_COVER" ]]; then
+  cp "$SOCIAL_COVER" "$DIST_DIR/dionysus-program-cover-wide.jpg"
+  echo "Copied social cover to $DIST_DIR/dionysus-program-cover-wide.jpg"
+fi
 
 pandoc "$ESSAY_MD" "$LETTERS_APPENDIX" "$SOURCES_MD" \
   "$INDEX_APPENDIX" \
