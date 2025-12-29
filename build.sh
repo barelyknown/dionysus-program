@@ -10,6 +10,9 @@ TEMPLATE="$ROOT_DIR/templates/page.html"
 EPUB_CSS="$ROOT_DIR/templates/epub.css"
 EPUB_COVER="$ROOT_DIR/templates/dionysus-program-cover.jpg"
 SOCIAL_COVER="$ROOT_DIR/templates/dionysus-program-cover-wide.jpg"
+FAVICON_JPG="$ROOT_DIR/templates/dionysus-program-favicon.jpg"
+FAVICON_32="$ROOT_DIR/templates/dionysus-program-favicon-32.png"
+FAVICON_180="$ROOT_DIR/templates/dionysus-program-favicon-180.png"
 ESSAY_MD="$ROOT_DIR/essay.md"
 LETTERS_SCRIPT="$ROOT_DIR/build-letters-to-editor.js"
 LETTERS_APPENDIX="$DIST_DIR/letters-to-editor-appendix.md"
@@ -56,6 +59,21 @@ echo "Copied cover to $DIST_DIR/dionysus-program-cover.jpg"
 if [[ -f "$SOCIAL_COVER" ]]; then
   cp "$SOCIAL_COVER" "$DIST_DIR/dionysus-program-cover-wide.jpg"
   echo "Copied social cover to $DIST_DIR/dionysus-program-cover-wide.jpg"
+fi
+
+if [[ -f "$FAVICON_JPG" ]]; then
+  cp "$FAVICON_JPG" "$DIST_DIR/dionysus-program-favicon.jpg"
+  echo "Copied favicon source to $DIST_DIR/dionysus-program-favicon.jpg"
+fi
+
+if [[ -f "$FAVICON_32" ]]; then
+  cp "$FAVICON_32" "$DIST_DIR/dionysus-program-favicon-32.png"
+  echo "Copied favicon 32px to $DIST_DIR/dionysus-program-favicon-32.png"
+fi
+
+if [[ -f "$FAVICON_180" ]]; then
+  cp "$FAVICON_180" "$DIST_DIR/dionysus-program-favicon-180.png"
+  echo "Copied favicon 180px to $DIST_DIR/dionysus-program-favicon-180.png"
 fi
 
 pandoc "$ESSAY_MD" "$LETTERS_APPENDIX" "$SOURCES_MD" \
