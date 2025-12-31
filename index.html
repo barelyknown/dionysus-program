@@ -20,13 +20,14 @@
   <link rel="icon" type="image/png" sizes="32x32" href="dist/dionysus-program-favicon-32.png">
   <link rel="icon" type="image/png" sizes="180x180" href="dist/dionysus-program-favicon-180.png">
   <link rel="apple-touch-icon" sizes="180x180" href="dist/dionysus-program-favicon-180.png">
+  <link rel="preload" as="image" href="dist/dionysus-program-cover.jpg">
   <link rel="stylesheet" href="styles.css">
   <script id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
 </head>
 <body>
   <main>
     <header class="page-header">
-      <img class="page-cover" src="dist/dionysus-program-cover.jpg" alt="The Dionysus Program cover" width="1024" height="1536">
+      <img class="page-cover" src="dist/dionysus-program-cover.jpg" alt="The Dionysus Program cover" width="1024" height="1536" fetchpriority="high">
       <h1 class="sr-only">The Dionysus Program</h1>
       <p class="page-subtitle sr-only">Rites of Renewal</p>
       <p class="page-author sr-only">Sean Devine</p>

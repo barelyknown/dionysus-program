@@ -56,8 +56,10 @@ main {
 .page-cover {
   display: block;
   width: clamp(240px, 45vw, 440px);
+  aspect-ratio: 2 / 3;
   height: auto;
   margin: 0 auto 2.2rem;
+  background: linear-gradient(180deg, #f7f3ec 0%, #ece4d6 100%);
   border: 1px solid var(--border-color);
   box-shadow: 0 18px 40px rgba(47, 38, 27, 0.18);
 }
