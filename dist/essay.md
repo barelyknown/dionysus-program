@@ -430,7 +430,7 @@ Most modern corporate rituals are actually just meetings in costume. We give the
 
 They fail because they lack bite. They feel invented rather than received.
 
-To raise epimetabolic rate, we cannot just schedule meetings. We must construct what Emile Durkheim called Social Facts. These are ways of acting, thinking, and feeling that exist outside the individual consciousness and are endowed with coercive power. A Social Fact is not something you negotiate with; it is something you encounter. It has gravity. It resists you.
+To raise epimetabolic rate, we cannot just schedule meetings. We must construct what Émile Durkheim called Social Facts. These are ways of acting, thinking, and feeling that exist outside the individual consciousness and are endowed with coercive power. A Social Fact is not something you negotiate with; it is something you encounter. It has gravity. It resists you.
 
 When a rite is experienced as a Social Fact, you do not attend it; you submit to it. Paradoxically, it is only through submission to a form that is other than yourself that you become safe enough to speak the truth.
 
