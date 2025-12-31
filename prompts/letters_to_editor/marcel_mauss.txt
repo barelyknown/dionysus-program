@@ -1,12 +1,12 @@
-Write a letter to the editor of the Dionysus Program from Gil Amelio.
+Write a letter to the editor of the Dionysus Program from Marcel Mauss.
 
 The letter should be in their recognizable style, and from their unique perspective.
 
-The letter should not attempt to respond to the entire program, but just to the aspects that animate Gil Amelio most, and where they feel most compelled to offer their unique perspective and voice.
+The letter should not attempt to respond to the entire program, but just to the aspects that animate Marcel Mauss most, and where they feel most compelled to offer their unique perspective and voice.
 
 The letter should be concise and memorable - the sort that would be printed as a letter to the editor if the editor valued the sort of criticism invited by The Dionysus Program.
 
-The letter should be signed "Not Gil Amelio".
+The letter should be signed "Not Marcel Mauss".
 
 The letter should be provided in plain text with no formatting (no bold, no italics, no headers) - just plain text.
 

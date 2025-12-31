@@ -4,7 +4,7 @@ The following letters are hypothetical responses imagined through the lens of th
 
 **Letters index:**
 
-[Abe Silverstein](#not-abe-silverstein) · [Adam Neumann](#not-adam-neumann) · [Alfred Sloan](#not-alfred-sloan) · [Apollo](#not-apollo) · [Aristotle](#not-aristotle) · [Benoit Mandelbrot](#not-benoit-mandelbrot) · [Carl Icahn](#not-carl-icahn) · [Carly Fiorina](#not-carly-fiorina) · [Claude Shannon](#not-claude-shannon) · [Confucius](#not-confucius) · [David Deutsch](#not-david-deutsch) · [Dionysus](#not-dionysus) · [Ed Catmull](#not-ed-catmull) · [Eddie Lampert](#not-eddie-lampert) · [Elon Musk](#not-elon-musk) · [Émile Durkheim](#not-emile-durkheim) · [Friedrich Nietzsche](#not-friedrich-nietzsche) · [Friedrich Schiller](#not-friedrich-schiller) · [Georg Wilhelm Friedrich Hegel](#not-georg-wilhelm-friedrich-hegel) · [Gil Amelio](#not-gil-amelio) · [Greg Smith](#not-greg-smith) · [Howard Schultz](#not-howard-schultz) · [Howie Makem](#not-howie-makem) · [Ibn Khaldun](#not-ibn-khaldun) · [Ilya Prigogine](#not-ilya-prigogine) · [Immanuel Kant](#not-immanuel-kant) · [J. Robert Oppenheimer](#not-j-robert-oppenheimer) · [James Carse](#not-james-carse) · [James McNerney](#not-james-mcnerney) · [Jeff Immelt](#not-jeff-immelt) · [Jerry Yang](#not-jerry-yang) · [Jim Balsillie](#not-jim-balsillie) · [Karl Popper](#not-karl-popper) · [Kelly Johnson](#not-kelly-johnson) · [Kevin Feige](#not-kevin-feige) · [Léo Apotheker](#not-leo-apotheker) · [Leon Trotsky](#not-leon-trotsky) · [Leonid Brezhnev](#not-leonid-brezhnev) · [Lucius Quinctius Cincinnatus](#not-lucius-quinctius-cincinnatus) · [Marissa Mayer](#not-marissa-mayer) · [Max Weber](#not-max-weber) · [Mike Lazaridis](#not-mike-lazaridis) · [Mikhail Gorbachev](#not-mikhail-gorbachev) · [Nassim Nicholas Taleb](#not-nassim-nicholas-taleb) · [Peter Thiel](#not-peter-thiel) · [Reid Hoffman](#not-reid-hoffman) · [René Girard](#not-rene-girard) · [Robert K. Merton](#not-robert-k-merton) · [Robert Michels](#not-robert-michels) · [Robert Mugabe](#not-robert-mugabe) · [Sepp Blatter](#not-sepp-blatter) · [Steve Jobs](#not-steve-jobs) · [Steve Sasson](#not-steve-sasson) · [Susan Fowler](#not-susan-fowler) · [Thomas Schelling](#not-thomas-schelling) · [Travis Kalanick](#not-travis-kalanick) · [Victor Turner](#not-victor-turner) · [Yoshinori Ohsumi](#not-yoshinori-ohsumi)
+[Abe Silverstein](#not-abe-silverstein) · [Adam Neumann](#not-adam-neumann) · [Alfred Sloan](#not-alfred-sloan) · [Apollo](#not-apollo) · [Aristotle](#not-aristotle) · [Benoit Mandelbrot](#not-benoit-mandelbrot) · [Carl Icahn](#not-carl-icahn) · [Carly Fiorina](#not-carly-fiorina) · [Claude Shannon](#not-claude-shannon) · [Confucius](#not-confucius) · [David Deutsch](#not-david-deutsch) · [Dionysus](#not-dionysus) · [Ed Catmull](#not-ed-catmull) · [Eddie Lampert](#not-eddie-lampert) · [Elon Musk](#not-elon-musk) · [Émile Durkheim](#not-emile-durkheim) · [Friedrich Nietzsche](#not-friedrich-nietzsche) · [Friedrich Schiller](#not-friedrich-schiller) · [Georg Wilhelm Friedrich Hegel](#not-georg-wilhelm-friedrich-hegel) · [Gil Amelio](#not-gil-amelio) · [Greg Smith](#not-greg-smith) · [Howard Schultz](#not-howard-schultz) · [Howie Makem](#not-howie-makem) · [Ibn Khaldun](#not-ibn-khaldun) · [Ilya Prigogine](#not-ilya-prigogine) · [Immanuel Kant](#not-immanuel-kant) · [J. Robert Oppenheimer](#not-j-robert-oppenheimer) · [James Carse](#not-james-carse) · [James McNerney](#not-james-mcnerney) · [Jeff Immelt](#not-jeff-immelt) · [Jerry Yang](#not-jerry-yang) · [Jim Balsillie](#not-jim-balsillie) · [Karl Popper](#not-karl-popper) · [Kelly Johnson](#not-kelly-johnson) · [Kevin Feige](#not-kevin-feige) · [Léo Apotheker](#not-leo-apotheker) · [Leon Trotsky](#not-leon-trotsky) · [Leonid Brezhnev](#not-leonid-brezhnev) · [Lucius Quinctius Cincinnatus](#not-lucius-quinctius-cincinnatus) · [Marcel Mauss](#not-marcel-mauss) · [Marissa Mayer](#not-marissa-mayer) · [Max Weber](#not-max-weber) · [Mike Lazaridis](#not-mike-lazaridis) · [Mikhail Gorbachev](#not-mikhail-gorbachev) · [Nassim Nicholas Taleb](#not-nassim-nicholas-taleb) · [Peter Thiel](#not-peter-thiel) · [Reid Hoffman](#not-reid-hoffman) · [René Girard](#not-rene-girard) · [Robert K. Merton](#not-robert-k-merton) · [Robert Michels](#not-robert-michels) · [Robert Mugabe](#not-robert-mugabe) · [Sepp Blatter](#not-sepp-blatter) · [Steve Jobs](#not-steve-jobs) · [Steve Sasson](#not-steve-sasson) · [Susan Fowler](#not-susan-fowler) · [Thomas Schelling](#not-thomas-schelling) · [Travis Kalanick](#not-travis-kalanick) · [Victor Turner](#not-victor-turner) · [Yoshinori Ohsumi](#not-yoshinori-ohsumi)
 
 
 #### *Not* Abe Silverstein {#not-abe-silverstein}
@@ -1893,6 +1893,49 @@ Your program is a machine for making sure Rome has no kings—not in your compan
 If they do not have dirt under their fingernails, do not trust them with the rites.
 
 Not Lucius Quinctius Cincinnatus
+
+```{=latex}
+\end{quote}
+```
+
+```{=html}
+</div>
+```
+
+---
+
+#### *Not* Marcel Mauss {#not-marcel-mauss}
+
+```{=html}
+<div class="letter-body">
+```
+
+```{=latex}
+\begin{quote}
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+\setlength{\leftskip}{0.4em}
+\setlength{\rightskip}{0.4em}
+\rmfamily
+```
+
+To the Editor of the Dionysus Program:
+
+I read with a spectral curiosity your attempt to enlist my ghost in your machinery of renewal. You invoke the logic of the gift—the obligation to give, to receive, and to reciprocate—to solve the problem of corporate silence. You propose that the organization offers the gift of "Ritual Time" (expensive, protected, hospitable) and that the participant, bound by the ancient weight of reciprocity, returns the gift in the form of "candor."
+
+It is a clever transmutation, but you risk mistaking the mechanics of the exchange for its spirit.
+
+In the societies I studied, the gift is not merely a lubricant for social relations; it is a total social fact that carries the soul of the giver. It is dangerous. The word gift in German means poison. To accept a gift is to accept a burden. To give a gift is to claim superiority.
+
+Your program assumes that the subordinate can afford to repay the gift of the sovereign. You ask the worker to repay the "gift" of a safe meeting with the "return gift" of a dangerous truth. But in the logic of the potlatch, the one who gives the greater gift dominates the other. If the subordinate offers a truth so potent that the leadership cannot match it—cannot metabolize it, as you say—the hierarchy is not renewed; it is inverted. The subordinate becomes the creditor; the leader becomes the debtor.
+
+Most kings, when they find themselves in debt to a peasant, do not pay. They kill the peasant.
+
+You are attempting to industrialize the hau—the spirit of the thing given. You wish to make the sacred efficient. You want the solidarity of the tribe without the terrifying waste of the festival. But the gift economy relies on the very inefficiency you seek to harness. If the "gift" of ritual time is calculated on a ledger to produce a return on investment, it is not a gift. It is a wage. And for a wage, you will receive only labor, never truth.
+
+If you wish to invoke the gift, you must be prepared for the recipient to burn your house down in an act of magnificent expenditure, just to prove they are your equal.
+
+Not Marcel Mauss
 
 ```{=latex}
 \end{quote}

@@ -33,6 +33,7 @@ Dionysian Ideal
 Dionysian chaos
 Dionysus
 Dionysus Program
+Durkheim Constraint
 Eat Your Decay
 Ed Catmull
 Eddie Lampert
@@ -86,9 +87,11 @@ Lindy-first design
 Los Alamos
 Lucius Quinctius Cincinnatus
 M&A
+Marcel Mauss
 Marissa Mayer
 Marvel
 Marvel Studios
+Mauss Dynamic
 Max Weber
 Microsoft
 Mike Lazaridis
@@ -138,6 +141,7 @@ Tesla
 The Alliance
 The Audit
 The Birth of Tragedy
+The Bite and The Gift
 The Braintrust
 The Crossing
 The Current
@@ -183,8 +187,10 @@ extraordinary authority
 failure conditions
 farmer-king
 finite game
+form otherness
 fractal calendar
 hormesis
+hospitality as binding force
 infinite game
 interpretive monopoly
 liminal authority
@@ -200,9 +206,11 @@ moral hazard
 negative selection
 negentropy
 ossification
+otherness
 poverty of forms
 priesthood
 pro-fractal
+receivedness
 reconstitution
 renewal
 retraining order
@@ -217,14 +225,18 @@ scapegoat mechanism
 scapegoating
 self-cannibalization
 self-erasure
+social facts
 social heat
+social otherness
 stewardship
 struggle session
 system dynamics
+temporal otherness
 touch down
 tragic metabolism
 tragic postmortem
 truth-telling
 vibrating vacuum
 wins that break the game
+witness otherness
 Émile Durkheim
