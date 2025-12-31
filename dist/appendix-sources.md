@@ -18,6 +18,8 @@ David Deutsch. The Beginning of Infinity: Explanations that Transform the World 
 
 Émile Durkheim. Suicide: A Study in Sociology (1897). [Free](https://www.gutenberg.org/ebooks/67634) · [Amazon](https://www.amazon.com/Suicide-Study-Sociology-Emile-Durkheim/dp/0684836327)
 
+Émile Durkheim. The Rules of Sociological Method (1895). [Free](https://archive.org/details/rulesofsociologi00durk) · [Amazon](https://www.amazon.com/s?k=Durkheim+Rules+of+Sociological+Method)
+
 Émile Durkheim. The Elementary Forms of the Religious Life (1912). [Free](https://archive.org/details/elementaryformso00durk) · [Amazon](https://www.amazon.com/Elementary-Forms-Religious-Life/dp/0199540128)
 
 Richard P. Feynman. “Cargo Cult Science” (1974). [Free](https://calteches.library.caltech.edu/51/2/CargoCult.htm)
@@ -43,6 +45,8 @@ Ibn Khaldun. The Muqaddimah (1377). [Free](https://archive.org/details/IbnKhaldu
 Benoît B. Mandelbrot. The Fractal Geometry of Nature (1982). [Amazon](https://www.amazon.com/Fractal-Geometry-Nature-Benoit-Mandelbrot/dp/0716711869)
 
 Benoît B. Mandelbrot and Richard L. Hudson. The (Mis)Behavior of Markets: A Fractal View of Risk, Ruin, and Reward (2004). [Amazon](https://www.amazon.com/Misbehavior-Markets-Fractal-Financial-Turbulence/dp/0465043577)
+
+Marcel Mauss. The Gift: The Form and Reason for Exchange in Archaic Societies (1925). [Free](https://archive.org/details/giftformsfunctio00maus) · [Amazon](https://www.amazon.com/Gift-Functions-Exchange-Archaic-Societies/dp/161427018X)
 
 Robert K. Merton. “Social Structure and Anomie” (1938). [Free](https://www.jstor.org/stable/2084686)
 
