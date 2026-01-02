@@ -4,7 +4,7 @@ The following letters are hypothetical responses imagined through the lens of th
 
 **Letters index:**
 
-[Abe Silverstein](#not-abe-silverstein) · [Adam Neumann](#not-adam-neumann) · [Alfred Sloan](#not-alfred-sloan) · [Apollo](#not-apollo) · [Aristotle](#not-aristotle) · [Benoit Mandelbrot](#not-benoit-mandelbrot) · [Carl Icahn](#not-carl-icahn) · [Carly Fiorina](#not-carly-fiorina) · [Claude Shannon](#not-claude-shannon) · [Confucius](#not-confucius) · [David Deutsch](#not-david-deutsch) · [Dionysus](#not-dionysus) · [Ed Catmull](#not-ed-catmull) · [Eddie Lampert](#not-eddie-lampert) · [Elon Musk](#not-elon-musk) · [Émile Durkheim](#not-emile-durkheim) · [Friedrich Nietzsche](#not-friedrich-nietzsche) · [Friedrich Schiller](#not-friedrich-schiller) · [Georg Wilhelm Friedrich Hegel](#not-georg-wilhelm-friedrich-hegel) · [Gil Amelio](#not-gil-amelio) · [Greg Smith](#not-greg-smith) · [Howard Schultz](#not-howard-schultz) · [Howie Makem](#not-howie-makem) · [Ibn Khaldun](#not-ibn-khaldun) · [Ilya Prigogine](#not-ilya-prigogine) · [Immanuel Kant](#not-immanuel-kant) · [J. Robert Oppenheimer](#not-j-robert-oppenheimer) · [James Carse](#not-james-carse) · [James McNerney](#not-james-mcnerney) · [Jeff Immelt](#not-jeff-immelt) · [Jerry Yang](#not-jerry-yang) · [Jim Balsillie](#not-jim-balsillie) · [Karl Popper](#not-karl-popper) · [Kelly Johnson](#not-kelly-johnson) · [Kevin Feige](#not-kevin-feige) · [Léo Apotheker](#not-leo-apotheker) · [Leon Trotsky](#not-leon-trotsky) · [Leonid Brezhnev](#not-leonid-brezhnev) · [Lucius Quinctius Cincinnatus](#not-lucius-quinctius-cincinnatus) · [Marcel Mauss](#not-marcel-mauss) · [Marissa Mayer](#not-marissa-mayer) · [Max Weber](#not-max-weber) · [Mike Lazaridis](#not-mike-lazaridis) · [Mikhail Gorbachev](#not-mikhail-gorbachev) · [Nassim Nicholas Taleb](#not-nassim-nicholas-taleb) · [Peter Thiel](#not-peter-thiel) · [Reid Hoffman](#not-reid-hoffman) · [René Girard](#not-rene-girard) · [Robert K. Merton](#not-robert-k-merton) · [Robert Michels](#not-robert-michels) · [Robert Mugabe](#not-robert-mugabe) · [Sepp Blatter](#not-sepp-blatter) · [Steve Jobs](#not-steve-jobs) · [Steve Sasson](#not-steve-sasson) · [Susan Fowler](#not-susan-fowler) · [Thomas Schelling](#not-thomas-schelling) · [Travis Kalanick](#not-travis-kalanick) · [Victor Turner](#not-victor-turner) · [Yoshinori Ohsumi](#not-yoshinori-ohsumi)
+[Abe Silverstein](#not-abe-silverstein) · [Adam Neumann](#not-adam-neumann) · [Alfred Sloan](#not-alfred-sloan) · [Andy Grove](#not-andy-grove) · [Apollo](#not-apollo) · [Aristotle](#not-aristotle) · [Benoit Mandelbrot](#not-benoit-mandelbrot) · [Carl Icahn](#not-carl-icahn) · [Carly Fiorina](#not-carly-fiorina) · [Claude Shannon](#not-claude-shannon) · [Confucius](#not-confucius) · [David Deutsch](#not-david-deutsch) · [Dionysus](#not-dionysus) · [Ed Catmull](#not-ed-catmull) · [Eddie Lampert](#not-eddie-lampert) · [Elon Musk](#not-elon-musk) · [Émile Durkheim](#not-emile-durkheim) · [Friedrich Nietzsche](#not-friedrich-nietzsche) · [Friedrich Schiller](#not-friedrich-schiller) · [Georg Wilhelm Friedrich Hegel](#not-georg-wilhelm-friedrich-hegel) · [Gil Amelio](#not-gil-amelio) · [Greg Smith](#not-greg-smith) · [Howard Schultz](#not-howard-schultz) · [Howie Makem](#not-howie-makem) · [Ibn Khaldun](#not-ibn-khaldun) · [Ilya Prigogine](#not-ilya-prigogine) · [Immanuel Kant](#not-immanuel-kant) · [J. Robert Oppenheimer](#not-j-robert-oppenheimer) · [James Carse](#not-james-carse) · [James McNerney](#not-james-mcnerney) · [Jeff Immelt](#not-jeff-immelt) · [Jerry Yang](#not-jerry-yang) · [Jim Balsillie](#not-jim-balsillie) · [Karl Popper](#not-karl-popper) · [Kelly Johnson](#not-kelly-johnson) · [Kevin Feige](#not-kevin-feige) · [Léo Apotheker](#not-leo-apotheker) · [Leon Trotsky](#not-leon-trotsky) · [Leonid Brezhnev](#not-leonid-brezhnev) · [Lucius Quinctius Cincinnatus](#not-lucius-quinctius-cincinnatus) · [Marcel Mauss](#not-marcel-mauss) · [Marissa Mayer](#not-marissa-mayer) · [Max Weber](#not-max-weber) · [Mike Lazaridis](#not-mike-lazaridis) · [Mikhail Gorbachev](#not-mikhail-gorbachev) · [Nassim Nicholas Taleb](#not-nassim-nicholas-taleb) · [Peter Thiel](#not-peter-thiel) · [Reid Hoffman](#not-reid-hoffman) · [René Girard](#not-rene-girard) · [Robert K. Merton](#not-robert-k-merton) · [Robert Michels](#not-robert-michels) · [Robert Mugabe](#not-robert-mugabe) · [Sepp Blatter](#not-sepp-blatter) · [Steve Jobs](#not-steve-jobs) · [Steve Sasson](#not-steve-sasson) · [Susan Fowler](#not-susan-fowler) · [Thomas Schelling](#not-thomas-schelling) · [Travis Kalanick](#not-travis-kalanick) · [Victor Turner](#not-victor-turner) · [Yoshinori Ohsumi](#not-yoshinori-ohsumi)
 
 
 #### *Not* Abe Silverstein {#not-abe-silverstein}
@@ -149,6 +149,53 @@ Your Dionysus Program faces the exact same hazard. It is entirely possible that 
 I conquered the problem of scale. You are attempting to conquer the problem of entropy. It is the harder task. I wish you luck with it.
 
 Not Alfred Sloan
+
+```{=latex}
+\end{quote}
+```
+
+```{=html}
+</div>
+```
+
+---
+
+#### *Not* Andy Grove {#not-andy-grove}
+
+```{=html}
+<div class="letter-body">
+```
+
+```{=latex}
+\begin{quote}
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+\setlength{\leftskip}{0.4em}
+\setlength{\rightskip}{0.4em}
+\rmfamily
+```
+
+To the Editor:
+
+I read the manuscript. You have wrapped a survival manual in the language of a liberal arts seminar.
+
+Usually, I would throw a document like this in the trash after the first mention of a Greek god. But I kept reading because underneath the poetry, you have identified the specific mechanism that kills companies.
+
+We called them strategic inflection points. You call it the melt. It does not matter what you name it. What matters is that when the fundamentals of the business change, the existing organization will fight to the death to ignore the truth. The middle managers will protect their fiefdoms. The executives will protect their dignity. And the company will die.
+
+Your distinction between Run Time and Ritual Time is correct. Run Time is for maximizing the current curve. Ritual Time is for jumping to the next one. Most companies cannot jump because they are too terrified to stop running, even when they are running off a cliff.
+
+I famously asked Gordon Moore what a new CEO would do if we were fired. He said they would get out of the memory business. I said, "Why shouldn't you and I walk out the door, come back in, and do it ourselves?"
+
+That conversation was a "Crossing" in your terminology. We had to kill our own identity to save the company. It was not beautiful. It was necessary.
+
+My warning to you is about the "Jesters." You think you can institutionalize dissent. Maybe. But in my experience, polite dissent is worthless. You need constructive confrontation. You need people shouting because they care about the outcome more than their feelings. If your rituals become polite, or if they become a department, they are worse than useless. They are a hiding place for mediocrity.
+
+If this program helps one CEO look in the mirror and fire themselves before the board does it for them, it is worth the paper.
+
+But cut the adjectives. Speed is the only asset.
+
+Not Andy Grove
 
 ```{=latex}
 \end{quote}

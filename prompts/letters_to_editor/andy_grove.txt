@@ -1,12 +1,12 @@
-Write a letter to the editor of the Dionysus Program from Max Weber.
+Write a letter to the editor of the Dionysus Program from Andy Grove.
 
 The letter should be in their recognizable style, and from their unique perspective.
 
-The letter should not attempt to respond to the entire program, but just to the aspects that animate Max Weber most, and where they feel most compelled to offer their unique perspective and voice.
+The letter should not attempt to respond to the entire program, but just to the aspects that animate Andy Grove most, and where they feel most compelled to offer their unique perspective and voice.
 
 The letter should be concise and memorable - the sort that would be printed as a letter to the editor if the editor valued the sort of criticism invited by The Dionysus Program.
 
-The letter should be signed "Not Max Weber".
+The letter should be signed "Not Andy Grove".
 
 The letter should be provided in plain text with no formatting (no bold, no italics, no headers) - just plain text.
 
