@@ -50,8 +50,6 @@ If you’re looking for tactics that preserve your current identity while the wo
 The world is not going to slow down for us. So we will have to become the kind of people who can keep up—without becoming less human.
 :::
 
----
-
 ```{=latex}
 \newpage
 ```
