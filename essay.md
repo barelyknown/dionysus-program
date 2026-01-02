@@ -430,11 +430,15 @@ Most modern corporate rituals are actually just meetings in costume. We give the
 
 They fail because they lack bite. They feel invented rather than received.
 
-To raise epimetabolic rate, we cannot just schedule meetings. We must construct what Émile Durkheim called Social Facts. These are ways of acting, thinking, and feeling that exist outside the individual consciousness and are endowed with coercive power. A Social Fact is not something you negotiate with; it is something you encounter. It has gravity. It resists you.
+One way to name what’s missing is *chronos* versus *kairos*. Chronos is clock time—calendar time—fungible minutes allocated to tasks. Kairos is threshold time: the felt moment when we step out of ordinary work and into a container whose rules bind. Most corporate “rituals” are chronos disguised as kairos: meetings in costume that borrow solemnity without acquiring gravity.
+
+To raise the epimetabolic rate, we cannot just schedule meetings. We must construct what Émile Durkheim called Social Facts. These are ways of acting, thinking, and feeling that exist outside the individual consciousness and are endowed with coercive power. A Social Fact is not something you negotiate with; it is something you encounter. It has gravity. It resists you.
 
 When a rite is experienced as a Social Fact, you do not attend it; you submit to it. Paradoxically, it is only through submission to a form that is other than yourself that you become safe enough to speak the truth.
 
 **The Durkheim Constraint: Otherness**
+
+Otherness is a *kairos checklist*. Its job is to convert ordinary time into Ritual Time—to make the rite feel encountered rather than negotiated, received rather than invented—so it can carry heat without collapsing into theater.
 
 For a ritual to hold the heat of dissolution, it must feel other. It cannot feel like something we just made up five minutes ago to solve a ticket. It must feel like an ancient machine we have stepped inside.
 
