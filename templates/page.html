@@ -33,6 +33,8 @@
       $if(author)$<p class="page-author sr-only">$for(author)$$author$$sep$, $endfor$</p>$endif$
       <p class="page-download">
         <span class="page-download-row">
+          <a href="#toc">HTML</a>
+          <span aria-hidden="true">·</span>
           <a href="dist/dionysus-program.pdf">PDF</a>
           <span aria-hidden="true">·</span>
           <a href="dist/dionysus-program.epub">EPUB</a>
@@ -50,7 +52,7 @@
       </p>
     </header>
     $if(toc)$
-    <nav class="page-toc" aria-label="Table of contents">
+    <nav class="page-toc" id="toc" aria-label="Table of contents">
       <p class="toc-heading">$if(toc-title)$$toc-title$$else$Contents$endif$</p>
       $table-of-contents$
     </nav>

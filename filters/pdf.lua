@@ -106,6 +106,13 @@ function Pandoc(doc)
       goto continue
     end
 
+    if el.t == 'Div' and has_class(el, 'about-program') then
+      for _, block in ipairs(el.content) do
+        table.insert(blocks, block)
+      end
+      goto continue
+    end
+
     table.insert(blocks, el)
     ::continue::
   end

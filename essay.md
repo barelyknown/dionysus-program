@@ -24,6 +24,7 @@ Rites of Renewal
 
 ## About the Program
 
+::: about-program
 Knowledge now melts faster than organizations can re-bind it into identity, norms, and operating systems—without depleting trust. AI compresses the half-life of expertise; what took decades now happens in quarters. Under that pressure, the primary obstacle to progress is no longer technical—it’s cultural. Teams hit their limits not because they can’t think, but because they can’t digest disruptive reality into new roles, new norms, and new commitments without collapsing into numbness, scapegoating, or management theater.
 
 **The Dionysus Program** is a field manual for leaders facing that bottleneck.
@@ -47,6 +48,7 @@ What makes this unusually usable is that it isn’t just an essay. It’s a tool
 If you’re looking for tactics that preserve your current identity while the world changes around you, this won’t satisfy. But if you want a rigorous way to face disruptive knowledge—and come out stronger on the other side—**The Dionysus Program** is a set of rites for renewal you can actually run.
 
 The world is not going to slow down for us. So we will have to become the kind of people who can keep up—without becoming less human.
+:::
 
 ---
 

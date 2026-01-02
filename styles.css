@@ -140,8 +140,20 @@ main {
   border-radius: 10px;
   padding: 1.8rem 2.4rem 2rem;
   background: #faf8f4;
-  margin: 2.2rem auto 3rem;
+  margin: 3.2rem auto 3rem;
   max-width: 640px;
+  position: relative;
+}
+
+.page-toc::before {
+  content: "";
+  position: absolute;
+  top: -1.8rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 180px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(124, 130, 75, 0.55), transparent);
 }
 
 .toc-heading {
@@ -205,6 +217,21 @@ main {
   height: 1px;
   background: linear-gradient(90deg, transparent, rgba(68, 64, 59, 0.45), transparent);
   margin-top: 0.75rem;
+}
+
+.about-program {
+  border-left: 3px solid #7c824b;
+  padding: 0.9rem 1.1rem 0.9rem 1.6rem;
+  background: #e7ead9;
+}
+
+.about-program > * + * {
+  margin-top: 1rem;
+}
+
+.about-program p:first-of-type {
+  font-size: 1.04rem;
+  line-height: 1.7;
 }
 
 .letter-body {

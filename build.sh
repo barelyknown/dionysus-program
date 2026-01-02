@@ -47,6 +47,8 @@ pandoc "$ESSAY_MD" "$LETTERS_APPENDIX" "$SOURCES_MD" \
 
 echo "Wrote HTML to $HTML_OUT"
 
+node "$ROOT_DIR/reorder-about-program.js" "$HTML_OUT"
+
 cp "$ESSAY_MD" "$DIST_DIR/essay.md"
 echo "Copied Markdown to $DIST_DIR/essay.md"
 
