@@ -313,7 +313,7 @@
 
 #### X
 
-- XBE — [About the Author](#about-the-author), [Preface](#preface)
+- XBE — [About the Program](#about-the-program), [About the Author](#about-the-author), [Preface](#preface)
 
 #### Y
 

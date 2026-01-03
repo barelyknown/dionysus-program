@@ -20,6 +20,8 @@ SOURCES_MD="$ROOT_DIR/appendix-sources.md"
 KEYWORDS_TXT="$ROOT_DIR/keywords.txt"
 INDEX_SCRIPT="$ROOT_DIR/build-index.js"
 INDEX_APPENDIX="$DIST_DIR/appendix-index.md"
+ABOUT_PROGRAM_SCRIPT="$ROOT_DIR/extract-about-program.js"
+ABOUT_PROGRAM_OUT="$DIST_DIR/about-the-program.md"
 
 if ! command -v pandoc >/dev/null 2>&1; then
   echo "pandoc is required but not installed" >&2
@@ -51,6 +53,9 @@ node "$ROOT_DIR/reorder-about-program.js" "$HTML_OUT"
 
 cp "$ESSAY_MD" "$DIST_DIR/essay.md"
 echo "Copied Markdown to $DIST_DIR/essay.md"
+
+node "$ABOUT_PROGRAM_SCRIPT" "$ESSAY_MD" "$ABOUT_PROGRAM_OUT"
+echo "Copied About the Program to $ABOUT_PROGRAM_OUT"
 
 cp "$SOURCES_MD" "$DIST_DIR/appendix-sources.md"
 echo "Copied sources to $DIST_DIR/appendix-sources.md"

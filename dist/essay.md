@@ -28,6 +28,7 @@ Rites of Renewal
 Knowledge now melts faster than organizations can re-bind it into identity, norms, and operating systems—without depleting trust. AI compresses the half-life of expertise; what took decades now happens in quarters. Under that pressure, the primary obstacle to progress is no longer technical—it’s cultural. Teams hit their limits not because they can’t think, but because they can’t digest disruptive reality into new roles, new norms, and new commitments without collapsing into numbness, scapegoating, or management theater.
 
 The *Dionysus Program* is a field manual for leaders facing that bottleneck.
+Written by Sean Devine, founder and CEO of XBE.
 
 It argues for a new scoreboard: **epimetabolic rate**—the speed at which a person, team, or organization converts error into new structure without burning its social fabric. The method is a loop you can actually run: critique → dissolution → reconstitution → renewal. Not “more candor” stapled onto an unchanged culture, but an operating system where knowledge-updating becomes cheaper, safer, and more productive over time—so you can move fast, break things, and then mend what you break into something stronger. Along the way, you’ll get repeatable rites, facilitation scripts, diagnostics, and meeting designs you can apply immediately—without turning your culture into a permanent therapy session.
 
