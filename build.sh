@@ -22,6 +22,11 @@ INDEX_SCRIPT="$ROOT_DIR/build-index.js"
 INDEX_APPENDIX="$DIST_DIR/appendix-index.md"
 ABOUT_PROGRAM_SCRIPT="$ROOT_DIR/extract-about-program.js"
 ABOUT_PROGRAM_OUT="$DIST_DIR/about-the-program.md"
+PULL_QUOTES_SCRIPT="$ROOT_DIR/build-pull-quotes.js"
+PULL_QUOTES_JSON="$ROOT_DIR/pull-quotes.json"
+PULL_QUOTES_HTML="$ROOT_DIR/pull-quotes.html"
+PULL_QUOTES_RENDER_SCRIPT="$ROOT_DIR/render-pull-quotes-images.js"
+PULL_QUOTES_IMAGES_DIR="$DIST_DIR/pull-quotes"
 
 if ! command -v pandoc >/dev/null 2>&1; then
   echo "pandoc is required but not installed" >&2
@@ -32,6 +37,14 @@ mkdir -p "$DIST_DIR"
 
 node "$LETTERS_SCRIPT" "$DIST_DIR"
 node "$INDEX_SCRIPT" "$DIST_DIR" "$ESSAY_MD" "$KEYWORDS_TXT" "$LETTERS_APPENDIX" "$SOURCES_MD"
+node "$PULL_QUOTES_SCRIPT" "$PULL_QUOTES_JSON" "$PULL_QUOTES_HTML"
+echo "Wrote pull quotes HTML to $PULL_QUOTES_HTML"
+
+if node -e "const { chromium } = require('playwright'); chromium.executablePath();" >/dev/null 2>&1; then
+  node "$PULL_QUOTES_RENDER_SCRIPT" "$PULL_QUOTES_IMAGES_DIR" "$PULL_QUOTES_HTML"
+else
+  echo "Skipping pull quote images (Playwright/Chromium not installed)"
+fi
 
 pandoc "$ESSAY_MD" "$LETTERS_APPENDIX" "$SOURCES_MD" \
   "$INDEX_APPENDIX" \

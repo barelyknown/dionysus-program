@@ -107,11 +107,12 @@ main {
   color: var(--muted-color);
 }
 
-.download-label {
-  letter-spacing: 0.12em;
-  text-transform: none;
-  font-size: 0.85rem;
-  color: rgba(68, 64, 59, 0.7);
+.page-download-label {
+  margin-top: 0.35rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  font-size: 0.72rem;
+  color: rgba(68, 64, 59, 0.65);
 }
 
 .page-download-row {
@@ -120,6 +121,10 @@ main {
   gap: 0.7rem;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.page-download-row-markdown {
+  gap: 0.55rem;
 }
 
 .page-download a {
@@ -439,6 +444,63 @@ a:hover {
 /* Epimetabolic Simulation Styles */
 .simulation-container {
   margin: 3rem 0;
+}
+
+.sim-loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 320px;
+  padding: 2rem 1rem;
+}
+
+.sim-loading-card {
+  background: linear-gradient(180deg, #f7f3ec 0%, #f2ece3 100%);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 2rem 2.25rem;
+  text-align: center;
+  max-width: 440px;
+  width: 100%;
+  box-shadow: 0 14px 30px rgba(47, 38, 27, 0.08);
+}
+
+.sim-loading-title {
+  font-size: 1.15rem;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
+  margin-bottom: 0.55rem;
+}
+
+.sim-loading-subtitle {
+  color: var(--muted-color);
+  font-size: 0.95rem;
+  margin-bottom: 1.5rem;
+}
+
+.sim-loading-bar {
+  position: relative;
+  height: 8px;
+  border-radius: 999px;
+  background: rgba(65, 64, 59, 0.12);
+  overflow: hidden;
+}
+
+.sim-loading-bar span {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, transparent 0%, rgba(65, 64, 59, 0.5) 50%, transparent 100%);
+  animation: sim-loading-sweep 1.6s ease-in-out infinite;
+  transform: translateX(-60%);
+}
+
+@keyframes sim-loading-sweep {
+  0% {
+    transform: translateX(-60%);
+  }
+  100% {
+    transform: translateX(60%);
+  }
 }
 
 .sim-wrapper {
