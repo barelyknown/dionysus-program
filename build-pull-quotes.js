@@ -169,7 +169,7 @@ const html = `<!DOCTYPE html>
     }
 
     .quote-brand {
-      font-size: 0.7rem;
+      font-size: 1.1rem;
       letter-spacing: 0.38em;
       text-transform: uppercase;
       margin: 1.4rem 0 2rem;
@@ -219,7 +219,7 @@ const html = `<!DOCTYPE html>
     }
 
     .quote-text {
-      font-size: 2.05rem;
+      font-size: 2.6rem;
       line-height: 1.4;
       font-weight: 500;
       max-width: 760px;
@@ -242,7 +242,7 @@ const html = `<!DOCTYPE html>
 
     .quote-attribution {
       margin-top: auto;
-      font-size: 1rem;
+      font-size: 1.35rem;
       letter-spacing: 0.16em;
       text-transform: uppercase;
       color: rgba(90, 78, 66, 0.8);
