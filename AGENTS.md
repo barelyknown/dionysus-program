@@ -29,3 +29,7 @@
 - Pushing to `main` triggers GitHub Pages; ensure `.nojekyll` and `CNAME` remain in the root.
 - For domain or SSL issues, re-run `./build.sh`, push, then re-check Pages settings before altering DNS.
 - Do not commit or push unless directed to do so.
+
+## Skills
+- dionysus-build: Build or rebuild the Dionysus Program site outputs (HTML/PDF/Markdown) using `./build.sh`. Use when asked to build, rebuild, regenerate outputs, update the PDF/HTML, or verify generated artifacts in this repo. (file: skills/dionysus-build/SKILL.md)
+- dionysus-pull-quotes: Generate short, memorable pull quotes from `essay.md` and `letters_to_editor/*.txt`, then output a JSON file with quote/author/source attribution. Use when asked to curate pull quotes, quote lists, or pull-quote JSON for the essay or letters to the editor. (file: skills/dionysus-pull-quotes/SKILL.md)
