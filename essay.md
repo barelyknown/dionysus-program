@@ -375,6 +375,17 @@ Accountability, split: Call the ordinary operating mode Run Time. In Run Time, w
 
 The engine is Popperian error-correction; the stabilizers are ritual—the liturgical layer of repeatable containers around error—(Victor Turner), aesthetics (Nietzsche), and tragedy (Hegel). At every scale—person, team, organization, city—the loop repeats, fractally self-similar. We hold a non-violent center with an anti-scapegoat, use beauty as heat so dissolution becomes bearable, and practice tragic metabolism so the self can turn breakdown into understanding. The output is a culture that can learn without end and remain human.
 
+```{=latex}
+\iffalse
+```
+
+---
+
+```{=latex}
+\fi
+\newpage
+```
+
 ## The One-Man Job
 
 As knowledge compounds, work atomizes.
@@ -482,6 +493,17 @@ Play. Commitment to quality. People who bring others together. These are the new
 Either we become organizations that invest in them, or we become collections of isolated individuals who cannot learn from each other.
 
 And we will be outlearned by those who can.
+
+```{=latex}
+\iffalse
+```
+
+---
+
+```{=latex}
+\fi
+\newpage
+```
 
 ## Act I — Entropy of Dissolution
 
