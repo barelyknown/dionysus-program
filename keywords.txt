@@ -1,6 +1,8 @@
 Abe Silverstein
 Adam Neumann
 Alfred Sloan
+AI independence
+Alexis de Tocqueville
 Amazon
 Apollo
 Apollo Program
@@ -33,6 +35,7 @@ Dionysian Ideal
 Dionysian chaos
 Dionysus
 Dionysus Program
+Distributed work
 Durkheim Constraint
 Eat Your Decay
 Ed Catmull
@@ -49,6 +52,7 @@ Game Tape Review
 General Electric
 General Motors
 Georg Wilhelm Friedrich Hegel
+Georg Simmel
 Gil Amelio
 Goldman Sachs
 Google
@@ -63,6 +67,7 @@ Hewlett-Packard
 High Performer
 Hormesis Quotas
 Howard Schultz
+Homo Ludens
 Ibn Khaldun
 Ilya Prigogine
 Immanuel Kant
@@ -70,10 +75,12 @@ Iron Law of Oligarchy
 J. Robert Oppenheimer
 James Carse
 James McNerney
+Jane Jacobs
 Jeff Immelt
 Jerry Yang
 Jester's Privilege
 Jim Balsillie
+Johan Huizinga
 Karl Popper
 Kelly Johnson
 Kevin Feige
@@ -97,6 +104,7 @@ Microsoft
 Mike Lazaridis
 Mikhail Gorbachev
 Minimum Viable Program
+Mission Theater
 Moderate Growth
 NASA
 Name the Mode
@@ -149,6 +157,7 @@ The Form
 The Gambler
 The Melt
 The Method
+The One-Man Job
 The Outpaced
 The Overwhelmed
 The Readiness Gate
@@ -166,6 +175,7 @@ Yoshinori Ohsumi
 anomie
 anti-scapegoat
 antifragility
+art of association
 asabiyyah
 autophagic growth
 autophagy
@@ -173,6 +183,7 @@ beautiful heat
 chronos
 collective effervescence
 constructive criticism
+craftsmanship
 critique → dissolution → reconstitution
 dictator
 dissipative structures
@@ -200,6 +211,7 @@ liminal phase
 liminal space
 liminality
 management theater
+magic circle
 mathematical model
 mechanistic thinking
 mimetic desire
@@ -207,12 +219,17 @@ mimetic mechanics
 moral hazard
 negative selection
 negentropy
+non-instrumental togetherness
 ossification
 otherness
+one-man job
+organic solidarity
 poverty of forms
 priesthood
 pro-fractal
 receivedness
+relationship surface area
+ren-generation
 reconstitution
 renewal
 retraining order
@@ -227,6 +244,8 @@ scapegoat mechanism
 scapegoating
 self-cannibalization
 self-erasure
+sidewalk ballet
+sociability
 social facts
 social heat
 social otherness

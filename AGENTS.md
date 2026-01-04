@@ -14,6 +14,7 @@
 
 ## Coding Style & Naming Conventions
 - Keep edits in `essay.md`; avoid manual tweaks to generated `index.html` or `dist/*`.
+- Never directly edit files in `dist/`; regenerate them via `./build.sh`.
 - CSS sticks to semantic class names (`.page-header`, `.page-download`) and prefers serif typography; maintain indentation at two spaces.
 - Lua filters follow concise naming (`remove-title.lua`, `pdf.lua`); continue dispatching logic by Pandoc element type.
 
