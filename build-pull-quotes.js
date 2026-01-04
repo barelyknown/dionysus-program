@@ -151,6 +151,7 @@ const html = `<!DOCTYPE html>
       flex-direction: column;
       align-items: center;
       gap: 0.85rem;
+      width: min(var(--card-width), 100%);
     }
 
     .quote-image-link {
@@ -182,8 +183,9 @@ const html = `<!DOCTYPE html>
     }
 
     .quote-card {
-      width: var(--card-width);
-      height: var(--card-height);
+      width: min(var(--card-width), 100%);
+      height: auto;
+      aspect-ratio: 1200 / 630;
       padding: 4.5rem 5.25rem;
       display: flex;
       flex-direction: column;
@@ -242,6 +244,8 @@ const html = `<!DOCTYPE html>
 
     .quote-attribution {
       margin-top: auto;
+      margin-bottom: 0.9rem;
+      padding-top: 1.4rem;
       font-size: 1.35rem;
       letter-spacing: 0.16em;
       text-transform: uppercase;
@@ -253,14 +257,73 @@ const html = `<!DOCTYPE html>
       color: var(--letter-accent);
     }
 
-    @media (max-width: 1300px) {
+    @media (max-width: 1200px) {
       body {
         padding: 2.5rem 1.5rem 4rem;
       }
 
       .quote-card {
-        transform: scale(0.85);
-        transform-origin: top center;
+        padding: 3.75rem 3.5rem;
+      }
+
+      .quote-text {
+        font-size: 2.3rem;
+      }
+    }
+
+    @media (max-width: 900px) {
+      .quote-brand {
+        font-size: 0.95rem;
+        letter-spacing: 0.3em;
+        margin: 1.1rem 0 1.6rem;
+      }
+
+      .quote-text {
+        font-size: 2.05rem;
+        margin-top: 1.8rem;
+      }
+
+      .quote-attribution {
+        font-size: 1.15rem;
+        margin-bottom: 0.8rem;
+        padding-top: 1.1rem;
+      }
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 2rem 1.1rem 3rem;
+      }
+
+      .page-header h1 {
+        font-size: 2.1rem;
+      }
+
+      .quote-card {
+        padding: 3rem 2.5rem;
+        border-radius: 14px;
+      }
+
+      .quote-card::after {
+        inset: 12px;
+      }
+
+      .quote-brand {
+        font-size: 0.85rem;
+        letter-spacing: 0.24em;
+      }
+
+      .quote-text {
+        font-size: 1.75rem;
+        line-height: 1.35;
+        margin-top: 1.4rem;
+      }
+
+      .quote-attribution {
+        font-size: 1rem;
+        letter-spacing: 0.12em;
+        margin-bottom: 0.7rem;
+        padding-top: 0.9rem;
       }
     }
   </style>
