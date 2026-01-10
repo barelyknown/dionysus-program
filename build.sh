@@ -27,6 +27,11 @@ PULL_QUOTES_JSON="$ROOT_DIR/pull-quotes.json"
 PULL_QUOTES_HTML="$ROOT_DIR/pull-quotes.html"
 PULL_QUOTES_RENDER_SCRIPT="$ROOT_DIR/render-pull-quotes-images.js"
 PULL_QUOTES_IMAGES_DIR="$DIST_DIR/pull-quotes"
+PRAISE_SCRIPT="$ROOT_DIR/build-praise.js"
+PRAISE_JSON="$ROOT_DIR/praise.json"
+PRAISE_MD="$DIST_DIR/praise.md"
+PRAISE_HTML="$ROOT_DIR/praise.html"
+PRAISE_META="$DIST_DIR/praise-rotator.yaml"
 
 if ! command -v pandoc >/dev/null 2>&1; then
   echo "pandoc is required but not installed" >&2
@@ -34,6 +39,9 @@ if ! command -v pandoc >/dev/null 2>&1; then
 fi
 
 mkdir -p "$DIST_DIR"
+
+node "$PRAISE_SCRIPT" "$PRAISE_JSON" "$PRAISE_MD" "$PRAISE_META"
+echo "Wrote praise markdown to $PRAISE_MD"
 
 node "$LETTERS_SCRIPT" "$DIST_DIR"
 node "$INDEX_SCRIPT" "$DIST_DIR" "$ESSAY_MD" "$KEYWORDS_TXT" "$LETTERS_APPENDIX" "$SOURCES_MD"
@@ -52,6 +60,7 @@ pandoc "$ESSAY_MD" "$LETTERS_APPENDIX" "$SOURCES_MD" \
   --toc \
   --toc-depth=3 \
   --metadata=toc-title:"Contents" \
+  --metadata-file="$PRAISE_META" \
   --to=html5 \
   --template="$TEMPLATE" \
   --standalone \
@@ -61,6 +70,17 @@ pandoc "$ESSAY_MD" "$LETTERS_APPENDIX" "$SOURCES_MD" \
   --output="$HTML_OUT"
 
 echo "Wrote HTML to $HTML_OUT"
+
+pandoc "$PRAISE_MD" \
+  --from=markdown \
+  --to=html5 \
+  --template="$TEMPLATE" \
+  --standalone \
+  --lua-filter="$ROOT_DIR/filters/add-classes.lua" \
+  --lua-filter="$ROOT_DIR/filters/remove-simulation-links.lua" \
+  --output="$PRAISE_HTML"
+
+echo "Wrote praise HTML to $PRAISE_HTML"
 
 node "$ROOT_DIR/reorder-about-program.js" "$HTML_OUT"
 

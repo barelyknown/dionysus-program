@@ -22,6 +22,7 @@
   <link rel="apple-touch-icon" sizes="180x180" href="dist/dionysus-program-favicon-180.png">
   <link rel="preload" as="image" href="dist/dionysus-program-cover.jpg">
   <link rel="stylesheet" href="styles.css">
+  $if(praise)$<script defer src="praise-rotator.js"></script>$endif$
   <script id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
 </head>
 <body>
@@ -33,7 +34,7 @@
       $if(author)$<p class="page-author sr-only">$for(author)$$author$$sep$, $endfor$</p>$endif$
       <p class="page-download">
         <span class="page-download-row">
-          <a href="#toc">HTML</a>
+          <a href="index.html#toc">HTML</a>
           <span aria-hidden="true">·</span>
           <a href="dist/dionysus-program.pdf">PDF</a>
           <span aria-hidden="true">·</span>
@@ -41,6 +42,8 @@
         </span>
         <span class="page-download-row">
           <a href="simulation.html">Simulation</a>
+          <span aria-hidden="true">·</span>
+          <a href="praise.html#praise">Praise</a>
           <span aria-hidden="true">·</span>
           <a href="pull-quotes.html">Quotes</a>
         </span>
@@ -56,6 +59,25 @@
         </span>
       </p>
     </header>
+    $if(praise)$
+    <section class="praise-rotator" id="praise" aria-label="Praise">
+      <div class="praise-rotator-inner">
+        <p class="praise-rotator-title">Praise</p>
+        <div class="praise-rotator-items" data-rotator data-interval="9000" aria-live="polite">
+          $for(praise)$
+          <figure class="praise-rotator-item">
+            <blockquote class="praise-rotator-quote">$praise.quote_html$</blockquote>
+            <figcaption class="praise-rotator-attribution">
+              <span class="praise-rotator-author">$praise.author_html$</span>
+              $if(praise.role_html)$<span class="praise-rotator-role">$praise.role_html$</span>$endif$
+            </figcaption>
+          </figure>
+          $endfor$
+        </div>
+        <a class="praise-rotator-link" href="praise.html">Read more praise</a>
+      </div>
+    </section>
+    $endif$
     $if(toc)$
     <nav class="page-toc" id="toc" aria-label="Table of contents">
       <p class="toc-heading">$if(toc-title)$$toc-title$$else$Contents$endif$</p>
@@ -65,6 +87,7 @@
     <article class="essay-content">
 $body$
     </article>
+    $if(hide-copyright)$$else$
     <section class="page-copyright" aria-label="Copyright and disclaimer">
       <h2>Copyright &amp; Disclaimer</h2>
       <p><strong>The Dionysus Program</strong><br><strong>Rites of Renewal</strong></p>
@@ -79,6 +102,7 @@ $body$
       <p><strong>Library of Congress Control Number:</strong> [Pending Assignment]<br><strong>ISBN:</strong> [Pending Assignment]</p>
       <p>Published by Sean Devine<br>www.dionysusprogram.com</p>
     </section>
+    $endif$
     $if(rights)$
     <footer class="page-footer">
       <p class="page-rights">$rights$</p>

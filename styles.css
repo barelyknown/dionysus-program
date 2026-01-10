@@ -199,6 +199,147 @@ main {
   border-left: 1px solid rgba(65, 64, 59, 0.18);
 }
 
+.praise-rotator {
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 1.7rem 2.1rem;
+  background: linear-gradient(160deg, #fbf9f4 0%, #f2ede3 100%);
+  margin: 2.6rem auto 3.1rem;
+  position: relative;
+}
+
+.praise-rotator-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.praise-rotator-title {
+  font-size: 0.68rem;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: rgba(65, 64, 59, 0.55);
+}
+
+.praise-rotator-items {
+  position: relative;
+}
+
+.praise-rotator-item {
+  display: none;
+  margin: 0;
+  opacity: 0;
+  transform: translateY(6px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.praise-rotator-items .praise-rotator-item:first-child {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.praise-rotator-items[data-rotator-ready="true"] .praise-rotator-item {
+  display: none;
+}
+
+.praise-rotator-items[data-rotator-ready="true"] .praise-rotator-item.is-active {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.praise-rotator-quote {
+  margin: 0;
+  font-size: 1.15rem;
+  line-height: 1.7;
+  color: #2a2723;
+}
+
+.praise-rotator-attribution {
+  margin-top: 0.85rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  font-size: 0.82rem;
+  color: var(--muted-color);
+}
+
+.praise-rotator-author {
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  font-size: 0.72rem;
+  color: var(--accent-color);
+}
+
+.praise-rotator-author::before {
+  content: "\2014 ";
+}
+
+.praise-rotator-role {
+  font-style: italic;
+}
+
+.praise-rotator-link {
+  align-self: flex-start;
+  font-size: 0.78rem;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: rgba(65, 64, 59, 0.8);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(65, 64, 59, 0.3);
+  padding-bottom: 0.1rem;
+}
+
+.praise-rotator-link:hover {
+  color: rgba(40, 38, 34, 0.95);
+  border-bottom-color: rgba(40, 38, 34, 0.7);
+}
+
+.praise-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2.6rem;
+  margin-top: 2.2rem;
+}
+
+.praise-item {
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 2rem 2.2rem;
+  background: #fbf9f4;
+  box-shadow: 0 12px 28px rgba(47, 38, 27, 0.06);
+}
+
+.praise-item blockquote {
+  margin: 0;
+  padding: 0;
+  border: none;
+  color: #2a2723;
+  font-style: normal;
+}
+
+.praise-item blockquote p + p {
+  margin-top: 1rem;
+}
+
+.praise-attribution {
+  margin-top: 1.35rem;
+  color: var(--muted-color);
+  font-size: 0.9rem;
+}
+
+.praise-attribution strong {
+  display: block;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  color: var(--accent-color);
+  margin-bottom: 0.4rem;
+}
+
 /* divider removed beneath header to keep dedication spacing tight */
 
 .essay-content > * + * {
@@ -419,6 +560,18 @@ a:hover {
     border: none;
     box-shadow: none;
     padding: 2.2rem 1.15rem 3rem;
+  }
+
+  .praise-rotator {
+    padding: 1.4rem 1.5rem;
+  }
+
+  .praise-rotator-quote {
+    font-size: 1.05rem;
+  }
+
+  .praise-item {
+    padding: 1.5rem 1.6rem;
   }
 
   .page-header h1 {
