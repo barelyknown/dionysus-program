@@ -10,6 +10,16 @@
   let activeIndex = 0;
   let timer = null;
 
+  const shuffleItems = () => {
+    for (let i = items.length - 1; i > 0; i -= 1) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [items[i], items[j]] = [items[j], items[i]];
+    }
+    const fragment = document.createDocumentFragment();
+    items.forEach((item) => fragment.appendChild(item));
+    rotator.appendChild(fragment);
+  };
+
   const setActive = (index) => {
     items.forEach((item, itemIndex) => {
       item.classList.toggle('is-active', itemIndex === index);
@@ -17,10 +27,12 @@
   };
 
   const updateMinHeight = () => {
-    const heights = items.map((item) => item.offsetHeight);
+    rotator.dataset.measuring = 'true';
+    const heights = items.map((item) => item.getBoundingClientRect().height);
+    delete rotator.dataset.measuring;
     const maxHeight = Math.max(...heights);
     if (Number.isFinite(maxHeight) && maxHeight > 0) {
-      rotator.style.minHeight = `${maxHeight}px`;
+      rotator.style.minHeight = `${Math.ceil(maxHeight)}px`;
     }
   };
 
@@ -49,11 +61,13 @@
   };
 
   rotator.dataset.rotatorReady = 'true';
+  shuffleItems();
   setActive(activeIndex);
   updateMinHeight();
   start();
 
   window.addEventListener('resize', updateMinHeight);
+  window.addEventListener('load', updateMinHeight);
   document.addEventListener('visibilitychange', handleVisibility);
 
   if (typeof prefersReducedMotion.addEventListener === 'function') {

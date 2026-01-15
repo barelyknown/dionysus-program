@@ -231,6 +231,7 @@ main {
   opacity: 0;
   transform: translateY(6px);
   transition: opacity 0.6s ease, transform 0.6s ease;
+  width: 100%;
 }
 
 .praise-rotator-items .praise-rotator-item:first-child {
@@ -247,6 +248,17 @@ main {
   display: block;
   opacity: 1;
   transform: translateY(0);
+}
+
+.praise-rotator-items[data-measuring="true"] .praise-rotator-item {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  visibility: hidden;
+  pointer-events: none;
+  opacity: 0;
+  transform: none;
 }
 
 .praise-rotator-quote {
