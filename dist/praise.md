@@ -13,7 +13,7 @@ hide-copyright: true
 
 ::: praise-attribution
 **Luca Dellanna**
-Author of Winning Long-Term Games, Ergodicity, and more.
+Author of Winning Long-Term Games, Ergodicity, and more
 :::
 :::
 
@@ -49,7 +49,7 @@ Brother-in-law
 
 ::: praise-attribution
 **Kristin Spiotto**
-Co-Founder & Chief Executive Officer of Decoded Strategies.
+Co-Founder & Chief Executive Officer of Decoded Strategies
 :::
 :::
 
