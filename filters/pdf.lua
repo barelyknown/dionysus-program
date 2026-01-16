@@ -2,56 +2,68 @@ local function stringify(el)
   return pandoc.utils.stringify(el)
 end
 
-local function is_act_header(el)
-  if el.t == "Header" and el.level == 2 then
-    local text = stringify(el.content)
-    return text:match("^Act ") ~= nil
+local function split_section_title(text)
+  local lead, subtitle = text:match("^(.-)%s+—%s+(.+)$")
+  if not lead then
+    lead, subtitle = text:match("^(.-)%s+%-%s+(.+)$")
   end
-  return false
+  if not lead then
+    lead = text
+  end
+  return lead, subtitle
 end
 
-local function split_act_title(text)
-  local act, subtitle = text:match("^(Act%s+[^%s]+)%s+—%s+(.+)$")
-  if not act then
-    act, subtitle = text:match("^(Act%s+[^%s]+)%s+%-%s+(.+)$")
-  end
-  if not act then
-    act = text
-  end
-  return act, subtitle
-end
-
-local function act_title_page(text)
-  local act, subtitle = split_act_title(text)
-  local subtitle_line = ""
+local function section_title_page(text)
+  local lead, subtitle = split_section_title(text)
+  local lines = ""
   if subtitle and subtitle ~= "" then
-    subtitle_line = string.format("{\\Huge\\bfseries %s \\par}\n", subtitle)
+    lines = string.format("{\\Large\\scshape %s \\par}\n\\vspace{1.2cm}\n{\\Huge\\bfseries %s \\par}\n", lead, subtitle)
   else
-    subtitle_line = string.format("{\\Huge\\bfseries %s \\par}\n", act)
-  end
-  local act_line = act
-  if subtitle and subtitle ~= "" then
-    act_line = act
+    lines = string.format("{\\Huge\\bfseries %s \\par}\n", lead)
   end
   return string.format([[
 \clearpage
 \thispagestyle{empty}
 \vspace*{\stretch{1}}
 \begin{center}
-{\Large\scshape %s \par}
-\vspace{1.2cm}
 %s\end{center}
 \vspace*{\stretch{2}}
 \clearpage
-]], act_line, subtitle_line)
+]], lines)
 end
 
-local function is_appendix_header(el)
-  if el.t == "Header" and el.level == 2 then
-    local text = stringify(el.content)
-    return text:match("^Appendix") ~= nil
+local function header_identifier(el)
+  if el.identifier and el.identifier ~= "" then
+    return el.identifier
   end
-  return false
+  if el.attr then
+    if el.attr.identifier then
+      return el.attr.identifier
+    end
+    if el.attr[1] and el.attr[1] ~= "" then
+      return el.attr[1]
+    end
+  end
+  return nil
+end
+
+local function is_about_program_header(el)
+  if el.t ~= "Header" or el.level ~= 2 then
+    return false
+  end
+  return header_identifier(el) == "about-the-program"
+end
+
+local function should_skip_section_page(el)
+  if el.t ~= "Header" or el.level ~= 2 then
+    return false
+  end
+  local id = header_identifier(el) or ""
+  if id == "about-the-program" or id == "about-the-author" or id == "preface" then
+    return true
+  end
+  local text = stringify(el.content)
+  return text == "About the Program" or text == "About the Author" or text == "Preface"
 end
 
 local function has_class(el, class)
@@ -84,11 +96,24 @@ function Pandoc(doc)
       end
     end
 
-    if is_act_header(el) then
-      local act_text = stringify(el.content)
-      table.insert(blocks, pandoc.RawBlock('latex', act_title_page(act_text)))
-    elseif is_appendix_header(el) and #blocks > 0 then
-      table.insert(blocks, pandoc.RawBlock('latex', '\\clearpage'))
+    if el.t == "Header" and el.level == 2 and not should_skip_section_page(el) then
+      local title = stringify(el.content)
+      table.insert(blocks, pandoc.RawBlock('latex', section_title_page(title)))
+    end
+
+    if is_about_program_header(el) then
+      local title = stringify(el.content)
+      local id = header_identifier(el) or "about-the-program"
+      local latex = string.format([[
+\hypertarget{%s}{}
+\phantomsection
+\label{%s}
+\addcontentsline{toc}{subsection}{%s}
+{\Large\bfseries %s \par}
+\vspace{6.3pt}
+]], id, id, title, title)
+      table.insert(blocks, pandoc.RawBlock("latex", latex))
+      goto continue
     end
 
     if el.t == 'Div' and has_class(el, 'dedication') then

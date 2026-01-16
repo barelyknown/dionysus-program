@@ -5,6 +5,7 @@ ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 HTML_OUT="$ROOT_DIR/index.html"
 DIST_DIR="$ROOT_DIR/dist"
 PDF_OUT="$DIST_DIR/dionysus-program.pdf"
+PRINT_PDF_OUT="$DIST_DIR/dionysus-program-print.pdf"
 EPUB_OUT="$DIST_DIR/dionysus-program.epub"
 TEMPLATE="$ROOT_DIR/templates/page.html"
 EPUB_CSS="$ROOT_DIR/templates/epub.css"
@@ -32,6 +33,7 @@ PRAISE_JSON="$ROOT_DIR/praise.json"
 PRAISE_MD="$DIST_DIR/praise.md"
 PRAISE_HTML="$ROOT_DIR/praise.html"
 PRAISE_META="$DIST_DIR/praise-rotator.yaml"
+PRINT_FILTER="$ROOT_DIR/filters/print.lua"
 
 if ! command -v pandoc >/dev/null 2>&1; then
   echo "pandoc is required but not installed" >&2
@@ -154,6 +156,24 @@ if [[ -n "$PDF_ENGINE" ]]; then
     --template="$ROOT_DIR/templates/pdf.tex" \
     --output="$PDF_OUT"
   echo "Wrote PDF to $PDF_OUT (via $PDF_ENGINE)"
+
+  pandoc "$ESSAY_MD" "$LETTERS_APPENDIX" "$SOURCES_MD" \
+    "$INDEX_APPENDIX" \
+    --from=markdown \
+    --toc \
+    --toc-depth=3 \
+    --metadata=toc-title:"Contents" \
+    --metadata=print:true \
+    --pdf-engine="$PDF_ENGINE" \
+    --standalone \
+    --lua-filter="$ROOT_DIR/filters/add-classes.lua" \
+    --lua-filter="$ROOT_DIR/filters/remove-simulation-links.lua" \
+    --lua-filter="$ROOT_DIR/filters/remove-title.lua" \
+    --lua-filter="$ROOT_DIR/filters/pdf.lua" \
+    --lua-filter="$PRINT_FILTER" \
+    --template="$ROOT_DIR/templates/pdf.tex" \
+    --output="$PRINT_PDF_OUT"
+  echo "Wrote print PDF to $PRINT_PDF_OUT (via $PDF_ENGINE)"
 else
   echo "Skipping PDF build (install xelatex to enable)"
 fi

@@ -16,13 +16,22 @@
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{hyperref}
+$if(print)$
+\hypersetup{hidelinks}
+\urlstyle{same}
+$else$
 \hypersetup{
   colorlinks=true,
   linkcolor=black,
   urlcolor=black
 }
+$endif$
 \setlength{\parskip}{0.9em}
 \setlength{\parindent}{0pt}
+\makeatletter
+\renewcommand\subsection{\@startsection{subsection}{2}{\z@}{-2.2ex \@plus -0.6ex \@minus -.2ex}{0.6ex \@plus .2ex}{\normalfont\Large\bfseries}}
+\renewcommand\subsubsection{\@startsection{subsubsection}{3}{\z@}{-2.2ex \@plus -0.6ex \@minus -.2ex}{0.6ex \@plus .2ex}{\normalfont\normalsize\bfseries}}
+\makeatother
 
 $if(numbersections)$
   $else$
