@@ -13,6 +13,7 @@
   --muted-color: #64605b;
   --background: #f6f4f0;
   --page-background: #ffffff;
+  --focus-color: #7c824b;
 }
 
 body {
@@ -98,17 +99,31 @@ main {
 }
 
 .page-download {
-  margin-top: 1.75rem;
-  font-size: 0.95rem;
+  margin-top: 1.9rem;
+  font-size: 0.92rem;
   display: inline-flex;
   flex-direction: column;
   align-items: center;
-  gap: 0.55rem;
+  gap: 1rem;
   color: var(--muted-color);
+  padding: 1.1rem 1.4rem;
+  border-radius: 14px;
+  border: 1px solid var(--border-color);
+  background: linear-gradient(180deg, #fbf9f4 0%, #f5f1e8 100%);
+  box-shadow: 0 12px 28px rgba(47, 38, 27, 0.08);
+  width: min(420px, 100%);
+}
+
+.page-download-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.45rem;
+  width: 100%;
 }
 
 .page-download-label {
-  margin-top: 0.35rem;
+  margin-top: 0;
   letter-spacing: 0.22em;
   text-transform: uppercase;
   font-size: 0.72rem;
@@ -118,7 +133,7 @@ main {
 .page-download-row {
   display: inline-flex;
   align-items: center;
-  gap: 0.7rem;
+  gap: 0.5rem 0.6rem;
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -128,16 +143,29 @@ main {
 }
 
 .page-download a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   color: var(--accent-color);
   text-decoration: none;
-  border-bottom: 1px solid rgba(65, 64, 59, 0.25);
-  padding-bottom: 0.1rem;
-  letter-spacing: 0.05em;
+  border: 1px solid rgba(65, 64, 59, 0.22);
+  border-radius: 999px;
+  padding: 0.35rem 0.85rem;
+  letter-spacing: 0.04em;
+  background: rgba(255, 255, 255, 0.75);
+  box-shadow: 0 4px 10px rgba(47, 38, 27, 0.06);
+  transition: border-color 0.2s ease, color 0.2s ease, background-color 0.2s ease, transform 0.2s ease;
 }
 
 .page-download a:hover {
-  border-bottom-color: var(--accent-color);
+  border-color: var(--accent-color);
   color: #181714;
+  background: #ffffff;
+  transform: translateY(-1px);
+}
+
+.page-download-row span[aria-hidden="true"] {
+  display: none;
 }
 
 .page-toc {
@@ -531,6 +559,25 @@ a:hover {
   border-bottom-color: #171612;
 }
 
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid var(--focus-color);
+  outline-offset: 3px;
+}
+
+.page-download a:focus-visible,
+.sim-link:focus-visible,
+.praise-rotator-link:focus-visible {
+  outline-offset: 4px;
+}
+
+button:focus-visible {
+  border-radius: 999px;
+}
+
 .sim-link {
   display: inline-block;
   margin-top: 1.5rem;
@@ -584,6 +631,11 @@ a:hover {
 
   .praise-item {
     padding: 1.5rem 1.6rem;
+  }
+
+  .page-download {
+    width: 100%;
+    padding: 0.95rem 1rem;
   }
 
   .page-header h1 {
