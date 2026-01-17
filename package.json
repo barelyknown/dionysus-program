@@ -1,0 +1,14 @@
+{
+  "name": "dionysus-program",
+  "private": true,
+  "scripts": {
+    "check": "bash ./agent/check.sh",
+    "test:e2e": "playwright test",
+    "test:e2e:update": "playwright test --update-snapshots",
+    "test:e2e:headed": "playwright test --headed"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@axe-core/playwright": "^4.9.0"
+  }
+}

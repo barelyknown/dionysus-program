@@ -1,0 +1,14 @@
+{
+  "captures": [
+    {
+      "name": "home-header",
+      "url": "/",
+      "selector": ".page-header"
+    },
+    {
+      "name": "home-toc",
+      "url": "/",
+      "selector": "#toc"
+    }
+  ]
+}

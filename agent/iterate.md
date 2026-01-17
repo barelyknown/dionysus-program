@@ -1,0 +1,4 @@
+- Inspect the current UI for the biggest UX or design weakness.
+- Make a single, cohesive improvement that affects either design or functionality (not both).
+- Keep edits focused; avoid mass refactors.
+- After changes, write a short summary and rationale to the notes file.
