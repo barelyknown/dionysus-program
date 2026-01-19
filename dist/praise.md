@@ -53,5 +53,21 @@ Co-Founder & Chief Executive Officer of Decoded Strategies
 :::
 :::
 
+::: praise-item
+> Just back from the XBE customer success retreat in Goa, and I spent this weekend reading The Dionysus Program. Eight months into my first job out of college, this book gave me language for something I witnessed but couldn't name.
+> 
+> There's this moment at sunset on a Goa beach where the light shifts and the entire shoreline reveals shapes you walked past all day without seeing. Reading about epimetabolic rate felt like that sudden clarity. Most organizations collect insights like shells on a beach. They stack them up, admire them, never actually burn them for fuel. The difference between teams that adapt and teams that stagnate comes down to how fast you can take what broke yesterday and let it reshape how you work today.
+> 
+> The beauty concept landed differently after Goa. Sean argues aesthetics create the conditions for examining difficult truths. The ocean and the unhurried meals gave us space for conversations that would have died in a conference room under fluorescent lights. Beauty doesn't make hard thinking pleasant. It makes hard thinking possible.
+> 
+> What keeps coming back is putting systems on trial instead of people. Imagine pointing all your critical energy at the process itself. The playbook becomes the defendant. The metric goes on the stand. Everyone gets to help prosecute what's broken instead of protecting themselves from blame. That completely transforms conflict from something you survive into something generative.
+> 
+> I'm early enough in my career that I'm watching how organizations actually learn versus how they say they learn. The gap is enormous. This book explained the mechanics of that gap and gave me real tools to close it.
+
+::: praise-attribution
+**Asish Singh**
+:::
+:::
+
 :::
 
