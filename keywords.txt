@@ -81,6 +81,7 @@ Jerry Yang
 Jester's Privilege
 Jim Balsillie
 Johan Huizinga
+Job
 Karl Popper
 Kelly Johnson
 Kevin Feige
@@ -93,9 +94,11 @@ Li (ritual form)
 Lindy-first design
 Los Alamos
 Lucius Quinctius Cincinnatus
+Machiavelli
 M&A
 Marcel Mauss
 Marissa Mayer
+Mary Douglas
 Marvel
 Marvel Studios
 Mauss Dynamic
@@ -115,6 +118,7 @@ Pan Am
 Peter Thiel
 Pixar
 Pyrrhic Leader
+Purity and Danger
 Readiness Rule
 Reid Hoffman
 Ren (humaneness)
@@ -155,11 +159,13 @@ The Crossing
 The Current
 The Form
 The Gambler
+The Impatience of Jobs
 The Melt
 The Method
 The One-Man Job
 The Outpaced
 The Overwhelmed
+The Patience of Job
 The Readiness Gate
 Thomas Schelling
 Tragic Postmortems
@@ -172,6 +178,7 @@ Weekly Crossing
 XBE
 Yahoo
 Yoshinori Ohsumi
+agoge
 anomie
 anti-scapegoat
 antifragility

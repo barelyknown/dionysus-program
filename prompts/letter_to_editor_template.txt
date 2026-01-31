@@ -6,6 +6,8 @@ The letter should not attempt to respond to the entire program, but just to the 
 
 The letter should be concise and memorable - the sort that would be printed as a letter to the editor if the editor valued the sort of criticism invited by The Dionysus Program.
 
+Do not open with throat-clearing like "I read your manual with the ...". Get to it.
+
 The letter should be signed "Not {person}".
 
 The letter should be provided in plain text with no formatting (no bold, no italics, no headers) - just plain text.
