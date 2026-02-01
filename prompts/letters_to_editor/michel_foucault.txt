@@ -1,14 +1,14 @@
-Write a letter to the editor of the Dionysus Program from Mike Lazaridis.
+Write a letter to the editor of the Dionysus Program from Michel Foucault.
 
 The letter should be in their recognizable style, and from their unique perspective.
 
-The letter should not attempt to respond to the entire program, but just to the aspects that animate Mike Lazaridis most, and where they feel most compelled to offer their unique perspective and voice.
+The letter should not attempt to respond to the entire program, but just to the aspects that animate Michel Foucault most, and where they feel most compelled to offer their unique perspective and voice.
 
 The letter should be concise and memorable - the sort that would be printed as a letter to the editor if the editor valued the sort of criticism invited by The Dionysus Program.
 
 Do not open with throat-clearing like "I read your manual with the ...". Get to it.
 
-The letter should be signed "Not Mike Lazaridis".
+The letter should be signed "Not Michel Foucault".
 
 The letter should be provided in plain text with no formatting (no bold, no italics, no headers) - just plain text.
 

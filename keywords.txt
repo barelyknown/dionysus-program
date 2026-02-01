@@ -4,12 +4,14 @@ Alfred Sloan
 AI independence
 Alexis de Tocqueville
 Amazon
+Anagnorisis
 Apollo
 Apollo Program
 Apollonian order
 Apple
 Apple Computer
 Aristotle
+Atimia
 Athenian sortition
 Babson College
 Banneker Partners
@@ -20,6 +22,7 @@ Boeing
 Carl Icahn
 Carly Fiorina
 Chosen Melt
+Chillul Hashem
 Churn Machine
 Cincinnatus
 Cincinnatus Design
@@ -28,6 +31,7 @@ Claude Shannon
 Con-way
 Con-way Freight
 Confucius
+Crimes Against Ren
 David Deutsch
 Death Spiral
 Deprecation Ceremonies
@@ -43,6 +47,7 @@ Eddie Lampert
 Elon Musk
 Environmental Melt
 Epimetabolic Equation
+Exile
 FIFA
 Fragile Survivor
 Friedrich Nietzsche
@@ -61,6 +66,7 @@ Great Recession
 Greg Smith
 HP
 Hard Limits on Liminality
+Hamartia
 Hegel
 Heraclitus
 Hewlett-Packard
@@ -68,6 +74,7 @@ High Performer
 Hormesis Quotas
 Howard Schultz
 Homo Ludens
+Hudud
 Ibn Khaldun
 Ilya Prigogine
 Immanuel Kant
@@ -86,6 +93,7 @@ Karl Popper
 Kelly Johnson
 Kevin Feige
 Kodak
+Lashon Hara
 Law of Conservation of Risk
 Lean Six Sigma
 Leon Trotsky
@@ -119,6 +127,8 @@ Peter Thiel
 Pixar
 Pyrrhic Leader
 Purity and Danger
+Qisas
+Rambam
 Readiness Rule
 Reid Hoffman
 Ren (humaneness)
@@ -141,6 +151,7 @@ Skunk Works
 Slow Decline
 Small Fractal Calendar
 Sortition Selectors
+Sortition Tribunal
 Soviet Communist Party
 Soviet Union
 SpaceX
@@ -149,6 +160,8 @@ Steve Jobs
 Steve Sasson
 Sunset Budgets
 Susan Fowler
+Ta'zir
+Talmud
 Tesla
 The Alliance
 The Audit
@@ -159,6 +172,7 @@ The Crossing
 The Current
 The Form
 The Gambler
+The Living Law
 The Impatience of Jobs
 The Melt
 The Method
@@ -178,6 +192,7 @@ Weekly Crossing
 XBE
 Yahoo
 Yoshinori Ohsumi
+Yom Kippur
 agoge
 anomie
 anti-scapegoat
@@ -187,6 +202,7 @@ asabiyyah
 autophagic growth
 autophagy
 beautiful heat
+cherem
 chronos
 collective effervescence
 constructive criticism
@@ -209,6 +225,7 @@ finite game
 form otherness
 fractal calendar
 hormesis
+hubris
 hospitality as binding force
 infinite game
 kairos
@@ -226,6 +243,7 @@ mimetic mechanics
 moral hazard
 negative selection
 negentropy
+niðingr
 non-instrumental togetherness
 ossification
 otherness
