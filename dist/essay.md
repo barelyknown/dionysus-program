@@ -91,6 +91,37 @@ He’s [@barelyknown](https://x.com/barelyknown) on X.
 \newpage
 ```
 
+## Nullius in Verba
+
+The transition from alchemy to chemistry was not a leap in human intelligence; it was a change in protocol. Alchemists hoarded knowledge, encoding their findings in metaphor to prevent theft. As a result, their discoveries often died with them. Chemistry became a science only when the Royal Society enforced a new standard: *Nullius in verba* ("take nobody's word for it"). They demanded that methods be published, replicated, and critiqued in public. Knowledge was transformed from a private hoard into a public object.
+
+*The Dionysus Program* is released under a **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License** in the same spirit.
+
+This is not a gift to the reader; it is a gift to the program itself.
+
+By exposing the source code of these ideas to as many minds as possible, the program benefits from the very dynamics it describes. It improves through stress, critique, and the metabolism of error. To that end:
+
+* **Quote and share freely.** The text is designed to travel.
+* **Criticize in public.** If you disagree, do so in the open. The program requires friction to remain honest.
+* **Patch the code.** If you find errors—in logic, phrasing, or explanation—please submit a pull request on GitHub.
+
+### A Note on the Print Edition
+
+For those who prefer a physical object, a print edition is available. It is intended for those who wish to give the program as a gift, or who desire a totem to anchor these principles in physical space.
+
+The price of the print edition has nothing to do with the cost of printing. It is a symbol of the program itself, and a signal of how much the reader values it. The digital version remains free for those who need the software; the physical version exists for those who want to feel its weight.
+
+```{=latex}
+\iffalse
+```
+
+---
+
+```{=latex}
+\fi
+\newpage
+```
+
 ## Preface
 
 My early success did not scale. It relied too much on personal intensity—on being smart, working hard, and tolerating pain. Those are anti-social strategies in the long run. They ask too much of other humans. They burn trust. They create brittle organizations.
