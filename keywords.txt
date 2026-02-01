@@ -127,8 +127,6 @@ Peter Thiel
 Pixar
 Pyrrhic Leader
 Purity and Danger
-Qisas
-Rambam
 Readiness Rule
 Reid Hoffman
 Ren (humaneness)
@@ -160,8 +158,6 @@ Steve Jobs
 Steve Sasson
 Sunset Budgets
 Susan Fowler
-Ta'zir
-Talmud
 Tesla
 The Alliance
 The Audit
@@ -192,7 +188,6 @@ Weekly Crossing
 XBE
 Yahoo
 Yoshinori Ohsumi
-Yom Kippur
 agoge
 anomie
 anti-scapegoat
@@ -243,7 +238,6 @@ mimetic mechanics
 moral hazard
 negative selection
 negentropy
-niðingr
 non-instrumental togetherness
 ossification
 otherness

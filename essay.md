@@ -1152,21 +1152,17 @@ The *Dionysus Program* is not about being more “resilient.” It is about beco
 
 ### Preamble
 
-The program has built machinery to metabolize error into structure. Crossings, Dissolutions, Tragic Postmortems—containers designed to hold high heat without burning people.
+The program builds machinery to metabolize error into structure. Crossings, Dissolutions, and Tragic Postmortems are containers designed to hold high heat without burning people.
 
-None of it works without enforcement.
+But none of it works without enforcement.
 
-A container that cannot be breached is not a container; it is a suggestion. The standing right of criticism means nothing if retaliation carries no consequence. Without law, the program becomes what it was designed to prevent: a performance of renewal that changes nothing.
+A container that cannot be enforced is not a container; it is a suggestion. The standing right of criticism is a trap if retaliation carries no consequence. Without law, the program becomes what it was designed to prevent: a performance of renewal that changes nothing.
 
-Multiple ancient traditions—separated by time, geography, and theology—converged on this recognition: crimes against the sacred social fabric require distinct treatment. They cannot be processed through ordinary channels.
+Ancient traditions—separated by geography and theology—converged on a single recognition: crimes against the sacred social fabric require distinct treatment. The Hebrews held that even the Day of Atonement could not discharge sins against a fellow human without the victim’s consent. The Athenians prosecuted hubris as a public crime because degrading dignity threatened the city. The Germanic tribes placed oath-breakers outside the law’s protection entirely.
 
-The Hebrews distinguished sins against God from sins against fellow humans—and held that even the Day of Atonement could not discharge the latter without the victim's consent. The Athenians prosecuted hubris as a public crime because degrading another person's dignity threatened the polis itself. The Germanic tribes placed oath-breakers outside the law's protection entirely—not killed, but exiled from the reciprocity that made social life possible.
+They agreed on the mechanism: If you harm Ren, you lose Ren.
 
-These traditions agreed: the punishment for violating the sacred social fabric is loss of access to that fabric. You harm Ren, you lose Ren.
-
-The stakes run in both directions. Without enforcement, the container is theater. With enforcement that cannot be questioned, the penal code becomes an instrument of the scapegoating it was designed to prevent.
-
-What follows names what crimes against Ren are, how they are judged, and what consequences attach.
+The stakes run in both directions. Without enforcement, the container is theater. With enforcement that cannot be questioned, the penal code becomes an instrument of scapegoating. What follows names the crimes, the judgment, and the penalty.
 
 ---
 
@@ -1174,78 +1170,39 @@ What follows names what crimes against Ren are, how they are judged, and what co
 
 #### 1. The Categorical Distinction
 
-The *Dionysus Program* is built on error-correction: critique → dissolution → reconstitution → renewal.
+The *Dionysus Program* runs on a specific loop: critique → dissolution → reconstitution → renewal.
 
-Crimes against Ren do not fit this loop.
+Crimes against Ren do not fit this loop. They are not errors to be metabolized through Crossings; they are breaches of the conditions that make Crossings possible. A team that has lost trust cannot run a blameless postmortem. A container whose record has been corrupted cannot produce reliable verdicts.
 
-They are not errors to be metabolized through Crossings. They are breaches of the conditions that make Crossings possible. A team that has lost trust cannot run a blameless postmortem. A container whose record has been corrupted cannot produce reliable verdicts. The violation is not to the content of the work but to the machinery that processes it.
-
-Three ancient traditions illuminate the distinction.
-
-**The Hebrew insight.** The Talmud holds that Yom Kippur can only atone for sins between a person and God. For sins between persons, the holiest day is powerless. The wrongdoer must first seek out the one they harmed, make restitution, and request release. Only then can atonement proceed. The community cannot forgive on behalf of victims.
-
-**The Athenian insight.** Hubris was the act of treating another person as less than fully human. It was prosecuted as a public crime because it threatened the social fabric itself. The victim suffered, but so did everyone who saw that such treatment was possible.
-
-**The Germanic insight.** The most severe punishment was not death but placement outside the law's protection. The *níðingr* forfeited all claims to the community's reciprocity. Anyone could harm them without consequence. They were physically present but socially annihilated.
-
-**The synthesis.** Crimes against Ren are categorical, not scalar. They are not "worse errors" to be processed through stronger Crossings. The normal loop cannot digest them because they have damaged the loop itself.
+Crimes against Ren are categorical, not scalar. They are not "worse errors." They are acts that damage the machinery of error correction itself.
 
 #### 2. The Three Orders
 
-Three orders, distinguished by what is harmed.
+We distinguish offenses by what is harmed.
 
-**First Order: Crimes Against the Container.**
+**First Order: Crimes Against the Container**
 
-Violations of the machinery itself:
+These are violations of the machinery. Breaking the no-person blame covenant during Ritual Time; corrupting the Scrap Heap Library or oath books; falsifying the mode toggle to ambush someone. Following the logic of Islamic *Hudud*, these are crimes against the boundaries themselves. The victim is the group’s capacity to function.
 
-* Breaking the no-person blame covenant during Ritual Time.
-* Corrupting the record—the Scrap Heap Library, the oath books, the institutional memory.
-* Running rituals without adequate Ren—Li without the humaneness to power it.
-* Falsifying the mode toggle—claiming Ritual Time protections in Run Time, or vice versa.
+**Second Order: Crimes Against Persons**
 
-The Lindy source is Islamic *Hudud*—crimes against the divine order, the boundaries themselves. First Order violations are against everyone who depends on the container.
+These are violations that harm specific individuals within the container. Weaponizing vulnerability revealed under protection; retaliation for protected speech; abusing the Jester’s Privilege to launch genuine attacks. Here, the victim—not the community—holds the primary claim.
 
-**Second Order: Crimes Against Persons Within the Container.**
+**Third Order: Crimes Against Common Knowledge**
 
-Violations that harm specific individuals:
-
-* Weaponizing vulnerability—exploiting what someone revealed under protection.
-* Retaliation for protected speech after Touch Down.
-* Abuse of the Jester's Privilege as cover for genuine attacks.
-* Using hierarchy to chill criticism during Ritual Time.
-
-The Lindy source is Islamic *Qisas* and Talmudic person-to-person law. The victim—not the community—holds the primary claim.
-
-**Third Order: Crimes Against Common Knowledge.**
-
-Violations that corrode shared understanding:
-
-* Gaslighting about what was committed to.
-* Performing sincerity without possessing it.
-* Spreading cynicism about the program's legitimacy.
-* False acknowledgment without genuine reconciliation.
-
-The Lindy source is Islamic *Ta'zir*—offenses against the social order. Third Order violations poison the well, making it harder for everyone to trust anyone.
-
-The three orders require different responses. First Order violations are judged by the community. Second Order violations are resolved with the victim. Third Order violations surface through the Jester and resolve through acknowledgment before escalating.
+These are violations that corrode shared understanding. Gaslighting about commitments; performing sincerity without possessing it; spreading cynicism about the program’s legitimacy. These poison the well, making it impossible for anyone to trust the signals the system relies on.
 
 #### 3. The Modifiers
 
-Two principles attach across all three orders, intensifying the weight of any breach.
+Two principles intensify the weight of any breach.
 
-**Chillul Hashem: Desecration of the Name.**
+**Chillul Hashem (Desecration of the Name)**
 
-The Rambam gives an example: a Torah scholar who buys meat and does not pay the butcher promptly. Technically permitted. But observers think: "If this is how the learned behave, what is their learning worth?"
+If the violator’s position makes the violation representative, the gravity increases. A junior person cutting corners is a personal failure. A steward cutting corners is evidence about the system. Violations by stewards carry automatic additional consequences because they license defection.
 
-Chillul Hashem is not a separate category. It is an aggravating factor when the violator's position makes the violation representative. A junior person cutting corners is a personal failure. A steward cutting corners is evidence about the system.
+**Lashon Hara (The Evil Tongue)**
 
-The mechanism: it licenses defection ("if they don't believe it, why should I?"), poisons recruitment, and corrodes common knowledge of sincerity. Violations by stewards carry automatic additional consequence.
-
-**Lashon Hara: The Evil Tongue.**
-
-Jewish law treats harmful speech as among the most serious violations. The crucial feature: *Lashon Hara* includes true statements that damage.
-
-Weaponizing truth is still violation. Using accurate information from Ritual Time to harm someone in Run Time—even if factually correct—is a crime against Ren. Truth is not a defense. The question is whether the statement was used to harm someone who was protected when the information was revealed.
+Harmful speech includes true statements that damage. Using accurate information revealed in Ritual Time to harm someone in Run Time is a crime against Ren. Truth is not a defense; the violation is the weaponization of the container’s safety.
 
 ---
 
@@ -1253,63 +1210,31 @@ Weaponizing truth is still violation. Using accurate information from Ritual Tim
 
 #### 1. Prior Reconciliation
 
-For Second Order violations, no community process can proceed until the wrongdoer has sought reconciliation directly with the wronged.
+For Second Order violations, the sequence is rigid. The community cannot process the breach until the wrongdoer has sought the victim.
 
-The sequence cannot be altered:
+1. **Direct Acknowledgment:** Name the act and the wrong to the person harmed.
+2. **Restitution:** Restore what was taken or damaged.
+3. **Request for Release:** Ask the wronged party to release the debt.
 
-**First, direct acknowledgment.** Name, to the specific person harmed, what you did and that it was wrong.
-
-**Second, restitution.** What was taken or damaged must be restored. Restitution is not apology; it is making whole.
-
-**Third, request for release.** Ask the wronged party to release you from the debt. This is a request. The wronged party may grant, refuse, or defer.
-
-Only after release is granted can standing be restored.
-
-**The hard cases.** If the victim refuses, the debt persists. If unavailable, reasonable efforts must be made; if unreachable, the community may set provisional remedy subject to revision. If the victim has died, the debt becomes permanent—you can ask forgiveness but cannot receive it.
-
-**The limit.** The community can witness and facilitate. It cannot grant release on behalf of the victim. The debt is owed to a face, not a system.
+The community can witness and facilitate, but it cannot grant forgiveness on behalf of victims. If the victim refuses, the debt persists. If the victim has died, the debt becomes permanent.
 
 #### 2. Public Acknowledgment
 
-Distinct from prior reconciliation. Serves the community's learning, not the victim's healing.
+Distinct from private reconciliation, this serves the community’s learning. It follows the tragic arc:
 
-The structure follows the tragic postmortem:
+* **Hamartia:** State the internal flaw, not the circumstance.
+* **Anagnorisis:** Articulate the recognition ("I am the kind of person who...").
+* **Structural Commitment:** Bind a concrete, observable change.
 
-**Hamartia.** State the internal cause—not circumstances but the flaw in judgment or character.
-
-**Anagnorisis.** Articulate what you now recognize about yourself. Not "I made a mistake" but "I am the kind of person who, under these conditions, will do this."
-
-**Structural commitment.** Bind a concrete change—a role relinquished, an accountability added, a practice instituted. Observable, so failure to honor it is detectable.
-
-**Why required even when reconciliation fails.** The community needs to learn regardless of whether the victim forgives. Institutional memory prevents repetition.
-
-Prior reconciliation addresses the debt to the person. Public acknowledgment addresses the debt to the future. Both required. Neither substitutes.
+This is required even if private reconciliation fails. The community needs to secure its future regardless of whether the victim grants release.
 
 #### 3. The Tribunal
 
-Different violations require different judging mechanisms.
+Different orders require different judges.
 
-**For First Order Violations: Sortition Tribunal.**
-
-Crimes against the container are crimes against everyone. The community judges.
-
-Selection is by lot from a qualified pool—those who have passed the Readiness Gate, peer-level or above relative to the accused. Sortition breaks the link between wanting to judge and being chosen.
-
-The accused's protections: limited strikes (reject up to three jurors without cause), oath-helpers (people willing to stake their standing on the accused's character), and supermajority requirement for conviction.
-
-**For Second Order Violations: Victim-Centered Resolution.**
-
-The victim holds the primary claim.
-
-The wronged party proposes the remedy. The community facilitates but cannot override. Cannot impose a resolution the victim rejects. Cannot grant release on the victim's behalf.
-
-When the victim is unavailable, the community may set provisional remedy—explicitly provisional, reactivating if the victim reappears.
-
-**For Third Order Violations: Jester Channel with Escalation.**
-
-The Jester's Privilege exists to name atmospheric violations. Initial remedy is public acknowledgment. If pattern persists after acknowledgment, the matter escalates to First Order process.
-
-**Appeal.** A small panel of Cincinnatus alumni reviews process, not facts. May send back for retrial or reduce penalty. Cannot override a victim's refusal to grant release.
+* **For the Container (First Order):** A **Sortition Tribunal** judges. Jurors are drawn by lot from a qualified pool to break the link between power-seeking and judgment.
+* **For Persons (Second Order):** A **Victim-Centered** process applies. The wronged party proposes the remedy. The community facilitates but cannot override a victim’s refusal to release.
+* **For Common Knowledge (Third Order):** The **Jester Channel** escalates. The Jester names atmospheric violations; if they persist after acknowledgment, they move to a First Order tribunal.
 
 ---
 
@@ -1317,67 +1242,40 @@ The Jester's Privilege exists to name atmospheric violations. Initial remedy is 
 
 #### 1. Atimia
 
-The primary remedy is not punishment but separation from the fabric that was violated.
+The primary remedy is not punishment but separation. *Atimia* was civic death in Athens: presence without voice.
 
-Atimia—loss of standing—was civic death in Athens. The *atimos* lost the right to speak in the Assembly, bring prosecutions, hold office, or enter sacred spaces. The body remained; the citizenship was gone.
+The *atimos* loses participation in Ritual Time, the standing right of criticism, and eligibility for stewardship. They retain their Run Time role, compensation, and performance accountability. This status must be declared publicly, or it fails to protect the common knowledge.
 
-**What is lost:** Participation in Ritual Time. The standing right of criticism. Eligibility for stewardship. Voice in commitments.
-
-**What is retained:** Run Time participation. Role responsibilities. Compensation. Performance accountability.
-
-**Why public.** Atimia must be declared within the relevant boundary. Not whispered—formally announced so everyone recalibrates simultaneously. Secrecy corrodes the common knowledge atimia protects.
-
-**Degrees.** Temporary: fixed duration, restorable when conditions met. Extended: longer, renewable until conditions satisfied. Indefinite: for Second Order violations where the victim has not granted release—persists until release, which may be never.
+* **Temporary:** Fixed duration.
+* **Indefinite:** For Second Order violations where the victim withholds release. It persists until they relent.
 
 #### 2. Exile
 
-Atimia is presence without participation. Exile is removal from presence.
-
-**When it applies:** Repeated violations after atimia. First Order violations of sufficient severity. Chillul Hashem by stewards demonstrating the program's values are not their values.
-
-The *cherem* model—full excommunication—was complete severance. The boundary that generates Ren has been redrawn to exclude the person.
-
-Exile from Ren may or may not coincide with termination of employment. They are different facts. A person might be exiled while remaining employed in a purely transactional capacity. Context determines.
+Exile is removal from presence. It applies to repeated violations or severe desecration (Chillul Hashem) by stewards. Like the *cherem*, it redraws the boundary of the community to exclude the offender entirely. Exile from Ren may or may not coincide with termination of employment, depending on whether the role can be performed transactionally without trust.
 
 #### 3. Restoration
 
-Atimia and exile are separation. Restoration is return—when return is possible.
+Separation aims at return.
 
-**From temporary atimia:** Completion of prior reconciliation (if Second Order), completion of public acknowledgment, passage of time, no new violations. Restoration is as public as atimia was.
+* **From Temporary Atimia:** Requires completion of reconciliation and public acknowledgment.
+* **From Indefinite Atimia:** Requires the victim’s release. There is no alternative path.
+* **From Exile:** Rare. Requires extraordinary demonstration of transformation.
 
-**From extended atimia:** Same conditions, higher bar. May require demonstrated change over time, not just performed acknowledgment.
-
-**From indefinite atimia:** Requires the victim's release. No alternative path. The community cannot decide that enough time has passed. Some wait years. Some wait until the victim dies—at which point the debt becomes permanent.
-
-**From exile:** Rarely reversible. Would require extraordinary circumstances, full community process, and demonstration of genuine transformation. Most exiles are permanent.
-
-**The hard truth.** Some debts are unpayable. Some separations do not end. This is not a flaw; it is the system working. The weight of violation must be heavy enough that people do not violate.
+Some debts are unpayable. Some separations do not end. This is not a system failure; it is the weight required to make the trust real.
 
 ---
 
 ### The Living Law
 
-Dead law cannot be questioned. It becomes an instrument wielded by interpreters against the interpreted. Dead law is how penal codes become tools of scapegoating.
+Dead law becomes a weapon. Living law submits to its own standard.
 
-Living law submits to its own standard.
+The penal code must periodically be treated as an anti-scapegoat. Put it on trial in a Crossing. Are the orders correctly drawn? Is *atimia* being weaponized? Is restoration actually possible?
 
-**The fractal principle.** Everything in this Coda operates at every scale—personal, team, organizational, civic. The parameters scale; the verbs remain constant.
+If the code stops protecting the container and starts protecting the powerful, it must be rewritten. The stewards of the law are subject to it; a tribunal member who betrays deliberation commits a First Order violation.
 
-**The self-application.** The penal code must periodically be treated as an anti-scapegoat. Put it on trial:
+Nothing is sacred except the commitment to metabolize error without sacrifice. The law protects the container. The container protects the people.
 
-* Are the three orders correctly drawn?
-* Are the remedies proportionate?
-* Has the tribunal process been captured?
-* Is atimia being weaponized?
-* Is restoration actually possible?
-
-The answers bind. If the Crossing finds a category wrongly drawn, redraw it.
-
-**The stewards under the law.** Those who enforce the code are subject to it. A tribunal member who betrays deliberation has committed a First Order violation. Chillul Hashem applies with maximum force to enforcers. No one stands above the law by virtue of administering it.
-
-**The meta-principle.** Nothing is sacred except the commitment to metabolize error without sacrifice. The penal code protects the container. The container protects the people. If the code stops protecting and starts harming, the code is rewritten.
-
-The law that lives is law that can die and be reborn.
+The law that lives is the law that can die and be reborn.
 
 ---
 
