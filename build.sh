@@ -40,7 +40,37 @@ if ! command -v pandoc >/dev/null 2>&1; then
   exit 1
 fi
 
+update_rights_year() {
+  local current_year line start_year end_year new_rights
+  current_year="$(date +%Y)"
+  line="$(grep -m1 '^rights:' "$ESSAY_MD" || true)"
+  if [[ -z "$line" ]]; then
+    return
+  fi
+  if [[ "$line" =~ ([0-9]{4})([–-]([0-9]{4}))? ]]; then
+    start_year="${BASH_REMATCH[1]}"
+    end_year="${BASH_REMATCH[3]}"
+    if [[ -z "$end_year" ]]; then
+      end_year="$start_year"
+    fi
+    if (( current_year > end_year )); then
+      end_year="$current_year"
+    fi
+    if [[ "$start_year" == "$end_year" ]]; then
+      new_rights="rights: \"© ${start_year}. All rights reserved.\""
+    else
+      new_rights="rights: \"© ${start_year}–${end_year}. All rights reserved.\""
+    fi
+    if [[ "$line" != "$new_rights" ]]; then
+      awk -v new="$new_rights" 'BEGIN{done=0} { if(!done && $0 ~ /^rights:/){ print new; done=1; next } print }' \
+        "$ESSAY_MD" > "$ESSAY_MD.tmp" && mv "$ESSAY_MD.tmp" "$ESSAY_MD"
+    fi
+  fi
+}
+
 mkdir -p "$DIST_DIR"
+
+update_rights_year
 
 node "$PRAISE_SCRIPT" "$PRAISE_JSON" "$PRAISE_MD" "$PRAISE_META"
 echo "Wrote praise markdown to $PRAISE_MD"
