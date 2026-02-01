@@ -1379,6 +1379,8 @@ The answers bind. If the Crossing finds a category wrongly drawn, redraw it.
 
 The law that lives is law that can die and be reborn.
 
+---
+
 \newpage
 
 ## The Epimetabolic Equation
