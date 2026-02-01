@@ -105,7 +105,7 @@ By exposing the source code of these ideas to as many minds as possible, the pro
 * **Criticize in public.** If you disagree, do so in the open. The program requires friction to remain honest.
 * **Patch the code.** If you find errors—in logic, phrasing, or explanation—please submit a pull request on GitHub.
 
-### A Note on the Print Edition
+**A Note on the Print Edition**
 
 For those who prefer a physical object, a print edition is available. It is intended for those who wish to give the program as a gift, or who desire a totem to anchor these principles in physical space.
 
