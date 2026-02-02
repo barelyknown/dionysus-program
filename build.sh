@@ -83,11 +83,7 @@ node "$INDEX_SCRIPT" "$DIST_DIR" "$ESSAY_MD" "$KEYWORDS_TXT" "$LETTERS_APPENDIX"
 node "$PULL_QUOTES_SCRIPT" "$PULL_QUOTES_JSON" "$PULL_QUOTES_HTML"
 echo "Wrote pull quotes HTML to $PULL_QUOTES_HTML"
 
-if node -e "const { chromium } = require('playwright'); chromium.executablePath();" >/dev/null 2>&1; then
-  node "$PULL_QUOTES_RENDER_SCRIPT" "$PULL_QUOTES_IMAGES_DIR" "$PULL_QUOTES_HTML"
-else
-  echo "Skipping pull quote images (Playwright/Chromium not installed)"
-fi
+node "$PULL_QUOTES_RENDER_SCRIPT" "$PULL_QUOTES_IMAGES_DIR" "$PULL_QUOTES_HTML"
 
 pandoc "$ESSAY_MD" "$LETTERS_APPENDIX" "$SOURCES_MD" \
   "$INDEX_APPENDIX" \

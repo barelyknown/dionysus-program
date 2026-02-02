@@ -163,6 +163,10 @@ main {
   cursor: pointer;
 }
 
+.page-download-copy {
+  min-width: 4.5rem;
+}
+
 .page-download a:hover,
 .page-download button:hover {
   border-color: var(--accent-color);

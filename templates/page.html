@@ -66,18 +66,20 @@
           </span>
         </span>
         <span class="page-download-group">
-          <span class="page-download-label">LLM Context</span>
+          <span class="page-download-label">Context</span>
           <span class="page-download-row">
-            <a href="dist/dionysus-program-context.txt">Context</a>
+            <a href="dist/dionysus-program-context.txt">TEXT</a>
             <button
               class="page-download-copy"
               type="button"
               data-copy-target="dist/dionysus-program-context.txt"
-              data-copy-label="Copy"
-              data-copy-success="Copied"
-              data-copy-failure="Copy failed"
+              data-copy-label="COPY"
+              data-copy-success="✓"
+              data-copy-success-aria="Copied"
+              data-copy-failure="!"
+              data-copy-failure-aria="Copy failed"
             >
-              Copy
+              COPY
             </button>
           </span>
         </span>
@@ -140,9 +142,9 @@ $body$
     (() => {
       const buttons = Array.from(document.querySelectorAll('[data-copy-target]'));
       if (buttons.length === 0) return;
-      const setButtonLabel = (button, label) => {
+      const setButtonLabel = (button, label, ariaLabel = label) => {
         button.textContent = label;
-        button.setAttribute('aria-label', label);
+        button.setAttribute('aria-label', ariaLabel);
       };
       const fallbackCopy = (text) => {
         const textarea = document.createElement('textarea');
@@ -159,8 +161,12 @@ $body$
       };
       buttons.forEach((button) => {
         const target = button.getAttribute('data-copy-target');
-        const defaultLabel = button.getAttribute('data-copy-label') || button.textContent || 'Copy';
-        setButtonLabel(button, defaultLabel);
+        const defaultLabel = button.getAttribute('data-copy-label') || button.textContent || 'COPY';
+        const successLabel = button.getAttribute('data-copy-success') || '✓';
+        const failureLabel = button.getAttribute('data-copy-failure') || '!';
+        const successAriaLabel = button.getAttribute('data-copy-success-aria') || 'Copied';
+        const failureAriaLabel = button.getAttribute('data-copy-failure-aria') || 'Copy failed';
+        setButtonLabel(button, defaultLabel, defaultLabel);
         button.addEventListener('click', async () => {
           try {
             let text = '';
@@ -177,11 +183,14 @@ $body$
               throw new Error('Clipboard unavailable');
             }
             button.dataset.copyState = 'success';
+            setButtonLabel(button, successLabel, successAriaLabel);
           } catch (err) {
             button.dataset.copyState = 'failure';
+            setButtonLabel(button, failureLabel, failureAriaLabel);
           }
           window.setTimeout(() => {
             button.dataset.copyState = 'idle';
+            setButtonLabel(button, defaultLabel, defaultLabel);
           }, 1600);
         });
       });
