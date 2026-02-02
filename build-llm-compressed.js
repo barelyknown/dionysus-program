@@ -416,6 +416,9 @@ function buildMetadataBlock({ frontMatter, canonicalUrl, githubUrl }) {
   const lines = [];
   lines.push('=== META ===');
   lines.push('VARIANT: compressed version for LLM context windows');
+  lines.push(
+    'OUTPUT_RULE: ABBR/SYMS are for compression only; expand to full terms in user-facing output and avoid shorthand unless explicitly requested.'
+  );
   if (frontMatter.title) lines.push(`TITLE: ${frontMatter.title}`);
   if (frontMatter.description) lines.push(`SUBTITLE: ${frontMatter.description}`);
   if (frontMatter.author) lines.push(`AUTHOR: ${frontMatter.author}`);

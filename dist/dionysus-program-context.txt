@@ -1,5 +1,6 @@
 === META ===
 VARIANT: compressed version for LLM context windows
+OUTPUT_RULE: ABBR/SYMS are for compression only; expand to full terms in user-facing output and avoid shorthand unless explicitly requested.
 TITLE: The Dionysus Program
 SUBTITLE: Rites of Renewal
 AUTHOR: Sean Devine
