@@ -116,7 +116,7 @@ The price of the print edition has nothing to do with the cost of printing. It i
 
 A good book can make you smile or make you think. But only great books change who you are and what you're capable of.
 
-The Dionysus Program can inject a new worldview. Not just at the surface level of your observations, but to transform you into a person who can thrive in an ever-changing world with grace.
+*The Dionysus Program* can inject a new worldview. Not just at the surface level of your observations, but to transform you into a person who can thrive in an ever-changing world with grace.
 
 A talent I seem to have is recognizing genius in others. Charlie Munger's line "the best thing a human being can do is to help another human to know more" sat well with me. So I take particular pleasure in identifying brilliant people, important ideas, and promising companies—then shining a spotlight on them.
 
@@ -140,7 +140,7 @@ What you're reading will help you do the same.
 
 You are about to learn the secret formula to Sean's success. What he himself did not even know he was discovering, until after he discovered it. What took over a decade of building, collecting a brick at a time through intuition, until looking up and realizing he'd built a cathedral.
 
-The Dionysus Program emerged suddenly (almost overnight in book-writing terms) after years of organic discovery.
+*The Dionysus Program* emerged suddenly (almost overnight in book-writing terms) after years of organic discovery.
 
 Sean has crafted an incredible career across many domains and disciplines. He rose through the ranks of a large organization, becoming a young executive in strategy at a public company. Then, he went into the wild and reinvented himself, teaching himself to code and bootstrapping a software company. As that company grew, he built a team, brought on capital partners, and integrated acquisitions. He carefully, quietly, built a powerful and profitable company in his niche, stitching together people and teams from across cultures, companies, and continents.
 
@@ -148,7 +148,7 @@ His success is well-rounded, as I've gotten to know his family and friends as we
 
 He doesn't seem to take himself too seriously. I expect this is because he deeply understands the need to continually destroy and rebuild your "self" (whatever that happens to be). And it's much easier to destroy yourself if you can laugh about it.
 
-The Dionysus Program is just that simple idea, of destruction and iteration, explained as thoroughly as possible, applied at all levels of society. In this book, Sean gives you every tool in his toolbox for understanding—and using—his guide to destroying bad ideas without destroying relationships, cultures, or companies.
+*The Dionysus Program* is just that simple idea, of destruction and iteration, explained as thoroughly as possible, applied at all levels of society. In this book, Sean gives you every tool in his toolbox for understanding—and using—his guide to destroying bad ideas without destroying relationships, cultures, or companies.
 
 There are robust explanations. There are new vocabulary words. There are myriad mythical references. There are equations, charts, and algorithms. There are archetypes. And, in a stroke of brilliant originality, there is even a "comment section" where we hear the simulated critiques of many great thinkers who are featured in this book.
 
@@ -160,7 +160,7 @@ The book is itself a living system, trying to teach you about a living system. I
 
 As Sean shows us, this is the process of life: theory and experiment; mutation and selection; innovation and selection; conjecture and criticism. What determines our success as individuals, families, companies, countries, and a species relies on our ability to handle this process well. Destroying ourselves, humanely, so that we become ever better.
 
-This is the promise of The Dionysus Program well-applied. That you become ever-better. And that is all any of us can dream of being.
+This is the promise of *The Dionysus Program* well-applied. That you become ever-better. And that is all any of us can dream of being.
 
 *— Eric Jorgenson*
 

@@ -59,11 +59,11 @@ local function should_skip_section_page(el)
     return false
   end
   local id = header_identifier(el) or ""
-  if id == "about-the-program" or id == "about-the-author" or id == "preface" then
+  if id == "about-the-program" or id == "about-the-author" or id == "preface" or id == "foreword" then
     return true
   end
   local text = stringify(el.content)
-  return text == "About the Program" or text == "About the Author" or text == "Preface"
+  return text == "About the Program" or text == "About the Author" or text == "Preface" or text == "Foreword"
 end
 
 local function has_class(el, class)
