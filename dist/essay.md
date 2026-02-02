@@ -25,35 +25,32 @@ Rites of Renewal
 ## About the Program
 
 ::: about-program
-Knowledge now melts faster than organizations can re-bind it into identity, norms, and operating systems—without depleting trust. AI compresses the half-life of expertise; what took decades now happens in quarters. Under that pressure, the primary obstacle to progress is no longer technical—it’s cultural. Teams hit their limits not because they can’t think, but because they can’t digest disruptive reality into new roles, new norms, and new commitments without collapsing into numbness, scapegoating, or management theater.
+Knowledge now melts faster than organizations can re-bind it into identity, norms, and operating systems—without depleting trust. AI compresses the half-life of expertise; what took decades now happens in quarters. Under that pressure, the primary obstacle to progress is no longer technical—it's cultural. Teams hit their limits not because they can't think, but because they can't digest disruptive reality into new roles, new norms, and new commitments without collapsing into numbness, scapegoating, or management theater.
 
-The *Dionysus Program* is a field manual for leaders facing that bottleneck.
-Written by Sean Devine, founder and CEO of XBE.
+The *Dionysus Program* is a field manual for leaders facing that bottleneck. Written by Sean Devine, founder and CEO of XBE.
 
-It argues for a new scoreboard: **epimetabolic rate**—the speed at which a person, team, or organization converts error into new structure without burning its social fabric. The method is a loop you can actually run: critique → dissolution → reconstitution → renewal. Not “more candor” stapled onto an unchanged culture, but an operating system where knowledge-updating becomes cheaper, safer, and more productive over time—so you can move fast, break things, and then mend what you break into something stronger. Along the way, you’ll get repeatable rites, facilitation scripts, diagnostics, and meeting designs you can apply immediately—without turning your culture into a permanent therapy session.
-
-There is a prerequisite the method cannot supply on its own: *Ren*—the density of trust and shared history that makes high-heat rituals safe rather than destructive. For most of history, work generated Ren as a byproduct; collaboration was forced, and from forced proximity, some portion of relationship formed. AI independence and distributed work have closed that channel. *The One-Man Job* diagnoses why Ren is newly scarce and what organizations must do to generate it deliberately—through play, commitment to quality, and hiring for people who bring others together—before they can run the heavier rites.
-*The Impatience of Jobs* follows with the hard case: what to do when Ren must be compressed into quarters rather than decades, and how to do it without turning necessity into cult.
-The Coda—*Crimes Against Ren*—names the breaches that destroy the container itself and the penalties that keep Ritual Time from becoming theater or tyranny.
+It argues for a new scoreboard: **epimetabolic rate**—the speed at which a person, team, or organization converts error into new structure without burning its social fabric. The method is a loop you can actually run: critique → dissolution → reconstitution → renewal. Not "more candor" stapled onto an unchanged culture, but an operating system where knowledge-updating becomes cheaper, safer, and more productive over time—so you can move fast, break things, and then mend what you break into something stronger.
 
 The program is built around a deliberate toggle between two modes:
 
 * **Run Time**: ordinary operations—execution, decisions, outcomes, accountability to plans.
 * **Ritual Time**: protected containers where the work is metabolizing loss—where performance scoring pauses and the group becomes accountable to the rite: non-violent rules, reason-giving, and the standing right of criticism.
 
-This distinction is the heart of the book. Most organizations either stay in Run Time until reality forces a catastrophic break, or they perform Ritual Time and get theater. The *Dionysus Program* shows how to build Ritual Time that can hold real heat without harm: concentrating conflict onto shared objects instead of people, designing beauty and hospitality so disruptive knowledge is bearable, and practicing tragedy so losses teach instead of traumatize. The result is not a perfect machine. It is a humane one—more connected, more resilient, and more capable of changing its mind in public.
+This distinction is the heart of the book. Most organizations either stay in Run Time until reality forces a catastrophic break, or they perform Ritual Time and get theater. The *Dionysus Program* shows how to build Ritual Time that can hold real heat without harm: concentrating conflict onto shared objects instead of people, designing beauty and hospitality so disruptive knowledge is bearable, and practicing tragedy so losses teach instead of traumatize.
 
-What makes this unusually usable is that it isn’t just an essay. It’s a tool-set with interlocking parts:
+What makes this unusually usable is that it isn't just an essay. It's a toolset with interlocking parts:
 
 * **The Epimetabolic Equation**: a mathematical model that turns culture into dynamics—linking trust, ritual capacity, stewardship integrity, beauty, and melt into explicit failure modes and a single diagnostic: how much structure you gain per unit of trust you burn.
-* **The One-Man Job**: a diagnosis of why trust is harder to accumulate when AI collapses the division of labor and distributed work eliminates proximity—and practical guidance on generating Ren deliberately through play, mission commitment, and hiring for relational density.
-* **The Impatience of Jobs**: a response to the time-crunch—how to compress relational time through boundary, ordeal, and complicity without locking people into a cult.
+* **The One-Man Job**: a diagnosis of why trust is harder to accumulate when AI collapses the division of labor and distributed work eliminates proximity—and practical guidance on generating *Ren* (the density of trust and shared history that makes high-heat rituals safe) deliberately through play, mission commitment, and hiring for relational density.
+* **The Impatience of Jobs**: the hard case—how to compress relational time through boundary, ordeal, and complicity when Ren must form in quarters rather than decades, without turning necessity into cult.
+* **The Alchemy of Error**: why organizational truth requires both public rigor and a protected human container.
+* **The Alchemist's Assay**: a diagnostic lens that distinguishes true transformation from false alchemy.
 * **Crimes Against Ren**: a penal code for breaches of the container—atimia, exile, and restoration—so enforcement protects the rites without scapegoating.
+* **Archetypes of Organizational Fate**: a taxonomy of recognizable end-states (thriving, pyrrhic victories, declines, collapses) you can name early, diagnose accurately, and intervene on while change is still possible.
 * **The Interactive Simulation**: a web-based companion that lets you manipulate the model and watch trajectories unfold—so small parameter changes become legible before they harden into fate.
-* **Archetypes of Organizational Fate**: a taxonomy generated by the model—recognizable end-states (thriving, pyrrhic victories, declines, collapses) you can name early, diagnose accurately, and intervene on while change is still possible.
-* **Letters to the Editor**: dramatized critiques from rival traditions and “ghost advisors,” stress-testing the program the way the program demands: by standing in public under intelligent opposition.
+* **Letters to the Editor**: dramatized critiques from rival traditions and "ghost advisors," stress-testing the program the way the program demands: by standing in public under intelligent opposition.
 
-If you’re looking for tactics that preserve your current identity while the world changes around you, this won’t satisfy. But if you want a rigorous way to face disruptive knowledge—and come out stronger on the other side—the *Dionysus Program* is a set of rites for renewal you can actually run.
+If you're looking for tactics that preserve your current identity while the world changes around you, this won't satisfy. But if you want a rigorous way to face disruptive knowledge—and come out stronger on the other side—the *Dionysus Program* is a set of rites for renewal you can actually run.
 
 The world is not going to slow down for us. So we will have to become the kind of people who can keep up—without becoming less human.
 :::
@@ -91,7 +88,7 @@ He’s [@barelyknown](https://x.com/barelyknown) on X.
 \newpage
 ```
 
-## Nullius in Verba
+## About the License
 
 The transition from alchemy to chemistry was not a leap in human intelligence; it was a change in protocol. Alchemists hoarded knowledge, encoding their findings in metaphor to prevent theft. As a result, their discoveries often died with them. Chemistry became a science only when the Royal Society enforced a new standard: *Nullius in verba* ("take nobody's word for it"). They demanded that methods be published, replicated, and critiqued in public. Knowledge was transformed from a private hoard into a public object.
 
@@ -110,6 +107,62 @@ By exposing the source code of these ideas to as many minds as possible, the pro
 For those who prefer a physical object, a print edition is available. It is intended for those who wish to give the program as a gift, or who desire a totem to anchor these principles in physical space.
 
 The price of the print edition has nothing to do with the cost of printing. It is a symbol of the program itself, and a signal of how much the reader values it. The digital version remains free for those who need the software; the physical version exists for those who want to feel its weight.
+
+```{=latex}
+\newpage
+```
+
+## Foreword
+
+A good book can make you smile or make you think. But only great books change who you are and what you're capable of.
+
+The Dionysus Program can inject a new worldview. Not just at the surface level of your observations, but to transform you into a person who can thrive in an ever-changing world with grace.
+
+A talent I seem to have is recognizing genius in others. Charlie Munger's line "the best thing a human being can do is to help another human to know more" sat well with me. So I take particular pleasure in identifying brilliant people, important ideas, and promising companies—then shining a spotlight on them.
+
+This has been the pattern throughout my hodgepodge career. Writing books to curate the genius of Naval Ravikant, Balaji Srinivasan, and Elon Musk. Investing in founders who start in obscurity and rise to command thousands of people and billions of dollars in capital. Just noticing genius, and supporting it.
+
+There are no good people and bad people. There are simply people—some with good ideas installed, and some with bad ideas installed. There is virtue in knowledge, and evil in ignorance.
+
+We can see humanity's growth over thousands of generations, from animals to civilization, as an accumulation of more and more good ideas. The idea to use fire, to create a system of writing and numerals. The ideas of forgiveness, democracy, and computers. Recognizing a good idea and spreading it to others is the most fundamental human action. (Perhaps aside from some biological necessities and, of course, procreation.)
+
+Sean Devine is full of good ideas. And he has been hiding from the spotlight for far too long. It is my pleasure now to shine my small light on his brilliance and his ideas in the hope that they might benefit you, spread, and benefit humanity.
+
+Most people who engage with philosophy do so at a safe distance. They read, they discuss, they admire ideas, the way one admires a painting in a museum. They know the names, they can quote the famous lines, but they keep their hands in their pockets. The ideas remain fundamentally separate from daily life.
+
+Many people read Deutsch, Taleb, Girard, Nietzsche. Only a few people really understand them. And even fewer people change how they live based on what they learn.
+
+I've known Sean Devine long enough to know he is uncommonly fluent in counterintuitive ideas. He gets a flash of inspiration and then—quickly—tries something new. Then he observes, learns, and runs a new experiment. He plays with big ideas, testing them against reality. Always moving forward.
+
+What has always impressed me about Sean is not just his intellectual range, but his insistence on integration. True inquiry is not a lighthearted hobby; it is a means of understanding reality. Practice is not thoughtless repetition; it is the proving ground of new ideas. Sean moves fluently between the ideation and application, closing the loop. Hard and fast.
+
+What you're reading will help you do the same.
+
+You are about to learn the secret formula to Sean's success. What he himself did not even know he was discovering, until after he discovered it. What took over a decade of building, collecting a brick at a time through intuition, until looking up and realizing he'd built a cathedral.
+
+The Dionysus Program emerged suddenly (almost overnight in book-writing terms) after years of organic discovery.
+
+Sean has crafted an incredible career across many domains and disciplines. He rose through the ranks of a large organization, becoming a young executive in strategy at a public company. Then, he went into the wild and reinvented himself, teaching himself to code and bootstrapping a software company. As that company grew, he built a team, brought on capital partners, and integrated acquisitions. He carefully, quietly, built a powerful and profitable company in his niche, stitching together people and teams from across cultures, companies, and continents.
+
+His success is well-rounded, as I've gotten to know his family and friends as well. Sean is one of those people who seems to be "winning at life". He's a non-stop stream of positive energy, good ideas, and generosity.
+
+He doesn't seem to take himself too seriously. I expect this is because he deeply understands the need to continually destroy and rebuild your "self" (whatever that happens to be). And it's much easier to destroy yourself if you can laugh about it.
+
+The Dionysus Program is just that simple idea, of destruction and iteration, explained as thoroughly as possible, applied at all levels of society. In this book, Sean gives you every tool in his toolbox for understanding—and using—his guide to destroying bad ideas without destroying relationships, cultures, or companies.
+
+There are robust explanations. There are new vocabulary words. There are myriad mythical references. There are equations, charts, and algorithms. There are archetypes. And, in a stroke of brilliant originality, there is even a "comment section" where we hear the simulated critiques of many great thinkers who are featured in this book.
+
+This is a book to be engaged with and digested. That may take time. Readers learn new concepts and definitions, then apply them throughout the book. You just have to take the time to "install the software." Sean recommends (and I found it extremely helpful) to read this with an AI companion open next to you, asking questions, expanding definitions, and getting reminders. The brain should stretch and strain as it takes on new ideas.
+
+This is also a book to be applied, not simply observed. There are recipes in here. Instructions for meetings, for conversations, and for reflection. Use them! As David Senra is right to repeat, "Learning is changing your behavior." Then bring back what you learn, and help improve this text. If you find errors, correct them. If you see omissions, add them. If you see something extraneous, cut it out.
+
+The book is itself a living system, trying to teach you about a living system. It's complicated, I know. But life is complex, and we must not look away from the truth of the universe.
+
+As Sean shows us, this is the process of life: theory and experiment; mutation and selection; innovation and selection; conjecture and criticism. What determines our success as individuals, families, companies, countries, and a species relies on our ability to handle this process well. Destroying ourselves, humanely, so that we become ever better.
+
+This is the promise of The Dionysus Program well-applied. That you become ever-better. And that is all any of us can dream of being.
+
+*— Eric Jorgenson*
 
 ```{=latex}
 \iffalse
@@ -233,7 +286,7 @@ So we will have to become the kind of people who can keep up—without becoming 
 
 ## Introduction
 
-The first four mini essays outline why this program exists, what it protects, and how to read the remaining acts.
+The first five mini essays outline why this program exists, what it protects, and how to read the remaining acts.
 
 Between the acts you’ll find two interludes that work as gates: one checks whether you have the relational density to run the rites at all, the other checks whether the stewards can avoid turning those rites into a standing priesthood. Consider them a shared introduction you can return to before you attempt the more volatile practices.
 
@@ -267,6 +320,55 @@ This is why the *Dionysus Program* exists. It is not an alternative flight plan 
 Apollo governs what I’ll call Run Time—prediction, execution, scored forecasts, safety margins. Dionysus governs Ritual Time—containers in which critique is welcomed, meanings are allowed to melt, and new commitments are forged in public. Apollo flies the rocket; Dionysus keeps the culture that builds and launches it able to digest its own mistakes quickly and cleanly.
 
 To get to the Moon, Apollo was enough. To infinity and beyond, we have to run both programs together. Apollo gets us off the pad; Dionysus keeps us human while we keep going.
+
+```{=latex}
+\iffalse
+```
+
+---
+
+```{=latex}
+\fi
+\newpage
+```
+
+### The Alchemy of Error
+
+#### I. The Divorce
+
+The Royal Society's motto—*Nullius in verba*, "take nobody's word for it"—marked not an intelligence leap but a protocol shift. Alchemists hoarded knowledge in metaphor; their discoveries often died with them. Chemistry emerged when publication, replication, and public critique transformed knowledge from private hoard into public object.
+
+This is the *Dionysus Program*'s own open-source ethos. So far, so good.
+
+For bridges, molecules, and orbits, the observer's moral state does not change the tensile strength. Objective method is a genuine victory *when the substrate is indifferent to the knower*. We should not romanticize what we lost. Alchemy produced centuries of brilliant people chasing transmutations that could not happen, recording their failures in codes that could not be corrected. Chemistry cured diseases. The Enlightenment won because it deserved to win.
+
+But then we applied dead-matter objectivity to living social systems—and something broke.
+
+In organizations, information is never "just data." It is what Durkheim called a *social fact*: it carries coercive force, status gradients, threat, loyalty, shame. The same sentence—"this project is failing"—is a different chemical reagent depending on *who says it, when, and under what protection*. Said by a trusted peer in a protected container, it initiates repair. Said by a rival in an all-hands meeting, it initiates scapegoating. The words are identical; the social substrate transforms them into opposite reactions.
+
+This is the Great Divorce: rigor severed from the quality of the transformer and the integrity of the container.
+
+The *Dionysus Program* does not reject objectivity. It reinstalls the missing variable. It re-entangles the observer—without abandoning rigor. In social fields, the method must include the human substrate.
+
+---
+
+#### II. The Lost Art
+
+The standard story—superstition replaced by reason—misses the point. Alchemy was not merely wrong chemistry waiting to be corrected. It was a method of transformation *that included the transformer*.
+
+The alchemist's purity mattered to the work. Not because impurity affected the reaction in the flask, but because impurity affected the alchemist's capacity to observe, interpret, and persist. The vessel's integrity mattered—not because cracks let in demons, but because cracks let in contamination that obscured what was actually happening. The timing and ritual mattered—not because the stars governed chemistry, but because the discipline of attention governed the quality of observation.
+
+These were not mystical add-ons. They were acknowledgments that in transformative work, the operator and the operation are not fully separable.
+
+When the chemists dismissed all of this as superstition, they were correct about the chemistry and incorrect about the methodology. They kept the part that worked for dead matter and discarded the part that worked for living systems. For three centuries, that trade-off was acceptable.
+
+Now the trade-off has flipped. The bottleneck is no longer epistemic—we know how to find better explanations. The bottleneck is metabolic—we do not know how to turn those explanations into new roles, new norms, and new commitments without burning the people who must live through the transition.
+
+**The core claim:** *The Dionysus Program is organizational alchemy that actually works.*
+
+It keeps what the chemists got right: public critique, falsification, replication, the demand that methods survive attack. It reinstalls what the chemists discarded: the transformer's quality, the vessel's integrity, the container that makes high-heat work possible. It is a repeatable method for turning error into explanatory reach without consuming the trust that makes truth-telling safe.
+
+What follows is the method. After you have learned it, we will return to the alchemical frame—not for decoration, but for diagnosis.
 
 ```{=latex}
 \iffalse
@@ -1179,6 +1281,90 @@ The *Dionysus Program* is not about being more “resilient.” It is about beco
 
 \newpage
 
+## The Alchemist’s Assay
+
+"The Alchemy of Error" made a claim: the *Dionysus Program* is organizational alchemy that actually works. It keeps what the chemists got right—public critique, falsification, replication—while reinstalling what they discarded: the transformer's quality, the vessel's integrity, the container that makes high-heat work possible.
+
+Now that you have the method, we can return to the alchemical frame. Not for decoration, but for diagnosis.
+
+---
+
+### I. The Correspondence
+
+The Program and alchemy describe the same cycle from different angles. The Program names what you *do*—verbs, rituals, toggles. Alchemy names what the material *feels like*—states of breakdown, purification, dawning, embodiment.
+
+Neither vocabulary is complete alone. The operator who knows only the verbs may execute the motions without sensing when the process has gone wrong. The operator who knows only the states may sense the wrongness without knowing how to intervene.
+
+The materials correspond directly. What the alchemists called Lead—the *prima materia*, heavy and opaque—is unmetabolized error: the failed deployment, the wrong assumption, the strategy refuted by reality. Gold is explanatory reach: hard-to-vary structure that survives contact with the world. The Stone, the catalyst that enables transformation without being consumed, is Ren. The Vessel is Li—the ritual container whose integrity determines whether the process completes or explodes. Heat is melt; the solvent is critique; the flame that does not scorch is beauty.
+
+The stages correspond as well. The alchemists described four phases of the *Magnum Opus*, each named for a color observed as transformation proceeded. Albedo, the whitening, is the entry into Ritual Time—purification that lets truth be spoken without scapegoats. Nigredo, the blackening, is dissolution—the dark phase where the old structure dies and the material looks ruined. Citrinitas, the yellowing, is reconstitution—the dawn when new explanation coheres and recognition arrives. Rubedo, the reddening, is renewal—embodiment, when the work becomes flesh and structure re-enters the world.
+
+This is not metaphor for decoration. It is a diagnostic lens.
+
+---
+
+### II. The Diagnostic Value
+
+The alchemical vocabulary earns its place by revealing failure modes. At each stage, there is a true form and a false form. The false form mimics the appearance while missing the substance. Practitioners who can name the difference catch problems before they compound.
+
+**Albedo: True Whitening vs. False Whitening**
+
+True whitening produces a room where critique flows because it is object-targeted and protected. Truths emerge that would not have emerged without the container.
+
+False whitening is "blameless" that is actually *blame-hidden*—politics disguised as analysis. Everyone performs the ritual while knowing that real critique will be punished later, outside the container. The test: Did truths emerge that would not have emerged otherwise? If the Crossing produced only what people would have said anyway, the whitening was false.
+
+**Nigredo: True Blackening vs. Scapegoat Substitution**
+
+True blackening lets the old explanation die in public *without* a human sacrifice. The team watches assumptions dissolve and does not reach for a victim to restore order. The darkness is uncomfortable and necessary.
+
+False blackening is the Girardian explosion: heat jumps from object to person. Someone gets blamed. The group feels relief. Nothing is learned. The test: Did the dissolution feel like loss, or did it feel like victory? True Nigredo is painful. If it felt triumphant—if someone was vanquished—the darkness was false.
+
+**Citrinitas: True Dawn vs. False Dawn**
+
+True dawn produces a new explanation that is specific, testable, and socially bindable. "We are the kind of system that..." becomes explicit. Roles and norms begin to update.
+
+False dawn is insight without binding—beautiful recognition that never becomes policy, code, or oath. The group *understands* but nothing *changes*. The test: Can you write down the commitment? If the recognition cannot be expressed as a specific change, the dawn was false.
+
+**Rubedo: True Embodiment vs. Extraction**
+
+True embodiment returns the organization to Run Time with more reach *and* thicker Ren. The team is more willing to tell the truth next time. The catalyst multiplied.
+
+Extraction ships the fix while burning trust. Structure improves but the team learns "truth is unsafe." You won the quarter and lost the capacity to run the next cycle. The test: Is truth-telling cheaper or more expensive than before? If cheaper, the renewal was real. If more expensive, you extracted.
+
+---
+
+### III. The Assay
+
+The alchemists developed assays—tests to determine whether the transformation had succeeded, whether the gold was real or merely gilded lead.
+
+In chemistry, a catalyst is not consumed by the reaction. It enables transformation and remains unchanged—ready to enable the next transformation.
+
+In organizations, the catalyst is **either burned or multiplied** by the rite.
+
+This is the fundamental asymmetry. When you run a Crossing, the trust in the room either increases or decreases. There is no conservation law. Every cycle is a bet on which direction you will go.
+
+**Extraction** produces structure by burning Ren. The mechanism: overflow, theater, scapegoat drift, endless liminality, coercive closure. The cultural lesson: "truth costs people." You are burning the furniture to heat the house.
+
+**Multiplication** produces structure *and* thickens Ren. The mechanism: the group enters heat together under protection, survives without scapegoating, binds recognition into commitment, exits knowing they can do this again. Trust becomes common knowledge.
+
+The assay is simple. After Touch Down, ask two questions:
+
+1. **Did reach expand?** Can you solve problem-classes you could not solve before?
+
+2. **Did the catalyst survive?** Is the team more willing to surface error next time, or less?
+
+If both answers are yes, you practiced true alchemy. If only the first, you practiced extraction—and should expect diminishing returns as the trust account drains.
+
+The alchemists depicted the Ouroboros—the serpent eating its own tail—as a symbol of cyclical transformation. The *Dionysus Program* is Ouroboratic: every gold eventually becomes lead as environments shift. The goal is not a single transformation but a repeatable cycle where yesterday's error is metabolized faster than it can poison the vessel.
+
+The Stone must survive the Work. Ren must remain when the structure is complete.
+
+This is how you know the alchemy is real.
+
+---
+
+\newpage
+
 ## Coda: Crimes Against Ren
 
 ### Preamble
@@ -1197,7 +1383,7 @@ The stakes run in both directions. Without enforcement, the container is theater
 
 ---
 
-### Part I: The Breach
+### I. The Breach
 
 #### 1. The Categorical Distinction
 
@@ -1237,7 +1423,7 @@ Harmful speech includes true statements that damage. Using accurate information 
 
 ---
 
-### Part II: The Reckoning
+### II. The Reckoning
 
 #### 1. Prior Reconciliation
 
@@ -1269,7 +1455,7 @@ Different orders require different judges.
 
 ---
 
-### Part III: The Consequence
+### III. The Consequence
 
 #### 1. Atimia
 
@@ -1697,7 +1883,7 @@ In practice: if the minimum install does not make it cheaper and faster for your
 
 What follows is the minimal install for a single team, founding group, class, or board.
 
-### 1. Name the Mode
+### I. Name the Mode
 
 The first move is to make the toggle explicit.
 
@@ -1712,7 +1898,7 @@ In practice, the minimum is:
 
 That sentence is the hinge between the two ledgers: how well we held the rite, and how well we later executed the commitments that emerged from it.
 
-### 2. The Weekly Crossing
+### II. The Weekly Crossing
 
 The second move is a regular Crossing where one object, not any person, stands trial.
 
@@ -1729,7 +1915,7 @@ Skin-in-the-game is mandatory: the leader with the most downside in the Crossing
 
 A single honest Crossing per week is enough to change how a group experiences criticism. It gives conflict a home and keeps mimetic pressure aimed at artifacts instead of people. Treat facilitation and stewardship here as a rotating duty drawn from active operators, not as a standing role; whoever stewards a Crossing returns to ordinary work once it closes.
 
-### 3. Tragic Postmortems
+### III. Tragic Postmortems
 
 The third move is to narrate real failures as tragedies that teach, not as whodunits or PR.
 
@@ -1742,7 +1928,7 @@ Once per cycle that matters for you—monthly for a team, quarterly for an organ
 
 Run it in Ritual Time; close by naming the concrete change and where it will live in Run Time. You do not humiliate individuals. You let the group see itself as object and come back slightly higher.
 
-### 4. Eat Your Decay
+### IV. Eat Your Decay
 
 The fourth move is to make decomposition visible and useful.
 
@@ -1754,7 +1940,7 @@ At minimum:
 
 The point is not sentimentality; it is autophagy. You stop letting old structures haunt the present in silence and instead turn them into compost for the next explanation.
 
-### 5. A Small Fractal Calendar
+### V. A Small Fractal Calendar
 
 The final move is to put the loop on a calendar so it repeats at different scales with the same verbs.
 

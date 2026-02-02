@@ -34,6 +34,9 @@ PRAISE_MD="$DIST_DIR/praise.md"
 PRAISE_HTML="$ROOT_DIR/praise.html"
 PRAISE_META="$DIST_DIR/praise-rotator.yaml"
 PRINT_FILTER="$ROOT_DIR/filters/print.lua"
+LLM_CONTEXT_TXT="$DIST_DIR/dionysus-program-context.txt"
+LLM_CONTEXT_SCRIPT="$ROOT_DIR/build-llm-context.js"
+LLM_CONTEXT_JS="$DIST_DIR/llm-context.js"
 
 if ! command -v pandoc >/dev/null 2>&1; then
   echo "pandoc is required but not installed" >&2
@@ -121,6 +124,10 @@ echo "Copied Markdown to $DIST_DIR/essay.md"
 
 node "$ABOUT_PROGRAM_SCRIPT" "$ESSAY_MD" "$ABOUT_PROGRAM_OUT"
 echo "Copied About the Program to $ABOUT_PROGRAM_OUT"
+
+if [[ -f "$LLM_CONTEXT_TXT" ]]; then
+  node "$LLM_CONTEXT_SCRIPT" "$LLM_CONTEXT_TXT" "$LLM_CONTEXT_JS"
+fi
 
 cp "$SOURCES_MD" "$DIST_DIR/appendix-sources.md"
 echo "Copied sources to $DIST_DIR/appendix-sources.md"

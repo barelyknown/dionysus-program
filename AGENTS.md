@@ -33,5 +33,6 @@
 
 ## Skills
 - dionysus-build: Build or rebuild the Dionysus Program site outputs (HTML/PDF/Markdown) using `./build.sh`. Use when asked to build, rebuild, regenerate outputs, update the PDF/HTML, or verify generated artifacts in this repo. (file: skills/dionysus-build/SKILL.md)
+- dionysus-dense-text: Generate dense plain-text versions of the Dionysus Program for LLM context windows, including LLM-compressed outputs. Use when asked to compress the program into plain text or update `dist/dionysus-program-dense.txt`/`dist/dionysus-program-llm.txt`. (file: skills/dionysus-dense-text/SKILL.md)
 - dionysus-pull-quotes: Generate short, memorable pull quotes from `essay.md` and `letters_to_editor/*.txt`, then output a JSON file with quote/author/source attribution. Use when asked to curate pull quotes, quote lists, or pull-quote JSON for the essay or letters to the editor. (file: skills/dionysus-pull-quotes/SKILL.md)
 - print-pdf-proofing: Review print-ready PDF page images for professional book-quality layout. Use when asked to proof, QA, or visually review the print PDF for spacing, page breaks, running heads, margins, widows/orphans, and other production-quality issues. (file: skills/print-pdf-proofing/SKILL.md)

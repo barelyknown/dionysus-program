@@ -2,6 +2,7 @@
 node_modules/
 playwright-artifacts/
 agent/artifacts/
+.cache/
 npm-debug.log*
 pnpm-debug.log*
 yarn-debug.log*

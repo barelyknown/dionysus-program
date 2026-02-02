@@ -65,6 +65,22 @@
             <a href="dist/appendix-sources.md">Sources</a>
           </span>
         </span>
+        <span class="page-download-group">
+          <span class="page-download-label">LLM Context</span>
+          <span class="page-download-row">
+            <a href="dist/dionysus-program-context.txt">Context</a>
+            <button
+              class="page-download-copy"
+              type="button"
+              data-copy-target="dist/dionysus-program-context.txt"
+              data-copy-label="Copy"
+              data-copy-success="Copied"
+              data-copy-failure="Copy failed"
+            >
+              Copy
+            </button>
+          </span>
+        </span>
       </p>
     </header>
     $if(praise)$
@@ -119,5 +135,57 @@ $body$
     </footer>
     $endif$
   </main>
+  <script src="dist/llm-context.js"></script>
+  <script>
+    (() => {
+      const buttons = Array.from(document.querySelectorAll('[data-copy-target]'));
+      if (buttons.length === 0) return;
+      const setButtonLabel = (button, label) => {
+        button.textContent = label;
+        button.setAttribute('aria-label', label);
+      };
+      const fallbackCopy = (text) => {
+        const textarea = document.createElement('textarea');
+        textarea.value = text;
+        textarea.setAttribute('readonly', '');
+        textarea.style.position = 'absolute';
+        textarea.style.left = '-9999px';
+        document.body.appendChild(textarea);
+        textarea.select();
+        textarea.setSelectionRange(0, textarea.value.length);
+        const success = document.execCommand('copy');
+        document.body.removeChild(textarea);
+        return success;
+      };
+      buttons.forEach((button) => {
+        const target = button.getAttribute('data-copy-target');
+        const defaultLabel = button.getAttribute('data-copy-label') || button.textContent || 'Copy';
+        setButtonLabel(button, defaultLabel);
+        button.addEventListener('click', async () => {
+          try {
+            let text = '';
+            if (typeof window.DIONYSUS_LLM_CONTEXT === 'string' && window.DIONYSUS_LLM_CONTEXT.length > 0) {
+              text = window.DIONYSUS_LLM_CONTEXT;
+            } else {
+              const response = await fetch(target, { cache: 'no-store' });
+              if (!response.ok) throw new Error(`Fetch failed: ${response.status}`);
+              text = await response.text();
+            }
+            if (navigator.clipboard && window.isSecureContext) {
+              await navigator.clipboard.writeText(text);
+            } else if (!fallbackCopy(text)) {
+              throw new Error('Clipboard unavailable');
+            }
+            button.dataset.copyState = 'success';
+          } catch (err) {
+            button.dataset.copyState = 'failure';
+          }
+          window.setTimeout(() => {
+            button.dataset.copyState = 'idle';
+          }, 1600);
+        });
+      });
+    })();
+  </script>
 </body>
 </html>
