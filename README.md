@@ -1,6 +1,6 @@
 # Dionysus Program — Static Essay
 
-This repository contains a single static webpage that renders the essay “The Dionysus Program.” The layout is intentionally minimal and borrows from the tone of hellaprompter.com's article design: centered column, serif typography, gentle borders, and understated hover states. The page is ready to publish on GitHub Pages without any build tooling.
+This repository contains a single static webpage that renders the essay “The Dionysus Program.” The layout is intentionally minimal and borrows from the tone of hellaprompter.com's article design: centered column, serif typography, gentle borders, and understated hover states. The repo ships prebuilt outputs for GitHub Pages; run `./build.sh` when you update the essay.
 
 ## Abstract
 
