@@ -106,7 +106,7 @@ He’s [@barelyknown](https://x.com/barelyknown) on X.
 
 The transition from alchemy to chemistry was not a leap in human intelligence; it was a change in protocol. Alchemists hoarded knowledge, encoding their findings in metaphor to prevent theft. As a result, their discoveries often died with them. Chemistry became a science only when the Royal Society enforced a new standard: *Nullius in verba* ("take nobody's word for it"). They demanded that methods be published, replicated, and critiqued in public. Knowledge was transformed from a private hoard into a public object.
 
-*The Dionysus Program* is released under a **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License** in the same spirit.
+*The Dionysus Program* is released under a **Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License** in the same spirit.
 
 This is not a gift to the reader; it is a gift to the program itself.
 
@@ -121,6 +121,62 @@ By exposing the source code of these ideas to as many minds as possible, the pro
 For those who prefer a physical object, a print edition is available. It is intended for those who wish to give the program as a gift, or who desire a totem to anchor these principles in physical space.
 
 The price of the print edition has nothing to do with the cost of printing. It is a symbol of the program itself, and a signal of how much the reader values it. The digital version remains free for those who need the software; the physical version exists for those who want to feel its weight.
+
+```{=latex}
+\newpage
+```
+
+## Foreword
+
+A good book can make you smile or make you think. But only great books change who you are and what you're capable of.
+
+*The Dionysus Program* can inject a new worldview. Not just at the surface level of your observations, but to transform you into a person who can thrive in an ever-changing world with grace.
+
+A talent I seem to have is recognizing genius in others. Charlie Munger's line "the best thing a human being can do is to help another human to know more" sat well with me. So I take particular pleasure in identifying brilliant people, important ideas, and promising companies—then shining a spotlight on them.
+
+This has been the pattern throughout my hodgepodge career. Writing books to curate the genius of Naval Ravikant, Balaji Srinivasan, and Elon Musk. Investing in founders who start in obscurity and rise to command thousands of people and billions of dollars in capital. Just noticing genius, and supporting it.
+
+There are no good people and bad people. There are simply people—some with good ideas installed, and some with bad ideas installed. There is virtue in knowledge, and evil in ignorance.
+
+We can see humanity's growth over thousands of generations, from animals to civilization, as an accumulation of more and more good ideas. The idea to use fire, to create a system of writing and numerals. The ideas of forgiveness, democracy, and computers. Recognizing a good idea and spreading it to others is the most fundamental human action. (Perhaps aside from some biological necessities and, of course, procreation.)
+
+Sean Devine is full of good ideas. And he has been hiding from the spotlight for far too long. It is my pleasure now to shine my small light on his brilliance and his ideas in the hope that they might benefit you, spread, and benefit humanity.
+
+Most people who engage with philosophy do so at a safe distance. They read, they discuss, they admire ideas, the way one admires a painting in a museum. They know the names, they can quote the famous lines, but they keep their hands in their pockets. The ideas remain fundamentally separate from daily life.
+
+Many people read Deutsch, Taleb, Girard, Nietzsche. Only a few people really understand them. And even fewer people change how they live based on what they learn.
+
+I've known Sean Devine long enough to know he is uncommonly fluent in counterintuitive ideas. He gets a flash of inspiration and then—quickly—tries something new. Then he observes, learns, and runs a new experiment. He plays with big ideas, testing them against reality. Always moving forward.
+
+What has always impressed me about Sean is not just his intellectual range, but his insistence on integration. True inquiry is not a lighthearted hobby; it is a means of understanding reality. Practice is not thoughtless repetition; it is the proving ground of new ideas. Sean moves fluently between the ideation and application, closing the loop. Hard and fast.
+
+What you're reading will help you do the same.
+
+You are about to learn the secret formula to Sean's success. What he himself did not even know he was discovering, until after he discovered it. What took over a decade of building, collecting a brick at a time through intuition, until looking up and realizing he'd built a cathedral.
+
+*The Dionysus Program* emerged suddenly (almost overnight in book-writing terms) after years of organic discovery.
+
+Sean has crafted an incredible career across many domains and disciplines. He rose through the ranks of a large organization, becoming a young executive in strategy at a public company. Then, he went into the wild and reinvented himself, teaching himself to code and bootstrapping a software company. As that company grew, he built a team, brought on capital partners, and integrated acquisitions. He carefully, quietly, built a powerful and profitable company in his niche, stitching together people and teams from across cultures, companies, and continents.
+
+His success is well-rounded, as I've gotten to know his family and friends as well. Sean is one of those people who seems to be "winning at life". He's a non-stop stream of positive energy, good ideas, and generosity.
+
+He doesn't seem to take himself too seriously. I expect this is because he deeply understands the need to continually destroy and rebuild your "self" (whatever that happens to be). And it's much easier to destroy yourself if you can laugh about it.
+
+*The Dionysus Program* is just that simple idea, of destruction and iteration, explained as thoroughly as possible, applied at all levels of society. In this book, Sean gives you every tool in his toolbox for understanding—and using—his guide to destroying bad ideas without destroying relationships, cultures, or companies.
+
+There are robust explanations. There are new vocabulary words. There are myriad mythical references. There are equations, charts, and algorithms. There are archetypes. And, in a stroke of brilliant originality, there is even a "comment section" where we hear the simulated critiques of many great thinkers who are featured in this book.
+
+This is a book to be engaged with and digested. That may take time. Readers learn new concepts and definitions, then apply them throughout the book. You just have to take the time to "install the software." Sean recommends (and I found it extremely helpful) to read this with an AI companion open next to you, asking questions, expanding definitions, and getting reminders. The brain should stretch and strain as it takes on new ideas.
+
+This is also a book to be applied, not simply observed. There are recipes in here. Instructions for meetings, for conversations, and for reflection. Use them! As David Senra is right to repeat, "Learning is changing your behavior." Then bring back what you learn, and help improve this text. If you find errors, correct them. If you see omissions, add them. If you see something extraneous, cut it out.
+
+The book is itself a living system, trying to teach you about a living system. It's complicated, I know. But life is complex, and we must not look away from the truth of the universe.
+
+As Sean shows us, this is the process of life: theory and experiment; mutation and selection; innovation and selection; conjecture and criticism. What determines our success as individuals, families, companies, countries, and a species relies on our ability to handle this process well. Destroying ourselves, humanely, so that we become ever better.
+
+This is the promise of *The Dionysus Program* well-applied. That you become ever-better. And that is all any of us can dream of being.
+
+*— Eric Jorgenson*
 
 ```{=latex}
 \iffalse

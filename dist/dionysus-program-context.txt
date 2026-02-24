@@ -29,7 +29,7 @@ X: @barelyknown.
 
 ## About the License
 Alchemy->chemistry transition: not leap in human intelligence; change in protocol. Alchemists hoarded knowledge; encoded findings in metaphor to prevent theft; discoveries often died w/ them. Chemistry became science only when Royal Society enforced new standard: Nullius in verba (“take nobody’s word for it”); demanded methods published, replicated, critiqued in public; knowledge transformed from private hoard into public object.
-Dionysus Program released under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License; same spirit. Not gift to reader; gift to program itself. Expose “source code of these ideas” to as many minds as possible; program benefits from dynamics it describes; improves through stress, critique, metabolism of error; to that end:
+Dionysus Program released under Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License; same spirit. Not gift to reader; gift to program itself. Expose “source code of these ideas” to as many minds as possible; program benefits from dynamics it describes; improves through stress, critique, metabolism of error; to that end:
 - Quote and share freely; text designed to travel.
 - Criticize in public; if disagree, do so in open; program requires friction to remain honest.
 - Patch the code; if find errors—in logic, phrasing, or explanation—submit pull request on GitHub.

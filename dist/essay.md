@@ -92,7 +92,7 @@ He’s [@barelyknown](https://x.com/barelyknown) on X.
 
 The transition from alchemy to chemistry was not a leap in human intelligence; it was a change in protocol. Alchemists hoarded knowledge, encoding their findings in metaphor to prevent theft. As a result, their discoveries often died with them. Chemistry became a science only when the Royal Society enforced a new standard: *Nullius in verba* ("take nobody's word for it"). They demanded that methods be published, replicated, and critiqued in public. Knowledge was transformed from a private hoard into a public object.
 
-*The Dionysus Program* is released under a **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License** in the same spirit.
+*The Dionysus Program* is released under a **Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License** in the same spirit.
 
 This is not a gift to the reader; it is a gift to the program itself.
 
