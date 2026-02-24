@@ -8,18 +8,22 @@
   bottom=0.9in
 ]{geometry}
 \usepackage{setspace}
+$if(print)$
+\usepackage[protrusion=false,expansion=false]{microtype}
+$else$
 \usepackage{microtype}
+$endif$
 \usepackage{longtable}
 \usepackage{booktabs}
 \usepackage{array}
 \usepackage{graphicx}
 \usepackage{amsmath}
 \usepackage{amssymb}
-\usepackage{hyperref}
 $if(print)$
-\hypersetup{hidelinks}
+\usepackage[draft]{hyperref}
 \urlstyle{same}
 $else$
+\usepackage{hyperref}
 \hypersetup{
   colorlinks=true,
   linkcolor=black,
@@ -40,6 +44,8 @@ $endif$
 
 \begin{document}
 
+$if(print)$
+$else$
 \thispagestyle{empty}
 \newgeometry{left=0.75in,right=0.75in,top=0.75in,bottom=0.75in}
 \begin{center}
@@ -49,6 +55,7 @@ $endif$
 \end{center}
 \restoregeometry
 \clearpage
+$endif$
 
 \begin{titlepage}
   \centering

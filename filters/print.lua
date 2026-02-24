@@ -30,8 +30,13 @@ local function is_print_link(el)
   if el.t ~= "Link" then
     return false
   end
-  local text = stringify(el.content)
-  return text == "Free" or text == "Amazon" or text == "Historical Cases"
+  local text = stringify(el.content):gsub("^%s+", ""):gsub("%s+$", ""):lower()
+  return text == "free"
+    or text == "amazon"
+    or text == "historical cases"
+    or text == "historical case"
+    or text == "historical examples"
+    or text == "historical example"
 end
 
 local function strip_print_links(inlines)
