@@ -108,6 +108,8 @@ For those who prefer a physical object, a print edition is available. It is inte
 
 The price of the print edition has nothing to do with the cost of printing. It is a symbol of the program itself, and a signal of how much the reader values it. The digital version remains free for those who need the software; the physical version exists for those who want to feel its weight.
 
+---
+
 ```{=latex}
 \newpage
 ```
