@@ -510,7 +510,7 @@ Call the speed at which a person, team, organization, or city digests error into
 
 Epimetabolic rate is the only real scoreboard of this program. Revenue, valuation, headcount, shipping velocity, even “engagement” are derivative statistics; they go up or down for many reasons. What the *Dionysus Program* is actually trying to maximize is how quickly a group can notice that its explanations are wrong, dissolve the structures built on top of them, and bind that loss back into better structure without burning people. If the forms in this essay do not raise your epimetabolic rate, they are theater and should be killed.
 
-Accountability, split: Call the ordinary operating mode Run Time. In Run Time, we practice Apollonian accountability—answering to the best available knowledge, meanings, and processes we’ve already stabilized (forecast → act → score). During liminal phases, which we name Ritual Time, we practice Dionysian accountability—answering to the rituals and rules of the container that keep the melt non-violent and raise epimetabolic rate by metabolizing loss (call the rite → follow the vows → publish the recognition → exit on time). Standards of rationality and personal responsibility do not relax between modes. What inverts is only what everyone is accountable to: Ritual Time suspends performance scoring and output targets and re-aims accountability toward fidelity to the rite and reason-giving; Run Time restores performance scoring and decision-owner accountability for the explanations and commitments they endorse. We toggle modes deliberately and we name the mode we are in.
+Accountability, split: Call the ordinary operating mode Run Time. In Run Time, we practice Apollonian accountability—answering to the best available knowledge, meanings, and processes we’ve already stabilized (forecast → act → score). During liminal phases, which we name Ritual Time, we practice Dionysian accountability—answering to the rituals and rules of the container that keep the melt non-violent and raise epimetabolic rate by metabolizing loss (call the rite → follow the vows → publish the recognition → exit on time). Ritual Time does not exist only to run critique. It also exists to restore the human substrate on which critique depends. In periods of intense Run Time, restoration is not peripheral to renewal; it is its precondition. Standards of rationality and personal responsibility do not relax between modes. What inverts is only what everyone is accountable to: Ritual Time suspends performance scoring and output targets and re-aims accountability toward fidelity to the rite and reason-giving; Run Time restores performance scoring and decision-owner accountability for the explanations and commitments they endorse. We toggle modes deliberately and we name the mode we are in.
 
 The engine is Popperian error-correction; the stabilizers are ritual—the liturgical layer of repeatable containers around error—(Victor Turner), aesthetics (Nietzsche), and tragedy (Hegel). At every scale—person, team, organization, city—the loop repeats, fractally self-similar. We hold a non-violent center with an anti-scapegoat, use beauty as heat so dissolution becomes bearable, and practice tragic metabolism so the self can turn breakdown into understanding. The output is a culture that can learn without end and remain human.
 
@@ -594,6 +594,8 @@ Play is not "mandatory fun," which is work in disguise. It is not team-building 
 - Status can be contested or suspended. The CEO can lose at poker without consequence. The intern can win at trivia without awkwardness. Hierarchies that are necessary in work become optional in play.
 
 Play is not optional. This is a departure from how it is usually framed—as a perk, a benefit, a nice-to-have that gets cut when budgets tighten. In the world the one-man job is creating, play is infrastructure. It is protected time with binding force, more like Ritual Time than like PTO. The surface area is defended even when short-term pressures push against it, because without it, the Ren account drains and does not refill.
+
+Play and rest are not identical. Play restores sociability by making shared attention non-instrumental. Rest restores capacity by lowering demand itself. The world of the one-man job will tend to confuse the two, offering amusement where decompression is needed and calling the substitution renewal. It is not. Humans require not only intervals of unscored togetherness, but intervals in which nothing at all is being asked of them.
 
 ---
 
@@ -902,8 +904,11 @@ Before entering Act II, audit your readiness.
 1. **The Truth Test:** When was the last time a junior person contradicted a senior person without consequence? If the answer is "never," you are not ready for a Crossing.
 2. **The Mercy Test:** When a project failed, was the team protected or purged? If they were purged, you are not ready for a Tragic Postmortem.
 3. **The Naming Test:** Do you use language to reveal reality or obscure it? If you use euphemisms for pain, you are not ready for the Rite of Redress.
+4. **The Substrate Test:** Is this group merely afraid, or is it also depleted? If people are exhausted, overstimulated, or coming directly out of prolonged Run Time, you are not ready for a high-heat rite. Lower the heat first. Sleep, food, daylight, silence, ordinary kindness, and a temporary reduction in demands are not luxuries here; they are prerequisites.
 
 If you fail these tests, do not despair, but do not proceed to the heavy machinery. Go back to the "Catechumenate"—the porch. Build Ren through lower-stakes coordination, shared meals, and small, survivable promises kept.
+
+Some groups fail the gate morally; others fail it metabolically. Both failures matter. A team too depleted to metabolize truth will turn even a good rite into punishment, theater, or collapse. No ritual technology, however elegant, can metabolize loss on a fully exhausted substrate.
 
 The practices in *The One-Man Job*—play, commitment to quality, hiring for Ren-generation—are where to begin building Ren before attempting the heavier rituals.
 
@@ -1049,6 +1054,48 @@ Make that operational:
 At home: memorize a poem about a loss that taught you. Read it aloud before you begin a hard change. In class: set a “Gallery of Attempts” with student failures honored as stepping stones. In law: publish dissenting opinions as civic art, not just legal text.
 
 Beauty supplies heat without choosing a side. It makes pain sayable and, therefore, processable.
+
+### The Fallow Interval
+
+Run Time does not only consume hours. It consumes slack.
+
+It burns the surplus that makes higher-order life possible: patience, tenderness, curiosity, generosity of interpretation, the ability to hear criticism without treating it as attack, the ability to speak truth without loading it with unnecessary force. A group can still be upright after intense Run Time and yet be empty in exactly the way that matters. The people are present. The capacity is not.
+
+This is why Ritual Time cannot consist only of active renewal. It cannot be only critique, postmortem, reckoning, and recommitment. Those are necessary. But they are not enough. A system that attempts to metabolize loss on an exhausted substrate does not get transformation. It gets theater, compliance, numbness, or cruelty with elevated language.
+
+Agriculture understood this before management did. A field that is always harvested does not become virtuous. It becomes barren. The point of fallow time is not idleness. It is restoration of fertility. The field must lie open to sun, weather, and apparent non-use so that future yield remains possible. Human systems are no different. Continuous extraction can look productive while quietly destroying the conditions of production.
+
+The Sabbath traditions reached the same conclusion from another direction. Rest was not treated as a reward given after the real work was done. It was part of the law of reality. Work without cessation does not merely tire the worker; it deforms the world that the worker inhabits. It turns means into ends, urgency into atmosphere, and output into a god that cannot bless what it consumes. To stop at the right time is not softness. It is governance.
+
+So Ritual Time has two forms.
+
+The first is passive renewal: sleep, silence, meals without agenda, walks, beauty without argument, shared presence without scorekeeping, intervals in which nothing is being extracted, solved, decided, or improved. Passive renewal lowers heat. It restores physiological and emotional surplus. It gives the organism back to itself.
+
+The second is active renewal: lament, critique, postmortem, confession, recognition, the explicit naming of what has ended, the deliberate rebinding of commitments. Active renewal is where meaning is metabolized. But active renewal only works when passive renewal has restored enough capacity for the truth to be borne without violence.
+
+The order matters. Cool first. Metabolize second.
+
+This is not always true in the narrowest chronological sense. Crisis sometimes requires immediate speech. A battlefield confession cannot wait for a weekend retreat. But as a general rule, leaders should assume that intensity distorts interpretation. A people pushed hard in Run Time become more brittle, not more honest. They become more suggestible to the strongest voice in the room, more likely to confuse agitation with insight, more likely to choose a scapegoat or a slogan over an explanation. Exhaustion is a mimetic accelerant.
+
+This is why some so-called renewal fails. The group is brought directly from sprint into postmortem, from launch into reckoning, from conflict into a higher conflict under ritual language. No one has cooled. No one has regained amplitude. The container may be well-designed. The people inside it are too depleted to use it. Li exceeds available Ren not only morally, but metabolically.
+
+The hotter the Run Time, the thicker the Ritual Time must be.
+
+Not merely longer. Thicker.
+
+More sleep. More unmeasured time. More hospitality. More intervals in which the body exits vigilance. More beauty that asks nothing. More contact unburdened by tasks. Then, when surplus begins to return, the higher rites of recognition and repair can do their work. Only then does the tragic machinery become medicinal instead of extractive.
+
+This also clarifies the relationship between rest and play. They are not the same. Play restores sociability by making shared attention non-instrumental. Rest restores capacity by lowering demand itself. A depleted team may be unable to play in the full sense. It can attend a game night and still remain armoured. It can perform informality while staying metabolically clenched. Do not ask play to do the work of sleep, silence, or simple human ease. The substitution fails.
+
+Operationally, this means no steward should assume that because a group is morally willing, it is ritually ready. Ask a more primitive question first: is there enough surplus here to tell the truth without weaponizing it? If the answer is no, lower heat before raising depth. Feed people. End earlier. Remove the deck. Walk outside. Sleep. Delay the Great Dissolution by a week if that week returns the ability to survive it as humans rather than merely endure it as employees.
+
+Run Time spends. Ritual Time must do two things with what remains: restore the substrate and rebind the meaning.
+
+Systems that remember only the second become sophisticated forms of extraction. They ask the exhausted to perform renewal. Systems that remember only the first become gentle forms of stagnation. They preserve the organism while abandoning the work. The right answer is neither. The field lies fallow so that it may bear again.
+
+Rest is not outside the Dionysian cycle. It is one of the conditions that keeps the cycle from turning predatory.
+
+Once the system has cooled enough to bear recognition without choosing a victim, tragedy can do its work.
 
 ### Tragic Metabolism
 
@@ -1930,9 +1977,13 @@ Once per cycle that matters for you—monthly for a team, quarterly for an organ
 
 Run it in Ritual Time; close by naming the concrete change and where it will live in Run Time. You do not humiliate individuals. You let the group see itself as object and come back slightly higher.
 
-### IV. Eat Your Decay
+### IV. Protect the Cooling Interval
 
-The fourth move is to make decomposition visible and useful.
+No Crossing should follow an extreme Run Time interval without some cooling interval unless immediate survival requires it. Exhaustion makes people less truthful, more brittle, and more mimetic. After sprints, losses, launches, or prolonged conflict, lower heat before demanding recognition. Sleep. Feed people. Remove scorekeeping. Walk outside. Let the organism return. Then reopen meaning.
+
+### V. Eat Your Decay
+
+The fifth move is to make decomposition visible and useful.
 
 At minimum:
 
@@ -1942,9 +1993,9 @@ At minimum:
 
 The point is not sentimentality; it is autophagy. You stop letting old structures haunt the present in silence and instead turn them into compost for the next explanation.
 
-### V. A Small Fractal Calendar
+### VI. A Small Fractal Calendar
 
-The final move is to put the loop on a calendar so it repeats at different scales with the same verbs.
+The sixth move is to put the loop on a calendar so it repeats at different scales with the same verbs.
 
 A minimum viable calendar for a team might look like:
 
@@ -1956,7 +2007,7 @@ If your scope is larger than a team, you can sketch the outline of a yearly Rite
 
 At every scale, you tag time blocks as Run Time or Ritual Time and say the mode out loud. You resist the urge to smooth away the serrated edge where critique meets order. Frequent small corrections prevent rarer, catastrophic ones.
 
-Installed together, these five practices already constitute a *Dionysus Program* in miniature. You toggle the mode, give conflict a lawful altar, tell your losses as tragedies, feed on your own decay, and let the loop repeat. The forms can be simple and improvised; what matters is that they exist, and that you keep them. The rest is elaboration and ornament. If you want a single test of whether they are working, it is this: six months from now, is it easier and faster for this group to change its mind in public than it is today? If yes, your epimetabolic rate is rising. If no, the rest is ornament. And if someone here can plausibly make a career mainly as "keeper of the rites," you have work to do on governance before you add more form.
+Installed together, these six practices already constitute a *Dionysus Program* in miniature. You toggle the mode, give conflict a lawful altar, tell your losses as tragedies, protect the cooling interval, feed on your own decay, and let the loop repeat. The forms can be simple and improvised; what matters is that they exist, and that you keep them. The rest is elaboration and ornament. If you want a single test of whether they are working, it is this: six months from now, is it easier and faster for this group to change its mind in public than it is today? If yes, your epimetabolic rate is rising. If no, the rest is ornament. And if someone here can plausibly make a career mainly as "keeper of the rites," you have work to do on governance before you add more form.
 
 ---
 
