@@ -18,5 +18,7 @@ Run the repo build pipeline and validate the generated artifacts without editing
    - `index.html`
    - `dist/essay.md`
    - `dist/dionysus-program.pdf`
+   - `dist/dionysus-program.epub`
+   - `dist/dionysus-program.kpf` (when Kindle Previewer 3 is installed)
 5. Avoid manual edits to generated files (`index.html`, `dist/*`); edit `essay.md` or templates instead.
 6. Offer optional previews (`open index.html`, `open dist/dionysus-program.pdf`) but do not run them unless asked.

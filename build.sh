@@ -7,6 +7,7 @@ DIST_DIR="$ROOT_DIR/dist"
 PDF_OUT="$DIST_DIR/dionysus-program.pdf"
 PRINT_PDF_OUT="$DIST_DIR/dionysus-program-print.pdf"
 EPUB_OUT="$DIST_DIR/dionysus-program.epub"
+KPF_OUT="$DIST_DIR/dionysus-program.kpf"
 TEMPLATE="$ROOT_DIR/templates/page.html"
 EPUB_CSS="$ROOT_DIR/templates/epub.css"
 EPUB_COVER="$ROOT_DIR/templates/dionysus-program-cover.jpg"
@@ -45,6 +46,7 @@ PUBLISH_REVISION_FULL=""
 PUBLISH_REVISION_SHORT=""
 PUBLISHED_AT_UTC=""
 PUBLISHED_AT_ISO=""
+KINDLE_PREVIEWER_BIN=""
 
 cleanup_publish_metadata() {
   rm -f "$PUBLISH_META"
@@ -146,10 +148,52 @@ copy_published_markdown() {
      { print }' "$target_file" > "$target_file.tmp" && mv "$target_file.tmp" "$target_file"
 }
 
+find_kindle_previewer() {
+  local candidate
+
+  if command -v kindlepreviewer >/dev/null 2>&1; then
+    KINDLE_PREVIEWER_BIN="$(command -v kindlepreviewer)"
+    return
+  fi
+
+  for candidate in \
+    "/Applications/Kindle Previewer 3.app/Contents/MacOS/Kindle Previewer 3" \
+    "$HOME/Applications/Kindle Previewer 3.app/Contents/MacOS/Kindle Previewer 3"
+  do
+    if [[ -x "$candidate" ]]; then
+      KINDLE_PREVIEWER_BIN="$candidate"
+      return
+    fi
+  done
+}
+
+build_kpf() {
+  local previewer_bin="$1"
+  local kindle_tmp output_kpf
+
+  kindle_tmp="$(mktemp -d "${TMPDIR:-/tmp}/dionysus-kpf.XXXXXX")"
+
+  if ! "$previewer_bin" "$EPUB_OUT" -convert -output "$kindle_tmp" >/dev/null; then
+    echo "Skipping KPF build (Kindle Previewer conversion failed; see $kindle_tmp)"
+    return
+  fi
+
+  output_kpf="$(find "$kindle_tmp" -type f -name '*.kpf' -print -quit)"
+  if [[ -z "$output_kpf" ]]; then
+    echo "Skipping KPF build (Kindle Previewer did not produce a KPF; see $kindle_tmp)"
+    return
+  fi
+
+  cp "$output_kpf" "$KPF_OUT"
+  rm -rf "$kindle_tmp"
+  echo "Wrote KPF to $KPF_OUT"
+}
+
 mkdir -p "$DIST_DIR"
 
 update_rights_year
 write_publish_metadata
+find_kindle_previewer
 
 node "$PRAISE_SCRIPT" "$PRAISE_JSON" "$PRAISE_MD" "$PRAISE_META"
 echo "Wrote praise markdown to $PRAISE_MD"
@@ -256,6 +300,12 @@ pandoc "${BOOK_INPUTS[@]}" \
   --output="$EPUB_OUT"
 
 echo "Wrote EPUB to $EPUB_OUT"
+
+if [[ -n "$KINDLE_PREVIEWER_BIN" ]]; then
+  build_kpf "$KINDLE_PREVIEWER_BIN"
+else
+  echo "Skipping KPF build (install Kindle Previewer 3 to enable)"
+fi
 
 PDF_ENGINE=""
 if command -v xelatex >/dev/null 2>&1; then

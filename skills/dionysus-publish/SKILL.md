@@ -24,6 +24,7 @@ Publish in two commits so the book artifacts record the source commit they were 
    - `dist/essay.md`
    - `dist/dionysus-program.pdf`
    - `dist/dionysus-program.epub`
+   - `dist/dionysus-program.kpf` (when Kindle Previewer 3 is installed)
 5. Stage the generated outputs and commit them separately.
    - Prefer a message like `chore: publish <shortsha>`.
    - This publish commit ships artifacts built from the previous source commit.

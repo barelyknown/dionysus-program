@@ -2,6 +2,7 @@
 title: "The Dionysus Program"
 author: "Sean Devine"
 description: "Rites of Renewal"
+lang: en-US
 rights: "© 2025–2026. All rights reserved."
 ---
 
