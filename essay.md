@@ -31,6 +31,8 @@ The *Dionysus Program* is a field manual for leaders facing that bottleneck. Wri
 
 It argues for a new scoreboard: **epimetabolic rate**—the speed at which a person, team, or organization converts error into new structure without burning its social fabric. The method is a loop you can actually run: critique → dissolution → reconstitution → renewal. Not "more candor" stapled onto an unchanged culture, but an operating system where knowledge-updating becomes cheaper, safer, and more productive over time—so you can move fast, break things, and then mend what you break into something stronger.
 
+Underlying both modes is a distinction the program makes explicit: knowledge and myth are not the same thing, and they do not fail the same way. Knowledge explains the world and decays as the world changes—its half-life is the program's central problem. Myth explains you: your orientation toward action, your identity across time, your capacity to remain coherent while the knowledge layer turns over. Myth runs on a different clock entirely. The faster knowledge moves, the more an organization needs a stable myth layer beneath it. The program names both layers and shows how to maintain them.
+
 The program is built around a deliberate toggle between two modes:
 
 * **Run Time**: ordinary operations—execution, decisions, outcomes, accountability to plans.
@@ -474,7 +476,7 @@ The *Dionysus Program* is a strategy for infinite games. Infinite games don’t 
 
 ### How To Read This Document
 
-This essay leans heavily on canonical versions of certain ideas and on naming the people who developed them: Carse on finite and infinite games, Popper on error-correction, Deutsch on explanations, Confucius on ritual (Li) and humaneness (Ren), Durkheim on anomie and social facts, Mauss on the gift, Girard on mimesis and scapegoats, Ibn Khaldun on group feeling (*Asabiyyah*), Weber and Michels on bureaucracy and oligarchy, Turner on ritual, Nietzsche on Apollo and Dionysus, Hegel on tragedy, Prigogine and Ohsumi on autophagy and dissipative structures, Taleb and Mandelbrot on volatility, roughness, and fractals, plus classical patterns like Cincinnatus and Athenian sortition on how extraordinary authority should be granted and withdrawn. That is a design choice. These ideas have been argued, refined, and popularized in public for decades. As a result, large language models are unusually good at explaining them in whatever terms are most accessible to a particular reader—if the reader knows what to ask for.
+This essay leans heavily on canonical versions of certain ideas and on naming the people who developed them: Carse on finite and infinite games, Popper on error-correction, Deutsch on explanations, Confucius on ritual (Li) and humaneness (Ren), Durkheim on anomie and social facts, Mauss on the gift, Girard on mimesis and scapegoats, Ibn Khaldun on group feeling (*Asabiyyah*), Weber and Michels on bureaucracy and oligarchy, Turner on ritual, Nietzsche on Apollo and Dionysus, Hegel on tragedy, Prigogine and Ohsumi on autophagy and dissipative structures, Taleb and Mandelbrot on volatility, roughness, and fractals, Eliade on sacred time and the temporal structure of myth, Wittgenstein on the foundational commitments every system lives from but cannot itself justify, plus classical patterns like Cincinnatus and Athenian sortition on how extraordinary authority should be granted and withdrawn. That is a design choice. These ideas have been argued, refined, and popularized in public for decades. As a result, large language models are unusually good at explaining them in whatever terms are most accessible to a particular reader—if the reader knows what to ask for.
 
 To make that work, give the model direct access to this document whenever possible: paste the full text (or the relevant sections) into the prompt, or use an AI-aware browser/reader that lets the model see the page you are currently viewing. NotebookLM by Google is a particularly good way to learn from and interact with the *Dionysus Program*. With the essay in context, the model can not only explain Popper, Durkheim, or Girard in your language; it can also show you precisely how those ideas are being used in the surrounding paragraphs, and it can do so with much leaner prompts.
 
@@ -499,6 +501,30 @@ You can repeat this pattern at any point: expose the relevant passage, name the 
 ### Overture: The Melt and the Method
 
 Knowledge is unbounded. The only uniquely significant thing about humans is our ability to create new explanations. As Karl Popper showed, we advance by mercilessly killing our errors. David Deutsch spelled the consequence: every explanation we hold is provisional, and a better one can appear at any time. Progress is not patchwork repair; it is controlled demolition.
+
+Knowledge runs on one clock. A better model obsoletes the old one. The half-life shortens. What was true last year is superseded this year. This is progress, and it is merciless.
+
+Myth runs on a different clock—what Mircea Eliade called sacred time. Not a slower clock: no clock at all. The Cincinnatus story is not 2,500 years old in any sense that matters. It is equally present every time someone serves and returns to the plow. It does not age because it is not making claims about the world. It is making a claim about you.
+
+The distinction that matters most:
+
+Knowledge explains phenomena. It makes bets on external reality that reality can win or lose. That is what makes knowledge useful and what makes it mortal.
+
+Myth explains you—your relationship to phenomena, your orientation toward action, your identity across time. It is not falsifiable because it is not competing with any external fact. You cannot disprove the Cincinnatus story by pointing to a CEO who never returned to the plow. That is not a counterexample. It is a person who failed to live inside the myth. The myth does not lose.
+
+The similarity is the one easiest to miss: both are explanatory. They are doing the same epistemic work at different levels. Knowledge orients your model of the world. Myth orients the one doing the modeling. You need both. Neither substitutes for the other.
+
+This distinction carries a specific implication for an era of shortening expertise half-lives.
+
+When knowledge was durable—when professional identity held stable for a career, when an industry's assumptions lasted a generation—myth's comparative advantage was invisible. Knowledge was stable enough to carry identity and orientation on its own. You could anchor to what you knew, because what you knew persisted.
+
+When knowledge becomes radioactive—cycling to obsolescence in months rather than decades—the myth layer becomes the only layer that holds. Not because myth is truer. Because myth does not decay on the same clock. The identity moored to expertise dissolves when the expertise does. The identity moored to myth survives the dissolution and orients the rebuilding.
+
+This is the deepest argument for deliberately cultivating myth in organizations. Not as a soft complement to the real work. Not as narrative decoration layered over strategy. As infrastructure. The faster knowledge moves, the more an organization needs a stable tier below it—stories about how to be, not what is true, that do not age when the product roadmap does.
+
+Apollo governs the knowledge layer: predict, execute, score, update. Dionysus governs the myth layer: metabolize loss, rebuild identity, remain orientable after the map has been redrawn. You cannot strengthen one by optimizing the other. They are answering different questions, running on different clocks, serving different needs.
+
+Run both.
 
 Demolition has a social cost. The more accurate our explanations become, the more they dissolve the meanings we built on top of the old ones. Roles, rituals, and identities stabilize around yesterday’s truths. When those truths are superseded, structures of value and belonging wobble. Émile Durkheim called the resulting condition anomie: normlessness, drift, inner cold. René Girard added the mimetic mechanics: when common objects of desire lose legitimacy, imitation doesn’t disappear; it flips. We become anti-mimetic—defining ourselves by negation, craving status in non-participation, oscillating between apathy and scapegoat hunts.
 
@@ -1324,6 +1350,10 @@ The *Dionysus Program* is intentionally conservative about form. Almost nothing 
 
 * Taleb and Mandelbrot give you the implementation guidance. Design for volatility; keep the shape self-similar.
 
+* Eliade: myth runs on sacred time, not chronos—received forms draw power from being older than your current problem. This is why Lindy-first design works: the form has already survived conditions you have not yet encountered.
+
+* Wittgenstein: every system of thought lives on hinges it cannot itself justify. Know what yours are. Name them as commitments, not conclusions.
+
 The *Dionysus Program* is not about being more “resilient.” It is about becoming more human under accelerating truth. It treats knowledge growth as a gift to be honored with form. It shows how to make speed civil. It makes repair a public art.
 
 ---
@@ -1409,6 +1439,28 @@ The alchemists depicted the Ouroboros—the serpent eating its own tail—as a s
 The Stone must survive the Work. Ren must remain when the structure is complete.
 
 This is how you know the alchemy is real.
+
+## The Hinge
+
+The Dionysus Program makes one claim it cannot subject to itself.
+
+Nothing is sacred except the commitment to metabolize error. This is the program's core. It is also the program's myth—not in the pejorative sense of a false story, but in the precise sense of an orienting commitment that is not itself being put through a Crossing.
+
+The program cannot put this claim on trial without standing on it to do so. You cannot run a Crossing on the frame that makes Crossings intelligible. You cannot falsify the commitment to falsification using the tools that commitment provides. This is not a failure of intellectual honesty. It is a structural necessity. Every system of thought has a foundation the system cannot validate without circularity. Popper cannot falsify falsificationism. Deutsch's principle that all problems are soluble is not itself a solved problem.
+
+Ludwig Wittgenstein called these foundations hinges. Not beliefs we have evaluated and confirmed, but commitments we live from—propositions so foundational that doubting them would make the practice of doubting impossible. The hinge is not known. It is inhabited. The moment it becomes visible as a hypothesis, it has already stopped functioning as a hinge.
+
+The program's hinge: nothing is sacred except the commitment to metabolize error.
+
+State it plainly. This is a myth in the full sense. It describes how to be, not what is true. It makes no falsifiable claims about the world. It orients the perceiver—toward error as gift, toward dissolution as precondition of renewal, toward the painful exposure of wrong explanations as the most honest form of respect for the people who held them.
+
+Recognizing this does not weaken the program. It makes the program more honest about what it is. Every functioning system has a myth layer. The question is never whether you have one. The question is whether you chose it well, and whether you know what you chose.
+
+This myth was chosen well. A commitment to metabolize error is as close to a procedural myth as it is possible to construct—it says almost nothing about what is true and almost everything about how to be. It does not promise specific outcomes. It does not age when the competitive landscape changes. It is equally available to a Roman farmer, a Greek tragedian, a Confucian court, and a software company navigating an AI transition. That is what belongs at the foundation.
+
+But it must be named as myth. Treating it as a knowledge claim—as something the program derived through rigorous analysis and would update if new evidence arrived—would be dishonest. It is prior to analysis. It is what makes analysis possible. Hold it accordingly: not as a conclusion you reached, but as a commitment you made, with eyes open, knowing that it will organize everything else you do.
+
+Everything else in this program is subject to the program. This is not.
 
 ---
 
@@ -2006,6 +2058,38 @@ A minimum viable calendar for a team might look like:
 If your scope is larger than a team, you can sketch the outline of a yearly Rite of Redress: a day when policies, not people, face those they govern and some verdicts stick. Early versions can be small and rough; the key is that they exist and are named.
 
 At every scale, you tag time blocks as Run Time or Ritual Time and say the mode out loud. You resist the urge to smooth away the serrated edge where critique meets order. Frequent small corrections prevent rarer, catastrophic ones.
+
+One more practice, different in kind from the six above: choose your myths carefully.
+
+The six practices above are all subject to the program itself. If they do not raise epimetabolic rate, retire them. Run them through a Crossing. Kill them and replace them with something better. They are knowledge-layer tools—they should behave like knowledge.
+
+But underneath those tools is the myth layer, and the myth layer behaves differently.
+
+Knowledge fails gracefully. When a model is wrong, you update it. When an assumption is refuted, you retire it with honors. The failure is legible. Error-correction handles it cleanly. This is exactly what the program is designed to accelerate.
+
+Myth fails catastrophically.
+
+A myth does not update when reality pushes back. It absorbs the pushback, reframes it, metabolizes it within its own logic. This is its power: it can hold tremendous stress without bending. But the same property that makes myth durable makes it dangerous under the right conditions. When the gap between what a myth promises and what its carriers actually experience becomes too wide to absorb, the myth does not gradually update. It walks. The forms persist, the calendar continues, the vocabulary remains in circulation—but the current is dead. Private disbelief accumulates invisibly, maintained by the social cost of naming the gap.
+
+Then the myth falls. Not gradually—suddenly. Decades of private disbelief become public in months. What made it resistant to small corrosions is precisely what makes it vulnerable to total collapse.
+
+An organization that installs a bad myth does not suffer the slow decline you can intervene on. It suffers sudden collapse when the myth can no longer absorb the lived experience of its carriers.
+
+Before placing anything in the myth layer, ask three questions:
+
+Does it describe how to be, or does it claim what is true? A myth that claims what is true is a knowledge claim wearing ceremonial clothing. It will eventually encounter reality, cannot update, and will collapse. The myths that last describe orientation and posture, not fact: the shape of good authority, the cycle of dissolution and renewal, the commitment to metabolize error.
+
+Does it absorb failure as well as success? The Cincinnatus myth works after a bad quarter. The myth of the invincible team does not. The stories that deserve the foundation position are the ones that remain useful precisely when everything else is going wrong.
+
+Will it still orient people whose circumstances are nothing like ours? A story tied to a particular technology, market position, or cultural moment is not a myth. It is a knowledge claim with ceremonial weight. Myths travel across time because they describe something recurrent in human experience, not something specific to a moment.
+
+The program's own myth—nothing is sacred except the commitment to metabolize error—was chosen to pass all three tests. It describes how to be. It absorbs failure; it is most alive under failure. It will remain useful when everything it currently touches has changed.
+
+That is why it sits at the foundation.
+
+That is why it does not go through a Crossing.
+
+Choose yours with the same care.
 
 Installed together, these six practices already constitute a *Dionysus Program* in miniature. You toggle the mode, give conflict a lawful altar, tell your losses as tragedies, protect the cooling interval, feed on your own decay, and let the loop repeat. The forms can be simple and improvised; what matters is that they exist, and that you keep them. The rest is elaboration and ornament. If you want a single test of whether they are working, it is this: six months from now, is it easier and faster for this group to change its mind in public than it is today? If yes, your epimetabolic rate is rising. If no, the rest is ornament. And if someone here can plausibly make a career mainly as "keeper of the rites," you have work to do on governance before you add more form.
 

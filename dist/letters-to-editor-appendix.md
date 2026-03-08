@@ -6,7 +6,7 @@ The following letters are hypothetical responses imagined through the lens of th
 
 **Letters index:**
 
-[Abe Silverstein](#not-abe-silverstein) · [Adam Neumann](#not-adam-neumann) · [Alexis de Tocqueville](#not-alexis-de-tocqueville) · [Alfred Sloan](#not-alfred-sloan) · [Andy Grove](#not-andy-grove) · [Apollo](#not-apollo) · [Aristotle](#not-aristotle) · [Benoit Mandelbrot](#not-benoit-mandelbrot) · [Carl Icahn](#not-carl-icahn) · [Carl Jung](#not-carl-jung) · [Claude Shannon](#not-claude-shannon) · [Confucius](#not-confucius) · [David Deutsch](#not-david-deutsch) · [Dionysus](#not-dionysus) · [Ed Catmull](#not-ed-catmull) · [Elon Musk](#not-elon-musk) · [Émile Durkheim](#not-emile-durkheim) · [Friedrich Nietzsche](#not-friedrich-nietzsche) · [Georg Wilhelm Friedrich Hegel](#not-georg-wilhelm-friedrich-hegel) · [Greg Smith](#not-greg-smith) · [Howie Makem](#not-howie-makem) · [Ibn Khaldun](#not-ibn-khaldun) · [Ilya Prigogine](#not-ilya-prigogine) · [Immanuel Kant](#not-immanuel-kant) · [Isaac Newton](#not-isaac-newton) · [J. Robert Oppenheimer](#not-j-robert-oppenheimer) · [James Carse](#not-james-carse) · [Jane Jacobs](#not-jane-jacobs) · [Job](#not-job) · [Johan Huizinga](#not-johan-huizinga) · [Karl Popper](#not-karl-popper) · [Kelly Johnson](#not-kelly-johnson) · [Kevin Feige](#not-kevin-feige) · [Lucius Quinctius Cincinnatus](#not-lucius-quinctius-cincinnatus) · [Machiavelli](#not-machiavelli) · [Marcel Mauss](#not-marcel-mauss) · [Mary Douglas](#not-mary-douglas) · [Max Weber](#not-max-weber) · [Michel Foucault](#not-michel-foucault) · [Mike Lazaridis](#not-mike-lazaridis) · [Mikhail Gorbachev](#not-mikhail-gorbachev) · [Nassim Nicholas Taleb](#not-nassim-nicholas-taleb) · [Peter Thiel](#not-peter-thiel) · [Reid Hoffman](#not-reid-hoffman) · [René Girard](#not-rene-girard) · [Seneca](#not-seneca) · [Steve Jobs](#not-steve-jobs) · [Steve Sasson](#not-steve-sasson) · [Susan Fowler](#not-susan-fowler) · [Victor Turner](#not-victor-turner) · [Yoshinori Ohsumi](#not-yoshinori-ohsumi)
+[Abe Silverstein](#not-abe-silverstein) · [Adam Neumann](#not-adam-neumann) · [Alexis de Tocqueville](#not-alexis-de-tocqueville) · [Alfred Sloan](#not-alfred-sloan) · [Andy Grove](#not-andy-grove) · [Apollo](#not-apollo) · [Aristotle](#not-aristotle) · [Benoit Mandelbrot](#not-benoit-mandelbrot) · [Carl Icahn](#not-carl-icahn) · [Carl Jung](#not-carl-jung) · [Claude Shannon](#not-claude-shannon) · [Confucius](#not-confucius) · [David Deutsch](#not-david-deutsch) · [Dionysus](#not-dionysus) · [Ed Catmull](#not-ed-catmull) · [Elon Musk](#not-elon-musk) · [Émile Durkheim](#not-emile-durkheim) · [Friedrich Nietzsche](#not-friedrich-nietzsche) · [Georg Wilhelm Friedrich Hegel](#not-georg-wilhelm-friedrich-hegel) · [Greg Smith](#not-greg-smith) · [Howie Makem](#not-howie-makem) · [Ibn Khaldun](#not-ibn-khaldun) · [Ilya Prigogine](#not-ilya-prigogine) · [Immanuel Kant](#not-immanuel-kant) · [Isaac Newton](#not-isaac-newton) · [J. Robert Oppenheimer](#not-j-robert-oppenheimer) · [James Carse](#not-james-carse) · [Jane Jacobs](#not-jane-jacobs) · [Job](#not-job) · [Johan Huizinga](#not-johan-huizinga) · [Karl Popper](#not-karl-popper) · [Kelly Johnson](#not-kelly-johnson) · [Kevin Feige](#not-kevin-feige) · [Lucius Quinctius Cincinnatus](#not-lucius-quinctius-cincinnatus) · [Machiavelli](#not-machiavelli) · [Marcel Mauss](#not-marcel-mauss) · [Mary Douglas](#not-mary-douglas) · [Max Weber](#not-max-weber) · [Michel Foucault](#not-michel-foucault) · [Mike Lazaridis](#not-mike-lazaridis) · [Mikhail Gorbachev](#not-mikhail-gorbachev) · [Mircea Eliade](#not-mircea-eliade) · [Nassim Nicholas Taleb](#not-nassim-nicholas-taleb) · [Peter Thiel](#not-peter-thiel) · [Reid Hoffman](#not-reid-hoffman) · [René Girard](#not-rene-girard) · [Seneca](#not-seneca) · [Steve Jobs](#not-steve-jobs) · [Steve Sasson](#not-steve-sasson) · [Susan Fowler](#not-susan-fowler) · [Victor Turner](#not-victor-turner) · [Yoshinori Ohsumi](#not-yoshinori-ohsumi)
 
 <hr class="letter-divider" />
 
@@ -2098,6 +2098,55 @@ The Dionysus Program is dangerous. It plays with fire. But I tell you from the a
 We failed to mend what we broke. We could not hold the melt. I pray you have better luck.
 
 Not Mikhail Gorbachev
+
+```{=latex}
+\end{quote}
+```
+
+```{=html}
+</div>
+```
+
+<hr class="letter-divider" />
+
+```{=latex}
+\newpage
+```
+
+#### *Not* Mircea Eliade {#not-mircea-eliade}
+
+```{=html}
+<div class="letter-body">
+```
+
+```{=latex}
+\begin{quote}
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+\setlength{\leftskip}{0.4em}
+\setlength{\rightskip}{0.4em}
+\rmfamily
+```
+
+The program borrows my language generously. Sacred time, myth running on a different clock, the eternal return of forms older than any organization's current problem. I am cited as a tool for making ritual legible to managers, which is perhaps the most modern thing that could happen to my work.
+
+Let me say what the program understands and then what it does not.
+
+It understands that myth and knowledge are not the same kind of thing. This is correct and important, and most people who use these words together do not understand it. The Cincinnatus story does not age. The corn-god dies and rises whether we believe in corn or not. The program grasps that this temporal difference is structural, not decorative. I am grateful for the precision.
+
+But here is where I must disagree, and I think the disagreement matters.
+
+The program says that myth explains you. It says myth orients the one doing the modeling. This is true. But then it makes a move I cannot follow: it recommends that leaders choose their myths carefully, as infrastructure, to serve epimetabolic rate. And here the program reveals that it has not quite understood what it is handling.
+
+You do not choose a myth the way you choose a container for your rituals. The sacred does not wait to be selected for functional reasons. When you say nothing is sacred except the commitment to metabolize error, you have named a hinge, correctly. But you have also named a peculiarly modern kind of myth: a myth that forbids the sacred while performing the sacred. This is not a criticism of your sincerity. It is a description of what secular man does when he has lost access to the genuine hierophany and must manufacture the feeling of it through controlled containers, rotating stewards, and fractal calendars.
+
+What the program calls Ritual Time is not what the archaic traditions called sacred time. Sacred time in my sense is not a protected container you toggle into. It is an irruption of the primordial into the present. The rite does not create the contact with origin; it is the contact. The difference is not small. When a ritual is designed to raise epimetabolic rate, it is not a ritual in the sense I mean. It is theater that knows it is theater and hopes this self-awareness is enough.
+
+I do not say this to be cruel to a program that tries very hard and gets much right. I say it because the program's own diagnosis is accurate: forms without the current that fills them are hollow. What I would add is that the current the program calls Ren is not finally a product of play, hiring practices, or shared mission. It is a product of genuine participation in sacred time, which is to say, participation in something that is not yours to design.
+
+Modern organizations cannot manufacture this. They can only, at best, clear some ground and wait.
+
+Not Mircea Eliade
 
 ```{=latex}
 \end{quote}

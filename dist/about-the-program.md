@@ -7,6 +7,8 @@ The *Dionysus Program* is a field manual for leaders facing that bottleneck. Wri
 
 It argues for a new scoreboard: **epimetabolic rate**—the speed at which a person, team, or organization converts error into new structure without burning its social fabric. The method is a loop you can actually run: critique → dissolution → reconstitution → renewal. Not "more candor" stapled onto an unchanged culture, but an operating system where knowledge-updating becomes cheaper, safer, and more productive over time—so you can move fast, break things, and then mend what you break into something stronger.
 
+Underlying both modes is a distinction the program makes explicit: knowledge and myth are not the same thing, and they do not fail the same way. Knowledge explains the world and decays as the world changes—its half-life is the program's central problem. Myth explains you: your orientation toward action, your identity across time, your capacity to remain coherent while the knowledge layer turns over. Myth runs on a different clock entirely. The faster knowledge moves, the more an organization needs a stable myth layer beneath it. The program names both layers and shows how to maintain them.
+
 The program is built around a deliberate toggle between two modes:
 
 * **Run Time**: ordinary operations—execution, decisions, outcomes, accountability to plans.

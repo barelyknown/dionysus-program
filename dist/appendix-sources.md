@@ -18,6 +18,10 @@ Confucius. The Analects (c. 475 BCE). [Free](https://www.gutenberg.org/ebooks/33
 
 David Deutsch. The Beginning of Infinity: Explanations that Transform the World (2011). [Amazon](https://www.amazon.com/Beginning-Infinity-Explanations-Transform-World/dp/0143121359)
 
+Mircea Eliade. The Myth of the Eternal Return (1949). [Amazon](https://www.amazon.com/s?k=Mircea+Eliade+The+Myth+of+the+Eternal+Return)
+
+Mircea Eliade. The Sacred and the Profane (1957). [Amazon](https://www.amazon.com/s?k=Mircea+Eliade+The+Sacred+and+the+Profane)
+
 Émile Durkheim. The Division of Labor in Society (1893). [Free](https://archive.org/details/divisionoflabori0000durk) · [Amazon](https://www.amazon.com/Division-Labor-Society-Emile-Durkheim/dp/0684836386)
 
 Émile Durkheim. The Elementary Forms of the Religious Life (1912). [Free](https://archive.org/details/elementaryformso00durk) · [Amazon](https://www.amazon.com/Elementary-Forms-Religious-Life/dp/0199540128)
@@ -89,3 +93,5 @@ Alexis de Tocqueville. Democracy in America (1835). [Free](https://www.gutenberg
 Victor Turner. The Ritual Process: Structure and Anti-Structure (1969). [Amazon](https://www.amazon.com/Ritual-Process-Structure-Anti-Structure/dp/0202011909)
 
 Max Weber. Economy and Society (1922). [Free](https://archive.org/details/MaxWeberEconomyAndSociety) · [Amazon](https://www.amazon.com/Economy-Society-Outline-Interpretive-Sociology/dp/0520280024)
+
+Ludwig Wittgenstein. On Certainty (1969). [Amazon](https://www.amazon.com/s?k=Ludwig+Wittgenstein+On+Certainty)
