@@ -1,6 +1,9 @@
 #!/usr/bin/env node
 /**
- * Build a dense plain-text version of the Dionysus Program.
+ * Build a legacy dense plain-text version of the Dionysus Program.
+ *
+ * This artifact is not consumed by the site build; the site uses the
+ * LLM-compressed context text in dist/dionysus-program-context.txt.
  *
  * Usage: node build-dense-text.js
  * Output: dist/dionysus-program-dense.txt
