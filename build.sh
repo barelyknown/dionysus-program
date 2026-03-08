@@ -34,9 +34,23 @@ PRAISE_MD="$DIST_DIR/praise.md"
 PRAISE_HTML="$ROOT_DIR/praise.html"
 PRAISE_META="$DIST_DIR/praise-rotator.yaml"
 PRINT_FILTER="$ROOT_DIR/filters/print.lua"
+PUBLICATION_DETAILS_FILTER="$ROOT_DIR/filters/publication-details.lua"
 LLM_CONTEXT_TXT="$DIST_DIR/dionysus-program-context.txt"
 LLM_CONTEXT_SCRIPT="$ROOT_DIR/build-llm-context.js"
 LLM_CONTEXT_JS="$DIST_DIR/llm-context.js"
+PUBLISH_META="$DIST_DIR/.publish-metadata.yaml"
+REVISION_DETAILS="$DIST_DIR/source-revision.txt"
+
+PUBLISH_REVISION_FULL=""
+PUBLISH_REVISION_SHORT=""
+PUBLISHED_AT_UTC=""
+PUBLISHED_AT_ISO=""
+
+cleanup_publish_metadata() {
+  rm -f "$PUBLISH_META"
+}
+
+trap cleanup_publish_metadata EXIT
 
 if ! command -v pandoc >/dev/null 2>&1; then
   echo "pandoc is required but not installed" >&2
@@ -71,9 +85,71 @@ update_rights_year() {
   fi
 }
 
+write_publish_metadata() {
+  local revision_full revision_short published_at_utc published_at_iso
+
+  if ! git -C "$ROOT_DIR" rev-parse HEAD >/dev/null 2>&1; then
+    : > "$PUBLISH_META"
+    : > "$REVISION_DETAILS"
+    return
+  fi
+
+  revision_full="$(git -C "$ROOT_DIR" rev-parse HEAD)"
+  revision_short="$(git -C "$ROOT_DIR" rev-parse --short=12 HEAD)"
+  published_at_utc="$(date -u '+%Y-%m-%d %H:%M UTC')"
+  published_at_iso="$(date -u '+%Y-%m-%dT%H:%M:%SZ')"
+
+  PUBLISH_REVISION_FULL="$revision_full"
+  PUBLISH_REVISION_SHORT="$revision_short"
+  PUBLISHED_AT_UTC="$published_at_utc"
+  PUBLISHED_AT_ISO="$published_at_iso"
+
+  cat > "$PUBLISH_META" <<EOF
+source-revision: "$revision_full"
+source-revision-short: "$revision_short"
+published-at-utc: "$published_at_utc"
+published-at-iso: "$published_at_iso"
+EOF
+
+  cat > "$REVISION_DETAILS" <<EOF
+commit=${revision_full}
+short=${revision_short}
+published_at_utc=${published_at_utc}
+published_at_iso=${published_at_iso}
+EOF
+}
+
+copy_published_markdown() {
+  local target_file="$1"
+
+  cp "$ESSAY_MD" "$target_file"
+
+  if [[ ! -s "$PUBLISH_META" ]]; then
+    return
+  fi
+
+  awk \
+    -v revision_full="$PUBLISH_REVISION_FULL" \
+    -v revision_short="$PUBLISH_REVISION_SHORT" \
+    -v published_at_utc="$PUBLISHED_AT_UTC" \
+    -v published_at_iso="$PUBLISHED_AT_ISO" \
+    'NR == 1 && $0 == "---" { in_frontmatter = 1; print; next }
+     in_frontmatter && $0 == "---" {
+       print "source-revision: \"" revision_full "\""
+       print "source-revision-short: \"" revision_short "\""
+       print "published-at-utc: \"" published_at_utc "\""
+       print "published-at-iso: \"" published_at_iso "\""
+       print
+       in_frontmatter = 0
+       next
+     }
+     { print }' "$target_file" > "$target_file.tmp" && mv "$target_file.tmp" "$target_file"
+}
+
 mkdir -p "$DIST_DIR"
 
 update_rights_year
+write_publish_metadata
 
 node "$PRAISE_SCRIPT" "$PRAISE_JSON" "$PRAISE_MD" "$PRAISE_META"
 echo "Wrote praise markdown to $PRAISE_MD"
@@ -85,13 +161,25 @@ echo "Wrote pull quotes HTML to $PULL_QUOTES_HTML"
 
 node "$PULL_QUOTES_RENDER_SCRIPT" "$PULL_QUOTES_IMAGES_DIR" "$PULL_QUOTES_HTML"
 
-pandoc "$ESSAY_MD" "$LETTERS_APPENDIX" "$SOURCES_MD" \
-  "$INDEX_APPENDIX" \
+BOOK_INPUTS=(
+  "$ESSAY_MD"
+  "$LETTERS_APPENDIX"
+  "$SOURCES_MD"
+  "$INDEX_APPENDIX"
+)
+
+BOOK_METADATA_ARGS=()
+if [[ -s "$PUBLISH_META" ]]; then
+  BOOK_METADATA_ARGS+=("--metadata-file=$PUBLISH_META")
+fi
+
+pandoc "${BOOK_INPUTS[@]}" \
   --from=markdown \
   --toc \
   --toc-depth=3 \
   --metadata=toc-title:"Contents" \
   --metadata-file="$PRAISE_META" \
+  "${BOOK_METADATA_ARGS[@]}" \
   --to=html5 \
   --template="$TEMPLATE" \
   --standalone \
@@ -115,7 +203,7 @@ echo "Wrote praise HTML to $PRAISE_HTML"
 
 node "$ROOT_DIR/reorder-about-program.js" "$HTML_OUT"
 
-cp "$ESSAY_MD" "$DIST_DIR/essay.md"
+copy_published_markdown "$DIST_DIR/essay.md"
 echo "Copied Markdown to $DIST_DIR/essay.md"
 
 node "$ABOUT_PROGRAM_SCRIPT" "$ESSAY_MD" "$ABOUT_PROGRAM_OUT"
@@ -151,12 +239,12 @@ if [[ -f "$FAVICON_180" ]]; then
   echo "Copied favicon 180px to $DIST_DIR/dionysus-program-favicon-180.png"
 fi
 
-pandoc "$ESSAY_MD" "$LETTERS_APPENDIX" "$SOURCES_MD" \
-  "$INDEX_APPENDIX" \
+pandoc "${BOOK_INPUTS[@]}" \
   --from=markdown \
   --toc \
   --toc-depth=3 \
   --metadata=toc-title:"Contents" \
+  "${BOOK_METADATA_ARGS[@]}" \
   --to=epub3 \
   --split-level=3 \
   --css="$EPUB_CSS" \
@@ -164,6 +252,7 @@ pandoc "$ESSAY_MD" "$LETTERS_APPENDIX" "$SOURCES_MD" \
   --lua-filter="$ROOT_DIR/filters/add-classes.lua" \
   --lua-filter="$ROOT_DIR/filters/remove-simulation-links.lua" \
   --lua-filter="$ROOT_DIR/filters/remove-title.lua" \
+  --lua-filter="$PUBLICATION_DETAILS_FILTER" \
   --output="$EPUB_OUT"
 
 echo "Wrote EPUB to $EPUB_OUT"
@@ -174,12 +263,12 @@ if command -v xelatex >/dev/null 2>&1; then
 fi
 
 if [[ -n "$PDF_ENGINE" ]]; then
-  pandoc "$ESSAY_MD" "$LETTERS_APPENDIX" "$SOURCES_MD" \
-    "$INDEX_APPENDIX" \
+  pandoc "${BOOK_INPUTS[@]}" \
     --from=markdown \
     --toc \
     --toc-depth=3 \
     --metadata=toc-title:"Contents" \
+    "${BOOK_METADATA_ARGS[@]}" \
     --pdf-engine="$PDF_ENGINE" \
     --standalone \
     --lua-filter="$ROOT_DIR/filters/add-classes.lua" \
@@ -190,13 +279,13 @@ if [[ -n "$PDF_ENGINE" ]]; then
     --output="$PDF_OUT"
   echo "Wrote PDF to $PDF_OUT (via $PDF_ENGINE)"
 
-  pandoc "$ESSAY_MD" "$LETTERS_APPENDIX" "$SOURCES_MD" \
-    "$INDEX_APPENDIX" \
+  pandoc "${BOOK_INPUTS[@]}" \
     --from=markdown \
     --toc \
     --toc-depth=3 \
     --metadata=toc-title:"Contents" \
     --metadata=print:true \
+    "${BOOK_METADATA_ARGS[@]}" \
     --pdf-engine="$PDF_ENGINE" \
     --standalone \
     --lua-filter="$ROOT_DIR/filters/add-classes.lua" \

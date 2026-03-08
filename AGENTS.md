@@ -6,6 +6,7 @@
 - `templates/` and `filters/` contain the Pandoc templates and Lua filters that shape HTML/PDF output.
 - `styles.css` defines the site typography; `index.html` is generated, not hand-edited.
 - `dist/` ships generated artifacts: `dionysus-program.pdf` and a copy of the Markdown (`essay.md`).
+- `skills/` holds repo-specific Codex skills for build/publish/proofing workflows.
 
 ## Build, Test, and Development Commands
 - `./build.sh` — Regenerates `index.html`, copies `dist/essay.md`, and rebuilds `dist/dionysus-program.pdf`. Requires `pandoc` and ideally `xelatex` for PDFs.
@@ -34,5 +35,6 @@
 ## Skills
 - dionysus-build: Build or rebuild the Dionysus Program site outputs (HTML/PDF/Markdown) using `./build.sh`. Use when asked to build, rebuild, regenerate outputs, update the PDF/HTML, or verify generated artifacts in this repo. (file: skills/dionysus-build/SKILL.md)
 - dionysus-dense-text: Build the LLM-compressed context text used by the site, and optionally the legacy dense plaintext artifact. Use when asked to rebuild `dist/dionysus-program-context.txt`, refresh the context download, or regenerate compressed plain-text context outputs. (file: skills/dionysus-dense-text/SKILL.md)
+- dionysus-publish: Publish The Dionysus Program from a committed source revision so the stamped SHA and UTC publish time match the source commit that produced the book artifacts. Use when asked to publish the site/book, cut a release build, or generate stamped artifacts from a clean commit. (file: skills/dionysus-publish/SKILL.md)
 - dionysus-pull-quotes: Generate short, memorable pull quotes from `essay.md` and `letters_to_editor/*.txt`, then output a JSON file with quote/author/source attribution. Use when asked to curate pull quotes, quote lists, or pull-quote JSON for the essay or letters to the editor. (file: skills/dionysus-pull-quotes/SKILL.md)
 - print-pdf-proofing: Review print-ready PDF page images for professional book-quality layout. Use when asked to proof, QA, or visually review the print PDF for spacing, page breaks, running heads, margins, widows/orphans, and other production-quality issues. (file: skills/print-pdf-proofing/SKILL.md)

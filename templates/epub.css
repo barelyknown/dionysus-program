@@ -112,3 +112,18 @@ nav[epub|type~="toc"] ul ul {
 .sim-link {
   margin: 1em 0 1.5em;
 }
+
+.publication-details {
+  margin: 1.5em 0 2em;
+  padding-bottom: 0.9em;
+  border-bottom: 0.08em solid #cfc8bf;
+  color: #5c5750;
+}
+
+.publication-details p:first-child {
+  margin-top: 0;
+}
+
+.publication-details code {
+  word-break: break-word;
+}
