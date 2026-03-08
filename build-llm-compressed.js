@@ -7,12 +7,12 @@
  * 2) Use pandoc + Lua filter to emit plain text with TOC markers.
  * 3) Split by TOC (H1/H2) into sections; split Appendix B per archetype and Letters appendix per letter.
  * 4) Use "About the Program" as anchor context to derive a global lexicon.
- * 5) Compress each section with GPT-5.2 (Responses API, reasoning high), aggressive targets.
+ * 5) Compress each section with GPT-5.4 (Responses API, reasoning high), aggressive targets.
  * 6) Final merge pass to tighten output (single-pass if it fits).
  *
  * Usage:
  *   node build-llm-compressed.js
- *   node build-llm-compressed.js --model gpt-5.2 --reasoning high
+ *   node build-llm-compressed.js --model gpt-5.4 --reasoning high
  *   node build-llm-compressed.js --max-chars 14000
  *
  * Env vars:
@@ -36,7 +36,7 @@ const SOURCES_MD = path.join(ROOT, 'appendix-sources.md');
 const KEYWORDS_TXT = path.join(ROOT, 'keywords.txt');
 
 const DEFAULT_API_URL = 'https://api.openai.com/v1/responses';
-const DEFAULT_MODEL = 'gpt-5.2';
+const DEFAULT_MODEL = 'gpt-5.4';
 const DEFAULT_REASONING = 'high';
 const DEFAULT_ABOUT_MAX_CHARS = 8000;
 const DEFAULT_MERGE_MAX_CHARS = 24000;
@@ -687,6 +687,12 @@ function pickEncodingForModel(model) {
 
 function getModelLimits(model) {
   const id = String(model || '').toLowerCase();
+  if (id.includes('gpt-5.4-pro')) {
+    return { contextTokens: 1050000, maxOutputTokens: 128000 };
+  }
+  if (id.includes('gpt-5.4')) {
+    return { contextTokens: 1050000, maxOutputTokens: 128000 };
+  }
   if (id.includes('gpt-5.2-chat')) {
     return { contextTokens: 128000, maxOutputTokens: 16384 };
   }
