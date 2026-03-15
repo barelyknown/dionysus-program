@@ -2,8 +2,8 @@ name: LinkedIn Publish Due
 
 on:
   schedule:
-    - cron: "20 16 * * 1-5"
-    - cron: "5 21 * * 1-5"
+    - cron: "40 12 * * 1-5"
+    - cron: "40 13 * * 1-5"
   workflow_dispatch:
     inputs:
       dry_run:
