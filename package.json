@@ -3,6 +3,16 @@
   "private": true,
   "scripts": {
     "check": "bash ./agent/check.sh",
+    "social:plan-week": "node social/cli/plan-week.js",
+    "social:scan-timely": "node social/cli/scan-timely.js",
+    "social:build-brief": "node social/cli/build-brief.js",
+    "social:generate-candidates": "node social/cli/generate-candidates.js",
+    "social:score-candidates": "node social/cli/score-candidates.js",
+    "social:publish-due": "node social/cli/publish-due.js",
+    "social:rebuild-memory": "node social/cli/rebuild-memory.js",
+    "social:validate-state": "node social/cli/validate-state.js",
+    "social:replay-run": "node social/cli/replay-run.js",
+    "test:social": "node --test social/test/*.test.js",
     "test:e2e": "playwright test",
     "test:e2e:update": "playwright test --update-snapshots",
     "test:e2e:headed": "playwright test --headed"
@@ -11,5 +21,8 @@
     "@axe-core/playwright": "^4.9.0",
     "@playwright/test": "^1.49.0",
     "gpt-tokenizer": "^3.4.0"
+  },
+  "dependencies": {
+    "yaml": "^2.8.2"
   }
 }

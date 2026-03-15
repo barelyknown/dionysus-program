@@ -1,0 +1,201 @@
+timezone: America/Los_Angeles
+voice:
+  description: "Founder-level seriousness, operator clarity, intellectually rich but not academic, human, direct, unsentimental."
+  disallowed_phrases:
+    - "game changer"
+    - "lean in"
+    - "thrilled to announce"
+    - "link in comments"
+    - "incredible journey"
+  defaults:
+    allow_hashtags: false
+    allow_emojis: false
+    allow_links: false
+provider_defaults:
+  mode: fixture
+  claude_model: claude-opus-4-6
+  openai_model: gpt-5.4
+  gemini_agent: deep-research-pro-preview-12-2025
+book_context:
+  title: The Dionysus Program
+  subtitle: Rites of Renewal
+  soft_mention: true
+  mention_free: true
+  allow_links: false
+  closing_style: soft_close
+publishing:
+  default_timezone: America/Los_Angeles
+  baseline_slots:
+    - weekday: monday
+      time: "08:30"
+      slot_type: baseline
+    - weekday: tuesday
+      time: "08:30"
+      slot_type: baseline
+    - weekday: wednesday
+      time: "08:30"
+      slot_type: baseline
+    - weekday: thursday
+      time: "08:30"
+      slot_type: baseline
+    - weekday: friday
+      time: "08:30"
+      slot_type: baseline
+  timely_slots: []
+memory:
+  rolling_window_days: 84
+  hook_cooldown_days: 45
+  angle_cooldown_days: 75
+  topic_thesis_cooldown_days: 120
+  timely_subject_cooldown_days: 30
+  source_reuse_cooldown_days: 21
+generation:
+  best_of_n: 4
+  prompt_variants:
+    - hook_forward
+    - diagnosis_forward
+    - operator_forward
+    - contrarian_forward
+content_types:
+  extracted_insight:
+    enabled: true
+    target_weight: 0.20
+    rolling_min: 1
+    rolling_max: 8
+    weekdays: [monday, wednesday, friday]
+    timely_eligible: false
+    cooldown_days: 14
+  decoder_ring:
+    enabled: true
+    target_weight: 0.25
+    rolling_min: 1
+    rolling_max: 10
+    weekdays: [monday, wednesday, thursday]
+    timely_eligible: true
+    cooldown_days: 7
+  ritual_recipe:
+    enabled: true
+    target_weight: 0.15
+    rolling_min: 0
+    rolling_max: 6
+    weekdays: [tuesday, friday]
+    timely_eligible: false
+    cooldown_days: 21
+  archetype_diagnosis:
+    enabled: true
+    target_weight: 0.15
+    rolling_min: 0
+    rolling_max: 6
+    weekdays: [tuesday, thursday]
+    timely_eligible: true
+    cooldown_days: 21
+  high_lindy_source_tour:
+    enabled: true
+    target_weight: 0.10
+    rolling_min: 0
+    rolling_max: 4
+    weekdays: [thursday, friday]
+    timely_eligible: false
+    cooldown_days: 28
+  cautionary_tale:
+    enabled: true
+    target_weight: 0.05
+    rolling_min: 0
+    rolling_max: 3
+    weekdays: [thursday, friday]
+    timely_eligible: false
+    cooldown_days: 28
+  from_the_mailbag:
+    enabled: true
+    target_weight: 0.07
+    rolling_min: 0
+    rolling_max: 3
+    weekdays: [tuesday, thursday]
+    timely_eligible: false
+    cooldown_days: 28
+  short_story:
+    enabled: true
+    target_weight: 0.03
+    rolling_min: 0
+    rolling_max: 1
+    weekdays: [friday]
+    timely_eligible: false
+    cooldown_days: 56
+topics:
+  - "The Apollo Program is necessary but insufficient because optimization cannot metabolize meaning."
+  - "Apollo and Dionysus are complements, not substitutes: one optimizes the known system, the other governs death and rebirth."
+  - "Run Time and Ritual Time require different forms of accountability."
+  - "Name the Mode creates common knowledge about what kind of truth the room can bear."
+  - "The Alchemy of Error is the practical art of turning disruption into better structure."
+  - "Epimetabolic Rate is the only scoreboard that really matters in periods of fast change."
+  - "Environmental melt and chosen melt are different variables and should not be confused."
+  - "Melt is not the enemy; unmanaged melt is."
+  - "Overflow does quadratic damage when melt outruns capacity."
+  - "The competitive threshold rises with cumulative environmental melt."
+  - "Internal collapse and competitive collapse are distinct failure modes."
+  - "Waste is often an insurance policy against uncertainty, not simply an error."
+  - "Planning tools are communication tools when they make uncertainty socially admissible before the fact."
+  - "Autophagic growth means healthy organizations learn to eat their own decay."
+  - "Deprecation Ceremonies, Scrap Heap Libraries, and Sunset Budgets turn dead structure into usable memory instead of haunted residue."
+  - "Trust burns faster than organizations know how to rebuild it."
+  - "Li can be designed, but Ren has to be generated."
+  - "The Readiness Gate is the difference between a real rite and a struggle session."
+  - "Exhausted people cannot metabolize truth safely; the substrate test is metabolic, not just moral."
+  - "The catechumenate comes before the high-heat rite."
+  - "AI independence and distributed work shrink the surface area where trust used to form by accident."
+  - "The One-Man Job makes organizations more efficient and less socially coherent at the same time."
+  - "Collaboration, mission or quality, and play are distinct channels for generating Ren."
+  - "Play is not mandatory fun, and play is not the same thing as rest."
+  - "Waiting for organic trust in a fast-melt environment can be negligence dressed as virtue."
+  - "The Impatience of Jobs is the problem of compressing relational time without building a cult."
+  - "Lock-in is not trust; would they leave if they could is the real test."
+  - "To found trust without building a cult, leaders must transgress, recognize, release, and submit."
+  - "The Anti-Scapegoat lets a group attack the problem without attacking a person."
+  - "The Standing Right of Criticism makes rival explanations lawful without permission."
+  - "The hard-to-vary test makes criticism sharper and less political."
+  - "Severability and reversibility make criticism cheaper and therefore more honest."
+  - "Game Tape Review makes public wrongness safe while errors are still cheap."
+  - "The Crossing is the protected threshold where truth can become common knowledge without social rupture."
+  - "The Weekly Crossing is a practical recurring ritual for metabolizing drift before it hardens."
+  - "The Great Dissolution is a real rite of meaning-loss, not a dramatic meeting format."
+  - "Tragic Postmortems should change identity, not just improve documentation."
+  - "Beautiful Heat and the Fallow Interval are thermodynamic requirements for renewal, not decorative extras."
+  - "The Cincinnatus Rule means no one gets to live in the temple."
+  - "Ritual oligarchy and sacerdotal capture are predictable phase transitions, not surprise pathologies."
+  - "Agenda control, interpretive monopoly, and ritual inflation are early symptoms of captured rites."
+  - "Captured rites create negative selection against the people best able to metabolize error."
+  - "Hard Limits on Liminality prevent ritual heat from spilling into ordinary domination."
+  - "The Jester's Privilege creates lawful protected speech against doctrinal drift."
+  - "Sortition is underrated as a way to keep renewal from becoming a managed performance."
+  - "Crimes Against Ren are real because truth can still be weaponized against the substrate that makes truth possible."
+  - "Lashon Hara, Chillul Hashem, atimia, exile, and victim-centered reconciliation make the law of repair real."
+  - "Living law has to submit itself to the same anti-scapegoat logic it imposes on everyone else."
+  - "Knowledge and myth solve different problems, and organizations fail when they confuse them."
+  - "The faster knowledge changes, the more an organization needs a stable myth layer."
+  - "Good myths describe how to be, not what is true."
+  - "A myth should absorb failure as well as success, or it will betray the group when pressure rises."
+  - "Bad organizational myths do not decay slowly; they walk until they suddenly collapse."
+  - "The Hinge is the procedural myth a system lives from but cannot justify from inside itself."
+  - "Mission Theater and the Theater Gap destroy trust faster than silence."
+  - "Chronos and kairos are not the same kind of time."
+  - "The Durkheim Constraint explains why ritual must feel received, not merely invented."
+  - "Rectification of Names matters because a leader who cannot call failure failure makes ritual truth-telling a farce."
+  - "The Village Honest Person is perfect compliance without soul: Li without Ren made flesh."
+  - "The Dionysian Ideal."
+  - "The High Performer."
+  - "The Virtuous Cycle."
+  - "Moderate Growth."
+  - "The Fragile Survivor."
+  - "The Gambler."
+  - "The Pyrrhic Leader."
+  - "The Churn Machine."
+  - "The Sitting Duck."
+  - "The Outpaced."
+  - "Management Theater."
+  - "The Overwhelmed."
+  - "Oligarchic Decay."
+  - "The Slow Decline."
+  - "The Death Spiral."
+mailbag:
+  source_file: social/history/mailbag.jsonl
+  require_provenance: true

@@ -3,6 +3,9 @@ node_modules/
 playwright-artifacts/
 agent/artifacts/
 .cache/
+.env.social.local
+social/cache/research/*.json
+social/runs/*.json
 npm-debug.log*
 pnpm-debug.log*
 yarn-debug.log*
