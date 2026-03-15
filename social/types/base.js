@@ -82,7 +82,6 @@ function createContentType({
         research_bundle_id: researchBundle?.id || null,
         research_summary: researchBundle?.summary || null,
         citations: researchBundle?.sources || [],
-        source_evidence: context.sourceEvidence || [],
         full_compressed_context: context.contextText || '',
         mailbag_item: mailbagItem || null,
         context_excerpt: context.llmContextExcerpt.slice(0, 6),
@@ -93,9 +92,6 @@ function createContentType({
     },
     buildPrompt(brief, variant) {
       const variantInstructions = this.getVariantInstructions()[variant] || '';
-      const evidenceText = (brief.source_evidence || [])
-        .map((entry) => `- [${entry.id}] ${entry.text} (${entry.source})`)
-        .join('\n');
       return [
         `You are writing a LinkedIn post for Sean Devine.`,
         `Voice: ${brief.voice}`,
@@ -111,7 +107,6 @@ function createContentType({
         `Type-specific rules:`,
         ...sharedTypeRules().map((rule) => `- ${rule}`),
         ...(brief.type_rules || []).map((rule) => `- ${rule}`),
-        evidenceText ? `Available source evidence:\n${evidenceText}` : '',
         brief.full_compressed_context ? `Full compressed source context:\n${brief.full_compressed_context}` : '',
         brief.book_context ? `Book mention policy:
 - Default to no book mention.
@@ -121,7 +116,7 @@ function createContentType({
 - Do not turn the post into a sales pitch or CTA.
 - Never add a separate promotional final paragraph.` : '',
         `Constraints: short paragraphs; one idea per post; no emojis; no hashtags; no outbound links; no lists unless the format truly requires one; end with a sharp implication.`,
-        `Output only the post text. Do not invent named concepts unless they appear verbatim in the source evidence.`,
+        `Output only the post text. Do not invent named concepts unless they appear verbatim in the provided source context or research materials.`,
         brief.timely_subject ? `Timely subject: ${brief.timely_subject}` : '',
         brief.mailbag_item ? `Mailbag source: ${brief.mailbag_item.provenance}` : '',
         brief.mailbag_item?.attribution ? `Mailbag attribution: ${brief.mailbag_item.attribution}` : '',

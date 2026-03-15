@@ -43,7 +43,6 @@ test('base prompt includes shared concision rules', () => {
     voice: 'Direct.',
     topic_thesis: 'Trust is lagging.',
     angle: 'Diagnose the pattern.',
-    source_evidence: [{ id: 's1', text: 'Trust matters.', source: 'essay.md' }],
     full_compressed_context: 'context',
     source_grounding_rules: [],
     type_rules: [],
