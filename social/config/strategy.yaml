@@ -27,19 +27,19 @@ publishing:
   default_timezone: America/Los_Angeles
   baseline_slots:
     - weekday: monday
-      time: "08:30"
+      time: "05:30"
       slot_type: baseline
     - weekday: tuesday
-      time: "08:30"
+      time: "05:30"
       slot_type: baseline
     - weekday: wednesday
-      time: "08:30"
+      time: "05:30"
       slot_type: baseline
     - weekday: thursday
-      time: "08:30"
+      time: "05:30"
       slot_type: baseline
     - weekday: friday
-      time: "08:30"
+      time: "05:30"
       slot_type: baseline
   timely_slots: []
 memory:
