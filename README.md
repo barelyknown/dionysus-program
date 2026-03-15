@@ -55,6 +55,10 @@ This repository contains a single static webpage that renders the essay “The D
 
 You can open `index.html` directly in a browser (double-click in Finder or `open index.html`) to preview the page without running any server.
 
+## LinkedIn automation
+
+The repo now includes a CLI-first social automation subsystem under [social/README.md](social/README.md). Start in fixture mode and validate locally before enabling live provider secrets or scheduled workflows.
+
 ## License
 
 See `LICENSE` for the copyright notice. All rights reserved.

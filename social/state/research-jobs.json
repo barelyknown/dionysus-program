@@ -1,0 +1,96 @@
+{
+  "jobs": [
+    {
+      "id": "3f45fa6392fc",
+      "topic_thesis": "The real bottleneck in AI adoption is cultural, not technical.",
+      "interaction_id": "v1_ChdwOXUyYVpEUEl1dWUtc0FQdXEtcGdRNBIXcDl1MmFaRFBJdXVlLXNBUHVxLXBnUTQ",
+      "status": "in_progress",
+      "submitted_at": "2026-03-15T16:17:43.764Z",
+      "mode": "live",
+      "watchlist_inputs": {
+        "seed_topics": [
+          "ai adoption",
+          "organizational trust",
+          "management theater",
+          "ritual and renewal",
+          "organizational change",
+          "technical truth and social trust"
+        ],
+        "adjacent_domains": [
+          "artificial intelligence",
+          "enterprise software",
+          "labor and management",
+          "corporate governance",
+          "product launches",
+          "institutional trust",
+          "leadership and decision making",
+          "social systems"
+        ],
+        "keyword_clusters": [
+          [
+            "reorg",
+            "reorganization",
+            "org design"
+          ],
+          [
+            "layoff",
+            "downsizing",
+            "headcount"
+          ],
+          [
+            "AI rollout",
+            "AI adoption",
+            "automation deployment"
+          ],
+          [
+            "postmortem",
+            "retrospective",
+            "incident review"
+          ],
+          [
+            "board governance",
+            "activist investor",
+            "CEO succession"
+          ],
+          [
+            "trust",
+            "credibility",
+            "psychological safety"
+          ]
+        ],
+        "entities": {
+          "companies": [
+            "Microsoft",
+            "OpenAI",
+            "Meta",
+            "Amazon",
+            "Anthropic",
+            "Google",
+            "Nvidia",
+            "Salesforce",
+            "Klarna",
+            "Shopify"
+          ],
+          "thinkers": [
+            "Rene Girard",
+            "Confucius",
+            "Karl Popper",
+            "Victor Turner",
+            "James Carse",
+            "Mary Douglas"
+          ],
+          "newsletters": [
+            "Stratechery",
+            "Platformer",
+            "Every"
+          ],
+          "prompts": [
+            "Find indirectly related articles that illuminate the thesis, not just articles that repeat the thesis vocabulary.",
+            "Prefer cases where organizational behavior reveals the hidden problem.",
+            "Return dated sources and explain the relevance of each source to the thesis."
+          ]
+        }
+      }
+    }
+  ]
+}
