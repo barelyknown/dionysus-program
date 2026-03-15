@@ -49,7 +49,7 @@
       "timezone": "America/Los_Angeles",
       "weekday": "tuesday",
       "slot_type": "baseline",
-      "status": "planned",
+      "status": "published",
       "content_type": "ritual_recipe",
       "pillar": "Ritual Recipes",
       "topic_thesis": "Severability and reversibility make criticism cheaper and therefore more honest.",
@@ -58,10 +58,26 @@
       "source_bundle_id": null,
       "timely_subject": null,
       "draft_ref": null,
-      "winner_id": null,
+      "winner_id": "e63c78bc4e24",
       "risk_level": "low",
       "freshness_deadline": null,
-      "publish_payload": null
+      "publish_payload": {
+        "item_id": "cec0723aa2ad",
+        "scheduled_at": "2026-03-17T15:30:00.000Z",
+        "content_type": "ritual_recipe",
+        "pillar": "Ritual Recipes",
+        "topic_thesis": "Severability and reversibility make criticism cheaper and therefore more honest.",
+        "angle": "Start with a recurring problem and end with a usable move.",
+        "hook": "Most teams know what's wrong. They just can't afford to say it.",
+        "final_text": "Most teams know what's wrong. They just can't afford to say it.\n\nThe cost of criticism is almost never intellectual. It's social. People stay quiet because speaking up risks their status, their relationships, their safety. So errors persist—not because no one sees them, but because seeing them out loud is too expensive.\n\nThe common fix is to ask for more candor. That changes nothing. You haven't lowered the price.\n\nThe better structure is to make criticism severable and reversible. Popper called it piecemeal engineering: small, fail-safe experiments where being wrong doesn't destroy anything that matters. When the blast radius of a bad call is small and the decision can be unwound, people stop hedging and start telling the truth.\n\nThree moves to make this real. First, scope the decision so it can be reversed without catastrophe. Second, name the object under critique—a policy, a plan, a metric—not the person who built it. Third, publish the result: what you tested, what you learned, what changed. Make honesty cheap by making mistakes survivable.\n\nWhen not to use this: if the decision is genuinely irreversible or existential, don't pretend it's severable. Say so. Different stakes demand different containers.\n\nThe goal isn't more bravery. It's a system where bravery isn't required to tell the truth.",
+        "winning_candidate_id": "e63c78bc4e24",
+        "winning_score": 8.4,
+        "source_refs": [],
+        "research_bundle_id": null,
+        "timely_subject": null
+      },
+      "published_at": "2026-03-15T20:30:21.095Z",
+      "external_post_id": "019cf331-4f84-0d26-abd0-6c24275c9368"
     },
     {
       "id": "5af200c29a7f",

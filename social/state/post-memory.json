@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-03-15T20:18:58.810Z",
-  "published_count": 1,
+  "generated_at": "2026-03-15T20:30:21.096Z",
+  "published_count": 2,
   "rolling_window_days": 84,
   "typeCounts": {
-    "decoder_ring": 1
+    "decoder_ring": 1,
+    "ritual_recipe": 1
   },
   "recent_hooks": [
     {
@@ -23,6 +24,25 @@
       "research_bundle_id": null,
       "winning_candidate_id": "aa7e455dcc94",
       "final_text_hash": "bb8c58a29562847f73d79cdb842440c56327547a55bd33025505d98f63263e1a"
+    },
+    {
+      "post_id": "019cf331-4f84-0d26-abd0-6c24275c9368",
+      "published_at": "2026-03-15T20:30:21.095Z",
+      "content_type": "ritual_recipe",
+      "pillar": "Ritual Recipes",
+      "topic_thesis": "Severability and reversibility make criticism cheaper and therefore more honest.",
+      "angle": "Start with a recurring problem and end with a usable move.",
+      "hook": "Most teams know what's wrong. They just can't afford to say it.",
+      "summary": "Most teams know what's wrong. They just can't afford to say it.\n\nThe cost of criticism is almost never intellectual. It's social. People stay quiet because speaking up risks their status, their relationships, their safety. So errors persist—not because no one sees them, but becau",
+      "source_refs": [],
+      "framework_terms_used": [
+        "li",
+        "ren"
+      ],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "e63c78bc4e24",
+      "final_text_hash": "33b8f3c7973a653f0702e489e3d677a3f645f801d573d978d7dcb3199c142eee"
     }
   ],
   "recent_angles": [
@@ -43,6 +63,25 @@
       "research_bundle_id": null,
       "winning_candidate_id": "aa7e455dcc94",
       "final_text_hash": "bb8c58a29562847f73d79cdb842440c56327547a55bd33025505d98f63263e1a"
+    },
+    {
+      "post_id": "019cf331-4f84-0d26-abd0-6c24275c9368",
+      "published_at": "2026-03-15T20:30:21.095Z",
+      "content_type": "ritual_recipe",
+      "pillar": "Ritual Recipes",
+      "topic_thesis": "Severability and reversibility make criticism cheaper and therefore more honest.",
+      "angle": "Start with a recurring problem and end with a usable move.",
+      "hook": "Most teams know what's wrong. They just can't afford to say it.",
+      "summary": "Most teams know what's wrong. They just can't afford to say it.\n\nThe cost of criticism is almost never intellectual. It's social. People stay quiet because speaking up risks their status, their relationships, their safety. So errors persist—not because no one sees them, but becau",
+      "source_refs": [],
+      "framework_terms_used": [
+        "li",
+        "ren"
+      ],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "e63c78bc4e24",
+      "final_text_hash": "33b8f3c7973a653f0702e489e3d677a3f645f801d573d978d7dcb3199c142eee"
     }
   ],
   "recent_topics": [
@@ -63,6 +102,25 @@
       "research_bundle_id": null,
       "winning_candidate_id": "aa7e455dcc94",
       "final_text_hash": "bb8c58a29562847f73d79cdb842440c56327547a55bd33025505d98f63263e1a"
+    },
+    {
+      "post_id": "019cf331-4f84-0d26-abd0-6c24275c9368",
+      "published_at": "2026-03-15T20:30:21.095Z",
+      "content_type": "ritual_recipe",
+      "pillar": "Ritual Recipes",
+      "topic_thesis": "Severability and reversibility make criticism cheaper and therefore more honest.",
+      "angle": "Start with a recurring problem and end with a usable move.",
+      "hook": "Most teams know what's wrong. They just can't afford to say it.",
+      "summary": "Most teams know what's wrong. They just can't afford to say it.\n\nThe cost of criticism is almost never intellectual. It's social. People stay quiet because speaking up risks their status, their relationships, their safety. So errors persist—not because no one sees them, but becau",
+      "source_refs": [],
+      "framework_terms_used": [
+        "li",
+        "ren"
+      ],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "e63c78bc4e24",
+      "final_text_hash": "33b8f3c7973a653f0702e489e3d677a3f645f801d573d978d7dcb3199c142eee"
     }
   ],
   "recent_subjects": [
@@ -83,6 +141,25 @@
       "research_bundle_id": null,
       "winning_candidate_id": "aa7e455dcc94",
       "final_text_hash": "bb8c58a29562847f73d79cdb842440c56327547a55bd33025505d98f63263e1a"
+    },
+    {
+      "post_id": "019cf331-4f84-0d26-abd0-6c24275c9368",
+      "published_at": "2026-03-15T20:30:21.095Z",
+      "content_type": "ritual_recipe",
+      "pillar": "Ritual Recipes",
+      "topic_thesis": "Severability and reversibility make criticism cheaper and therefore more honest.",
+      "angle": "Start with a recurring problem and end with a usable move.",
+      "hook": "Most teams know what's wrong. They just can't afford to say it.",
+      "summary": "Most teams know what's wrong. They just can't afford to say it.\n\nThe cost of criticism is almost never intellectual. It's social. People stay quiet because speaking up risks their status, their relationships, their safety. So errors persist—not because no one sees them, but becau",
+      "source_refs": [],
+      "framework_terms_used": [
+        "li",
+        "ren"
+      ],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "e63c78bc4e24",
+      "final_text_hash": "33b8f3c7973a653f0702e489e3d677a3f645f801d573d978d7dcb3199c142eee"
     }
   ],
   "recent_sources": [
@@ -103,6 +180,25 @@
       "research_bundle_id": null,
       "winning_candidate_id": "aa7e455dcc94",
       "final_text_hash": "bb8c58a29562847f73d79cdb842440c56327547a55bd33025505d98f63263e1a"
+    },
+    {
+      "post_id": "019cf331-4f84-0d26-abd0-6c24275c9368",
+      "published_at": "2026-03-15T20:30:21.095Z",
+      "content_type": "ritual_recipe",
+      "pillar": "Ritual Recipes",
+      "topic_thesis": "Severability and reversibility make criticism cheaper and therefore more honest.",
+      "angle": "Start with a recurring problem and end with a usable move.",
+      "hook": "Most teams know what's wrong. They just can't afford to say it.",
+      "summary": "Most teams know what's wrong. They just can't afford to say it.\n\nThe cost of criticism is almost never intellectual. It's social. People stay quiet because speaking up risks their status, their relationships, their safety. So errors persist—not because no one sees them, but becau",
+      "source_refs": [],
+      "framework_terms_used": [
+        "li",
+        "ren"
+      ],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "e63c78bc4e24",
+      "final_text_hash": "33b8f3c7973a653f0702e489e3d677a3f645f801d573d978d7dcb3199c142eee"
     }
   ]
 }
