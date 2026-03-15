@@ -14,6 +14,10 @@ on:
         description: "Provider mode: fixture or live"
         required: false
         default: "fixture"
+      now:
+        description: "Optional ISO timestamp override for due-item checks"
+        required: false
+        default: ""
 
 concurrency:
   group: linkedin-publish
@@ -40,9 +44,17 @@ jobs:
           ZAPIER_LINKEDIN_WEBHOOK_URL: ${{ secrets.ZAPIER_LINKEDIN_WEBHOOK_URL }}
         run: |
           if [ "${{ github.event.inputs.dry_run || 'false' }}" = "true" ]; then
-            npm run social:publish-due -- --dry-run
+            if [ -n "${{ github.event.inputs.now }}" ]; then
+              npm run social:publish-due -- --dry-run --now "${{ github.event.inputs.now }}"
+            else
+              npm run social:publish-due -- --dry-run
+            fi
           else
-            npm run social:publish-due
+            if [ -n "${{ github.event.inputs.now }}" ]; then
+              npm run social:publish-due -- --now "${{ github.event.inputs.now }}"
+            else
+              npm run social:publish-due
+            fi
           fi
       - name: Commit updated state
         if: ${{ github.event.inputs.dry_run != 'true' }}
