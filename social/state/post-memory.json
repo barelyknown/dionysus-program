@@ -1,11 +1,108 @@
 {
-  "generated_at": "2026-03-15T20:16:52.975Z",
-  "published_count": 0,
+  "generated_at": "2026-03-15T20:18:58.810Z",
+  "published_count": 1,
   "rolling_window_days": 84,
-  "typeCounts": {},
-  "recent_hooks": [],
-  "recent_angles": [],
-  "recent_topics": [],
-  "recent_subjects": [],
-  "recent_sources": []
+  "typeCounts": {
+    "decoder_ring": 1
+  },
+  "recent_hooks": [
+    {
+      "post_id": "019cf326-e654-d7dd-f7fa-f9d1c5cf6517",
+      "published_at": "2026-03-15T20:18:58.810Z",
+      "content_type": "decoder_ring",
+      "pillar": "Decoder Ring",
+      "topic_thesis": "Rectification of Names matters because a leader who cannot call failure failure makes ritual truth-telling a farce.",
+      "angle": "Do not summarize the news; diagnose the pattern underneath it.",
+      "hook": "When a leader calls a layoff a \"right-sizing,\" a lost deal a \"strategic reprioritization,\" or a failed product \"a learning journey,\" they think they're protecting morale. They're actually destroying the one thing that makes truth-telling possible.",
+      "summary": "When a leader calls a layoff a \"right-sizing,\" a lost deal a \"strategic reprioritization,\" or a failed product \"a learning journey,\" they think they're protecting morale. They're actually destroying the one thing that makes truth-telling possible.\n\nConfucius had a term for this: ",
+      "source_refs": [],
+      "framework_terms_used": [
+        "li"
+      ],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "aa7e455dcc94",
+      "final_text_hash": "bb8c58a29562847f73d79cdb842440c56327547a55bd33025505d98f63263e1a"
+    }
+  ],
+  "recent_angles": [
+    {
+      "post_id": "019cf326-e654-d7dd-f7fa-f9d1c5cf6517",
+      "published_at": "2026-03-15T20:18:58.810Z",
+      "content_type": "decoder_ring",
+      "pillar": "Decoder Ring",
+      "topic_thesis": "Rectification of Names matters because a leader who cannot call failure failure makes ritual truth-telling a farce.",
+      "angle": "Do not summarize the news; diagnose the pattern underneath it.",
+      "hook": "When a leader calls a layoff a \"right-sizing,\" a lost deal a \"strategic reprioritization,\" or a failed product \"a learning journey,\" they think they're protecting morale. They're actually destroying the one thing that makes truth-telling possible.",
+      "summary": "When a leader calls a layoff a \"right-sizing,\" a lost deal a \"strategic reprioritization,\" or a failed product \"a learning journey,\" they think they're protecting morale. They're actually destroying the one thing that makes truth-telling possible.\n\nConfucius had a term for this: ",
+      "source_refs": [],
+      "framework_terms_used": [
+        "li"
+      ],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "aa7e455dcc94",
+      "final_text_hash": "bb8c58a29562847f73d79cdb842440c56327547a55bd33025505d98f63263e1a"
+    }
+  ],
+  "recent_topics": [
+    {
+      "post_id": "019cf326-e654-d7dd-f7fa-f9d1c5cf6517",
+      "published_at": "2026-03-15T20:18:58.810Z",
+      "content_type": "decoder_ring",
+      "pillar": "Decoder Ring",
+      "topic_thesis": "Rectification of Names matters because a leader who cannot call failure failure makes ritual truth-telling a farce.",
+      "angle": "Do not summarize the news; diagnose the pattern underneath it.",
+      "hook": "When a leader calls a layoff a \"right-sizing,\" a lost deal a \"strategic reprioritization,\" or a failed product \"a learning journey,\" they think they're protecting morale. They're actually destroying the one thing that makes truth-telling possible.",
+      "summary": "When a leader calls a layoff a \"right-sizing,\" a lost deal a \"strategic reprioritization,\" or a failed product \"a learning journey,\" they think they're protecting morale. They're actually destroying the one thing that makes truth-telling possible.\n\nConfucius had a term for this: ",
+      "source_refs": [],
+      "framework_terms_used": [
+        "li"
+      ],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "aa7e455dcc94",
+      "final_text_hash": "bb8c58a29562847f73d79cdb842440c56327547a55bd33025505d98f63263e1a"
+    }
+  ],
+  "recent_subjects": [
+    {
+      "post_id": "019cf326-e654-d7dd-f7fa-f9d1c5cf6517",
+      "published_at": "2026-03-15T20:18:58.810Z",
+      "content_type": "decoder_ring",
+      "pillar": "Decoder Ring",
+      "topic_thesis": "Rectification of Names matters because a leader who cannot call failure failure makes ritual truth-telling a farce.",
+      "angle": "Do not summarize the news; diagnose the pattern underneath it.",
+      "hook": "When a leader calls a layoff a \"right-sizing,\" a lost deal a \"strategic reprioritization,\" or a failed product \"a learning journey,\" they think they're protecting morale. They're actually destroying the one thing that makes truth-telling possible.",
+      "summary": "When a leader calls a layoff a \"right-sizing,\" a lost deal a \"strategic reprioritization,\" or a failed product \"a learning journey,\" they think they're protecting morale. They're actually destroying the one thing that makes truth-telling possible.\n\nConfucius had a term for this: ",
+      "source_refs": [],
+      "framework_terms_used": [
+        "li"
+      ],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "aa7e455dcc94",
+      "final_text_hash": "bb8c58a29562847f73d79cdb842440c56327547a55bd33025505d98f63263e1a"
+    }
+  ],
+  "recent_sources": [
+    {
+      "post_id": "019cf326-e654-d7dd-f7fa-f9d1c5cf6517",
+      "published_at": "2026-03-15T20:18:58.810Z",
+      "content_type": "decoder_ring",
+      "pillar": "Decoder Ring",
+      "topic_thesis": "Rectification of Names matters because a leader who cannot call failure failure makes ritual truth-telling a farce.",
+      "angle": "Do not summarize the news; diagnose the pattern underneath it.",
+      "hook": "When a leader calls a layoff a \"right-sizing,\" a lost deal a \"strategic reprioritization,\" or a failed product \"a learning journey,\" they think they're protecting morale. They're actually destroying the one thing that makes truth-telling possible.",
+      "summary": "When a leader calls a layoff a \"right-sizing,\" a lost deal a \"strategic reprioritization,\" or a failed product \"a learning journey,\" they think they're protecting morale. They're actually destroying the one thing that makes truth-telling possible.\n\nConfucius had a term for this: ",
+      "source_refs": [],
+      "framework_terms_used": [
+        "li"
+      ],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "aa7e455dcc94",
+      "final_text_hash": "bb8c58a29562847f73d79cdb842440c56327547a55bd33025505d98f63263e1a"
+    }
+  ]
 }

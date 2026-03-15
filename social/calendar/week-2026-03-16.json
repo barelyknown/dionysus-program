@@ -11,7 +11,7 @@
       "timezone": "America/Los_Angeles",
       "weekday": "monday",
       "slot_type": "baseline",
-      "status": "planned",
+      "status": "published",
       "content_type": "decoder_ring",
       "pillar": "Decoder Ring",
       "topic_thesis": "Rectification of Names matters because a leader who cannot call failure failure makes ritual truth-telling a farce.",
@@ -20,10 +20,26 @@
       "source_bundle_id": null,
       "timely_subject": null,
       "draft_ref": null,
-      "winner_id": null,
+      "winner_id": "aa7e455dcc94",
       "risk_level": "low",
       "freshness_deadline": null,
-      "publish_payload": null
+      "publish_payload": {
+        "item_id": "02fe59f7ff54",
+        "scheduled_at": "2026-03-16T15:30:00.000Z",
+        "content_type": "decoder_ring",
+        "pillar": "Decoder Ring",
+        "topic_thesis": "Rectification of Names matters because a leader who cannot call failure failure makes ritual truth-telling a farce.",
+        "angle": "Do not summarize the news; diagnose the pattern underneath it.",
+        "hook": "When a leader calls a layoff a \"right-sizing,\" a lost deal a \"strategic reprioritization,\" or a failed product \"a learning journey,\" they think they're protecting morale. They're actually destroying the one thing that makes truth-telling possible.",
+        "final_text": "When a leader calls a layoff a \"right-sizing,\" a lost deal a \"strategic reprioritization,\" or a failed product \"a learning journey,\" they think they're protecting morale. They're actually destroying the one thing that makes truth-telling possible.\n\nConfucius had a term for this: Zhengming—the Rectification of Names. Calling a failure a failure. Calling a loss a loss. Not because brutality is a virtue, but because the moment language detaches from reality, every ritual that depends on honesty becomes a farce.\n\nYou can build the most elegant postmortem process in the world. If the person running it won't name what actually happened, people learn exactly one lesson: truth is unsafe here.\n\nThe cost isn't abstract. If payroll alone holds your organization together—if there's no shared history dense enough to survive a hard conversation—then euphemism isn't diplomacy. It's the sound of binding force approaching zero.\n\nA leader who cannot name failure accurately has already made the next failure more expensive. The team knows what happened. They're just watching to see if you do.",
+        "winning_candidate_id": "aa7e455dcc94",
+        "winning_score": 7.9,
+        "source_refs": [],
+        "research_bundle_id": null,
+        "timely_subject": null
+      },
+      "published_at": "2026-03-15T20:18:58.810Z",
+      "external_post_id": "019cf326-e654-d7dd-f7fa-f9d1c5cf6517"
     },
     {
       "id": "cec0723aa2ad",
