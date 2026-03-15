@@ -61,7 +61,7 @@ test('fixture generation and scoring produce a publishable winner', async (t) =>
   assert.ok(record.final_text_hash);
 });
 
-test('prepared extracted insight brief includes source evidence and grounding rules', async (t) => {
+test('prepared extracted insight brief includes full context and grounding rules', async (t) => {
   setupTempSocialWorkspace(t);
   const strategy = loadStrategy();
   const item = {
@@ -81,10 +81,9 @@ test('prepared extracted insight brief includes source evidence and grounding ru
   };
 
   const prepared = prepareBrief({ calendarItem: item, strategy });
-  assert.ok(prepared.brief.source_evidence.length > 0);
   assert.ok(prepared.brief.source_grounding_rules.length > 0);
   assert.equal(prepared.brief.book_context.title, 'The Dionysus Program');
-  assert.match(prepared.brief.prompt, /Available source evidence:/);
+  assert.match(prepared.brief.prompt, /Full compressed source context:/);
   assert.match(prepared.brief.prompt, /Do not invent named concepts unless they appear verbatim/);
   assert.match(prepared.brief.prompt, /If you mention the book, note that it is free/);
 });

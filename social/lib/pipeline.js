@@ -1,6 +1,6 @@
 const path = require('path');
 const { loadStrategy } = require('./config');
-const { loadSourceContext, deriveSourceEvidence } = require('./context');
+const { loadSourceContext } = require('./context');
 const { readJson, writeJson } = require('./fs');
 const { paths } = require('./paths');
 const { rebuildMemory, loadPublishedRecords, getMemoryConflicts } = require('./memory');
@@ -69,16 +69,7 @@ function saveResearchBundle(bundle) {
 }
 
 function prepareBrief({ calendarItem, strategy, memory = null }) {
-  const baseContext = loadSourceContext();
-  const context = {
-    ...baseContext,
-    sourceEvidence: deriveSourceEvidence({
-      topicThesis: calendarItem.topic_thesis,
-      contextText: baseContext.contextText,
-      pullQuotes: baseContext.pullQuotes,
-      contentType: calendarItem.content_type,
-    }),
-  };
+  const context = loadSourceContext();
   const mailbagItems = loadMailbagItems();
   const researchBundle = loadResearchBundle(calendarItem.source_bundle_id);
   const brief = buildBrief({
