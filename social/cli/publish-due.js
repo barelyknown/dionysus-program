@@ -6,6 +6,7 @@ const { paths } = require('../lib/paths');
 const { writeJson } = require('../lib/fs');
 const { materializePublishedNote } = require('../lib/notes');
 const { attemptXPublish } = require('../lib/x');
+const { isDue, nextCalendarItemState } = require('../lib/publish-due-state');
 const {
   createAdapters,
   createRun,
@@ -21,10 +22,6 @@ const {
 const { rebuildMemory } = require('../lib/memory');
 const { now } = require('../lib/time');
 
-function isDue(item, currentTime) {
-  return item.status === 'planned' && new Date(item.scheduled_at).getTime() <= currentTime.getTime();
-}
-
 async function handleItem({ item, strategy, adapters, memory, dryRun }) {
   let scored;
   let resolvedItem = item;
@@ -35,7 +32,7 @@ async function handleItem({ item, strategy, adapters, memory, dryRun }) {
     if (error instanceof ResearchPendingError) {
       return {
         calendarItem: item,
-        status: 'skipped',
+        status: 'deferred',
         reason: 'research_pending',
         pending_job: error.details?.pending_job || null,
       };
@@ -146,22 +143,9 @@ async function main() {
           x: outcome.x,
         });
         appendJsonl(paths.publishedLedger, record);
-        calendar = replaceCalendarItem(calendar, {
-          ...(outcome.calendarItem || item),
-          status: 'published',
-          winner_id: outcome.winnerCandidate.id,
-          publish_payload: outcome.payload,
-          published_at: outcome.publishResult.delivered_at,
-          external_post_id: outcome.publishResult.external_post_id,
-          note_slug: outcome.note?.slug || null,
-          note_source_path: outcome.note?.sourcePath || null,
-          x_status: outcome.x?.status || null,
-          x_external_post_id: outcome.x?.publishResult?.external_post_id || null,
-          x_published_at: outcome.x?.publishResult?.delivered_at || null,
-          x_winning_candidate_id: outcome.x?.winnerCandidate?.id || null,
-          x_publish_payload: outcome.x?.payload || null,
-          x_skip_reason: outcome.x && outcome.x.status !== 'published' ? outcome.x.reason || null : null,
-        });
+        calendar = replaceCalendarItem(calendar, nextCalendarItemState(item, outcome));
+      } else if (outcome.status === 'deferred') {
+        calendar = replaceCalendarItem(calendar, nextCalendarItemState(item, outcome));
       } else if (outcome.status === 'skipped') {
         appendJsonl(paths.skippedLedger, {
           item_id: item.id,
@@ -169,11 +153,7 @@ async function main() {
           reason: outcome.reason,
           conflicts: outcome.conflicts || [],
         });
-        calendar = replaceCalendarItem(calendar, {
-          ...(outcome.calendarItem || item),
-          status: 'skipped',
-          skip_reason: outcome.reason,
-        });
+        calendar = replaceCalendarItem(calendar, nextCalendarItemState(item, outcome));
       }
     }
     if (!dryRun) saveCalendar(entry.filePath, calendar);
@@ -193,4 +173,13 @@ async function main() {
   printJson({ ok: true, run_id: run.id, dry_run: dryRun, results });
 }
 
-main().catch((error) => fail(error.stack || error.message));
+if (require.main === module) {
+  main().catch((error) => fail(error.stack || error.message));
+}
+
+module.exports = {
+  isDue,
+  nextCalendarItemState,
+  handleItem,
+  main,
+};
