@@ -3,7 +3,9 @@ const { parseArgs, printJson, fail } = require('../lib/cli');
 const { loadCalendars, saveCalendar, replaceCalendarItem } = require('../lib/records');
 const { appendJsonl } = require('../lib/jsonl');
 const { paths } = require('../lib/paths');
+const { writeJson } = require('../lib/fs');
 const { materializePublishedNote } = require('../lib/notes');
+const { attemptXPublish } = require('../lib/x');
 const {
   createAdapters,
   createRun,
@@ -58,9 +60,16 @@ async function handleItem({ item, strategy, adapters, memory, dryRun }) {
   });
 
   if (dryRun) {
+    const x = await attemptXPublish({
+      linkedinPayload: payload,
+      strategy,
+      adapters,
+      dryRun: true,
+    });
     return {
       status: 'dry_run',
       payload,
+      x,
       winnerCandidate: scored.winnerCandidate,
       winnerScore: scored.winnerScore,
     };
@@ -74,11 +83,18 @@ async function handleItem({ item, strategy, adapters, memory, dryRun }) {
     writer: adapters.claude,
     strategy,
   });
+  const x = await attemptXPublish({
+    linkedinPayload: payload,
+    strategy,
+    adapters,
+    dryRun: false,
+  });
   return {
     status: 'published',
     payload,
     publishResult,
     note,
+    x,
     winnerCandidate: scored.winnerCandidate,
     winnerScore: scored.winnerScore,
   };
@@ -107,6 +123,7 @@ async function main() {
           publishResult: outcome.publishResult,
           calendarItem: item,
           note: outcome.note,
+          x: outcome.x,
         });
         appendJsonl(paths.publishedLedger, record);
         calendar = replaceCalendarItem(calendar, {
@@ -118,6 +135,12 @@ async function main() {
           external_post_id: outcome.publishResult.external_post_id,
           note_slug: outcome.note?.slug || null,
           note_source_path: outcome.note?.sourcePath || null,
+          x_status: outcome.x?.status || null,
+          x_external_post_id: outcome.x?.publishResult?.external_post_id || null,
+          x_published_at: outcome.x?.publishResult?.delivered_at || null,
+          x_winning_candidate_id: outcome.x?.winnerCandidate?.id || null,
+          x_publish_payload: outcome.x?.payload || null,
+          x_skip_reason: outcome.x && outcome.x.status !== 'published' ? outcome.x.reason || null : null,
         });
       } else if (outcome.status === 'skipped') {
         appendJsonl(paths.skippedLedger, {
@@ -134,6 +157,14 @@ async function main() {
       }
     }
     if (!dryRun) saveCalendar(entry.filePath, calendar);
+  }
+
+  const xTokenRotationOutput = process.env.X_TOKEN_ROTATION_OUTPUT;
+  const rotatedCredentials = !dryRun && typeof adapters.x?.getRotatedCredentials === 'function'
+    ? adapters.x.getRotatedCredentials()
+    : null;
+  if (!dryRun && xTokenRotationOutput && rotatedCredentials) {
+    writeJson(xTokenRotationOutput, rotatedCredentials);
   }
 
   if (!dryRun) rebuildMemory({ strategy });

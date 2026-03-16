@@ -16,6 +16,22 @@ provider_defaults:
   claude_model: claude-opus-4-6
   openai_model: gpt-5.4
   gemini_agent: deep-research-pro-preview-12-2025
+x:
+  enabled: true
+  best_of_n: 8
+  max_length: 280
+  single_post_only: true
+  generate_from: linkedin_final_text
+  skip_if_no_passing_candidate: true
+  writer_model: gpt-5.4
+  writer_reasoning_effort: medium
+  scorer_model: gpt-5.4
+  scorer_reasoning_effort: high
+  disallowed_patterns:
+    - announcement_opener
+    - pseudo_profound_opener
+    - book_promotion_payload
+    - too_neat_reversal
 book_context:
   title: The Dionysus Program
   subtitle: Rites of Renewal

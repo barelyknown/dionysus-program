@@ -1,6 +1,6 @@
 # LinkedIn Autopilot
 
-This subsystem manages LinkedIn planning, drafting, scoring, and publishing for Sean's profile.
+This subsystem manages LinkedIn planning, drafting, scoring, and publishing, plus derivative X publishing from the final LinkedIn winner.
 
 ## Local-first commands
 
@@ -11,6 +11,7 @@ npm run social:build-brief -- --item <calendar-item-id>
 npm run social:generate-candidates -- --item <calendar-item-id> --use-fixtures
 npm run social:score-candidates -- --item <calendar-item-id> --use-fixtures
 npm run social:publish-due -- --dry-run --use-fixtures
+npm run social:x-oauth2-token -- --env-file /Users/seandevine/Code/dionysus-program/.env.social.local
 npm run social:rebuild-memory
 npm run social:validate-state
 npm run social:replay-run -- --run-id <run-id>
@@ -37,5 +38,12 @@ In live mode, `scan-timely` is asynchronous:
 - `OPENAI_API_KEY`
 - `GEMINI_API_KEY`
 - `ZAPIER_LINKEDIN_WEBHOOK_URL`
+- `X_CLIENT_ID`
+- `X_CLIENT_SECRET`
+- `X_ACCESS_TOKEN`
+- `X_REFRESH_TOKEN`
+- `GH_SECRET_UPDATE_TOKEN` (GitHub token with permission to update repository Actions secrets)
+
+For X OAuth2 token setup, add a localhost callback such as `http://127.0.0.1:8787/x/callback` to your X app, then run `npm run social:x-oauth2-token -- --env-file /Users/seandevine/Code/dionysus-program/.env.social.local`.
 
 Run fixture mode first. The workflows are thin wrappers around these same commands.

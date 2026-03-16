@@ -41,26 +41,62 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y pandoc
       - name: Publish due posts
+        id: publish_due
         env:
           SOCIAL_PROVIDER_MODE: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.mode || 'live' }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           ZAPIER_LINKEDIN_WEBHOOK_URL: ${{ secrets.ZAPIER_LINKEDIN_WEBHOOK_URL }}
+          X_CLIENT_ID: ${{ secrets.X_CLIENT_ID }}
+          X_CLIENT_SECRET: ${{ secrets.X_CLIENT_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_REFRESH_TOKEN: ${{ secrets.X_REFRESH_TOKEN }}
+          X_TOKEN_ROTATION_OUTPUT: ${{ runner.temp }}/x-token-rotation.json
         run: |
+          RESULT_FILE="${RUNNER_TEMP}/publish-due.json"
           if [ "${{ github.event.inputs.dry_run || 'false' }}" = "true" ]; then
             if [ -n "${{ github.event.inputs.now }}" ]; then
-              npm run social:publish-due -- --dry-run --now "${{ github.event.inputs.now }}"
+              npm run social:publish-due -- --dry-run --now "${{ github.event.inputs.now }}" | tee "$RESULT_FILE"
             else
-              npm run social:publish-due -- --dry-run
+              npm run social:publish-due -- --dry-run | tee "$RESULT_FILE"
             fi
           else
             if [ -n "${{ github.event.inputs.now }}" ]; then
-              npm run social:publish-due -- --now "${{ github.event.inputs.now }}"
+              npm run social:publish-due -- --now "${{ github.event.inputs.now }}" | tee "$RESULT_FILE"
             else
-              npm run social:publish-due
+              npm run social:publish-due | tee "$RESULT_FILE"
             fi
           fi
+          echo "result_file=$RESULT_FILE" >> "$GITHUB_OUTPUT"
+          echo "rotation_file=${RUNNER_TEMP}/x-token-rotation.json" >> "$GITHUB_OUTPUT"
+      - name: Persist rotated X tokens
+        if: ${{ github.event_name != 'workflow_dispatch' || github.event.inputs.dry_run != 'true' }}
+        env:
+          GH_TOKEN: ${{ secrets.GH_SECRET_UPDATE_TOKEN }}
+        run: |
+          if [ -z "${GH_TOKEN}" ]; then
+            echo "Skipping X token persistence (GH_SECRET_UPDATE_TOKEN not configured)"
+            exit 0
+          fi
+          if [ ! -f "${{ steps.publish_due.outputs.rotation_file }}" ]; then
+            echo "No rotated X token file produced"
+            exit 0
+          fi
+
+          ACCESS_TOKEN="$(node -e "const fs=require('fs');const data=JSON.parse(fs.readFileSync(process.argv[1],'utf8'));process.stdout.write(data.access_token||'');" "${{ steps.publish_due.outputs.rotation_file }}")"
+          REFRESH_TOKEN="$(node -e "const fs=require('fs');const data=JSON.parse(fs.readFileSync(process.argv[1],'utf8'));process.stdout.write(data.refresh_token||'');" "${{ steps.publish_due.outputs.rotation_file }}")"
+
+          if [ -z "$ACCESS_TOKEN" ] || [ -z "$REFRESH_TOKEN" ]; then
+            echo "Rotation file present but missing updated tokens"
+            exit 1
+          fi
+
+          printf '::add-mask::%s\n' "$ACCESS_TOKEN"
+          printf '::add-mask::%s\n' "$REFRESH_TOKEN"
+          printf '%s' "$ACCESS_TOKEN" | gh secret set X_ACCESS_TOKEN --repo "$GITHUB_REPOSITORY"
+          printf '%s' "$REFRESH_TOKEN" | gh secret set X_REFRESH_TOKEN --repo "$GITHUB_REPOSITORY"
+          echo "Updated X_ACCESS_TOKEN and X_REFRESH_TOKEN in GitHub secrets"
       - name: Rebuild website
         if: ${{ github.event_name != 'workflow_dispatch' || github.event.inputs.dry_run != 'true' }}
         run: npm run build:site
@@ -73,5 +109,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add social/calendar social/history social/state content/notes notes index.html praise.html dist/praise.md dist/praise-rotator.yaml dist/notes-teaser.yaml dist/letters-to-editor.md dist/letters-to-editor-appendix.md dist/appendix-index.md
-          git commit -m "chore: update linkedin publish state and site"
+          git commit -m "chore: update social publish state and site"
           git push
