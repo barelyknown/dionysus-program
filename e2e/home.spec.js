@@ -27,6 +27,8 @@ test("home page renders key header and downloads", async ({ page }) => {
   await gotoHome(page);
   await expect(page.locator("img.page-cover")).toBeVisible();
   await expect(page.getByRole("link", { name: "PDF" })).toBeVisible();
+  await expect(page.locator(".page-header").getByRole("link", { name: "Notes", exact: true })).toBeVisible();
+  await expect(page.locator(".recent-notes")).toBeVisible();
 });
 
 test("navigation from home to simulation works", async ({ page }) => {
@@ -38,6 +40,18 @@ test("navigation from home to simulation works", async ({ page }) => {
   await expect(page).toHaveURL(/simulation\.html$/);
   await expect(
     page.getByRole("heading", { name: "The Dionysus Program", level: 1 })
+  ).toBeVisible();
+});
+
+test("navigation from home to notes archive works", async ({ page }) => {
+  await gotoHome(page);
+  await page
+    .locator(".page-header")
+    .getByRole("link", { name: "Notes" })
+    .click();
+  await expect(page).toHaveURL(/notes\/$/);
+  await expect(
+    page.getByRole("heading", { name: "Notes", level: 1 })
   ).toBeVisible();
 });
 

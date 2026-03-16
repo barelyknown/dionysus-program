@@ -2,6 +2,7 @@
 node_modules/
 playwright-artifacts/
 agent/artifacts/
+output/
 .cache/
 .env.social.local
 social/cache/research/*.json

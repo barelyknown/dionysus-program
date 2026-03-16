@@ -1,4 +1,5 @@
 const { sha256 } = require('../lib/hash');
+const { lightlyRewriteForNotes } = require('../../lib/notes');
 
 class ClaudeWriterAdapter {
   constructor({ mode = 'fixture', model = 'claude-3-7-sonnet-latest', apiKey = process.env.ANTHROPIC_API_KEY, recordDir = null } = {}) {
@@ -17,6 +18,19 @@ class ClaudeWriterAdapter {
       return results;
     }
     return promptVariants.map((variant) => this.generateCandidateFixture({ brief, variant }));
+  }
+
+  async rewriteForNotes({ postText, topicThesis, pillar, voice = '' }) {
+    if (this.mode === 'live' || this.mode === 'record') {
+      return this.rewriteForNotesLive({ postText, topicThesis, pillar, voice });
+    }
+
+    const rewritten = lightlyRewriteForNotes(postText);
+    return {
+      text: rewritten || lightlyRewriteForNotes(postText),
+      source_mode: 'ai_rewrite',
+      writer_model: this.model,
+    };
   }
 
   generateCandidateFixture({ brief, variant }) {
@@ -96,9 +110,64 @@ class ClaudeWriterAdapter {
       self_notes: `Live candidate in ${variant} mode.`,
     };
   }
+
+  async rewriteForNotesLive({ postText, topicThesis, pillar, voice = '' }) {
+    if (!this.apiKey) throw new Error('Missing ANTHROPIC_API_KEY for live Claude generation.');
+    const response = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'x-api-key': this.apiKey,
+        'anthropic-version': '2023-06-01',
+      },
+      body: JSON.stringify({
+        model: this.model,
+        max_tokens: 900,
+        temperature: 0.2,
+        system: 'Rewrite a published LinkedIn post into a website note. Preserve the thesis, examples, and structure. Remove platform-native phrasing, engagement bait, hashtags, and CTA tone. Keep it close to the original and do not expand it.',
+        messages: [
+          {
+            role: 'user',
+            content: [
+              {
+                type: 'text',
+                text: [
+                  'Rewrite this published LinkedIn post for the Notes section on Sean Devine’s website.',
+                  `Voice: ${voice}`,
+                  `Pillar: ${pillar}`,
+                  `Topic thesis: ${topicThesis}`,
+                  'Rules:',
+                  '- Keep the argument, examples, and core structure intact.',
+                  '- Keep it short and close to the original length.',
+                  '- Remove LinkedIn-native opener or closer language if present.',
+                  '- Normalize paragraphing for web reading.',
+                  '- Do not add a CTA, hashtags, bullets, or links.',
+                  '- Output only the rewritten note body in Markdown paragraphs.',
+                  '',
+                  'Published LinkedIn text:',
+                  postText,
+                ].join('\n'),
+              },
+            ],
+          },
+        ],
+      }),
+    });
+
+    if (!response.ok) {
+      throw new Error(`Claude notes rewrite failed (${response.status}): ${await response.text()}`);
+    }
+
+    const payload = await response.json();
+    const text = (payload.content || []).map((part) => part.text || '').join('\n').trim();
+    return {
+      text: lightlyRewriteForNotes(text),
+      source_mode: 'ai_rewrite',
+      writer_model: this.model,
+    };
+  }
 }
 
 module.exports = {
   ClaudeWriterAdapter,
 };
-

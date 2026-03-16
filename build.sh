@@ -34,6 +34,11 @@ PRAISE_JSON="$ROOT_DIR/praise.json"
 PRAISE_MD="$DIST_DIR/praise.md"
 PRAISE_HTML="$ROOT_DIR/praise.html"
 PRAISE_META="$DIST_DIR/praise-rotator.yaml"
+NOTES_SCRIPT="$ROOT_DIR/build-notes.js"
+NOTES_CONTENT_DIR="$ROOT_DIR/content/notes"
+NOTES_TEMPLATE="$ROOT_DIR/templates/notes-page.html"
+NOTES_OUT_DIR="$ROOT_DIR/notes"
+NOTES_TEASER_META="$DIST_DIR/notes-teaser.yaml"
 PRINT_FILTER="$ROOT_DIR/filters/print.lua"
 PUBLICATION_DETAILS_FILTER="$ROOT_DIR/filters/publication-details.lua"
 LLM_CONTEXT_TXT="$DIST_DIR/dionysus-program-context.txt"
@@ -198,6 +203,9 @@ find_kindle_previewer
 node "$PRAISE_SCRIPT" "$PRAISE_JSON" "$PRAISE_MD" "$PRAISE_META"
 echo "Wrote praise markdown to $PRAISE_MD"
 
+node "$NOTES_SCRIPT" "$NOTES_CONTENT_DIR" "$NOTES_OUT_DIR" "$NOTES_TEMPLATE" "$NOTES_TEASER_META"
+echo "Wrote notes site to $NOTES_OUT_DIR"
+
 node "$LETTERS_SCRIPT" "$DIST_DIR"
 node "$INDEX_SCRIPT" "$DIST_DIR" "$ESSAY_MD" "$KEYWORDS_TXT" "$LETTERS_APPENDIX" "$SOURCES_MD"
 node "$PULL_QUOTES_SCRIPT" "$PULL_QUOTES_JSON" "$PULL_QUOTES_HTML"
@@ -223,6 +231,7 @@ pandoc "${BOOK_INPUTS[@]}" \
   --toc-depth=3 \
   --metadata=toc-title:"Contents" \
   --metadata-file="$PRAISE_META" \
+  --metadata-file="$NOTES_TEASER_META" \
   "${BOOK_METADATA_ARGS[@]}" \
   --to=html5 \
   --template="$TEMPLATE" \

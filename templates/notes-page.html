@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{META_TITLE}}</title>
+  <meta name="description" content="{{META_DESCRIPTION}}">
+  <meta property="og:title" content="{{OG_TITLE}}">
+  <meta property="og:description" content="{{META_DESCRIPTION}}">
+  <meta property="og:type" content="{{OG_TYPE}}">
+  <meta property="og:url" content="{{OG_URL}}">
+  <meta property="og:image" content="https://www.dionysusprogram.com/dist/dionysus-program-cover-wide.jpg">
+  <meta property="og:image:width" content="1520">
+  <meta property="og:image:height" content="800">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{OG_TITLE}}">
+  <meta name="twitter:description" content="{{META_DESCRIPTION}}">
+  <meta name="twitter:image" content="https://www.dionysusprogram.com/dist/dionysus-program-cover-wide.jpg">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ASSET_PREFIX}}dist/dionysus-program-favicon-32.png">
+  <link rel="icon" type="image/png" sizes="180x180" href="{{ASSET_PREFIX}}dist/dionysus-program-favicon-180.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ASSET_PREFIX}}dist/dionysus-program-favicon-180.png">
+  <link rel="stylesheet" href="{{ASSET_PREFIX}}styles.css">
+</head>
+<body>
+  <main class="notes-shell {{MAIN_CLASS}}">
+    <header class="notes-header">
+      <p class="notes-brand"><a href="{{HOME_HREF}}">The Dionysus Program</a></p>
+      <p class="notes-eyebrow">{{EYEBROW}}</p>
+      <div class="notes-header-links">{{BREADCRUMBS}}</div>
+      <h1>{{PAGE_TITLE}}</h1>
+      <p class="notes-subtitle">{{PAGE_SUBTITLE}}</p>
+    </header>
+    {{CONTENT}}
+  </main>
+</body>
+</html>

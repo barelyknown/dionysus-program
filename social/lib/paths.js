@@ -23,6 +23,7 @@ const paths = {
   pullQuotesFile: path.join(repoRoot, 'pull-quotes.json'),
   archetypesFile: path.join(repoRoot, 'archetypes.json'),
   lettersDir: path.join(repoRoot, 'letters_to_editor'),
+  notesContentDir: path.join(repoRoot, 'content', 'notes'),
 };
 
 module.exports = { paths };
