@@ -1,2 +1,10 @@
 notes_archive_url: notes/index.html
-recent_notes_empty: true
+recent_notes_empty: false
+recent_notes:
+  - title: Rectification of Names matters because a leader who cannot call failure
+      failure makes ritual truth-telling a farce
+    display_date: March 16, 2026
+    url: notes/2026-03-16-rectification-of-names-matters-because-a-leader-who-cannot-call-failure-failure-makes-ritual-truth-telling-a-farce/index.html
+    excerpt: Meta didn’t just say AI is boosting productivity. Zuckerberg said one
+      very talented employee can now do work that used to require entire teams.
+    pillar: Decoder Ring
