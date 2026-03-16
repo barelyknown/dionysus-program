@@ -2,8 +2,8 @@ name: LinkedIn Publish Due
 
 on:
   schedule:
-    - cron: "40 12 * * 1-5"
-    - cron: "40 13 * * 1-5"
+    # GitHub cron is UTC-only. This targets about 5:37 AM Pacific during PDT.
+    - cron: "37 12 * * 1-5"
   workflow_dispatch:
     inputs:
       dry_run:
