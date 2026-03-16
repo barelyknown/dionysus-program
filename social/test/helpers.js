@@ -11,6 +11,7 @@ function setupTempSocialWorkspace(t) {
   const tempSocial = path.join(tempRoot, 'social');
   const tempDist = path.join(tempRoot, 'dist');
   const tempLetters = path.join(tempRoot, 'letters_to_editor');
+  const tempNotes = path.join(tempRoot, 'content', 'notes');
 
   fs.mkdirSync(path.join(tempSocial, 'config'), { recursive: true });
   fs.mkdirSync(path.join(tempSocial, 'history'), { recursive: true });
@@ -20,6 +21,7 @@ function setupTempSocialWorkspace(t) {
   fs.mkdirSync(path.join(tempSocial, 'cache', 'research'), { recursive: true });
   fs.mkdirSync(tempDist, { recursive: true });
   fs.mkdirSync(tempLetters, { recursive: true });
+  fs.mkdirSync(tempNotes, { recursive: true });
 
   Object.assign(paths, {
     repoRoot: tempRoot,
@@ -40,6 +42,7 @@ function setupTempSocialWorkspace(t) {
     pullQuotesFile: path.join(tempRoot, 'pull-quotes.json'),
     archetypesFile: path.join(tempRoot, 'archetypes.json'),
     lettersDir: tempLetters,
+    notesContentDir: tempNotes,
   });
 
   const strategyText = fs.readFileSync(original.strategyConfig, 'utf8');
@@ -83,4 +86,3 @@ module.exports = {
   setupTempSocialWorkspace,
   appendJsonl,
 };
-

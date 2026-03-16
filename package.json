@@ -2,6 +2,7 @@
   "name": "dionysus-program",
   "private": true,
   "scripts": {
+    "build:site": "bash ./build-site.sh",
     "check": "bash ./agent/check.sh",
     "social:plan-week": "node social/cli/plan-week.js",
     "social:scan-timely": "node social/cli/scan-timely.js",

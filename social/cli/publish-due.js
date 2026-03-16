@@ -3,6 +3,7 @@ const { parseArgs, printJson, fail } = require('../lib/cli');
 const { loadCalendars, saveCalendar, replaceCalendarItem } = require('../lib/records');
 const { appendJsonl } = require('../lib/jsonl');
 const { paths } = require('../lib/paths');
+const { materializePublishedNote } = require('../lib/notes');
 const {
   createAdapters,
   createRun,
@@ -66,10 +67,18 @@ async function handleItem({ item, strategy, adapters, memory, dryRun }) {
   }
 
   const publishResult = await adapters.zapier.publish({ payload });
+  const note = await materializePublishedNote({
+    calendarItem: item,
+    publishPayload: payload,
+    publishResult,
+    writer: adapters.claude,
+    strategy,
+  });
   return {
     status: 'published',
     payload,
     publishResult,
+    note,
     winnerCandidate: scored.winnerCandidate,
     winnerScore: scored.winnerScore,
   };
@@ -97,6 +106,7 @@ async function main() {
           publishPayload: outcome.payload,
           publishResult: outcome.publishResult,
           calendarItem: item,
+          note: outcome.note,
         });
         appendJsonl(paths.publishedLedger, record);
         calendar = replaceCalendarItem(calendar, {
@@ -106,6 +116,8 @@ async function main() {
           publish_payload: outcome.payload,
           published_at: outcome.publishResult.delivered_at,
           external_post_id: outcome.publishResult.external_post_id,
+          note_slug: outcome.note?.slug || null,
+          note_source_path: outcome.note?.sourcePath || null,
         });
       } else if (outcome.status === 'skipped') {
         appendJsonl(paths.skippedLedger, {

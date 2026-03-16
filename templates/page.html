@@ -66,6 +66,8 @@
             <a href="praise.html#praise">Praise</a>
             <span aria-hidden="true">·</span>
             <a href="pull-quotes.html">Quotes</a>
+            <span aria-hidden="true">·</span>
+            <a href="notes/index.html">Notes</a>
           </span>
         </span>
         <span class="page-download-group">
@@ -117,6 +119,23 @@
         </div>
         <a class="praise-rotator-link" href="praise.html">Read more praise</a>
       </div>
+    </section>
+    $endif$
+    $if(recent_notes)$
+    <section class="recent-notes" id="notes" aria-label="Recent notes">
+      <div class="recent-notes-list">
+        $for(recent_notes)$
+        <a class="recent-notes-item" href="$recent_notes.url$" aria-label="$recent_notes.title$">
+            <p class="recent-notes-meta">
+              $if(recent_notes.pillar)$<span>$recent_notes.pillar$</span><span aria-hidden="true">·</span>$endif$
+              <span>$recent_notes.display_date$</span>
+            </p>
+            <h2><span class="recent-notes-title-link">$recent_notes.title$</span></h2>
+            <p class="recent-notes-excerpt">$recent_notes.excerpt$</p>
+        </a>
+        $endfor$
+      </div>
+      <a class="recent-notes-link recent-notes-link-footer" href="$if(notes_archive_url)$$notes_archive_url$$else$notes/index.html$endif$">See all notes</a>
     </section>
     $endif$
     $if(toc)$

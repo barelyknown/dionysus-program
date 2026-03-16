@@ -149,9 +149,10 @@ function createPublishPayload({ calendarItem, winnerCandidate, winnerScore, rese
   };
 }
 
-function createPublishedRecord({ publishPayload, publishResult, calendarItem }) {
+function createPublishedRecord({ publishPayload, publishResult, calendarItem, note = null }) {
   return {
     post_id: publishResult.external_post_id,
+    external_post_id: publishResult.external_post_id,
     published_at: publishResult.delivered_at,
     content_type: calendarItem.content_type,
     pillar: calendarItem.pillar,
@@ -165,6 +166,8 @@ function createPublishedRecord({ publishPayload, publishResult, calendarItem }) 
     research_bundle_id: publishPayload.research_bundle_id,
     winning_candidate_id: publishPayload.winning_candidate_id,
     final_text_hash: sha256(publishPayload.final_text),
+    note_slug: note?.slug || null,
+    note_source_path: note?.sourcePath || null,
   };
 }
 

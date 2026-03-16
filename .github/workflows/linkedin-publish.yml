@@ -35,6 +35,11 @@ jobs:
           node-version: "20"
           cache: "npm"
       - run: npm ci
+      - name: Install pandoc
+        if: ${{ github.event_name != 'workflow_dispatch' || github.event.inputs.dry_run != 'true' }}
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc
       - name: Publish due posts
         env:
           SOCIAL_PROVIDER_MODE: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.mode || 'live' }}
@@ -56,14 +61,17 @@ jobs:
               npm run social:publish-due
             fi
           fi
+      - name: Rebuild website
+        if: ${{ github.event_name != 'workflow_dispatch' || github.event.inputs.dry_run != 'true' }}
+        run: npm run build:site
       - name: Commit updated state
-        if: ${{ github.event.inputs.dry_run != 'true' }}
+        if: ${{ github.event_name != 'workflow_dispatch' || github.event.inputs.dry_run != 'true' }}
         run: |
           if git diff --quiet; then
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add social/calendar social/history social/state
-          git commit -m "chore: update linkedin publish state"
+          git add social/calendar social/history social/state content/notes notes index.html praise.html dist/praise.md dist/praise-rotator.yaml dist/notes-teaser.yaml dist/letters-to-editor.md dist/letters-to-editor-appendix.md dist/appendix-index.md
+          git commit -m "chore: update linkedin publish state and site"
           git push
