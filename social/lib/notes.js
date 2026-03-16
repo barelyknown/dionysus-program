@@ -82,6 +82,8 @@ async function materializePublishedNote({
     topic_thesis: calendarItem.topic_thesis,
     social_item_id: calendarItem.id,
     external_post_id: publishResult.external_post_id,
+    linkedin_post_url: publishResult.linkedin_post_url || null,
+    linkedin_activity_urn: publishResult.linkedin_activity_urn || null,
     source_mode: sourceMode,
     excerpt: deriveNoteExcerpt(rewrittenBody),
   };

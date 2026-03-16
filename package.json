@@ -15,6 +15,7 @@
     "social:compare-writers": "node social/cli/compare-writers.js",
     "social:best-of-n-bakeoff": "node social/cli/best-of-n-bakeoff.js",
     "social:multi-judge-bakeoff": "node social/cli/multi-judge-bakeoff.js",
+    "social:import-linkedin-analytics": "node social/cli/import-linkedin-analytics.js",
     "social:rebuild-memory": "node social/cli/rebuild-memory.js",
     "social:validate-state": "node social/cli/validate-state.js",
     "social:replay-run": "node social/cli/replay-run.js",
@@ -29,6 +30,7 @@
     "gpt-tokenizer": "^3.4.0"
   },
   "dependencies": {
+    "xlsx": "^0.18.5",
     "yaml": "^2.8.2"
   }
 }

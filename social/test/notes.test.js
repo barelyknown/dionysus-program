@@ -39,6 +39,8 @@ test('materializePublishedNote creates an AI-rewritten note source file with det
   const publishResult = {
     delivered_at: '2026-03-17T15:30:00.000Z',
     external_post_id: 'fixture-123',
+    linkedin_post_url: 'https://www.linkedin.com/feed/update/urn:li:activity:123',
+    linkedin_activity_urn: 'urn:li:activity:123',
   };
 
   const result = await materializePublishedNote({
@@ -56,6 +58,8 @@ test('materializePublishedNote creates an AI-rewritten note source file with det
   const note = loadNoteFile(path.join(tempRoot, result.sourcePath));
   assert.equal(note.data.social_item_id, 'item-1');
   assert.equal(note.data.external_post_id, 'fixture-123');
+  assert.equal(note.data.linkedin_post_url, 'https://www.linkedin.com/feed/update/urn:li:activity:123');
+  assert.equal(note.data.linkedin_activity_urn, 'urn:li:activity:123');
   assert.equal(note.data.source_mode, 'ai_rewrite');
   assert.match(note.body, /trust problem/i);
   assert.doesNotMatch(note.body, /Most people are misreading/i);

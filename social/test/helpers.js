@@ -33,6 +33,7 @@ function setupTempSocialWorkspace(t) {
     stateDir: path.join(tempSocial, 'state'),
     runsDir: path.join(tempSocial, 'runs'),
     researchCacheDir: path.join(tempSocial, 'cache', 'research'),
+    linkedinAnalyticsDir: path.join(tempSocial, 'state', 'linkedin-analytics'),
     postMemoryFile: path.join(tempSocial, 'state', 'post-memory.json'),
     researchJobsFile: path.join(tempSocial, 'state', 'research-jobs.json'),
     publishedLedger: path.join(tempSocial, 'history', 'published.jsonl'),
