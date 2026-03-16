@@ -10,6 +10,7 @@
     "social:generate-candidates": "node social/cli/generate-candidates.js",
     "social:score-candidates": "node social/cli/score-candidates.js",
     "social:publish-due": "node social/cli/publish-due.js",
+    "social:x-oauth2-token": "node social/cli/x-oauth2-token.js",
     "social:rebuild-memory": "node social/cli/rebuild-memory.js",
     "social:validate-state": "node social/cli/validate-state.js",
     "social:replay-run": "node social/cli/replay-run.js",

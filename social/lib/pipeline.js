@@ -8,9 +8,11 @@ const { loadMailbagItems } = require('./planner');
 const { buildBrief } = require('./briefs');
 const { getType } = require('../types');
 const { GPTScorerAdapter } = require('../providers/gpt-scorer');
+const { GPTXAdapter } = require('../providers/gpt-x');
 const { ClaudeWriterAdapter } = require('../providers/claude-writer');
 const { GeminiResearchAdapter } = require('../providers/gemini-research');
 const { ZapierPublisherAdapter } = require('../providers/zapier-publisher');
+const { XPublisherAdapter } = require('../providers/x-publisher');
 const { runFilePath } = require('./records');
 const { sha256 } = require('./hash');
 const { now } = require('./time');
@@ -56,6 +58,17 @@ function createAdapters({ args, strategy }) {
       agent: process.env.GEMINI_AGENT || strategy.provider_defaults?.gemini_agent,
     }),
     zapier: new ZapierPublisherAdapter({ mode }),
+    xWriter: new GPTXAdapter({
+      mode,
+      model: strategy.x?.writer_model || strategy.provider_defaults?.openai_model || 'gpt-5.4',
+      reasoningEffort: strategy.x?.writer_reasoning_effort || 'medium',
+    }),
+    xScorer: new GPTXAdapter({
+      mode,
+      model: strategy.x?.scorer_model || strategy.provider_defaults?.openai_model || 'gpt-5.4',
+      reasoningEffort: strategy.x?.scorer_reasoning_effort || 'high',
+    }),
+    x: new XPublisherAdapter({ mode }),
   };
 }
 
@@ -149,7 +162,7 @@ function createPublishPayload({ calendarItem, winnerCandidate, winnerScore, rese
   };
 }
 
-function createPublishedRecord({ publishPayload, publishResult, calendarItem, note = null }) {
+function createPublishedRecord({ publishPayload, publishResult, calendarItem, note = null, x = null }) {
   return {
     post_id: publishResult.external_post_id,
     external_post_id: publishResult.external_post_id,
@@ -168,6 +181,13 @@ function createPublishedRecord({ publishPayload, publishResult, calendarItem, no
     final_text_hash: sha256(publishPayload.final_text),
     note_slug: note?.slug || null,
     note_source_path: note?.sourcePath || null,
+    x_status: x?.status || null,
+    x_external_post_id: x?.publishResult?.external_post_id || null,
+    x_published_at: x?.publishResult?.delivered_at || null,
+    x_winning_candidate_id: x?.winnerCandidate?.id || null,
+    x_final_text_hash: x?.payload?.text ? sha256(x.payload.text) : null,
+    x_summary: x?.payload?.text ? x.payload.text.slice(0, 280) : null,
+    x_skip_reason: x && x.status !== 'published' ? x.reason || null : null,
   };
 }
 
