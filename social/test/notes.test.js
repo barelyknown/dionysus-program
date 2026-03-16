@@ -8,6 +8,7 @@ const { loadStrategy } = require('../lib/config');
 const { paths } = require('../lib/paths');
 const { materializePublishedNote } = require('../lib/notes');
 const { ClaudeWriterAdapter } = require('../providers/claude-writer');
+const { OpenAIWriterAdapter } = require('../providers/openai-writer');
 const { loadNoteFile, stringifyMarkdownWithFrontmatter } = require('../../lib/notes');
 const { buildNotesSite } = require('../../build-notes');
 
@@ -57,6 +58,48 @@ test('materializePublishedNote creates an AI-rewritten note source file with det
   assert.equal(note.data.external_post_id, 'fixture-123');
   assert.equal(note.data.source_mode, 'ai_rewrite');
   assert.match(note.body, /trust problem/i);
+  assert.doesNotMatch(note.body, /Most people are misreading/i);
+});
+
+test('materializePublishedNote uses OpenAI writer rewrite path in fixture mode', async (t) => {
+  const { tempRoot } = setupTempSocialWorkspace(t);
+  const strategy = loadStrategy();
+  const writer = new OpenAIWriterAdapter({ mode: 'fixture' });
+
+  const calendarItem = {
+    id: 'item-openai',
+    content_type: 'decoder_ring',
+    pillar: 'Decoder Ring',
+    topic_thesis: 'Naming failures make accountability rituals unserious.',
+  };
+
+  const publishPayload = {
+    final_text: [
+      'Most people are misreading what this backlash is actually about.',
+      '',
+      'Naming failures make accountability rituals unserious.',
+      '',
+      'Once the public story stops tracking the real choice, every cleanup ritual becomes theater.',
+    ].join('\n'),
+  };
+
+  const publishResult = {
+    delivered_at: '2026-03-17T16:00:00.000Z',
+    external_post_id: 'fixture-openai-123',
+  };
+
+  const result = await materializePublishedNote({
+    calendarItem,
+    publishPayload,
+    publishResult,
+    writer,
+    strategy,
+  });
+
+  assert.equal(result.sourceMode, 'ai_rewrite');
+  const note = loadNoteFile(path.join(tempRoot, result.sourcePath));
+  assert.equal(note.data.source_mode, 'ai_rewrite');
+  assert.match(note.body, /cleanup ritual becomes theater/i);
   assert.doesNotMatch(note.body, /Most people are misreading/i);
 });
 
