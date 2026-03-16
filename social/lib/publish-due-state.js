@@ -9,6 +9,7 @@ function nextCalendarItemState(item, outcome) {
     return {
       ...(outcome.calendarItem || item),
       status: 'published',
+      skip_reason: null,
       winner_id: outcome.winnerCandidate.id,
       publish_payload: outcome.payload,
       published_at: outcome.publishResult.delivered_at,
