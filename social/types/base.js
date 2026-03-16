@@ -39,6 +39,35 @@ function sharedTypeRules() {
   ];
 }
 
+function formatResearchSources(citations = []) {
+  const normalized = Array.isArray(citations) ? citations.filter(Boolean).slice(0, 5) : [];
+  if (normalized.length === 0) return '';
+  return [
+    'Research sources (pick one as the visible entry point unless the brief explicitly calls for comparison):',
+    ...normalized.map((source, index) => {
+      const title = source.title || source.url || `Source ${index + 1}`;
+      const publishedAt = source.published_at ? `, ${source.published_at}` : '';
+      const claim = source.claim ? `: ${String(source.claim).replace(/\s+/g, ' ').trim()}` : '';
+      return `- [${index + 1}] ${title}${publishedAt}${claim}`;
+    }),
+  ].join('\n');
+}
+
+function formatPrimarySource(primarySource) {
+  if (!primarySource) return '';
+  const lines = [
+    'Primary source (this is the case the post must open on):',
+    `- Title: ${primarySource.title || primarySource.url || 'Untitled source'}`,
+    primarySource.published_at ? `- Published at: ${primarySource.published_at}` : '',
+    primarySource.url ? `- URL: ${primarySource.url}` : '',
+    primarySource.claim ? `- Core claim: ${String(primarySource.claim).replace(/\s+/g, ' ').trim()}` : '',
+    primarySource.relevance ? `- Why it matters: ${String(primarySource.relevance).replace(/\s+/g, ' ').trim()}` : '',
+    primarySource.excerpt ? `- Source summary: ${String(primarySource.excerpt).replace(/\s+/g, ' ').trim()}` : '',
+    primarySource.content_text ? `Primary source full text:\n${primarySource.content_text}` : '',
+  ];
+  return lines.filter(Boolean).join('\n');
+}
+
 function createContentType({
   id,
   pillar,
@@ -48,6 +77,7 @@ function createContentType({
   sourceGroundingRules = [],
   typeRules = [],
   timelyEligible = false,
+  requiresResearch = false,
   requiresMailbag = false,
   maxRollingWeeks = null,
   isEligible = () => ({ eligible: true }),
@@ -59,6 +89,7 @@ function createContentType({
     defaultAngle,
     promptStyle,
     timelyEligible,
+    requiresResearch,
     requiresMailbag,
     maxRollingWeeks,
     getVariantInstructions() {
@@ -81,6 +112,7 @@ function createContentType({
         timely_subject: calendarItem.timely_subject || null,
         research_bundle_id: researchBundle?.id || null,
         research_summary: researchBundle?.summary || null,
+        primary_source: researchBundle?.primary_source || researchBundle?.sources?.[0] || null,
         citations: researchBundle?.sources || [],
         full_compressed_context: context.contextText || '',
         mailbag_item: mailbagItem || null,
@@ -122,6 +154,8 @@ function createContentType({
         brief.mailbag_item?.attribution ? `Mailbag attribution: ${brief.mailbag_item.attribution}` : '',
         brief.mailbag_item?.full_text ? `Full mailbag letter:\n${brief.mailbag_item.full_text}` : '',
         brief.mailbag_item?.quote && !brief.mailbag_item?.full_text ? `Mailbag note: "${brief.mailbag_item.quote}"` : '',
+        formatPrimarySource(brief.primary_source),
+        formatResearchSources(brief.citations),
         brief.research_summary ? `Research summary: ${brief.research_summary}` : '',
       ].filter(Boolean).join('\n');
     },

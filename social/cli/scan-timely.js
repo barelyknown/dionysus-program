@@ -18,11 +18,28 @@ function chooseTopic(strategy, memory, watchlists) {
   });
 }
 
-async function main() {
-  const args = parseArgs(process.argv.slice(2));
+async function main(argv = process.argv.slice(2)) {
+  const args = parseArgs(argv);
   const strategy = loadStrategy();
-  const watchlists = loadWatchlists();
+  const timelySlots = strategy.publishing?.timely_slots || [];
   const dryRun = Boolean(args['dry-run']);
+
+  if (timelySlots.length === 0) {
+    const result = {
+      ok: true,
+      dry_run: dryRun,
+      updated: false,
+      skipped: true,
+      reason: 'no_timely_slots_configured',
+      research_bundle: null,
+      timely_item: null,
+      pending_job: null,
+    };
+    printJson(result);
+    return result;
+  }
+
+  const watchlists = loadWatchlists();
   const memory = rebuildMemory({ strategy, write: !dryRun });
   const adapters = createAdapters({ args, strategy });
   const topicThesis = args.topic || chooseTopic(strategy, memory, watchlists);
@@ -87,14 +104,22 @@ async function main() {
     updated,
     pending_job: pendingJob,
   });
-  printJson({
+  const result = {
     ok: true,
     dry_run: dryRun,
     updated,
     pending_job: pendingJob,
     research_bundle: researchBundle,
     timely_item: timelyItem,
-  });
+  };
+  printJson(result);
+  return result;
 }
 
-main().catch((error) => fail(error.stack || error.message));
+if (require.main === module) {
+  main().catch((error) => fail(error.stack || error.message));
+}
+
+module.exports = {
+  main,
+};

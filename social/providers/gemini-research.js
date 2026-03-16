@@ -1,5 +1,152 @@
 const { sha256 } = require('../lib/hash');
 const { now } = require('../lib/time');
+const { getResearchRecencyPolicy } = require('../lib/research-policy');
+
+const SOURCE_FETCH_TIMEOUT_MS = 10000;
+const SOURCE_CONTENT_MAX_CHARS = 30000;
+const MAX_GROUNDED_SOURCES = 40;
+
+function unique(values) {
+  return [...new Set((values || []).filter(Boolean))];
+}
+
+function stripTags(value) {
+  return String(value || '').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+}
+
+function normalizePublishedDate(value) {
+  if (!value) return null;
+  const exact = String(value).match(/\b(\d{4}-\d{2}-\d{2})\b/);
+  if (exact) return exact[1];
+  const parsed = new Date(String(value));
+  if (!Number.isNaN(parsed.getTime())) return parsed.toISOString().slice(0, 10);
+  return null;
+}
+
+function extractPageText(html) {
+  const body = String(html || '').match(/<body[^>]*>([\s\S]*?)<\/body>/i)?.[1] || String(html || '');
+  return stripTags(
+    body
+      .replace(/<script[\s\S]*?<\/script>/gi, ' ')
+      .replace(/<style[\s\S]*?<\/style>/gi, ' ')
+      .replace(/<noscript[\s\S]*?<\/noscript>/gi, ' ')
+      .replace(/<svg[\s\S]*?<\/svg>/gi, ' '),
+  ).slice(0, SOURCE_CONTENT_MAX_CHARS);
+}
+
+function extractDateFromUrl(url) {
+  if (!url) return null;
+  const numeric = String(url).match(/\/(20\d{2})[\/-](\d{1,2})[\/-](\d{1,2})(?:[\/-]|$)/);
+  if (numeric) {
+    const [, year, month, day] = numeric;
+    return `${year}-${String(month).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
+  }
+  const monthName = String(url).match(/\/(20\d{2})\/(jan|feb|mar|apr|may|jun|jul|aug|sep|sept|oct|nov|dec)[a-z]*\/(\d{1,2})(?:\/|$)/i);
+  if (monthName) {
+    const monthMap = {
+      jan: '01', feb: '02', mar: '03', apr: '04', may: '05', jun: '06',
+      jul: '07', aug: '08', sep: '09', sept: '09', oct: '10', nov: '11', dec: '12',
+    };
+    const [, year, monthToken, day] = monthName;
+    return `${year}-${monthMap[monthToken.toLowerCase()]}-${String(day).padStart(2, '0')}`;
+  }
+  return null;
+}
+
+function extractMetaContent(html, patterns) {
+  for (const pattern of patterns) {
+    const match = html.match(pattern);
+    if (match?.[1]) return stripTags(match[1]);
+  }
+  return null;
+}
+
+function dedupeSources(sources = []) {
+  const seen = new Set();
+  const deduped = [];
+  for (const source of sources) {
+    const key = source?.url || source?.title;
+    if (!key || seen.has(key)) continue;
+    seen.add(key);
+    deduped.push(source);
+  }
+  return deduped;
+}
+
+function sourcePriorityScore(source) {
+  const url = String(source?.url || '').toLowerCase();
+  const title = String(source?.title || '').toLowerCase();
+  const publishedAt = String(source?.published_at || '');
+  let score = 0;
+  if (publishedAt) score += 8;
+  if (/2026|2025/.test(publishedAt)) score += 4;
+  if (/reuters|theguardian|businessinsider|fastcompany|techcrunch|bloomberg|nytimes|washingtonpost|wsj|ft\.com|forbes|cbsnews|fortune|theinformation|platformer|stratechery/.test(url)) score += 6;
+  if (/klarna|meta|openai|google|microsoft|anthropic|shopify|salesforce|nvidia|amazon/.test(url + title)) score += 5;
+  if (/wikipedia|grokipedia|scribd|pdf|archive\.org|stanford\.edu|plato\.stanford\.edu/.test(url)) score -= 4;
+  return score;
+}
+
+async function fetchSourceMetadata(url) {
+  try {
+    const response = await fetch(url, {
+      redirect: 'follow',
+      signal: AbortSignal.timeout(SOURCE_FETCH_TIMEOUT_MS),
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (compatible; DionysusResearchBot/1.0)',
+      },
+    });
+    if (!response.ok) return null;
+    const finalUrl = response.url || url;
+    const html = await response.text();
+    const title = extractMetaContent(html, [
+      /<meta[^>]+property=["']og:title["'][^>]+content=["']([^"]+)["']/i,
+      /<meta[^>]+name=["']twitter:title["'][^>]+content=["']([^"]+)["']/i,
+      /<title[^>]*>([^<]+)<\/title>/i,
+    ]);
+    const excerpt = extractMetaContent(html, [
+      /<meta[^>]+property=["']og:description["'][^>]+content=["']([^"]+)["']/i,
+      /<meta[^>]+name=["']description["'][^>]+content=["']([^"]+)["']/i,
+      /<meta[^>]+name=["']twitter:description["'][^>]+content=["']([^"]+)["']/i,
+    ]);
+    const publishedAt = normalizePublishedDate(extractMetaContent(html, [
+      /<meta[^>]+property=["']article:published_time["'][^>]+content=["']([^"]+)["']/i,
+      /<meta[^>]+name=["']pubdate["'][^>]+content=["']([^"]+)["']/i,
+      /<meta[^>]+name=["']publish-date["'][^>]+content=["']([^"]+)["']/i,
+      /<meta[^>]+name=["']parsely-pub-date["'][^>]+content=["']([^"]+)["']/i,
+      /"datePublished"\s*:\s*"([^"]+)"/i,
+    ])) || extractDateFromUrl(finalUrl);
+    return {
+      title: title || finalUrl,
+      url: finalUrl,
+      published_at: publishedAt,
+      excerpt: excerpt || '',
+      content_text: extractPageText(html),
+    };
+  } catch {
+    return null;
+  }
+}
+
+async function extractGroundedSources({ latest, limit = MAX_GROUNDED_SOURCES }) {
+  const groundingUrls = unique(
+    (latest?.outputs || []).flatMap((entry) => (entry.annotations || []).map((annotation) => annotation.source)),
+  ).slice(0, limit);
+  const sources = [];
+  for (const url of groundingUrls) {
+    const metadata = await fetchSourceMetadata(url);
+    if (!metadata?.url) continue;
+    sources.push({
+      title: metadata.title,
+      url: metadata.url,
+      published_at: metadata.published_at || '',
+      excerpt: metadata.excerpt || '',
+      content_text: metadata.content_text || '',
+      relevance: 'Resolved from Gemini grounding annotations.',
+      claim: 'Grounded source captured from the deep research report.',
+    });
+  }
+  return dedupeSources(sources).sort((left, right) => sourcePriorityScore(right) - sourcePriorityScore(left));
+}
 
 class GeminiResearchAdapter {
   constructor({ mode = 'fixture', agent = 'deep-research-pro-preview-12-2025', apiKey = process.env.GEMINI_API_KEY } = {}) {
@@ -44,10 +191,10 @@ class GeminiResearchAdapter {
       sources,
       candidate_angles: [
         {
-          topic_thesis: topicThesis,
-          angle: 'Use an adjacent company story to show that the real failure is social metabolism, not feature delivery.',
-          hook: 'The obvious story is rarely the real one.',
-          subject: 'adjacent-company-case',
+          topic_thesis: 'Enterprise AI rollout reporting shows the visible product miss is usually a naming failure upstream.',
+          angle: 'Start from one fresh AI rollout case, then show how euphemistic language kept the institution from naming the real social bottleneck.',
+          hook: 'The product miss is visible. The naming failure above it is the real story.',
+          subject: sources[0].title,
         },
       ],
       watchlist_inputs: watchlists,
@@ -55,9 +202,17 @@ class GeminiResearchAdapter {
     };
   }
 
-  buildPrompt({ topicThesis, watchlists }) {
+  buildPrompt({ topicThesis, watchlists, referenceDate = now() }) {
+    const recencyPolicy = getResearchRecencyPolicy({ watchlists, referenceDate });
     return [
       `Research thesis: ${topicThesis}`,
+      `Today's date: ${recencyPolicy.reference_date}`,
+      'Search for hot recent reporting first, then choose the single best case that matches the thesis most clearly.',
+      `Search for recent reporting first. Prioritize sources published on or after ${recencyPolicy.cutoff_date} (${recencyPolicy.recent_window_days}-day window).`,
+      `Return at least ${recencyPolicy.min_recent_sources} recent reported company or institutional cases unless no such reporting exists.`,
+      'Use older canonical or conceptual sources only as supporting context, not as the main case.',
+      'Do not rely on old famous examples when fresh reporting is available.',
+      'The goal is not to prove the thesis abstractly. The goal is to find one concrete recent event that makes the thesis legible.',
       'Find direct and indirect articles that reveal the pattern, not just articles using the same words.',
       `Adjacent domains: ${(watchlists.adjacent_domains || []).join(', ')}`,
       `Entities: ${JSON.stringify(watchlists.entities || {})}`,
@@ -99,21 +254,23 @@ class GeminiResearchAdapter {
 
   async pollResearchJob({ job }) {
     if (!this.apiKey) throw new Error('Missing GEMINI_API_KEY for live research.');
-    let latest = { status: job.status || 'in_progress', id: job.interaction_id };
+    let latest = null;
     for (let attempt = 0; attempt < this.pollAttempts; attempt += 1) {
-      if (latest.status === 'completed' || latest.status === 'failed' || latest.status === 'cancelled' || latest.status === 'incomplete') break;
-      await new Promise((resolve) => setTimeout(resolve, this.pollIntervalMs));
+      if (attempt > 0) {
+        await new Promise((resolve) => setTimeout(resolve, this.pollIntervalMs));
+      }
       const pollResponse = await fetch(`https://generativelanguage.googleapis.com/v1beta/interactions/${job.interaction_id}?key=${this.apiKey}`);
       if (!pollResponse.ok) {
         throw new Error(`Gemini Deep Research poll failed (${pollResponse.status}): ${await pollResponse.text()}`);
       }
       latest = await pollResponse.json();
+      if (latest.status === 'completed' || latest.status === 'failed' || latest.status === 'cancelled' || latest.status === 'incomplete') break;
     }
 
-    return latest;
+    return latest || { status: job.status || 'in_progress', id: job.interaction_id };
   }
 
-  normalizeCompletedResearch({ job, latest }) {
+  async normalizeCompletedResearch({ job, latest }) {
     const interactionId = job.interaction_id;
 
     if (latest.status !== 'completed') {
@@ -123,12 +280,13 @@ class GeminiResearchAdapter {
     const outputText = Array.isArray(latest.outputs)
       ? latest.outputs.map((entry) => entry.text || '').filter(Boolean).join('\n\n')
       : JSON.stringify(latest);
+    const sources = await extractGroundedSources({ latest });
     return {
       id: sha256(`live:${job.topic_thesis}:${interactionId}`).slice(0, 12),
       provider: 'gemini-live',
       topic_thesis: job.topic_thesis,
       summary: outputText.slice(0, 2000),
-      sources: [],
+      sources,
       candidate_angles: [
         {
           topic_thesis: job.topic_thesis,

@@ -34,7 +34,6 @@ In live mode, `scan-timely` is asynchronous:
 
 ## Required live secrets
 
-- `ANTHROPIC_API_KEY`
 - `OPENAI_API_KEY`
 - `GEMINI_API_KEY`
 - `ZAPIER_LINKEDIN_WEBHOOK_URL`
@@ -45,5 +44,9 @@ In live mode, `scan-timely` is asynchronous:
 - `GH_SECRET_UPDATE_TOKEN` (GitHub token with permission to update repository Actions secrets)
 
 For X OAuth2 token setup, add a localhost callback such as `http://127.0.0.1:8787/x/callback` to your X app, then run `npm run social:x-oauth2-token -- --env-file /Users/seandevine/Code/dionysus-program/.env.social.local`.
+
+Optional for Anthropic bakeoffs only:
+
+- `ANTHROPIC_API_KEY`
 
 Run fixture mode first. The workflows are thin wrappers around these same commands.
