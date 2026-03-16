@@ -11,7 +11,7 @@
       "timezone": "America/Los_Angeles",
       "weekday": "monday",
       "slot_type": "baseline",
-      "status": "planned",
+      "status": "skipped",
       "content_type": "decoder_ring",
       "pillar": "Decoder Ring",
       "topic_thesis": "Rectification of Names matters because a leader who cannot call failure failure makes ritual truth-telling a farce.",
@@ -23,7 +23,8 @@
       "winner_id": null,
       "risk_level": "low",
       "freshness_deadline": null,
-      "publish_payload": null
+      "publish_payload": null,
+      "skip_reason": "research_pending"
     },
     {
       "id": "cec0723aa2ad",
