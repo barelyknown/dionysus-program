@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 const { parseArgs, printJson, fail } = require('../lib/cli');
 const { findCalendarItem } = require('../lib/records');
-const { createAdapters, createRun, updateRun, loadStrategy, scoreCandidatesForItem, loadFreshMemory } = require('../lib/pipeline');
+const { createAdapters, createRun, updateRun, loadStrategy, scoreCandidatesForItem, loadFreshMemory, ResearchPendingError } = require('../lib/pipeline');
 
 async function main() {
   const args = parseArgs(process.argv.slice(2));
@@ -24,5 +24,15 @@ async function main() {
   });
 }
 
-main().catch((error) => fail(error.stack || error.message));
-
+main().catch((error) => {
+  if (error instanceof ResearchPendingError) {
+    printJson({
+      ok: true,
+      pending: true,
+      reason: 'research_pending',
+      ...error.details,
+    });
+    return;
+  }
+  fail(error.stack || error.message);
+});

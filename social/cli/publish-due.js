@@ -16,6 +16,7 @@ const {
   finalMemoryCheck,
   createPublishPayload,
   createPublishedRecord,
+  ResearchPendingError,
 } = require('../lib/pipeline');
 const { rebuildMemory } = require('../lib/memory');
 const { now } = require('../lib/time');
@@ -25,16 +26,32 @@ function isDue(item, currentTime) {
 }
 
 async function handleItem({ item, strategy, adapters, memory, dryRun }) {
-  const scored = await scoreCandidatesForItem({ calendarItem: item, strategy, adapters, memory });
+  let scored;
+  let resolvedItem = item;
+  try {
+    scored = await scoreCandidatesForItem({ calendarItem: item, strategy, adapters, memory });
+    resolvedItem = scored.calendarItem || item;
+  } catch (error) {
+    if (error instanceof ResearchPendingError) {
+      return {
+        calendarItem: item,
+        status: 'skipped',
+        reason: 'research_pending',
+        pending_job: error.details?.pending_job || null,
+      };
+    }
+    throw error;
+  }
   if (!scored.winnerCandidate || !scored.winnerScore) {
     return {
+      calendarItem: scored.calendarItem || item,
       status: 'skipped',
       reason: 'no_passing_candidate',
       scorecards: scored.scorecards,
     };
   }
   const memoryConflicts = finalMemoryCheck({
-    calendarItem: item,
+    calendarItem: resolvedItem,
     winnerCandidate: scored.winnerCandidate,
     strategy,
     memory,
@@ -43,6 +60,7 @@ async function handleItem({ item, strategy, adapters, memory, dryRun }) {
   });
   if (memoryConflicts.length > 0) {
     return {
+      calendarItem: scored.calendarItem || item,
       status: 'skipped',
       reason: 'memory_conflict',
       conflicts: memoryConflicts,
@@ -52,7 +70,7 @@ async function handleItem({ item, strategy, adapters, memory, dryRun }) {
   }
 
   const payload = createPublishPayload({
-    calendarItem: item,
+    calendarItem: resolvedItem,
     winnerCandidate: scored.winnerCandidate,
     winnerScore: scored.winnerScore,
     researchBundle: scored.researchBundle,
@@ -67,6 +85,7 @@ async function handleItem({ item, strategy, adapters, memory, dryRun }) {
       dryRun: true,
     });
     return {
+      calendarItem: scored.calendarItem || item,
       status: 'dry_run',
       payload,
       x,
@@ -90,6 +109,7 @@ async function handleItem({ item, strategy, adapters, memory, dryRun }) {
     dryRun: false,
   });
   return {
+    calendarItem: scored.calendarItem || item,
     status: 'published',
     payload,
     publishResult,
@@ -121,13 +141,13 @@ async function main() {
         const record = createPublishedRecord({
           publishPayload: outcome.payload,
           publishResult: outcome.publishResult,
-          calendarItem: item,
+          calendarItem: outcome.calendarItem || item,
           note: outcome.note,
           x: outcome.x,
         });
         appendJsonl(paths.publishedLedger, record);
         calendar = replaceCalendarItem(calendar, {
-          ...item,
+          ...(outcome.calendarItem || item),
           status: 'published',
           winner_id: outcome.winnerCandidate.id,
           publish_payload: outcome.payload,
@@ -150,7 +170,7 @@ async function main() {
           conflicts: outcome.conflicts || [],
         });
         calendar = replaceCalendarItem(calendar, {
-          ...item,
+          ...(outcome.calendarItem || item),
           status: 'skipped',
           skip_reason: outcome.reason,
         });

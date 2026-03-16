@@ -18,5 +18,5 @@ module.exports = createContentType({
     'End with the consequence of leaving it untreated.',
     'Prefer a concrete final consequence over framework jargon in the closing line.',
   ],
-  timelyEligible: true,
+  timelyEligible: false,
 });

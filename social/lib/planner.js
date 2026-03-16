@@ -282,7 +282,7 @@ function candidateHook(type, topic) {
   return `${prefix[type.id]} ${topic.replace(/\.$/, '').toLowerCase()}.`;
 }
 
-function planBaselineWeek({ strategy, memory, context, referenceDate = now() }) {
+function planBaselineWeek({ strategy, memory, context, watchlists = null, referenceDate = now() }) {
   const mailbagItems = loadMailbagItems();
   const types = listTypes()
     .filter((type) => strategy.content_types?.[type.id]?.enabled !== false);
@@ -330,14 +330,23 @@ function planBaselineWeek({ strategy, memory, context, referenceDate = now() }) 
       right.score - left.score
     )).map((entry) => entry.type);
     const pickedType = eligible[0] || types[0];
-    const topicThesis = selectTopicForType({
-      topics: strategy.topics || [],
-      typeId: pickedType.id,
-      strategy,
-      memory,
-      context,
-      usedTopics,
-    });
+    const topicThesis = pickedType.requiresResearch
+      ? selectResearchTopic({
+        topics: strategy.topics || [],
+        strategy,
+        memory,
+        context,
+        watchlists: watchlists || { seed_topics: [], adjacent_domains: [], keyword_clusters: [], entities: {} },
+      })
+      : selectTopicForType({
+        topics: strategy.topics || [],
+        typeId: pickedType.id,
+        strategy,
+        memory,
+        context,
+        usedTopics,
+      });
+    usedTopics.add(normalizeText(topicThesis));
     const hook = candidateHook(pickedType, topicThesis);
     const angle = pickedType.defaultAngle;
     const calendarItem = buildCalendarItem({

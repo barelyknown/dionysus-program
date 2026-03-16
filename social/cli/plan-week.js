@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 const { parseArgs, printJson, fail } = require('../lib/cli');
-const { loadStrategy } = require('../lib/config');
+const { loadStrategy, loadWatchlists } = require('../lib/config');
 const { loadSourceContext } = require('../lib/context');
 const { rebuildMemory } = require('../lib/memory');
 const { planBaselineWeek, calendarFileName } = require('../lib/planner');
@@ -10,10 +10,11 @@ const { createRun, updateRun } = require('../lib/pipeline');
 async function main() {
   const args = parseArgs(process.argv.slice(2));
   const strategy = loadStrategy();
+  const watchlists = loadWatchlists();
   const context = loadSourceContext();
   const dryRun = Boolean(args['dry-run']);
   const memory = rebuildMemory({ strategy, write: !dryRun });
-  const calendar = planBaselineWeek({ strategy, memory, context });
+  const calendar = planBaselineWeek({ strategy, memory, context, watchlists });
   const run = createRun('plan-week', { args, calendar_id: calendar.id });
   const filePath = calendarFileName({ calendarId: calendar.id });
 

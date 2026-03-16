@@ -13,8 +13,10 @@ voice:
     allow_links: false
 provider_defaults:
   mode: fixture
+  writer_provider: openai
   claude_model: claude-opus-4-6
   openai_model: gpt-5.4
+  openai_reasoning_effort: medium
   gemini_agent: deep-research-pro-preview-12-2025
 x:
   enabled: true
@@ -66,7 +68,7 @@ memory:
   timely_subject_cooldown_days: 30
   source_reuse_cooldown_days: 21
 generation:
-  best_of_n: 4
+  best_of_n: 2
   prompt_variants:
     - hook_forward
     - diagnosis_forward
@@ -88,6 +90,7 @@ content_types:
     rolling_max: 10
     weekdays: [monday, wednesday, thursday]
     timely_eligible: true
+    requires_research: true
     cooldown_days: 7
   ritual_recipe:
     enabled: true
@@ -103,7 +106,7 @@ content_types:
     rolling_min: 0
     rolling_max: 6
     weekdays: [tuesday, thursday]
-    timely_eligible: true
+    timely_eligible: false
     cooldown_days: 21
   high_lindy_source_tour:
     enabled: true

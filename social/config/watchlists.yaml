@@ -5,6 +5,9 @@ seed_topics:
   - ritual and renewal
   - organizational change
   - technical truth and social trust
+research:
+  recent_window_days: 30
+  min_recent_sources: 1
 adjacent_domains:
   - artificial intelligence
   - enterprise software
@@ -44,8 +47,7 @@ entities:
     - Stratechery
     - Platformer
     - Every
-  prompts:
-    - "Find indirectly related articles that illuminate the thesis, not just articles that repeat the thesis vocabulary."
-    - "Prefer cases where organizational behavior reveals the hidden problem."
-    - "Return dated sources and explain the relevance of each source to the thesis."
-
+prompts:
+  - "Find indirectly related articles that illuminate the thesis, not just articles that repeat the thesis vocabulary."
+  - "Prefer cases where organizational behavior reveals the hidden problem."
+  - "Return dated sources and explain the relevance of each source to the thesis."
