@@ -62,11 +62,15 @@ test('fixture generation and scoring produce a publishable winner', async (t) =>
     publishResult: {
       external_post_id: 'fixture-123',
       delivered_at: '2026-03-17T15:30:00.000Z',
+      linkedin_post_url: 'https://www.linkedin.com/feed/update/urn:li:activity:123',
+      linkedin_activity_urn: 'urn:li:activity:123',
     },
     calendarItem: item,
   });
 
   assert.equal(record.post_id, 'fixture-123');
+  assert.equal(record.linkedin_post_url, 'https://www.linkedin.com/feed/update/urn:li:activity:123');
+  assert.equal(record.linkedin_activity_urn, 'urn:li:activity:123');
   assert.equal(record.content_type, 'decoder_ring');
   assert.ok(record.final_text_hash);
 });

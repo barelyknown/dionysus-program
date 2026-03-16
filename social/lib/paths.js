@@ -13,6 +13,7 @@ const paths = {
   stateDir: path.join(socialRoot, 'state'),
   runsDir: path.join(socialRoot, 'runs'),
   researchCacheDir: path.join(socialRoot, 'cache', 'research'),
+  linkedinAnalyticsDir: path.join(socialRoot, 'state', 'linkedin-analytics'),
   postMemoryFile: path.join(socialRoot, 'state', 'post-memory.json'),
   researchJobsFile: path.join(socialRoot, 'state', 'research-jobs.json'),
   publishedLedger: path.join(socialRoot, 'history', 'published.jsonl'),

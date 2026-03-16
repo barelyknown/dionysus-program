@@ -12,10 +12,14 @@ npm run social:generate-candidates -- --item <calendar-item-id> --use-fixtures
 npm run social:score-candidates -- --item <calendar-item-id> --use-fixtures
 npm run social:publish-due -- --dry-run --use-fixtures
 npm run social:x-oauth2-token -- --env-file /Users/seandevine/Code/dionysus-program/.env.social.local
+npm run social:import-linkedin-analytics -- --input /absolute/path/to/Content_YYYY-MM-DD_YYYY-MM-DD_SeanDevine.xlsx
+npm run social:import-linkedin-analytics -- --input /absolute/path/to/Content_YYYY-MM-DD_YYYY-MM-DD_SeanDevine.xlsx --delete-input
 npm run social:rebuild-memory
 npm run social:validate-state
 npm run social:replay-run -- --run-id <run-id>
 ```
+
+The LinkedIn analytics importer writes one file, `social/state/linkedin-analytics/learning-dataset.json`, containing matched post-level metrics for posts created by this flow. Pass `--delete-input` to remove the workbook after a successful import.
 
 ## Provider modes
 

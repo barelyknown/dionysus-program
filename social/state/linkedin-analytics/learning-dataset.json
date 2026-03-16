@@ -1,0 +1,34 @@
+{
+  "source": {
+    "path": "/Users/seandevine/Downloads/Content_2025-03-17_2026-03-16_SeanDevine.xlsx",
+    "filename": "Content_2025-03-17_2026-03-16_SeanDevine.xlsx"
+  },
+  "imported_at": "2026-03-16T19:28:12.473Z",
+  "ranked_post_count": 50,
+  "published_record_count": 1,
+  "matched_record_count": 1,
+  "unmatched_record_count": 0,
+  "matched_records": [
+    {
+      "post_id": "019cf6cc-90f5-b6c3-f091-47e302963342",
+      "external_post_id": "019cf6cc-90f5-b6c3-f091-47e302963342",
+      "published_at": "2026-03-16T13:18:47.586Z",
+      "content_type": "decoder_ring",
+      "pillar": "Decoder Ring",
+      "topic_thesis": "Rectification of Names matters because a leader who cannot call failure failure makes ritual truth-telling a farce.",
+      "angle": "Open on Zuckerberg says AI is letting one employee do the work of entire teams. Here&#x27;s what the move says about the future of hiring. in plain language, then show how it makes the deeper diagnosis legible.",
+      "hook": "Meta didn’t just say AI is boosting productivity. Zuckerberg said one very talented employee can now do work that used to require entire teams.",
+      "winning_candidate_id": "c1304c694cdc",
+      "linkedin_post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7439299135020830720",
+      "linkedin_activity_urn": "urn:li:activity:7439299135020830720",
+      "matched_by": "published_date_unique",
+      "confidence": "medium",
+      "impressions": 3204,
+      "engagements": 11,
+      "engagement_rate": 0.003433208489388265,
+      "rank_by_impressions": 1,
+      "rank_by_engagements": 16
+    }
+  ],
+  "unmatched_records": []
+}

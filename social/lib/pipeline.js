@@ -420,6 +420,8 @@ function createPublishedRecord({ publishPayload, publishResult, calendarItem, no
     post_id: publishResult.external_post_id,
     external_post_id: publishResult.external_post_id,
     published_at: publishResult.delivered_at,
+    linkedin_post_url: publishResult.linkedin_post_url || null,
+    linkedin_activity_urn: publishResult.linkedin_activity_urn || null,
     content_type: calendarItem.content_type,
     pillar: calendarItem.pillar,
     topic_thesis: calendarItem.topic_thesis,
