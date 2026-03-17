@@ -69,8 +69,8 @@
           "https://mlq.ai/news/meta-postpones-avocado-ai-model-launch-to-may-amid-performance-gaps-with-competitors/",
           "https://www.youtube.com/watch?v=HjA9COYgC0w"
         ],
-      "research_bundle_id": "4e7b4b85ea0c",
-      "timely_subject": "Zuckerberg says AI is letting one employee do the work of entire teams. Here&#x27;s what the move says about the future of hiring."
+        "research_bundle_id": "4e7b4b85ea0c",
+        "timely_subject": "Zuckerberg says AI is letting one employee do the work of entire teams. Here&#x27;s what the move says about the future of hiring."
       },
       "seed_topic_thesis": "Rectification of Names matters because a leader who cannot call failure failure makes ritual truth-telling a farce.",
       "published_at": "2026-03-16T13:18:47.586Z",
@@ -99,7 +99,7 @@
       "timezone": "America/Los_Angeles",
       "weekday": "tuesday",
       "slot_type": "baseline",
-      "status": "planned",
+      "status": "published",
       "content_type": "ritual_recipe",
       "pillar": "Ritual Recipes",
       "topic_thesis": "Severability and reversibility make criticism cheaper and therefore more honest.",
@@ -108,10 +108,42 @@
       "source_bundle_id": null,
       "timely_subject": null,
       "draft_ref": null,
-      "winner_id": null,
+      "winner_id": "5a667fd92d7d",
       "risk_level": "low",
       "freshness_deadline": null,
-      "publish_payload": null
+      "publish_payload": {
+        "item_id": "cec0723aa2ad",
+        "scheduled_at": "2026-03-17T12:30:00.000Z",
+        "content_type": "ritual_recipe",
+        "pillar": "Ritual Recipes",
+        "topic_thesis": "Severability and reversibility make criticism cheaper and therefore more honest.",
+        "angle": "Start with a recurring problem and end with a usable move.",
+        "hook": "When trucks are stacked up at 2 a.m. and dollars are burning in the dark, it’s too late to ask for honesty.",
+        "final_text": "When trucks are stacked up at 2 a.m. and dollars are burning in the dark, it’s too late to ask for honesty.\n\nThat was the failure mode. The bad decision had usually been made hours earlier, under uncertainty, when over-ordering felt safer than admitting doubt. Criticizing the plan sounded like criticizing the superintendent’s judgment. So people stayed quiet until the waste was visible.\n\nThe better structure is severability and reversibility. Before the shift starts, break the plan into pieces that can be changed without humiliation. Name the first reversal point. Make one part of the plan easy to unwind if reality moves. Then run the review on that piece, not on the person.\n\nA simple move:\nSet the plan in short intervals.\nState what can be reversed by the next check.\nWhen reviewing variance, ask “what do we unwind first?” not “who missed?”\n\nDon’t use this where safety or true one-way doors are involved. Then you should decide slower. But in uncertain operations, if criticism is expensive, honesty will arrive after the loss.",
+        "winning_candidate_id": "5a667fd92d7d",
+        "winning_score": 8.1,
+        "source_refs": [],
+        "research_bundle_id": null,
+        "timely_subject": null
+      },
+      "skip_reason": null,
+      "published_at": "2026-03-17T13:01:30.895Z",
+      "external_post_id": "019cfbe3-1b7d-811d-622d-f3d64baa33a3",
+      "note_slug": "2026-03-17-severability-and-reversibility-make-criticism-cheaper-and-therefore-more-honest",
+      "note_source_path": "content/notes/2026-03-17-severability-and-reversibility-make-criticism-cheaper-and-therefore-more-honest.md",
+      "x_status": "published",
+      "x_external_post_id": "2033892120579260816",
+      "x_published_at": "2026-03-17T13:04:04.221Z",
+      "x_winning_candidate_id": "dac6d9ca380a",
+      "x_publish_payload": {
+        "source_channel": "linkedin",
+        "source_final_text_hash": "8185ba0cfd82e576b75cbc0a914280419875914518dd056580546106a70420a6",
+        "source_winning_candidate_id": "5a667fd92d7d",
+        "text": "Honesty that arrives at 2 a.m. is just accounting for a loss already taken.\n\nIn uncertain ops, people over-order when doubt feels riskier than disagreeing with the superintendent. Break plans into reversible pieces, and review the piece—not the person.",
+        "winning_candidate_id": "dac6d9ca380a",
+        "winning_score": 9.2
+      },
+      "x_skip_reason": null
     },
     {
       "id": "5af200c29a7f",

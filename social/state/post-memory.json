@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-03-16T13:20:38.003Z",
-  "published_count": 1,
+  "generated_at": "2026-03-17T13:04:04.222Z",
+  "published_count": 2,
   "rolling_window_days": 84,
   "typeCounts": {
-    "decoder_ring": 1
+    "decoder_ring": 1,
+    "ritual_recipe": 1
   },
   "recent_hooks": [
     {
@@ -66,6 +67,36 @@
       "x_winning_candidate_id": "ffd682c8c864",
       "x_final_text_hash": "ccc5b59633fec9367ee2c7ac73e0e25125276ea3d3051806f4cd5e80ca057fd0",
       "x_summary": "This is a naming move before it’s a staffing move.\n\nCall team reduction “elevating individual contributors” and later misses arrive pre-explained. The postmortem still happens, but the permitted vocabulary was chosen before the facts were.",
+      "x_skip_reason": null
+    },
+    {
+      "post_id": "019cfbe3-1b7d-811d-622d-f3d64baa33a3",
+      "external_post_id": "019cfbe3-1b7d-811d-622d-f3d64baa33a3",
+      "published_at": "2026-03-17T13:01:30.895Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "ritual_recipe",
+      "pillar": "Ritual Recipes",
+      "topic_thesis": "Severability and reversibility make criticism cheaper and therefore more honest.",
+      "angle": "Start with a recurring problem and end with a usable move.",
+      "hook": "When trucks are stacked up at 2 a.m. and dollars are burning in the dark, it’s too late to ask for honesty.",
+      "summary": "When trucks are stacked up at 2 a.m. and dollars are burning in the dark, it’s too late to ask for honesty.\n\nThat was the failure mode. The bad decision had usually been made hours earlier, under uncertainty, when over-ordering felt safer than admitting doubt. Criticizing the pla",
+      "source_refs": [],
+      "framework_terms_used": [
+        "li"
+      ],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "5a667fd92d7d",
+      "final_text_hash": "8185ba0cfd82e576b75cbc0a914280419875914518dd056580546106a70420a6",
+      "note_slug": "2026-03-17-severability-and-reversibility-make-criticism-cheaper-and-therefore-more-honest",
+      "note_source_path": "content/notes/2026-03-17-severability-and-reversibility-make-criticism-cheaper-and-therefore-more-honest.md",
+      "x_status": "published",
+      "x_external_post_id": "2033892120579260816",
+      "x_published_at": "2026-03-17T13:04:04.221Z",
+      "x_winning_candidate_id": "dac6d9ca380a",
+      "x_final_text_hash": "91213c37733861a7cd5bf33f5b92f479cc8a83227a41e8ced35ee6a96058e9c8",
+      "x_summary": "Honesty that arrives at 2 a.m. is just accounting for a loss already taken.\n\nIn uncertain ops, people over-order when doubt feels riskier than disagreeing with the superintendent. Break plans into reversible pieces, and review the piece—not the person.",
       "x_skip_reason": null
     }
   ],
@@ -131,6 +162,36 @@
       "x_final_text_hash": "ccc5b59633fec9367ee2c7ac73e0e25125276ea3d3051806f4cd5e80ca057fd0",
       "x_summary": "This is a naming move before it’s a staffing move.\n\nCall team reduction “elevating individual contributors” and later misses arrive pre-explained. The postmortem still happens, but the permitted vocabulary was chosen before the facts were.",
       "x_skip_reason": null
+    },
+    {
+      "post_id": "019cfbe3-1b7d-811d-622d-f3d64baa33a3",
+      "external_post_id": "019cfbe3-1b7d-811d-622d-f3d64baa33a3",
+      "published_at": "2026-03-17T13:01:30.895Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "ritual_recipe",
+      "pillar": "Ritual Recipes",
+      "topic_thesis": "Severability and reversibility make criticism cheaper and therefore more honest.",
+      "angle": "Start with a recurring problem and end with a usable move.",
+      "hook": "When trucks are stacked up at 2 a.m. and dollars are burning in the dark, it’s too late to ask for honesty.",
+      "summary": "When trucks are stacked up at 2 a.m. and dollars are burning in the dark, it’s too late to ask for honesty.\n\nThat was the failure mode. The bad decision had usually been made hours earlier, under uncertainty, when over-ordering felt safer than admitting doubt. Criticizing the pla",
+      "source_refs": [],
+      "framework_terms_used": [
+        "li"
+      ],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "5a667fd92d7d",
+      "final_text_hash": "8185ba0cfd82e576b75cbc0a914280419875914518dd056580546106a70420a6",
+      "note_slug": "2026-03-17-severability-and-reversibility-make-criticism-cheaper-and-therefore-more-honest",
+      "note_source_path": "content/notes/2026-03-17-severability-and-reversibility-make-criticism-cheaper-and-therefore-more-honest.md",
+      "x_status": "published",
+      "x_external_post_id": "2033892120579260816",
+      "x_published_at": "2026-03-17T13:04:04.221Z",
+      "x_winning_candidate_id": "dac6d9ca380a",
+      "x_final_text_hash": "91213c37733861a7cd5bf33f5b92f479cc8a83227a41e8ced35ee6a96058e9c8",
+      "x_summary": "Honesty that arrives at 2 a.m. is just accounting for a loss already taken.\n\nIn uncertain ops, people over-order when doubt feels riskier than disagreeing with the superintendent. Break plans into reversible pieces, and review the piece—not the person.",
+      "x_skip_reason": null
     }
   ],
   "recent_topics": [
@@ -194,6 +255,36 @@
       "x_winning_candidate_id": "ffd682c8c864",
       "x_final_text_hash": "ccc5b59633fec9367ee2c7ac73e0e25125276ea3d3051806f4cd5e80ca057fd0",
       "x_summary": "This is a naming move before it’s a staffing move.\n\nCall team reduction “elevating individual contributors” and later misses arrive pre-explained. The postmortem still happens, but the permitted vocabulary was chosen before the facts were.",
+      "x_skip_reason": null
+    },
+    {
+      "post_id": "019cfbe3-1b7d-811d-622d-f3d64baa33a3",
+      "external_post_id": "019cfbe3-1b7d-811d-622d-f3d64baa33a3",
+      "published_at": "2026-03-17T13:01:30.895Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "ritual_recipe",
+      "pillar": "Ritual Recipes",
+      "topic_thesis": "Severability and reversibility make criticism cheaper and therefore more honest.",
+      "angle": "Start with a recurring problem and end with a usable move.",
+      "hook": "When trucks are stacked up at 2 a.m. and dollars are burning in the dark, it’s too late to ask for honesty.",
+      "summary": "When trucks are stacked up at 2 a.m. and dollars are burning in the dark, it’s too late to ask for honesty.\n\nThat was the failure mode. The bad decision had usually been made hours earlier, under uncertainty, when over-ordering felt safer than admitting doubt. Criticizing the pla",
+      "source_refs": [],
+      "framework_terms_used": [
+        "li"
+      ],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "5a667fd92d7d",
+      "final_text_hash": "8185ba0cfd82e576b75cbc0a914280419875914518dd056580546106a70420a6",
+      "note_slug": "2026-03-17-severability-and-reversibility-make-criticism-cheaper-and-therefore-more-honest",
+      "note_source_path": "content/notes/2026-03-17-severability-and-reversibility-make-criticism-cheaper-and-therefore-more-honest.md",
+      "x_status": "published",
+      "x_external_post_id": "2033892120579260816",
+      "x_published_at": "2026-03-17T13:04:04.221Z",
+      "x_winning_candidate_id": "dac6d9ca380a",
+      "x_final_text_hash": "91213c37733861a7cd5bf33f5b92f479cc8a83227a41e8ced35ee6a96058e9c8",
+      "x_summary": "Honesty that arrives at 2 a.m. is just accounting for a loss already taken.\n\nIn uncertain ops, people over-order when doubt feels riskier than disagreeing with the superintendent. Break plans into reversible pieces, and review the piece—not the person.",
       "x_skip_reason": null
     }
   ],
@@ -259,6 +350,36 @@
       "x_final_text_hash": "ccc5b59633fec9367ee2c7ac73e0e25125276ea3d3051806f4cd5e80ca057fd0",
       "x_summary": "This is a naming move before it’s a staffing move.\n\nCall team reduction “elevating individual contributors” and later misses arrive pre-explained. The postmortem still happens, but the permitted vocabulary was chosen before the facts were.",
       "x_skip_reason": null
+    },
+    {
+      "post_id": "019cfbe3-1b7d-811d-622d-f3d64baa33a3",
+      "external_post_id": "019cfbe3-1b7d-811d-622d-f3d64baa33a3",
+      "published_at": "2026-03-17T13:01:30.895Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "ritual_recipe",
+      "pillar": "Ritual Recipes",
+      "topic_thesis": "Severability and reversibility make criticism cheaper and therefore more honest.",
+      "angle": "Start with a recurring problem and end with a usable move.",
+      "hook": "When trucks are stacked up at 2 a.m. and dollars are burning in the dark, it’s too late to ask for honesty.",
+      "summary": "When trucks are stacked up at 2 a.m. and dollars are burning in the dark, it’s too late to ask for honesty.\n\nThat was the failure mode. The bad decision had usually been made hours earlier, under uncertainty, when over-ordering felt safer than admitting doubt. Criticizing the pla",
+      "source_refs": [],
+      "framework_terms_used": [
+        "li"
+      ],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "5a667fd92d7d",
+      "final_text_hash": "8185ba0cfd82e576b75cbc0a914280419875914518dd056580546106a70420a6",
+      "note_slug": "2026-03-17-severability-and-reversibility-make-criticism-cheaper-and-therefore-more-honest",
+      "note_source_path": "content/notes/2026-03-17-severability-and-reversibility-make-criticism-cheaper-and-therefore-more-honest.md",
+      "x_status": "published",
+      "x_external_post_id": "2033892120579260816",
+      "x_published_at": "2026-03-17T13:04:04.221Z",
+      "x_winning_candidate_id": "dac6d9ca380a",
+      "x_final_text_hash": "91213c37733861a7cd5bf33f5b92f479cc8a83227a41e8ced35ee6a96058e9c8",
+      "x_summary": "Honesty that arrives at 2 a.m. is just accounting for a loss already taken.\n\nIn uncertain ops, people over-order when doubt feels riskier than disagreeing with the superintendent. Break plans into reversible pieces, and review the piece—not the person.",
+      "x_skip_reason": null
     }
   ],
   "recent_sources": [
@@ -322,6 +443,36 @@
       "x_winning_candidate_id": "ffd682c8c864",
       "x_final_text_hash": "ccc5b59633fec9367ee2c7ac73e0e25125276ea3d3051806f4cd5e80ca057fd0",
       "x_summary": "This is a naming move before it’s a staffing move.\n\nCall team reduction “elevating individual contributors” and later misses arrive pre-explained. The postmortem still happens, but the permitted vocabulary was chosen before the facts were.",
+      "x_skip_reason": null
+    },
+    {
+      "post_id": "019cfbe3-1b7d-811d-622d-f3d64baa33a3",
+      "external_post_id": "019cfbe3-1b7d-811d-622d-f3d64baa33a3",
+      "published_at": "2026-03-17T13:01:30.895Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "ritual_recipe",
+      "pillar": "Ritual Recipes",
+      "topic_thesis": "Severability and reversibility make criticism cheaper and therefore more honest.",
+      "angle": "Start with a recurring problem and end with a usable move.",
+      "hook": "When trucks are stacked up at 2 a.m. and dollars are burning in the dark, it’s too late to ask for honesty.",
+      "summary": "When trucks are stacked up at 2 a.m. and dollars are burning in the dark, it’s too late to ask for honesty.\n\nThat was the failure mode. The bad decision had usually been made hours earlier, under uncertainty, when over-ordering felt safer than admitting doubt. Criticizing the pla",
+      "source_refs": [],
+      "framework_terms_used": [
+        "li"
+      ],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "5a667fd92d7d",
+      "final_text_hash": "8185ba0cfd82e576b75cbc0a914280419875914518dd056580546106a70420a6",
+      "note_slug": "2026-03-17-severability-and-reversibility-make-criticism-cheaper-and-therefore-more-honest",
+      "note_source_path": "content/notes/2026-03-17-severability-and-reversibility-make-criticism-cheaper-and-therefore-more-honest.md",
+      "x_status": "published",
+      "x_external_post_id": "2033892120579260816",
+      "x_published_at": "2026-03-17T13:04:04.221Z",
+      "x_winning_candidate_id": "dac6d9ca380a",
+      "x_final_text_hash": "91213c37733861a7cd5bf33f5b92f479cc8a83227a41e8ced35ee6a96058e9c8",
+      "x_summary": "Honesty that arrives at 2 a.m. is just accounting for a loss already taken.\n\nIn uncertain ops, people over-order when doubt feels riskier than disagreeing with the superintendent. Break plans into reversible pieces, and review the piece—not the person.",
       "x_skip_reason": null
     }
   ]
