@@ -1,6 +1,13 @@
 notes_archive_url: notes/index.html
 recent_notes_empty: false
 recent_notes:
+  - title: The fastest way to kill candor is to use Run Time accountability inside
+      Ritual Time
+    display_date: March 18, 2026
+    url: notes/2026-03-18-the-fastest-way-to-kill-candor-is-to-use-run-time-accountability-inside-ritual-time/index.html
+    excerpt: The fastest way to kill candor is to use Run Time accountability inside
+      Ritual Time.
+    pillar: Extracted Insights
   - title: Severability and reversibility make criticism cheaper and therefore more
       honest
     display_date: March 17, 2026

@@ -1,10 +1,11 @@
 {
-  "generated_at": "2026-03-17T13:04:04.222Z",
-  "published_count": 2,
+  "generated_at": "2026-03-18T13:02:47.404Z",
+  "published_count": 3,
   "rolling_window_days": 84,
   "typeCounts": {
     "decoder_ring": 1,
-    "ritual_recipe": 1
+    "ritual_recipe": 1,
+    "extracted_insight": 1
   },
   "recent_hooks": [
     {
@@ -97,6 +98,40 @@
       "x_winning_candidate_id": "dac6d9ca380a",
       "x_final_text_hash": "91213c37733861a7cd5bf33f5b92f479cc8a83227a41e8ced35ee6a96058e9c8",
       "x_summary": "Honesty that arrives at 2 a.m. is just accounting for a loss already taken.\n\nIn uncertain ops, people over-order when doubt feels riskier than disagreeing with the superintendent. Break plans into reversible pieces, and review the piece—not the person.",
+      "x_skip_reason": null
+    },
+    {
+      "post_id": "019d0108-eba7-4727-dd2f-b9f9ceb07fb6",
+      "external_post_id": "019d0108-eba7-4727-dd2f-b9f9ceb07fb6",
+      "published_at": "2026-03-18T13:00:55.102Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "extracted_insight",
+      "pillar": "Extracted Insights",
+      "topic_thesis": "Run Time and Ritual Time require different forms of accountability.",
+      "angle": "Name the concept, explain it plainly, and show why it matters now.",
+      "hook": "The fastest way to kill candor is to use Run Time accountability inside Ritual Time.",
+      "summary": "The fastest way to kill candor is to use Run Time accountability inside Ritual Time.\n\nRun Time and Ritual Time are different modes. In Run Time, people answer for forecasts, decisions, and results. It’s execution: act, score, own it.\n\nRitual Time is the protected interval for met",
+      "source_refs": [],
+      "framework_terms_used": [
+        "ritual time",
+        "run time",
+        "management theater",
+        "li",
+        "ren"
+      ],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "a3d886bf3878",
+      "final_text_hash": "47359edbafaedbbf5ce509ade81f10d2828e4f8a9b8ddf9633bf1013d17ed06b",
+      "note_slug": "2026-03-18-the-fastest-way-to-kill-candor-is-to-use-run-time-accountability-inside-ritual-time",
+      "note_source_path": "content/notes/2026-03-18-the-fastest-way-to-kill-candor-is-to-use-run-time-accountability-inside-ritual-time.md",
+      "x_status": "published",
+      "x_external_post_id": "2034254186217443348",
+      "x_published_at": "2026-03-18T13:02:47.402Z",
+      "x_winning_candidate_id": "fea2a6319c9d",
+      "x_final_text_hash": "a2c76752b1958c4a60ceea8eb5c7ae2fabd1561b99f7f8bf0811de9f45ae63c9",
+      "x_summary": "Most “lack of candor” is a design error, not a character flaw.\n\nTeams use Run Time accountability inside Ritual Time. In a postmortem, that means people are still being scored while trying to surface what broke. The artifact stops being the target. The self does.",
       "x_skip_reason": null
     }
   ],
@@ -192,6 +227,40 @@
       "x_final_text_hash": "91213c37733861a7cd5bf33f5b92f479cc8a83227a41e8ced35ee6a96058e9c8",
       "x_summary": "Honesty that arrives at 2 a.m. is just accounting for a loss already taken.\n\nIn uncertain ops, people over-order when doubt feels riskier than disagreeing with the superintendent. Break plans into reversible pieces, and review the piece—not the person.",
       "x_skip_reason": null
+    },
+    {
+      "post_id": "019d0108-eba7-4727-dd2f-b9f9ceb07fb6",
+      "external_post_id": "019d0108-eba7-4727-dd2f-b9f9ceb07fb6",
+      "published_at": "2026-03-18T13:00:55.102Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "extracted_insight",
+      "pillar": "Extracted Insights",
+      "topic_thesis": "Run Time and Ritual Time require different forms of accountability.",
+      "angle": "Name the concept, explain it plainly, and show why it matters now.",
+      "hook": "The fastest way to kill candor is to use Run Time accountability inside Ritual Time.",
+      "summary": "The fastest way to kill candor is to use Run Time accountability inside Ritual Time.\n\nRun Time and Ritual Time are different modes. In Run Time, people answer for forecasts, decisions, and results. It’s execution: act, score, own it.\n\nRitual Time is the protected interval for met",
+      "source_refs": [],
+      "framework_terms_used": [
+        "ritual time",
+        "run time",
+        "management theater",
+        "li",
+        "ren"
+      ],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "a3d886bf3878",
+      "final_text_hash": "47359edbafaedbbf5ce509ade81f10d2828e4f8a9b8ddf9633bf1013d17ed06b",
+      "note_slug": "2026-03-18-the-fastest-way-to-kill-candor-is-to-use-run-time-accountability-inside-ritual-time",
+      "note_source_path": "content/notes/2026-03-18-the-fastest-way-to-kill-candor-is-to-use-run-time-accountability-inside-ritual-time.md",
+      "x_status": "published",
+      "x_external_post_id": "2034254186217443348",
+      "x_published_at": "2026-03-18T13:02:47.402Z",
+      "x_winning_candidate_id": "fea2a6319c9d",
+      "x_final_text_hash": "a2c76752b1958c4a60ceea8eb5c7ae2fabd1561b99f7f8bf0811de9f45ae63c9",
+      "x_summary": "Most “lack of candor” is a design error, not a character flaw.\n\nTeams use Run Time accountability inside Ritual Time. In a postmortem, that means people are still being scored while trying to surface what broke. The artifact stops being the target. The self does.",
+      "x_skip_reason": null
     }
   ],
   "recent_topics": [
@@ -285,6 +354,40 @@
       "x_winning_candidate_id": "dac6d9ca380a",
       "x_final_text_hash": "91213c37733861a7cd5bf33f5b92f479cc8a83227a41e8ced35ee6a96058e9c8",
       "x_summary": "Honesty that arrives at 2 a.m. is just accounting for a loss already taken.\n\nIn uncertain ops, people over-order when doubt feels riskier than disagreeing with the superintendent. Break plans into reversible pieces, and review the piece—not the person.",
+      "x_skip_reason": null
+    },
+    {
+      "post_id": "019d0108-eba7-4727-dd2f-b9f9ceb07fb6",
+      "external_post_id": "019d0108-eba7-4727-dd2f-b9f9ceb07fb6",
+      "published_at": "2026-03-18T13:00:55.102Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "extracted_insight",
+      "pillar": "Extracted Insights",
+      "topic_thesis": "Run Time and Ritual Time require different forms of accountability.",
+      "angle": "Name the concept, explain it plainly, and show why it matters now.",
+      "hook": "The fastest way to kill candor is to use Run Time accountability inside Ritual Time.",
+      "summary": "The fastest way to kill candor is to use Run Time accountability inside Ritual Time.\n\nRun Time and Ritual Time are different modes. In Run Time, people answer for forecasts, decisions, and results. It’s execution: act, score, own it.\n\nRitual Time is the protected interval for met",
+      "source_refs": [],
+      "framework_terms_used": [
+        "ritual time",
+        "run time",
+        "management theater",
+        "li",
+        "ren"
+      ],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "a3d886bf3878",
+      "final_text_hash": "47359edbafaedbbf5ce509ade81f10d2828e4f8a9b8ddf9633bf1013d17ed06b",
+      "note_slug": "2026-03-18-the-fastest-way-to-kill-candor-is-to-use-run-time-accountability-inside-ritual-time",
+      "note_source_path": "content/notes/2026-03-18-the-fastest-way-to-kill-candor-is-to-use-run-time-accountability-inside-ritual-time.md",
+      "x_status": "published",
+      "x_external_post_id": "2034254186217443348",
+      "x_published_at": "2026-03-18T13:02:47.402Z",
+      "x_winning_candidate_id": "fea2a6319c9d",
+      "x_final_text_hash": "a2c76752b1958c4a60ceea8eb5c7ae2fabd1561b99f7f8bf0811de9f45ae63c9",
+      "x_summary": "Most “lack of candor” is a design error, not a character flaw.\n\nTeams use Run Time accountability inside Ritual Time. In a postmortem, that means people are still being scored while trying to surface what broke. The artifact stops being the target. The self does.",
       "x_skip_reason": null
     }
   ],
@@ -380,6 +483,40 @@
       "x_final_text_hash": "91213c37733861a7cd5bf33f5b92f479cc8a83227a41e8ced35ee6a96058e9c8",
       "x_summary": "Honesty that arrives at 2 a.m. is just accounting for a loss already taken.\n\nIn uncertain ops, people over-order when doubt feels riskier than disagreeing with the superintendent. Break plans into reversible pieces, and review the piece—not the person.",
       "x_skip_reason": null
+    },
+    {
+      "post_id": "019d0108-eba7-4727-dd2f-b9f9ceb07fb6",
+      "external_post_id": "019d0108-eba7-4727-dd2f-b9f9ceb07fb6",
+      "published_at": "2026-03-18T13:00:55.102Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "extracted_insight",
+      "pillar": "Extracted Insights",
+      "topic_thesis": "Run Time and Ritual Time require different forms of accountability.",
+      "angle": "Name the concept, explain it plainly, and show why it matters now.",
+      "hook": "The fastest way to kill candor is to use Run Time accountability inside Ritual Time.",
+      "summary": "The fastest way to kill candor is to use Run Time accountability inside Ritual Time.\n\nRun Time and Ritual Time are different modes. In Run Time, people answer for forecasts, decisions, and results. It’s execution: act, score, own it.\n\nRitual Time is the protected interval for met",
+      "source_refs": [],
+      "framework_terms_used": [
+        "ritual time",
+        "run time",
+        "management theater",
+        "li",
+        "ren"
+      ],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "a3d886bf3878",
+      "final_text_hash": "47359edbafaedbbf5ce509ade81f10d2828e4f8a9b8ddf9633bf1013d17ed06b",
+      "note_slug": "2026-03-18-the-fastest-way-to-kill-candor-is-to-use-run-time-accountability-inside-ritual-time",
+      "note_source_path": "content/notes/2026-03-18-the-fastest-way-to-kill-candor-is-to-use-run-time-accountability-inside-ritual-time.md",
+      "x_status": "published",
+      "x_external_post_id": "2034254186217443348",
+      "x_published_at": "2026-03-18T13:02:47.402Z",
+      "x_winning_candidate_id": "fea2a6319c9d",
+      "x_final_text_hash": "a2c76752b1958c4a60ceea8eb5c7ae2fabd1561b99f7f8bf0811de9f45ae63c9",
+      "x_summary": "Most “lack of candor” is a design error, not a character flaw.\n\nTeams use Run Time accountability inside Ritual Time. In a postmortem, that means people are still being scored while trying to surface what broke. The artifact stops being the target. The self does.",
+      "x_skip_reason": null
     }
   ],
   "recent_sources": [
@@ -473,6 +610,40 @@
       "x_winning_candidate_id": "dac6d9ca380a",
       "x_final_text_hash": "91213c37733861a7cd5bf33f5b92f479cc8a83227a41e8ced35ee6a96058e9c8",
       "x_summary": "Honesty that arrives at 2 a.m. is just accounting for a loss already taken.\n\nIn uncertain ops, people over-order when doubt feels riskier than disagreeing with the superintendent. Break plans into reversible pieces, and review the piece—not the person.",
+      "x_skip_reason": null
+    },
+    {
+      "post_id": "019d0108-eba7-4727-dd2f-b9f9ceb07fb6",
+      "external_post_id": "019d0108-eba7-4727-dd2f-b9f9ceb07fb6",
+      "published_at": "2026-03-18T13:00:55.102Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "extracted_insight",
+      "pillar": "Extracted Insights",
+      "topic_thesis": "Run Time and Ritual Time require different forms of accountability.",
+      "angle": "Name the concept, explain it plainly, and show why it matters now.",
+      "hook": "The fastest way to kill candor is to use Run Time accountability inside Ritual Time.",
+      "summary": "The fastest way to kill candor is to use Run Time accountability inside Ritual Time.\n\nRun Time and Ritual Time are different modes. In Run Time, people answer for forecasts, decisions, and results. It’s execution: act, score, own it.\n\nRitual Time is the protected interval for met",
+      "source_refs": [],
+      "framework_terms_used": [
+        "ritual time",
+        "run time",
+        "management theater",
+        "li",
+        "ren"
+      ],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "a3d886bf3878",
+      "final_text_hash": "47359edbafaedbbf5ce509ade81f10d2828e4f8a9b8ddf9633bf1013d17ed06b",
+      "note_slug": "2026-03-18-the-fastest-way-to-kill-candor-is-to-use-run-time-accountability-inside-ritual-time",
+      "note_source_path": "content/notes/2026-03-18-the-fastest-way-to-kill-candor-is-to-use-run-time-accountability-inside-ritual-time.md",
+      "x_status": "published",
+      "x_external_post_id": "2034254186217443348",
+      "x_published_at": "2026-03-18T13:02:47.402Z",
+      "x_winning_candidate_id": "fea2a6319c9d",
+      "x_final_text_hash": "a2c76752b1958c4a60ceea8eb5c7ae2fabd1561b99f7f8bf0811de9f45ae63c9",
+      "x_summary": "Most “lack of candor” is a design error, not a character flaw.\n\nTeams use Run Time accountability inside Ritual Time. In a postmortem, that means people are still being scored while trying to surface what broke. The artifact stops being the target. The self does.",
       "x_skip_reason": null
     }
   ]
