@@ -1,11 +1,12 @@
 {
-  "generated_at": "2026-03-18T13:02:47.404Z",
-  "published_count": 3,
+  "generated_at": "2026-03-19T13:02:31.767Z",
+  "published_count": 4,
   "rolling_window_days": 84,
   "typeCounts": {
     "decoder_ring": 1,
     "ritual_recipe": 1,
-    "extracted_insight": 1
+    "extracted_insight": 1,
+    "archetype_diagnosis": 1
   },
   "recent_hooks": [
     {
@@ -132,6 +133,38 @@
       "x_winning_candidate_id": "fea2a6319c9d",
       "x_final_text_hash": "a2c76752b1958c4a60ceea8eb5c7ae2fabd1561b99f7f8bf0811de9f45ae63c9",
       "x_summary": "Most “lack of candor” is a design error, not a character flaw.\n\nTeams use Run Time accountability inside Ritual Time. In a postmortem, that means people are still being scored while trying to surface what broke. The artifact stops being the target. The self does.",
+      "x_skip_reason": null
+    },
+    {
+      "post_id": "019d062f-0a28-1e87-cdb2-c014b644b7c1",
+      "external_post_id": "019d062f-0a28-1e87-cdb2-c014b644b7c1",
+      "published_at": "2026-03-19T13:00:39.369Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "archetype_diagnosis",
+      "pillar": "Archetype Diagnosis",
+      "topic_thesis": "The Alchemy of Error is the practical art of turning disruption into better structure.",
+      "angle": "Make the pattern recognizable fast and show what drives it.",
+      "hook": "When the meetings get sharper as the truth gets quieter, you are in Management Theater.",
+      "summary": "When the meetings get sharper as the truth gets quieter, you are in Management Theater.\n\nYou can see it fast. The calendar is full of reviews, retros, and alignment sessions. The decks are polished. The language is careful. But the real decisions happen in side channels, in priva",
+      "source_refs": [],
+      "framework_terms_used": [
+        "trust",
+        "management theater",
+        "li"
+      ],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "644e1b95dc21",
+      "final_text_hash": "1b0b859ac1be73f0d49a19854543db7417316b754b84275db830c76178f1e130",
+      "note_slug": "2026-03-19-when-meetings-get-sharper-as-the-truth-gets-quieter-you-are-in-management-theater",
+      "note_source_path": "content/notes/2026-03-19-when-meetings-get-sharper-as-the-truth-gets-quieter-you-are-in-management-theater.md",
+      "x_status": "published",
+      "x_external_post_id": "2034616508576334270",
+      "x_published_at": "2026-03-19T13:02:31.766Z",
+      "x_winning_candidate_id": "488854979b65",
+      "x_final_text_hash": "eeb096de3c7061533132e76de7fb08cd8e570b0390b0025c654795a6188c4600",
+      "x_summary": "The name for a company full of candor rituals and unsafe truths is Management Theater.\n\nReviews multiply. Language gets careful. Decisions happen in one person’s head or in private chats. That’s not alignment. It’s fear wearing process.",
       "x_skip_reason": null
     }
   ],
@@ -261,6 +294,38 @@
       "x_final_text_hash": "a2c76752b1958c4a60ceea8eb5c7ae2fabd1561b99f7f8bf0811de9f45ae63c9",
       "x_summary": "Most “lack of candor” is a design error, not a character flaw.\n\nTeams use Run Time accountability inside Ritual Time. In a postmortem, that means people are still being scored while trying to surface what broke. The artifact stops being the target. The self does.",
       "x_skip_reason": null
+    },
+    {
+      "post_id": "019d062f-0a28-1e87-cdb2-c014b644b7c1",
+      "external_post_id": "019d062f-0a28-1e87-cdb2-c014b644b7c1",
+      "published_at": "2026-03-19T13:00:39.369Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "archetype_diagnosis",
+      "pillar": "Archetype Diagnosis",
+      "topic_thesis": "The Alchemy of Error is the practical art of turning disruption into better structure.",
+      "angle": "Make the pattern recognizable fast and show what drives it.",
+      "hook": "When the meetings get sharper as the truth gets quieter, you are in Management Theater.",
+      "summary": "When the meetings get sharper as the truth gets quieter, you are in Management Theater.\n\nYou can see it fast. The calendar is full of reviews, retros, and alignment sessions. The decks are polished. The language is careful. But the real decisions happen in side channels, in priva",
+      "source_refs": [],
+      "framework_terms_used": [
+        "trust",
+        "management theater",
+        "li"
+      ],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "644e1b95dc21",
+      "final_text_hash": "1b0b859ac1be73f0d49a19854543db7417316b754b84275db830c76178f1e130",
+      "note_slug": "2026-03-19-when-meetings-get-sharper-as-the-truth-gets-quieter-you-are-in-management-theater",
+      "note_source_path": "content/notes/2026-03-19-when-meetings-get-sharper-as-the-truth-gets-quieter-you-are-in-management-theater.md",
+      "x_status": "published",
+      "x_external_post_id": "2034616508576334270",
+      "x_published_at": "2026-03-19T13:02:31.766Z",
+      "x_winning_candidate_id": "488854979b65",
+      "x_final_text_hash": "eeb096de3c7061533132e76de7fb08cd8e570b0390b0025c654795a6188c4600",
+      "x_summary": "The name for a company full of candor rituals and unsafe truths is Management Theater.\n\nReviews multiply. Language gets careful. Decisions happen in one person’s head or in private chats. That’s not alignment. It’s fear wearing process.",
+      "x_skip_reason": null
     }
   ],
   "recent_topics": [
@@ -388,6 +453,38 @@
       "x_winning_candidate_id": "fea2a6319c9d",
       "x_final_text_hash": "a2c76752b1958c4a60ceea8eb5c7ae2fabd1561b99f7f8bf0811de9f45ae63c9",
       "x_summary": "Most “lack of candor” is a design error, not a character flaw.\n\nTeams use Run Time accountability inside Ritual Time. In a postmortem, that means people are still being scored while trying to surface what broke. The artifact stops being the target. The self does.",
+      "x_skip_reason": null
+    },
+    {
+      "post_id": "019d062f-0a28-1e87-cdb2-c014b644b7c1",
+      "external_post_id": "019d062f-0a28-1e87-cdb2-c014b644b7c1",
+      "published_at": "2026-03-19T13:00:39.369Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "archetype_diagnosis",
+      "pillar": "Archetype Diagnosis",
+      "topic_thesis": "The Alchemy of Error is the practical art of turning disruption into better structure.",
+      "angle": "Make the pattern recognizable fast and show what drives it.",
+      "hook": "When the meetings get sharper as the truth gets quieter, you are in Management Theater.",
+      "summary": "When the meetings get sharper as the truth gets quieter, you are in Management Theater.\n\nYou can see it fast. The calendar is full of reviews, retros, and alignment sessions. The decks are polished. The language is careful. But the real decisions happen in side channels, in priva",
+      "source_refs": [],
+      "framework_terms_used": [
+        "trust",
+        "management theater",
+        "li"
+      ],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "644e1b95dc21",
+      "final_text_hash": "1b0b859ac1be73f0d49a19854543db7417316b754b84275db830c76178f1e130",
+      "note_slug": "2026-03-19-when-meetings-get-sharper-as-the-truth-gets-quieter-you-are-in-management-theater",
+      "note_source_path": "content/notes/2026-03-19-when-meetings-get-sharper-as-the-truth-gets-quieter-you-are-in-management-theater.md",
+      "x_status": "published",
+      "x_external_post_id": "2034616508576334270",
+      "x_published_at": "2026-03-19T13:02:31.766Z",
+      "x_winning_candidate_id": "488854979b65",
+      "x_final_text_hash": "eeb096de3c7061533132e76de7fb08cd8e570b0390b0025c654795a6188c4600",
+      "x_summary": "The name for a company full of candor rituals and unsafe truths is Management Theater.\n\nReviews multiply. Language gets careful. Decisions happen in one person’s head or in private chats. That’s not alignment. It’s fear wearing process.",
       "x_skip_reason": null
     }
   ],
@@ -517,6 +614,38 @@
       "x_final_text_hash": "a2c76752b1958c4a60ceea8eb5c7ae2fabd1561b99f7f8bf0811de9f45ae63c9",
       "x_summary": "Most “lack of candor” is a design error, not a character flaw.\n\nTeams use Run Time accountability inside Ritual Time. In a postmortem, that means people are still being scored while trying to surface what broke. The artifact stops being the target. The self does.",
       "x_skip_reason": null
+    },
+    {
+      "post_id": "019d062f-0a28-1e87-cdb2-c014b644b7c1",
+      "external_post_id": "019d062f-0a28-1e87-cdb2-c014b644b7c1",
+      "published_at": "2026-03-19T13:00:39.369Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "archetype_diagnosis",
+      "pillar": "Archetype Diagnosis",
+      "topic_thesis": "The Alchemy of Error is the practical art of turning disruption into better structure.",
+      "angle": "Make the pattern recognizable fast and show what drives it.",
+      "hook": "When the meetings get sharper as the truth gets quieter, you are in Management Theater.",
+      "summary": "When the meetings get sharper as the truth gets quieter, you are in Management Theater.\n\nYou can see it fast. The calendar is full of reviews, retros, and alignment sessions. The decks are polished. The language is careful. But the real decisions happen in side channels, in priva",
+      "source_refs": [],
+      "framework_terms_used": [
+        "trust",
+        "management theater",
+        "li"
+      ],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "644e1b95dc21",
+      "final_text_hash": "1b0b859ac1be73f0d49a19854543db7417316b754b84275db830c76178f1e130",
+      "note_slug": "2026-03-19-when-meetings-get-sharper-as-the-truth-gets-quieter-you-are-in-management-theater",
+      "note_source_path": "content/notes/2026-03-19-when-meetings-get-sharper-as-the-truth-gets-quieter-you-are-in-management-theater.md",
+      "x_status": "published",
+      "x_external_post_id": "2034616508576334270",
+      "x_published_at": "2026-03-19T13:02:31.766Z",
+      "x_winning_candidate_id": "488854979b65",
+      "x_final_text_hash": "eeb096de3c7061533132e76de7fb08cd8e570b0390b0025c654795a6188c4600",
+      "x_summary": "The name for a company full of candor rituals and unsafe truths is Management Theater.\n\nReviews multiply. Language gets careful. Decisions happen in one person’s head or in private chats. That’s not alignment. It’s fear wearing process.",
+      "x_skip_reason": null
     }
   ],
   "recent_sources": [
@@ -644,6 +773,38 @@
       "x_winning_candidate_id": "fea2a6319c9d",
       "x_final_text_hash": "a2c76752b1958c4a60ceea8eb5c7ae2fabd1561b99f7f8bf0811de9f45ae63c9",
       "x_summary": "Most “lack of candor” is a design error, not a character flaw.\n\nTeams use Run Time accountability inside Ritual Time. In a postmortem, that means people are still being scored while trying to surface what broke. The artifact stops being the target. The self does.",
+      "x_skip_reason": null
+    },
+    {
+      "post_id": "019d062f-0a28-1e87-cdb2-c014b644b7c1",
+      "external_post_id": "019d062f-0a28-1e87-cdb2-c014b644b7c1",
+      "published_at": "2026-03-19T13:00:39.369Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "archetype_diagnosis",
+      "pillar": "Archetype Diagnosis",
+      "topic_thesis": "The Alchemy of Error is the practical art of turning disruption into better structure.",
+      "angle": "Make the pattern recognizable fast and show what drives it.",
+      "hook": "When the meetings get sharper as the truth gets quieter, you are in Management Theater.",
+      "summary": "When the meetings get sharper as the truth gets quieter, you are in Management Theater.\n\nYou can see it fast. The calendar is full of reviews, retros, and alignment sessions. The decks are polished. The language is careful. But the real decisions happen in side channels, in priva",
+      "source_refs": [],
+      "framework_terms_used": [
+        "trust",
+        "management theater",
+        "li"
+      ],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "644e1b95dc21",
+      "final_text_hash": "1b0b859ac1be73f0d49a19854543db7417316b754b84275db830c76178f1e130",
+      "note_slug": "2026-03-19-when-meetings-get-sharper-as-the-truth-gets-quieter-you-are-in-management-theater",
+      "note_source_path": "content/notes/2026-03-19-when-meetings-get-sharper-as-the-truth-gets-quieter-you-are-in-management-theater.md",
+      "x_status": "published",
+      "x_external_post_id": "2034616508576334270",
+      "x_published_at": "2026-03-19T13:02:31.766Z",
+      "x_winning_candidate_id": "488854979b65",
+      "x_final_text_hash": "eeb096de3c7061533132e76de7fb08cd8e570b0390b0025c654795a6188c4600",
+      "x_summary": "The name for a company full of candor rituals and unsafe truths is Management Theater.\n\nReviews multiply. Language gets careful. Decisions happen in one person’s head or in private chats. That’s not alignment. It’s fear wearing process.",
       "x_skip_reason": null
     }
   ]

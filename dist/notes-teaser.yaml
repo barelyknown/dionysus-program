@@ -1,6 +1,13 @@
 notes_archive_url: notes/index.html
 recent_notes_empty: false
 recent_notes:
+  - title: When meetings get sharper as the truth gets quieter, you are in
+      Management Theater
+    display_date: March 19, 2026
+    url: notes/2026-03-19-when-meetings-get-sharper-as-the-truth-gets-quieter-you-are-in-management-theater/index.html
+    excerpt: When meetings get sharper as the truth gets quieter, you are in
+      Management Theater.
+    pillar: Archetype Diagnosis
   - title: The fastest way to kill candor is to use Run Time accountability inside
       Ritual Time
     display_date: March 18, 2026
@@ -15,10 +22,3 @@ recent_notes:
     excerpt: When trucks are stacked up at 2 a.m. and dollars are burning in the
       dark, it is too late to ask for honesty.
     pillar: Ritual Recipes
-  - title: Rectification of Names matters because a leader who cannot call failure
-      failure makes ritual truth-telling a farce
-    display_date: March 16, 2026
-    url: notes/2026-03-16-rectification-of-names-matters-because-a-leader-who-cannot-call-failure-failure-makes-ritual-truth-telling-a-farce/index.html
-    excerpt: Meta didn’t just say AI is boosting productivity. Zuckerberg said one
-      very talented employee can now do work that used to require entire teams.
-    pillar: Decoder Ring
