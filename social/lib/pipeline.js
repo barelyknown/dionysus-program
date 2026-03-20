@@ -19,6 +19,7 @@ const { findCalendarItem, saveCalendar, replaceCalendarItem } = require('./recor
 const { buildResearchJob, findPendingJobForTopic, removeResearchJob, upsertResearchJob } = require('./research-jobs');
 const { getResearchRecencyPolicy, researchBundleMeetsRecencyPolicy } = require('./research-policy');
 const { sha256 } = require('./hash');
+const { footerDivider, pickFooter, buildLinkedInFinalText } = require('./linkedin-footer');
 const { now } = require('./time');
 
 function providerMode({ args, strategy }) {
@@ -394,7 +395,23 @@ async function scoreCandidatesForItem({ calendarItem, strategy, adapters, memory
   };
 }
 
-function createPublishPayload({ calendarItem, winnerCandidate, winnerScore, researchBundle, mailbagItem = null }) {
+function createPublishPayload({
+  calendarItem,
+  winnerCandidate,
+  winnerScore,
+  researchBundle,
+  mailbagItem = null,
+  strategy = null,
+}) {
+  const bodyText = winnerCandidate.post_text;
+  const selectedFooter = pickFooter({ strategy, calendarItem, winnerCandidate });
+  const divider = footerDivider(strategy);
+  const finalText = buildLinkedInFinalText({
+    bodyText,
+    footerText: selectedFooter.footer,
+    divider,
+  });
+
   return {
     item_id: calendarItem.id,
     scheduled_at: calendarItem.scheduled_at,
@@ -402,8 +419,12 @@ function createPublishPayload({ calendarItem, winnerCandidate, winnerScore, rese
     pillar: calendarItem.pillar,
     topic_thesis: calendarItem.topic_thesis,
     angle: calendarItem.angle,
-    hook: winnerCandidate.post_text.split(/\n/)[0].trim(),
-    final_text: winnerCandidate.post_text,
+    hook: bodyText.split(/\n/)[0].trim(),
+    body_text: bodyText,
+    footer_text: selectedFooter.footer || null,
+    footer_index: selectedFooter.index,
+    footer_divider: selectedFooter.footer ? divider : null,
+    final_text: finalText,
     winning_candidate_id: winnerCandidate.id,
     winning_score: winnerScore.overall_score,
     source_refs: [
@@ -416,6 +437,7 @@ function createPublishPayload({ calendarItem, winnerCandidate, winnerScore, rese
 }
 
 function createPublishedRecord({ publishPayload, publishResult, calendarItem, note = null, x = null }) {
+  const summaryText = publishPayload.body_text || publishPayload.final_text;
   return {
     post_id: publishResult.external_post_id,
     external_post_id: publishResult.external_post_id,
@@ -427,9 +449,9 @@ function createPublishedRecord({ publishPayload, publishResult, calendarItem, no
     topic_thesis: calendarItem.topic_thesis,
     angle: calendarItem.angle,
     hook: publishPayload.hook,
-    summary: publishPayload.final_text.slice(0, 280),
+    summary: summaryText.slice(0, 280),
     source_refs: publishPayload.source_refs,
-    framework_terms_used: extractFrameworkTerms(publishPayload.final_text),
+    framework_terms_used: extractFrameworkTerms(summaryText),
     timely_subject: publishPayload.timely_subject,
     research_bundle_id: publishPayload.research_bundle_id,
     winning_candidate_id: publishPayload.winning_candidate_id,

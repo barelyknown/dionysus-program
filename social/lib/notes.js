@@ -34,13 +34,14 @@ async function materializePublishedNote({
     };
   }
 
-  const fallbackBody = normalizeNoteBody(publishPayload.final_text);
+  const sourceText = publishPayload.body_text || publishPayload.final_text;
+  const fallbackBody = normalizeNoteBody(sourceText);
   let rewrittenBody = fallbackBody;
   let sourceMode = 'verbatim_fallback';
 
   try {
     const rewrite = await writer.rewriteForNotes({
-      postText: publishPayload.final_text,
+      postText: sourceText,
       topicThesis: calendarItem.topic_thesis,
       pillar: calendarItem.pillar,
       voice: strategy.voice?.description || '',

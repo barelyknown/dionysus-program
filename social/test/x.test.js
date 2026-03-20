@@ -81,10 +81,19 @@ test('attemptXPublish returns dry-run X payload when a candidate passes', async 
 
   const result = await attemptXPublish({
     linkedinPayload: {
+      body_text: [
+        'Failure gets renamed before it gets examined.',
+        '',
+        'That is how organizations lose the ability to metabolize reality.',
+      ].join('\n'),
       final_text: [
         'Failure gets renamed before it gets examined.',
         '',
         'That is how organizations lose the ability to metabolize reality.',
+        '',
+        '---',
+        '',
+        'The Dionysus Program is free at dionysusprogram.com.',
       ].join('\n'),
       winning_candidate_id: 'linkedin-winner-1',
     },
@@ -97,6 +106,7 @@ test('attemptXPublish returns dry-run X payload when a candidate passes', async 
   assert.ok(result.winnerCandidate);
   assert.ok(result.payload.text.length <= strategy.x.max_length);
   assert.equal(result.payload.source_channel, 'linkedin');
+  assert.doesNotMatch(result.payload.text, /dionysusprogram\.com/i);
 });
 
 test('attemptXPublish records failure without throwing when publishing to X fails', async (t) => {

@@ -33,14 +33,15 @@ async function attemptXPublish({ linkedinPayload, strategy, adapters, dryRun = f
   }
 
   try {
+    const sourceText = linkedinPayload.body_text || linkedinPayload.final_text;
     const candidates = await adapters.xWriter.generateCandidates({
-      linkedinText: linkedinPayload.final_text,
+      linkedinText: sourceText,
       strategy,
       bestOfN: Number(strategy?.x?.best_of_n || 8),
     });
     const scorecards = await adapters.xScorer.scoreCandidates({
       candidates,
-      linkedinText: linkedinPayload.final_text,
+      linkedinText: sourceText,
       strategy,
     });
     const ranked = rankXResults({ scorecards, candidates });

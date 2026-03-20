@@ -43,6 +43,28 @@ book_context:
   closing_style: soft_close
 publishing:
   default_timezone: America/Los_Angeles
+  linkedin_footer_divider: "---"
+  linkedin_footer_options:
+    - "This is from The Dionysus Program — a free field manual for leaders who need to metabolize disruption without burning their people. Read it at dionysusprogram.com."
+    - "The Dionysus Program is a free book about raising epimetabolic rate — the speed at which a person, team, or organization converts error into new structure without consuming trust. dionysusprogram.com"
+    - "If your organization can break meanings faster than it can remake them, the bottleneck is not technical. It is cultural. The Dionysus Program is a free operating system for that bottleneck. dionysusprogram.com"
+    - "The Dionysus Program is free. It covers the machinery behind posts like this — Run Time, Ritual Time, the anti-scapegoat, and how to make criticism cheaper than silence. dionysusprogram.com"
+    - "I wrote The Dionysus Program because the tools I needed to lead through accelerating change did not exist in one place. Now they do, and they are free. dionysusprogram.com"
+    - "This thinking comes from The Dionysus Program — free at dionysusprogram.com. It is a book about how to move fast by breaking things and then mend what you break into something stronger."
+    - "The Dionysus Program is free to read, share, and critique in public. That is not generosity. It is the method. dionysusprogram.com"
+    - "If you want the full framework behind these posts — the equation, the archetypes, the rituals, the simulation — The Dionysus Program is free at dionysusprogram.com."
+    - "The Dionysus Program argues that the real scoreboard is epimetabolic rate: how fast you turn error into better structure without burning people. The book is free. dionysusprogram.com"
+    - "Most of what I post here is extracted from The Dionysus Program — a free field manual for leaders whose knowledge is melting faster than their culture can re-bind it. dionysusprogram.com"
+    - "The Dionysus Program is free at dionysusprogram.com. It exists because the Apollo virtues — predict, control, optimize — are necessary but no longer sufficient."
+    - "If this resonated, the full program is free: critique → dissolution → reconstitution → renewal. One loop. Every scale. dionysusprogram.com"
+    - "I released The Dionysus Program for free because ideas improve under public stress, not behind paywalls. Read it, critique it, kill what does not work. dionysusprogram.com"
+    - "The Dionysus Program is a free book about what happens when knowledge moves faster than identity. It is not theory. It is survival equipment. dionysusprogram.com"
+    - "These posts are slices. The full program — the math, the rituals, the failure modes, the archetypes — is free at dionysusprogram.com."
+    - "The Dionysus Program is free at dionysusprogram.com. It was written for anyone whose head is out of the sand about what is coming next."
+    - "Nothing in this post requires you to read The Dionysus Program. But if you want the operating system underneath it — the full loop, the diagnostics, the recipes — it is free. dionysusprogram.com"
+    - "The Dionysus Program is a free book about building cultures that can learn without end and remain human. HTML, PDF, and EPUB at dionysusprogram.com."
+    - "Knowledge explains the world. Myth explains you. The Dionysus Program is about maintaining both layers while everything accelerates. It is free at dionysusprogram.com."
+    - "The world is not going to slow down for us. The Dionysus Program is a free set of rites for becoming the kind of people who can keep up — without becoming less human. dionysusprogram.com"
   baseline_slots:
     - weekday: monday
       time: "05:30"
