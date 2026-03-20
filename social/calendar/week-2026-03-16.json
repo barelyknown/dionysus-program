@@ -261,7 +261,7 @@
       "timezone": "America/Los_Angeles",
       "weekday": "friday",
       "slot_type": "baseline",
-      "status": "planned",
+      "status": "published",
       "content_type": "high_lindy_source_tour",
       "pillar": "High-Lindy Source Tour Guide",
       "topic_thesis": "Knowledge and myth solve different problems, and organizations fail when they confuse them.",
@@ -270,10 +270,46 @@
       "source_bundle_id": null,
       "timely_subject": null,
       "draft_ref": null,
-      "winner_id": null,
+      "winner_id": "6a86827199c5",
       "risk_level": "low",
       "freshness_deadline": null,
-      "publish_payload": null
+      "publish_payload": {
+        "item_id": "4b7c7da04588",
+        "scheduled_at": "2026-03-20T12:30:00.000Z",
+        "content_type": "high_lindy_source_tour",
+        "pillar": "High-Lindy Source Tour Guide",
+        "topic_thesis": "Knowledge and myth solve different problems, and organizations fail when they confuse them.",
+        "angle": "The old source is not the point; present relevance is.",
+        "hook": "When a company says “we are what we know,” it is one technical shift away from panic.",
+        "body_text": "When a company says “we are what we know,” it is one technical shift away from panic.\n\nMircea Eliade drew a useful line: knowledge explains the world and ages with it. Myth does something else. It tells people who they are and how to act, so it does not expire on the same clock.\n\nYou can see the failure mode now. A team builds its identity around being the smartest analysts in the room. Then a model does the first pass in seconds. If expertise was doing double duty as identity, the update lands as humiliation. People defend the old workflow, hide the truth, and call it rigor.\n\nLeaders need both layers, but not mixed together. Let knowledge stay mortal. Replace methods, tools, and roles without sentiment. But anchor belonging in something that survives revision: how this group faces error, shares credit, and rebuilds after being wrong. Confuse those jobs, and every correction becomes a civil war.",
+        "footer_text": "The Dionysus Program is a free book about what happens when knowledge moves faster than identity. It is not theory. It is survival equipment. dionysusprogram.com",
+        "footer_index": 13,
+        "footer_divider": "---",
+        "final_text": "When a company says “we are what we know,” it is one technical shift away from panic.\n\nMircea Eliade drew a useful line: knowledge explains the world and ages with it. Myth does something else. It tells people who they are and how to act, so it does not expire on the same clock.\n\nYou can see the failure mode now. A team builds its identity around being the smartest analysts in the room. Then a model does the first pass in seconds. If expertise was doing double duty as identity, the update lands as humiliation. People defend the old workflow, hide the truth, and call it rigor.\n\nLeaders need both layers, but not mixed together. Let knowledge stay mortal. Replace methods, tools, and roles without sentiment. But anchor belonging in something that survives revision: how this group faces error, shares credit, and rebuilds after being wrong. Confuse those jobs, and every correction becomes a civil war.\n\n---\n\nThe Dionysus Program is a free book about what happens when knowledge moves faster than identity. It is not theory. It is survival equipment. dionysusprogram.com",
+        "winning_candidate_id": "6a86827199c5",
+        "winning_score": 8.1,
+        "source_refs": [],
+        "research_bundle_id": null,
+        "timely_subject": null
+      },
+      "skip_reason": null,
+      "published_at": "2026-03-20T13:00:08.692Z",
+      "external_post_id": "019d0b54-ee4a-19c8-6888-3c80c86aa6a9",
+      "note_slug": "2026-03-20-when-a-company-says-we-are-what-we-know-it-is-one-technical-shift-away-from-panic",
+      "note_source_path": "content/notes/2026-03-20-when-a-company-says-we-are-what-we-know-it-is-one-technical-shift-away-from-panic.md",
+      "x_status": "published",
+      "x_external_post_id": "2034978650777690421",
+      "x_published_at": "2026-03-20T13:01:33.191Z",
+      "x_winning_candidate_id": "b4cddc999001",
+      "x_publish_payload": {
+        "source_channel": "linkedin",
+        "source_final_text_hash": "8b67355a8d842972dffd9c6e2c87ca952cf546af23eb234ad4ca6185af404f7e",
+        "source_winning_candidate_id": "6a86827199c5",
+        "text": "The cost of tying identity to know-how stays hidden until the know-how gets cheaper.\n\nA team built on being the smartest analysts in the room meets a model that drafts in seconds. Then the fight isn't about quality. It's humiliation dressed up as standards.",
+        "winning_candidate_id": "b4cddc999001",
+        "winning_score": 8.9
+      },
+      "x_skip_reason": null
     }
   ]
 }
