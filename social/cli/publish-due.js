@@ -72,6 +72,7 @@ async function handleItem({ item, strategy, adapters, memory, dryRun }) {
     winnerScore: scored.winnerScore,
     researchBundle: scored.researchBundle,
     mailbagItem: scored.brief.mailbag_item,
+    strategy,
   });
 
   if (dryRun) {

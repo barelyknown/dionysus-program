@@ -56,6 +56,7 @@ test('fixture generation and scoring produce a publishable winner', async (t) =>
     winnerCandidate: result.winnerCandidate,
     winnerScore: result.winnerScore,
     researchBundle: null,
+    strategy,
   });
   const record = createPublishedRecord({
     publishPayload: payload,
@@ -73,6 +74,9 @@ test('fixture generation and scoring produce a publishable winner', async (t) =>
   assert.equal(record.linkedin_activity_urn, 'urn:li:activity:123');
   assert.equal(record.content_type, 'decoder_ring');
   assert.ok(record.final_text_hash);
+  assert.equal(payload.body_text, result.winnerCandidate.post_text);
+  assert.match(payload.final_text, /\n\n---\n\n/);
+  assert.ok(payload.footer_text);
 });
 
 test('prepared extracted insight brief includes full context and grounding rules', async (t) => {
@@ -100,6 +104,53 @@ test('prepared extracted insight brief includes full context and grounding rules
   assert.match(prepared.brief.prompt, /Full compressed source context:/);
   assert.match(prepared.brief.prompt, /Do not invent named concepts unless they appear verbatim/);
   assert.match(prepared.brief.prompt, /If you mention the book, note that it is free/);
+});
+
+test('createPublishPayload chooses a deterministic footer and keeps body text separate', (t) => {
+  setupTempSocialWorkspace(t);
+  const strategy = loadStrategy();
+  const payloadA = createPublishPayload({
+    calendarItem: {
+      id: 'item-footer',
+      scheduled_at: '2026-03-19T12:30:00.000Z',
+      content_type: 'extracted_insight',
+      pillar: 'Extracted Insights',
+      topic_thesis: 'Trust burns faster than it builds.',
+      angle: 'State the principle directly.',
+      timely_subject: null,
+    },
+    winnerCandidate: {
+      id: 'winner-footer',
+      post_text: 'Trust burns faster than it builds.\n\nLower the social cost of criticism before the distortion hardens.',
+    },
+    winnerScore: { overall_score: 9.2 },
+    researchBundle: null,
+    strategy,
+  });
+
+  const payloadB = createPublishPayload({
+    calendarItem: {
+      id: 'item-footer',
+      scheduled_at: '2026-03-19T12:30:00.000Z',
+      content_type: 'extracted_insight',
+      pillar: 'Extracted Insights',
+      topic_thesis: 'Trust burns faster than it builds.',
+      angle: 'State the principle directly.',
+      timely_subject: null,
+    },
+    winnerCandidate: {
+      id: 'winner-footer',
+      post_text: 'Trust burns faster than it builds.\n\nLower the social cost of criticism before the distortion hardens.',
+    },
+    winnerScore: { overall_score: 9.2 },
+    researchBundle: null,
+    strategy,
+  });
+
+  assert.equal(payloadA.footer_index, payloadB.footer_index);
+  assert.equal(payloadA.footer_text, payloadB.footer_text);
+  assert.equal(payloadA.body_text, payloadB.body_text);
+  assert.equal(payloadA.final_text, payloadB.final_text);
 });
 
 test('stale decoder-ring research bundles are regenerated instead of reused', async (t) => {

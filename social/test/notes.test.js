@@ -155,6 +155,45 @@ test('materializePublishedNote falls back to normalized published text and is id
   assert.equal(note.body, 'Trust burns faster than organizations know how to rebuild it.\n\nhttps://example.com/post');
 });
 
+test('materializePublishedNote uses publish body_text so LinkedIn footer does not leak into notes', async (t) => {
+  const { tempRoot } = setupTempSocialWorkspace(t);
+  const strategy = loadStrategy();
+  const writer = {
+    rewriteForNotes: async () => {
+      throw new Error('rewrite failed');
+    },
+  };
+
+  const calendarItem = {
+    id: 'item-footer',
+    content_type: 'extracted_insight',
+    pillar: 'Extracted Insights',
+    topic_thesis: 'Truth gets more expensive before it gets unspeakable.',
+  };
+
+  const publishPayload = {
+    body_text: 'Truth gets more expensive before it gets unspeakable.\n\nThat is when distortion starts looking like professionalism.',
+    final_text: 'Truth gets more expensive before it gets unspeakable.\n\nThat is when distortion starts looking like professionalism.\n\n---\n\nThe Dionysus Program is free at dionysusprogram.com.',
+  };
+
+  const publishResult = {
+    delivered_at: '2026-03-18T15:30:00.000Z',
+    external_post_id: 'fixture-footer',
+  };
+
+  const result = await materializePublishedNote({
+    calendarItem,
+    publishPayload,
+    publishResult,
+    writer,
+    strategy,
+  });
+
+  const note = loadNoteFile(path.join(tempRoot, result.sourcePath));
+  assert.doesNotMatch(note.body, /The Dionysus Program is free at dionysusprogram\.com/i);
+  assert.doesNotMatch(note.body, /^---$/m);
+});
+
 test('materializePublishedNote appends item id on slug collision', async (t) => {
   setupTempSocialWorkspace(t);
   const strategy = loadStrategy();
