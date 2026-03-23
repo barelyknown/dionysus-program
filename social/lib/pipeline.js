@@ -203,6 +203,13 @@ function fallbackNormalizedResearch({ calendarItem, rawResearch }) {
   };
 }
 
+function researchReportText(rawResearch) {
+  const rawOutputs = Array.isArray(rawResearch?.raw?.outputs)
+    ? rawResearch.raw.outputs.map((entry) => entry.text || '').filter(Boolean).join('\n\n')
+    : '';
+  return rawOutputs || String(rawResearch?.summary || '');
+}
+
 function selectedResearchAngle(researchBundle) {
   return Array.isArray(researchBundle?.candidate_angles) ? researchBundle.candidate_angles[0] || null : null;
 }
@@ -313,10 +320,14 @@ async function ensureResearchBundleForItem({ calendarItem, strategy, adapters, o
       watchlists,
     });
   }
-  if (!researchBundleMeetsRecencyPolicy(rawResearch, recencyPolicy)) {
-    throw new Error(`Required decoder-ring research did not yield enough recent sources for "${calendarItem.topic_thesis}".`);
-  }
-  const normalized = fallbackNormalizedResearch({ calendarItem, rawResearch });
+  const normalized = adapters?.scorer?.normalizeResearchReport
+    ? await adapters.scorer.normalizeResearchReport({
+      topicThesis: calendarItem.topic_thesis,
+      rawReport: researchReportText(rawResearch),
+      fallbackSources: rawResearch?.sources || [],
+      watchlists,
+    })
+    : fallbackNormalizedResearch({ calendarItem, rawResearch });
   const researchBundle = {
     ...rawResearch,
     summary: normalized.summary,
@@ -324,6 +335,9 @@ async function ensureResearchBundleForItem({ calendarItem, strategy, adapters, o
     primary_source: normalized.primary_source || normalized.sources?.[0] || rawResearch.primary_source || rawResearch.sources?.[0] || null,
     candidate_angles: normalized.candidate_angles,
   };
+  if (!researchBundleMeetsRecencyPolicy(researchBundle, recencyPolicy)) {
+    throw new Error(`Required decoder-ring research did not yield enough recent sources for "${calendarItem.topic_thesis}".`);
+  }
   saveResearchBundle(researchBundle);
   if (adapters.mode === 'live' || adapters.mode === 'record') {
     const completedJob = findPendingJobForTopic(calendarItem.topic_thesis);

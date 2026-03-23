@@ -56,6 +56,7 @@ jobs:
           X_REFRESH_TOKEN: ${{ secrets.X_REFRESH_TOKEN }}
           X_TOKEN_ROTATION_OUTPUT: ${{ runner.temp }}/x-token-rotation.json
         run: |
+          set -o pipefail
           RESULT_FILE="${RUNNER_TEMP}/publish-due.json"
           if [ "${{ github.event.inputs.dry_run || 'false' }}" = "true" ]; then
             if [ -n "${{ github.event.inputs.now }}" ]; then

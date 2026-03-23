@@ -345,3 +345,90 @@ test('live research can block for a newly submitted publish-time job', async (t)
   assert.equal(result.calendarItem.source_bundle_id, 'bundle-1');
   assert.equal(result.calendarItem.timely_subject, 'Recent company case');
 });
+
+test('live research uses scorer normalization when Gemini citations do not resolve into dated sources', async (t) => {
+  setupTempSocialWorkspace(t);
+  const strategy = loadStrategy();
+  const item = {
+    id: 'item-live-normalize',
+    scheduled_at: '2026-03-23T12:30:00.000Z',
+    timezone: 'America/Los_Angeles',
+    weekday: 'monday',
+    slot_type: 'baseline',
+    status: 'planned',
+    content_type: 'decoder_ring',
+    pillar: 'Decoder Ring',
+    topic_thesis: 'Epimetabolic Rate is the only scoreboard that really matters in periods of fast change.',
+    angle: 'Diagnose the pattern underneath the news.',
+    hook: 'Most people are misreading what this story is actually about.',
+    source_bundle_id: null,
+    timely_subject: null,
+  };
+  const adapters = {
+    mode: 'live',
+    gemini: {
+      pollAttempts: 1,
+      pollIntervalMs: 0,
+      publishPollAttempts: 1,
+      publishPollIntervalMs: 0,
+      submitResearchJob: async () => ({
+        interaction_id: 'interaction-3',
+        status: 'in_progress',
+        submitted_at: '2026-03-23T13:00:00.000Z',
+        watchlist_inputs: {},
+      }),
+      pollResearchJob: async () => ({
+        status: 'completed',
+        outputs: [],
+      }),
+      normalizeCompletedResearch: async () => ({
+        id: 'gemini-bundle-1',
+        summary: 'Raw Gemini report with domain-level citations only.',
+        sources: [],
+        candidate_angles: [],
+        primary_source: null,
+      }),
+    },
+    scorer: {
+      normalizeResearchReport: async () => ({
+        summary: 'Normalized report with a real recent source.',
+        sources: [
+          {
+            title: 'Recent company case',
+            url: 'https://example.com/recent-case',
+            published_at: '2026-03-22',
+            relevance: 'Recent reported case.',
+            claim: 'Fresh claim.',
+            excerpt: 'Recent reported case.',
+          },
+        ],
+        primary_source: {
+          title: 'Recent company case',
+          url: 'https://example.com/recent-case',
+          published_at: '2026-03-22',
+        },
+        candidate_angles: [
+          {
+            topic_thesis: item.topic_thesis,
+            angle: 'Use the recent case to show the hidden pattern.',
+            hook: 'The visible event is not the real diagnosis.',
+            subject: 'Recent company case',
+          },
+        ],
+      }),
+    },
+  };
+
+  const result = await ensureResearchBundleForItem({
+    calendarItem: item,
+    strategy,
+    adapters,
+    options: { waitForResearch: true },
+  });
+
+  assert.equal(result.researchBundle.id, 'gemini-bundle-1');
+  assert.equal(result.researchBundle.sources.length, 1);
+  assert.equal(result.researchBundle.sources[0].published_at, '2026-03-22');
+  assert.equal(result.calendarItem.source_bundle_id, 'gemini-bundle-1');
+  assert.equal(result.calendarItem.timely_subject, 'Recent company case');
+});

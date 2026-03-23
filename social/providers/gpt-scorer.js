@@ -109,6 +109,16 @@ function compactSourcesForNormalization(sources = []) {
   }));
 }
 
+function parseJsonOutput(text) {
+  const trimmed = String(text || '').trim();
+  const unfenced = trimmed
+    .replace(/^```json\s*/i, '')
+    .replace(/^```\s*/i, '')
+    .replace(/\s*```$/i, '')
+    .trim();
+  return JSON.parse(unfenced);
+}
+
 async function postOpenAIResponses({ apiKey, body, timeoutMs, attempts = 1 }) {
   let lastError = null;
   for (let attempt = 1; attempt <= attempts; attempt += 1) {
@@ -356,65 +366,75 @@ class GPTScorerAdapter {
       required: ['summary', 'sources', 'candidate_angles', 'primary_source_url'],
     };
 
-    const response = await postOpenAIResponses({
-      apiKey: this.apiKey,
-      timeoutMs: NORMALIZATION_TIMEOUT_MS,
-      body: {
-        model: this.model,
-        reasoning: { effort: 'low' },
-        max_output_tokens: 2000,
-        text: {
-          format: {
-            type: 'json_schema',
-            name: 'research_bundle',
-            schema,
-          },
-        },
-        input: [
-          {
-            role: 'system',
-            content: [
+    let lastError = null;
+    for (let attempt = 1; attempt <= SCORE_REQUEST_ATTEMPTS; attempt += 1) {
+      try {
+        const response = await postOpenAIResponses({
+          apiKey: this.apiKey,
+          timeoutMs: NORMALIZATION_TIMEOUT_MS,
+          attempts: SCORE_REQUEST_ATTEMPTS,
+          body: {
+            model: this.model,
+            reasoning: { effort: 'low' },
+            max_output_tokens: 4000,
+            text: {
+              format: {
+                type: 'json_schema',
+                name: 'research_bundle',
+                schema,
+              },
+            },
+            input: [
               {
-                type: 'input_text',
-                text: `Normalize a Gemini Deep Research report into a tight research bundle. Today's date is ${recencyPolicy.reference_date}. Prioritize recent news sources published on or after ${recencyPolicy.cutoff_date} (${recencyPolicy.recent_window_days}-day window). Keep at least ${recencyPolicy.min_recent_sources} recent reported company or institutional cases in the bundle unless the report truly contains none. Older conceptual sources may stay only as secondary context. Explain why each source matters to the thesis. Order the sources so the first source is the single best primary source for the post. Set primary_source_url to that source's exact URL. Rank the candidate_angles so the first one is the single best recent case match for the thesis. Each candidate angle must begin from a concrete visible event, not an abstract restatement, and should align to the primary source. Output only sources with real HTTP URLs and exact published dates in YYYY-MM-DD format. If fallbackSources include exact URLs and dates, treat them as authoritative and prefer them over inferred placeholders.`,
+                role: 'system',
+                content: [
+                  {
+                    type: 'input_text',
+                    text: `Normalize a Gemini Deep Research report into a tight research bundle. Today's date is ${recencyPolicy.reference_date}. Prioritize recent news sources published on or after ${recencyPolicy.cutoff_date} (${recencyPolicy.recent_window_days}-day window). Keep at least ${recencyPolicy.min_recent_sources} recent reported company or institutional cases in the bundle unless the report truly contains none. Older conceptual sources may stay only as secondary context. Explain why each source matters to the thesis. Order the sources so the first source is the single best primary source for the post. Set primary_source_url to that source's exact URL. Rank the candidate_angles so the first one is the single best recent case match for the thesis. Each candidate angle must begin from a concrete visible event, not an abstract restatement, and should align to the primary source. Output only sources with real HTTP URLs and exact published dates in YYYY-MM-DD format. If fallbackSources include exact URLs and dates, treat them as authoritative and prefer them over inferred placeholders.`,
+                  },
+                ],
+              },
+              {
+                role: 'user',
+                content: [
+                  {
+                    type: 'input_text',
+                    text: JSON.stringify({ topicThesis, fallbackSources: compactFallbackSources, rawReport: normalizedRawReport }, null, 2),
+                  },
+                ],
               },
             ],
           },
-          {
-            role: 'user',
-            content: [
-              {
-                type: 'input_text',
-                text: JSON.stringify({ topicThesis, fallbackSources: compactFallbackSources, rawReport: normalizedRawReport }, null, 2),
-              },
-            ],
-          },
-        ],
-      },
-    });
+        });
 
-    if (!response.ok) {
-      throw new Error(`OpenAI research normalization failed (${response.status}): ${await response.text()}`);
+        if (!response.ok) {
+          throw new Error(`OpenAI research normalization failed (${response.status}): ${await response.text()}`);
+        }
+        const payload = await response.json();
+        this.lastUsage = payload.usage || null;
+        const outputText = payload.output_text || payload.output?.map((item) => item.content?.map((part) => part.text || '').join('')).join('') || '{}';
+        const parsed = parseJsonOutput(outputText);
+        parsed.sources = mergeStructuredSources(
+          normalizeStructuredSources(parsed.sources || []),
+          normalizedFallbackSources,
+        );
+        parsed.primary_source = parsed.sources.find((source) => source.url === parsed.primary_source_url)
+          || parsed.sources[0]
+          || null;
+        const recentSourceCount = countRecentSources(parsed.sources || [], recencyPolicy);
+        if (recentSourceCount < recencyPolicy.min_recent_sources) {
+          throw new Error(`Normalized research bundle missing recent sources (${recentSourceCount}/${recencyPolicy.min_recent_sources} within ${recencyPolicy.recent_window_days} days).`);
+        }
+        if (!parsed.primary_source) {
+          throw new Error('Normalized research bundle missing primary source.');
+        }
+        return parsed;
+      } catch (error) {
+        lastError = error;
+        if (attempt === SCORE_REQUEST_ATTEMPTS) throw error;
+      }
     }
-    const payload = await response.json();
-    this.lastUsage = payload.usage || null;
-    const outputText = payload.output_text || payload.output?.map((item) => item.content?.map((part) => part.text || '').join('')).join('') || '{}';
-    const parsed = JSON.parse(outputText);
-    parsed.sources = mergeStructuredSources(
-      normalizeStructuredSources(parsed.sources || []),
-      normalizedFallbackSources,
-    );
-    parsed.primary_source = parsed.sources.find((source) => source.url === parsed.primary_source_url)
-      || parsed.sources[0]
-      || null;
-    const recentSourceCount = countRecentSources(parsed.sources || [], recencyPolicy);
-    if (recentSourceCount < recencyPolicy.min_recent_sources) {
-      throw new Error(`Normalized research bundle missing recent sources (${recentSourceCount}/${recencyPolicy.min_recent_sources} within ${recencyPolicy.recent_window_days} days).`);
-    }
-    if (!parsed.primary_source) {
-      throw new Error('Normalized research bundle missing primary source.');
-    }
-    return parsed;
+    throw lastError;
   }
 }
 
