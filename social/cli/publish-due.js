@@ -26,7 +26,13 @@ async function handleItem({ item, strategy, adapters, memory, dryRun }) {
   let scored;
   let resolvedItem = item;
   try {
-    scored = await scoreCandidatesForItem({ calendarItem: item, strategy, adapters, memory });
+    scored = await scoreCandidatesForItem({
+      calendarItem: item,
+      strategy,
+      adapters,
+      memory,
+      options: { waitForResearch: !dryRun },
+    });
     resolvedItem = scored.calendarItem || item;
   } catch (error) {
     if (error instanceof ResearchPendingError) {

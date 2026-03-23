@@ -225,7 +225,8 @@ function applyResearchAngleToCalendarItem({ calendarItem, researchBundle }) {
   };
 }
 
-async function ensureResearchBundleForItem({ calendarItem, strategy, adapters }) {
+async function ensureResearchBundleForItem({ calendarItem, strategy, adapters, options = {} }) {
+  const waitForResearch = Boolean(options.waitForResearch);
   const watchlists = loadWatchlists();
   const recencyPolicy = getResearchRecencyPolicy({ watchlists });
   const loadedExisting = loadResearchBundle(calendarItem.source_bundle_id);
@@ -248,7 +249,11 @@ async function ensureResearchBundleForItem({ calendarItem, strategy, adapters })
   if (adapters.mode === 'live' || adapters.mode === 'record') {
     const existingJob = findPendingJobForTopic(calendarItem.topic_thesis);
     if (existingJob) {
-      const latest = await adapters.gemini.pollResearchJob({ job: existingJob });
+      const latest = await adapters.gemini.pollResearchJob({
+        job: existingJob,
+        pollAttempts: waitForResearch ? adapters.gemini.publishPollAttempts : adapters.gemini.pollAttempts,
+        pollIntervalMs: waitForResearch ? adapters.gemini.publishPollIntervalMs : adapters.gemini.pollIntervalMs,
+      });
       if (latest.status === 'completed') {
         upsertResearchJob({ ...existingJob, status: 'completed' });
         rawResearch = await adapters.gemini.normalizeCompletedResearch({ job: existingJob, latest });
@@ -275,11 +280,32 @@ async function ensureResearchBundleForItem({ calendarItem, strategy, adapters })
         mode: adapters.mode,
       });
       upsertResearchJob(pendingJob);
-      throw new ResearchPendingError('Submitted required decoder-ring research job.', {
-        item_id: calendarItem.id,
-        topic_thesis: calendarItem.topic_thesis,
-        pending_job: pendingJob,
+      if (!waitForResearch) {
+        throw new ResearchPendingError('Submitted required decoder-ring research job.', {
+          item_id: calendarItem.id,
+          topic_thesis: calendarItem.topic_thesis,
+          pending_job: pendingJob,
+        });
+      }
+      const latest = await adapters.gemini.pollResearchJob({
+        job: pendingJob,
+        pollAttempts: adapters.gemini.publishPollAttempts,
+        pollIntervalMs: adapters.gemini.publishPollIntervalMs,
       });
+      if (latest.status === 'completed') {
+        upsertResearchJob({ ...pendingJob, status: 'completed' });
+        rawResearch = await adapters.gemini.normalizeCompletedResearch({ job: pendingJob, latest });
+      } else if (latest.status === 'failed' || latest.status === 'cancelled' || latest.status === 'incomplete') {
+        removeResearchJob(pendingJob.id);
+        throw new Error(`Required decoder-ring research failed for "${calendarItem.topic_thesis}" (status=${latest.status}).`);
+      } else {
+        upsertResearchJob({ ...pendingJob, status: latest.status || pendingJob.status });
+        throw new ResearchPendingError('Required decoder-ring research is still in progress.', {
+          item_id: calendarItem.id,
+          topic_thesis: calendarItem.topic_thesis,
+          pending_job: { ...pendingJob, status: latest.status || pendingJob.status },
+        });
+      }
     }
   } else {
     rawResearch = await adapters.gemini.researchTopic({
@@ -354,8 +380,8 @@ function prepareBrief({ calendarItem, strategy, memory = null, researchBundle = 
   };
 }
 
-async function generateCandidatesForItem({ calendarItem, strategy, adapters, memory = null }) {
-  const ensured = await ensureResearchBundleForItem({ calendarItem, strategy, adapters });
+async function generateCandidatesForItem({ calendarItem, strategy, adapters, memory = null, options = {} }) {
+  const ensured = await ensureResearchBundleForItem({ calendarItem, strategy, adapters, options });
   const prepared = prepareBrief({
     calendarItem: ensured.calendarItem,
     strategy,
@@ -369,8 +395,8 @@ async function generateCandidatesForItem({ calendarItem, strategy, adapters, mem
   return { ...prepared, calendarItem: ensured.calendarItem, candidates };
 }
 
-async function scoreCandidatesForItem({ calendarItem, strategy, adapters, memory }) {
-  const generated = await generateCandidatesForItem({ calendarItem, strategy, adapters, memory });
+async function scoreCandidatesForItem({ calendarItem, strategy, adapters, memory, options = {} }) {
+  const generated = await generateCandidatesForItem({ calendarItem, strategy, adapters, memory, options });
   const sourceRefs = [
     ...(generated.researchBundle?.sources || []).map((source) => source.url),
     ...(generated.brief.mailbag_item?.provenance ? [generated.brief.mailbag_item.provenance] : []),

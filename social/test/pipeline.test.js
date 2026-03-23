@@ -7,7 +7,7 @@ const { paths } = require('../lib/paths');
 const { writeJson } = require('../lib/fs');
 const { loadStrategy } = require('../lib/config');
 const { getResearchRecencyPolicy, researchBundleMeetsRecencyPolicy } = require('../lib/research-policy');
-const { createAdapters, scoreCandidatesForItem, createPublishPayload, createPublishedRecord, prepareBrief } = require('../lib/pipeline');
+const { createAdapters, scoreCandidatesForItem, createPublishPayload, createPublishedRecord, prepareBrief, ensureResearchBundleForItem, ResearchPendingError } = require('../lib/pipeline');
 
 test('fixture generation and scoring produce a publishable winner', async (t) => {
   setupTempSocialWorkspace(t);
@@ -213,4 +213,135 @@ test('stale decoder-ring research bundles are regenerated instead of reused', as
     ),
     true,
   );
+});
+
+test('live research submits and defers by default when a new job is created', async (t) => {
+  setupTempSocialWorkspace(t);
+  const strategy = loadStrategy();
+  const item = {
+    id: 'item-live-defer',
+    scheduled_at: '2026-03-23T12:30:00.000Z',
+    timezone: 'America/Los_Angeles',
+    weekday: 'monday',
+    slot_type: 'baseline',
+    status: 'planned',
+    content_type: 'decoder_ring',
+    pillar: 'Decoder Ring',
+    topic_thesis: 'Epimetabolic Rate is the only scoreboard that really matters in periods of fast change.',
+    angle: 'Diagnose the pattern underneath the news.',
+    hook: 'Most people are misreading what this story is actually about.',
+    source_bundle_id: null,
+    timely_subject: null,
+  };
+  const adapters = {
+    mode: 'live',
+    gemini: {
+      pollAttempts: 2,
+      pollIntervalMs: 0,
+      publishPollAttempts: 2,
+      publishPollIntervalMs: 0,
+      submitResearchJob: async () => ({
+        interaction_id: 'interaction-1',
+        status: 'in_progress',
+        submitted_at: '2026-03-23T13:00:00.000Z',
+        watchlist_inputs: {},
+      }),
+      pollResearchJob: async () => {
+        throw new Error('pollResearchJob should not be called for default deferred behavior');
+      },
+    },
+    scorer: {},
+  };
+
+  await assert.rejects(
+    ensureResearchBundleForItem({ calendarItem: item, strategy, adapters }),
+    (error) => {
+      assert.equal(error instanceof ResearchPendingError, true);
+      assert.equal(error.details.pending_job.interaction_id, 'interaction-1');
+      return true;
+    },
+  );
+});
+
+test('live research can block for a newly submitted publish-time job', async (t) => {
+  setupTempSocialWorkspace(t);
+  const strategy = loadStrategy();
+  const item = {
+    id: 'item-live-block',
+    scheduled_at: '2026-03-23T12:30:00.000Z',
+    timezone: 'America/Los_Angeles',
+    weekday: 'monday',
+    slot_type: 'baseline',
+    status: 'planned',
+    content_type: 'decoder_ring',
+    pillar: 'Decoder Ring',
+    topic_thesis: 'Epimetabolic Rate is the only scoreboard that really matters in periods of fast change.',
+    angle: 'Diagnose the pattern underneath the news.',
+    hook: 'Most people are misreading what this story is actually about.',
+    source_bundle_id: null,
+    timely_subject: null,
+  };
+  const pollCalls = [];
+  const adapters = {
+    mode: 'live',
+    gemini: {
+      pollAttempts: 1,
+      pollIntervalMs: 0,
+      publishPollAttempts: 3,
+      publishPollIntervalMs: 0,
+      submitResearchJob: async () => ({
+        interaction_id: 'interaction-2',
+        status: 'in_progress',
+        submitted_at: '2026-03-23T13:00:00.000Z',
+        watchlist_inputs: {},
+      }),
+      pollResearchJob: async ({ pollAttempts, pollIntervalMs }) => {
+        pollCalls.push({ pollAttempts, pollIntervalMs });
+        return {
+          status: 'completed',
+          outputs: [],
+        };
+      },
+      normalizeCompletedResearch: async () => ({
+        id: 'bundle-1',
+        summary: 'Completed research report',
+        sources: [
+          {
+            title: 'Recent company case',
+            url: 'https://example.com/recent-case',
+            published_at: '2026-03-22',
+            excerpt: 'Recent reported case.',
+            claim: 'Fresh claim.',
+          },
+        ],
+        candidate_angles: [
+          {
+            topic_thesis: item.topic_thesis,
+            angle: 'Use the recent case to show the hidden pattern.',
+            hook: 'The visible event is not the real diagnosis.',
+            subject: 'Recent company case',
+          },
+        ],
+        primary_source: {
+          title: 'Recent company case',
+          url: 'https://example.com/recent-case',
+          published_at: '2026-03-22',
+        },
+      }),
+    },
+    scorer: {},
+  };
+
+  const result = await ensureResearchBundleForItem({
+    calendarItem: item,
+    strategy,
+    adapters,
+    options: { waitForResearch: true },
+  });
+
+  assert.equal(pollCalls.length, 1);
+  assert.deepEqual(pollCalls[0], { pollAttempts: 3, pollIntervalMs: 0 });
+  assert.equal(result.researchBundle.id, 'bundle-1');
+  assert.equal(result.calendarItem.source_bundle_id, 'bundle-1');
+  assert.equal(result.calendarItem.timely_subject, 'Recent company case');
 });

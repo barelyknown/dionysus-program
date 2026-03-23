@@ -155,6 +155,8 @@ class GeminiResearchAdapter {
     this.apiKey = apiKey;
     this.pollIntervalMs = Number(process.env.GEMINI_POLL_INTERVAL_MS || 3000);
     this.pollAttempts = Number(process.env.GEMINI_POLL_ATTEMPTS || 60);
+    this.publishPollIntervalMs = Number(process.env.GEMINI_PUBLISH_POLL_INTERVAL_MS || this.pollIntervalMs);
+    this.publishPollAttempts = Number(process.env.GEMINI_PUBLISH_POLL_ATTEMPTS || this.pollAttempts);
   }
 
   async researchTopic({ topicThesis, watchlists }) {
@@ -252,18 +254,23 @@ class GeminiResearchAdapter {
     };
   }
 
-  async pollResearchJob({ job }) {
+  async fetchResearchJob({ job }) {
+    if (!this.apiKey) throw new Error('Missing GEMINI_API_KEY for live research.');
+    const pollResponse = await fetch(`https://generativelanguage.googleapis.com/v1beta/interactions/${job.interaction_id}?key=${this.apiKey}`);
+    if (!pollResponse.ok) {
+      throw new Error(`Gemini Deep Research poll failed (${pollResponse.status}): ${await pollResponse.text()}`);
+    }
+    return pollResponse.json();
+  }
+
+  async pollResearchJob({ job, pollAttempts = this.pollAttempts, pollIntervalMs = this.pollIntervalMs }) {
     if (!this.apiKey) throw new Error('Missing GEMINI_API_KEY for live research.');
     let latest = null;
-    for (let attempt = 0; attempt < this.pollAttempts; attempt += 1) {
+    for (let attempt = 0; attempt < pollAttempts; attempt += 1) {
       if (attempt > 0) {
-        await new Promise((resolve) => setTimeout(resolve, this.pollIntervalMs));
+        await new Promise((resolve) => setTimeout(resolve, pollIntervalMs));
       }
-      const pollResponse = await fetch(`https://generativelanguage.googleapis.com/v1beta/interactions/${job.interaction_id}?key=${this.apiKey}`);
-      if (!pollResponse.ok) {
-        throw new Error(`Gemini Deep Research poll failed (${pollResponse.status}): ${await pollResponse.text()}`);
-      }
-      latest = await pollResponse.json();
+      latest = await this.fetchResearchJob({ job });
       if (latest.status === 'completed' || latest.status === 'failed' || latest.status === 'cancelled' || latest.status === 'incomplete') break;
     }
 

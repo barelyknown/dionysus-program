@@ -86,3 +86,32 @@ test('normalizeCompletedResearch extracts exact urls and dates from grounding an
     global.fetch = originalFetch;
   }
 });
+
+test('pollResearchJob accepts publish-time polling overrides', async () => {
+  const adapter = new GeminiResearchAdapter({ mode: 'live', apiKey: 'test-key' });
+  const originalFetch = global.fetch;
+  const calls = [];
+
+  global.fetch = async () => {
+    calls.push(calls.length + 1);
+    return {
+      ok: true,
+      json: async () => ({
+        status: calls.length >= 3 ? 'completed' : 'in_progress',
+      }),
+    };
+  };
+
+  try {
+    const result = await adapter.pollResearchJob({
+      job: { interaction_id: 'interaction-1', status: 'in_progress' },
+      pollAttempts: 3,
+      pollIntervalMs: 0,
+    });
+
+    assert.equal(calls.length, 3);
+    assert.equal(result.status, 'completed');
+  } finally {
+    global.fetch = originalFetch;
+  }
+});
