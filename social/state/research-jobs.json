@@ -91,6 +91,102 @@
           ]
         }
       }
+    },
+    {
+      "id": "5e7ec1fbf63f",
+      "topic_thesis": "Epimetabolic Rate is the only scoreboard that really matters in periods of fast change.",
+      "interaction_id": "v1_ChZLem5CYWF4VjViNy00dy1TdkxiNEJREhZLem5CYWF4VjViNy00dy1TdkxiNEJR",
+      "status": "in_progress",
+      "submitted_at": "2026-03-23T12:59:23.239Z",
+      "mode": "live",
+      "watchlist_inputs": {
+        "seed_topics": [
+          "ai adoption",
+          "organizational trust",
+          "management theater",
+          "ritual and renewal",
+          "organizational change",
+          "technical truth and social trust"
+        ],
+        "research": {
+          "recent_window_days": 30,
+          "min_recent_sources": 1
+        },
+        "adjacent_domains": [
+          "artificial intelligence",
+          "enterprise software",
+          "labor and management",
+          "corporate governance",
+          "product launches",
+          "institutional trust",
+          "leadership and decision making",
+          "social systems"
+        ],
+        "keyword_clusters": [
+          [
+            "reorg",
+            "reorganization",
+            "org design"
+          ],
+          [
+            "layoff",
+            "downsizing",
+            "headcount"
+          ],
+          [
+            "AI rollout",
+            "AI adoption",
+            "automation deployment"
+          ],
+          [
+            "postmortem",
+            "retrospective",
+            "incident review"
+          ],
+          [
+            "board governance",
+            "activist investor",
+            "CEO succession"
+          ],
+          [
+            "trust",
+            "credibility",
+            "psychological safety"
+          ]
+        ],
+        "entities": {
+          "companies": [
+            "Microsoft",
+            "OpenAI",
+            "Meta",
+            "Amazon",
+            "Anthropic",
+            "Google",
+            "Nvidia",
+            "Salesforce",
+            "Klarna",
+            "Shopify"
+          ],
+          "thinkers": [
+            "Rene Girard",
+            "Confucius",
+            "Karl Popper",
+            "Victor Turner",
+            "James Carse",
+            "Mary Douglas"
+          ],
+          "newsletters": [
+            "Stratechery",
+            "Platformer",
+            "Every"
+          ]
+        },
+        "prompts": [
+          "Find indirectly related articles that illuminate the thesis, not just articles that repeat the thesis vocabulary.",
+          "Prefer cases where organizational behavior reveals the hidden problem.",
+          "Return dated sources and explain the relevance of each source to the thesis."
+        ]
+      }
     }
   ]
 }

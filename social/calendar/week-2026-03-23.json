@@ -23,7 +23,8 @@
       "winner_id": null,
       "risk_level": "low",
       "freshness_deadline": null,
-      "publish_payload": null
+      "publish_payload": null,
+      "skip_reason": null
     },
     {
       "id": "87d9903fd599",
