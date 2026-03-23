@@ -1,0 +1,41 @@
+{
+  "id": "f2c4f7d8a1b3",
+  "provider": "manual-curated",
+  "topic_thesis": "Epimetabolic Rate is the only scoreboard that really matters in periods of fast change.",
+  "summary": "Recent Klarna reporting makes the pattern visible: the company extracted major efficiency gains from AI, then had to reintroduce more human support because the social and service costs of the transition were real. The visible story is not AI adoption in the abstract. It is whether an organization can metabolize the disruption without hollowing out trust, judgment, and customer experience faster than it can rebuild them.",
+  "sources": [
+    {
+      "title": "Why Today's AI-Driven Layoffs Are Becoming Tomorrow’s Rehiring Crisis",
+      "url": "https://www.forbes.com/sites/jonmarkman/2026/03/04/why-todays-ai-driven-layoffs-are-becoming-tomorrows-rehiring-crisis/",
+      "published_at": "2026-03-04",
+      "relevance": "This is the recent primary case because it explicitly frames Klarna as an organization that cut deeply with AI, then had to bring humans back when the operating and trust costs surfaced.",
+      "claim": "Klarna’s reversal shows that AI-first restructuring can outrun an organization’s capacity to preserve service quality and trust.",
+      "excerpt": "Forbes uses Klarna as a central example of AI-driven cuts producing a later rehiring cycle once quality and operational reality catch up."
+    },
+    {
+      "title": "Klarna's Headcount Shrink: A Flow Analysis",
+      "url": "https://www.ainvest.com/news/klarna-headcount-shrink-flow-analysis-2602/",
+      "published_at": "2026-02-17",
+      "relevance": "This recent analysis directly ties Klarna's AI-driven workforce cuts to the later rehiring of agents and the operational friction that followed.",
+      "claim": "Klarna's attempt to automate customer service created backlash and forced a retreat because the company automated the job rather than the underlying work.",
+      "excerpt": "AInvest describes Klarna's AI integration as a cost-cutting lever that produced operational backlash, rehiring, and renewed concern about customer trust."
+    }
+  ],
+  "primary_source": {
+    "title": "Why Today's AI-Driven Layoffs Are Becoming Tomorrow’s Rehiring Crisis",
+    "url": "https://www.forbes.com/sites/jonmarkman/2026/03/04/why-todays-ai-driven-layoffs-are-becoming-tomorrows-rehiring-crisis/",
+    "published_at": "2026-03-04",
+    "relevance": "This is the recent primary case because it explicitly frames Klarna as an organization that cut deeply with AI, then had to bring humans back when the operating and trust costs surfaced.",
+    "claim": "Klarna’s reversal shows that AI-first restructuring can outrun an organization’s capacity to preserve service quality and trust.",
+    "excerpt": "Forbes uses Klarna as a central example of AI-driven cuts producing a later rehiring cycle once quality and operational reality catch up."
+  },
+  "candidate_angles": [
+    {
+      "topic_thesis": "Epimetabolic Rate is the only scoreboard that really matters in periods of fast change.",
+      "angle": "Open on Klarna becoming a rehiring-crisis case after AI-led cuts, then show that the real issue is whether an organization can absorb disruption without burning trust faster than it can rebuild it.",
+      "hook": "Klarna is the visible case. The real scoreboard is whether a company can convert disruption into a new stable structure before trust collapses.",
+      "subject": "Why Today's AI-Driven Layoffs Are Becoming Tomorrow’s Rehiring Crisis"
+    }
+  ],
+  "created_at": "2026-03-23T14:20:00.000Z"
+}

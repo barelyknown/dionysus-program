@@ -15,16 +15,17 @@
       "content_type": "decoder_ring",
       "pillar": "Decoder Ring",
       "topic_thesis": "Epimetabolic Rate is the only scoreboard that really matters in periods of fast change.",
-      "angle": "Do not summarize the news; diagnose the pattern underneath it.",
+      "angle": "Open on Why Today's AI-Driven Layoffs Are Becoming Tomorrow’s Rehiring Crisis in plain language, then show how it makes the deeper diagnosis legible.",
       "hook": "Most people are misreading what this story is actually about. epimetabolic rate is the only scoreboard that really matters in periods of fast change.",
-      "source_bundle_id": null,
-      "timely_subject": null,
+      "source_bundle_id": "f2c4f7d8a1b3",
+      "timely_subject": "Why Today's AI-Driven Layoffs Are Becoming Tomorrow’s Rehiring Crisis",
       "draft_ref": null,
       "winner_id": null,
       "risk_level": "low",
       "freshness_deadline": null,
       "publish_payload": null,
-      "skip_reason": null
+      "skip_reason": null,
+      "seed_topic_thesis": "Epimetabolic Rate is the only scoreboard that really matters in periods of fast change."
     },
     {
       "id": "87d9903fd599",
