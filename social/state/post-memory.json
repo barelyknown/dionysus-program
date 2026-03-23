@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-03-23T14:03:13.756Z",
-  "published_count": 5,
+  "generated_at": "2026-03-23T14:27:41.712Z",
+  "published_count": 6,
   "rolling_window_days": 84,
   "typeCounts": {
-    "decoder_ring": 1,
+    "decoder_ring": 2,
     "ritual_recipe": 1,
     "extracted_insight": 1,
     "archetype_diagnosis": 1,
@@ -197,6 +197,41 @@
       "x_final_text_hash": "dbbead41438fd4a200530be5c8a6265794a86437c83b53a4771f482199848966",
       "x_summary": "The cost of tying identity to know-how stays hidden until the know-how gets cheaper.\n\nA team built on being the smartest analysts in the room meets a model that drafts in seconds. Then the fight isn't about quality. It's humiliation dressed up as standards.",
       "x_skip_reason": null
+    },
+    {
+      "post_id": "019d1b16-a489-7e26-3ce0-49369c9a9cc3",
+      "external_post_id": "019d1b16-a489-7e26-3ce0-49369c9a9cc3",
+      "published_at": "2026-03-23T14:26:02.045Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "decoder_ring",
+      "pillar": "Decoder Ring",
+      "topic_thesis": "Epimetabolic Rate is the only scoreboard that really matters in periods of fast change.",
+      "angle": "Open on Why Today's AI-Driven Layoffs Are Becoming Tomorrow’s Rehiring Crisis in plain language, then show how it makes the deeper diagnosis legible.",
+      "hook": "Klarna cut deeply into customer service with AI, then had to bring humans back. That’s not a messaging issue. It’s the first clear sign of tomorrow’s rehiring crisis.",
+      "summary": "Klarna cut deeply into customer service with AI, then had to bring humans back. That’s not a messaging issue. It’s the first clear sign of tomorrow’s rehiring crisis.\n\nWhat people are missing is that this does not prove AI failed. It proves the organization changed faster than it",
+      "source_refs": [
+        "https://www.forbes.com/sites/jonmarkman/2026/03/04/why-todays-ai-driven-layoffs-are-becoming-tomorrows-rehiring-crisis/",
+        "https://www.ainvest.com/news/klarna-headcount-shrink-flow-analysis-2602/"
+      ],
+      "framework_terms_used": [
+        "trust",
+        "epimetabolic",
+        "li"
+      ],
+      "timely_subject": "Why Today's AI-Driven Layoffs Are Becoming Tomorrow’s Rehiring Crisis",
+      "research_bundle_id": "f2c4f7d8a1b3",
+      "winning_candidate_id": "b597c1dbe70d",
+      "final_text_hash": "7fed6b5d0fd0313939bf139e29e8c3aa1e474718554dab1904707de46ad21625",
+      "note_slug": "2026-03-23-epimetabolic-rate-is-the-only-scoreboard-that-really-matters-in-periods-of-fast-change",
+      "note_source_path": "content/notes/2026-03-23-epimetabolic-rate-is-the-only-scoreboard-that-really-matters-in-periods-of-fast-change.md",
+      "x_status": "published",
+      "x_external_post_id": "2036087492580082011",
+      "x_published_at": "2026-03-23T14:27:41.711Z",
+      "x_winning_candidate_id": "791e3012fd57",
+      "x_final_text_hash": "a03ff48b569c9f51ff54fc1d0263e7ffe2a91ec92b91cdf8fe9873d84bc594cb",
+      "x_summary": "Klarna didn’t prove AI failed. It proved you can cut headcount faster than you can rebuild judgment.\n\nThe work stays. The costs just move: weaker service, thinner trust, expensive rehiring.",
+      "x_skip_reason": null
     }
   ],
   "recent_angles": [
@@ -386,6 +421,41 @@
       "x_winning_candidate_id": "b4cddc999001",
       "x_final_text_hash": "dbbead41438fd4a200530be5c8a6265794a86437c83b53a4771f482199848966",
       "x_summary": "The cost of tying identity to know-how stays hidden until the know-how gets cheaper.\n\nA team built on being the smartest analysts in the room meets a model that drafts in seconds. Then the fight isn't about quality. It's humiliation dressed up as standards.",
+      "x_skip_reason": null
+    },
+    {
+      "post_id": "019d1b16-a489-7e26-3ce0-49369c9a9cc3",
+      "external_post_id": "019d1b16-a489-7e26-3ce0-49369c9a9cc3",
+      "published_at": "2026-03-23T14:26:02.045Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "decoder_ring",
+      "pillar": "Decoder Ring",
+      "topic_thesis": "Epimetabolic Rate is the only scoreboard that really matters in periods of fast change.",
+      "angle": "Open on Why Today's AI-Driven Layoffs Are Becoming Tomorrow’s Rehiring Crisis in plain language, then show how it makes the deeper diagnosis legible.",
+      "hook": "Klarna cut deeply into customer service with AI, then had to bring humans back. That’s not a messaging issue. It’s the first clear sign of tomorrow’s rehiring crisis.",
+      "summary": "Klarna cut deeply into customer service with AI, then had to bring humans back. That’s not a messaging issue. It’s the first clear sign of tomorrow’s rehiring crisis.\n\nWhat people are missing is that this does not prove AI failed. It proves the organization changed faster than it",
+      "source_refs": [
+        "https://www.forbes.com/sites/jonmarkman/2026/03/04/why-todays-ai-driven-layoffs-are-becoming-tomorrows-rehiring-crisis/",
+        "https://www.ainvest.com/news/klarna-headcount-shrink-flow-analysis-2602/"
+      ],
+      "framework_terms_used": [
+        "trust",
+        "epimetabolic",
+        "li"
+      ],
+      "timely_subject": "Why Today's AI-Driven Layoffs Are Becoming Tomorrow’s Rehiring Crisis",
+      "research_bundle_id": "f2c4f7d8a1b3",
+      "winning_candidate_id": "b597c1dbe70d",
+      "final_text_hash": "7fed6b5d0fd0313939bf139e29e8c3aa1e474718554dab1904707de46ad21625",
+      "note_slug": "2026-03-23-epimetabolic-rate-is-the-only-scoreboard-that-really-matters-in-periods-of-fast-change",
+      "note_source_path": "content/notes/2026-03-23-epimetabolic-rate-is-the-only-scoreboard-that-really-matters-in-periods-of-fast-change.md",
+      "x_status": "published",
+      "x_external_post_id": "2036087492580082011",
+      "x_published_at": "2026-03-23T14:27:41.711Z",
+      "x_winning_candidate_id": "791e3012fd57",
+      "x_final_text_hash": "a03ff48b569c9f51ff54fc1d0263e7ffe2a91ec92b91cdf8fe9873d84bc594cb",
+      "x_summary": "Klarna didn’t prove AI failed. It proved you can cut headcount faster than you can rebuild judgment.\n\nThe work stays. The costs just move: weaker service, thinner trust, expensive rehiring.",
       "x_skip_reason": null
     }
   ],
@@ -577,6 +647,41 @@
       "x_final_text_hash": "dbbead41438fd4a200530be5c8a6265794a86437c83b53a4771f482199848966",
       "x_summary": "The cost of tying identity to know-how stays hidden until the know-how gets cheaper.\n\nA team built on being the smartest analysts in the room meets a model that drafts in seconds. Then the fight isn't about quality. It's humiliation dressed up as standards.",
       "x_skip_reason": null
+    },
+    {
+      "post_id": "019d1b16-a489-7e26-3ce0-49369c9a9cc3",
+      "external_post_id": "019d1b16-a489-7e26-3ce0-49369c9a9cc3",
+      "published_at": "2026-03-23T14:26:02.045Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "decoder_ring",
+      "pillar": "Decoder Ring",
+      "topic_thesis": "Epimetabolic Rate is the only scoreboard that really matters in periods of fast change.",
+      "angle": "Open on Why Today's AI-Driven Layoffs Are Becoming Tomorrow’s Rehiring Crisis in plain language, then show how it makes the deeper diagnosis legible.",
+      "hook": "Klarna cut deeply into customer service with AI, then had to bring humans back. That’s not a messaging issue. It’s the first clear sign of tomorrow’s rehiring crisis.",
+      "summary": "Klarna cut deeply into customer service with AI, then had to bring humans back. That’s not a messaging issue. It’s the first clear sign of tomorrow’s rehiring crisis.\n\nWhat people are missing is that this does not prove AI failed. It proves the organization changed faster than it",
+      "source_refs": [
+        "https://www.forbes.com/sites/jonmarkman/2026/03/04/why-todays-ai-driven-layoffs-are-becoming-tomorrows-rehiring-crisis/",
+        "https://www.ainvest.com/news/klarna-headcount-shrink-flow-analysis-2602/"
+      ],
+      "framework_terms_used": [
+        "trust",
+        "epimetabolic",
+        "li"
+      ],
+      "timely_subject": "Why Today's AI-Driven Layoffs Are Becoming Tomorrow’s Rehiring Crisis",
+      "research_bundle_id": "f2c4f7d8a1b3",
+      "winning_candidate_id": "b597c1dbe70d",
+      "final_text_hash": "7fed6b5d0fd0313939bf139e29e8c3aa1e474718554dab1904707de46ad21625",
+      "note_slug": "2026-03-23-epimetabolic-rate-is-the-only-scoreboard-that-really-matters-in-periods-of-fast-change",
+      "note_source_path": "content/notes/2026-03-23-epimetabolic-rate-is-the-only-scoreboard-that-really-matters-in-periods-of-fast-change.md",
+      "x_status": "published",
+      "x_external_post_id": "2036087492580082011",
+      "x_published_at": "2026-03-23T14:27:41.711Z",
+      "x_winning_candidate_id": "791e3012fd57",
+      "x_final_text_hash": "a03ff48b569c9f51ff54fc1d0263e7ffe2a91ec92b91cdf8fe9873d84bc594cb",
+      "x_summary": "Klarna didn’t prove AI failed. It proved you can cut headcount faster than you can rebuild judgment.\n\nThe work stays. The costs just move: weaker service, thinner trust, expensive rehiring.",
+      "x_skip_reason": null
     }
   ],
   "recent_subjects": [
@@ -767,6 +872,41 @@
       "x_final_text_hash": "dbbead41438fd4a200530be5c8a6265794a86437c83b53a4771f482199848966",
       "x_summary": "The cost of tying identity to know-how stays hidden until the know-how gets cheaper.\n\nA team built on being the smartest analysts in the room meets a model that drafts in seconds. Then the fight isn't about quality. It's humiliation dressed up as standards.",
       "x_skip_reason": null
+    },
+    {
+      "post_id": "019d1b16-a489-7e26-3ce0-49369c9a9cc3",
+      "external_post_id": "019d1b16-a489-7e26-3ce0-49369c9a9cc3",
+      "published_at": "2026-03-23T14:26:02.045Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "decoder_ring",
+      "pillar": "Decoder Ring",
+      "topic_thesis": "Epimetabolic Rate is the only scoreboard that really matters in periods of fast change.",
+      "angle": "Open on Why Today's AI-Driven Layoffs Are Becoming Tomorrow’s Rehiring Crisis in plain language, then show how it makes the deeper diagnosis legible.",
+      "hook": "Klarna cut deeply into customer service with AI, then had to bring humans back. That’s not a messaging issue. It’s the first clear sign of tomorrow’s rehiring crisis.",
+      "summary": "Klarna cut deeply into customer service with AI, then had to bring humans back. That’s not a messaging issue. It’s the first clear sign of tomorrow’s rehiring crisis.\n\nWhat people are missing is that this does not prove AI failed. It proves the organization changed faster than it",
+      "source_refs": [
+        "https://www.forbes.com/sites/jonmarkman/2026/03/04/why-todays-ai-driven-layoffs-are-becoming-tomorrows-rehiring-crisis/",
+        "https://www.ainvest.com/news/klarna-headcount-shrink-flow-analysis-2602/"
+      ],
+      "framework_terms_used": [
+        "trust",
+        "epimetabolic",
+        "li"
+      ],
+      "timely_subject": "Why Today's AI-Driven Layoffs Are Becoming Tomorrow’s Rehiring Crisis",
+      "research_bundle_id": "f2c4f7d8a1b3",
+      "winning_candidate_id": "b597c1dbe70d",
+      "final_text_hash": "7fed6b5d0fd0313939bf139e29e8c3aa1e474718554dab1904707de46ad21625",
+      "note_slug": "2026-03-23-epimetabolic-rate-is-the-only-scoreboard-that-really-matters-in-periods-of-fast-change",
+      "note_source_path": "content/notes/2026-03-23-epimetabolic-rate-is-the-only-scoreboard-that-really-matters-in-periods-of-fast-change.md",
+      "x_status": "published",
+      "x_external_post_id": "2036087492580082011",
+      "x_published_at": "2026-03-23T14:27:41.711Z",
+      "x_winning_candidate_id": "791e3012fd57",
+      "x_final_text_hash": "a03ff48b569c9f51ff54fc1d0263e7ffe2a91ec92b91cdf8fe9873d84bc594cb",
+      "x_summary": "Klarna didn’t prove AI failed. It proved you can cut headcount faster than you can rebuild judgment.\n\nThe work stays. The costs just move: weaker service, thinner trust, expensive rehiring.",
+      "x_skip_reason": null
     }
   ],
   "recent_sources": [
@@ -956,6 +1096,41 @@
       "x_winning_candidate_id": "b4cddc999001",
       "x_final_text_hash": "dbbead41438fd4a200530be5c8a6265794a86437c83b53a4771f482199848966",
       "x_summary": "The cost of tying identity to know-how stays hidden until the know-how gets cheaper.\n\nA team built on being the smartest analysts in the room meets a model that drafts in seconds. Then the fight isn't about quality. It's humiliation dressed up as standards.",
+      "x_skip_reason": null
+    },
+    {
+      "post_id": "019d1b16-a489-7e26-3ce0-49369c9a9cc3",
+      "external_post_id": "019d1b16-a489-7e26-3ce0-49369c9a9cc3",
+      "published_at": "2026-03-23T14:26:02.045Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "decoder_ring",
+      "pillar": "Decoder Ring",
+      "topic_thesis": "Epimetabolic Rate is the only scoreboard that really matters in periods of fast change.",
+      "angle": "Open on Why Today's AI-Driven Layoffs Are Becoming Tomorrow’s Rehiring Crisis in plain language, then show how it makes the deeper diagnosis legible.",
+      "hook": "Klarna cut deeply into customer service with AI, then had to bring humans back. That’s not a messaging issue. It’s the first clear sign of tomorrow’s rehiring crisis.",
+      "summary": "Klarna cut deeply into customer service with AI, then had to bring humans back. That’s not a messaging issue. It’s the first clear sign of tomorrow’s rehiring crisis.\n\nWhat people are missing is that this does not prove AI failed. It proves the organization changed faster than it",
+      "source_refs": [
+        "https://www.forbes.com/sites/jonmarkman/2026/03/04/why-todays-ai-driven-layoffs-are-becoming-tomorrows-rehiring-crisis/",
+        "https://www.ainvest.com/news/klarna-headcount-shrink-flow-analysis-2602/"
+      ],
+      "framework_terms_used": [
+        "trust",
+        "epimetabolic",
+        "li"
+      ],
+      "timely_subject": "Why Today's AI-Driven Layoffs Are Becoming Tomorrow’s Rehiring Crisis",
+      "research_bundle_id": "f2c4f7d8a1b3",
+      "winning_candidate_id": "b597c1dbe70d",
+      "final_text_hash": "7fed6b5d0fd0313939bf139e29e8c3aa1e474718554dab1904707de46ad21625",
+      "note_slug": "2026-03-23-epimetabolic-rate-is-the-only-scoreboard-that-really-matters-in-periods-of-fast-change",
+      "note_source_path": "content/notes/2026-03-23-epimetabolic-rate-is-the-only-scoreboard-that-really-matters-in-periods-of-fast-change.md",
+      "x_status": "published",
+      "x_external_post_id": "2036087492580082011",
+      "x_published_at": "2026-03-23T14:27:41.711Z",
+      "x_winning_candidate_id": "791e3012fd57",
+      "x_final_text_hash": "a03ff48b569c9f51ff54fc1d0263e7ffe2a91ec92b91cdf8fe9873d84bc594cb",
+      "x_summary": "Klarna didn’t prove AI failed. It proved you can cut headcount faster than you can rebuild judgment.\n\nThe work stays. The costs just move: weaker service, thinner trust, expensive rehiring.",
       "x_skip_reason": null
     }
   ]

@@ -1,6 +1,14 @@
 notes_archive_url: notes/index.html
 recent_notes_empty: false
 recent_notes:
+  - title: Epimetabolic Rate is the only scoreboard that really matters in periods
+      of fast change
+    display_date: March 23, 2026
+    url: notes/2026-03-23-epimetabolic-rate-is-the-only-scoreboard-that-really-matters-in-periods-of-fast-change/index.html
+    excerpt: Klarna cut deeply into customer service with AI, then had to bring
+      humans back. That was not a messaging issue. It was an early sign of the
+      rehiring crisis that follows when companies move faster...
+    pillar: Decoder Ring
   - title: When a company says, “we are what we know,” it is one technical shift
       away from panic
     display_date: March 20, 2026
@@ -15,10 +23,3 @@ recent_notes:
     excerpt: When meetings get sharper as the truth gets quieter, you are in
       Management Theater.
     pillar: Archetype Diagnosis
-  - title: The fastest way to kill candor is to use Run Time accountability inside
-      Ritual Time
-    display_date: March 18, 2026
-    url: notes/2026-03-18-the-fastest-way-to-kill-candor-is-to-use-run-time-accountability-inside-ritual-time/index.html
-    excerpt: The fastest way to kill candor is to use Run Time accountability inside
-      Ritual Time.
-    pillar: Extracted Insights
