@@ -12,6 +12,11 @@ function getResearchRecencyPolicy({ watchlists = {}, referenceDate = now() } = {
   };
 }
 
+function getResearchDiscoveryMode({ watchlists = {} } = {}) {
+  const configured = String(watchlists?.research?.discovery_mode || 'thesis_first').trim().toLowerCase();
+  return configured === 'article_first' ? 'article_first' : 'thesis_first';
+}
+
 function parsePublishedAt(value) {
   if (!value) return null;
   const parsed = new Date(value);
@@ -36,6 +41,7 @@ function researchBundleMeetsRecencyPolicy(bundle, policy) {
 
 module.exports = {
   getResearchRecencyPolicy,
+  getResearchDiscoveryMode,
   parsePublishedAt,
   isSourceRecent,
   countRecentSources,

@@ -16,8 +16,8 @@ const { ZapierPublisherAdapter } = require('../providers/zapier-publisher');
 const { XPublisherAdapter } = require('../providers/x-publisher');
 const { runFilePath } = require('./records');
 const { findCalendarItem, saveCalendar, replaceCalendarItem } = require('./records');
-const { buildResearchJob, findPendingJobForTopic, removeResearchJob, upsertResearchJob } = require('./research-jobs');
-const { getResearchRecencyPolicy, researchBundleMeetsRecencyPolicy } = require('./research-policy');
+const { buildResearchJob, findPendingJob, findPendingJobForTopic, removeResearchJob, upsertResearchJob } = require('./research-jobs');
+const { getResearchDiscoveryMode, getResearchRecencyPolicy, researchBundleMeetsRecencyPolicy } = require('./research-policy');
 const { sha256 } = require('./hash');
 const { footerDivider, pickFooter, buildLinkedInFinalText } = require('./linkedin-footer');
 const { now } = require('./time');
@@ -218,16 +218,17 @@ function applyResearchAngleToCalendarItem({ calendarItem, researchBundle }) {
   const topAngle = selectedResearchAngle(researchBundle);
   const primarySource = researchBundle?.primary_source || researchBundle?.sources?.[0] || null;
   const seedTopicThesis = calendarItem.seed_topic_thesis || calendarItem.topic_thesis;
+  const resolvedTopicThesis = topAngle?.topic_thesis || calendarItem.topic_thesis;
   const eventLabel = derivePrimaryEventLabel(primarySource);
   if (!topAngle) return calendarItem;
   return {
     ...calendarItem,
     seed_topic_thesis: seedTopicThesis,
-    topic_thesis: seedTopicThesis,
+    topic_thesis: resolvedTopicThesis,
     angle: eventLabel
       ? `Open on ${eventLabel} in plain language, then show how it makes the deeper diagnosis legible.`
       : (topAngle.angle || calendarItem.angle),
-    hook: calendarItem.hook,
+    hook: topAngle.hook || calendarItem.hook,
     timely_subject: eventLabel || topAngle.subject || calendarItem.timely_subject || null,
   };
 }
@@ -236,6 +237,14 @@ async function ensureResearchBundleForItem({ calendarItem, strategy, adapters, o
   const waitForResearch = Boolean(options.waitForResearch);
   const watchlists = loadWatchlists();
   const recencyPolicy = getResearchRecencyPolicy({ watchlists });
+  const discoveryMode = getResearchDiscoveryMode({ watchlists });
+  const supportsArticleFirst = (adapters.mode === 'live' || adapters.mode === 'record')
+    ? typeof adapters?.gemini?.submitDiscoveryJob === 'function'
+    : typeof adapters?.gemini?.discoverNews === 'function';
+  const useArticleFirst = discoveryMode === 'article_first' && supportsArticleFirst;
+  const requestedTopic = calendarItem.seed_topic_thesis || calendarItem.topic_thesis;
+  const topicOptions = Array.isArray(strategy.topics) ? strategy.topics : [];
+  const jobKey = useArticleFirst ? `item:${calendarItem.id}` : calendarItem.topic_thesis;
   const loadedExisting = loadResearchBundle(calendarItem.source_bundle_id);
   const existing = loadedExisting && researchBundleMeetsRecencyPolicy(loadedExisting, recencyPolicy)
     ? loadedExisting
@@ -254,7 +263,7 @@ async function ensureResearchBundleForItem({ calendarItem, strategy, adapters, o
   }
   let rawResearch;
   if (adapters.mode === 'live' || adapters.mode === 'record') {
-    const existingJob = findPendingJobForTopic(calendarItem.topic_thesis);
+    const existingJob = useArticleFirst ? findPendingJob(jobKey) : findPendingJobForTopic(calendarItem.topic_thesis);
     if (existingJob) {
       const latest = await adapters.gemini.pollResearchJob({
         job: existingJob,
@@ -277,12 +286,20 @@ async function ensureResearchBundleForItem({ calendarItem, strategy, adapters, o
         });
       }
     } else {
-      const submitted = await adapters.gemini.submitResearchJob({
-        topicThesis: calendarItem.topic_thesis,
-        watchlists,
-      });
+      const submitted = useArticleFirst
+        ? await adapters.gemini.submitDiscoveryJob({
+          watchlists,
+          topicOptions,
+          requestedTopic,
+          jobKey,
+        })
+        : await adapters.gemini.submitResearchJob({
+          topicThesis: calendarItem.topic_thesis,
+          watchlists,
+        });
       const pendingJob = buildResearchJob({
-        topicThesis: calendarItem.topic_thesis,
+        topicThesis: requestedTopic,
+        jobKey,
         submitted,
         mode: adapters.mode,
       });
@@ -315,14 +332,22 @@ async function ensureResearchBundleForItem({ calendarItem, strategy, adapters, o
       }
     }
   } else {
-    rawResearch = await adapters.gemini.researchTopic({
-      topicThesis: calendarItem.topic_thesis,
-      watchlists,
-    });
+    rawResearch = useArticleFirst
+      ? await adapters.gemini.discoverNews({
+        watchlists,
+        topicOptions,
+        requestedTopic,
+        jobKey,
+      })
+      : await adapters.gemini.researchTopic({
+        topicThesis: calendarItem.topic_thesis,
+        watchlists,
+      });
   }
   const normalized = adapters?.scorer?.normalizeResearchReport
     ? await adapters.scorer.normalizeResearchReport({
-      topicThesis: calendarItem.topic_thesis,
+      topicThesis: useArticleFirst ? null : calendarItem.topic_thesis,
+      topicOptions: useArticleFirst ? topicOptions : [],
       rawReport: researchReportText(rawResearch),
       fallbackSources: rawResearch?.sources || [],
       watchlists,
@@ -340,7 +365,7 @@ async function ensureResearchBundleForItem({ calendarItem, strategy, adapters, o
   }
   saveResearchBundle(researchBundle);
   if (adapters.mode === 'live' || adapters.mode === 'record') {
-    const completedJob = findPendingJobForTopic(calendarItem.topic_thesis);
+    const completedJob = findPendingJob(jobKey);
     if (completedJob) removeResearchJob(completedJob.id);
   }
   const updatedItem = applyResearchAngleToCalendarItem({

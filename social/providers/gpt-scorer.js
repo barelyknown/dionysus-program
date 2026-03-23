@@ -1,4 +1,4 @@
-const { getMemoryConflicts } = require('../lib/memory');
+const { getMemoryConflicts, overlapScore } = require('../lib/memory');
 const { sha256 } = require('../lib/hash');
 const { countRecentSources, getResearchRecencyPolicy } = require('../lib/research-policy');
 
@@ -109,6 +109,37 @@ function compactSourcesForNormalization(sources = []) {
   }));
 }
 
+function normalizeCandidateAngles(candidateAngles = [], { topicOptions = [], fallbackTopic = null } = {}) {
+  const allowedTopics = (Array.isArray(topicOptions) ? topicOptions : []).filter(Boolean);
+  const resolveTopic = (candidateTopic) => {
+    if (allowedTopics.length === 0) return candidateTopic || fallbackTopic || '';
+    if (allowedTopics.includes(candidateTopic)) return candidateTopic;
+    const best = allowedTopics
+      .map((topic) => ({ topic, score: overlapScore(topic, candidateTopic || '') }))
+      .sort((left, right) => right.score - left.score)[0];
+    if (best?.score > 0) return best.topic;
+    return fallbackTopic || allowedTopics[0];
+  };
+
+  return (Array.isArray(candidateAngles) ? candidateAngles : []).map((angle) => ({
+    ...angle,
+    topic_thesis: resolveTopic(angle?.topic_thesis),
+  })).filter((angle) => angle.topic_thesis);
+}
+
+function fixtureTopicChoice({ topicThesis = null, topicOptions = [], fallbackSources = [] }) {
+  if (topicThesis) return topicThesis;
+  const allowedTopics = (Array.isArray(topicOptions) ? topicOptions : []).filter(Boolean);
+  if (allowedTopics.length === 0) return 'The visible event reveals a deeper organizational pattern.';
+  const sourceText = fallbackSources.map((source) => (
+    [source?.title, source?.relevance, source?.claim, source?.excerpt].filter(Boolean).join(' ')
+  )).join(' ');
+  const best = allowedTopics
+    .map((topic) => ({ topic, score: overlapScore(topic, sourceText) }))
+    .sort((left, right) => right.score - left.score)[0];
+  return best?.score > 0 ? best.topic : allowedTopics[0];
+}
+
 function parseJsonOutput(text) {
   const trimmed = String(text || '').trim();
   const unfenced = trimmed
@@ -156,10 +187,11 @@ class GPTScorerAdapter {
     return this.scoreCandidatesFixture({ candidates, brief, strategy, memory, sourceRefs });
   }
 
-  async normalizeResearchReport({ topicThesis, rawReport, fallbackSources = [], watchlists = {} }) {
+  async normalizeResearchReport({ topicThesis = null, topicOptions = [], rawReport, fallbackSources = [], watchlists = {} }) {
     if (this.mode === 'live' || this.mode === 'record') {
-      return this.normalizeResearchReportLive({ topicThesis, rawReport, fallbackSources, watchlists });
+      return this.normalizeResearchReportLive({ topicThesis, topicOptions, rawReport, fallbackSources, watchlists });
     }
+    const selectedTopic = fixtureTopicChoice({ topicThesis, topicOptions, fallbackSources });
     const primarySource = fallbackSources[0] || null;
     const primaryTitle = primarySource?.title || 'recent company case';
     return {
@@ -168,7 +200,7 @@ class GPTScorerAdapter {
       primary_source: primarySource,
       candidate_angles: [
         {
-          topic_thesis: `${primaryTitle} makes the underlying organizational pattern visible.`,
+          topic_thesis: selectedTopic,
           angle: 'Start from the selected recent case and diagnose the organizational pattern it reveals.',
           hook: 'The visible event is not the whole story. The naming around it is the real tell.',
           subject: primaryTitle,
@@ -319,12 +351,19 @@ class GPTScorerAdapter {
     return (parsed.scores || []).map((score) => ({ id: sha256(`${score.candidate_id}:${score.overall_score}`).slice(0, 12), ...score }));
   }
 
-  async normalizeResearchReportLive({ topicThesis, rawReport, fallbackSources, watchlists = {} }) {
+  async normalizeResearchReportLive({ topicThesis, topicOptions = [], rawReport, fallbackSources, watchlists = {} }) {
     if (!this.apiKey) throw new Error('Missing OPENAI_API_KEY for research normalization.');
     const normalizedRawReport = String(rawReport || '').slice(0, 12000);
     const recencyPolicy = getResearchRecencyPolicy({ watchlists });
     const normalizedFallbackSources = normalizeStructuredSources(fallbackSources);
     const compactFallbackSources = compactSourcesForNormalization(fallbackSources);
+    const articleFirst = !topicThesis && Array.isArray(topicOptions) && topicOptions.length > 0;
+    const candidateAngleDescription = articleFirst
+      ? 'Rank the candidate_angles so the first one is the single best recent article-thesis pairing overall. Each candidate angle must map the visible case to exactly one thesis from topicOptions.'
+      : 'Rank the candidate_angles so the first one is the single best recent case match for the thesis.';
+    const thesisInstruction = articleFirst
+      ? 'Choose topic_thesis values only from topicOptions. Do not invent new thesis text.'
+      : 'Keep topic_thesis aligned with the requested thesis.';
     const schema = {
       type: 'object',
       additionalProperties: false,
@@ -390,7 +429,7 @@ class GPTScorerAdapter {
                 content: [
                   {
                     type: 'input_text',
-                    text: `Normalize a Gemini Deep Research report into a tight research bundle. Today's date is ${recencyPolicy.reference_date}. Prioritize recent news sources published on or after ${recencyPolicy.cutoff_date} (${recencyPolicy.recent_window_days}-day window). Keep at least ${recencyPolicy.min_recent_sources} recent reported company or institutional cases in the bundle unless the report truly contains none. Older conceptual sources may stay only as secondary context. Explain why each source matters to the thesis. Order the sources so the first source is the single best primary source for the post. Set primary_source_url to that source's exact URL. Rank the candidate_angles so the first one is the single best recent case match for the thesis. Each candidate angle must begin from a concrete visible event, not an abstract restatement, and should align to the primary source. Output only sources with real HTTP URLs and exact published dates in YYYY-MM-DD format. If fallbackSources include exact URLs and dates, treat them as authoritative and prefer them over inferred placeholders.`,
+                    text: `Normalize a Gemini Deep Research report into a tight research bundle. Today's date is ${recencyPolicy.reference_date}. Prioritize recent news sources published on or after ${recencyPolicy.cutoff_date} (${recencyPolicy.recent_window_days}-day window). Keep at least ${recencyPolicy.min_recent_sources} recent reported company or institutional cases in the bundle unless the report truly contains none. Older conceptual sources may stay only as secondary context. Explain why each source matters to the thesis. Order the sources so the first source is the single best primary source for the post. Set primary_source_url to that source's exact URL. ${candidateAngleDescription} ${thesisInstruction} Each candidate angle must begin from a concrete visible event, not an abstract restatement, and should align to the primary source. Output only sources with real HTTP URLs and exact published dates in YYYY-MM-DD format. If fallbackSources include exact URLs and dates, treat them as authoritative and prefer them over inferred placeholders.`,
                   },
                 ],
               },
@@ -399,7 +438,7 @@ class GPTScorerAdapter {
                 content: [
                   {
                     type: 'input_text',
-                    text: JSON.stringify({ topicThesis, fallbackSources: compactFallbackSources, rawReport: normalizedRawReport }, null, 2),
+                    text: JSON.stringify({ topicThesis, topicOptions, fallbackSources: compactFallbackSources, rawReport: normalizedRawReport }, null, 2),
                   },
                 ],
               },
@@ -414,6 +453,10 @@ class GPTScorerAdapter {
         this.lastUsage = payload.usage || null;
         const outputText = payload.output_text || payload.output?.map((item) => item.content?.map((part) => part.text || '').join('')).join('') || '{}';
         const parsed = parseJsonOutput(outputText);
+        parsed.candidate_angles = normalizeCandidateAngles(parsed.candidate_angles, {
+          topicOptions,
+          fallbackTopic: topicThesis || topicOptions[0] || null,
+        });
         parsed.sources = mergeStructuredSources(
           normalizeStructuredSources(parsed.sources || []),
           normalizedFallbackSources,
@@ -421,6 +464,9 @@ class GPTScorerAdapter {
         parsed.primary_source = parsed.sources.find((source) => source.url === parsed.primary_source_url)
           || parsed.sources[0]
           || null;
+        if (!Array.isArray(parsed.candidate_angles) || parsed.candidate_angles.length === 0) {
+          throw new Error('Normalized research bundle missing candidate angles.');
+        }
         const recentSourceCount = countRecentSources(parsed.sources || [], recencyPolicy);
         if (recentSourceCount < recencyPolicy.min_recent_sources) {
           throw new Error(`Normalized research bundle missing recent sources (${recentSourceCount}/${recencyPolicy.min_recent_sources} within ${recencyPolicy.recent_window_days} days).`);

@@ -6,6 +6,7 @@ seed_topics:
   - organizational change
   - technical truth and social trust
 research:
+  discovery_mode: article_first
   recent_window_days: 30
   min_recent_sources: 1
 adjacent_domains:

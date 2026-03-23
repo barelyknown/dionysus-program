@@ -5,8 +5,9 @@ const { rebuildMemory } = require('../lib/memory');
 const { loadCalendars, saveCalendar } = require('../lib/records');
 const { selectTimelyCandidate, selectResearchTopic } = require('../lib/planner');
 const { createRun, updateRun, createAdapters, saveResearchBundle } = require('../lib/pipeline');
-const { buildResearchJob, findPendingJobForTopic, removeResearchJob, upsertResearchJob } = require('../lib/research-jobs');
+const { buildResearchJob, findPendingJob, findPendingJobForTopic, removeResearchJob, upsertResearchJob } = require('../lib/research-jobs');
 const { loadSourceContext } = require('../lib/context');
+const { getResearchDiscoveryMode } = require('../lib/research-policy');
 
 function chooseTopic(strategy, memory, watchlists) {
   return selectResearchTopic({
@@ -42,21 +43,29 @@ async function main(argv = process.argv.slice(2)) {
   const watchlists = loadWatchlists();
   const memory = rebuildMemory({ strategy, write: !dryRun });
   const adapters = createAdapters({ args, strategy });
-  const topicThesis = args.topic || chooseTopic(strategy, memory, watchlists);
-  if (!topicThesis) fail('No topic thesis available for timely scan.');
+  const discoveryMode = getResearchDiscoveryMode({ watchlists });
+  const supportsArticleFirst = (adapters.mode === 'live' || adapters.mode === 'record')
+    ? typeof adapters?.gemini?.submitDiscoveryJob === 'function'
+    : typeof adapters?.gemini?.discoverNews === 'function';
+  const useArticleFirst = discoveryMode === 'article_first' && supportsArticleFirst;
+  const topicOptions = Array.isArray(strategy.topics) ? strategy.topics : [];
+  const topicThesis = useArticleFirst ? null : (args.topic || chooseTopic(strategy, memory, watchlists));
+  const jobKey = useArticleFirst ? 'timely-discovery' : topicThesis;
+  if (!useArticleFirst && !topicThesis) fail('No topic thesis available for timely scan.');
 
-  const run = createRun('scan-timely', { args, topicThesis, mode: adapters.mode });
+  const run = createRun('scan-timely', { args, topicThesis, mode: adapters.mode, discovery_mode: discoveryMode });
   let researchBundle = null;
   let pendingJob = null;
 
   if (adapters.mode === 'live' || adapters.mode === 'record') {
-    const existingJob = findPendingJobForTopic(topicThesis);
+    const existingJob = useArticleFirst ? findPendingJob(jobKey) : findPendingJobForTopic(topicThesis);
     if (existingJob) {
       const latest = await adapters.gemini.pollResearchJob({ job: existingJob });
       if (latest.status === 'completed') {
         const completed = adapters.gemini.normalizeCompletedResearch({ job: existingJob, latest });
         const normalized = await adapters.scorer.normalizeResearchReport({
-          topicThesis,
+          topicThesis: useArticleFirst ? null : topicThesis,
+          topicOptions: useArticleFirst ? topicOptions : [],
           rawReport: completed.summary,
           fallbackSources: completed.sources || [],
         });
@@ -75,12 +84,31 @@ async function main(argv = process.argv.slice(2)) {
         if (!dryRun) upsertResearchJob(pendingJob);
       }
     } else {
-      const submitted = await adapters.gemini.submitResearchJob({ topicThesis, watchlists });
-      pendingJob = buildResearchJob({ topicThesis, submitted, mode: adapters.mode });
+      const submitted = useArticleFirst
+        ? await adapters.gemini.submitDiscoveryJob({
+          watchlists,
+          topicOptions,
+          requestedTopic: args.topic || null,
+          jobKey,
+        })
+        : await adapters.gemini.submitResearchJob({ topicThesis, watchlists });
+      pendingJob = buildResearchJob({
+        topicThesis: topicThesis || args.topic || null,
+        jobKey,
+        submitted,
+        mode: adapters.mode,
+      });
       if (!dryRun) upsertResearchJob(pendingJob);
     }
   } else {
-    researchBundle = await adapters.gemini.researchTopic({ topicThesis, watchlists });
+    researchBundle = useArticleFirst
+      ? await adapters.gemini.discoverNews({
+        watchlists,
+        topicOptions,
+        requestedTopic: args.topic || null,
+        jobKey,
+      })
+      : await adapters.gemini.researchTopic({ topicThesis, watchlists });
     if (!dryRun) saveResearchBundle(researchBundle);
   }
 
