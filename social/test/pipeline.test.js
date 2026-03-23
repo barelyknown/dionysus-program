@@ -46,7 +46,7 @@ test('fixture generation and scoring produce a publishable winner', async (t) =>
   assert.ok(result.researchBundle.primary_source);
   assert.ok(result.calendarItem.source_bundle_id);
   assert.equal(result.calendarItem.seed_topic_thesis, item.topic_thesis);
-  assert.equal(result.calendarItem.topic_thesis, item.topic_thesis);
+  assert.ok(strategy.topics.includes(result.calendarItem.topic_thesis));
   assert.ok(result.calendarItem.timely_subject);
   assert.ok(result.winnerCandidate);
   assert.ok(result.winnerScore.pass);
@@ -204,7 +204,7 @@ test('stale decoder-ring research bundles are regenerated instead of reused', as
   assert.ok(result.researchBundle);
   assert.ok(result.researchBundle.primary_source);
   assert.equal(result.calendarItem.seed_topic_thesis, item.topic_thesis);
-  assert.equal(result.calendarItem.topic_thesis, item.topic_thesis);
+  assert.ok(strategy.topics.includes(result.calendarItem.topic_thesis));
   assert.ok(result.calendarItem.timely_subject);
   assert.equal(
     researchBundleMeetsRecencyPolicy(
@@ -431,4 +431,109 @@ test('live research uses scorer normalization when Gemini citations do not resol
   assert.equal(result.researchBundle.sources[0].published_at, '2026-03-22');
   assert.equal(result.calendarItem.source_bundle_id, 'gemini-bundle-1');
   assert.equal(result.calendarItem.timely_subject, 'Recent company case');
+});
+
+test('article-first live research remaps the planned thesis to the best-fit discovered thesis', async (t) => {
+  setupTempSocialWorkspace(t);
+  const strategy = loadStrategy();
+  const discoveredTopic = 'The One-Man Job makes organizations more efficient and less socially coherent at the same time.';
+  const item = {
+    id: 'item-article-first',
+    scheduled_at: '2026-03-23T12:30:00.000Z',
+    timezone: 'America/Los_Angeles',
+    weekday: 'monday',
+    slot_type: 'baseline',
+    status: 'planned',
+    content_type: 'decoder_ring',
+    pillar: 'Decoder Ring',
+    topic_thesis: 'Epimetabolic Rate is the only scoreboard that really matters in periods of fast change.',
+    angle: 'Diagnose the pattern underneath the news.',
+    hook: 'Most people are misreading what this story is actually about.',
+    source_bundle_id: null,
+    timely_subject: null,
+  };
+  const adapters = {
+    mode: 'live',
+    gemini: {
+      pollAttempts: 1,
+      pollIntervalMs: 0,
+      publishPollAttempts: 1,
+      publishPollIntervalMs: 0,
+      submitDiscoveryJob: async () => ({
+        interaction_id: 'interaction-discovery-1',
+        status: 'in_progress',
+        submitted_at: '2026-03-23T13:00:00.000Z',
+        watchlist_inputs: {},
+        topic_options: strategy.topics,
+        discovery_mode: 'article_first',
+        job_key: `item:${item.id}`,
+      }),
+      pollResearchJob: async () => ({
+        status: 'completed',
+        outputs: [],
+      }),
+      normalizeCompletedResearch: async () => ({
+        id: 'bundle-article-first',
+        summary: 'Raw discovery report',
+        sources: [
+          {
+            title: 'Klarna brings humans back after AI support cuts',
+            url: 'https://example.com/klarna-human-loop',
+            published_at: '2026-03-22',
+            excerpt: 'Recent reported case.',
+            claim: 'Fresh claim.',
+          },
+        ],
+        candidate_angles: [],
+        primary_source: null,
+      }),
+    },
+    scorer: {
+      normalizeResearchReport: async ({ topicThesis, topicOptions }) => {
+        assert.equal(topicThesis, null);
+        assert.ok(topicOptions.includes(discoveredTopic));
+        return {
+          summary: 'Normalized article-first report',
+          sources: [
+            {
+              title: 'Klarna brings humans back after AI support cuts',
+              url: 'https://example.com/klarna-human-loop',
+              published_at: '2026-03-22',
+              relevance: 'Recent operating case.',
+              claim: 'Fresh claim.',
+              excerpt: 'Recent reported case.',
+            },
+          ],
+          primary_source: {
+            title: 'Klarna brings humans back after AI support cuts',
+            url: 'https://example.com/klarna-human-loop',
+            published_at: '2026-03-22',
+          },
+          candidate_angles: [
+            {
+              topic_thesis: discoveredTopic,
+              angle: 'Open on the staffing reversal, then show why the one-man-job story breaks social coherence.',
+              hook: 'The visible efficiency win came with a hidden coordination bill.',
+              subject: 'Klarna brings humans back after AI support cuts',
+            },
+          ],
+        };
+      },
+    },
+  };
+
+  const result = await ensureResearchBundleForItem({
+    calendarItem: item,
+    strategy,
+    adapters,
+    options: { waitForResearch: true },
+  });
+
+  assert.equal(result.researchBundle.id, 'bundle-article-first');
+  assert.equal(result.calendarItem.seed_topic_thesis, item.topic_thesis);
+  assert.equal(result.calendarItem.topic_thesis, discoveredTopic);
+  assert.equal(result.calendarItem.source_bundle_id, 'bundle-article-first');
+  assert.equal(result.calendarItem.timely_subject, 'Klarna brings humans back after AI support cuts');
+  assert.match(result.calendarItem.angle, /Klarna brings humans back after AI support cuts/);
+  assert.equal(result.calendarItem.hook, 'The visible efficiency win came with a hidden coordination bill.');
 });

@@ -166,6 +166,13 @@ class GeminiResearchAdapter {
     return this.researchTopicFixture({ topicThesis, watchlists });
   }
 
+  async discoverNews({ watchlists, topicOptions = [], requestedTopic = null, jobKey = null }) {
+    if (this.mode === 'live' || this.mode === 'record') {
+      return this.discoverNewsLive({ watchlists, topicOptions, requestedTopic, jobKey });
+    }
+    return this.discoverNewsFixture({ watchlists, topicOptions, requestedTopic });
+  }
+
   researchTopicFixture({ topicThesis, watchlists }) {
     const date = now().toISOString().slice(0, 10);
     const sources = [
@@ -204,6 +211,50 @@ class GeminiResearchAdapter {
     };
   }
 
+  discoverNewsFixture({ watchlists, topicOptions = [], requestedTopic = null }) {
+    const date = now().toISOString().slice(0, 10);
+    const sources = [
+      {
+        title: 'AI support cuts force companies to bring humans back into the loop',
+        url: 'https://example.com/ai-support-rehiring',
+        published_at: date,
+        relevance: 'A fresh operating case where efficiency gains created a second-order trust and quality problem.',
+        claim: 'The visible automation win hid a social coordination cost that later had to be repaired.',
+      },
+      {
+        title: 'Reorg language gets cleaner as frontline trust gets weaker',
+        url: 'https://example.com/reorg-trust',
+        published_at: date,
+        relevance: 'A recent organizational case where naming drift obscured the real diagnosis.',
+        claim: 'Leaders widened the theater gap by speaking in process language instead of consequence language.',
+      },
+    ];
+    const selectedTopic = topicOptions.find((option) => /one-man job|ai independence|trust/i.test(String(option)))
+      || requestedTopic
+      || topicOptions[0]
+      || 'The visible event reveals a deeper organizational pattern.';
+
+    return {
+      id: sha256(`fixture:discovery:${selectedTopic}:${date}`).slice(0, 12),
+      provider: 'gemini-fixture',
+      topic_thesis: null,
+      summary: 'Recent reporting surfaced several concrete organizational cases worth mapping to a Dionysus thesis.',
+      sources,
+      candidate_angles: [
+        {
+          topic_thesis: selectedTopic,
+          angle: 'Start from the visible AI staffing reversal, then show the deeper coordination problem it exposed.',
+          hook: 'The automation win looked clean until the trust-bearing work had to be done by people again.',
+          subject: sources[0].title,
+        },
+      ],
+      watchlist_inputs: watchlists,
+      topic_options: topicOptions,
+      discovery_mode: 'article_first',
+      created_at: now().toISOString(),
+    };
+  }
+
   buildPrompt({ topicThesis, watchlists, referenceDate = now() }) {
     const recencyPolicy = getResearchRecencyPolicy({ watchlists, referenceDate });
     return [
@@ -221,6 +272,26 @@ class GeminiResearchAdapter {
       `Prompts: ${(watchlists.prompts || []).join(' ')}`,
       'Return a detailed research report with clearly dated sources and explain why each source matters to the thesis.',
     ].join('\n');
+  }
+
+  buildDiscoveryPrompt({ watchlists, topicOptions = [], requestedTopic = null, referenceDate = now() }) {
+    const recencyPolicy = getResearchRecencyPolicy({ watchlists, referenceDate });
+    const topicsBlock = (topicOptions || []).slice(0, 80).map((topic, index) => `${index + 1}. ${topic}`).join('\n');
+    return [
+      `Today's date: ${recencyPolicy.reference_date}`,
+      'Search for hot recent reporting first. Do not begin from a preselected thesis.',
+      `Prioritize sources published on or after ${recencyPolicy.cutoff_date} (${recencyPolicy.recent_window_days}-day window).`,
+      `Return at least ${recencyPolicy.min_recent_sources} recent reported company or institutional cases unless no such reporting exists.`,
+      'Find 3 to 5 concrete recent events from the watched domains, then identify which available thesis each event makes most legible.',
+      'Prefer company, labor, governance, and AI-adoption reporting where the visible event reveals a deeper social or organizational problem.',
+      requestedTopic ? `If one of the discovered cases also fits this previously planned thesis, note that explicitly: ${requestedTopic}` : '',
+      `Adjacent domains: ${(watchlists.adjacent_domains || []).join(', ')}`,
+      `Entities: ${JSON.stringify(watchlists.entities || {})}`,
+      `Prompts: ${(watchlists.prompts || []).join(' ')}`,
+      'Available theses to choose from for mapping:',
+      topicsBlock || '1. The visible event reveals a deeper organizational pattern.',
+      'Return a detailed research report with clearly dated sources and explain which thesis each source best supports.',
+    ].filter(Boolean).join('\n');
   }
 
   async submitResearchJob({ topicThesis, watchlists }) {
@@ -251,6 +322,40 @@ class GeminiResearchAdapter {
       prompt,
       topic_thesis: topicThesis,
       watchlist_inputs: watchlists,
+    };
+  }
+
+  async submitDiscoveryJob({ watchlists, topicOptions = [], requestedTopic = null, jobKey = null }) {
+    if (!this.apiKey) throw new Error('Missing GEMINI_API_KEY for live research.');
+    const prompt = this.buildDiscoveryPrompt({ watchlists, topicOptions, requestedTopic });
+    const createResponse = await fetch(`https://generativelanguage.googleapis.com/v1beta/interactions?key=${this.apiKey}`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        input: prompt,
+        agent: this.agent,
+        background: true,
+        store: true,
+      }),
+    });
+
+    if (!createResponse.ok) {
+      throw new Error(`Gemini Deep Research create failed (${createResponse.status}): ${await createResponse.text()}`);
+    }
+    const created = await createResponse.json();
+    const interactionId = created.id;
+    if (!interactionId) throw new Error('Gemini Deep Research response missing interaction id.');
+
+    return {
+      interaction_id: interactionId,
+      status: created.status || 'in_progress',
+      submitted_at: now().toISOString(),
+      prompt,
+      topic_thesis: requestedTopic,
+      topic_options: topicOptions,
+      watchlist_inputs: watchlists,
+      discovery_mode: 'article_first',
+      job_key: jobKey || 'article-first-discovery',
     };
   }
 
@@ -288,15 +393,16 @@ class GeminiResearchAdapter {
       ? latest.outputs.map((entry) => entry.text || '').filter(Boolean).join('\n\n')
       : JSON.stringify(latest);
     const sources = await extractGroundedSources({ latest });
+    const bundleKey = job.job_key || job.topic_thesis || interactionId;
     return {
-      id: sha256(`live:${job.topic_thesis}:${interactionId}`).slice(0, 12),
+      id: sha256(`live:${bundleKey}:${interactionId}`).slice(0, 12),
       provider: 'gemini-live',
-      topic_thesis: job.topic_thesis,
+      topic_thesis: job.topic_thesis || null,
       summary: outputText.slice(0, 2000),
       sources,
       candidate_angles: [
         {
-          topic_thesis: job.topic_thesis,
+          topic_thesis: job.topic_thesis || '',
           angle: 'Normalize live research output with GPT scoring before scheduling.',
           hook: 'The visible event is not the real diagnosis.',
           subject: 'live-research-subject',
@@ -304,12 +410,20 @@ class GeminiResearchAdapter {
       ],
       raw: latest,
       watchlist_inputs: job.watchlist_inputs,
+      topic_options: job.topic_options || [],
+      discovery_mode: job.discovery_mode || null,
       created_at: now().toISOString(),
     };
   }
 
   async researchTopicLive({ topicThesis, watchlists }) {
     const job = await this.submitResearchJob({ topicThesis, watchlists });
+    const latest = await this.pollResearchJob({ job });
+    return this.normalizeCompletedResearch({ job, latest });
+  }
+
+  async discoverNewsLive({ watchlists, topicOptions = [], requestedTopic = null, jobKey = null }) {
+    const job = await this.submitDiscoveryJob({ watchlists, topicOptions, requestedTopic, jobKey });
     const latest = await this.pollResearchJob({ job });
     return this.normalizeCompletedResearch({ job, latest });
   }
