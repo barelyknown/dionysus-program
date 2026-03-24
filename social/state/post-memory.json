@@ -1,13 +1,14 @@
 {
-  "generated_at": "2026-03-23T14:27:41.712Z",
-  "published_count": 6,
+  "generated_at": "2026-03-24T13:02:10.402Z",
+  "published_count": 7,
   "rolling_window_days": 84,
   "typeCounts": {
     "decoder_ring": 2,
     "ritual_recipe": 1,
     "extracted_insight": 1,
     "archetype_diagnosis": 1,
-    "high_lindy_source_tour": 1
+    "high_lindy_source_tour": 1,
+    "from_the_mailbag": 1
   },
   "recent_hooks": [
     {
@@ -231,6 +232,38 @@
       "x_winning_candidate_id": "791e3012fd57",
       "x_final_text_hash": "a03ff48b569c9f51ff54fc1d0263e7ffe2a91ec92b91cdf8fe9873d84bc594cb",
       "x_summary": "Klarna didn’t prove AI failed. It proved you can cut headcount faster than you can rebuild judgment.\n\nThe work stays. The costs just move: weaker service, thinner trust, expensive rehiring.",
+      "x_skip_reason": null
+    },
+    {
+      "post_id": "019d1fee-b786-2ca1-17ab-2cf8c0418d59",
+      "external_post_id": "019d1fee-b786-2ca1-17ab-2cf8c0418d59",
+      "published_at": "2026-03-24T13:00:31.510Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "from_the_mailbag",
+      "pillar": "From the Mailbag",
+      "topic_thesis": "The Crossing is the protected threshold where truth can become common knowledge without social rupture.",
+      "angle": "The interpretation is the point, not the quote itself.",
+      "hook": "Most organizations don’t fail because the truth was unavailable. They fail because it never became sayable together.",
+      "summary": "Most organizations don’t fail because the truth was unavailable. They fail because it never became sayable together.\n\nNot Isaac Newton caught the crux: “Planets do not resent their orbits. Men do.”\n\nThat’s the whole problem with treating organizations like engineering systems. In",
+      "source_refs": [
+        "letters_to_editor/isaac_newton.txt"
+      ],
+      "framework_terms_used": [
+        "li"
+      ],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "8572295bd99d",
+      "final_text_hash": "51cb6631ade0b0e77f2c504521bb912f3178a59792ba6e4d023872d6375cd15e",
+      "note_slug": "2026-03-24-the-crossing-is-the-protected-threshold-where-truth-can-become-common-knowledge-without-social-rupture",
+      "note_source_path": "content/notes/2026-03-24-the-crossing-is-the-protected-threshold-where-truth-can-become-common-knowledge-without-social-rupture.md",
+      "x_status": "published",
+      "x_external_post_id": "2036428358301450666",
+      "x_published_at": "2026-03-24T13:02:10.401Z",
+      "x_winning_candidate_id": "3022ff8c139f",
+      "x_final_text_hash": "aa86e0880e75fa0c7bb9a4310bf064e338cc0a6990afc526aa21082cbcd6aa35",
+      "x_summary": "Engineering problems yield to better information. Organizational problems often get worse with it.\n\nA fact in a machine is just a fact. A fact in a team threatens status, competence, and loyalty. That’s why obvious problems stay unsaid.",
       "x_skip_reason": null
     }
   ],
@@ -457,6 +490,38 @@
       "x_final_text_hash": "a03ff48b569c9f51ff54fc1d0263e7ffe2a91ec92b91cdf8fe9873d84bc594cb",
       "x_summary": "Klarna didn’t prove AI failed. It proved you can cut headcount faster than you can rebuild judgment.\n\nThe work stays. The costs just move: weaker service, thinner trust, expensive rehiring.",
       "x_skip_reason": null
+    },
+    {
+      "post_id": "019d1fee-b786-2ca1-17ab-2cf8c0418d59",
+      "external_post_id": "019d1fee-b786-2ca1-17ab-2cf8c0418d59",
+      "published_at": "2026-03-24T13:00:31.510Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "from_the_mailbag",
+      "pillar": "From the Mailbag",
+      "topic_thesis": "The Crossing is the protected threshold where truth can become common knowledge without social rupture.",
+      "angle": "The interpretation is the point, not the quote itself.",
+      "hook": "Most organizations don’t fail because the truth was unavailable. They fail because it never became sayable together.",
+      "summary": "Most organizations don’t fail because the truth was unavailable. They fail because it never became sayable together.\n\nNot Isaac Newton caught the crux: “Planets do not resent their orbits. Men do.”\n\nThat’s the whole problem with treating organizations like engineering systems. In",
+      "source_refs": [
+        "letters_to_editor/isaac_newton.txt"
+      ],
+      "framework_terms_used": [
+        "li"
+      ],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "8572295bd99d",
+      "final_text_hash": "51cb6631ade0b0e77f2c504521bb912f3178a59792ba6e4d023872d6375cd15e",
+      "note_slug": "2026-03-24-the-crossing-is-the-protected-threshold-where-truth-can-become-common-knowledge-without-social-rupture",
+      "note_source_path": "content/notes/2026-03-24-the-crossing-is-the-protected-threshold-where-truth-can-become-common-knowledge-without-social-rupture.md",
+      "x_status": "published",
+      "x_external_post_id": "2036428358301450666",
+      "x_published_at": "2026-03-24T13:02:10.401Z",
+      "x_winning_candidate_id": "3022ff8c139f",
+      "x_final_text_hash": "aa86e0880e75fa0c7bb9a4310bf064e338cc0a6990afc526aa21082cbcd6aa35",
+      "x_summary": "Engineering problems yield to better information. Organizational problems often get worse with it.\n\nA fact in a machine is just a fact. A fact in a team threatens status, competence, and loyalty. That’s why obvious problems stay unsaid.",
+      "x_skip_reason": null
     }
   ],
   "recent_topics": [
@@ -681,6 +746,38 @@
       "x_winning_candidate_id": "791e3012fd57",
       "x_final_text_hash": "a03ff48b569c9f51ff54fc1d0263e7ffe2a91ec92b91cdf8fe9873d84bc594cb",
       "x_summary": "Klarna didn’t prove AI failed. It proved you can cut headcount faster than you can rebuild judgment.\n\nThe work stays. The costs just move: weaker service, thinner trust, expensive rehiring.",
+      "x_skip_reason": null
+    },
+    {
+      "post_id": "019d1fee-b786-2ca1-17ab-2cf8c0418d59",
+      "external_post_id": "019d1fee-b786-2ca1-17ab-2cf8c0418d59",
+      "published_at": "2026-03-24T13:00:31.510Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "from_the_mailbag",
+      "pillar": "From the Mailbag",
+      "topic_thesis": "The Crossing is the protected threshold where truth can become common knowledge without social rupture.",
+      "angle": "The interpretation is the point, not the quote itself.",
+      "hook": "Most organizations don’t fail because the truth was unavailable. They fail because it never became sayable together.",
+      "summary": "Most organizations don’t fail because the truth was unavailable. They fail because it never became sayable together.\n\nNot Isaac Newton caught the crux: “Planets do not resent their orbits. Men do.”\n\nThat’s the whole problem with treating organizations like engineering systems. In",
+      "source_refs": [
+        "letters_to_editor/isaac_newton.txt"
+      ],
+      "framework_terms_used": [
+        "li"
+      ],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "8572295bd99d",
+      "final_text_hash": "51cb6631ade0b0e77f2c504521bb912f3178a59792ba6e4d023872d6375cd15e",
+      "note_slug": "2026-03-24-the-crossing-is-the-protected-threshold-where-truth-can-become-common-knowledge-without-social-rupture",
+      "note_source_path": "content/notes/2026-03-24-the-crossing-is-the-protected-threshold-where-truth-can-become-common-knowledge-without-social-rupture.md",
+      "x_status": "published",
+      "x_external_post_id": "2036428358301450666",
+      "x_published_at": "2026-03-24T13:02:10.401Z",
+      "x_winning_candidate_id": "3022ff8c139f",
+      "x_final_text_hash": "aa86e0880e75fa0c7bb9a4310bf064e338cc0a6990afc526aa21082cbcd6aa35",
+      "x_summary": "Engineering problems yield to better information. Organizational problems often get worse with it.\n\nA fact in a machine is just a fact. A fact in a team threatens status, competence, and loyalty. That’s why obvious problems stay unsaid.",
       "x_skip_reason": null
     }
   ],
@@ -907,6 +1004,38 @@
       "x_final_text_hash": "a03ff48b569c9f51ff54fc1d0263e7ffe2a91ec92b91cdf8fe9873d84bc594cb",
       "x_summary": "Klarna didn’t prove AI failed. It proved you can cut headcount faster than you can rebuild judgment.\n\nThe work stays. The costs just move: weaker service, thinner trust, expensive rehiring.",
       "x_skip_reason": null
+    },
+    {
+      "post_id": "019d1fee-b786-2ca1-17ab-2cf8c0418d59",
+      "external_post_id": "019d1fee-b786-2ca1-17ab-2cf8c0418d59",
+      "published_at": "2026-03-24T13:00:31.510Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "from_the_mailbag",
+      "pillar": "From the Mailbag",
+      "topic_thesis": "The Crossing is the protected threshold where truth can become common knowledge without social rupture.",
+      "angle": "The interpretation is the point, not the quote itself.",
+      "hook": "Most organizations don’t fail because the truth was unavailable. They fail because it never became sayable together.",
+      "summary": "Most organizations don’t fail because the truth was unavailable. They fail because it never became sayable together.\n\nNot Isaac Newton caught the crux: “Planets do not resent their orbits. Men do.”\n\nThat’s the whole problem with treating organizations like engineering systems. In",
+      "source_refs": [
+        "letters_to_editor/isaac_newton.txt"
+      ],
+      "framework_terms_used": [
+        "li"
+      ],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "8572295bd99d",
+      "final_text_hash": "51cb6631ade0b0e77f2c504521bb912f3178a59792ba6e4d023872d6375cd15e",
+      "note_slug": "2026-03-24-the-crossing-is-the-protected-threshold-where-truth-can-become-common-knowledge-without-social-rupture",
+      "note_source_path": "content/notes/2026-03-24-the-crossing-is-the-protected-threshold-where-truth-can-become-common-knowledge-without-social-rupture.md",
+      "x_status": "published",
+      "x_external_post_id": "2036428358301450666",
+      "x_published_at": "2026-03-24T13:02:10.401Z",
+      "x_winning_candidate_id": "3022ff8c139f",
+      "x_final_text_hash": "aa86e0880e75fa0c7bb9a4310bf064e338cc0a6990afc526aa21082cbcd6aa35",
+      "x_summary": "Engineering problems yield to better information. Organizational problems often get worse with it.\n\nA fact in a machine is just a fact. A fact in a team threatens status, competence, and loyalty. That’s why obvious problems stay unsaid.",
+      "x_skip_reason": null
     }
   ],
   "recent_sources": [
@@ -1131,6 +1260,38 @@
       "x_winning_candidate_id": "791e3012fd57",
       "x_final_text_hash": "a03ff48b569c9f51ff54fc1d0263e7ffe2a91ec92b91cdf8fe9873d84bc594cb",
       "x_summary": "Klarna didn’t prove AI failed. It proved you can cut headcount faster than you can rebuild judgment.\n\nThe work stays. The costs just move: weaker service, thinner trust, expensive rehiring.",
+      "x_skip_reason": null
+    },
+    {
+      "post_id": "019d1fee-b786-2ca1-17ab-2cf8c0418d59",
+      "external_post_id": "019d1fee-b786-2ca1-17ab-2cf8c0418d59",
+      "published_at": "2026-03-24T13:00:31.510Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "from_the_mailbag",
+      "pillar": "From the Mailbag",
+      "topic_thesis": "The Crossing is the protected threshold where truth can become common knowledge without social rupture.",
+      "angle": "The interpretation is the point, not the quote itself.",
+      "hook": "Most organizations don’t fail because the truth was unavailable. They fail because it never became sayable together.",
+      "summary": "Most organizations don’t fail because the truth was unavailable. They fail because it never became sayable together.\n\nNot Isaac Newton caught the crux: “Planets do not resent their orbits. Men do.”\n\nThat’s the whole problem with treating organizations like engineering systems. In",
+      "source_refs": [
+        "letters_to_editor/isaac_newton.txt"
+      ],
+      "framework_terms_used": [
+        "li"
+      ],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "8572295bd99d",
+      "final_text_hash": "51cb6631ade0b0e77f2c504521bb912f3178a59792ba6e4d023872d6375cd15e",
+      "note_slug": "2026-03-24-the-crossing-is-the-protected-threshold-where-truth-can-become-common-knowledge-without-social-rupture",
+      "note_source_path": "content/notes/2026-03-24-the-crossing-is-the-protected-threshold-where-truth-can-become-common-knowledge-without-social-rupture.md",
+      "x_status": "published",
+      "x_external_post_id": "2036428358301450666",
+      "x_published_at": "2026-03-24T13:02:10.401Z",
+      "x_winning_candidate_id": "3022ff8c139f",
+      "x_final_text_hash": "aa86e0880e75fa0c7bb9a4310bf064e338cc0a6990afc526aa21082cbcd6aa35",
+      "x_summary": "Engineering problems yield to better information. Organizational problems often get worse with it.\n\nA fact in a machine is just a fact. A fact in a team threatens status, competence, and loyalty. That’s why obvious problems stay unsaid.",
       "x_skip_reason": null
     }
   ]
