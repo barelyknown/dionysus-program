@@ -5,6 +5,12 @@ module.exports = createContentType({
   pillar: 'Ritual Recipes',
   summary: 'Turn the framework into a practical operating move.',
   defaultAngle: 'Start with a recurring problem and end with a usable move.',
+  angleOptions: [
+    'Start with a recurring problem and end with a usable move.',
+    'Open on the failure mode, then give the smallest ritual that changes the behavior.',
+    'Name the mistake in the current practice, then show the better operating structure.',
+    'Start with the pressure the team feels, then show the move that lowers the social cost of truth.',
+  ],
   promptStyle: 'Problem, common mistake, better structure, practical steps, when to use it.',
   sourceGroundingRules: [
     'Anchor the recipe in a specific organizational failure mode from the source evidence.',

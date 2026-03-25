@@ -5,6 +5,12 @@ module.exports = createContentType({
   pillar: 'Cautionary Tales',
   summary: 'Warn about misuse or anti-patterns without moralizing.',
   defaultAngle: 'Name the misuse clearly and show the cost of getting it wrong.',
+  angleOptions: [
+    'Name the misuse clearly and show the cost of getting it wrong.',
+    'Start with the surface rigor, then show the hidden damage it causes.',
+    'Open on the false solution, then name the trust cost it creates.',
+    'Make the anti-pattern concrete fast, then show the boundary that would have prevented it.',
+  ],
   promptStyle: 'Warning-first, concrete anti-pattern, practical implication.',
   sourceGroundingRules: [
     'Anchor the warning in a real misuse pattern from the source evidence or research.',

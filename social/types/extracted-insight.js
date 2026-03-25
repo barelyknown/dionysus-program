@@ -5,6 +5,12 @@ module.exports = createContentType({
   pillar: 'Extracted Insights',
   summary: 'One sharp idea from the book, explained plainly.',
   defaultAngle: 'Name the concept, explain it plainly, and show why it matters now.',
+  angleOptions: [
+    'Name the concept, explain it plainly, and show why it matters now.',
+    'Start with the false virtue, then show the operating cost it hides.',
+    'Draw the boundary between patience and avoidance, then show the failure mode.',
+    'Name the mistake directly, then show why fast change turns it into negligence.',
+  ],
   promptStyle: 'Strong first line, define the concept, explain it cleanly, end with implication.',
   sourceGroundingRules: [
     'Anchor the post in at least one provided source evidence item.',

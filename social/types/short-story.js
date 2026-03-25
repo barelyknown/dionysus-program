@@ -5,6 +5,12 @@ module.exports = createContentType({
   pillar: 'Short Stories',
   summary: 'Use compressed narrative to dramatize a recurring organizational truth.',
   defaultAngle: 'A short story must resolve into a concrete lesson, not just a mood.',
+  angleOptions: [
+    'A short story must resolve into a concrete lesson, not just a mood.',
+    'Start inside one live moment, then let the lesson land without a second explanation pass.',
+    'Use one small scene to reveal the pattern, then close on the concrete truth it exposes.',
+    'Begin with action or dialogue, then turn the scene into an organizational diagnosis.',
+  ],
   promptStyle: 'Compressed narrative, clear recurring truth, sharp closing implication.',
   sourceGroundingRules: [
     'Use the source material to anchor the truth the story reveals, even if the story itself is compressed or illustrative.',

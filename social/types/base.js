@@ -73,6 +73,7 @@ function createContentType({
   pillar,
   summary,
   defaultAngle,
+  angleOptions = [],
   promptStyle,
   sourceGroundingRules = [],
   typeRules = [],
@@ -87,6 +88,9 @@ function createContentType({
     pillar,
     summary,
     defaultAngle,
+    angleOptions: Array.isArray(angleOptions) && angleOptions.length > 0
+      ? angleOptions
+      : [defaultAngle].filter(Boolean),
     promptStyle,
     timelyEligible,
     requiresResearch,

@@ -5,6 +5,12 @@ module.exports = createContentType({
   pillar: 'High-Lindy Source Tour Guide',
   summary: 'Explain an old idea and why it matters now.',
   defaultAngle: 'The old source is not the point; present relevance is.',
+  angleOptions: [
+    'The old source is not the point; present relevance is.',
+    'Open on the current failure first, then use the old source to make it legible.',
+    'Start with the modern confusion, then show the old idea that cuts through it.',
+    'Use one old source to sharpen a present-tense operator problem, not to give a history lesson.',
+  ],
   promptStyle: 'Use one old source, make it legible, connect it to current organizational reality.',
   sourceGroundingRules: [
     'Use one named source or thinker only.',

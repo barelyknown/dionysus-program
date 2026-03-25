@@ -5,6 +5,12 @@ module.exports = createContentType({
   pillar: 'Archetype Diagnosis',
   summary: 'Classify recognizable organizational patterns with vivid language.',
   defaultAngle: 'Make the pattern recognizable fast and show what drives it.',
+  angleOptions: [
+    'Make the pattern recognizable fast and show what drives it.',
+    'Show the tell first, then explain the system creating it.',
+    'Make the pattern visible through one concrete symptom, then name the deeper driver.',
+    'Start with the social cost of missing the pattern, then classify it clearly.',
+  ],
   promptStyle: 'Name the archetype, signs, what drives it, what happens if ignored.',
   sourceGroundingRules: [
     'Use source language to anchor the archetype name or core logic.',
