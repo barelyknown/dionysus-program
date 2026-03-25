@@ -5,6 +5,12 @@ module.exports = createContentType({
   pillar: 'From the Mailbag',
   summary: 'Start from a note or quote, then interpret what it reveals.',
   defaultAngle: 'The interpretation is the point, not the quote itself.',
+  angleOptions: [
+    'The interpretation is the point, not the quote itself.',
+    'Use the note as the entry point, then get to the pattern it reveals immediately.',
+    'Start with the live wire in the letter, then explain why it matters beyond the sender.',
+    'Pull one sharp line from the note, then use it to name the deeper organizational problem.',
+  ],
   promptStyle: 'Quote, what caught Sean’s attention, what it reveals, what to do with it.',
   sourceGroundingRules: [
     'Read the provided letter and choose one short quote from it yourself as the trigger.',

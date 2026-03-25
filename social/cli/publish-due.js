@@ -7,6 +7,7 @@ const { writeJson } = require('../lib/fs');
 const { materializePublishedNote } = require('../lib/notes');
 const { attemptXPublish } = require('../lib/x');
 const { isDue, nextCalendarItemState } = require('../lib/publish-due-state');
+const { resolveCalendarItemAngle, selectPublishCandidate } = require('../lib/publish-selection');
 const {
   createAdapters,
   createRun,
@@ -24,20 +25,20 @@ const { now } = require('../lib/time');
 
 async function handleItem({ item, strategy, adapters, memory, dryRun }) {
   let scored;
-  let resolvedItem = item;
+  let resolvedItem = resolveCalendarItemAngle({ calendarItem: item, strategy, memory });
   try {
     scored = await scoreCandidatesForItem({
-      calendarItem: item,
+      calendarItem: resolvedItem,
       strategy,
       adapters,
       memory,
       options: { waitForResearch: !dryRun },
     });
-    resolvedItem = scored.calendarItem || item;
+    resolvedItem = scored.calendarItem || resolvedItem;
   } catch (error) {
     if (error instanceof ResearchPendingError) {
       return {
-        calendarItem: item,
+        calendarItem: resolvedItem,
         status: 'deferred',
         reason: 'research_pending',
         pending_job: error.details?.pending_job || null,
@@ -45,37 +46,31 @@ async function handleItem({ item, strategy, adapters, memory, dryRun }) {
     }
     throw error;
   }
-  if (!scored.winnerCandidate || !scored.winnerScore) {
+
+  const selection = selectPublishCandidate({
+    calendarItem: resolvedItem,
+    candidates: scored.candidates,
+    scorecards: scored.scorecards,
+    strategy,
+    memory,
+    researchBundle: scored.researchBundle,
+    mailbagItem: scored.brief.mailbag_item,
+    finalMemoryCheck,
+  });
+
+  if (!selection.winnerCandidate || !selection.winnerScore) {
     return {
-      calendarItem: scored.calendarItem || item,
+      calendarItem: resolvedItem,
       status: 'skipped',
       reason: 'no_passing_candidate',
       scorecards: scored.scorecards,
     };
   }
-  const memoryConflicts = finalMemoryCheck({
-    calendarItem: resolvedItem,
-    winnerCandidate: scored.winnerCandidate,
-    strategy,
-    memory,
-    researchBundle: scored.researchBundle,
-    mailbagItem: scored.brief.mailbag_item,
-  });
-  if (memoryConflicts.length > 0) {
-    return {
-      calendarItem: scored.calendarItem || item,
-      status: 'skipped',
-      reason: 'memory_conflict',
-      conflicts: memoryConflicts,
-      winnerCandidate: scored.winnerCandidate,
-      winnerScore: scored.winnerScore,
-    };
-  }
 
   const payload = createPublishPayload({
     calendarItem: resolvedItem,
-    winnerCandidate: scored.winnerCandidate,
-    winnerScore: scored.winnerScore,
+    winnerCandidate: selection.winnerCandidate,
+    winnerScore: selection.winnerScore,
     researchBundle: scored.researchBundle,
     mailbagItem: scored.brief.mailbag_item,
     strategy,
@@ -89,18 +84,20 @@ async function handleItem({ item, strategy, adapters, memory, dryRun }) {
       dryRun: true,
     });
     return {
-      calendarItem: scored.calendarItem || item,
+      calendarItem: resolvedItem,
       status: 'dry_run',
       payload,
       x,
-      winnerCandidate: scored.winnerCandidate,
-      winnerScore: scored.winnerScore,
+      winnerCandidate: selection.winnerCandidate,
+      winnerScore: selection.winnerScore,
+      conflicts: selection.memoryConflicts,
+      selection_reason: selection.selectionReason,
     };
   }
 
   const publishResult = await adapters.zapier.publish({ payload });
   const note = await materializePublishedNote({
-    calendarItem: item,
+    calendarItem: resolvedItem,
     publishPayload: payload,
     publishResult,
     writer: adapters.claude,
@@ -113,14 +110,16 @@ async function handleItem({ item, strategy, adapters, memory, dryRun }) {
     dryRun: false,
   });
   return {
-    calendarItem: scored.calendarItem || item,
+    calendarItem: resolvedItem,
     status: 'published',
     payload,
     publishResult,
     note,
     x,
-    winnerCandidate: scored.winnerCandidate,
-    winnerScore: scored.winnerScore,
+    winnerCandidate: selection.winnerCandidate,
+    winnerScore: selection.winnerScore,
+    conflicts: selection.memoryConflicts,
+    selection_reason: selection.selectionReason,
   };
 }
 

@@ -1,5 +1,6 @@
 function isDue(item, currentTime) {
-  const retryablePending = item.status === 'skipped' && item.skip_reason === 'research_pending';
+  const retryablePending = item.status === 'skipped'
+    && ['research_pending', 'memory_conflict'].includes(item.skip_reason);
   return (item.status === 'planned' || retryablePending)
     && new Date(item.scheduled_at).getTime() <= currentTime.getTime();
 }

@@ -5,6 +5,12 @@ module.exports = createContentType({
   pillar: 'Decoder Ring',
   summary: 'Interpret current events or company behavior through the Dionysus lens.',
   defaultAngle: 'Do not summarize the news; diagnose the pattern underneath it.',
+  angleOptions: [
+    'Do not summarize the news; diagnose the pattern underneath it.',
+    'Start from the visible event, then name the organizational bottleneck it reveals.',
+    'Open on the operational consequence, then explain why the public reading misses the real problem.',
+    'Use the news peg to surface the hidden social failure, not to recap the story.',
+  ],
   promptStyle: 'Start from a visible event or behavior, show what people are missing, diagnose it.',
   sourceGroundingRules: [
     'If research is provided, the first paragraph must name one specific company, leader, or event from the research sources in plain language.',
