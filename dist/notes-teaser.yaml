@@ -1,6 +1,11 @@
 notes_archive_url: notes/index.html
 recent_notes_empty: false
 recent_notes:
+  - title: “Let trust form organically” can be negligence dressed as virtue
+    display_date: March 25, 2026
+    url: notes/2026-03-25-let-trust-form-organically-can-be-negligence-dressed-as-virtue/index.html
+    excerpt: “Let trust form organically” can be negligence dressed as virtue.
+    pillar: Extracted Insights
   - title: The Crossing is the protected threshold where truth can become common
       knowledge without social rupture
     display_date: March 24, 2026
@@ -16,10 +21,3 @@ recent_notes:
       humans back. That was not a messaging issue. It was an early sign of the
       rehiring crisis that follows when companies move faster...
     pillar: Decoder Ring
-  - title: When a company says, “we are what we know,” it is one technical shift
-      away from panic
-    display_date: March 20, 2026
-    url: notes/2026-03-20-when-a-company-says-we-are-what-we-know-it-is-one-technical-shift-away-from-panic/index.html
-    excerpt: When a company says, “we are what we know,” it is one technical shift
-      away from panic.
-    pillar: High-Lindy Source Tour Guide

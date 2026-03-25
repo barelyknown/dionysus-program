@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-03-25T13:00:51.926Z",
-  "published_count": 7,
+  "generated_at": "2026-03-25T14:54:41.406Z",
+  "published_count": 8,
   "rolling_window_days": 84,
   "typeCounts": {
     "decoder_ring": 2,
     "ritual_recipe": 1,
-    "extracted_insight": 1,
+    "extracted_insight": 2,
     "archetype_diagnosis": 1,
     "high_lindy_source_tour": 1,
     "from_the_mailbag": 1
@@ -265,6 +265,38 @@
       "x_final_text_hash": "aa86e0880e75fa0c7bb9a4310bf064e338cc0a6990afc526aa21082cbcd6aa35",
       "x_summary": "Engineering problems yield to better information. Organizational problems often get worse with it.\n\nA fact in a machine is just a fact. A fact in a team threatens status, competence, and loyalty. That’s why obvious problems stay unsaid.",
       "x_skip_reason": null
+    },
+    {
+      "post_id": "019d257b-73d1-81c8-3d87-17a9bf5ac3ea",
+      "external_post_id": "019d257b-73d1-81c8-3d87-17a9bf5ac3ea",
+      "published_at": "2026-03-25T14:52:20.829Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "extracted_insight",
+      "pillar": "Extracted Insights",
+      "topic_thesis": "Waiting for organic trust in a fast-melt environment can be negligence dressed as virtue.",
+      "angle": "Start with the false virtue, then show the operating cost it hides.",
+      "hook": "“Let trust form organically” can be negligence dressed as virtue.",
+      "summary": "“Let trust form organically” can be negligence dressed as virtue.\n\nIn The Dionysus Program, I call this the Impatience of Jobs. Ibn Khaldun’s Asabiyyah—real group feeling—used to be built by shared hardship over years, even generations. But in a world where work atomizes fast and",
+      "source_refs": [],
+      "framework_terms_used": [
+        "trust",
+        "li",
+        "ren"
+      ],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "3158b82d4477",
+      "final_text_hash": "2cebc35d2ef6cd2e92fd5eb785e4b336e7ee33abe359f896df2654a22dd6f918",
+      "note_slug": "2026-03-25-let-trust-form-organically-can-be-negligence-dressed-as-virtue",
+      "note_source_path": "content/notes/2026-03-25-let-trust-form-organically-can-be-negligence-dressed-as-virtue.md",
+      "x_status": "published",
+      "x_external_post_id": "2036819061963637193",
+      "x_published_at": "2026-03-25T14:54:41.405Z",
+      "x_winning_candidate_id": "41e543a53634",
+      "x_final_text_hash": "234ce24a37150d9b9485b1b2342a3ef1ff6aeb87938c9559d1cc4b3b2dc8b947",
+      "x_summary": "“Let trust form organically” is often negligence with better branding.\n\nIn fast-moving teams, work no longer creates enough shared strain to bond people. What remains is a group held together by payroll. When pressure hits, you don’t get candor or adaptation. You get theater.",
+      "x_skip_reason": null
     }
   ],
   "recent_angles": [
@@ -521,6 +553,38 @@
       "x_winning_candidate_id": "3022ff8c139f",
       "x_final_text_hash": "aa86e0880e75fa0c7bb9a4310bf064e338cc0a6990afc526aa21082cbcd6aa35",
       "x_summary": "Engineering problems yield to better information. Organizational problems often get worse with it.\n\nA fact in a machine is just a fact. A fact in a team threatens status, competence, and loyalty. That’s why obvious problems stay unsaid.",
+      "x_skip_reason": null
+    },
+    {
+      "post_id": "019d257b-73d1-81c8-3d87-17a9bf5ac3ea",
+      "external_post_id": "019d257b-73d1-81c8-3d87-17a9bf5ac3ea",
+      "published_at": "2026-03-25T14:52:20.829Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "extracted_insight",
+      "pillar": "Extracted Insights",
+      "topic_thesis": "Waiting for organic trust in a fast-melt environment can be negligence dressed as virtue.",
+      "angle": "Start with the false virtue, then show the operating cost it hides.",
+      "hook": "“Let trust form organically” can be negligence dressed as virtue.",
+      "summary": "“Let trust form organically” can be negligence dressed as virtue.\n\nIn The Dionysus Program, I call this the Impatience of Jobs. Ibn Khaldun’s Asabiyyah—real group feeling—used to be built by shared hardship over years, even generations. But in a world where work atomizes fast and",
+      "source_refs": [],
+      "framework_terms_used": [
+        "trust",
+        "li",
+        "ren"
+      ],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "3158b82d4477",
+      "final_text_hash": "2cebc35d2ef6cd2e92fd5eb785e4b336e7ee33abe359f896df2654a22dd6f918",
+      "note_slug": "2026-03-25-let-trust-form-organically-can-be-negligence-dressed-as-virtue",
+      "note_source_path": "content/notes/2026-03-25-let-trust-form-organically-can-be-negligence-dressed-as-virtue.md",
+      "x_status": "published",
+      "x_external_post_id": "2036819061963637193",
+      "x_published_at": "2026-03-25T14:54:41.405Z",
+      "x_winning_candidate_id": "41e543a53634",
+      "x_final_text_hash": "234ce24a37150d9b9485b1b2342a3ef1ff6aeb87938c9559d1cc4b3b2dc8b947",
+      "x_summary": "“Let trust form organically” is often negligence with better branding.\n\nIn fast-moving teams, work no longer creates enough shared strain to bond people. What remains is a group held together by payroll. When pressure hits, you don’t get candor or adaptation. You get theater.",
       "x_skip_reason": null
     }
   ],
@@ -779,6 +843,38 @@
       "x_final_text_hash": "aa86e0880e75fa0c7bb9a4310bf064e338cc0a6990afc526aa21082cbcd6aa35",
       "x_summary": "Engineering problems yield to better information. Organizational problems often get worse with it.\n\nA fact in a machine is just a fact. A fact in a team threatens status, competence, and loyalty. That’s why obvious problems stay unsaid.",
       "x_skip_reason": null
+    },
+    {
+      "post_id": "019d257b-73d1-81c8-3d87-17a9bf5ac3ea",
+      "external_post_id": "019d257b-73d1-81c8-3d87-17a9bf5ac3ea",
+      "published_at": "2026-03-25T14:52:20.829Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "extracted_insight",
+      "pillar": "Extracted Insights",
+      "topic_thesis": "Waiting for organic trust in a fast-melt environment can be negligence dressed as virtue.",
+      "angle": "Start with the false virtue, then show the operating cost it hides.",
+      "hook": "“Let trust form organically” can be negligence dressed as virtue.",
+      "summary": "“Let trust form organically” can be negligence dressed as virtue.\n\nIn The Dionysus Program, I call this the Impatience of Jobs. Ibn Khaldun’s Asabiyyah—real group feeling—used to be built by shared hardship over years, even generations. But in a world where work atomizes fast and",
+      "source_refs": [],
+      "framework_terms_used": [
+        "trust",
+        "li",
+        "ren"
+      ],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "3158b82d4477",
+      "final_text_hash": "2cebc35d2ef6cd2e92fd5eb785e4b336e7ee33abe359f896df2654a22dd6f918",
+      "note_slug": "2026-03-25-let-trust-form-organically-can-be-negligence-dressed-as-virtue",
+      "note_source_path": "content/notes/2026-03-25-let-trust-form-organically-can-be-negligence-dressed-as-virtue.md",
+      "x_status": "published",
+      "x_external_post_id": "2036819061963637193",
+      "x_published_at": "2026-03-25T14:54:41.405Z",
+      "x_winning_candidate_id": "41e543a53634",
+      "x_final_text_hash": "234ce24a37150d9b9485b1b2342a3ef1ff6aeb87938c9559d1cc4b3b2dc8b947",
+      "x_summary": "“Let trust form organically” is often negligence with better branding.\n\nIn fast-moving teams, work no longer creates enough shared strain to bond people. What remains is a group held together by payroll. When pressure hits, you don’t get candor or adaptation. You get theater.",
+      "x_skip_reason": null
     }
   ],
   "recent_subjects": [
@@ -1036,6 +1132,38 @@
       "x_final_text_hash": "aa86e0880e75fa0c7bb9a4310bf064e338cc0a6990afc526aa21082cbcd6aa35",
       "x_summary": "Engineering problems yield to better information. Organizational problems often get worse with it.\n\nA fact in a machine is just a fact. A fact in a team threatens status, competence, and loyalty. That’s why obvious problems stay unsaid.",
       "x_skip_reason": null
+    },
+    {
+      "post_id": "019d257b-73d1-81c8-3d87-17a9bf5ac3ea",
+      "external_post_id": "019d257b-73d1-81c8-3d87-17a9bf5ac3ea",
+      "published_at": "2026-03-25T14:52:20.829Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "extracted_insight",
+      "pillar": "Extracted Insights",
+      "topic_thesis": "Waiting for organic trust in a fast-melt environment can be negligence dressed as virtue.",
+      "angle": "Start with the false virtue, then show the operating cost it hides.",
+      "hook": "“Let trust form organically” can be negligence dressed as virtue.",
+      "summary": "“Let trust form organically” can be negligence dressed as virtue.\n\nIn The Dionysus Program, I call this the Impatience of Jobs. Ibn Khaldun’s Asabiyyah—real group feeling—used to be built by shared hardship over years, even generations. But in a world where work atomizes fast and",
+      "source_refs": [],
+      "framework_terms_used": [
+        "trust",
+        "li",
+        "ren"
+      ],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "3158b82d4477",
+      "final_text_hash": "2cebc35d2ef6cd2e92fd5eb785e4b336e7ee33abe359f896df2654a22dd6f918",
+      "note_slug": "2026-03-25-let-trust-form-organically-can-be-negligence-dressed-as-virtue",
+      "note_source_path": "content/notes/2026-03-25-let-trust-form-organically-can-be-negligence-dressed-as-virtue.md",
+      "x_status": "published",
+      "x_external_post_id": "2036819061963637193",
+      "x_published_at": "2026-03-25T14:54:41.405Z",
+      "x_winning_candidate_id": "41e543a53634",
+      "x_final_text_hash": "234ce24a37150d9b9485b1b2342a3ef1ff6aeb87938c9559d1cc4b3b2dc8b947",
+      "x_summary": "“Let trust form organically” is often negligence with better branding.\n\nIn fast-moving teams, work no longer creates enough shared strain to bond people. What remains is a group held together by payroll. When pressure hits, you don’t get candor or adaptation. You get theater.",
+      "x_skip_reason": null
     }
   ],
   "recent_sources": [
@@ -1292,6 +1420,38 @@
       "x_winning_candidate_id": "3022ff8c139f",
       "x_final_text_hash": "aa86e0880e75fa0c7bb9a4310bf064e338cc0a6990afc526aa21082cbcd6aa35",
       "x_summary": "Engineering problems yield to better information. Organizational problems often get worse with it.\n\nA fact in a machine is just a fact. A fact in a team threatens status, competence, and loyalty. That’s why obvious problems stay unsaid.",
+      "x_skip_reason": null
+    },
+    {
+      "post_id": "019d257b-73d1-81c8-3d87-17a9bf5ac3ea",
+      "external_post_id": "019d257b-73d1-81c8-3d87-17a9bf5ac3ea",
+      "published_at": "2026-03-25T14:52:20.829Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "extracted_insight",
+      "pillar": "Extracted Insights",
+      "topic_thesis": "Waiting for organic trust in a fast-melt environment can be negligence dressed as virtue.",
+      "angle": "Start with the false virtue, then show the operating cost it hides.",
+      "hook": "“Let trust form organically” can be negligence dressed as virtue.",
+      "summary": "“Let trust form organically” can be negligence dressed as virtue.\n\nIn The Dionysus Program, I call this the Impatience of Jobs. Ibn Khaldun’s Asabiyyah—real group feeling—used to be built by shared hardship over years, even generations. But in a world where work atomizes fast and",
+      "source_refs": [],
+      "framework_terms_used": [
+        "trust",
+        "li",
+        "ren"
+      ],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "3158b82d4477",
+      "final_text_hash": "2cebc35d2ef6cd2e92fd5eb785e4b336e7ee33abe359f896df2654a22dd6f918",
+      "note_slug": "2026-03-25-let-trust-form-organically-can-be-negligence-dressed-as-virtue",
+      "note_source_path": "content/notes/2026-03-25-let-trust-form-organically-can-be-negligence-dressed-as-virtue.md",
+      "x_status": "published",
+      "x_external_post_id": "2036819061963637193",
+      "x_published_at": "2026-03-25T14:54:41.405Z",
+      "x_winning_candidate_id": "41e543a53634",
+      "x_final_text_hash": "234ce24a37150d9b9485b1b2342a3ef1ff6aeb87938c9559d1cc4b3b2dc8b947",
+      "x_summary": "“Let trust form organically” is often negligence with better branding.\n\nIn fast-moving teams, work no longer creates enough shared strain to bond people. What remains is a group held together by payroll. When pressure hits, you don’t get candor or adaptation. You get theater.",
       "x_skip_reason": null
     }
   ]
