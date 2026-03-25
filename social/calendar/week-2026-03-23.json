@@ -133,7 +133,7 @@
       "timezone": "America/Los_Angeles",
       "weekday": "wednesday",
       "slot_type": "baseline",
-      "status": "planned",
+      "status": "skipped",
       "content_type": "extracted_insight",
       "pillar": "Extracted Insights",
       "topic_thesis": "Waiting for organic trust in a fast-melt environment can be negligence dressed as virtue.",
@@ -145,7 +145,8 @@
       "winner_id": null,
       "risk_level": "low",
       "freshness_deadline": null,
-      "publish_payload": null
+      "publish_payload": null,
+      "skip_reason": "memory_conflict"
     },
     {
       "id": "5c8f541e86e5",
