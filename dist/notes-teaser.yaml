@@ -1,6 +1,13 @@
 notes_archive_url: notes/index.html
 recent_notes_empty: false
 recent_notes:
+  - title: Nothing burns trust faster than a blameless postmortem with a hidden
+      defendant
+    display_date: March 26, 2026
+    url: notes/2026-03-26-nothing-burns-trust-faster-than-a-blameless-postmortem-with-a-hidden-defendant/index.html
+    excerpt: Nothing burns trust faster than a blameless postmortem with a hidden
+      defendant.
+    pillar: Cautionary Tales
   - title: “Let trust form organically” can be negligence dressed as virtue
     display_date: March 25, 2026
     url: notes/2026-03-25-let-trust-form-organically-can-be-negligence-dressed-as-virtue/index.html
@@ -13,11 +20,3 @@ recent_notes:
     excerpt: Most organizations do not fail because the truth was unavailable. They
       fail because it never became sayable together.
     pillar: From the Mailbag
-  - title: Epimetabolic Rate is the only scoreboard that really matters in periods
-      of fast change
-    display_date: March 23, 2026
-    url: notes/2026-03-23-epimetabolic-rate-is-the-only-scoreboard-that-really-matters-in-periods-of-fast-change/index.html
-    excerpt: Klarna cut deeply into customer service with AI, then had to bring
-      humans back. That was not a messaging issue. It was an early sign of the
-      rehiring crisis that follows when companies move faster...
-    pillar: Decoder Ring

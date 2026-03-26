@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-25T14:54:41.406Z",
-  "published_count": 8,
+  "generated_at": "2026-03-26T13:02:17.205Z",
+  "published_count": 9,
   "rolling_window_days": 84,
   "typeCounts": {
     "decoder_ring": 2,
@@ -8,7 +8,8 @@
     "extracted_insight": 2,
     "archetype_diagnosis": 1,
     "high_lindy_source_tour": 1,
-    "from_the_mailbag": 1
+    "from_the_mailbag": 1,
+    "cautionary_tale": 1
   },
   "recent_hooks": [
     {
@@ -296,6 +297,37 @@
       "x_winning_candidate_id": "41e543a53634",
       "x_final_text_hash": "234ce24a37150d9b9485b1b2342a3ef1ff6aeb87938c9559d1cc4b3b2dc8b947",
       "x_summary": "“Let trust form organically” is often negligence with better branding.\n\nIn fast-moving teams, work no longer creates enough shared strain to bond people. What remains is a group held together by payroll. When pressure hits, you don’t get candor or adaptation. You get theater.",
+      "x_skip_reason": null
+    },
+    {
+      "post_id": "019d2a3c-03c8-00ca-6184-cbf2594a95db",
+      "external_post_id": "019d2a3c-03c8-00ca-6184-cbf2594a95db",
+      "published_at": "2026-03-26T13:01:09.482Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "cautionary_tale",
+      "pillar": "Cautionary Tales",
+      "topic_thesis": "Trust burns faster than organizations know how to rebuild it.",
+      "angle": "Name the misuse clearly and show the cost of getting it wrong.",
+      "hook": "Nothing burns trust faster than a blameless postmortem with a hidden defendant.",
+      "summary": "Nothing burns trust faster than a blameless postmortem with a hidden defendant.\n\nThe anti-pattern is simple: import the agenda from a high-trust team into a low-trust one and call it culture change. The form looks right. The substrate is wrong.\n\nIf people know the real consequenc",
+      "source_refs": [],
+      "framework_terms_used": [
+        "trust",
+        "li"
+      ],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "49aeabcb5531",
+      "final_text_hash": "0ddcbccf8ed86f0e61a3f27908f4f17ec462da80b707a14053bc8a79571370cc",
+      "note_slug": "2026-03-26-nothing-burns-trust-faster-than-a-blameless-postmortem-with-a-hidden-defendant",
+      "note_source_path": "content/notes/2026-03-26-nothing-burns-trust-faster-than-a-blameless-postmortem-with-a-hidden-defendant.md",
+      "x_status": "published",
+      "x_external_post_id": "2037153162474221962",
+      "x_published_at": "2026-03-26T13:02:17.203Z",
+      "x_winning_candidate_id": "7e16024437c0",
+      "x_final_text_hash": "baa5a48f3cf7ac2e24e88fb59771b658c926097b6780302f2f44d9192a047f45",
+      "x_summary": "Blameless postmortems fail the moment everyone knows the defendant is just offstage.\n\nIn low-trust teams, candor is expensive. People perform in the room and tell the truth in side channels. Trust doesn’t snap; it cools, then quiets, then starts charging interest.",
       "x_skip_reason": null
     }
   ],
@@ -586,6 +618,37 @@
       "x_final_text_hash": "234ce24a37150d9b9485b1b2342a3ef1ff6aeb87938c9559d1cc4b3b2dc8b947",
       "x_summary": "“Let trust form organically” is often negligence with better branding.\n\nIn fast-moving teams, work no longer creates enough shared strain to bond people. What remains is a group held together by payroll. When pressure hits, you don’t get candor or adaptation. You get theater.",
       "x_skip_reason": null
+    },
+    {
+      "post_id": "019d2a3c-03c8-00ca-6184-cbf2594a95db",
+      "external_post_id": "019d2a3c-03c8-00ca-6184-cbf2594a95db",
+      "published_at": "2026-03-26T13:01:09.482Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "cautionary_tale",
+      "pillar": "Cautionary Tales",
+      "topic_thesis": "Trust burns faster than organizations know how to rebuild it.",
+      "angle": "Name the misuse clearly and show the cost of getting it wrong.",
+      "hook": "Nothing burns trust faster than a blameless postmortem with a hidden defendant.",
+      "summary": "Nothing burns trust faster than a blameless postmortem with a hidden defendant.\n\nThe anti-pattern is simple: import the agenda from a high-trust team into a low-trust one and call it culture change. The form looks right. The substrate is wrong.\n\nIf people know the real consequenc",
+      "source_refs": [],
+      "framework_terms_used": [
+        "trust",
+        "li"
+      ],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "49aeabcb5531",
+      "final_text_hash": "0ddcbccf8ed86f0e61a3f27908f4f17ec462da80b707a14053bc8a79571370cc",
+      "note_slug": "2026-03-26-nothing-burns-trust-faster-than-a-blameless-postmortem-with-a-hidden-defendant",
+      "note_source_path": "content/notes/2026-03-26-nothing-burns-trust-faster-than-a-blameless-postmortem-with-a-hidden-defendant.md",
+      "x_status": "published",
+      "x_external_post_id": "2037153162474221962",
+      "x_published_at": "2026-03-26T13:02:17.203Z",
+      "x_winning_candidate_id": "7e16024437c0",
+      "x_final_text_hash": "baa5a48f3cf7ac2e24e88fb59771b658c926097b6780302f2f44d9192a047f45",
+      "x_summary": "Blameless postmortems fail the moment everyone knows the defendant is just offstage.\n\nIn low-trust teams, candor is expensive. People perform in the room and tell the truth in side channels. Trust doesn’t snap; it cools, then quiets, then starts charging interest.",
+      "x_skip_reason": null
     }
   ],
   "recent_topics": [
@@ -874,6 +937,37 @@
       "x_winning_candidate_id": "41e543a53634",
       "x_final_text_hash": "234ce24a37150d9b9485b1b2342a3ef1ff6aeb87938c9559d1cc4b3b2dc8b947",
       "x_summary": "“Let trust form organically” is often negligence with better branding.\n\nIn fast-moving teams, work no longer creates enough shared strain to bond people. What remains is a group held together by payroll. When pressure hits, you don’t get candor or adaptation. You get theater.",
+      "x_skip_reason": null
+    },
+    {
+      "post_id": "019d2a3c-03c8-00ca-6184-cbf2594a95db",
+      "external_post_id": "019d2a3c-03c8-00ca-6184-cbf2594a95db",
+      "published_at": "2026-03-26T13:01:09.482Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "cautionary_tale",
+      "pillar": "Cautionary Tales",
+      "topic_thesis": "Trust burns faster than organizations know how to rebuild it.",
+      "angle": "Name the misuse clearly and show the cost of getting it wrong.",
+      "hook": "Nothing burns trust faster than a blameless postmortem with a hidden defendant.",
+      "summary": "Nothing burns trust faster than a blameless postmortem with a hidden defendant.\n\nThe anti-pattern is simple: import the agenda from a high-trust team into a low-trust one and call it culture change. The form looks right. The substrate is wrong.\n\nIf people know the real consequenc",
+      "source_refs": [],
+      "framework_terms_used": [
+        "trust",
+        "li"
+      ],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "49aeabcb5531",
+      "final_text_hash": "0ddcbccf8ed86f0e61a3f27908f4f17ec462da80b707a14053bc8a79571370cc",
+      "note_slug": "2026-03-26-nothing-burns-trust-faster-than-a-blameless-postmortem-with-a-hidden-defendant",
+      "note_source_path": "content/notes/2026-03-26-nothing-burns-trust-faster-than-a-blameless-postmortem-with-a-hidden-defendant.md",
+      "x_status": "published",
+      "x_external_post_id": "2037153162474221962",
+      "x_published_at": "2026-03-26T13:02:17.203Z",
+      "x_winning_candidate_id": "7e16024437c0",
+      "x_final_text_hash": "baa5a48f3cf7ac2e24e88fb59771b658c926097b6780302f2f44d9192a047f45",
+      "x_summary": "Blameless postmortems fail the moment everyone knows the defendant is just offstage.\n\nIn low-trust teams, candor is expensive. People perform in the room and tell the truth in side channels. Trust doesn’t snap; it cools, then quiets, then starts charging interest.",
       "x_skip_reason": null
     }
   ],
@@ -1164,6 +1258,37 @@
       "x_final_text_hash": "234ce24a37150d9b9485b1b2342a3ef1ff6aeb87938c9559d1cc4b3b2dc8b947",
       "x_summary": "“Let trust form organically” is often negligence with better branding.\n\nIn fast-moving teams, work no longer creates enough shared strain to bond people. What remains is a group held together by payroll. When pressure hits, you don’t get candor or adaptation. You get theater.",
       "x_skip_reason": null
+    },
+    {
+      "post_id": "019d2a3c-03c8-00ca-6184-cbf2594a95db",
+      "external_post_id": "019d2a3c-03c8-00ca-6184-cbf2594a95db",
+      "published_at": "2026-03-26T13:01:09.482Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "cautionary_tale",
+      "pillar": "Cautionary Tales",
+      "topic_thesis": "Trust burns faster than organizations know how to rebuild it.",
+      "angle": "Name the misuse clearly and show the cost of getting it wrong.",
+      "hook": "Nothing burns trust faster than a blameless postmortem with a hidden defendant.",
+      "summary": "Nothing burns trust faster than a blameless postmortem with a hidden defendant.\n\nThe anti-pattern is simple: import the agenda from a high-trust team into a low-trust one and call it culture change. The form looks right. The substrate is wrong.\n\nIf people know the real consequenc",
+      "source_refs": [],
+      "framework_terms_used": [
+        "trust",
+        "li"
+      ],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "49aeabcb5531",
+      "final_text_hash": "0ddcbccf8ed86f0e61a3f27908f4f17ec462da80b707a14053bc8a79571370cc",
+      "note_slug": "2026-03-26-nothing-burns-trust-faster-than-a-blameless-postmortem-with-a-hidden-defendant",
+      "note_source_path": "content/notes/2026-03-26-nothing-burns-trust-faster-than-a-blameless-postmortem-with-a-hidden-defendant.md",
+      "x_status": "published",
+      "x_external_post_id": "2037153162474221962",
+      "x_published_at": "2026-03-26T13:02:17.203Z",
+      "x_winning_candidate_id": "7e16024437c0",
+      "x_final_text_hash": "baa5a48f3cf7ac2e24e88fb59771b658c926097b6780302f2f44d9192a047f45",
+      "x_summary": "Blameless postmortems fail the moment everyone knows the defendant is just offstage.\n\nIn low-trust teams, candor is expensive. People perform in the room and tell the truth in side channels. Trust doesn’t snap; it cools, then quiets, then starts charging interest.",
+      "x_skip_reason": null
     }
   ],
   "recent_sources": [
@@ -1452,6 +1577,37 @@
       "x_winning_candidate_id": "41e543a53634",
       "x_final_text_hash": "234ce24a37150d9b9485b1b2342a3ef1ff6aeb87938c9559d1cc4b3b2dc8b947",
       "x_summary": "“Let trust form organically” is often negligence with better branding.\n\nIn fast-moving teams, work no longer creates enough shared strain to bond people. What remains is a group held together by payroll. When pressure hits, you don’t get candor or adaptation. You get theater.",
+      "x_skip_reason": null
+    },
+    {
+      "post_id": "019d2a3c-03c8-00ca-6184-cbf2594a95db",
+      "external_post_id": "019d2a3c-03c8-00ca-6184-cbf2594a95db",
+      "published_at": "2026-03-26T13:01:09.482Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "cautionary_tale",
+      "pillar": "Cautionary Tales",
+      "topic_thesis": "Trust burns faster than organizations know how to rebuild it.",
+      "angle": "Name the misuse clearly and show the cost of getting it wrong.",
+      "hook": "Nothing burns trust faster than a blameless postmortem with a hidden defendant.",
+      "summary": "Nothing burns trust faster than a blameless postmortem with a hidden defendant.\n\nThe anti-pattern is simple: import the agenda from a high-trust team into a low-trust one and call it culture change. The form looks right. The substrate is wrong.\n\nIf people know the real consequenc",
+      "source_refs": [],
+      "framework_terms_used": [
+        "trust",
+        "li"
+      ],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "49aeabcb5531",
+      "final_text_hash": "0ddcbccf8ed86f0e61a3f27908f4f17ec462da80b707a14053bc8a79571370cc",
+      "note_slug": "2026-03-26-nothing-burns-trust-faster-than-a-blameless-postmortem-with-a-hidden-defendant",
+      "note_source_path": "content/notes/2026-03-26-nothing-burns-trust-faster-than-a-blameless-postmortem-with-a-hidden-defendant.md",
+      "x_status": "published",
+      "x_external_post_id": "2037153162474221962",
+      "x_published_at": "2026-03-26T13:02:17.203Z",
+      "x_winning_candidate_id": "7e16024437c0",
+      "x_final_text_hash": "baa5a48f3cf7ac2e24e88fb59771b658c926097b6780302f2f44d9192a047f45",
+      "x_summary": "Blameless postmortems fail the moment everyone knows the defendant is just offstage.\n\nIn low-trust teams, candor is expensive. People perform in the room and tell the truth in side channels. Trust doesn’t snap; it cools, then quiets, then starts charging interest.",
       "x_skip_reason": null
     }
   ]
