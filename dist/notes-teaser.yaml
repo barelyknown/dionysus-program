@@ -1,6 +1,13 @@
 notes_archive_url: notes/index.html
 recent_notes_empty: false
 recent_notes:
+  - title: If a postmortem ends with a document, it probably just preserved the
+      failure
+    display_date: March 27, 2026
+    url: notes/2026-03-27-if-a-postmortem-ends-with-a-document-it-probably-just-preserved-the-failure/index.html
+    excerpt: If a postmortem ends with a document, it probably just preserved the
+      failure.
+    pillar: Ritual Recipes
   - title: Nothing burns trust faster than a blameless postmortem with a hidden
       defendant
     display_date: March 26, 2026
@@ -13,10 +20,3 @@ recent_notes:
     url: notes/2026-03-25-let-trust-form-organically-can-be-negligence-dressed-as-virtue/index.html
     excerpt: “Let trust form organically” can be negligence dressed as virtue.
     pillar: Extracted Insights
-  - title: The Crossing is the protected threshold where truth can become common
-      knowledge without social rupture
-    display_date: March 24, 2026
-    url: notes/2026-03-24-the-crossing-is-the-protected-threshold-where-truth-can-become-common-knowledge-without-social-rupture/index.html
-    excerpt: Most organizations do not fail because the truth was unavailable. They
-      fail because it never became sayable together.
-    pillar: From the Mailbag
