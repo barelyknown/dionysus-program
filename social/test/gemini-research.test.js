@@ -115,3 +115,23 @@ test('pollResearchJob accepts publish-time polling overrides', async () => {
     global.fetch = originalFetch;
   }
 });
+
+test('discovery prompt includes recently used story exclusions', () => {
+  const adapter = new GeminiResearchAdapter({ mode: 'fixture' });
+  const prompt = adapter.buildDiscoveryPrompt({
+    watchlists: {
+      adjacent_domains: ['artificial intelligence'],
+      entities: { companies: ['Klarna', 'Meta'] },
+      prompts: ['Prefer concrete cases.'],
+      research: { recent_window_days: 30, min_recent_sources: 1 },
+    },
+    topicOptions: ['The Apollo Program is necessary but insufficient because optimization cannot metabolize meaning.'],
+    requestedTopic: 'The Apollo Program is necessary but insufficient because optimization cannot metabolize meaning.',
+    excludedEntities: ['Klarna'],
+    excludedSourceUrls: ['https://www.forbes.com/sites/jonmarkman/2026/03/04/why-todays-ai-driven-layoffs-are-becoming-tomorrows-rehiring-crisis/'],
+    referenceDate: new Date('2026-03-30T12:30:00Z'),
+  });
+
+  assert.match(prompt, /Exclude any candidate whose lead company or institution is in this recently used set: Klarna/);
+  assert.match(prompt, /Exclude any candidate that depends on these exact recently used source URLs/);
+});

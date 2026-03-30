@@ -6,6 +6,9 @@ const HARD_FAILURE_REASONS = new Set([
   'hashtag_disallowed',
   'link_disallowed',
 ]);
+const BLOCKING_MEMORY_CONFLICTS = new Set([
+  'entity_duplication',
+]);
 
 function dedupeStrings(values = []) {
   const seen = new Set();
@@ -83,6 +86,10 @@ function hasHardFailure(scorecard) {
   return reasons.some((reason) => HARD_FAILURE_REASONS.has(reason) || String(reason).startsWith('too_long:'));
 }
 
+function hasBlockingMemoryConflict(conflicts = []) {
+  return (Array.isArray(conflicts) ? conflicts : []).some((conflict) => BLOCKING_MEMORY_CONFLICTS.has(conflict));
+}
+
 function selectPublishCandidate({
   calendarItem,
   candidates,
@@ -118,13 +125,24 @@ function selectPublishCandidate({
     };
   }
 
-  const bestEffort = evaluatedCandidates.find((entry) => !hasHardFailure(entry.score));
+  const bestEffort = evaluatedCandidates.find((entry) => !hasHardFailure(entry.score) && !hasBlockingMemoryConflict(entry.memoryConflicts));
   if (bestEffort) {
     return {
       winnerCandidate: bestEffort.candidate,
       winnerScore: bestEffort.score,
       memoryConflicts: bestEffort.memoryConflicts,
       selectionReason: bestEffort.score.pass ? 'memory_override_top_choice' : 'memory_override_best_effort',
+      evaluatedCandidates,
+    };
+  }
+
+  const blockedByMemory = evaluatedCandidates.find((entry) => !hasHardFailure(entry.score) && hasBlockingMemoryConflict(entry.memoryConflicts));
+  if (blockedByMemory) {
+    return {
+      winnerCandidate: null,
+      winnerScore: null,
+      memoryConflicts: blockedByMemory.memoryConflicts,
+      selectionReason: 'blocked_by_memory_conflict',
       evaluatedCandidates,
     };
   }

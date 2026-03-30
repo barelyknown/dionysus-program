@@ -226,3 +226,83 @@ test('handleItem publishes best effort instead of skipping on memory conflict', 
   assert.deepEqual(outcome.conflicts, ['hook_duplication']);
   assert.equal(outcome.selection_reason, 'memory_override_top_choice');
 });
+
+test('handleItem skips repeated lead-company posts', async (t) => {
+  setupTempSocialWorkspace(t);
+
+  const strategy = {
+    voice: { description: 'Direct and concrete.' },
+    book_context: { title: 'The Dionysus Program' },
+    publishing: {
+      linkedin_footer_divider: '---',
+      linkedin_footer_options: ['Footer copy.'],
+    },
+    generation: {
+      prompt_variants: ['hook_forward'],
+      best_of_n: 1,
+    },
+    content_types: {
+      decoder_ring: { rolling_max: 10, requires_research: false },
+    },
+    x: { enabled: false },
+  };
+
+  const item = {
+    id: 'item-klarna-repeat',
+    scheduled_at: '2026-03-30T12:30:00.000Z',
+    slot_type: 'baseline',
+    content_type: 'decoder_ring',
+    pillar: 'Decoder Ring',
+    topic_thesis: 'The Apollo Program is necessary but insufficient because optimization cannot metabolize meaning.',
+    angle: 'Open on Klarna CEO says company went too far in cutting customer service staff with AI.',
+    hook: 'Klarna spent two years becoming the poster child for AI labor replacement.',
+    timely_subject: 'Klarna CEO says company went too far in cutting customer service staff with AI',
+  };
+
+  const memory = {
+    published_count: 1,
+    typeCounts: {},
+    recent_hooks: [],
+    recent_angles: [],
+    recent_topics: [],
+    recent_subjects: [],
+    recent_sources: [],
+    recent_entities: [
+      { subject_entities: ['Klarna'] },
+    ],
+  };
+
+  const adapters = {
+    writer: {
+      generateCandidates: async () => ([
+        {
+          id: 'candidate-1',
+          post_text: 'Sebastian Siemiatkowski said Klarna went too far cutting customer service with AI, and quality suffered.\n\nOptimization cannot metabolize meaning.',
+        },
+      ]),
+    },
+    scorer: {
+      scoreCandidates: async () => ([
+        {
+          candidate_id: 'candidate-1',
+          overall_score: 8.9,
+          pass: true,
+          pass_fail_reasons: [],
+        },
+      ]),
+    },
+  };
+
+  const outcome = await handleItem({
+    item,
+    strategy,
+    adapters,
+    memory,
+    dryRun: true,
+  });
+
+  assert.equal(outcome.status, 'skipped');
+  assert.equal(outcome.reason, 'entity_duplication');
+  assert.deepEqual(outcome.conflicts, ['entity_duplication']);
+  assert.equal(outcome.selection_reason, 'blocked_by_memory_conflict');
+});

@@ -69,6 +69,7 @@ function setupTempSocialWorkspace(t) {
     recent_topics: [],
     recent_subjects: [],
     recent_sources: [],
+    recent_entities: [],
   });
 
   t.after(() => {
