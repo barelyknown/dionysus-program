@@ -1,6 +1,14 @@
 notes_archive_url: notes/index.html
 recent_notes_empty: false
 recent_notes:
+  - title: The Apollo Program is necessary but insufficient because optimization
+      cannot metabolize meaning
+    display_date: March 30, 2026
+    url: notes/2026-03-30-the-apollo-program-is-necessary-but-insufficient-because-optimization-cannot-metabolize-meaning/index.html
+    excerpt: Sebastian Siemiatkowski said Klarna went too far in cutting customer
+      service with AI, and quality suffered. That is not a customer support
+      story. It is a management story.
+    pillar: Decoder Ring
   - title: If a postmortem ends with a document, it probably just preserved the
       failure
     display_date: March 27, 2026
@@ -15,8 +23,3 @@ recent_notes:
     excerpt: Nothing burns trust faster than a blameless postmortem with a hidden
       defendant.
     pillar: Cautionary Tales
-  - title: “Let trust form organically” can be negligence dressed as virtue
-    display_date: March 25, 2026
-    url: notes/2026-03-25-let-trust-form-organically-can-be-negligence-dressed-as-virtue/index.html
-    excerpt: “Let trust form organically” can be negligence dressed as virtue.
-    pillar: Extracted Insights
