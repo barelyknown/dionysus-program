@@ -59,11 +59,14 @@ async function handleItem({ item, strategy, adapters, memory, dryRun }) {
   });
 
   if (!selection.winnerCandidate || !selection.winnerScore) {
+    const duplicateEntityConflict = (selection.memoryConflicts || []).includes('entity_duplication');
     return {
       calendarItem: resolvedItem,
       status: 'skipped',
-      reason: 'no_passing_candidate',
+      reason: duplicateEntityConflict ? 'entity_duplication' : 'no_passing_candidate',
       scorecards: scored.scorecards,
+      conflicts: selection.memoryConflicts || [],
+      selection_reason: selection.selectionReason,
     };
   }
 

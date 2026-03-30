@@ -187,9 +187,25 @@ class GPTScorerAdapter {
     return this.scoreCandidatesFixture({ candidates, brief, strategy, memory, sourceRefs });
   }
 
-  async normalizeResearchReport({ topicThesis = null, topicOptions = [], rawReport, fallbackSources = [], watchlists = {} }) {
+  async normalizeResearchReport({
+    topicThesis = null,
+    topicOptions = [],
+    rawReport,
+    fallbackSources = [],
+    watchlists = {},
+    excludedSourceUrls = [],
+    excludedEntities = [],
+  }) {
     if (this.mode === 'live' || this.mode === 'record') {
-      return this.normalizeResearchReportLive({ topicThesis, topicOptions, rawReport, fallbackSources, watchlists });
+      return this.normalizeResearchReportLive({
+        topicThesis,
+        topicOptions,
+        rawReport,
+        fallbackSources,
+        watchlists,
+        excludedSourceUrls,
+        excludedEntities,
+      });
     }
     const selectedTopic = fixtureTopicChoice({ topicThesis, topicOptions, fallbackSources });
     const primarySource = fallbackSources[0] || null;
@@ -351,7 +367,15 @@ class GPTScorerAdapter {
     return (parsed.scores || []).map((score) => ({ id: sha256(`${score.candidate_id}:${score.overall_score}`).slice(0, 12), ...score }));
   }
 
-  async normalizeResearchReportLive({ topicThesis, topicOptions = [], rawReport, fallbackSources, watchlists = {} }) {
+  async normalizeResearchReportLive({
+    topicThesis,
+    topicOptions = [],
+    rawReport,
+    fallbackSources,
+    watchlists = {},
+    excludedSourceUrls = [],
+    excludedEntities = [],
+  }) {
     if (!this.apiKey) throw new Error('Missing OPENAI_API_KEY for research normalization.');
     const normalizedRawReport = String(rawReport || '').slice(0, 12000);
     const recencyPolicy = getResearchRecencyPolicy({ watchlists });
@@ -429,7 +453,7 @@ class GPTScorerAdapter {
                 content: [
                   {
                     type: 'input_text',
-                    text: `Normalize a Gemini Deep Research report into a tight research bundle. Today's date is ${recencyPolicy.reference_date}. Prioritize recent news sources published on or after ${recencyPolicy.cutoff_date} (${recencyPolicy.recent_window_days}-day window). Keep at least ${recencyPolicy.min_recent_sources} recent reported company or institutional cases in the bundle unless the report truly contains none. Older conceptual sources may stay only as secondary context. Explain why each source matters to the thesis. Order the sources so the first source is the single best primary source for the post. Set primary_source_url to that source's exact URL. ${candidateAngleDescription} ${thesisInstruction} Each candidate angle must begin from a concrete visible event, not an abstract restatement, and should align to the primary source. Output only sources with real HTTP URLs and exact published dates in YYYY-MM-DD format. If fallbackSources include exact URLs and dates, treat them as authoritative and prefer them over inferred placeholders.`,
+                    text: `Normalize a Gemini Deep Research report into a tight research bundle. Today's date is ${recencyPolicy.reference_date}. Prioritize recent news sources published on or after ${recencyPolicy.cutoff_date} (${recencyPolicy.recent_window_days}-day window). Keep at least ${recencyPolicy.min_recent_sources} recent reported company or institutional cases in the bundle unless the report truly contains none. Older conceptual sources may stay only as secondary context. Explain why each source matters to the thesis. Order the sources so the first source is the single best primary source for the post. Set primary_source_url to that source's exact URL. ${candidateAngleDescription} ${thesisInstruction} Each candidate angle must begin from a concrete visible event, not an abstract restatement, and should align to the primary source. Output only sources with real HTTP URLs and exact published dates in YYYY-MM-DD format. If fallbackSources include exact URLs and dates, treat them as authoritative and prefer them over inferred placeholders. ${excludedEntities.length > 0 ? `Do not select a primary source or first candidate angle centered on any of these recently used entities: ${excludedEntities.join(', ')}.` : ''} ${excludedSourceUrls.length > 0 ? `Do not select any of these recently used exact URLs as the primary source: ${excludedSourceUrls.slice(0, 25).join(', ')}.` : ''}`,
                   },
                 ],
               },

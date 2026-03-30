@@ -3,7 +3,7 @@ const { loadStrategy, loadWatchlists } = require('./config');
 const { loadSourceContext } = require('./context');
 const { readJson, writeJson } = require('./fs');
 const { paths } = require('./paths');
-const { rebuildMemory, loadPublishedRecords, getMemoryConflicts } = require('./memory');
+const { rebuildMemory, loadPublishedRecords, getMemoryConflicts, deriveSubjectEntities } = require('./memory');
 const { loadMailbagItems } = require('./planner');
 const { buildBrief } = require('./briefs');
 const { getType } = require('../types');
@@ -233,7 +233,25 @@ function applyResearchAngleToCalendarItem({ calendarItem, researchBundle }) {
   };
 }
 
-async function ensureResearchBundleForItem({ calendarItem, strategy, adapters, options = {} }) {
+function recentResearchExclusions(memory = {}) {
+  const excludedSourceUrls = [...new Set(
+    (memory?.recent_sources || [])
+      .flatMap((entry) => entry.source_refs || [])
+      .filter((value) => /^https?:\/\//i.test(String(value || ''))),
+  )];
+  const excludedEntities = [...new Set(
+    (memory?.recent_entities || [])
+      .flatMap((entry) => deriveSubjectEntities(entry))
+      .filter(Boolean),
+  )];
+
+  return {
+    excludedSourceUrls,
+    excludedEntities,
+  };
+}
+
+async function ensureResearchBundleForItem({ calendarItem, strategy, adapters, memory = null, options = {} }) {
   const waitForResearch = Boolean(options.waitForResearch);
   const watchlists = loadWatchlists();
   const recencyPolicy = getResearchRecencyPolicy({ watchlists });
@@ -245,6 +263,7 @@ async function ensureResearchBundleForItem({ calendarItem, strategy, adapters, o
   const requestedTopic = calendarItem.seed_topic_thesis || calendarItem.topic_thesis;
   const topicOptions = Array.isArray(strategy.topics) ? strategy.topics : [];
   const jobKey = useArticleFirst ? `item:${calendarItem.id}` : calendarItem.topic_thesis;
+  const { excludedSourceUrls, excludedEntities } = recentResearchExclusions(memory || {});
   const loadedExisting = loadResearchBundle(calendarItem.source_bundle_id);
   const existing = loadedExisting && researchBundleMeetsRecencyPolicy(loadedExisting, recencyPolicy)
     ? loadedExisting
@@ -292,10 +311,14 @@ async function ensureResearchBundleForItem({ calendarItem, strategy, adapters, o
           topicOptions,
           requestedTopic,
           jobKey,
+          excludedSourceUrls,
+          excludedEntities,
         })
         : await adapters.gemini.submitResearchJob({
           topicThesis: calendarItem.topic_thesis,
           watchlists,
+          excludedSourceUrls,
+          excludedEntities,
         });
       const pendingJob = buildResearchJob({
         topicThesis: requestedTopic,
@@ -338,10 +361,14 @@ async function ensureResearchBundleForItem({ calendarItem, strategy, adapters, o
         topicOptions,
         requestedTopic,
         jobKey,
+        excludedSourceUrls,
+        excludedEntities,
       })
       : await adapters.gemini.researchTopic({
         topicThesis: calendarItem.topic_thesis,
         watchlists,
+        excludedSourceUrls,
+        excludedEntities,
       });
   }
   const normalized = adapters?.scorer?.normalizeResearchReport
@@ -351,6 +378,8 @@ async function ensureResearchBundleForItem({ calendarItem, strategy, adapters, o
       rawReport: researchReportText(rawResearch),
       fallbackSources: rawResearch?.sources || [],
       watchlists,
+      excludedSourceUrls,
+      excludedEntities,
     })
     : fallbackNormalizedResearch({ calendarItem, rawResearch });
   const researchBundle = {
@@ -420,7 +449,7 @@ function prepareBrief({ calendarItem, strategy, memory = null, researchBundle = 
 }
 
 async function generateCandidatesForItem({ calendarItem, strategy, adapters, memory = null, options = {} }) {
-  const ensured = await ensureResearchBundleForItem({ calendarItem, strategy, adapters, options });
+  const ensured = await ensureResearchBundleForItem({ calendarItem, strategy, adapters, memory, options });
   const prepared = prepareBrief({
     calendarItem: ensured.calendarItem,
     strategy,
@@ -503,6 +532,11 @@ function createPublishPayload({
 
 function createPublishedRecord({ publishPayload, publishResult, calendarItem, note = null, x = null }) {
   const summaryText = publishPayload.body_text || publishPayload.final_text;
+  const subjectEntities = deriveSubjectEntities({
+    timely_subject: publishPayload.timely_subject,
+    hook: publishPayload.hook,
+    summary: summaryText,
+  });
   return {
     post_id: publishResult.external_post_id,
     external_post_id: publishResult.external_post_id,
@@ -517,6 +551,7 @@ function createPublishedRecord({ publishPayload, publishResult, calendarItem, no
     summary: summaryText.slice(0, 280),
     source_refs: publishPayload.source_refs,
     framework_terms_used: extractFrameworkTerms(summaryText),
+    subject_entities: subjectEntities,
     timely_subject: publishPayload.timely_subject,
     research_bundle_id: publishPayload.research_bundle_id,
     winning_candidate_id: publishPayload.winning_candidate_id,
@@ -551,13 +586,20 @@ function extractFrameworkTerms(text) {
 }
 
 function finalMemoryCheck({ calendarItem, winnerCandidate, strategy, memory, researchBundle, mailbagItem = null }) {
+  const draftText = winnerCandidate.post_text || '';
   return getMemoryConflicts({
     record: {
       content_type: calendarItem.content_type,
-      hook: winnerCandidate.post_text.split(/\n/)[0].trim(),
+      hook: draftText.split(/\n/)[0].trim(),
+      summary: draftText,
       angle: calendarItem.angle,
       topic_thesis: calendarItem.topic_thesis,
       timely_subject: calendarItem.timely_subject,
+      subject_entities: deriveSubjectEntities({
+        timely_subject: calendarItem.timely_subject,
+        hook: draftText.split(/\n/)[0].trim(),
+        summary: draftText,
+      }),
       source_refs: [
         ...(researchBundle?.sources || []).map((source) => source.url),
         ...(mailbagItem?.provenance ? [mailbagItem.provenance] : []),

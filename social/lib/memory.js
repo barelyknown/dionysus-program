@@ -2,6 +2,7 @@ const { readJsonl } = require('./jsonl');
 const { writeJson } = require('./fs');
 const { paths } = require('./paths');
 const { now, dateDiffInDays } = require('./time');
+const { loadWatchlists } = require('./config');
 
 function normalizeText(value) {
   return String(value || '')
@@ -32,6 +33,54 @@ function withinCooldown(publishedAt, cooldownDays, referenceDate = now()) {
   return dateDiffInDays(referenceDate, new Date(publishedAt)) <= cooldownDays;
 }
 
+function uniqueStrings(values = []) {
+  const seen = new Set();
+  const result = [];
+  for (const value of values) {
+    const normalized = normalizeText(value);
+    if (!normalized || seen.has(normalized)) continue;
+    seen.add(normalized);
+    result.push(String(value).trim());
+  }
+  return result;
+}
+
+function companyEntityMatches(text, companies = []) {
+  const haystack = ` ${normalizeText(text)} `;
+  if (!haystack.trim()) return [];
+  return companies.filter((company) => {
+    const normalizedCompany = normalizeText(company);
+    return normalizedCompany && haystack.includes(` ${normalizedCompany} `);
+  });
+}
+
+function deriveSubjectEntities(record = {}, watchlists = loadWatchlists()) {
+  const explicit = uniqueStrings(Array.isArray(record.subject_entities) ? record.subject_entities : []);
+  if (explicit.length > 0) return explicit;
+
+  const companies = Array.isArray(watchlists?.entities?.companies) ? watchlists.entities.companies : [];
+  const texts = [
+    record.timely_subject,
+    record.hook,
+    record.summary,
+  ];
+
+  return uniqueStrings(texts.flatMap((text) => companyEntityMatches(text, companies)));
+}
+
+function hasEntityConflict(recordEntities = [], recentEntities = []) {
+  const recent = new Set(
+    (Array.isArray(recentEntities) ? recentEntities : [])
+      .flatMap((entry) => deriveSubjectEntities(entry))
+      .map((entity) => normalizeText(entity))
+      .filter(Boolean),
+  );
+
+  return deriveSubjectEntities({ subject_entities: recordEntities })
+    .map((entity) => normalizeText(entity))
+    .some((entity) => recent.has(entity));
+}
+
 function buildMemoryIndex({ publishedRecords, strategy, referenceDate = now() }) {
   const memoryConfig = strategy.memory || {};
   const recentHooks = [];
@@ -39,6 +88,7 @@ function buildMemoryIndex({ publishedRecords, strategy, referenceDate = now() })
   const recentTopics = [];
   const recentSubjects = [];
   const recentSources = [];
+  const recentEntities = [];
   const typeCounts = {};
 
   for (const record of publishedRecords) {
@@ -58,6 +108,14 @@ function buildMemoryIndex({ publishedRecords, strategy, referenceDate = now() })
     if (withinCooldown(record.published_at, memoryConfig.source_reuse_cooldown_days, referenceDate)) {
       recentSources.push(record);
     }
+    if (withinCooldown(
+      record.published_at,
+      memoryConfig.entity_cooldown_days || memoryConfig.timely_subject_cooldown_days,
+      referenceDate,
+    )) {
+      const subjectEntities = deriveSubjectEntities(record);
+      if (subjectEntities.length > 0) recentEntities.push({ ...record, subject_entities: subjectEntities });
+    }
   }
 
   return {
@@ -70,6 +128,7 @@ function buildMemoryIndex({ publishedRecords, strategy, referenceDate = now() })
     recent_topics: recentTopics,
     recent_subjects: recentSubjects,
     recent_sources: recentSources,
+    recent_entities: recentEntities,
   };
 }
 
@@ -111,6 +170,10 @@ function getMemoryConflicts({ record, memory, strategy }) {
     const recentSourceUrls = new Set((memory.recent_sources || []).flatMap((entry) => entry.source_refs || []));
     if (sourceRefs.some((sourceRef) => recentSourceUrls.has(sourceRef))) conflicts.push('source_overuse');
   }
+  const subjectEntities = deriveSubjectEntities(record);
+  if (subjectEntities.length > 0 && hasEntityConflict(subjectEntities, memory.recent_entities || [])) {
+    conflicts.push('entity_duplication');
+  }
 
   const typeConfig = strategy.content_types?.[record.content_type] || {};
   const rollingMax = typeConfig.rolling_max;
@@ -123,6 +186,7 @@ function getMemoryConflicts({ record, memory, strategy }) {
 module.exports = {
   normalizeText,
   overlapScore,
+  deriveSubjectEntities,
   buildMemoryIndex,
   loadPublishedRecords,
   rebuildMemory,

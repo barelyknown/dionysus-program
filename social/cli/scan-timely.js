@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 const { parseArgs, printJson, fail } = require('../lib/cli');
 const { loadStrategy, loadWatchlists } = require('../lib/config');
-const { rebuildMemory } = require('../lib/memory');
+const { rebuildMemory, deriveSubjectEntities } = require('../lib/memory');
 const { loadCalendars, saveCalendar } = require('../lib/records');
 const { selectTimelyCandidate, selectResearchTopic } = require('../lib/planner');
 const { createRun, updateRun, createAdapters, saveResearchBundle } = require('../lib/pipeline');
@@ -17,6 +17,21 @@ function chooseTopic(strategy, memory, watchlists) {
     context: loadSourceContext(),
     watchlists,
   });
+}
+
+function recentResearchExclusions(memory = {}) {
+  return {
+    excludedSourceUrls: [...new Set(
+      (memory?.recent_sources || [])
+        .flatMap((entry) => entry.source_refs || [])
+        .filter((value) => /^https?:\/\//i.test(String(value || ''))),
+    )],
+    excludedEntities: [...new Set(
+      (memory?.recent_entities || [])
+        .flatMap((entry) => deriveSubjectEntities(entry))
+        .filter(Boolean),
+    )],
+  };
 }
 
 async function main(argv = process.argv.slice(2)) {
@@ -42,6 +57,7 @@ async function main(argv = process.argv.slice(2)) {
 
   const watchlists = loadWatchlists();
   const memory = rebuildMemory({ strategy, write: !dryRun });
+  const { excludedSourceUrls, excludedEntities } = recentResearchExclusions(memory);
   const adapters = createAdapters({ args, strategy });
   const discoveryMode = getResearchDiscoveryMode({ watchlists });
   const supportsArticleFirst = (adapters.mode === 'live' || adapters.mode === 'record')
@@ -68,6 +84,8 @@ async function main(argv = process.argv.slice(2)) {
           topicOptions: useArticleFirst ? topicOptions : [],
           rawReport: completed.summary,
           fallbackSources: completed.sources || [],
+          excludedSourceUrls,
+          excludedEntities,
         });
         researchBundle = {
           ...completed,
@@ -90,8 +108,10 @@ async function main(argv = process.argv.slice(2)) {
           topicOptions,
           requestedTopic: args.topic || null,
           jobKey,
+          excludedSourceUrls,
+          excludedEntities,
         })
-        : await adapters.gemini.submitResearchJob({ topicThesis, watchlists });
+        : await adapters.gemini.submitResearchJob({ topicThesis, watchlists, excludedSourceUrls, excludedEntities });
       pendingJob = buildResearchJob({
         topicThesis: topicThesis || args.topic || null,
         jobKey,
@@ -107,8 +127,10 @@ async function main(argv = process.argv.slice(2)) {
         topicOptions,
         requestedTopic: args.topic || null,
         jobKey,
+        excludedSourceUrls,
+        excludedEntities,
       })
-      : await adapters.gemini.researchTopic({ topicThesis, watchlists });
+      : await adapters.gemini.researchTopic({ topicThesis, watchlists, excludedSourceUrls, excludedEntities });
     if (!dryRun) saveResearchBundle(researchBundle);
   }
 

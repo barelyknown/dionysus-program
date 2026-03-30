@@ -159,16 +159,16 @@ class GeminiResearchAdapter {
     this.publishPollAttempts = Number(process.env.GEMINI_PUBLISH_POLL_ATTEMPTS || this.pollAttempts);
   }
 
-  async researchTopic({ topicThesis, watchlists }) {
+  async researchTopic({ topicThesis, watchlists, excludedSourceUrls = [], excludedEntities = [] }) {
     if (this.mode === 'live' || this.mode === 'record') {
-      return this.researchTopicLive({ topicThesis, watchlists });
+      return this.researchTopicLive({ topicThesis, watchlists, excludedSourceUrls, excludedEntities });
     }
     return this.researchTopicFixture({ topicThesis, watchlists });
   }
 
-  async discoverNews({ watchlists, topicOptions = [], requestedTopic = null, jobKey = null }) {
+  async discoverNews({ watchlists, topicOptions = [], requestedTopic = null, jobKey = null, excludedSourceUrls = [], excludedEntities = [] }) {
     if (this.mode === 'live' || this.mode === 'record') {
-      return this.discoverNewsLive({ watchlists, topicOptions, requestedTopic, jobKey });
+      return this.discoverNewsLive({ watchlists, topicOptions, requestedTopic, jobKey, excludedSourceUrls, excludedEntities });
     }
     return this.discoverNewsFixture({ watchlists, topicOptions, requestedTopic });
   }
@@ -255,7 +255,7 @@ class GeminiResearchAdapter {
     };
   }
 
-  buildPrompt({ topicThesis, watchlists, referenceDate = now() }) {
+  buildPrompt({ topicThesis, watchlists, referenceDate = now(), excludedSourceUrls = [], excludedEntities = [] }) {
     const recencyPolicy = getResearchRecencyPolicy({ watchlists, referenceDate });
     return [
       `Research thesis: ${topicThesis}`,
@@ -267,6 +267,8 @@ class GeminiResearchAdapter {
       'Do not rely on old famous examples when fresh reporting is available.',
       'The goal is not to prove the thesis abstractly. The goal is to find one concrete recent event that makes the thesis legible.',
       'Find direct and indirect articles that reveal the pattern, not just articles using the same words.',
+      excludedEntities.length > 0 ? `Do not choose a lead case centered on any of these recently used entities: ${excludedEntities.join(', ')}` : '',
+      excludedSourceUrls.length > 0 ? `Do not use any of these recently used exact source URLs as primary or supporting sources: ${excludedSourceUrls.slice(0, 25).join(', ')}` : '',
       `Adjacent domains: ${(watchlists.adjacent_domains || []).join(', ')}`,
       `Entities: ${JSON.stringify(watchlists.entities || {})}`,
       `Prompts: ${(watchlists.prompts || []).join(' ')}`,
@@ -274,7 +276,7 @@ class GeminiResearchAdapter {
     ].join('\n');
   }
 
-  buildDiscoveryPrompt({ watchlists, topicOptions = [], requestedTopic = null, referenceDate = now() }) {
+  buildDiscoveryPrompt({ watchlists, topicOptions = [], requestedTopic = null, referenceDate = now(), excludedSourceUrls = [], excludedEntities = [] }) {
     const recencyPolicy = getResearchRecencyPolicy({ watchlists, referenceDate });
     const topicsBlock = (topicOptions || []).slice(0, 80).map((topic, index) => `${index + 1}. ${topic}`).join('\n');
     return [
@@ -285,6 +287,8 @@ class GeminiResearchAdapter {
       'Find 3 to 5 concrete recent events from the watched domains, then identify which available thesis each event makes most legible.',
       'Prefer company, labor, governance, and AI-adoption reporting where the visible event reveals a deeper social or organizational problem.',
       requestedTopic ? `If one of the discovered cases also fits this previously planned thesis, note that explicitly: ${requestedTopic}` : '',
+      excludedEntities.length > 0 ? `Exclude any candidate whose lead company or institution is in this recently used set: ${excludedEntities.join(', ')}` : '',
+      excludedSourceUrls.length > 0 ? `Exclude any candidate that depends on these exact recently used source URLs: ${excludedSourceUrls.slice(0, 25).join(', ')}` : '',
       `Adjacent domains: ${(watchlists.adjacent_domains || []).join(', ')}`,
       `Entities: ${JSON.stringify(watchlists.entities || {})}`,
       `Prompts: ${(watchlists.prompts || []).join(' ')}`,
@@ -294,9 +298,9 @@ class GeminiResearchAdapter {
     ].filter(Boolean).join('\n');
   }
 
-  async submitResearchJob({ topicThesis, watchlists }) {
+  async submitResearchJob({ topicThesis, watchlists, excludedSourceUrls = [], excludedEntities = [] }) {
     if (!this.apiKey) throw new Error('Missing GEMINI_API_KEY for live research.');
-    const prompt = this.buildPrompt({ topicThesis, watchlists });
+    const prompt = this.buildPrompt({ topicThesis, watchlists, excludedSourceUrls, excludedEntities });
     const createResponse = await fetch(`https://generativelanguage.googleapis.com/v1beta/interactions?key=${this.apiKey}`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -322,12 +326,14 @@ class GeminiResearchAdapter {
       prompt,
       topic_thesis: topicThesis,
       watchlist_inputs: watchlists,
+      excluded_source_urls: excludedSourceUrls,
+      excluded_entities: excludedEntities,
     };
   }
 
-  async submitDiscoveryJob({ watchlists, topicOptions = [], requestedTopic = null, jobKey = null }) {
+  async submitDiscoveryJob({ watchlists, topicOptions = [], requestedTopic = null, jobKey = null, excludedSourceUrls = [], excludedEntities = [] }) {
     if (!this.apiKey) throw new Error('Missing GEMINI_API_KEY for live research.');
-    const prompt = this.buildDiscoveryPrompt({ watchlists, topicOptions, requestedTopic });
+    const prompt = this.buildDiscoveryPrompt({ watchlists, topicOptions, requestedTopic, excludedSourceUrls, excludedEntities });
     const createResponse = await fetch(`https://generativelanguage.googleapis.com/v1beta/interactions?key=${this.apiKey}`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -356,6 +362,8 @@ class GeminiResearchAdapter {
       watchlist_inputs: watchlists,
       discovery_mode: 'article_first',
       job_key: jobKey || 'article-first-discovery',
+      excluded_source_urls: excludedSourceUrls,
+      excluded_entities: excludedEntities,
     };
   }
 
@@ -412,18 +420,20 @@ class GeminiResearchAdapter {
       watchlist_inputs: job.watchlist_inputs,
       topic_options: job.topic_options || [],
       discovery_mode: job.discovery_mode || null,
+      excluded_source_urls: job.excluded_source_urls || [],
+      excluded_entities: job.excluded_entities || [],
       created_at: now().toISOString(),
     };
   }
 
-  async researchTopicLive({ topicThesis, watchlists }) {
-    const job = await this.submitResearchJob({ topicThesis, watchlists });
+  async researchTopicLive({ topicThesis, watchlists, excludedSourceUrls = [], excludedEntities = [] }) {
+    const job = await this.submitResearchJob({ topicThesis, watchlists, excludedSourceUrls, excludedEntities });
     const latest = await this.pollResearchJob({ job });
     return this.normalizeCompletedResearch({ job, latest });
   }
 
-  async discoverNewsLive({ watchlists, topicOptions = [], requestedTopic = null, jobKey = null }) {
-    const job = await this.submitDiscoveryJob({ watchlists, topicOptions, requestedTopic, jobKey });
+  async discoverNewsLive({ watchlists, topicOptions = [], requestedTopic = null, jobKey = null, excludedSourceUrls = [], excludedEntities = [] }) {
+    const job = await this.submitDiscoveryJob({ watchlists, topicOptions, requestedTopic, jobKey, excludedSourceUrls, excludedEntities });
     const latest = await this.pollResearchJob({ job });
     return this.normalizeCompletedResearch({ job, latest });
   }

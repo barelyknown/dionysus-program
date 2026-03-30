@@ -89,6 +89,7 @@ memory:
   topic_thesis_cooldown_days: 120
   timely_subject_cooldown_days: 30
   source_reuse_cooldown_days: 21
+  entity_cooldown_days: 30
 generation:
   best_of_n: 2
   prompt_variants:
