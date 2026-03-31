@@ -1,6 +1,13 @@
 notes_archive_url: notes/index.html
 recent_notes_empty: false
 recent_notes:
+  - title: If the real decision happens after the meeting, you’re in Management
+      Theater
+    display_date: March 31, 2026
+    url: notes/2026-03-31-if-the-real-decision-happens-after-the-meeting-you-re-in-management-theater/index.html
+    excerpt: If the real decision happens after the meeting, you’re in Management
+      Theater.
+    pillar: Archetype Diagnosis
   - title: The Apollo Program is necessary but insufficient because optimization
       cannot metabolize meaning
     display_date: March 30, 2026
@@ -16,10 +23,3 @@ recent_notes:
     excerpt: If a postmortem ends with a document, it probably just preserved the
       failure.
     pillar: Ritual Recipes
-  - title: Nothing burns trust faster than a blameless postmortem with a hidden
-      defendant
-    display_date: March 26, 2026
-    url: notes/2026-03-26-nothing-burns-trust-faster-than-a-blameless-postmortem-with-a-hidden-defendant/index.html
-    excerpt: Nothing burns trust faster than a blameless postmortem with a hidden
-      defendant.
-    pillar: Cautionary Tales
