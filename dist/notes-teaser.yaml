@@ -1,6 +1,13 @@
 notes_archive_url: notes/index.html
 recent_notes_empty: false
 recent_notes:
+  - title: Patience says renewal takes time. Avoidance says the same people should
+      run it forever
+    display_date: April 1, 2026
+    url: notes/2026-04-01-patience-says-renewal-takes-time-avoidance-says-the-same-people-should-run-it-forever/index.html
+    excerpt: Patience says renewal takes time. Avoidance says the same people should
+      run it forever.
+    pillar: Extracted Insights
   - title: If the real decision happens after the meeting, you’re in Management
       Theater
     display_date: March 31, 2026
@@ -16,10 +23,3 @@ recent_notes:
       service with AI, and quality suffered. That is not a customer support
       story. It is a management story.
     pillar: Decoder Ring
-  - title: If a postmortem ends with a document, it probably just preserved the
-      failure
-    display_date: March 27, 2026
-    url: notes/2026-03-27-if-a-postmortem-ends-with-a-document-it-probably-just-preserved-the-failure/index.html
-    excerpt: If a postmortem ends with a document, it probably just preserved the
-      failure.
-    pillar: Ritual Recipes
