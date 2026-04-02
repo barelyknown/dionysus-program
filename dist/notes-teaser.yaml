@@ -1,6 +1,13 @@
 notes_archive_url: notes/index.html
 recent_notes_empty: false
 recent_notes:
+  - title: The Durkheim Constraint explains why ritual must feel received, not
+      merely invented
+    display_date: April 2, 2026
+    url: notes/2026-04-02-the-durkheim-constraint-explains-why-ritual-must-feel-received-not-merely-invented/index.html
+    excerpt: "Most company rituals fail for a simple reason: everyone in the room
+      knows they were invented last Tuesday."
+    pillar: High-Lindy Source Tour Guide
   - title: Patience says renewal takes time. Avoidance says the same people should
       run it forever
     display_date: April 1, 2026
@@ -15,11 +22,3 @@ recent_notes:
     excerpt: If the real decision happens after the meeting, you’re in Management
       Theater.
     pillar: Archetype Diagnosis
-  - title: The Apollo Program is necessary but insufficient because optimization
-      cannot metabolize meaning
-    display_date: March 30, 2026
-    url: notes/2026-03-30-the-apollo-program-is-necessary-but-insufficient-because-optimization-cannot-metabolize-meaning/index.html
-    excerpt: Sebastian Siemiatkowski said Klarna went too far in cutting customer
-      service with AI, and quality suffered. That is not a customer support
-      story. It is a management story.
-    pillar: Decoder Ring
