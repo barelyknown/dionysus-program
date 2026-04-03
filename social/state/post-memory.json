@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-02T13:02:39.107Z",
-  "published_count": 14,
+  "generated_at": "2026-04-03T13:01:42.549Z",
+  "published_count": 15,
   "rolling_window_days": 84,
   "typeCounts": {
     "decoder_ring": 3,
@@ -9,7 +9,8 @@
     "archetype_diagnosis": 2,
     "high_lindy_source_tour": 2,
     "from_the_mailbag": 1,
-    "cautionary_tale": 1
+    "cautionary_tale": 1,
+    "short_story": 1
   },
   "recent_hooks": [
     {
@@ -498,6 +499,37 @@
       "x_winning_candidate_id": "a1f7eccf892a",
       "x_final_text_hash": "e57a74dac144c2cbde2ee009f440b13159ae54aaabdd769946c223af5b7c2bd7",
       "x_summary": "Ritual has authority. A workshop has intentions.\n\nMost “company rituals” are just meetings with a stronger script. The retro gets a new label and a candor preamble, but the org chart still governs the room. If the form is obviously invented, it won’t carry force.",
+      "x_skip_reason": null
+    },
+    {
+      "post_id": "019d536e-0c12-249a-7d1a-f1f2336c60b1",
+      "external_post_id": "019d536e-0c12-249a-7d1a-f1f2336c60b1",
+      "published_at": "2026-04-03T13:00:14.236Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "short_story",
+      "pillar": "Short Stories",
+      "topic_thesis": "Bad organizational myths do not decay slowly; they walk until they suddenly collapse.",
+      "angle": "A short story must resolve into a concrete lesson, not just a mood.",
+      "hook": "“We still reward candor.”",
+      "summary": "“We still reward candor.”\n\nThe slide advanced. No one objected. No one agreed either. A few people looked down at their laptops, which is what quiet disbelief looks like in a company meeting.\n\nFor six months, everyone had watched the opposite happen. The person who named the real",
+      "source_refs": [],
+      "framework_terms_used": [
+        "li"
+      ],
+      "subject_entities": [],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "de39ea73fd9d",
+      "final_text_hash": "cc71006070adef0df41744f9d9ffbdb6e3b7697230be08fc453d4c2f22f1386f",
+      "note_slug": "2026-04-03-we-still-reward-candor",
+      "note_source_path": "content/notes/2026-04-03-we-still-reward-candor.md",
+      "x_status": "published",
+      "x_external_post_id": "2040052120141914438",
+      "x_published_at": "2026-04-03T13:01:42.545Z",
+      "x_winning_candidate_id": "7ef42fcdf5f7",
+      "x_final_text_hash": "8136b626ec1137b4deda879c6404de1d91a82bdc2977ff4ed7e5c3e31f987b07",
+      "x_summary": "Most culture lies survive because silence is cheaper than candor.\n\nWhen naming the problem gets you sidelined, the myth keeps walking. It doesn’t die from evidence. It dies at the first legitimacy event the company can’t absorb.",
       "x_skip_reason": null
     }
   ],
@@ -989,6 +1021,37 @@
       "x_final_text_hash": "e57a74dac144c2cbde2ee009f440b13159ae54aaabdd769946c223af5b7c2bd7",
       "x_summary": "Ritual has authority. A workshop has intentions.\n\nMost “company rituals” are just meetings with a stronger script. The retro gets a new label and a candor preamble, but the org chart still governs the room. If the form is obviously invented, it won’t carry force.",
       "x_skip_reason": null
+    },
+    {
+      "post_id": "019d536e-0c12-249a-7d1a-f1f2336c60b1",
+      "external_post_id": "019d536e-0c12-249a-7d1a-f1f2336c60b1",
+      "published_at": "2026-04-03T13:00:14.236Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "short_story",
+      "pillar": "Short Stories",
+      "topic_thesis": "Bad organizational myths do not decay slowly; they walk until they suddenly collapse.",
+      "angle": "A short story must resolve into a concrete lesson, not just a mood.",
+      "hook": "“We still reward candor.”",
+      "summary": "“We still reward candor.”\n\nThe slide advanced. No one objected. No one agreed either. A few people looked down at their laptops, which is what quiet disbelief looks like in a company meeting.\n\nFor six months, everyone had watched the opposite happen. The person who named the real",
+      "source_refs": [],
+      "framework_terms_used": [
+        "li"
+      ],
+      "subject_entities": [],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "de39ea73fd9d",
+      "final_text_hash": "cc71006070adef0df41744f9d9ffbdb6e3b7697230be08fc453d4c2f22f1386f",
+      "note_slug": "2026-04-03-we-still-reward-candor",
+      "note_source_path": "content/notes/2026-04-03-we-still-reward-candor.md",
+      "x_status": "published",
+      "x_external_post_id": "2040052120141914438",
+      "x_published_at": "2026-04-03T13:01:42.545Z",
+      "x_winning_candidate_id": "7ef42fcdf5f7",
+      "x_final_text_hash": "8136b626ec1137b4deda879c6404de1d91a82bdc2977ff4ed7e5c3e31f987b07",
+      "x_summary": "Most culture lies survive because silence is cheaper than candor.\n\nWhen naming the problem gets you sidelined, the myth keeps walking. It doesn’t die from evidence. It dies at the first legitimacy event the company can’t absorb.",
+      "x_skip_reason": null
     }
   ],
   "recent_topics": [
@@ -1478,6 +1541,37 @@
       "x_winning_candidate_id": "a1f7eccf892a",
       "x_final_text_hash": "e57a74dac144c2cbde2ee009f440b13159ae54aaabdd769946c223af5b7c2bd7",
       "x_summary": "Ritual has authority. A workshop has intentions.\n\nMost “company rituals” are just meetings with a stronger script. The retro gets a new label and a candor preamble, but the org chart still governs the room. If the form is obviously invented, it won’t carry force.",
+      "x_skip_reason": null
+    },
+    {
+      "post_id": "019d536e-0c12-249a-7d1a-f1f2336c60b1",
+      "external_post_id": "019d536e-0c12-249a-7d1a-f1f2336c60b1",
+      "published_at": "2026-04-03T13:00:14.236Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "short_story",
+      "pillar": "Short Stories",
+      "topic_thesis": "Bad organizational myths do not decay slowly; they walk until they suddenly collapse.",
+      "angle": "A short story must resolve into a concrete lesson, not just a mood.",
+      "hook": "“We still reward candor.”",
+      "summary": "“We still reward candor.”\n\nThe slide advanced. No one objected. No one agreed either. A few people looked down at their laptops, which is what quiet disbelief looks like in a company meeting.\n\nFor six months, everyone had watched the opposite happen. The person who named the real",
+      "source_refs": [],
+      "framework_terms_used": [
+        "li"
+      ],
+      "subject_entities": [],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "de39ea73fd9d",
+      "final_text_hash": "cc71006070adef0df41744f9d9ffbdb6e3b7697230be08fc453d4c2f22f1386f",
+      "note_slug": "2026-04-03-we-still-reward-candor",
+      "note_source_path": "content/notes/2026-04-03-we-still-reward-candor.md",
+      "x_status": "published",
+      "x_external_post_id": "2040052120141914438",
+      "x_published_at": "2026-04-03T13:01:42.545Z",
+      "x_winning_candidate_id": "7ef42fcdf5f7",
+      "x_final_text_hash": "8136b626ec1137b4deda879c6404de1d91a82bdc2977ff4ed7e5c3e31f987b07",
+      "x_summary": "Most culture lies survive because silence is cheaper than candor.\n\nWhen naming the problem gets you sidelined, the myth keeps walking. It doesn’t die from evidence. It dies at the first legitimacy event the company can’t absorb.",
       "x_skip_reason": null
     }
   ],
@@ -1969,6 +2063,37 @@
       "x_final_text_hash": "e57a74dac144c2cbde2ee009f440b13159ae54aaabdd769946c223af5b7c2bd7",
       "x_summary": "Ritual has authority. A workshop has intentions.\n\nMost “company rituals” are just meetings with a stronger script. The retro gets a new label and a candor preamble, but the org chart still governs the room. If the form is obviously invented, it won’t carry force.",
       "x_skip_reason": null
+    },
+    {
+      "post_id": "019d536e-0c12-249a-7d1a-f1f2336c60b1",
+      "external_post_id": "019d536e-0c12-249a-7d1a-f1f2336c60b1",
+      "published_at": "2026-04-03T13:00:14.236Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "short_story",
+      "pillar": "Short Stories",
+      "topic_thesis": "Bad organizational myths do not decay slowly; they walk until they suddenly collapse.",
+      "angle": "A short story must resolve into a concrete lesson, not just a mood.",
+      "hook": "“We still reward candor.”",
+      "summary": "“We still reward candor.”\n\nThe slide advanced. No one objected. No one agreed either. A few people looked down at their laptops, which is what quiet disbelief looks like in a company meeting.\n\nFor six months, everyone had watched the opposite happen. The person who named the real",
+      "source_refs": [],
+      "framework_terms_used": [
+        "li"
+      ],
+      "subject_entities": [],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "de39ea73fd9d",
+      "final_text_hash": "cc71006070adef0df41744f9d9ffbdb6e3b7697230be08fc453d4c2f22f1386f",
+      "note_slug": "2026-04-03-we-still-reward-candor",
+      "note_source_path": "content/notes/2026-04-03-we-still-reward-candor.md",
+      "x_status": "published",
+      "x_external_post_id": "2040052120141914438",
+      "x_published_at": "2026-04-03T13:01:42.545Z",
+      "x_winning_candidate_id": "7ef42fcdf5f7",
+      "x_final_text_hash": "8136b626ec1137b4deda879c6404de1d91a82bdc2977ff4ed7e5c3e31f987b07",
+      "x_summary": "Most culture lies survive because silence is cheaper than candor.\n\nWhen naming the problem gets you sidelined, the myth keeps walking. It doesn’t die from evidence. It dies at the first legitimacy event the company can’t absorb.",
+      "x_skip_reason": null
     }
   ],
   "recent_sources": [
@@ -2458,6 +2583,37 @@
       "x_winning_candidate_id": "a1f7eccf892a",
       "x_final_text_hash": "e57a74dac144c2cbde2ee009f440b13159ae54aaabdd769946c223af5b7c2bd7",
       "x_summary": "Ritual has authority. A workshop has intentions.\n\nMost “company rituals” are just meetings with a stronger script. The retro gets a new label and a candor preamble, but the org chart still governs the room. If the form is obviously invented, it won’t carry force.",
+      "x_skip_reason": null
+    },
+    {
+      "post_id": "019d536e-0c12-249a-7d1a-f1f2336c60b1",
+      "external_post_id": "019d536e-0c12-249a-7d1a-f1f2336c60b1",
+      "published_at": "2026-04-03T13:00:14.236Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "short_story",
+      "pillar": "Short Stories",
+      "topic_thesis": "Bad organizational myths do not decay slowly; they walk until they suddenly collapse.",
+      "angle": "A short story must resolve into a concrete lesson, not just a mood.",
+      "hook": "“We still reward candor.”",
+      "summary": "“We still reward candor.”\n\nThe slide advanced. No one objected. No one agreed either. A few people looked down at their laptops, which is what quiet disbelief looks like in a company meeting.\n\nFor six months, everyone had watched the opposite happen. The person who named the real",
+      "source_refs": [],
+      "framework_terms_used": [
+        "li"
+      ],
+      "subject_entities": [],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "de39ea73fd9d",
+      "final_text_hash": "cc71006070adef0df41744f9d9ffbdb6e3b7697230be08fc453d4c2f22f1386f",
+      "note_slug": "2026-04-03-we-still-reward-candor",
+      "note_source_path": "content/notes/2026-04-03-we-still-reward-candor.md",
+      "x_status": "published",
+      "x_external_post_id": "2040052120141914438",
+      "x_published_at": "2026-04-03T13:01:42.545Z",
+      "x_winning_candidate_id": "7ef42fcdf5f7",
+      "x_final_text_hash": "8136b626ec1137b4deda879c6404de1d91a82bdc2977ff4ed7e5c3e31f987b07",
+      "x_summary": "Most culture lies survive because silence is cheaper than candor.\n\nWhen naming the problem gets you sidelined, the myth keeps walking. It doesn’t die from evidence. It dies at the first legitimacy event the company can’t absorb.",
       "x_skip_reason": null
     }
   ],

@@ -1,6 +1,11 @@
 notes_archive_url: notes/index.html
 recent_notes_empty: false
 recent_notes:
+  - title: “We still reward candor.”
+    display_date: April 3, 2026
+    url: notes/2026-04-03-we-still-reward-candor/index.html
+    excerpt: “We still reward candor.”
+    pillar: Short Stories
   - title: The Durkheim Constraint explains why ritual must feel received, not
       merely invented
     display_date: April 2, 2026
@@ -15,10 +20,3 @@ recent_notes:
     excerpt: Patience says renewal takes time. Avoidance says the same people should
       run it forever.
     pillar: Extracted Insights
-  - title: If the real decision happens after the meeting, you’re in Management
-      Theater
-    display_date: March 31, 2026
-    url: notes/2026-03-31-if-the-real-decision-happens-after-the-meeting-you-re-in-management-theater/index.html
-    excerpt: If the real decision happens after the meeting, you’re in Management
-      Theater.
-    pillar: Archetype Diagnosis

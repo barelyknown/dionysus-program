@@ -250,7 +250,7 @@
       "timezone": "America/Los_Angeles",
       "weekday": "friday",
       "slot_type": "baseline",
-      "status": "planned",
+      "status": "published",
       "content_type": "short_story",
       "pillar": "Short Stories",
       "topic_thesis": "Bad organizational myths do not decay slowly; they walk until they suddenly collapse.",
@@ -259,10 +259,46 @@
       "source_bundle_id": null,
       "timely_subject": null,
       "draft_ref": null,
-      "winner_id": null,
+      "winner_id": "de39ea73fd9d",
       "risk_level": "low",
       "freshness_deadline": null,
-      "publish_payload": null
+      "publish_payload": {
+        "item_id": "cb1cfc3a2263",
+        "scheduled_at": "2026-04-03T12:30:00.000Z",
+        "content_type": "short_story",
+        "pillar": "Short Stories",
+        "topic_thesis": "Bad organizational myths do not decay slowly; they walk until they suddenly collapse.",
+        "angle": "A short story must resolve into a concrete lesson, not just a mood.",
+        "hook": "“We still reward candor.”",
+        "body_text": "“We still reward candor.”\n\nThe slide advanced. No one objected. No one agreed either. A few people looked down at their laptops, which is what quiet disbelief looks like in a company meeting.\n\nFor six months, everyone had watched the opposite happen. The person who named the real problem got sidelined. The person who protected the story got promoted. But the myth kept walking because saying it out loud carried a cost, and staying silent did not.\n\nThen it collapsed all at once. One resignation note. One skipped meeting. Three honest conversations in a week. Suddenly the thing that had been “our culture” was just a sentence nobody could say with a straight face.\n\nBad organizational myths do not decay like assets. They persist socially, then fail publicly. If the lived reality and the story have diverged, kill the story early. If you don’t, the organization will wait until the legitimacy event is expensive.",
+        "footer_text": "Most of what I post here is extracted from The Dionysus Program — a free field manual for leaders whose knowledge is melting faster than their culture can re-bind it. dionysusprogram.com",
+        "footer_index": 9,
+        "footer_divider": "---",
+        "final_text": "“We still reward candor.”\n\nThe slide advanced. No one objected. No one agreed either. A few people looked down at their laptops, which is what quiet disbelief looks like in a company meeting.\n\nFor six months, everyone had watched the opposite happen. The person who named the real problem got sidelined. The person who protected the story got promoted. But the myth kept walking because saying it out loud carried a cost, and staying silent did not.\n\nThen it collapsed all at once. One resignation note. One skipped meeting. Three honest conversations in a week. Suddenly the thing that had been “our culture” was just a sentence nobody could say with a straight face.\n\nBad organizational myths do not decay like assets. They persist socially, then fail publicly. If the lived reality and the story have diverged, kill the story early. If you don’t, the organization will wait until the legitimacy event is expensive.\n\n---\n\nMost of what I post here is extracted from The Dionysus Program — a free field manual for leaders whose knowledge is melting faster than their culture can re-bind it. dionysusprogram.com",
+        "winning_candidate_id": "de39ea73fd9d",
+        "winning_score": 7.3,
+        "source_refs": [],
+        "research_bundle_id": null,
+        "timely_subject": null
+      },
+      "skip_reason": null,
+      "published_at": "2026-04-03T13:00:14.236Z",
+      "external_post_id": "019d536e-0c12-249a-7d1a-f1f2336c60b1",
+      "note_slug": "2026-04-03-we-still-reward-candor",
+      "note_source_path": "content/notes/2026-04-03-we-still-reward-candor.md",
+      "x_status": "published",
+      "x_external_post_id": "2040052120141914438",
+      "x_published_at": "2026-04-03T13:01:42.545Z",
+      "x_winning_candidate_id": "7ef42fcdf5f7",
+      "x_publish_payload": {
+        "source_channel": "linkedin",
+        "source_final_text_hash": "cc71006070adef0df41744f9d9ffbdb6e3b7697230be08fc453d4c2f22f1386f",
+        "source_winning_candidate_id": "de39ea73fd9d",
+        "text": "Most culture lies survive because silence is cheaper than candor.\n\nWhen naming the problem gets you sidelined, the myth keeps walking. It doesn’t die from evidence. It dies at the first legitimacy event the company can’t absorb.",
+        "winning_candidate_id": "7ef42fcdf5f7",
+        "winning_score": 9.3
+      },
+      "x_skip_reason": null
     }
   ]
 }
