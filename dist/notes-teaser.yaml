@@ -1,6 +1,13 @@
 notes_archive_url: notes/index.html
 recent_notes_empty: false
 recent_notes:
+  - title: The fastest way to turn a truth ritual into a power ritual is to leave it
+      on
+    display_date: April 7, 2026
+    url: notes/2026-04-07-the-fastest-way-to-turn-a-truth-ritual-into-a-power-ritual-is-to-leave-it-on/index.html
+    excerpt: The fastest way to turn a truth ritual into a power ritual is to leave
+      it on.
+    pillar: Ritual Recipes
   - title: The Alchemy of Error is the practical art of turning disruption into
       better structure
     display_date: April 6, 2026
@@ -14,10 +21,3 @@ recent_notes:
     url: notes/2026-04-03-we-still-reward-candor/index.html
     excerpt: “We still reward candor.”
     pillar: Short Stories
-  - title: The Durkheim Constraint explains why ritual must feel received, not
-      merely invented
-    display_date: April 2, 2026
-    url: notes/2026-04-02-the-durkheim-constraint-explains-why-ritual-must-feel-received-not-merely-invented/index.html
-    excerpt: "Most company rituals fail for a simple reason: everyone in the room
-      knows they were invented last Tuesday."
-    pillar: High-Lindy Source Tour Guide
