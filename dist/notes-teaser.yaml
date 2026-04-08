@@ -1,6 +1,13 @@
 notes_archive_url: notes/index.html
 recent_notes_empty: false
 recent_notes:
+  - title: Crimes Against Ren are real because truth can still be weaponized against
+      the substrate that makes truth possible
+    display_date: April 8, 2026
+    url: notes/2026-04-08-crimes-against-ren-are-real-because-truth-can-still-be-weaponized-against-the-substrate-that-makes-truth-possible/index.html
+    excerpt: If you use a true statement to punish candor, you are not defending
+      standards. You are committing a Crime Against Ren.
+    pillar: Extracted Insights
   - title: The fastest way to turn a truth ritual into a power ritual is to leave it
       on
     display_date: April 7, 2026
@@ -16,8 +23,3 @@ recent_notes:
       public npm package. The leak is the visible failure. The more important
       signal is that the response was framed as a systems...
     pillar: Decoder Ring
-  - title: “We still reward candor.”
-    display_date: April 3, 2026
-    url: notes/2026-04-03-we-still-reward-candor/index.html
-    excerpt: “We still reward candor.”
-    pillar: Short Stories
