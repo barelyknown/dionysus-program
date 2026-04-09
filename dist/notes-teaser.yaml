@@ -1,6 +1,12 @@
 notes_archive_url: notes/index.html
 recent_notes_empty: false
 recent_notes:
+  - title: Overflow does quadratic damage when melt outruns capacity
+    display_date: April 9, 2026
+    url: notes/2026-04-09-overflow-does-quadratic-damage-when-melt-outruns-capacity/index.html
+    excerpt: If nobody can tell you which version of the plan is live, you’re not
+      moving fast. You’re in the Overwhelmed.
+    pillar: Archetype Diagnosis
   - title: Crimes Against Ren are real because truth can still be weaponized against
       the substrate that makes truth possible
     display_date: April 8, 2026
@@ -15,11 +21,3 @@ recent_notes:
     excerpt: The fastest way to turn a truth ritual into a power ritual is to leave
       it on.
     pillar: Ritual Recipes
-  - title: The Alchemy of Error is the practical art of turning disruption into
-      better structure
-    display_date: April 6, 2026
-    url: notes/2026-04-06-the-alchemy-of-error-is-the-practical-art-of-turning-disruption-into-better-structure/index.html
-    excerpt: Anthropic handed the internet a large piece of Claude Code through a
-      public npm package. The leak is the visible failure. The more important
-      signal is that the response was framed as a systems...
-    pillar: Decoder Ring
