@@ -1,6 +1,13 @@
 notes_archive_url: notes/index.html
 recent_notes_empty: false
 recent_notes:
+  - title: Internal collapse and competitive collapse are distinct failure modes
+    display_date: April 13, 2026
+    url: notes/2026-04-13-internal-collapse-and-competitive-collapse-are-distinct-failure-modes/index.html
+    excerpt: A recent survey found a majority of executives saying AI adoption is
+      pulling their company apart. Read that literally. Not “change is hard.”
+      Power struggles, IT-business conflict, and employee...
+    pillar: Decoder Ring
   - title: The fastest way to poison candor is to stage it before the group can bear
       it
     display_date: April 10, 2026
@@ -14,10 +21,3 @@ recent_notes:
     excerpt: If nobody can tell you which version of the plan is live, you’re not
       moving fast. You’re in the Overwhelmed.
     pillar: Archetype Diagnosis
-  - title: Crimes Against Ren are real because truth can still be weaponized against
-      the substrate that makes truth possible
-    display_date: April 8, 2026
-    url: notes/2026-04-08-crimes-against-ren-are-real-because-truth-can-still-be-weaponized-against-the-substrate-that-makes-truth-possible/index.html
-    excerpt: If you use a true statement to punish candor, you are not defending
-      standards. You are committing a Crime Against Ren.
-    pillar: Extracted Insights
