@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-13T13:32:49.655Z",
-  "published_count": 21,
+  "generated_at": "2026-04-14T13:04:34.251Z",
+  "published_count": 22,
   "rolling_window_days": 84,
   "typeCounts": {
     "decoder_ring": 5,
@@ -8,7 +8,7 @@
     "extracted_insight": 4,
     "archetype_diagnosis": 3,
     "high_lindy_source_tour": 2,
-    "from_the_mailbag": 1,
+    "from_the_mailbag": 2,
     "cautionary_tale": 2,
     "short_story": 1
   },
@@ -740,6 +740,40 @@
       "x_final_text_hash": "7eec30fd9dd7b25aafab4a394e4bb6edb0a061682cea9bfdb3321e6674fdf3ae",
       "x_summary": "AI adoption is exposing a harder failure than falling behind: companies breaking themselves to move faster.\n\nMarkets can outrun you. But if speed burns trust, truth becomes politics and the org stops learning. That isn’t transformation. It’s liquidation.",
       "x_skip_reason": null
+    },
+    {
+      "post_id": "019d8c16-51a1-e84d-f8b6-4490a5054c0a",
+      "external_post_id": "019d8c16-51a1-e84d-f8b6-4490a5054c0a",
+      "published_at": "2026-04-14T13:02:46.216Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "from_the_mailbag",
+      "pillar": "From the Mailbag",
+      "topic_thesis": "Living law has to submit itself to the same anti-scapegoat logic it imposes on everyone else.",
+      "angle": "Use the note as the entry point, then get to the pattern it reveals immediately.",
+      "hook": "A conduct code that cannot be put on trial will become a sacrifice machine.",
+      "summary": "A conduct code that cannot be put on trial will become a sacrifice machine.\n\nNot Carl Jung caught the tell: “turning your priests into tyrants.” That’s what happens when the people administering anti-scapegoat rules are exempt from the same discipline they impose on everyone else",
+      "source_refs": [
+        "letters_to_editor/carl_jung.txt"
+      ],
+      "framework_terms_used": [
+        "li",
+        "scapegoat"
+      ],
+      "subject_entities": [],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "1b140deb094b",
+      "final_text_hash": "ae2421c458968ff8922e95255627d19f67b7e6cb9bc9989221bf281bb9996783",
+      "note_slug": "2026-04-14-a-conduct-code-that-cannot-be-put-on-trial-becomes-a-sacrifice-machine",
+      "note_source_path": "content/notes/2026-04-14-a-conduct-code-that-cannot-be-put-on-trial-becomes-a-sacrifice-machine.md",
+      "x_status": "published",
+      "x_external_post_id": "2044039106641133843",
+      "x_published_at": "2026-04-14T13:04:34.247Z",
+      "x_winning_candidate_id": "e687fc9b17a8",
+      "x_final_text_hash": "46041cc244d73065ee6b9babc6378ccdcfa5eb80ea1a7d8924583736b58a7dce",
+      "x_summary": "When a conduct code cannot be put on trial, it stops correcting abuse and starts manufacturing it.\n\nThe enforcers become untouchable, categories harden, and punishment hides inside procedure. The law survives. Living judgment doesn’t.",
+      "x_skip_reason": null
     }
   ],
   "recent_angles": [
@@ -1469,6 +1503,40 @@
       "x_winning_candidate_id": "519f48b9d462",
       "x_final_text_hash": "7eec30fd9dd7b25aafab4a394e4bb6edb0a061682cea9bfdb3321e6674fdf3ae",
       "x_summary": "AI adoption is exposing a harder failure than falling behind: companies breaking themselves to move faster.\n\nMarkets can outrun you. But if speed burns trust, truth becomes politics and the org stops learning. That isn’t transformation. It’s liquidation.",
+      "x_skip_reason": null
+    },
+    {
+      "post_id": "019d8c16-51a1-e84d-f8b6-4490a5054c0a",
+      "external_post_id": "019d8c16-51a1-e84d-f8b6-4490a5054c0a",
+      "published_at": "2026-04-14T13:02:46.216Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "from_the_mailbag",
+      "pillar": "From the Mailbag",
+      "topic_thesis": "Living law has to submit itself to the same anti-scapegoat logic it imposes on everyone else.",
+      "angle": "Use the note as the entry point, then get to the pattern it reveals immediately.",
+      "hook": "A conduct code that cannot be put on trial will become a sacrifice machine.",
+      "summary": "A conduct code that cannot be put on trial will become a sacrifice machine.\n\nNot Carl Jung caught the tell: “turning your priests into tyrants.” That’s what happens when the people administering anti-scapegoat rules are exempt from the same discipline they impose on everyone else",
+      "source_refs": [
+        "letters_to_editor/carl_jung.txt"
+      ],
+      "framework_terms_used": [
+        "li",
+        "scapegoat"
+      ],
+      "subject_entities": [],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "1b140deb094b",
+      "final_text_hash": "ae2421c458968ff8922e95255627d19f67b7e6cb9bc9989221bf281bb9996783",
+      "note_slug": "2026-04-14-a-conduct-code-that-cannot-be-put-on-trial-becomes-a-sacrifice-machine",
+      "note_source_path": "content/notes/2026-04-14-a-conduct-code-that-cannot-be-put-on-trial-becomes-a-sacrifice-machine.md",
+      "x_status": "published",
+      "x_external_post_id": "2044039106641133843",
+      "x_published_at": "2026-04-14T13:04:34.247Z",
+      "x_winning_candidate_id": "e687fc9b17a8",
+      "x_final_text_hash": "46041cc244d73065ee6b9babc6378ccdcfa5eb80ea1a7d8924583736b58a7dce",
+      "x_summary": "When a conduct code cannot be put on trial, it stops correcting abuse and starts manufacturing it.\n\nThe enforcers become untouchable, categories harden, and punishment hides inside procedure. The law survives. Living judgment doesn’t.",
       "x_skip_reason": null
     }
   ],
@@ -2200,6 +2268,40 @@
       "x_final_text_hash": "7eec30fd9dd7b25aafab4a394e4bb6edb0a061682cea9bfdb3321e6674fdf3ae",
       "x_summary": "AI adoption is exposing a harder failure than falling behind: companies breaking themselves to move faster.\n\nMarkets can outrun you. But if speed burns trust, truth becomes politics and the org stops learning. That isn’t transformation. It’s liquidation.",
       "x_skip_reason": null
+    },
+    {
+      "post_id": "019d8c16-51a1-e84d-f8b6-4490a5054c0a",
+      "external_post_id": "019d8c16-51a1-e84d-f8b6-4490a5054c0a",
+      "published_at": "2026-04-14T13:02:46.216Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "from_the_mailbag",
+      "pillar": "From the Mailbag",
+      "topic_thesis": "Living law has to submit itself to the same anti-scapegoat logic it imposes on everyone else.",
+      "angle": "Use the note as the entry point, then get to the pattern it reveals immediately.",
+      "hook": "A conduct code that cannot be put on trial will become a sacrifice machine.",
+      "summary": "A conduct code that cannot be put on trial will become a sacrifice machine.\n\nNot Carl Jung caught the tell: “turning your priests into tyrants.” That’s what happens when the people administering anti-scapegoat rules are exempt from the same discipline they impose on everyone else",
+      "source_refs": [
+        "letters_to_editor/carl_jung.txt"
+      ],
+      "framework_terms_used": [
+        "li",
+        "scapegoat"
+      ],
+      "subject_entities": [],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "1b140deb094b",
+      "final_text_hash": "ae2421c458968ff8922e95255627d19f67b7e6cb9bc9989221bf281bb9996783",
+      "note_slug": "2026-04-14-a-conduct-code-that-cannot-be-put-on-trial-becomes-a-sacrifice-machine",
+      "note_source_path": "content/notes/2026-04-14-a-conduct-code-that-cannot-be-put-on-trial-becomes-a-sacrifice-machine.md",
+      "x_status": "published",
+      "x_external_post_id": "2044039106641133843",
+      "x_published_at": "2026-04-14T13:04:34.247Z",
+      "x_winning_candidate_id": "e687fc9b17a8",
+      "x_final_text_hash": "46041cc244d73065ee6b9babc6378ccdcfa5eb80ea1a7d8924583736b58a7dce",
+      "x_summary": "When a conduct code cannot be put on trial, it stops correcting abuse and starts manufacturing it.\n\nThe enforcers become untouchable, categories harden, and punishment hides inside procedure. The law survives. Living judgment doesn’t.",
+      "x_skip_reason": null
     }
   ],
   "recent_subjects": [
@@ -2930,6 +3032,40 @@
       "x_final_text_hash": "7eec30fd9dd7b25aafab4a394e4bb6edb0a061682cea9bfdb3321e6674fdf3ae",
       "x_summary": "AI adoption is exposing a harder failure than falling behind: companies breaking themselves to move faster.\n\nMarkets can outrun you. But if speed burns trust, truth becomes politics and the org stops learning. That isn’t transformation. It’s liquidation.",
       "x_skip_reason": null
+    },
+    {
+      "post_id": "019d8c16-51a1-e84d-f8b6-4490a5054c0a",
+      "external_post_id": "019d8c16-51a1-e84d-f8b6-4490a5054c0a",
+      "published_at": "2026-04-14T13:02:46.216Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "from_the_mailbag",
+      "pillar": "From the Mailbag",
+      "topic_thesis": "Living law has to submit itself to the same anti-scapegoat logic it imposes on everyone else.",
+      "angle": "Use the note as the entry point, then get to the pattern it reveals immediately.",
+      "hook": "A conduct code that cannot be put on trial will become a sacrifice machine.",
+      "summary": "A conduct code that cannot be put on trial will become a sacrifice machine.\n\nNot Carl Jung caught the tell: “turning your priests into tyrants.” That’s what happens when the people administering anti-scapegoat rules are exempt from the same discipline they impose on everyone else",
+      "source_refs": [
+        "letters_to_editor/carl_jung.txt"
+      ],
+      "framework_terms_used": [
+        "li",
+        "scapegoat"
+      ],
+      "subject_entities": [],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "1b140deb094b",
+      "final_text_hash": "ae2421c458968ff8922e95255627d19f67b7e6cb9bc9989221bf281bb9996783",
+      "note_slug": "2026-04-14-a-conduct-code-that-cannot-be-put-on-trial-becomes-a-sacrifice-machine",
+      "note_source_path": "content/notes/2026-04-14-a-conduct-code-that-cannot-be-put-on-trial-becomes-a-sacrifice-machine.md",
+      "x_status": "published",
+      "x_external_post_id": "2044039106641133843",
+      "x_published_at": "2026-04-14T13:04:34.247Z",
+      "x_winning_candidate_id": "e687fc9b17a8",
+      "x_final_text_hash": "46041cc244d73065ee6b9babc6378ccdcfa5eb80ea1a7d8924583736b58a7dce",
+      "x_summary": "When a conduct code cannot be put on trial, it stops correcting abuse and starts manufacturing it.\n\nThe enforcers become untouchable, categories harden, and punishment hides inside procedure. The law survives. Living judgment doesn’t.",
+      "x_skip_reason": null
     }
   ],
   "recent_sources": [
@@ -3471,6 +3607,40 @@
       "x_winning_candidate_id": "519f48b9d462",
       "x_final_text_hash": "7eec30fd9dd7b25aafab4a394e4bb6edb0a061682cea9bfdb3321e6674fdf3ae",
       "x_summary": "AI adoption is exposing a harder failure than falling behind: companies breaking themselves to move faster.\n\nMarkets can outrun you. But if speed burns trust, truth becomes politics and the org stops learning. That isn’t transformation. It’s liquidation.",
+      "x_skip_reason": null
+    },
+    {
+      "post_id": "019d8c16-51a1-e84d-f8b6-4490a5054c0a",
+      "external_post_id": "019d8c16-51a1-e84d-f8b6-4490a5054c0a",
+      "published_at": "2026-04-14T13:02:46.216Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "from_the_mailbag",
+      "pillar": "From the Mailbag",
+      "topic_thesis": "Living law has to submit itself to the same anti-scapegoat logic it imposes on everyone else.",
+      "angle": "Use the note as the entry point, then get to the pattern it reveals immediately.",
+      "hook": "A conduct code that cannot be put on trial will become a sacrifice machine.",
+      "summary": "A conduct code that cannot be put on trial will become a sacrifice machine.\n\nNot Carl Jung caught the tell: “turning your priests into tyrants.” That’s what happens when the people administering anti-scapegoat rules are exempt from the same discipline they impose on everyone else",
+      "source_refs": [
+        "letters_to_editor/carl_jung.txt"
+      ],
+      "framework_terms_used": [
+        "li",
+        "scapegoat"
+      ],
+      "subject_entities": [],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "1b140deb094b",
+      "final_text_hash": "ae2421c458968ff8922e95255627d19f67b7e6cb9bc9989221bf281bb9996783",
+      "note_slug": "2026-04-14-a-conduct-code-that-cannot-be-put-on-trial-becomes-a-sacrifice-machine",
+      "note_source_path": "content/notes/2026-04-14-a-conduct-code-that-cannot-be-put-on-trial-becomes-a-sacrifice-machine.md",
+      "x_status": "published",
+      "x_external_post_id": "2044039106641133843",
+      "x_published_at": "2026-04-14T13:04:34.247Z",
+      "x_winning_candidate_id": "e687fc9b17a8",
+      "x_final_text_hash": "46041cc244d73065ee6b9babc6378ccdcfa5eb80ea1a7d8924583736b58a7dce",
+      "x_summary": "When a conduct code cannot be put on trial, it stops correcting abuse and starts manufacturing it.\n\nThe enforcers become untouchable, categories harden, and punishment hides inside procedure. The law survives. Living judgment doesn’t.",
       "x_skip_reason": null
     }
   ],

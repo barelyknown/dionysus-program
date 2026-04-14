@@ -1,6 +1,11 @@
 notes_archive_url: notes/index.html
 recent_notes_empty: false
 recent_notes:
+  - title: A conduct code that cannot be put on trial becomes a sacrifice machine
+    display_date: April 14, 2026
+    url: notes/2026-04-14-a-conduct-code-that-cannot-be-put-on-trial-becomes-a-sacrifice-machine/index.html
+    excerpt: A conduct code that cannot be put on trial becomes a sacrifice machine.
+    pillar: From the Mailbag
   - title: Internal collapse and competitive collapse are distinct failure modes
     display_date: April 13, 2026
     url: notes/2026-04-13-internal-collapse-and-competitive-collapse-are-distinct-failure-modes/index.html
@@ -15,9 +20,3 @@ recent_notes:
     excerpt: The fastest way to poison candor is to stage it before the group can
       bear it.
     pillar: Cautionary Tales
-  - title: Overflow does quadratic damage when melt outruns capacity
-    display_date: April 9, 2026
-    url: notes/2026-04-09-overflow-does-quadratic-damage-when-melt-outruns-capacity/index.html
-    excerpt: If nobody can tell you which version of the plan is live, you’re not
-      moving fast. You’re in the Overwhelmed.
-    pillar: Archetype Diagnosis
