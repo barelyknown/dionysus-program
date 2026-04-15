@@ -1,6 +1,13 @@
 notes_archive_url: notes/index.html
 recent_notes_empty: false
 recent_notes:
+  - title: The faster knowledge changes, the more an organization needs a stable
+      myth layer
+    display_date: April 15, 2026
+    url: notes/2026-04-15-the-faster-knowledge-changes-the-more-an-organization-needs-a-stable-myth-layer/index.html
+    excerpt: The faster your knowledge expires, the more dangerous it is to build
+      identity on expertise.
+    pillar: Extracted Insights
   - title: A conduct code that cannot be put on trial becomes a sacrifice machine
     display_date: April 14, 2026
     url: notes/2026-04-14-a-conduct-code-that-cannot-be-put-on-trial-becomes-a-sacrifice-machine/index.html
@@ -13,10 +20,3 @@ recent_notes:
       pulling their company apart. Read that literally. Not “change is hard.”
       Power struggles, IT-business conflict, and employee...
     pillar: Decoder Ring
-  - title: The fastest way to poison candor is to stage it before the group can bear
-      it
-    display_date: April 10, 2026
-    url: notes/2026-04-10-the-fastest-way-to-poison-candor-is-to-stage-it-before-the-group-can-bear-it/index.html
-    excerpt: The fastest way to poison candor is to stage it before the group can
-      bear it.
-    pillar: Cautionary Tales
