@@ -1,6 +1,13 @@
 notes_archive_url: notes/index.html
 recent_notes_empty: false
 recent_notes:
+  - title: "Apollo and Dionysus are complements, not substitutes: one optimizes the
+      known system, the other governs death and rebirth"
+    display_date: April 16, 2026
+    url: notes/2026-04-16-apollo-and-dionysus-are-complements-not-substitutes-one-optimizes-the-known-system-the-other-governs-death-and-rebirth/index.html
+    excerpt: "The social cost of missing this pattern is brutal: the dashboard gets
+      sharper while the room gets colder."
+    pillar: Archetype Diagnosis
   - title: The faster knowledge changes, the more an organization needs a stable
       myth layer
     display_date: April 15, 2026
@@ -13,10 +20,3 @@ recent_notes:
     url: notes/2026-04-14-a-conduct-code-that-cannot-be-put-on-trial-becomes-a-sacrifice-machine/index.html
     excerpt: A conduct code that cannot be put on trial becomes a sacrifice machine.
     pillar: From the Mailbag
-  - title: Internal collapse and competitive collapse are distinct failure modes
-    display_date: April 13, 2026
-    url: notes/2026-04-13-internal-collapse-and-competitive-collapse-are-distinct-failure-modes/index.html
-    excerpt: A recent survey found a majority of executives saying AI adoption is
-      pulling their company apart. Read that literally. Not “change is hard.”
-      Power struggles, IT-business conflict, and employee...
-    pillar: Decoder Ring
