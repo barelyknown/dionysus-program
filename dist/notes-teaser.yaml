@@ -1,6 +1,11 @@
 notes_archive_url: notes/index.html
 recent_notes_empty: false
 recent_notes:
+  - title: You can feel drift before the dashboard can prove it
+    display_date: April 17, 2026
+    url: notes/2026-04-17-you-can-feel-drift-before-the-dashboard-can-prove-it/index.html
+    excerpt: You can feel drift before the dashboard can prove it.
+    pillar: Ritual Recipes
   - title: "Apollo and Dionysus are complements, not substitutes: one optimizes the
       known system, the other governs death and rebirth"
     display_date: April 16, 2026
@@ -15,8 +20,3 @@ recent_notes:
     excerpt: The faster your knowledge expires, the more dangerous it is to build
       identity on expertise.
     pillar: Extracted Insights
-  - title: A conduct code that cannot be put on trial becomes a sacrifice machine
-    display_date: April 14, 2026
-    url: notes/2026-04-14-a-conduct-code-that-cannot-be-put-on-trial-becomes-a-sacrifice-machine/index.html
-    excerpt: A conduct code that cannot be put on trial becomes a sacrifice machine.
-    pillar: From the Mailbag
