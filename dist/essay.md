@@ -4,10 +4,10 @@ author: "Sean Devine"
 description: "Rites of Renewal"
 lang: en-US
 rights: "© 2025–2026. All rights reserved."
-source-revision: "9eeed2f9ad4e94ac4745fbf80f22368b8e02be37"
-source-revision-short: "9eeed2f9ad4e"
-published-at-utc: "2026-03-08 17:18 UTC"
-published-at-iso: "2026-03-08T17:18:21Z"
+source-revision: "a3c2fcf6efeb19e7792326342f1483ffd484ffa2"
+source-revision-short: "a3c2fcf6efeb"
+published-at-utc: "2026-04-19 16:18 UTC"
+published-at-iso: "2026-04-19T16:18:21Z"
 ---
 
 ::: dedication
@@ -479,15 +479,15 @@ The *Dionysus Program* is a strategy for infinite games. Infinite games don’t 
 \newpage
 ```
 
-### How To Read This Document
+### How to Read This Document
 
 This essay leans heavily on canonical versions of certain ideas and on naming the people who developed them: Carse on finite and infinite games, Popper on error-correction, Deutsch on explanations, Confucius on ritual (Li) and humaneness (Ren), Durkheim on anomie and social facts, Mauss on the gift, Girard on mimesis and scapegoats, Ibn Khaldun on group feeling (*Asabiyyah*), Weber and Michels on bureaucracy and oligarchy, Turner on ritual, Nietzsche on Apollo and Dionysus, Hegel on tragedy, Prigogine and Ohsumi on autophagy and dissipative structures, Taleb and Mandelbrot on volatility, roughness, and fractals, Eliade on sacred time and the temporal structure of myth, Wittgenstein on the foundational commitments every system lives from but cannot itself justify, plus classical patterns like Cincinnatus and Athenian sortition on how extraordinary authority should be granted and withdrawn. That is a design choice. These ideas have been argued, refined, and popularized in public for decades. As a result, large language models are unusually good at explaining them in whatever terms are most accessible to a particular reader—if the reader knows what to ask for.
 
-To make that work, give the model direct access to this document whenever possible: paste the full text (or the relevant sections) into the prompt, or use an AI-aware browser/reader that lets the model see the page you are currently viewing. NotebookLM by Google is a particularly good way to learn from and interact with the *Dionysus Program*. With the essay in context, the model can not only explain Popper, Durkheim, or Girard in your language; it can also show you precisely how those ideas are being used in the surrounding paragraphs, and it can do so with much leaner prompts.
+To make that work, give the model direct access to this document whenever possible: paste the full text (or the relevant sections) into the prompt, let it read the page you are currently viewing, or use the compressed context-ready text available on the website. The site includes a “Context” export you can download or copy directly; it exists so you can load a large share of the program into an LLM without manually trimming or reformatting the essay. With the essay or that compressed context in view, the model can not only explain Popper, Durkheim, or Girard in your language; it can also show you precisely how those ideas are being used in the surrounding paragraphs, and it can do so with much leaner prompts.
 
 If I tried to re-explain each of these frameworks “in my own words” for every background—engineer, operator, policymaker, theologian, teenager—the result would either be bloated, or tuned to one audience at the expense of the others. There is no single, static explanation that will be better than what a good model can generate on demand when it is pointed at the canonical authors, terms, and debates, and given the local context of the passage you are reading. By making the references explicit and relatively standard, I am optimizing this document for machine legibility so that you can call up a custom commentary layer that fits you.
 
-Practically, that means you should treat the named thinkers and key phrases here as handles. When something feels under-specified or oddly dense, the move is not to assume the concept is inaccessible; the move is to pause, select the relevant section, and ask an LLM—while it can “see” that section—to bridge the gap from your starting point, using the canonical frame. For example, you might paste a page that includes the anti-scapegoat and then say:
+Practically, that means you should treat the named thinkers and key phrases here as handles. When something feels under-specified or oddly dense, the move is not to assume the concept is inaccessible; the move is to pause, select the relevant section, and ask an LLM—while it can “see” that section—to bridge the gap from your starting point, using the canonical frame. If you want broad orientation first, start with the website’s compressed context text; if you want a close reading, give it the exact passage you are on. For example, you might paste a page that includes the anti-scapegoat and then say:
 
 > “Given the text above, explain René Girard’s theory of mimetic desire and scapegoating, and then show how the *Dionysus Program*’s ‘anti-scapegoat’ modifies it. Assume I am a [software engineer / product lead / city official] with no philosophy background. Use concrete, contemporary examples.”
 
