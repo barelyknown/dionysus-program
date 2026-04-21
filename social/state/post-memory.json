@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-04-19T16:19:48.445Z",
-  "published_count": 25,
+  "generated_at": "2026-04-21T13:12:33.496Z",
+  "published_count": 27,
   "rolling_window_days": 84,
   "typeCounts": {
-    "decoder_ring": 5,
-    "ritual_recipe": 4,
+    "decoder_ring": 6,
+    "ritual_recipe": 5,
     "extracted_insight": 5,
     "archetype_diagnosis": 4,
     "high_lindy_source_tour": 2,
@@ -869,6 +869,75 @@
       "x_final_text_hash": "bafdb6f6fcf92c77127e857c73042d4a5e496d4d1812938bbf1dc1b056d6e2a5",
       "x_summary": "Drift hardens in three steps: awkward, normal, moral.\n\nThat’s how trucks end up idling on a night paving job: the wrong call becomes the socially safe call. If truth only becomes speakable after the miss, the system is already late.",
       "x_skip_reason": null
+    },
+    {
+      "post_id": "019db027-0e02-7c3e-53fc-7b7791b97c22",
+      "external_post_id": "019db027-0e02-7c3e-53fc-7b7791b97c22",
+      "published_at": "2026-04-21T13:07:22.765Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "decoder_ring",
+      "pillar": "Decoder Ring",
+      "topic_thesis": "Waste is often an insurance policy against uncertainty, not simply an error.",
+      "angle": "Open on Amazon 2025 Letter to Shareholders in plain language, then show how it makes the deeper diagnosis legible.",
+      "hook": "Amazon is about to spend roughly $200B on capex in 2026, and the easy read—bloat—is the wrong one. In his shareholder letter, Andy Jassy is saying something plain: Amazon would rather risk overbuilding AI infrastructure than be caught short in a market that may move faster than forecasts.",
+      "summary": "Amazon is about to spend roughly $200B on capex in 2026, and the easy read—bloat—is the wrong one. In his shareholder letter, Andy Jassy is saying something plain: Amazon would rather risk overbuilding AI infrastructure than be caught short in a market that may move faster than f",
+      "source_refs": [
+        "https://www.aboutamazon.com/news/company-news/2025-letter-to-shareholders",
+        "https://openai.com/index/openai-acquires-tbpn/",
+        "https://www.annualreports.com/HostedData/AnnualReportArchive/a/NASDAQ_amzn_2025.pdf"
+      ],
+      "framework_terms_used": [
+        "li"
+      ],
+      "subject_entities": [
+        "Amazon"
+      ],
+      "timely_subject": "Amazon 2025 Letter to Shareholders",
+      "research_bundle_id": "7071bdf07006",
+      "winning_candidate_id": "248c90f6604a",
+      "final_text_hash": "d288ba19e15563355d8baf4170d7bb91750982c22c8fd7c3a287c985e657fe95",
+      "note_slug": "2026-04-21-waste-is-often-an-insurance-policy-against-uncertainty-not-simply-an-error",
+      "note_source_path": "content/notes/2026-04-21-waste-is-often-an-insurance-policy-against-uncertainty-not-simply-an-error.md",
+      "x_status": "published",
+      "x_external_post_id": "2046576936856535203",
+      "x_published_at": "2026-04-21T13:09:00.075Z",
+      "x_winning_candidate_id": "57276eaf1cfe",
+      "x_final_text_hash": "784544adab57fb5881c3bf8946e1212fab6917a3feda4c59582471376a0cdf87",
+      "x_summary": "By the time a capacity shortage is obvious, the real error is already old.\n\nAmazon’s $200B isn’t a forecast victory lap. It’s a hedge against the lag between seeing demand and being able to serve it.",
+      "x_skip_reason": null
+    },
+    {
+      "post_id": "019db029-b192-b3ff-3742-1564677248e6",
+      "external_post_id": "019db029-b192-b3ff-3742-1564677248e6",
+      "published_at": "2026-04-21T13:10:15.709Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "ritual_recipe",
+      "pillar": "Ritual Recipes",
+      "topic_thesis": "Deprecation Ceremonies, Scrap Heap Libraries, and Sunset Budgets turn dead structure into usable memory instead of haunted residue.",
+      "angle": "Start with a recurring problem and end with a usable move. Keep the framing specific to this thesis: Deprecation Ceremonies, Scrap Heap Libraries, and Sunset Budgets turn dead structure into usable memory instead of haunted residue.",
+      "hook": "The most expensive process in your company is usually the one nobody believes in but everyone still has to touch.",
+      "summary": "The most expensive process in your company is usually the one nobody believes in but everyone still has to touch.\n\nCommon mistake: you either leave dead structure in place out of politeness, or you delete it quietly and lose the lesson with it. That creates haunted residue: old p",
+      "source_refs": [],
+      "framework_terms_used": [
+        "trust",
+        "li"
+      ],
+      "subject_entities": [],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "39792ad11175",
+      "final_text_hash": "f39caf34c337129a64ef24512eb7225194f531b7ce8f129d1a1e9a59dbb1fc92",
+      "note_slug": "2026-04-21-deprecation-ceremonies-scrap-heap-libraries-and-sunset-budgets-turn-dead-structure-into-usable-memory-instead-of-haunted-residue",
+      "note_source_path": "content/notes/2026-04-21-deprecation-ceremonies-scrap-heap-libraries-and-sunset-budgets-turn-dead-structure-into-usable-memory-instead-of-haunted-residue.md",
+      "x_status": "published",
+      "x_external_post_id": "2046577831925215618",
+      "x_published_at": "2026-04-21T13:12:33.493Z",
+      "x_winning_candidate_id": "d70386a201ae",
+      "x_final_text_hash": "aa7c5de9fdfda836d891c91feb0d094122b3c39545e93adbf7ae9376fb18fcaf",
+      "x_summary": "Most process cost isn’t in the workflow. It’s in the residue.\n\nThe dashboard no one believes, the review ritual everyone performs anyway. Delete them quietly and they return as hidden policy. Removal needs a public ending, a record, and budget.",
+      "x_skip_reason": null
     }
   ],
   "recent_angles": [
@@ -1727,6 +1796,75 @@
       "x_winning_candidate_id": "839011210fc6",
       "x_final_text_hash": "bafdb6f6fcf92c77127e857c73042d4a5e496d4d1812938bbf1dc1b056d6e2a5",
       "x_summary": "Drift hardens in three steps: awkward, normal, moral.\n\nThat’s how trucks end up idling on a night paving job: the wrong call becomes the socially safe call. If truth only becomes speakable after the miss, the system is already late.",
+      "x_skip_reason": null
+    },
+    {
+      "post_id": "019db027-0e02-7c3e-53fc-7b7791b97c22",
+      "external_post_id": "019db027-0e02-7c3e-53fc-7b7791b97c22",
+      "published_at": "2026-04-21T13:07:22.765Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "decoder_ring",
+      "pillar": "Decoder Ring",
+      "topic_thesis": "Waste is often an insurance policy against uncertainty, not simply an error.",
+      "angle": "Open on Amazon 2025 Letter to Shareholders in plain language, then show how it makes the deeper diagnosis legible.",
+      "hook": "Amazon is about to spend roughly $200B on capex in 2026, and the easy read—bloat—is the wrong one. In his shareholder letter, Andy Jassy is saying something plain: Amazon would rather risk overbuilding AI infrastructure than be caught short in a market that may move faster than forecasts.",
+      "summary": "Amazon is about to spend roughly $200B on capex in 2026, and the easy read—bloat—is the wrong one. In his shareholder letter, Andy Jassy is saying something plain: Amazon would rather risk overbuilding AI infrastructure than be caught short in a market that may move faster than f",
+      "source_refs": [
+        "https://www.aboutamazon.com/news/company-news/2025-letter-to-shareholders",
+        "https://openai.com/index/openai-acquires-tbpn/",
+        "https://www.annualreports.com/HostedData/AnnualReportArchive/a/NASDAQ_amzn_2025.pdf"
+      ],
+      "framework_terms_used": [
+        "li"
+      ],
+      "subject_entities": [
+        "Amazon"
+      ],
+      "timely_subject": "Amazon 2025 Letter to Shareholders",
+      "research_bundle_id": "7071bdf07006",
+      "winning_candidate_id": "248c90f6604a",
+      "final_text_hash": "d288ba19e15563355d8baf4170d7bb91750982c22c8fd7c3a287c985e657fe95",
+      "note_slug": "2026-04-21-waste-is-often-an-insurance-policy-against-uncertainty-not-simply-an-error",
+      "note_source_path": "content/notes/2026-04-21-waste-is-often-an-insurance-policy-against-uncertainty-not-simply-an-error.md",
+      "x_status": "published",
+      "x_external_post_id": "2046576936856535203",
+      "x_published_at": "2026-04-21T13:09:00.075Z",
+      "x_winning_candidate_id": "57276eaf1cfe",
+      "x_final_text_hash": "784544adab57fb5881c3bf8946e1212fab6917a3feda4c59582471376a0cdf87",
+      "x_summary": "By the time a capacity shortage is obvious, the real error is already old.\n\nAmazon’s $200B isn’t a forecast victory lap. It’s a hedge against the lag between seeing demand and being able to serve it.",
+      "x_skip_reason": null
+    },
+    {
+      "post_id": "019db029-b192-b3ff-3742-1564677248e6",
+      "external_post_id": "019db029-b192-b3ff-3742-1564677248e6",
+      "published_at": "2026-04-21T13:10:15.709Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "ritual_recipe",
+      "pillar": "Ritual Recipes",
+      "topic_thesis": "Deprecation Ceremonies, Scrap Heap Libraries, and Sunset Budgets turn dead structure into usable memory instead of haunted residue.",
+      "angle": "Start with a recurring problem and end with a usable move. Keep the framing specific to this thesis: Deprecation Ceremonies, Scrap Heap Libraries, and Sunset Budgets turn dead structure into usable memory instead of haunted residue.",
+      "hook": "The most expensive process in your company is usually the one nobody believes in but everyone still has to touch.",
+      "summary": "The most expensive process in your company is usually the one nobody believes in but everyone still has to touch.\n\nCommon mistake: you either leave dead structure in place out of politeness, or you delete it quietly and lose the lesson with it. That creates haunted residue: old p",
+      "source_refs": [],
+      "framework_terms_used": [
+        "trust",
+        "li"
+      ],
+      "subject_entities": [],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "39792ad11175",
+      "final_text_hash": "f39caf34c337129a64ef24512eb7225194f531b7ce8f129d1a1e9a59dbb1fc92",
+      "note_slug": "2026-04-21-deprecation-ceremonies-scrap-heap-libraries-and-sunset-budgets-turn-dead-structure-into-usable-memory-instead-of-haunted-residue",
+      "note_source_path": "content/notes/2026-04-21-deprecation-ceremonies-scrap-heap-libraries-and-sunset-budgets-turn-dead-structure-into-usable-memory-instead-of-haunted-residue.md",
+      "x_status": "published",
+      "x_external_post_id": "2046577831925215618",
+      "x_published_at": "2026-04-21T13:12:33.493Z",
+      "x_winning_candidate_id": "d70386a201ae",
+      "x_final_text_hash": "aa7c5de9fdfda836d891c91feb0d094122b3c39545e93adbf7ae9376fb18fcaf",
+      "x_summary": "Most process cost isn’t in the workflow. It’s in the residue.\n\nThe dashboard no one believes, the review ritual everyone performs anyway. Delete them quietly and they return as hidden policy. Removal needs a public ending, a record, and budget.",
       "x_skip_reason": null
     }
   ],
@@ -2587,39 +2725,78 @@
       "x_final_text_hash": "bafdb6f6fcf92c77127e857c73042d4a5e496d4d1812938bbf1dc1b056d6e2a5",
       "x_summary": "Drift hardens in three steps: awkward, normal, moral.\n\nThat’s how trucks end up idling on a night paving job: the wrong call becomes the socially safe call. If truth only becomes speakable after the miss, the system is already late.",
       "x_skip_reason": null
-    }
-  ],
-  "recent_subjects": [
+    },
     {
-      "post_id": "019d0b54-ee4a-19c8-6888-3c80c86aa6a9",
-      "external_post_id": "019d0b54-ee4a-19c8-6888-3c80c86aa6a9",
-      "published_at": "2026-03-20T13:00:08.692Z",
+      "post_id": "019db027-0e02-7c3e-53fc-7b7791b97c22",
+      "external_post_id": "019db027-0e02-7c3e-53fc-7b7791b97c22",
+      "published_at": "2026-04-21T13:07:22.765Z",
       "linkedin_post_url": null,
       "linkedin_activity_urn": null,
-      "content_type": "high_lindy_source_tour",
-      "pillar": "High-Lindy Source Tour Guide",
-      "topic_thesis": "Knowledge and myth solve different problems, and organizations fail when they confuse them.",
-      "angle": "The old source is not the point; present relevance is.",
-      "hook": "When a company says “we are what we know,” it is one technical shift away from panic.",
-      "summary": "When a company says “we are what we know,” it is one technical shift away from panic.\n\nMircea Eliade drew a useful line: knowledge explains the world and ages with it. Myth does something else. It tells people who they are and how to act, so it does not expire on the same clock.\n",
-      "source_refs": [],
+      "content_type": "decoder_ring",
+      "pillar": "Decoder Ring",
+      "topic_thesis": "Waste is often an insurance policy against uncertainty, not simply an error.",
+      "angle": "Open on Amazon 2025 Letter to Shareholders in plain language, then show how it makes the deeper diagnosis legible.",
+      "hook": "Amazon is about to spend roughly $200B on capex in 2026, and the easy read—bloat—is the wrong one. In his shareholder letter, Andy Jassy is saying something plain: Amazon would rather risk overbuilding AI infrastructure than be caught short in a market that may move faster than forecasts.",
+      "summary": "Amazon is about to spend roughly $200B on capex in 2026, and the easy read—bloat—is the wrong one. In his shareholder letter, Andy Jassy is saying something plain: Amazon would rather risk overbuilding AI infrastructure than be caught short in a market that may move faster than f",
+      "source_refs": [
+        "https://www.aboutamazon.com/news/company-news/2025-letter-to-shareholders",
+        "https://openai.com/index/openai-acquires-tbpn/",
+        "https://www.annualreports.com/HostedData/AnnualReportArchive/a/NASDAQ_amzn_2025.pdf"
+      ],
       "framework_terms_used": [
         "li"
       ],
-      "timely_subject": null,
-      "research_bundle_id": null,
-      "winning_candidate_id": "6a86827199c5",
-      "final_text_hash": "8b67355a8d842972dffd9c6e2c87ca952cf546af23eb234ad4ca6185af404f7e",
-      "note_slug": "2026-03-20-when-a-company-says-we-are-what-we-know-it-is-one-technical-shift-away-from-panic",
-      "note_source_path": "content/notes/2026-03-20-when-a-company-says-we-are-what-we-know-it-is-one-technical-shift-away-from-panic.md",
+      "subject_entities": [
+        "Amazon"
+      ],
+      "timely_subject": "Amazon 2025 Letter to Shareholders",
+      "research_bundle_id": "7071bdf07006",
+      "winning_candidate_id": "248c90f6604a",
+      "final_text_hash": "d288ba19e15563355d8baf4170d7bb91750982c22c8fd7c3a287c985e657fe95",
+      "note_slug": "2026-04-21-waste-is-often-an-insurance-policy-against-uncertainty-not-simply-an-error",
+      "note_source_path": "content/notes/2026-04-21-waste-is-often-an-insurance-policy-against-uncertainty-not-simply-an-error.md",
       "x_status": "published",
-      "x_external_post_id": "2034978650777690421",
-      "x_published_at": "2026-03-20T13:01:33.191Z",
-      "x_winning_candidate_id": "b4cddc999001",
-      "x_final_text_hash": "dbbead41438fd4a200530be5c8a6265794a86437c83b53a4771f482199848966",
-      "x_summary": "The cost of tying identity to know-how stays hidden until the know-how gets cheaper.\n\nA team built on being the smartest analysts in the room meets a model that drafts in seconds. Then the fight isn't about quality. It's humiliation dressed up as standards.",
+      "x_external_post_id": "2046576936856535203",
+      "x_published_at": "2026-04-21T13:09:00.075Z",
+      "x_winning_candidate_id": "57276eaf1cfe",
+      "x_final_text_hash": "784544adab57fb5881c3bf8946e1212fab6917a3feda4c59582471376a0cdf87",
+      "x_summary": "By the time a capacity shortage is obvious, the real error is already old.\n\nAmazon’s $200B isn’t a forecast victory lap. It’s a hedge against the lag between seeing demand and being able to serve it.",
       "x_skip_reason": null
     },
+    {
+      "post_id": "019db029-b192-b3ff-3742-1564677248e6",
+      "external_post_id": "019db029-b192-b3ff-3742-1564677248e6",
+      "published_at": "2026-04-21T13:10:15.709Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "ritual_recipe",
+      "pillar": "Ritual Recipes",
+      "topic_thesis": "Deprecation Ceremonies, Scrap Heap Libraries, and Sunset Budgets turn dead structure into usable memory instead of haunted residue.",
+      "angle": "Start with a recurring problem and end with a usable move. Keep the framing specific to this thesis: Deprecation Ceremonies, Scrap Heap Libraries, and Sunset Budgets turn dead structure into usable memory instead of haunted residue.",
+      "hook": "The most expensive process in your company is usually the one nobody believes in but everyone still has to touch.",
+      "summary": "The most expensive process in your company is usually the one nobody believes in but everyone still has to touch.\n\nCommon mistake: you either leave dead structure in place out of politeness, or you delete it quietly and lose the lesson with it. That creates haunted residue: old p",
+      "source_refs": [],
+      "framework_terms_used": [
+        "trust",
+        "li"
+      ],
+      "subject_entities": [],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "39792ad11175",
+      "final_text_hash": "f39caf34c337129a64ef24512eb7225194f531b7ce8f129d1a1e9a59dbb1fc92",
+      "note_slug": "2026-04-21-deprecation-ceremonies-scrap-heap-libraries-and-sunset-budgets-turn-dead-structure-into-usable-memory-instead-of-haunted-residue",
+      "note_source_path": "content/notes/2026-04-21-deprecation-ceremonies-scrap-heap-libraries-and-sunset-budgets-turn-dead-structure-into-usable-memory-instead-of-haunted-residue.md",
+      "x_status": "published",
+      "x_external_post_id": "2046577831925215618",
+      "x_published_at": "2026-04-21T13:12:33.493Z",
+      "x_winning_candidate_id": "d70386a201ae",
+      "x_final_text_hash": "aa7c5de9fdfda836d891c91feb0d094122b3c39545e93adbf7ae9376fb18fcaf",
+      "x_summary": "Most process cost isn’t in the workflow. It’s in the residue.\n\nThe dashboard no one believes, the review ritual everyone performs anyway. Delete them quietly and they return as hidden policy. Removal needs a public ending, a record, and budget.",
+      "x_skip_reason": null
+    }
+  ],
+  "recent_subjects": [
     {
       "post_id": "019d1b16-a489-7e26-3ce0-49369c9a9cc3",
       "external_post_id": "019d1b16-a489-7e26-3ce0-49369c9a9cc3",
@@ -3288,47 +3465,78 @@
       "x_final_text_hash": "bafdb6f6fcf92c77127e857c73042d4a5e496d4d1812938bbf1dc1b056d6e2a5",
       "x_summary": "Drift hardens in three steps: awkward, normal, moral.\n\nThat’s how trucks end up idling on a night paving job: the wrong call becomes the socially safe call. If truth only becomes speakable after the miss, the system is already late.",
       "x_skip_reason": null
-    }
-  ],
-  "recent_sources": [
+    },
     {
-      "post_id": "019d3edb-4b69-a084-7520-4c1dc07bacbe",
-      "external_post_id": "019d3edb-4b69-a084-7520-4c1dc07bacbe",
-      "published_at": "2026-03-30T13:07:32.349Z",
+      "post_id": "019db027-0e02-7c3e-53fc-7b7791b97c22",
+      "external_post_id": "019db027-0e02-7c3e-53fc-7b7791b97c22",
+      "published_at": "2026-04-21T13:07:22.765Z",
       "linkedin_post_url": null,
       "linkedin_activity_urn": null,
       "content_type": "decoder_ring",
       "pillar": "Decoder Ring",
-      "topic_thesis": "The Apollo Program is necessary but insufficient because optimization cannot metabolize meaning.",
-      "angle": "Open on Klarna CEO says company went too far in cutting customer service staff with AI in plain language, then show how it makes the deeper diagnosis legible.",
-      "hook": "Sebastian Siemiatkowski said Klarna went too far cutting customer service with AI, and quality suffered. That is not a customer support story. It is a management story.",
-      "summary": "Sebastian Siemiatkowski said Klarna went too far cutting customer service with AI, and quality suffered. That is not a customer support story. It is a management story.\n\nWhat people miss is the failure mode. The model did not simply “underperform.” Klarna made cost the dominant m",
+      "topic_thesis": "Waste is often an insurance policy against uncertainty, not simply an error.",
+      "angle": "Open on Amazon 2025 Letter to Shareholders in plain language, then show how it makes the deeper diagnosis legible.",
+      "hook": "Amazon is about to spend roughly $200B on capex in 2026, and the easy read—bloat—is the wrong one. In his shareholder letter, Andy Jassy is saying something plain: Amazon would rather risk overbuilding AI infrastructure than be caught short in a market that may move faster than forecasts.",
+      "summary": "Amazon is about to spend roughly $200B on capex in 2026, and the easy read—bloat—is the wrong one. In his shareholder letter, Andy Jassy is saying something plain: Amazon would rather risk overbuilding AI infrastructure than be caught short in a market that may move faster than f",
       "source_refs": [
-        "https://www.reuters.com/technology/artificial-intelligence/klarna-ceo-says-company-went-too-far-cutting-customer-service-staff-ai-2026-03-24/",
-        "https://www.reuters.com/legal/judge-blocks-us-ban-anthropic-ai-firm-after-pentagon-dispute-2026-03-26/",
-        "https://www.klarna.com/international/press/klarna-ai-assistant-handles-two-thirds-of-customer-service-chats-in-its-first-month/",
-        "https://www.anthropic.com/news/anthropic-partners-with-palantir-and-aws-to-provide-u-s-intelligence-and-defense-agencies-access-to-claude",
-        "https://openai.com/index/openai-and-anthropic-agree-to-work-with-us-ai-safety-institute-on-pre-release-testing/"
+        "https://www.aboutamazon.com/news/company-news/2025-letter-to-shareholders",
+        "https://openai.com/index/openai-acquires-tbpn/",
+        "https://www.annualreports.com/HostedData/AnnualReportArchive/a/NASDAQ_amzn_2025.pdf"
       ],
       "framework_terms_used": [
-        "trust",
-        "li",
-        "ren"
+        "li"
       ],
-      "timely_subject": "Klarna CEO says company went too far in cutting customer service staff with AI",
-      "research_bundle_id": "fd50544be6d0",
-      "winning_candidate_id": "77db5e0b4123",
-      "final_text_hash": "820a5a15dca4ca52c0b69c1b812157e1cc00bde9ff776a6ef1c918c2d5966f2f",
-      "note_slug": "2026-03-30-the-apollo-program-is-necessary-but-insufficient-because-optimization-cannot-metabolize-meaning",
-      "note_source_path": "content/notes/2026-03-30-the-apollo-program-is-necessary-but-insufficient-because-optimization-cannot-metabolize-meaning.md",
+      "subject_entities": [
+        "Amazon"
+      ],
+      "timely_subject": "Amazon 2025 Letter to Shareholders",
+      "research_bundle_id": "7071bdf07006",
+      "winning_candidate_id": "248c90f6604a",
+      "final_text_hash": "d288ba19e15563355d8baf4170d7bb91750982c22c8fd7c3a287c985e657fe95",
+      "note_slug": "2026-04-21-waste-is-often-an-insurance-policy-against-uncertainty-not-simply-an-error",
+      "note_source_path": "content/notes/2026-04-21-waste-is-often-an-insurance-policy-against-uncertainty-not-simply-an-error.md",
       "x_status": "published",
-      "x_external_post_id": "2038604454153314497",
-      "x_published_at": "2026-03-30T13:09:12.097Z",
-      "x_winning_candidate_id": "dd14e8645577",
-      "x_final_text_hash": "86b9435f1ebe997d0ffc1a54b44f2ee8af23a2207440aa9e7267ff0a330e258c",
-      "x_summary": "Klarna’s mistake wasn’t using AI in support. It was redefining support as answer retrieval.\n\nOnce cost becomes the dominant metric, the function shrinks. You don’t just lose warmth. You lose the place where a company absorbs fear, exceptions, and blame.",
+      "x_external_post_id": "2046576936856535203",
+      "x_published_at": "2026-04-21T13:09:00.075Z",
+      "x_winning_candidate_id": "57276eaf1cfe",
+      "x_final_text_hash": "784544adab57fb5881c3bf8946e1212fab6917a3feda4c59582471376a0cdf87",
+      "x_summary": "By the time a capacity shortage is obvious, the real error is already old.\n\nAmazon’s $200B isn’t a forecast victory lap. It’s a hedge against the lag between seeing demand and being able to serve it.",
       "x_skip_reason": null
     },
+    {
+      "post_id": "019db029-b192-b3ff-3742-1564677248e6",
+      "external_post_id": "019db029-b192-b3ff-3742-1564677248e6",
+      "published_at": "2026-04-21T13:10:15.709Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "ritual_recipe",
+      "pillar": "Ritual Recipes",
+      "topic_thesis": "Deprecation Ceremonies, Scrap Heap Libraries, and Sunset Budgets turn dead structure into usable memory instead of haunted residue.",
+      "angle": "Start with a recurring problem and end with a usable move. Keep the framing specific to this thesis: Deprecation Ceremonies, Scrap Heap Libraries, and Sunset Budgets turn dead structure into usable memory instead of haunted residue.",
+      "hook": "The most expensive process in your company is usually the one nobody believes in but everyone still has to touch.",
+      "summary": "The most expensive process in your company is usually the one nobody believes in but everyone still has to touch.\n\nCommon mistake: you either leave dead structure in place out of politeness, or you delete it quietly and lose the lesson with it. That creates haunted residue: old p",
+      "source_refs": [],
+      "framework_terms_used": [
+        "trust",
+        "li"
+      ],
+      "subject_entities": [],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "39792ad11175",
+      "final_text_hash": "f39caf34c337129a64ef24512eb7225194f531b7ce8f129d1a1e9a59dbb1fc92",
+      "note_slug": "2026-04-21-deprecation-ceremonies-scrap-heap-libraries-and-sunset-budgets-turn-dead-structure-into-usable-memory-instead-of-haunted-residue",
+      "note_source_path": "content/notes/2026-04-21-deprecation-ceremonies-scrap-heap-libraries-and-sunset-budgets-turn-dead-structure-into-usable-memory-instead-of-haunted-residue.md",
+      "x_status": "published",
+      "x_external_post_id": "2046577831925215618",
+      "x_published_at": "2026-04-21T13:12:33.493Z",
+      "x_winning_candidate_id": "d70386a201ae",
+      "x_final_text_hash": "aa7c5de9fdfda836d891c91feb0d094122b3c39545e93adbf7ae9376fb18fcaf",
+      "x_summary": "Most process cost isn’t in the workflow. It’s in the residue.\n\nThe dashboard no one believes, the review ritual everyone performs anyway. Delete them quietly and they return as hidden policy. Removal needs a public ending, a record, and budget.",
+      "x_skip_reason": null
+    }
+  ],
+  "recent_sources": [
     {
       "post_id": "019d43fb-ee23-6ec5-a55d-6b1d90391b06",
       "external_post_id": "019d43fb-ee23-6ec5-a55d-6b1d90391b06",
@@ -3795,6 +4003,75 @@
       "x_final_text_hash": "bafdb6f6fcf92c77127e857c73042d4a5e496d4d1812938bbf1dc1b056d6e2a5",
       "x_summary": "Drift hardens in three steps: awkward, normal, moral.\n\nThat’s how trucks end up idling on a night paving job: the wrong call becomes the socially safe call. If truth only becomes speakable after the miss, the system is already late.",
       "x_skip_reason": null
+    },
+    {
+      "post_id": "019db027-0e02-7c3e-53fc-7b7791b97c22",
+      "external_post_id": "019db027-0e02-7c3e-53fc-7b7791b97c22",
+      "published_at": "2026-04-21T13:07:22.765Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "decoder_ring",
+      "pillar": "Decoder Ring",
+      "topic_thesis": "Waste is often an insurance policy against uncertainty, not simply an error.",
+      "angle": "Open on Amazon 2025 Letter to Shareholders in plain language, then show how it makes the deeper diagnosis legible.",
+      "hook": "Amazon is about to spend roughly $200B on capex in 2026, and the easy read—bloat—is the wrong one. In his shareholder letter, Andy Jassy is saying something plain: Amazon would rather risk overbuilding AI infrastructure than be caught short in a market that may move faster than forecasts.",
+      "summary": "Amazon is about to spend roughly $200B on capex in 2026, and the easy read—bloat—is the wrong one. In his shareholder letter, Andy Jassy is saying something plain: Amazon would rather risk overbuilding AI infrastructure than be caught short in a market that may move faster than f",
+      "source_refs": [
+        "https://www.aboutamazon.com/news/company-news/2025-letter-to-shareholders",
+        "https://openai.com/index/openai-acquires-tbpn/",
+        "https://www.annualreports.com/HostedData/AnnualReportArchive/a/NASDAQ_amzn_2025.pdf"
+      ],
+      "framework_terms_used": [
+        "li"
+      ],
+      "subject_entities": [
+        "Amazon"
+      ],
+      "timely_subject": "Amazon 2025 Letter to Shareholders",
+      "research_bundle_id": "7071bdf07006",
+      "winning_candidate_id": "248c90f6604a",
+      "final_text_hash": "d288ba19e15563355d8baf4170d7bb91750982c22c8fd7c3a287c985e657fe95",
+      "note_slug": "2026-04-21-waste-is-often-an-insurance-policy-against-uncertainty-not-simply-an-error",
+      "note_source_path": "content/notes/2026-04-21-waste-is-often-an-insurance-policy-against-uncertainty-not-simply-an-error.md",
+      "x_status": "published",
+      "x_external_post_id": "2046576936856535203",
+      "x_published_at": "2026-04-21T13:09:00.075Z",
+      "x_winning_candidate_id": "57276eaf1cfe",
+      "x_final_text_hash": "784544adab57fb5881c3bf8946e1212fab6917a3feda4c59582471376a0cdf87",
+      "x_summary": "By the time a capacity shortage is obvious, the real error is already old.\n\nAmazon’s $200B isn’t a forecast victory lap. It’s a hedge against the lag between seeing demand and being able to serve it.",
+      "x_skip_reason": null
+    },
+    {
+      "post_id": "019db029-b192-b3ff-3742-1564677248e6",
+      "external_post_id": "019db029-b192-b3ff-3742-1564677248e6",
+      "published_at": "2026-04-21T13:10:15.709Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "ritual_recipe",
+      "pillar": "Ritual Recipes",
+      "topic_thesis": "Deprecation Ceremonies, Scrap Heap Libraries, and Sunset Budgets turn dead structure into usable memory instead of haunted residue.",
+      "angle": "Start with a recurring problem and end with a usable move. Keep the framing specific to this thesis: Deprecation Ceremonies, Scrap Heap Libraries, and Sunset Budgets turn dead structure into usable memory instead of haunted residue.",
+      "hook": "The most expensive process in your company is usually the one nobody believes in but everyone still has to touch.",
+      "summary": "The most expensive process in your company is usually the one nobody believes in but everyone still has to touch.\n\nCommon mistake: you either leave dead structure in place out of politeness, or you delete it quietly and lose the lesson with it. That creates haunted residue: old p",
+      "source_refs": [],
+      "framework_terms_used": [
+        "trust",
+        "li"
+      ],
+      "subject_entities": [],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "39792ad11175",
+      "final_text_hash": "f39caf34c337129a64ef24512eb7225194f531b7ce8f129d1a1e9a59dbb1fc92",
+      "note_slug": "2026-04-21-deprecation-ceremonies-scrap-heap-libraries-and-sunset-budgets-turn-dead-structure-into-usable-memory-instead-of-haunted-residue",
+      "note_source_path": "content/notes/2026-04-21-deprecation-ceremonies-scrap-heap-libraries-and-sunset-budgets-turn-dead-structure-into-usable-memory-instead-of-haunted-residue.md",
+      "x_status": "published",
+      "x_external_post_id": "2046577831925215618",
+      "x_published_at": "2026-04-21T13:12:33.493Z",
+      "x_winning_candidate_id": "d70386a201ae",
+      "x_final_text_hash": "aa7c5de9fdfda836d891c91feb0d094122b3c39545e93adbf7ae9376fb18fcaf",
+      "x_summary": "Most process cost isn’t in the workflow. It’s in the residue.\n\nThe dashboard no one believes, the review ritual everyone performs anyway. Delete them quietly and they return as hidden policy. Removal needs a public ending, a record, and budget.",
+      "x_skip_reason": null
     }
   ],
   "recent_entities": [
@@ -3915,6 +4192,43 @@
       "x_winning_candidate_id": "0a727d39f996",
       "x_final_text_hash": "8d46a7b155cc6656d8223cf63696ee51bd58d231eb550b7fa127c7daf07b66b1",
       "x_summary": "Code leaks hurt once. Scapegoating makes you pay twice.\n\nA public npm package exposed part of Claude Code. That’s fixable. Training the org to hide bad signals after embarrassment is not. The real asset is the ability to tell the truth before the next failure compounds.",
+      "x_skip_reason": null
+    },
+    {
+      "post_id": "019db027-0e02-7c3e-53fc-7b7791b97c22",
+      "external_post_id": "019db027-0e02-7c3e-53fc-7b7791b97c22",
+      "published_at": "2026-04-21T13:07:22.765Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "decoder_ring",
+      "pillar": "Decoder Ring",
+      "topic_thesis": "Waste is often an insurance policy against uncertainty, not simply an error.",
+      "angle": "Open on Amazon 2025 Letter to Shareholders in plain language, then show how it makes the deeper diagnosis legible.",
+      "hook": "Amazon is about to spend roughly $200B on capex in 2026, and the easy read—bloat—is the wrong one. In his shareholder letter, Andy Jassy is saying something plain: Amazon would rather risk overbuilding AI infrastructure than be caught short in a market that may move faster than forecasts.",
+      "summary": "Amazon is about to spend roughly $200B on capex in 2026, and the easy read—bloat—is the wrong one. In his shareholder letter, Andy Jassy is saying something plain: Amazon would rather risk overbuilding AI infrastructure than be caught short in a market that may move faster than f",
+      "source_refs": [
+        "https://www.aboutamazon.com/news/company-news/2025-letter-to-shareholders",
+        "https://openai.com/index/openai-acquires-tbpn/",
+        "https://www.annualreports.com/HostedData/AnnualReportArchive/a/NASDAQ_amzn_2025.pdf"
+      ],
+      "framework_terms_used": [
+        "li"
+      ],
+      "subject_entities": [
+        "Amazon"
+      ],
+      "timely_subject": "Amazon 2025 Letter to Shareholders",
+      "research_bundle_id": "7071bdf07006",
+      "winning_candidate_id": "248c90f6604a",
+      "final_text_hash": "d288ba19e15563355d8baf4170d7bb91750982c22c8fd7c3a287c985e657fe95",
+      "note_slug": "2026-04-21-waste-is-often-an-insurance-policy-against-uncertainty-not-simply-an-error",
+      "note_source_path": "content/notes/2026-04-21-waste-is-often-an-insurance-policy-against-uncertainty-not-simply-an-error.md",
+      "x_status": "published",
+      "x_external_post_id": "2046576936856535203",
+      "x_published_at": "2026-04-21T13:09:00.075Z",
+      "x_winning_candidate_id": "57276eaf1cfe",
+      "x_final_text_hash": "784544adab57fb5881c3bf8946e1212fab6917a3feda4c59582471376a0cdf87",
+      "x_summary": "By the time a capacity shortage is obvious, the real error is already old.\n\nAmazon’s $200B isn’t a forecast victory lap. It’s a hedge against the lag between seeing demand and being able to serve it.",
       "x_skip_reason": null
     }
   ]
