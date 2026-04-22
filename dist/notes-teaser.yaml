@@ -1,6 +1,11 @@
 notes_archive_url: notes/index.html
 recent_notes_empty: false
 recent_notes:
+  - title: "Perfect compliance without soul has a name: the Village Honest Person"
+    display_date: April 22, 2026
+    url: notes/2026-04-22-perfect-compliance-without-soul-has-a-name-the-village-honest-person/index.html
+    excerpt: "Perfect compliance without soul has a name: the Village Honest Person."
+    pillar: Extracted Insights
   - title: Deprecation Ceremonies, Scrap Heap Libraries, and Sunset Budgets turn
       dead structure into usable memory instead of haunted residue
     display_date: April 21, 2026
@@ -15,8 +20,3 @@ recent_notes:
       read—bloat—is the wrong one. In his shareholder letter, Andy Jassy makes
       something plain: Amazon would rather risk overbuilding..."
     pillar: Decoder Ring
-  - title: You can feel drift before the dashboard can prove it
-    display_date: April 17, 2026
-    url: notes/2026-04-17-you-can-feel-drift-before-the-dashboard-can-prove-it/index.html
-    excerpt: You can feel drift before the dashboard can prove it.
-    pillar: Ritual Recipes
