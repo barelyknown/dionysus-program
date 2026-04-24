@@ -1,6 +1,13 @@
 notes_archive_url: notes/index.html
 recent_notes_empty: false
 recent_notes:
+  - title: The fastest way to poison trust is to build a myth that only works when
+      you’re winning
+    display_date: April 24, 2026
+    url: notes/2026-04-24-the-fastest-way-to-poison-trust-is-to-build-a-myth-that-only-works-when-you-re-winning/index.html
+    excerpt: The fastest way to poison trust is to build a myth that only works when
+      you’re winning.
+    pillar: Cautionary Tales
   - title: The Cincinnatus Rule means no one gets to live in the temple
     display_date: April 23, 2026
     url: notes/2026-04-23-the-cincinnatus-rule-means-no-one-gets-to-live-in-the-temple/index.html
@@ -12,10 +19,3 @@ recent_notes:
     url: notes/2026-04-22-perfect-compliance-without-soul-has-a-name-the-village-honest-person/index.html
     excerpt: "Perfect compliance without soul has a name: the Village Honest Person."
     pillar: Extracted Insights
-  - title: Deprecation Ceremonies, Scrap Heap Libraries, and Sunset Budgets turn
-      dead structure into usable memory instead of haunted residue
-    display_date: April 21, 2026
-    url: notes/2026-04-21-deprecation-ceremonies-scrap-heap-libraries-and-sunset-budgets-turn-dead-structure-into-usable-memory-instead-of-haunted-residue/index.html
-    excerpt: The most expensive process in a company is usually the one nobody
-      believes in but everyone still has to touch.
-    pillar: Ritual Recipes

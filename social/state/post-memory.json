@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-23T13:03:14.520Z",
-  "published_count": 29,
+  "generated_at": "2026-04-24T13:03:20.600Z",
+  "published_count": 30,
   "rolling_window_days": 84,
   "typeCounts": {
     "decoder_ring": 6,
@@ -9,7 +9,7 @@
     "archetype_diagnosis": 4,
     "high_lindy_source_tour": 3,
     "from_the_mailbag": 2,
-    "cautionary_tale": 2,
+    "cautionary_tale": 3,
     "short_story": 1
   },
   "recent_hooks": [
@@ -1002,6 +1002,38 @@
       "x_winning_candidate_id": "162e1cb34671",
       "x_final_text_hash": "cb6adb1c2244e97005018419b6a3602a03c29f94333022d9812ceef086ba8018",
       "x_summary": "Stewardship is useful. A stewardship class is fatal.\n\nOne helps a company cross a rupture. The other turns change into a permanent specialty for people who never carry quota, ship product, or run teams under the new reality.",
+      "x_skip_reason": null
+    },
+    {
+      "post_id": "019dbf94-8827-25ce-ca94-5906ba681302",
+      "external_post_id": "019dbf94-8827-25ce-ca94-5906ba681302",
+      "published_at": "2026-04-24T13:01:15.708Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "cautionary_tale",
+      "pillar": "Cautionary Tales",
+      "topic_thesis": "A myth should absorb failure as well as success, or it will betray the group when pressure rises.",
+      "angle": "Open on the false solution, then name the trust cost it creates.",
+      "hook": "The fastest way to poison trust is to build a myth that only works when you’re winning.",
+      "summary": "The fastest way to poison trust is to build a myth that only works when you’re winning.\n\nA lot of teams do this without realizing it. They install some version of “we’re the best,” “we always find a way,” or “we don’t miss.” It feels stabilizing. It is not. It trains people to hi",
+      "source_refs": [],
+      "framework_terms_used": [
+        "trust",
+        "li"
+      ],
+      "subject_entities": [],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "6c1f64798855",
+      "final_text_hash": "1683ec576bfba4096ed6b25b7cc0f67ca6c96877698f7e4148cef2048840366e",
+      "note_slug": "2026-04-24-the-fastest-way-to-poison-trust-is-to-build-a-myth-that-only-works-when-you-re-winning",
+      "note_source_path": "content/notes/2026-04-24-the-fastest-way-to-poison-trust-is-to-build-a-myth-that-only-works-when-you-re-winning.md",
+      "x_status": "published",
+      "x_external_post_id": "2047662676612960683",
+      "x_published_at": "2026-04-24T13:03:20.594Z",
+      "x_winning_candidate_id": "25a28f9fc916",
+      "x_final_text_hash": "bc7c205992402a31b28ce7c55cf36664e03723e8320b0ee780a6fe16f5d1ff1d",
+      "x_summary": "The cost of an invincibility story isn’t arrogance. It’s silence.\n\nWhen the line is “we don’t miss,” missed shots stop getting named. By the time the quarter goes red, people have already stopped bringing truth into the room.\n\nThat’s the trust loss.",
       "x_skip_reason": null
     }
   ],
@@ -1996,6 +2028,38 @@
       "x_final_text_hash": "cb6adb1c2244e97005018419b6a3602a03c29f94333022d9812ceef086ba8018",
       "x_summary": "Stewardship is useful. A stewardship class is fatal.\n\nOne helps a company cross a rupture. The other turns change into a permanent specialty for people who never carry quota, ship product, or run teams under the new reality.",
       "x_skip_reason": null
+    },
+    {
+      "post_id": "019dbf94-8827-25ce-ca94-5906ba681302",
+      "external_post_id": "019dbf94-8827-25ce-ca94-5906ba681302",
+      "published_at": "2026-04-24T13:01:15.708Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "cautionary_tale",
+      "pillar": "Cautionary Tales",
+      "topic_thesis": "A myth should absorb failure as well as success, or it will betray the group when pressure rises.",
+      "angle": "Open on the false solution, then name the trust cost it creates.",
+      "hook": "The fastest way to poison trust is to build a myth that only works when you’re winning.",
+      "summary": "The fastest way to poison trust is to build a myth that only works when you’re winning.\n\nA lot of teams do this without realizing it. They install some version of “we’re the best,” “we always find a way,” or “we don’t miss.” It feels stabilizing. It is not. It trains people to hi",
+      "source_refs": [],
+      "framework_terms_used": [
+        "trust",
+        "li"
+      ],
+      "subject_entities": [],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "6c1f64798855",
+      "final_text_hash": "1683ec576bfba4096ed6b25b7cc0f67ca6c96877698f7e4148cef2048840366e",
+      "note_slug": "2026-04-24-the-fastest-way-to-poison-trust-is-to-build-a-myth-that-only-works-when-you-re-winning",
+      "note_source_path": "content/notes/2026-04-24-the-fastest-way-to-poison-trust-is-to-build-a-myth-that-only-works-when-you-re-winning.md",
+      "x_status": "published",
+      "x_external_post_id": "2047662676612960683",
+      "x_published_at": "2026-04-24T13:03:20.594Z",
+      "x_winning_candidate_id": "25a28f9fc916",
+      "x_final_text_hash": "bc7c205992402a31b28ce7c55cf36664e03723e8320b0ee780a6fe16f5d1ff1d",
+      "x_summary": "The cost of an invincibility story isn’t arrogance. It’s silence.\n\nWhen the line is “we don’t miss,” missed shots stop getting named. By the time the quarter goes red, people have already stopped bringing truth into the room.\n\nThat’s the trust loss.",
+      "x_skip_reason": null
     }
   ],
   "recent_topics": [
@@ -2989,76 +3053,41 @@
       "x_final_text_hash": "cb6adb1c2244e97005018419b6a3602a03c29f94333022d9812ceef086ba8018",
       "x_summary": "Stewardship is useful. A stewardship class is fatal.\n\nOne helps a company cross a rupture. The other turns change into a permanent specialty for people who never carry quota, ship product, or run teams under the new reality.",
       "x_skip_reason": null
+    },
+    {
+      "post_id": "019dbf94-8827-25ce-ca94-5906ba681302",
+      "external_post_id": "019dbf94-8827-25ce-ca94-5906ba681302",
+      "published_at": "2026-04-24T13:01:15.708Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "cautionary_tale",
+      "pillar": "Cautionary Tales",
+      "topic_thesis": "A myth should absorb failure as well as success, or it will betray the group when pressure rises.",
+      "angle": "Open on the false solution, then name the trust cost it creates.",
+      "hook": "The fastest way to poison trust is to build a myth that only works when you’re winning.",
+      "summary": "The fastest way to poison trust is to build a myth that only works when you’re winning.\n\nA lot of teams do this without realizing it. They install some version of “we’re the best,” “we always find a way,” or “we don’t miss.” It feels stabilizing. It is not. It trains people to hi",
+      "source_refs": [],
+      "framework_terms_used": [
+        "trust",
+        "li"
+      ],
+      "subject_entities": [],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "6c1f64798855",
+      "final_text_hash": "1683ec576bfba4096ed6b25b7cc0f67ca6c96877698f7e4148cef2048840366e",
+      "note_slug": "2026-04-24-the-fastest-way-to-poison-trust-is-to-build-a-myth-that-only-works-when-you-re-winning",
+      "note_source_path": "content/notes/2026-04-24-the-fastest-way-to-poison-trust-is-to-build-a-myth-that-only-works-when-you-re-winning.md",
+      "x_status": "published",
+      "x_external_post_id": "2047662676612960683",
+      "x_published_at": "2026-04-24T13:03:20.594Z",
+      "x_winning_candidate_id": "25a28f9fc916",
+      "x_final_text_hash": "bc7c205992402a31b28ce7c55cf36664e03723e8320b0ee780a6fe16f5d1ff1d",
+      "x_summary": "The cost of an invincibility story isn’t arrogance. It’s silence.\n\nWhen the line is “we don’t miss,” missed shots stop getting named. By the time the quarter goes red, people have already stopped bringing truth into the room.\n\nThat’s the trust loss.",
+      "x_skip_reason": null
     }
   ],
   "recent_subjects": [
-    {
-      "post_id": "019d1b16-a489-7e26-3ce0-49369c9a9cc3",
-      "external_post_id": "019d1b16-a489-7e26-3ce0-49369c9a9cc3",
-      "published_at": "2026-03-23T14:26:02.045Z",
-      "linkedin_post_url": null,
-      "linkedin_activity_urn": null,
-      "content_type": "decoder_ring",
-      "pillar": "Decoder Ring",
-      "topic_thesis": "Epimetabolic Rate is the only scoreboard that really matters in periods of fast change.",
-      "angle": "Open on Why Today's AI-Driven Layoffs Are Becoming Tomorrow’s Rehiring Crisis in plain language, then show how it makes the deeper diagnosis legible.",
-      "hook": "Klarna cut deeply into customer service with AI, then had to bring humans back. That’s not a messaging issue. It’s the first clear sign of tomorrow’s rehiring crisis.",
-      "summary": "Klarna cut deeply into customer service with AI, then had to bring humans back. That’s not a messaging issue. It’s the first clear sign of tomorrow’s rehiring crisis.\n\nWhat people are missing is that this does not prove AI failed. It proves the organization changed faster than it",
-      "source_refs": [
-        "https://www.forbes.com/sites/jonmarkman/2026/03/04/why-todays-ai-driven-layoffs-are-becoming-tomorrows-rehiring-crisis/",
-        "https://www.ainvest.com/news/klarna-headcount-shrink-flow-analysis-2602/"
-      ],
-      "framework_terms_used": [
-        "trust",
-        "epimetabolic",
-        "li"
-      ],
-      "timely_subject": "Why Today's AI-Driven Layoffs Are Becoming Tomorrow’s Rehiring Crisis",
-      "research_bundle_id": "f2c4f7d8a1b3",
-      "winning_candidate_id": "b597c1dbe70d",
-      "final_text_hash": "7fed6b5d0fd0313939bf139e29e8c3aa1e474718554dab1904707de46ad21625",
-      "note_slug": "2026-03-23-epimetabolic-rate-is-the-only-scoreboard-that-really-matters-in-periods-of-fast-change",
-      "note_source_path": "content/notes/2026-03-23-epimetabolic-rate-is-the-only-scoreboard-that-really-matters-in-periods-of-fast-change.md",
-      "x_status": "published",
-      "x_external_post_id": "2036087492580082011",
-      "x_published_at": "2026-03-23T14:27:41.711Z",
-      "x_winning_candidate_id": "791e3012fd57",
-      "x_final_text_hash": "a03ff48b569c9f51ff54fc1d0263e7ffe2a91ec92b91cdf8fe9873d84bc594cb",
-      "x_summary": "Klarna didn’t prove AI failed. It proved you can cut headcount faster than you can rebuild judgment.\n\nThe work stays. The costs just move: weaker service, thinner trust, expensive rehiring.",
-      "x_skip_reason": null
-    },
-    {
-      "post_id": "019d1fee-b786-2ca1-17ab-2cf8c0418d59",
-      "external_post_id": "019d1fee-b786-2ca1-17ab-2cf8c0418d59",
-      "published_at": "2026-03-24T13:00:31.510Z",
-      "linkedin_post_url": null,
-      "linkedin_activity_urn": null,
-      "content_type": "from_the_mailbag",
-      "pillar": "From the Mailbag",
-      "topic_thesis": "The Crossing is the protected threshold where truth can become common knowledge without social rupture.",
-      "angle": "The interpretation is the point, not the quote itself.",
-      "hook": "Most organizations don’t fail because the truth was unavailable. They fail because it never became sayable together.",
-      "summary": "Most organizations don’t fail because the truth was unavailable. They fail because it never became sayable together.\n\nNot Isaac Newton caught the crux: “Planets do not resent their orbits. Men do.”\n\nThat’s the whole problem with treating organizations like engineering systems. In",
-      "source_refs": [
-        "letters_to_editor/isaac_newton.txt"
-      ],
-      "framework_terms_used": [
-        "li"
-      ],
-      "timely_subject": null,
-      "research_bundle_id": null,
-      "winning_candidate_id": "8572295bd99d",
-      "final_text_hash": "51cb6631ade0b0e77f2c504521bb912f3178a59792ba6e4d023872d6375cd15e",
-      "note_slug": "2026-03-24-the-crossing-is-the-protected-threshold-where-truth-can-become-common-knowledge-without-social-rupture",
-      "note_source_path": "content/notes/2026-03-24-the-crossing-is-the-protected-threshold-where-truth-can-become-common-knowledge-without-social-rupture.md",
-      "x_status": "published",
-      "x_external_post_id": "2036428358301450666",
-      "x_published_at": "2026-03-24T13:02:10.401Z",
-      "x_winning_candidate_id": "3022ff8c139f",
-      "x_final_text_hash": "aa86e0880e75fa0c7bb9a4310bf064e338cc0a6990afc526aa21082cbcd6aa35",
-      "x_summary": "Engineering problems yield to better information. Organizational problems often get worse with it.\n\nA fact in a machine is just a fact. A fact in a team threatens status, competence, and loyalty. That’s why obvious problems stay unsaid.",
-      "x_skip_reason": null
-    },
     {
       "post_id": "019d257b-73d1-81c8-3d87-17a9bf5ac3ea",
       "external_post_id": "019d257b-73d1-81c8-3d87-17a9bf5ac3ea",
@@ -3794,42 +3823,41 @@
       "x_final_text_hash": "cb6adb1c2244e97005018419b6a3602a03c29f94333022d9812ceef086ba8018",
       "x_summary": "Stewardship is useful. A stewardship class is fatal.\n\nOne helps a company cross a rupture. The other turns change into a permanent specialty for people who never carry quota, ship product, or run teams under the new reality.",
       "x_skip_reason": null
-    }
-  ],
-  "recent_sources": [
+    },
     {
-      "post_id": "019d4e48-3b93-65d7-7b03-45e7381bb575",
-      "external_post_id": "019d4e48-3b93-65d7-7b03-45e7381bb575",
-      "published_at": "2026-04-02T13:00:49.972Z",
+      "post_id": "019dbf94-8827-25ce-ca94-5906ba681302",
+      "external_post_id": "019dbf94-8827-25ce-ca94-5906ba681302",
+      "published_at": "2026-04-24T13:01:15.708Z",
       "linkedin_post_url": null,
       "linkedin_activity_urn": null,
-      "content_type": "high_lindy_source_tour",
-      "pillar": "High-Lindy Source Tour Guide",
-      "topic_thesis": "The Durkheim Constraint explains why ritual must feel received, not merely invented.",
-      "angle": "Open on the current failure first, then use the old source to make it legible.",
-      "hook": "Most company rituals fail for a very simple reason: everyone in the room knows they were invented last Tuesday.",
-      "summary": "Most company rituals fail for a very simple reason: everyone in the room knows they were invented last Tuesday.\n\nDurkheim’s point was that social forms matter when they arrive with force from outside the individual. A real ritual is not just a meeting with better branding. It fee",
+      "content_type": "cautionary_tale",
+      "pillar": "Cautionary Tales",
+      "topic_thesis": "A myth should absorb failure as well as success, or it will betray the group when pressure rises.",
+      "angle": "Open on the false solution, then name the trust cost it creates.",
+      "hook": "The fastest way to poison trust is to build a myth that only works when you’re winning.",
+      "summary": "The fastest way to poison trust is to build a myth that only works when you’re winning.\n\nA lot of teams do this without realizing it. They install some version of “we’re the best,” “we always find a way,” or “we don’t miss.” It feels stabilizing. It is not. It trains people to hi",
       "source_refs": [],
       "framework_terms_used": [
         "trust",
-        "li",
-        "ren"
+        "li"
       ],
       "subject_entities": [],
       "timely_subject": null,
       "research_bundle_id": null,
-      "winning_candidate_id": "8ca1d0d37b12",
-      "final_text_hash": "62f91e0712738605f8314ca7c08514cf73c2432b0de4cc8851df7166d6795c95",
-      "note_slug": "2026-04-02-the-durkheim-constraint-explains-why-ritual-must-feel-received-not-merely-invented",
-      "note_source_path": "content/notes/2026-04-02-the-durkheim-constraint-explains-why-ritual-must-feel-received-not-merely-invented.md",
+      "winning_candidate_id": "6c1f64798855",
+      "final_text_hash": "1683ec576bfba4096ed6b25b7cc0f67ca6c96877698f7e4148cef2048840366e",
+      "note_slug": "2026-04-24-the-fastest-way-to-poison-trust-is-to-build-a-myth-that-only-works-when-you-re-winning",
+      "note_source_path": "content/notes/2026-04-24-the-fastest-way-to-poison-trust-is-to-build-a-myth-that-only-works-when-you-re-winning.md",
       "x_status": "published",
-      "x_external_post_id": "2039689969401291064",
-      "x_published_at": "2026-04-02T13:02:39.102Z",
-      "x_winning_candidate_id": "a1f7eccf892a",
-      "x_final_text_hash": "e57a74dac144c2cbde2ee009f440b13159ae54aaabdd769946c223af5b7c2bd7",
-      "x_summary": "Ritual has authority. A workshop has intentions.\n\nMost “company rituals” are just meetings with a stronger script. The retro gets a new label and a candor preamble, but the org chart still governs the room. If the form is obviously invented, it won’t carry force.",
+      "x_external_post_id": "2047662676612960683",
+      "x_published_at": "2026-04-24T13:03:20.594Z",
+      "x_winning_candidate_id": "25a28f9fc916",
+      "x_final_text_hash": "bc7c205992402a31b28ce7c55cf36664e03723e8320b0ee780a6fe16f5d1ff1d",
+      "x_summary": "The cost of an invincibility story isn’t arrogance. It’s silence.\n\nWhen the line is “we don’t miss,” missed shots stop getting named. By the time the quarter goes red, people have already stopped bringing truth into the room.\n\nThat’s the trust loss.",
       "x_skip_reason": null
-    },
+    }
+  ],
+  "recent_sources": [
     {
       "post_id": "019d536e-0c12-249a-7d1a-f1f2336c60b1",
       "external_post_id": "019d536e-0c12-249a-7d1a-f1f2336c60b1",
@@ -4332,47 +4360,41 @@
       "x_final_text_hash": "cb6adb1c2244e97005018419b6a3602a03c29f94333022d9812ceef086ba8018",
       "x_summary": "Stewardship is useful. A stewardship class is fatal.\n\nOne helps a company cross a rupture. The other turns change into a permanent specialty for people who never carry quota, ship product, or run teams under the new reality.",
       "x_skip_reason": null
+    },
+    {
+      "post_id": "019dbf94-8827-25ce-ca94-5906ba681302",
+      "external_post_id": "019dbf94-8827-25ce-ca94-5906ba681302",
+      "published_at": "2026-04-24T13:01:15.708Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "cautionary_tale",
+      "pillar": "Cautionary Tales",
+      "topic_thesis": "A myth should absorb failure as well as success, or it will betray the group when pressure rises.",
+      "angle": "Open on the false solution, then name the trust cost it creates.",
+      "hook": "The fastest way to poison trust is to build a myth that only works when you’re winning.",
+      "summary": "The fastest way to poison trust is to build a myth that only works when you’re winning.\n\nA lot of teams do this without realizing it. They install some version of “we’re the best,” “we always find a way,” or “we don’t miss.” It feels stabilizing. It is not. It trains people to hi",
+      "source_refs": [],
+      "framework_terms_used": [
+        "trust",
+        "li"
+      ],
+      "subject_entities": [],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "6c1f64798855",
+      "final_text_hash": "1683ec576bfba4096ed6b25b7cc0f67ca6c96877698f7e4148cef2048840366e",
+      "note_slug": "2026-04-24-the-fastest-way-to-poison-trust-is-to-build-a-myth-that-only-works-when-you-re-winning",
+      "note_source_path": "content/notes/2026-04-24-the-fastest-way-to-poison-trust-is-to-build-a-myth-that-only-works-when-you-re-winning.md",
+      "x_status": "published",
+      "x_external_post_id": "2047662676612960683",
+      "x_published_at": "2026-04-24T13:03:20.594Z",
+      "x_winning_candidate_id": "25a28f9fc916",
+      "x_final_text_hash": "bc7c205992402a31b28ce7c55cf36664e03723e8320b0ee780a6fe16f5d1ff1d",
+      "x_summary": "The cost of an invincibility story isn’t arrogance. It’s silence.\n\nWhen the line is “we don’t miss,” missed shots stop getting named. By the time the quarter goes red, people have already stopped bringing truth into the room.\n\nThat’s the trust loss.",
+      "x_skip_reason": null
     }
   ],
   "recent_entities": [
-    {
-      "post_id": "019d1b16-a489-7e26-3ce0-49369c9a9cc3",
-      "external_post_id": "019d1b16-a489-7e26-3ce0-49369c9a9cc3",
-      "published_at": "2026-03-23T14:26:02.045Z",
-      "linkedin_post_url": null,
-      "linkedin_activity_urn": null,
-      "content_type": "decoder_ring",
-      "pillar": "Decoder Ring",
-      "topic_thesis": "Epimetabolic Rate is the only scoreboard that really matters in periods of fast change.",
-      "angle": "Open on Why Today's AI-Driven Layoffs Are Becoming Tomorrow’s Rehiring Crisis in plain language, then show how it makes the deeper diagnosis legible.",
-      "hook": "Klarna cut deeply into customer service with AI, then had to bring humans back. That’s not a messaging issue. It’s the first clear sign of tomorrow’s rehiring crisis.",
-      "summary": "Klarna cut deeply into customer service with AI, then had to bring humans back. That’s not a messaging issue. It’s the first clear sign of tomorrow’s rehiring crisis.\n\nWhat people are missing is that this does not prove AI failed. It proves the organization changed faster than it",
-      "source_refs": [
-        "https://www.forbes.com/sites/jonmarkman/2026/03/04/why-todays-ai-driven-layoffs-are-becoming-tomorrows-rehiring-crisis/",
-        "https://www.ainvest.com/news/klarna-headcount-shrink-flow-analysis-2602/"
-      ],
-      "framework_terms_used": [
-        "trust",
-        "epimetabolic",
-        "li"
-      ],
-      "timely_subject": "Why Today's AI-Driven Layoffs Are Becoming Tomorrow’s Rehiring Crisis",
-      "research_bundle_id": "f2c4f7d8a1b3",
-      "winning_candidate_id": "b597c1dbe70d",
-      "final_text_hash": "7fed6b5d0fd0313939bf139e29e8c3aa1e474718554dab1904707de46ad21625",
-      "note_slug": "2026-03-23-epimetabolic-rate-is-the-only-scoreboard-that-really-matters-in-periods-of-fast-change",
-      "note_source_path": "content/notes/2026-03-23-epimetabolic-rate-is-the-only-scoreboard-that-really-matters-in-periods-of-fast-change.md",
-      "x_status": "published",
-      "x_external_post_id": "2036087492580082011",
-      "x_published_at": "2026-03-23T14:27:41.711Z",
-      "x_winning_candidate_id": "791e3012fd57",
-      "x_final_text_hash": "a03ff48b569c9f51ff54fc1d0263e7ffe2a91ec92b91cdf8fe9873d84bc594cb",
-      "x_summary": "Klarna didn’t prove AI failed. It proved you can cut headcount faster than you can rebuild judgment.\n\nThe work stays. The costs just move: weaker service, thinner trust, expensive rehiring.",
-      "x_skip_reason": null,
-      "subject_entities": [
-        "Klarna"
-      ]
-    },
     {
       "post_id": "019d3edb-4b69-a084-7520-4c1dc07bacbe",
       "external_post_id": "019d3edb-4b69-a084-7520-4c1dc07bacbe",
