@@ -1,6 +1,12 @@
 notes_archive_url: notes/index.html
 recent_notes_empty: false
 recent_notes:
+  - title: Planning tools are communication tools when they make uncertainty
+      socially admissible before the fact
+    display_date: April 28, 2026
+    url: notes/2026-04-28-planning-tools-are-communication-tools-when-they-make-uncertainty-socially-admissible-before-the-fact/index.html
+    excerpt: If the trucks are backed up at 2 a.m., the mistake happened hours earlier.
+    pillar: Archetype Diagnosis
   - title: Crimes Against Ren are real because truth can still be weaponized against
       the substrate that makes truth possible
     display_date: April 27, 2026
@@ -16,9 +22,3 @@ recent_notes:
     excerpt: The fastest way to poison trust is to build a myth that only works when
       you’re winning.
     pillar: Cautionary Tales
-  - title: The Cincinnatus Rule means no one gets to live in the temple
-    display_date: April 23, 2026
-    url: notes/2026-04-23-the-cincinnatus-rule-means-no-one-gets-to-live-in-the-temple/index.html
-    excerpt: The fastest way to kill a company’s renewal effort is to let “change
-      management” become somebody’s permanent job.
-    pillar: High-Lindy Source Tour Guide
