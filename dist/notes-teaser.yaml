@@ -1,6 +1,11 @@
 notes_archive_url: notes/index.html
 recent_notes_empty: false
 recent_notes:
+  - title: The fastest way to make candor unsafe is to formalize it too early
+    display_date: April 29, 2026
+    url: notes/2026-04-29-the-fastest-way-to-make-candor-unsafe-is-to-formalize-it-too-early/index.html
+    excerpt: The fastest way to make candor unsafe is to formalize it too early.
+    pillar: Extracted Insights
   - title: Planning tools are communication tools when they make uncertainty
       socially admissible before the fact
     display_date: April 28, 2026
@@ -15,10 +20,3 @@ recent_notes:
       keystrokes, and screen activity so it can train AI agents. In plain
       language, the company is turning work into training data.
     pillar: Decoder Ring
-  - title: The fastest way to poison trust is to build a myth that only works when
-      you’re winning
-    display_date: April 24, 2026
-    url: notes/2026-04-24-the-fastest-way-to-poison-trust-is-to-build-a-myth-that-only-works-when-you-re-winning/index.html
-    excerpt: The fastest way to poison trust is to build a myth that only works when
-      you’re winning.
-    pillar: Cautionary Tales
