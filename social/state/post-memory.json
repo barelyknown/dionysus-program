@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-29T13:13:44.493Z",
-  "published_count": 33,
+  "generated_at": "2026-04-30T13:12:05.892Z",
+  "published_count": 34,
   "rolling_window_days": 84,
   "typeCounts": {
     "decoder_ring": 7,
@@ -8,7 +8,7 @@
     "extracted_insight": 7,
     "archetype_diagnosis": 5,
     "high_lindy_source_tour": 3,
-    "from_the_mailbag": 2,
+    "from_the_mailbag": 3,
     "cautionary_tale": 3,
     "short_story": 1
   },
@@ -1141,6 +1141,40 @@
       "x_final_text_hash": "17fffa0fc38e9e5911d047ab4d0782c89fe2171c512bb7c3fb33bde9f82dc831",
       "x_summary": "When trust is thin, every honesty ritual gets misread.\n\nThe calendar invite says blameless postmortem. The room hears evidence collection. Modern work keeps adding structure while stripping out the shared context that makes structure feel safe.",
       "x_skip_reason": null
+    },
+    {
+      "post_id": "019dde82-2051-708e-58f1-4e5e8a6fb206",
+      "external_post_id": "019dde82-2051-708e-58f1-4e5e8a6fb206",
+      "published_at": "2026-04-30T13:09:23.203Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "from_the_mailbag",
+      "pillar": "From the Mailbag",
+      "topic_thesis": "Autophagic growth means healthy organizations learn to eat their own decay.",
+      "angle": "Start with the live wire in the letter, then explain why it matters beyond the sender.",
+      "hook": "Most companies don’t die because they refuse to change.",
+      "summary": "Most companies don’t die because they refuse to change.\n\nThey die because they dissolve themselves while trying.\n\nNot Yoshinori Ohsumi put the live wire in one line: “Without it, you are only destroying.” In a cell, damaged material gets wrapped in a membrane before the enzymes a",
+      "source_refs": [
+        "letters_to_editor/yoshinori_ohsumi.txt"
+      ],
+      "framework_terms_used": [
+        "li",
+        "ren"
+      ],
+      "subject_entities": [],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "8ba13229b179",
+      "final_text_hash": "07d0d0ef52d959ee9b758fca73e040445f7f38407cbe666d744c1b2b6bf16a13",
+      "note_slug": "2026-04-30-most-companies-don-t-die-because-they-refuse-to-change",
+      "note_source_path": "content/notes/2026-04-30-most-companies-don-t-die-because-they-refuse-to-change.md",
+      "x_status": "published",
+      "x_external_post_id": "2049839207045296526",
+      "x_published_at": "2026-04-30T13:12:05.888Z",
+      "x_winning_candidate_id": "408bf2f00eb1",
+      "x_final_text_hash": "bd21a792a61cbbd748b5db0fa0317203051e6aae483126fcf60303e325f1feea",
+      "x_summary": "A lot of “candor” is just uncontained destruction.\n\nWhen critique has no membrane, it spills off the work and onto the person. A failed launch reviewed under rules can teach. The same review run sloppily teaches everyone to hide.",
+      "x_skip_reason": null
     }
   ],
   "recent_angles": [
@@ -2271,6 +2305,40 @@
       "x_winning_candidate_id": "0529ffe7166b",
       "x_final_text_hash": "17fffa0fc38e9e5911d047ab4d0782c89fe2171c512bb7c3fb33bde9f82dc831",
       "x_summary": "When trust is thin, every honesty ritual gets misread.\n\nThe calendar invite says blameless postmortem. The room hears evidence collection. Modern work keeps adding structure while stripping out the shared context that makes structure feel safe.",
+      "x_skip_reason": null
+    },
+    {
+      "post_id": "019dde82-2051-708e-58f1-4e5e8a6fb206",
+      "external_post_id": "019dde82-2051-708e-58f1-4e5e8a6fb206",
+      "published_at": "2026-04-30T13:09:23.203Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "from_the_mailbag",
+      "pillar": "From the Mailbag",
+      "topic_thesis": "Autophagic growth means healthy organizations learn to eat their own decay.",
+      "angle": "Start with the live wire in the letter, then explain why it matters beyond the sender.",
+      "hook": "Most companies don’t die because they refuse to change.",
+      "summary": "Most companies don’t die because they refuse to change.\n\nThey die because they dissolve themselves while trying.\n\nNot Yoshinori Ohsumi put the live wire in one line: “Without it, you are only destroying.” In a cell, damaged material gets wrapped in a membrane before the enzymes a",
+      "source_refs": [
+        "letters_to_editor/yoshinori_ohsumi.txt"
+      ],
+      "framework_terms_used": [
+        "li",
+        "ren"
+      ],
+      "subject_entities": [],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "8ba13229b179",
+      "final_text_hash": "07d0d0ef52d959ee9b758fca73e040445f7f38407cbe666d744c1b2b6bf16a13",
+      "note_slug": "2026-04-30-most-companies-don-t-die-because-they-refuse-to-change",
+      "note_source_path": "content/notes/2026-04-30-most-companies-don-t-die-because-they-refuse-to-change.md",
+      "x_status": "published",
+      "x_external_post_id": "2049839207045296526",
+      "x_published_at": "2026-04-30T13:12:05.888Z",
+      "x_winning_candidate_id": "408bf2f00eb1",
+      "x_final_text_hash": "bd21a792a61cbbd748b5db0fa0317203051e6aae483126fcf60303e325f1feea",
+      "x_summary": "A lot of “candor” is just uncontained destruction.\n\nWhen critique has no membrane, it spills off the work and onto the person. A failed launch reviewed under rules can teach. The same review run sloppily teaches everyone to hide.",
       "x_skip_reason": null
     }
   ],
@@ -3403,47 +3471,43 @@
       "x_final_text_hash": "17fffa0fc38e9e5911d047ab4d0782c89fe2171c512bb7c3fb33bde9f82dc831",
       "x_summary": "When trust is thin, every honesty ritual gets misread.\n\nThe calendar invite says blameless postmortem. The room hears evidence collection. Modern work keeps adding structure while stripping out the shared context that makes structure feel safe.",
       "x_skip_reason": null
-    }
-  ],
-  "recent_subjects": [
+    },
     {
-      "post_id": "019d3edb-4b69-a084-7520-4c1dc07bacbe",
-      "external_post_id": "019d3edb-4b69-a084-7520-4c1dc07bacbe",
-      "published_at": "2026-03-30T13:07:32.349Z",
+      "post_id": "019dde82-2051-708e-58f1-4e5e8a6fb206",
+      "external_post_id": "019dde82-2051-708e-58f1-4e5e8a6fb206",
+      "published_at": "2026-04-30T13:09:23.203Z",
       "linkedin_post_url": null,
       "linkedin_activity_urn": null,
-      "content_type": "decoder_ring",
-      "pillar": "Decoder Ring",
-      "topic_thesis": "The Apollo Program is necessary but insufficient because optimization cannot metabolize meaning.",
-      "angle": "Open on Klarna CEO says company went too far in cutting customer service staff with AI in plain language, then show how it makes the deeper diagnosis legible.",
-      "hook": "Sebastian Siemiatkowski said Klarna went too far cutting customer service with AI, and quality suffered. That is not a customer support story. It is a management story.",
-      "summary": "Sebastian Siemiatkowski said Klarna went too far cutting customer service with AI, and quality suffered. That is not a customer support story. It is a management story.\n\nWhat people miss is the failure mode. The model did not simply “underperform.” Klarna made cost the dominant m",
+      "content_type": "from_the_mailbag",
+      "pillar": "From the Mailbag",
+      "topic_thesis": "Autophagic growth means healthy organizations learn to eat their own decay.",
+      "angle": "Start with the live wire in the letter, then explain why it matters beyond the sender.",
+      "hook": "Most companies don’t die because they refuse to change.",
+      "summary": "Most companies don’t die because they refuse to change.\n\nThey die because they dissolve themselves while trying.\n\nNot Yoshinori Ohsumi put the live wire in one line: “Without it, you are only destroying.” In a cell, damaged material gets wrapped in a membrane before the enzymes a",
       "source_refs": [
-        "https://www.reuters.com/technology/artificial-intelligence/klarna-ceo-says-company-went-too-far-cutting-customer-service-staff-ai-2026-03-24/",
-        "https://www.reuters.com/legal/judge-blocks-us-ban-anthropic-ai-firm-after-pentagon-dispute-2026-03-26/",
-        "https://www.klarna.com/international/press/klarna-ai-assistant-handles-two-thirds-of-customer-service-chats-in-its-first-month/",
-        "https://www.anthropic.com/news/anthropic-partners-with-palantir-and-aws-to-provide-u-s-intelligence-and-defense-agencies-access-to-claude",
-        "https://openai.com/index/openai-and-anthropic-agree-to-work-with-us-ai-safety-institute-on-pre-release-testing/"
+        "letters_to_editor/yoshinori_ohsumi.txt"
       ],
       "framework_terms_used": [
-        "trust",
         "li",
         "ren"
       ],
-      "timely_subject": "Klarna CEO says company went too far in cutting customer service staff with AI",
-      "research_bundle_id": "fd50544be6d0",
-      "winning_candidate_id": "77db5e0b4123",
-      "final_text_hash": "820a5a15dca4ca52c0b69c1b812157e1cc00bde9ff776a6ef1c918c2d5966f2f",
-      "note_slug": "2026-03-30-the-apollo-program-is-necessary-but-insufficient-because-optimization-cannot-metabolize-meaning",
-      "note_source_path": "content/notes/2026-03-30-the-apollo-program-is-necessary-but-insufficient-because-optimization-cannot-metabolize-meaning.md",
+      "subject_entities": [],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "8ba13229b179",
+      "final_text_hash": "07d0d0ef52d959ee9b758fca73e040445f7f38407cbe666d744c1b2b6bf16a13",
+      "note_slug": "2026-04-30-most-companies-don-t-die-because-they-refuse-to-change",
+      "note_source_path": "content/notes/2026-04-30-most-companies-don-t-die-because-they-refuse-to-change.md",
       "x_status": "published",
-      "x_external_post_id": "2038604454153314497",
-      "x_published_at": "2026-03-30T13:09:12.097Z",
-      "x_winning_candidate_id": "dd14e8645577",
-      "x_final_text_hash": "86b9435f1ebe997d0ffc1a54b44f2ee8af23a2207440aa9e7267ff0a330e258c",
-      "x_summary": "Klarna’s mistake wasn’t using AI in support. It was redefining support as answer retrieval.\n\nOnce cost becomes the dominant metric, the function shrinks. You don’t just lose warmth. You lose the place where a company absorbs fear, exceptions, and blame.",
+      "x_external_post_id": "2049839207045296526",
+      "x_published_at": "2026-04-30T13:12:05.888Z",
+      "x_winning_candidate_id": "408bf2f00eb1",
+      "x_final_text_hash": "bd21a792a61cbbd748b5db0fa0317203051e6aae483126fcf60303e325f1feea",
+      "x_summary": "A lot of “candor” is just uncontained destruction.\n\nWhen critique has no membrane, it spills off the work and onto the person. A failed launch reviewed under rules can teach. The same review run sloppily teaches everyone to hide.",
       "x_skip_reason": null
-    },
+    }
+  ],
+  "recent_subjects": [
     {
       "post_id": "019d43fb-ee23-6ec5-a55d-6b1d90391b06",
       "external_post_id": "019d43fb-ee23-6ec5-a55d-6b1d90391b06",
@@ -4182,22 +4246,22 @@
       "x_final_text_hash": "17fffa0fc38e9e5911d047ab4d0782c89fe2171c512bb7c3fb33bde9f82dc831",
       "x_summary": "When trust is thin, every honesty ritual gets misread.\n\nThe calendar invite says blameless postmortem. The room hears evidence collection. Modern work keeps adding structure while stripping out the shared context that makes structure feel safe.",
       "x_skip_reason": null
-    }
-  ],
-  "recent_sources": [
+    },
     {
-      "post_id": "019d6d2f-76d3-5dd1-64f4-33d1f545fc59",
-      "external_post_id": "019d6d2f-76d3-5dd1-64f4-33d1f545fc59",
-      "published_at": "2026-04-08T13:02:00.424Z",
+      "post_id": "019dde82-2051-708e-58f1-4e5e8a6fb206",
+      "external_post_id": "019dde82-2051-708e-58f1-4e5e8a6fb206",
+      "published_at": "2026-04-30T13:09:23.203Z",
       "linkedin_post_url": null,
       "linkedin_activity_urn": null,
-      "content_type": "extracted_insight",
-      "pillar": "Extracted Insights",
-      "topic_thesis": "Crimes Against Ren are real because truth can still be weaponized against the substrate that makes truth possible.",
-      "angle": "Name the mistake directly, then show why fast change turns it into negligence.",
-      "hook": "If you use a true statement to punish candor, you are not defending standards. You are committing a Crime Against Ren.",
-      "summary": "If you use a true statement to punish candor, you are not defending standards. You are committing a Crime Against Ren.\n\nThe mistake is thinking truth is automatically clean. In the book’s language, Lashon Hara matters here: accurate information revealed under protection, then use",
-      "source_refs": [],
+      "content_type": "from_the_mailbag",
+      "pillar": "From the Mailbag",
+      "topic_thesis": "Autophagic growth means healthy organizations learn to eat their own decay.",
+      "angle": "Start with the live wire in the letter, then explain why it matters beyond the sender.",
+      "hook": "Most companies don’t die because they refuse to change.",
+      "summary": "Most companies don’t die because they refuse to change.\n\nThey die because they dissolve themselves while trying.\n\nNot Yoshinori Ohsumi put the live wire in one line: “Without it, you are only destroying.” In a cell, damaged material gets wrapped in a membrane before the enzymes a",
+      "source_refs": [
+        "letters_to_editor/yoshinori_ohsumi.txt"
+      ],
       "framework_terms_used": [
         "li",
         "ren"
@@ -4205,18 +4269,20 @@
       "subject_entities": [],
       "timely_subject": null,
       "research_bundle_id": null,
-      "winning_candidate_id": "f27c1290d1e2",
-      "final_text_hash": "37f37ee7209cb6623ae6348a5441565e4de4765a4f5132a605186057007c1e1e",
-      "note_slug": "2026-04-08-crimes-against-ren-are-real-because-truth-can-still-be-weaponized-against-the-substrate-that-makes-truth-possible",
-      "note_source_path": "content/notes/2026-04-08-crimes-against-ren-are-real-because-truth-can-still-be-weaponized-against-the-substrate-that-makes-truth-possible.md",
+      "winning_candidate_id": "8ba13229b179",
+      "final_text_hash": "07d0d0ef52d959ee9b758fca73e040445f7f38407cbe666d744c1b2b6bf16a13",
+      "note_slug": "2026-04-30-most-companies-don-t-die-because-they-refuse-to-change",
+      "note_source_path": "content/notes/2026-04-30-most-companies-don-t-die-because-they-refuse-to-change.md",
       "x_status": "published",
-      "x_external_post_id": "2041864579399954779",
-      "x_published_at": "2026-04-08T13:03:46.503Z",
-      "x_winning_candidate_id": "850bf454bd31",
-      "x_final_text_hash": "1625bc3c43154a4c1012b613c1037f201dba8373fd5952831faea9b9fed0d92b",
-      "x_summary": "Standards and punishment are not the same system.\n\nA team can ask for honest postmortems, or it can recycle those admissions in performance reviews. Do both once, and the standard that survives is concealment.",
+      "x_external_post_id": "2049839207045296526",
+      "x_published_at": "2026-04-30T13:12:05.888Z",
+      "x_winning_candidate_id": "408bf2f00eb1",
+      "x_final_text_hash": "bd21a792a61cbbd748b5db0fa0317203051e6aae483126fcf60303e325f1feea",
+      "x_summary": "A lot of “candor” is just uncontained destruction.\n\nWhen critique has no membrane, it spills off the work and onto the person. A failed launch reviewed under rules can teach. The same review run sloppily teaches everyone to hide.",
       "x_skip_reason": null
-    },
+    }
+  ],
+  "recent_sources": [
     {
       "post_id": "019d7255-6577-e521-3f86-8a55caaec4a2",
       "external_post_id": "019d7255-6577-e521-3f86-8a55caaec4a2",
@@ -4720,50 +4786,43 @@
       "x_final_text_hash": "17fffa0fc38e9e5911d047ab4d0782c89fe2171c512bb7c3fb33bde9f82dc831",
       "x_summary": "When trust is thin, every honesty ritual gets misread.\n\nThe calendar invite says blameless postmortem. The room hears evidence collection. Modern work keeps adding structure while stripping out the shared context that makes structure feel safe.",
       "x_skip_reason": null
-    }
-  ],
-  "recent_entities": [
+    },
     {
-      "post_id": "019d3edb-4b69-a084-7520-4c1dc07bacbe",
-      "external_post_id": "019d3edb-4b69-a084-7520-4c1dc07bacbe",
-      "published_at": "2026-03-30T13:07:32.349Z",
+      "post_id": "019dde82-2051-708e-58f1-4e5e8a6fb206",
+      "external_post_id": "019dde82-2051-708e-58f1-4e5e8a6fb206",
+      "published_at": "2026-04-30T13:09:23.203Z",
       "linkedin_post_url": null,
       "linkedin_activity_urn": null,
-      "content_type": "decoder_ring",
-      "pillar": "Decoder Ring",
-      "topic_thesis": "The Apollo Program is necessary but insufficient because optimization cannot metabolize meaning.",
-      "angle": "Open on Klarna CEO says company went too far in cutting customer service staff with AI in plain language, then show how it makes the deeper diagnosis legible.",
-      "hook": "Sebastian Siemiatkowski said Klarna went too far cutting customer service with AI, and quality suffered. That is not a customer support story. It is a management story.",
-      "summary": "Sebastian Siemiatkowski said Klarna went too far cutting customer service with AI, and quality suffered. That is not a customer support story. It is a management story.\n\nWhat people miss is the failure mode. The model did not simply “underperform.” Klarna made cost the dominant m",
+      "content_type": "from_the_mailbag",
+      "pillar": "From the Mailbag",
+      "topic_thesis": "Autophagic growth means healthy organizations learn to eat their own decay.",
+      "angle": "Start with the live wire in the letter, then explain why it matters beyond the sender.",
+      "hook": "Most companies don’t die because they refuse to change.",
+      "summary": "Most companies don’t die because they refuse to change.\n\nThey die because they dissolve themselves while trying.\n\nNot Yoshinori Ohsumi put the live wire in one line: “Without it, you are only destroying.” In a cell, damaged material gets wrapped in a membrane before the enzymes a",
       "source_refs": [
-        "https://www.reuters.com/technology/artificial-intelligence/klarna-ceo-says-company-went-too-far-cutting-customer-service-staff-ai-2026-03-24/",
-        "https://www.reuters.com/legal/judge-blocks-us-ban-anthropic-ai-firm-after-pentagon-dispute-2026-03-26/",
-        "https://www.klarna.com/international/press/klarna-ai-assistant-handles-two-thirds-of-customer-service-chats-in-its-first-month/",
-        "https://www.anthropic.com/news/anthropic-partners-with-palantir-and-aws-to-provide-u-s-intelligence-and-defense-agencies-access-to-claude",
-        "https://openai.com/index/openai-and-anthropic-agree-to-work-with-us-ai-safety-institute-on-pre-release-testing/"
+        "letters_to_editor/yoshinori_ohsumi.txt"
       ],
       "framework_terms_used": [
-        "trust",
         "li",
         "ren"
       ],
-      "timely_subject": "Klarna CEO says company went too far in cutting customer service staff with AI",
-      "research_bundle_id": "fd50544be6d0",
-      "winning_candidate_id": "77db5e0b4123",
-      "final_text_hash": "820a5a15dca4ca52c0b69c1b812157e1cc00bde9ff776a6ef1c918c2d5966f2f",
-      "note_slug": "2026-03-30-the-apollo-program-is-necessary-but-insufficient-because-optimization-cannot-metabolize-meaning",
-      "note_source_path": "content/notes/2026-03-30-the-apollo-program-is-necessary-but-insufficient-because-optimization-cannot-metabolize-meaning.md",
+      "subject_entities": [],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "8ba13229b179",
+      "final_text_hash": "07d0d0ef52d959ee9b758fca73e040445f7f38407cbe666d744c1b2b6bf16a13",
+      "note_slug": "2026-04-30-most-companies-don-t-die-because-they-refuse-to-change",
+      "note_source_path": "content/notes/2026-04-30-most-companies-don-t-die-because-they-refuse-to-change.md",
       "x_status": "published",
-      "x_external_post_id": "2038604454153314497",
-      "x_published_at": "2026-03-30T13:09:12.097Z",
-      "x_winning_candidate_id": "dd14e8645577",
-      "x_final_text_hash": "86b9435f1ebe997d0ffc1a54b44f2ee8af23a2207440aa9e7267ff0a330e258c",
-      "x_summary": "Klarna’s mistake wasn’t using AI in support. It was redefining support as answer retrieval.\n\nOnce cost becomes the dominant metric, the function shrinks. You don’t just lose warmth. You lose the place where a company absorbs fear, exceptions, and blame.",
-      "x_skip_reason": null,
-      "subject_entities": [
-        "Klarna"
-      ]
-    },
+      "x_external_post_id": "2049839207045296526",
+      "x_published_at": "2026-04-30T13:12:05.888Z",
+      "x_winning_candidate_id": "408bf2f00eb1",
+      "x_final_text_hash": "bd21a792a61cbbd748b5db0fa0317203051e6aae483126fcf60303e325f1feea",
+      "x_summary": "A lot of “candor” is just uncontained destruction.\n\nWhen critique has no membrane, it spills off the work and onto the person. A failed launch reviewed under rules can teach. The same review run sloppily teaches everyone to hide.",
+      "x_skip_reason": null
+    }
+  ],
+  "recent_entities": [
     {
       "post_id": "019d62e6-b014-5b44-3f0c-516a1033247c",
       "external_post_id": "019d62e6-b014-5b44-3f0c-516a1033247c",

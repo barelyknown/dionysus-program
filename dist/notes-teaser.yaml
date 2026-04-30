@@ -1,6 +1,11 @@
 notes_archive_url: notes/index.html
 recent_notes_empty: false
 recent_notes:
+  - title: Most companies don’t die because they refuse to change
+    display_date: April 30, 2026
+    url: notes/2026-04-30-most-companies-don-t-die-because-they-refuse-to-change/index.html
+    excerpt: Most companies don’t die because they refuse to change.
+    pillar: From the Mailbag
   - title: The fastest way to make candor unsafe is to formalize it too early
     display_date: April 29, 2026
     url: notes/2026-04-29-the-fastest-way-to-make-candor-unsafe-is-to-formalize-it-too-early/index.html
@@ -12,11 +17,3 @@ recent_notes:
     url: notes/2026-04-28-planning-tools-are-communication-tools-when-they-make-uncertainty-socially-admissible-before-the-fact/index.html
     excerpt: If the trucks are backed up at 2 a.m., the mistake happened hours earlier.
     pillar: Archetype Diagnosis
-  - title: Crimes Against Ren are real because truth can still be weaponized against
-      the substrate that makes truth possible
-    display_date: April 27, 2026
-    url: notes/2026-04-27-crimes-against-ren-are-real-because-truth-can-still-be-weaponized-against-the-substrate-that-makes-truth-possible/index.html
-    excerpt: Meta is asking some employees to install software that records clicks,
-      keystrokes, and screen activity so it can train AI agents. In plain
-      language, the company is turning work into training data.
-    pillar: Decoder Ring
