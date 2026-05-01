@@ -1,6 +1,13 @@
 notes_archive_url: notes/index.html
 recent_notes_empty: false
 recent_notes:
+  - title: Many healthy companies are broken by leaders who can’t tolerate looking
+      boring
+    display_date: May 1, 2026
+    url: notes/2026-05-01-many-healthy-companies-are-broken-by-leaders-who-can-t-tolerate-looking-boring/index.html
+    excerpt: Many healthy companies are broken by leaders who can’t tolerate looking
+      boring.
+    pillar: High-Lindy Source Tour Guide
   - title: Most companies don’t die because they refuse to change
     display_date: April 30, 2026
     url: notes/2026-04-30-most-companies-don-t-die-because-they-refuse-to-change/index.html
@@ -11,9 +18,3 @@ recent_notes:
     url: notes/2026-04-29-the-fastest-way-to-make-candor-unsafe-is-to-formalize-it-too-early/index.html
     excerpt: The fastest way to make candor unsafe is to formalize it too early.
     pillar: Extracted Insights
-  - title: Planning tools are communication tools when they make uncertainty
-      socially admissible before the fact
-    display_date: April 28, 2026
-    url: notes/2026-04-28-planning-tools-are-communication-tools-when-they-make-uncertainty-socially-admissible-before-the-fact/index.html
-    excerpt: If the trucks are backed up at 2 a.m., the mistake happened hours earlier.
-    pillar: Archetype Diagnosis
