@@ -1,6 +1,13 @@
 notes_archive_url: notes/index.html
 recent_notes_empty: false
 recent_notes:
+  - title: Overflow does quadratic damage when melt outruns capacity
+    display_date: May 4, 2026
+    url: notes/2026-05-04-overflow-does-quadratic-damage-when-melt-outruns-capacity/index.html
+    excerpt: "Salesforce’s new enterprise AI benchmark says the quiet part out loud:
+      companies are rolling out agents faster than they can integrate or govern
+      them."
+    pillar: Decoder Ring
   - title: Many healthy companies are broken by leaders who can’t tolerate looking
       boring
     display_date: May 1, 2026
@@ -13,8 +20,3 @@ recent_notes:
     url: notes/2026-04-30-most-companies-don-t-die-because-they-refuse-to-change/index.html
     excerpt: Most companies don’t die because they refuse to change.
     pillar: From the Mailbag
-  - title: The fastest way to make candor unsafe is to formalize it too early
-    display_date: April 29, 2026
-    url: notes/2026-04-29-the-fastest-way-to-make-candor-unsafe-is-to-formalize-it-too-early/index.html
-    excerpt: The fastest way to make candor unsafe is to formalize it too early.
-    pillar: Extracted Insights

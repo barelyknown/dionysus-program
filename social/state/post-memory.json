@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-03T16:24:30.055Z",
-  "published_count": 35,
+  "generated_at": "2026-05-04T13:20:41.567Z",
+  "published_count": 36,
   "rolling_window_days": 84,
   "typeCounts": {
-    "decoder_ring": 7,
+    "decoder_ring": 8,
     "ritual_recipe": 5,
     "extracted_insight": 7,
     "archetype_diagnosis": 5,
@@ -13,38 +13,6 @@
     "short_story": 1
   },
   "recent_hooks": [
-    {
-      "post_id": "019d062f-0a28-1e87-cdb2-c014b644b7c1",
-      "external_post_id": "019d062f-0a28-1e87-cdb2-c014b644b7c1",
-      "published_at": "2026-03-19T13:00:39.369Z",
-      "linkedin_post_url": null,
-      "linkedin_activity_urn": null,
-      "content_type": "archetype_diagnosis",
-      "pillar": "Archetype Diagnosis",
-      "topic_thesis": "The Alchemy of Error is the practical art of turning disruption into better structure.",
-      "angle": "Make the pattern recognizable fast and show what drives it.",
-      "hook": "When the meetings get sharper as the truth gets quieter, you are in Management Theater.",
-      "summary": "When the meetings get sharper as the truth gets quieter, you are in Management Theater.\n\nYou can see it fast. The calendar is full of reviews, retros, and alignment sessions. The decks are polished. The language is careful. But the real decisions happen in side channels, in priva",
-      "source_refs": [],
-      "framework_terms_used": [
-        "trust",
-        "management theater",
-        "li"
-      ],
-      "timely_subject": null,
-      "research_bundle_id": null,
-      "winning_candidate_id": "644e1b95dc21",
-      "final_text_hash": "1b0b859ac1be73f0d49a19854543db7417316b754b84275db830c76178f1e130",
-      "note_slug": "2026-03-19-when-meetings-get-sharper-as-the-truth-gets-quieter-you-are-in-management-theater",
-      "note_source_path": "content/notes/2026-03-19-when-meetings-get-sharper-as-the-truth-gets-quieter-you-are-in-management-theater.md",
-      "x_status": "published",
-      "x_external_post_id": "2034616508576334270",
-      "x_published_at": "2026-03-19T13:02:31.766Z",
-      "x_winning_candidate_id": "488854979b65",
-      "x_final_text_hash": "eeb096de3c7061533132e76de7fb08cd8e570b0390b0025c654795a6188c4600",
-      "x_summary": "The name for a company full of candor rituals and unsafe truths is Management Theater.\n\nReviews multiply. Language gets careful. Decisions happen in one person’s head or in private chats. That’s not alignment. It’s fear wearing process.",
-      "x_skip_reason": null
-    },
     {
       "post_id": "019d0b54-ee4a-19c8-6888-3c80c86aa6a9",
       "external_post_id": "019d0b54-ee4a-19c8-6888-3c80c86aa6a9",
@@ -1080,6 +1048,45 @@
       "x_winning_candidate_id": "d002c71795ee",
       "x_final_text_hash": "7fca35bed71e9c713970ac268c3898e218afe0360d3a3c92846cfef708fb9d31",
       "x_summary": "Transformation theater usually starts when a healthy company gets misdiagnosed as complacent.\n\nThe symptoms are familiar: product ships, customers stay, Monday feels normal. Then come the reorgs, adjacent bets, and synthetic urgency to prove ambition.",
+      "x_skip_reason": null
+    },
+    {
+      "post_id": "019df324-1727-415f-22c1-fe34968e9929",
+      "external_post_id": "019df324-1727-415f-22c1-fe34968e9929",
+      "published_at": "2026-05-04T13:18:42.001Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "decoder_ring",
+      "pillar": "Decoder Ring",
+      "topic_thesis": "Overflow does quadratic damage when melt outruns capacity.",
+      "angle": "Open on Connectivity Benchmark Report 2026: AI Agents, Integration, and Enterprise Risk in plain language, then show how it makes the deeper diagnosis legible.",
+      "hook": "Salesforce’s new enterprise AI benchmark says the quiet part out loud: companies are rolling out agents faster than they can integrate or govern them.",
+      "summary": "Salesforce’s new enterprise AI benchmark says the quiet part out loud: companies are rolling out agents faster than they can integrate or govern them.\n\nMost people will read that as a tooling gap. It’s deeper than that. This is what melt looks like: new capability dissolving old ",
+      "source_refs": [
+        "https://www.salesforce.com/news/stories/connectivity-benchmark-report-2026/",
+        "https://www.salesforce.com/news/press-releases/2026/04/agentforce-for-operations/",
+        "https://www.cnbc.com/2026/04/24/google-workers-urge-company-to-bar-pentagon-from-using-its-ai-for-classified-work.html",
+        "https://www.reuters.com/technology/openais-nonprofit-control-faces-fresh-scrutiny-musk-case-advances-2026-04-18/",
+        "https://ai.google/responsibility/principles/"
+      ],
+      "framework_terms_used": [
+        "li"
+      ],
+      "subject_entities": [
+        "Salesforce"
+      ],
+      "timely_subject": "Connectivity Benchmark Report 2026: AI Agents, Integration, and Enterprise Risk",
+      "research_bundle_id": "783be3b01522",
+      "winning_candidate_id": "94ee60884c0a",
+      "final_text_hash": "75ee8385ecf03d9186250a9a86615a2c5777ddc3bc54c35eafaf5fef14f66abb",
+      "note_slug": "2026-05-04-overflow-does-quadratic-damage-when-melt-outruns-capacity",
+      "note_source_path": "content/notes/2026-05-04-overflow-does-quadratic-damage-when-melt-outruns-capacity.md",
+      "x_status": "published",
+      "x_external_post_id": "2051290921388618055",
+      "x_published_at": "2026-05-04T13:20:41.561Z",
+      "x_winning_candidate_id": "50cbbe728543",
+      "x_final_text_hash": "e4660e56b0489b4cd746c07605e8c54f3186874e691ad49c54970cc6482c3fc7",
+      "x_summary": "When agent rollout outruns integration and governance, the damage stops being linear.\n\nTen agents across ten systems don’t create ten risks. They create invisible interactions, unclear ownership, and failure paths that only show up after something breaks.",
       "x_skip_reason": null
     }
   ],
@@ -2278,6 +2285,45 @@
       "x_final_text_hash": "7fca35bed71e9c713970ac268c3898e218afe0360d3a3c92846cfef708fb9d31",
       "x_summary": "Transformation theater usually starts when a healthy company gets misdiagnosed as complacent.\n\nThe symptoms are familiar: product ships, customers stay, Monday feels normal. Then come the reorgs, adjacent bets, and synthetic urgency to prove ambition.",
       "x_skip_reason": null
+    },
+    {
+      "post_id": "019df324-1727-415f-22c1-fe34968e9929",
+      "external_post_id": "019df324-1727-415f-22c1-fe34968e9929",
+      "published_at": "2026-05-04T13:18:42.001Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "decoder_ring",
+      "pillar": "Decoder Ring",
+      "topic_thesis": "Overflow does quadratic damage when melt outruns capacity.",
+      "angle": "Open on Connectivity Benchmark Report 2026: AI Agents, Integration, and Enterprise Risk in plain language, then show how it makes the deeper diagnosis legible.",
+      "hook": "Salesforce’s new enterprise AI benchmark says the quiet part out loud: companies are rolling out agents faster than they can integrate or govern them.",
+      "summary": "Salesforce’s new enterprise AI benchmark says the quiet part out loud: companies are rolling out agents faster than they can integrate or govern them.\n\nMost people will read that as a tooling gap. It’s deeper than that. This is what melt looks like: new capability dissolving old ",
+      "source_refs": [
+        "https://www.salesforce.com/news/stories/connectivity-benchmark-report-2026/",
+        "https://www.salesforce.com/news/press-releases/2026/04/agentforce-for-operations/",
+        "https://www.cnbc.com/2026/04/24/google-workers-urge-company-to-bar-pentagon-from-using-its-ai-for-classified-work.html",
+        "https://www.reuters.com/technology/openais-nonprofit-control-faces-fresh-scrutiny-musk-case-advances-2026-04-18/",
+        "https://ai.google/responsibility/principles/"
+      ],
+      "framework_terms_used": [
+        "li"
+      ],
+      "subject_entities": [
+        "Salesforce"
+      ],
+      "timely_subject": "Connectivity Benchmark Report 2026: AI Agents, Integration, and Enterprise Risk",
+      "research_bundle_id": "783be3b01522",
+      "winning_candidate_id": "94ee60884c0a",
+      "final_text_hash": "75ee8385ecf03d9186250a9a86615a2c5777ddc3bc54c35eafaf5fef14f66abb",
+      "note_slug": "2026-05-04-overflow-does-quadratic-damage-when-melt-outruns-capacity",
+      "note_source_path": "content/notes/2026-05-04-overflow-does-quadratic-damage-when-melt-outruns-capacity.md",
+      "x_status": "published",
+      "x_external_post_id": "2051290921388618055",
+      "x_published_at": "2026-05-04T13:20:41.561Z",
+      "x_winning_candidate_id": "50cbbe728543",
+      "x_final_text_hash": "e4660e56b0489b4cd746c07605e8c54f3186874e691ad49c54970cc6482c3fc7",
+      "x_summary": "When agent rollout outruns integration and governance, the damage stops being linear.\n\nTen agents across ten systems don’t create ten risks. They create invisible interactions, unclear ownership, and failure paths that only show up after something breaks.",
+      "x_skip_reason": null
     }
   ],
   "recent_topics": [
@@ -3475,40 +3521,48 @@
       "x_final_text_hash": "7fca35bed71e9c713970ac268c3898e218afe0360d3a3c92846cfef708fb9d31",
       "x_summary": "Transformation theater usually starts when a healthy company gets misdiagnosed as complacent.\n\nThe symptoms are familiar: product ships, customers stay, Monday feels normal. Then come the reorgs, adjacent bets, and synthetic urgency to prove ambition.",
       "x_skip_reason": null
-    }
-  ],
-  "recent_subjects": [
+    },
     {
-      "post_id": "019d536e-0c12-249a-7d1a-f1f2336c60b1",
-      "external_post_id": "019d536e-0c12-249a-7d1a-f1f2336c60b1",
-      "published_at": "2026-04-03T13:00:14.236Z",
+      "post_id": "019df324-1727-415f-22c1-fe34968e9929",
+      "external_post_id": "019df324-1727-415f-22c1-fe34968e9929",
+      "published_at": "2026-05-04T13:18:42.001Z",
       "linkedin_post_url": null,
       "linkedin_activity_urn": null,
-      "content_type": "short_story",
-      "pillar": "Short Stories",
-      "topic_thesis": "Bad organizational myths do not decay slowly; they walk until they suddenly collapse.",
-      "angle": "A short story must resolve into a concrete lesson, not just a mood.",
-      "hook": "“We still reward candor.”",
-      "summary": "“We still reward candor.”\n\nThe slide advanced. No one objected. No one agreed either. A few people looked down at their laptops, which is what quiet disbelief looks like in a company meeting.\n\nFor six months, everyone had watched the opposite happen. The person who named the real",
-      "source_refs": [],
+      "content_type": "decoder_ring",
+      "pillar": "Decoder Ring",
+      "topic_thesis": "Overflow does quadratic damage when melt outruns capacity.",
+      "angle": "Open on Connectivity Benchmark Report 2026: AI Agents, Integration, and Enterprise Risk in plain language, then show how it makes the deeper diagnosis legible.",
+      "hook": "Salesforce’s new enterprise AI benchmark says the quiet part out loud: companies are rolling out agents faster than they can integrate or govern them.",
+      "summary": "Salesforce’s new enterprise AI benchmark says the quiet part out loud: companies are rolling out agents faster than they can integrate or govern them.\n\nMost people will read that as a tooling gap. It’s deeper than that. This is what melt looks like: new capability dissolving old ",
+      "source_refs": [
+        "https://www.salesforce.com/news/stories/connectivity-benchmark-report-2026/",
+        "https://www.salesforce.com/news/press-releases/2026/04/agentforce-for-operations/",
+        "https://www.cnbc.com/2026/04/24/google-workers-urge-company-to-bar-pentagon-from-using-its-ai-for-classified-work.html",
+        "https://www.reuters.com/technology/openais-nonprofit-control-faces-fresh-scrutiny-musk-case-advances-2026-04-18/",
+        "https://ai.google/responsibility/principles/"
+      ],
       "framework_terms_used": [
         "li"
       ],
-      "subject_entities": [],
-      "timely_subject": null,
-      "research_bundle_id": null,
-      "winning_candidate_id": "de39ea73fd9d",
-      "final_text_hash": "cc71006070adef0df41744f9d9ffbdb6e3b7697230be08fc453d4c2f22f1386f",
-      "note_slug": "2026-04-03-we-still-reward-candor",
-      "note_source_path": "content/notes/2026-04-03-we-still-reward-candor.md",
+      "subject_entities": [
+        "Salesforce"
+      ],
+      "timely_subject": "Connectivity Benchmark Report 2026: AI Agents, Integration, and Enterprise Risk",
+      "research_bundle_id": "783be3b01522",
+      "winning_candidate_id": "94ee60884c0a",
+      "final_text_hash": "75ee8385ecf03d9186250a9a86615a2c5777ddc3bc54c35eafaf5fef14f66abb",
+      "note_slug": "2026-05-04-overflow-does-quadratic-damage-when-melt-outruns-capacity",
+      "note_source_path": "content/notes/2026-05-04-overflow-does-quadratic-damage-when-melt-outruns-capacity.md",
       "x_status": "published",
-      "x_external_post_id": "2040052120141914438",
-      "x_published_at": "2026-04-03T13:01:42.545Z",
-      "x_winning_candidate_id": "7ef42fcdf5f7",
-      "x_final_text_hash": "8136b626ec1137b4deda879c6404de1d91a82bdc2977ff4ed7e5c3e31f987b07",
-      "x_summary": "Most culture lies survive because silence is cheaper than candor.\n\nWhen naming the problem gets you sidelined, the myth keeps walking. It doesn’t die from evidence. It dies at the first legitimacy event the company can’t absorb.",
+      "x_external_post_id": "2051290921388618055",
+      "x_published_at": "2026-05-04T13:20:41.561Z",
+      "x_winning_candidate_id": "50cbbe728543",
+      "x_final_text_hash": "e4660e56b0489b4cd746c07605e8c54f3186874e691ad49c54970cc6482c3fc7",
+      "x_summary": "When agent rollout outruns integration and governance, the damage stops being linear.\n\nTen agents across ten systems don’t create ten risks. They create invisible interactions, unclear ownership, and failure paths that only show up after something breaks.",
       "x_skip_reason": null
-    },
+    }
+  ],
+  "recent_subjects": [
     {
       "post_id": "019d62e6-b014-5b44-3f0c-516a1033247c",
       "external_post_id": "019d62e6-b014-5b44-3f0c-516a1033247c",
@@ -4184,6 +4238,45 @@
       "x_final_text_hash": "7fca35bed71e9c713970ac268c3898e218afe0360d3a3c92846cfef708fb9d31",
       "x_summary": "Transformation theater usually starts when a healthy company gets misdiagnosed as complacent.\n\nThe symptoms are familiar: product ships, customers stay, Monday feels normal. Then come the reorgs, adjacent bets, and synthetic urgency to prove ambition.",
       "x_skip_reason": null
+    },
+    {
+      "post_id": "019df324-1727-415f-22c1-fe34968e9929",
+      "external_post_id": "019df324-1727-415f-22c1-fe34968e9929",
+      "published_at": "2026-05-04T13:18:42.001Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "decoder_ring",
+      "pillar": "Decoder Ring",
+      "topic_thesis": "Overflow does quadratic damage when melt outruns capacity.",
+      "angle": "Open on Connectivity Benchmark Report 2026: AI Agents, Integration, and Enterprise Risk in plain language, then show how it makes the deeper diagnosis legible.",
+      "hook": "Salesforce’s new enterprise AI benchmark says the quiet part out loud: companies are rolling out agents faster than they can integrate or govern them.",
+      "summary": "Salesforce’s new enterprise AI benchmark says the quiet part out loud: companies are rolling out agents faster than they can integrate or govern them.\n\nMost people will read that as a tooling gap. It’s deeper than that. This is what melt looks like: new capability dissolving old ",
+      "source_refs": [
+        "https://www.salesforce.com/news/stories/connectivity-benchmark-report-2026/",
+        "https://www.salesforce.com/news/press-releases/2026/04/agentforce-for-operations/",
+        "https://www.cnbc.com/2026/04/24/google-workers-urge-company-to-bar-pentagon-from-using-its-ai-for-classified-work.html",
+        "https://www.reuters.com/technology/openais-nonprofit-control-faces-fresh-scrutiny-musk-case-advances-2026-04-18/",
+        "https://ai.google/responsibility/principles/"
+      ],
+      "framework_terms_used": [
+        "li"
+      ],
+      "subject_entities": [
+        "Salesforce"
+      ],
+      "timely_subject": "Connectivity Benchmark Report 2026: AI Agents, Integration, and Enterprise Risk",
+      "research_bundle_id": "783be3b01522",
+      "winning_candidate_id": "94ee60884c0a",
+      "final_text_hash": "75ee8385ecf03d9186250a9a86615a2c5777ddc3bc54c35eafaf5fef14f66abb",
+      "note_slug": "2026-05-04-overflow-does-quadratic-damage-when-melt-outruns-capacity",
+      "note_source_path": "content/notes/2026-05-04-overflow-does-quadratic-damage-when-melt-outruns-capacity.md",
+      "x_status": "published",
+      "x_external_post_id": "2051290921388618055",
+      "x_published_at": "2026-05-04T13:20:41.561Z",
+      "x_winning_candidate_id": "50cbbe728543",
+      "x_final_text_hash": "e4660e56b0489b4cd746c07605e8c54f3186874e691ad49c54970cc6482c3fc7",
+      "x_summary": "When agent rollout outruns integration and governance, the damage stops being linear.\n\nTen agents across ten systems don’t create ten risks. They create invisible interactions, unclear ownership, and failure paths that only show up after something breaks.",
+      "x_skip_reason": null
     }
   ],
   "recent_sources": [
@@ -4692,6 +4785,45 @@
       "x_final_text_hash": "7fca35bed71e9c713970ac268c3898e218afe0360d3a3c92846cfef708fb9d31",
       "x_summary": "Transformation theater usually starts when a healthy company gets misdiagnosed as complacent.\n\nThe symptoms are familiar: product ships, customers stay, Monday feels normal. Then come the reorgs, adjacent bets, and synthetic urgency to prove ambition.",
       "x_skip_reason": null
+    },
+    {
+      "post_id": "019df324-1727-415f-22c1-fe34968e9929",
+      "external_post_id": "019df324-1727-415f-22c1-fe34968e9929",
+      "published_at": "2026-05-04T13:18:42.001Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "decoder_ring",
+      "pillar": "Decoder Ring",
+      "topic_thesis": "Overflow does quadratic damage when melt outruns capacity.",
+      "angle": "Open on Connectivity Benchmark Report 2026: AI Agents, Integration, and Enterprise Risk in plain language, then show how it makes the deeper diagnosis legible.",
+      "hook": "Salesforce’s new enterprise AI benchmark says the quiet part out loud: companies are rolling out agents faster than they can integrate or govern them.",
+      "summary": "Salesforce’s new enterprise AI benchmark says the quiet part out loud: companies are rolling out agents faster than they can integrate or govern them.\n\nMost people will read that as a tooling gap. It’s deeper than that. This is what melt looks like: new capability dissolving old ",
+      "source_refs": [
+        "https://www.salesforce.com/news/stories/connectivity-benchmark-report-2026/",
+        "https://www.salesforce.com/news/press-releases/2026/04/agentforce-for-operations/",
+        "https://www.cnbc.com/2026/04/24/google-workers-urge-company-to-bar-pentagon-from-using-its-ai-for-classified-work.html",
+        "https://www.reuters.com/technology/openais-nonprofit-control-faces-fresh-scrutiny-musk-case-advances-2026-04-18/",
+        "https://ai.google/responsibility/principles/"
+      ],
+      "framework_terms_used": [
+        "li"
+      ],
+      "subject_entities": [
+        "Salesforce"
+      ],
+      "timely_subject": "Connectivity Benchmark Report 2026: AI Agents, Integration, and Enterprise Risk",
+      "research_bundle_id": "783be3b01522",
+      "winning_candidate_id": "94ee60884c0a",
+      "final_text_hash": "75ee8385ecf03d9186250a9a86615a2c5777ddc3bc54c35eafaf5fef14f66abb",
+      "note_slug": "2026-05-04-overflow-does-quadratic-damage-when-melt-outruns-capacity",
+      "note_source_path": "content/notes/2026-05-04-overflow-does-quadratic-damage-when-melt-outruns-capacity.md",
+      "x_status": "published",
+      "x_external_post_id": "2051290921388618055",
+      "x_published_at": "2026-05-04T13:20:41.561Z",
+      "x_winning_candidate_id": "50cbbe728543",
+      "x_final_text_hash": "e4660e56b0489b4cd746c07605e8c54f3186874e691ad49c54970cc6482c3fc7",
+      "x_summary": "When agent rollout outruns integration and governance, the damage stops being linear.\n\nTen agents across ten systems don’t create ten risks. They create invisible interactions, unclear ownership, and failure paths that only show up after something breaks.",
+      "x_skip_reason": null
     }
   ],
   "recent_entities": [
@@ -4811,6 +4943,45 @@
       "x_winning_candidate_id": "44f884e0f3b0",
       "x_final_text_hash": "a5d88a2c011c18531d7d4e3b0aeb111e9f20011f4d70a7f6807217f6d3c266dd",
       "x_summary": "The better you capture work by force, the worse your understanding becomes.\n\nA log of clicks, keystrokes, and screens looks like ground truth. But once employees know that truth trains the system that may replace them, the real workflow moves offstage.",
+      "x_skip_reason": null
+    },
+    {
+      "post_id": "019df324-1727-415f-22c1-fe34968e9929",
+      "external_post_id": "019df324-1727-415f-22c1-fe34968e9929",
+      "published_at": "2026-05-04T13:18:42.001Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "decoder_ring",
+      "pillar": "Decoder Ring",
+      "topic_thesis": "Overflow does quadratic damage when melt outruns capacity.",
+      "angle": "Open on Connectivity Benchmark Report 2026: AI Agents, Integration, and Enterprise Risk in plain language, then show how it makes the deeper diagnosis legible.",
+      "hook": "Salesforce’s new enterprise AI benchmark says the quiet part out loud: companies are rolling out agents faster than they can integrate or govern them.",
+      "summary": "Salesforce’s new enterprise AI benchmark says the quiet part out loud: companies are rolling out agents faster than they can integrate or govern them.\n\nMost people will read that as a tooling gap. It’s deeper than that. This is what melt looks like: new capability dissolving old ",
+      "source_refs": [
+        "https://www.salesforce.com/news/stories/connectivity-benchmark-report-2026/",
+        "https://www.salesforce.com/news/press-releases/2026/04/agentforce-for-operations/",
+        "https://www.cnbc.com/2026/04/24/google-workers-urge-company-to-bar-pentagon-from-using-its-ai-for-classified-work.html",
+        "https://www.reuters.com/technology/openais-nonprofit-control-faces-fresh-scrutiny-musk-case-advances-2026-04-18/",
+        "https://ai.google/responsibility/principles/"
+      ],
+      "framework_terms_used": [
+        "li"
+      ],
+      "subject_entities": [
+        "Salesforce"
+      ],
+      "timely_subject": "Connectivity Benchmark Report 2026: AI Agents, Integration, and Enterprise Risk",
+      "research_bundle_id": "783be3b01522",
+      "winning_candidate_id": "94ee60884c0a",
+      "final_text_hash": "75ee8385ecf03d9186250a9a86615a2c5777ddc3bc54c35eafaf5fef14f66abb",
+      "note_slug": "2026-05-04-overflow-does-quadratic-damage-when-melt-outruns-capacity",
+      "note_source_path": "content/notes/2026-05-04-overflow-does-quadratic-damage-when-melt-outruns-capacity.md",
+      "x_status": "published",
+      "x_external_post_id": "2051290921388618055",
+      "x_published_at": "2026-05-04T13:20:41.561Z",
+      "x_winning_candidate_id": "50cbbe728543",
+      "x_final_text_hash": "e4660e56b0489b4cd746c07605e8c54f3186874e691ad49c54970cc6482c3fc7",
+      "x_summary": "When agent rollout outruns integration and governance, the damage stops being linear.\n\nTen agents across ten systems don’t create ten risks. They create invisible interactions, unclear ownership, and failure paths that only show up after something breaks.",
       "x_skip_reason": null
     }
   ]
