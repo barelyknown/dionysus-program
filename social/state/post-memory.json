@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-04T13:20:41.567Z",
-  "published_count": 36,
+  "generated_at": "2026-05-05T13:07:37.811Z",
+  "published_count": 37,
   "rolling_window_days": 84,
   "typeCounts": {
     "decoder_ring": 8,
-    "ritual_recipe": 5,
+    "ritual_recipe": 6,
     "extracted_insight": 7,
     "archetype_diagnosis": 5,
     "high_lindy_source_tour": 4,
@@ -13,36 +13,6 @@
     "short_story": 1
   },
   "recent_hooks": [
-    {
-      "post_id": "019d0b54-ee4a-19c8-6888-3c80c86aa6a9",
-      "external_post_id": "019d0b54-ee4a-19c8-6888-3c80c86aa6a9",
-      "published_at": "2026-03-20T13:00:08.692Z",
-      "linkedin_post_url": null,
-      "linkedin_activity_urn": null,
-      "content_type": "high_lindy_source_tour",
-      "pillar": "High-Lindy Source Tour Guide",
-      "topic_thesis": "Knowledge and myth solve different problems, and organizations fail when they confuse them.",
-      "angle": "The old source is not the point; present relevance is.",
-      "hook": "When a company says “we are what we know,” it is one technical shift away from panic.",
-      "summary": "When a company says “we are what we know,” it is one technical shift away from panic.\n\nMircea Eliade drew a useful line: knowledge explains the world and ages with it. Myth does something else. It tells people who they are and how to act, so it does not expire on the same clock.\n",
-      "source_refs": [],
-      "framework_terms_used": [
-        "li"
-      ],
-      "timely_subject": null,
-      "research_bundle_id": null,
-      "winning_candidate_id": "6a86827199c5",
-      "final_text_hash": "8b67355a8d842972dffd9c6e2c87ca952cf546af23eb234ad4ca6185af404f7e",
-      "note_slug": "2026-03-20-when-a-company-says-we-are-what-we-know-it-is-one-technical-shift-away-from-panic",
-      "note_source_path": "content/notes/2026-03-20-when-a-company-says-we-are-what-we-know-it-is-one-technical-shift-away-from-panic.md",
-      "x_status": "published",
-      "x_external_post_id": "2034978650777690421",
-      "x_published_at": "2026-03-20T13:01:33.191Z",
-      "x_winning_candidate_id": "b4cddc999001",
-      "x_final_text_hash": "dbbead41438fd4a200530be5c8a6265794a86437c83b53a4771f482199848966",
-      "x_summary": "The cost of tying identity to know-how stays hidden until the know-how gets cheaper.\n\nA team built on being the smartest analysts in the room meets a model that drafts in seconds. Then the fight isn't about quality. It's humiliation dressed up as standards.",
-      "x_skip_reason": null
-    },
     {
       "post_id": "019d1b16-a489-7e26-3ce0-49369c9a9cc3",
       "external_post_id": "019d1b16-a489-7e26-3ce0-49369c9a9cc3",
@@ -1087,6 +1057,38 @@
       "x_winning_candidate_id": "50cbbe728543",
       "x_final_text_hash": "e4660e56b0489b4cd746c07605e8c54f3186874e691ad49c54970cc6482c3fc7",
       "x_summary": "When agent rollout outruns integration and governance, the damage stops being linear.\n\nTen agents across ten systems don’t create ten risks. They create invisible interactions, unclear ownership, and failure paths that only show up after something breaks.",
+      "x_skip_reason": null
+    },
+    {
+      "post_id": "019df83e-2159-4874-dd52-2c260b383f75",
+      "external_post_id": "019df83e-2159-4874-dd52-2c260b383f75",
+      "published_at": "2026-05-05T13:05:14.595Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "ritual_recipe",
+      "pillar": "Ritual Recipes",
+      "topic_thesis": "Agenda control, interpretive monopoly, and ritual inflation are early symptoms of captured rites.",
+      "angle": "Start with a recurring problem and end with a usable move. Keep the framing specific to this thesis: Agenda control, interpretive monopoly, and ritual inflation are early symptoms of captured rites.",
+      "hook": "You can spot captured rites before performance drops: the same safe topics keep getting airtime, one small group explains what the ritual “really means,” and the ceremony gets longer every quarter.",
+      "summary": "You can spot captured rites before performance drops: the same safe topics keep getting airtime, one small group explains what the ritual “really means,” and the ceremony gets longer every quarter.\n\nThat is not discipline. It is agenda control, interpretive monopoly, and ritual i",
+      "source_refs": [],
+      "framework_terms_used": [
+        "trust",
+        "li"
+      ],
+      "subject_entities": [],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "66771da8d647",
+      "final_text_hash": "7323fcae761760d074298f052ec4dc70559dae5c7840942eb7c538e02f71e21b",
+      "note_slug": "2026-05-05-agenda-control-interpretive-monopoly-and-ritual-inflation-are-early-symptoms-of-captured-rites",
+      "note_source_path": "content/notes/2026-05-05-agenda-control-interpretive-monopoly-and-ritual-inflation-are-early-symptoms-of-captured-rites.md",
+      "x_status": "published",
+      "x_external_post_id": "2051650021905293462",
+      "x_published_at": "2026-05-05T13:07:37.807Z",
+      "x_winning_candidate_id": "5e185babec0b",
+      "x_final_text_hash": "5964990849683b52c043a2780a856ae40cc2d490d88042bbeefe76f344b93e8a",
+      "x_summary": "Most postmortems turn harmless before they turn useless. The warning signs are boring: safe topics keep winning, one clique controls interpretation, and the ritual grows another layer every quarter.\n\nOnce agenda control sets in, performance decline is just the lagging indicator.",
       "x_skip_reason": null
     }
   ],
@@ -2324,6 +2326,38 @@
       "x_final_text_hash": "e4660e56b0489b4cd746c07605e8c54f3186874e691ad49c54970cc6482c3fc7",
       "x_summary": "When agent rollout outruns integration and governance, the damage stops being linear.\n\nTen agents across ten systems don’t create ten risks. They create invisible interactions, unclear ownership, and failure paths that only show up after something breaks.",
       "x_skip_reason": null
+    },
+    {
+      "post_id": "019df83e-2159-4874-dd52-2c260b383f75",
+      "external_post_id": "019df83e-2159-4874-dd52-2c260b383f75",
+      "published_at": "2026-05-05T13:05:14.595Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "ritual_recipe",
+      "pillar": "Ritual Recipes",
+      "topic_thesis": "Agenda control, interpretive monopoly, and ritual inflation are early symptoms of captured rites.",
+      "angle": "Start with a recurring problem and end with a usable move. Keep the framing specific to this thesis: Agenda control, interpretive monopoly, and ritual inflation are early symptoms of captured rites.",
+      "hook": "You can spot captured rites before performance drops: the same safe topics keep getting airtime, one small group explains what the ritual “really means,” and the ceremony gets longer every quarter.",
+      "summary": "You can spot captured rites before performance drops: the same safe topics keep getting airtime, one small group explains what the ritual “really means,” and the ceremony gets longer every quarter.\n\nThat is not discipline. It is agenda control, interpretive monopoly, and ritual i",
+      "source_refs": [],
+      "framework_terms_used": [
+        "trust",
+        "li"
+      ],
+      "subject_entities": [],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "66771da8d647",
+      "final_text_hash": "7323fcae761760d074298f052ec4dc70559dae5c7840942eb7c538e02f71e21b",
+      "note_slug": "2026-05-05-agenda-control-interpretive-monopoly-and-ritual-inflation-are-early-symptoms-of-captured-rites",
+      "note_source_path": "content/notes/2026-05-05-agenda-control-interpretive-monopoly-and-ritual-inflation-are-early-symptoms-of-captured-rites.md",
+      "x_status": "published",
+      "x_external_post_id": "2051650021905293462",
+      "x_published_at": "2026-05-05T13:07:37.807Z",
+      "x_winning_candidate_id": "5e185babec0b",
+      "x_final_text_hash": "5964990849683b52c043a2780a856ae40cc2d490d88042bbeefe76f344b93e8a",
+      "x_summary": "Most postmortems turn harmless before they turn useless. The warning signs are boring: safe topics keep winning, one clique controls interpretation, and the ritual grows another layer every quarter.\n\nOnce agenda control sets in, performance decline is just the lagging indicator.",
+      "x_skip_reason": null
     }
   ],
   "recent_topics": [
@@ -3560,6 +3594,38 @@
       "x_final_text_hash": "e4660e56b0489b4cd746c07605e8c54f3186874e691ad49c54970cc6482c3fc7",
       "x_summary": "When agent rollout outruns integration and governance, the damage stops being linear.\n\nTen agents across ten systems don’t create ten risks. They create invisible interactions, unclear ownership, and failure paths that only show up after something breaks.",
       "x_skip_reason": null
+    },
+    {
+      "post_id": "019df83e-2159-4874-dd52-2c260b383f75",
+      "external_post_id": "019df83e-2159-4874-dd52-2c260b383f75",
+      "published_at": "2026-05-05T13:05:14.595Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "ritual_recipe",
+      "pillar": "Ritual Recipes",
+      "topic_thesis": "Agenda control, interpretive monopoly, and ritual inflation are early symptoms of captured rites.",
+      "angle": "Start with a recurring problem and end with a usable move. Keep the framing specific to this thesis: Agenda control, interpretive monopoly, and ritual inflation are early symptoms of captured rites.",
+      "hook": "You can spot captured rites before performance drops: the same safe topics keep getting airtime, one small group explains what the ritual “really means,” and the ceremony gets longer every quarter.",
+      "summary": "You can spot captured rites before performance drops: the same safe topics keep getting airtime, one small group explains what the ritual “really means,” and the ceremony gets longer every quarter.\n\nThat is not discipline. It is agenda control, interpretive monopoly, and ritual i",
+      "source_refs": [],
+      "framework_terms_used": [
+        "trust",
+        "li"
+      ],
+      "subject_entities": [],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "66771da8d647",
+      "final_text_hash": "7323fcae761760d074298f052ec4dc70559dae5c7840942eb7c538e02f71e21b",
+      "note_slug": "2026-05-05-agenda-control-interpretive-monopoly-and-ritual-inflation-are-early-symptoms-of-captured-rites",
+      "note_source_path": "content/notes/2026-05-05-agenda-control-interpretive-monopoly-and-ritual-inflation-are-early-symptoms-of-captured-rites.md",
+      "x_status": "published",
+      "x_external_post_id": "2051650021905293462",
+      "x_published_at": "2026-05-05T13:07:37.807Z",
+      "x_winning_candidate_id": "5e185babec0b",
+      "x_final_text_hash": "5964990849683b52c043a2780a856ae40cc2d490d88042bbeefe76f344b93e8a",
+      "x_summary": "Most postmortems turn harmless before they turn useless. The warning signs are boring: safe topics keep winning, one clique controls interpretation, and the ritual grows another layer every quarter.\n\nOnce agenda control sets in, performance decline is just the lagging indicator.",
+      "x_skip_reason": null
     }
   ],
   "recent_subjects": [
@@ -4277,6 +4343,38 @@
       "x_final_text_hash": "e4660e56b0489b4cd746c07605e8c54f3186874e691ad49c54970cc6482c3fc7",
       "x_summary": "When agent rollout outruns integration and governance, the damage stops being linear.\n\nTen agents across ten systems don’t create ten risks. They create invisible interactions, unclear ownership, and failure paths that only show up after something breaks.",
       "x_skip_reason": null
+    },
+    {
+      "post_id": "019df83e-2159-4874-dd52-2c260b383f75",
+      "external_post_id": "019df83e-2159-4874-dd52-2c260b383f75",
+      "published_at": "2026-05-05T13:05:14.595Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "ritual_recipe",
+      "pillar": "Ritual Recipes",
+      "topic_thesis": "Agenda control, interpretive monopoly, and ritual inflation are early symptoms of captured rites.",
+      "angle": "Start with a recurring problem and end with a usable move. Keep the framing specific to this thesis: Agenda control, interpretive monopoly, and ritual inflation are early symptoms of captured rites.",
+      "hook": "You can spot captured rites before performance drops: the same safe topics keep getting airtime, one small group explains what the ritual “really means,” and the ceremony gets longer every quarter.",
+      "summary": "You can spot captured rites before performance drops: the same safe topics keep getting airtime, one small group explains what the ritual “really means,” and the ceremony gets longer every quarter.\n\nThat is not discipline. It is agenda control, interpretive monopoly, and ritual i",
+      "source_refs": [],
+      "framework_terms_used": [
+        "trust",
+        "li"
+      ],
+      "subject_entities": [],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "66771da8d647",
+      "final_text_hash": "7323fcae761760d074298f052ec4dc70559dae5c7840942eb7c538e02f71e21b",
+      "note_slug": "2026-05-05-agenda-control-interpretive-monopoly-and-ritual-inflation-are-early-symptoms-of-captured-rites",
+      "note_source_path": "content/notes/2026-05-05-agenda-control-interpretive-monopoly-and-ritual-inflation-are-early-symptoms-of-captured-rites.md",
+      "x_status": "published",
+      "x_external_post_id": "2051650021905293462",
+      "x_published_at": "2026-05-05T13:07:37.807Z",
+      "x_winning_candidate_id": "5e185babec0b",
+      "x_final_text_hash": "5964990849683b52c043a2780a856ae40cc2d490d88042bbeefe76f344b93e8a",
+      "x_summary": "Most postmortems turn harmless before they turn useless. The warning signs are boring: safe topics keep winning, one clique controls interpretation, and the ritual grows another layer every quarter.\n\nOnce agenda control sets in, performance decline is just the lagging indicator.",
+      "x_skip_reason": null
     }
   ],
   "recent_sources": [
@@ -4823,6 +4921,38 @@
       "x_winning_candidate_id": "50cbbe728543",
       "x_final_text_hash": "e4660e56b0489b4cd746c07605e8c54f3186874e691ad49c54970cc6482c3fc7",
       "x_summary": "When agent rollout outruns integration and governance, the damage stops being linear.\n\nTen agents across ten systems don’t create ten risks. They create invisible interactions, unclear ownership, and failure paths that only show up after something breaks.",
+      "x_skip_reason": null
+    },
+    {
+      "post_id": "019df83e-2159-4874-dd52-2c260b383f75",
+      "external_post_id": "019df83e-2159-4874-dd52-2c260b383f75",
+      "published_at": "2026-05-05T13:05:14.595Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "ritual_recipe",
+      "pillar": "Ritual Recipes",
+      "topic_thesis": "Agenda control, interpretive monopoly, and ritual inflation are early symptoms of captured rites.",
+      "angle": "Start with a recurring problem and end with a usable move. Keep the framing specific to this thesis: Agenda control, interpretive monopoly, and ritual inflation are early symptoms of captured rites.",
+      "hook": "You can spot captured rites before performance drops: the same safe topics keep getting airtime, one small group explains what the ritual “really means,” and the ceremony gets longer every quarter.",
+      "summary": "You can spot captured rites before performance drops: the same safe topics keep getting airtime, one small group explains what the ritual “really means,” and the ceremony gets longer every quarter.\n\nThat is not discipline. It is agenda control, interpretive monopoly, and ritual i",
+      "source_refs": [],
+      "framework_terms_used": [
+        "trust",
+        "li"
+      ],
+      "subject_entities": [],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "66771da8d647",
+      "final_text_hash": "7323fcae761760d074298f052ec4dc70559dae5c7840942eb7c538e02f71e21b",
+      "note_slug": "2026-05-05-agenda-control-interpretive-monopoly-and-ritual-inflation-are-early-symptoms-of-captured-rites",
+      "note_source_path": "content/notes/2026-05-05-agenda-control-interpretive-monopoly-and-ritual-inflation-are-early-symptoms-of-captured-rites.md",
+      "x_status": "published",
+      "x_external_post_id": "2051650021905293462",
+      "x_published_at": "2026-05-05T13:07:37.807Z",
+      "x_winning_candidate_id": "5e185babec0b",
+      "x_final_text_hash": "5964990849683b52c043a2780a856ae40cc2d490d88042bbeefe76f344b93e8a",
+      "x_summary": "Most postmortems turn harmless before they turn useless. The warning signs are boring: safe topics keep winning, one clique controls interpretation, and the ritual grows another layer every quarter.\n\nOnce agenda control sets in, performance decline is just the lagging indicator.",
       "x_skip_reason": null
     }
   ],

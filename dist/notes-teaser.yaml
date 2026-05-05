@@ -1,6 +1,14 @@
 notes_archive_url: notes/index.html
 recent_notes_empty: false
 recent_notes:
+  - title: Agenda control, interpretive monopoly, and ritual inflation are early
+      symptoms of captured rites
+    display_date: May 5, 2026
+    url: notes/2026-05-05-agenda-control-interpretive-monopoly-and-ritual-inflation-are-early-symptoms-of-captured-rites/index.html
+    excerpt: "You can spot captured rites before performance drops: the same safe
+      topics keep getting airtime, one small group explains what the ritual
+      “really means,” and the ceremony gets longer every quarter."
+    pillar: Ritual Recipes
   - title: Overflow does quadratic damage when melt outruns capacity
     display_date: May 4, 2026
     url: notes/2026-05-04-overflow-does-quadratic-damage-when-melt-outruns-capacity/index.html
@@ -15,8 +23,3 @@ recent_notes:
     excerpt: Many healthy companies are broken by leaders who can’t tolerate looking
       boring.
     pillar: High-Lindy Source Tour Guide
-  - title: Most companies don’t die because they refuse to change
-    display_date: April 30, 2026
-    url: notes/2026-04-30-most-companies-don-t-die-because-they-refuse-to-change/index.html
-    excerpt: Most companies don’t die because they refuse to change.
-    pillar: From the Mailbag
