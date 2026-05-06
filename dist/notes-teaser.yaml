@@ -1,6 +1,11 @@
 notes_archive_url: notes/index.html
 recent_notes_empty: false
 recent_notes:
+  - title: A Crossing in a low-trust team is not brave. It is a struggle session
+    display_date: May 6, 2026
+    url: notes/2026-05-06-a-crossing-in-a-low-trust-team-is-not-brave-it-is-a-struggle-session/index.html
+    excerpt: A Crossing in a low-trust team is not brave. It is a struggle session.
+    pillar: Extracted Insights
   - title: Agenda control, interpretive monopoly, and ritual inflation are early
       symptoms of captured rites
     display_date: May 5, 2026
@@ -16,10 +21,3 @@ recent_notes:
       companies are rolling out agents faster than they can integrate or govern
       them."
     pillar: Decoder Ring
-  - title: Many healthy companies are broken by leaders who can’t tolerate looking
-      boring
-    display_date: May 1, 2026
-    url: notes/2026-05-01-many-healthy-companies-are-broken-by-leaders-who-can-t-tolerate-looking-boring/index.html
-    excerpt: Many healthy companies are broken by leaders who can’t tolerate looking
-      boring.
-    pillar: High-Lindy Source Tour Guide
