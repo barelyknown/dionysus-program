@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-06T13:15:27.473Z",
-  "published_count": 38,
+  "generated_at": "2026-05-07T13:17:19.334Z",
+  "published_count": 39,
   "rolling_window_days": 84,
   "typeCounts": {
     "decoder_ring": 8,
     "ritual_recipe": 6,
     "extracted_insight": 8,
-    "archetype_diagnosis": 5,
+    "archetype_diagnosis": 6,
     "high_lindy_source_tour": 4,
     "from_the_mailbag": 3,
     "cautionary_tale": 3,
@@ -1123,6 +1123,38 @@
       "x_winning_candidate_id": "d6a9c642d0f5",
       "x_final_text_hash": "087ddf47340467d31a8ce1bb3cbc662e46357de1e87d5d62b5688203d68e9f30",
       "x_summary": "Low-trust candor has a name: management theater.\n\nYou can script the retro, the circle, the hard-feedback session. But if people haven’t seen dissent survive contact with power, the ritual becomes punishment dressed up as honesty.",
+      "x_skip_reason": null
+    },
+    {
+      "post_id": "019e0294-7c06-6695-2915-59fdb41ac7c7",
+      "external_post_id": "019e0294-7c06-6695-2915-59fdb41ac7c7",
+      "published_at": "2026-05-07T13:15:46.092Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "archetype_diagnosis",
+      "pillar": "Archetype Diagnosis",
+      "topic_thesis": "The Pyrrhic Leader.",
+      "angle": "Make the pattern recognizable fast and show what drives it. Keep the framing specific to this thesis: The Pyrrhic Leader.",
+      "hook": "You can hit the number and still be losing the company.",
+      "summary": "You can hit the number and still be losing the company.\n\nThe Pyrrhic Leader is easy to recognize. Quarterly results are strong. The all-hands sounds triumphant and feels thin. Your best people quietly leave after the big push. Glassdoor says some version of: great for your resume",
+      "source_refs": [],
+      "framework_terms_used": [
+        "trust",
+        "ren"
+      ],
+      "subject_entities": [],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "3b70a5872fe0",
+      "final_text_hash": "e33cff0c7d86eadb5fe888b584572bc978ff40185f7bc245051b64dcddb8c709",
+      "note_slug": "2026-05-07-you-can-hit-the-number-and-still-be-losing-the-company",
+      "note_source_path": "content/notes/2026-05-07-you-can-hit-the-number-and-still-be-losing-the-company.md",
+      "x_status": "published",
+      "x_external_post_id": "2052377236771332204",
+      "x_published_at": "2026-05-07T13:17:19.330Z",
+      "x_winning_candidate_id": "5842465bad68",
+      "x_final_text_hash": "4e8fb38d4993bf14749635ce150e72e91b92bff3061923e60d2f58867b81f5f3",
+      "x_summary": "Fast decisions and hard standards aren’t the problem. Extraction without replenishment is.\n\nIf every win is paid for in fear or exhaustion, you’re not building a strong company. You’re borrowing performance from the people least likely to stay.",
       "x_skip_reason": null
     }
   ],
@@ -2426,6 +2458,38 @@
       "x_final_text_hash": "087ddf47340467d31a8ce1bb3cbc662e46357de1e87d5d62b5688203d68e9f30",
       "x_summary": "Low-trust candor has a name: management theater.\n\nYou can script the retro, the circle, the hard-feedback session. But if people haven’t seen dissent survive contact with power, the ritual becomes punishment dressed up as honesty.",
       "x_skip_reason": null
+    },
+    {
+      "post_id": "019e0294-7c06-6695-2915-59fdb41ac7c7",
+      "external_post_id": "019e0294-7c06-6695-2915-59fdb41ac7c7",
+      "published_at": "2026-05-07T13:15:46.092Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "archetype_diagnosis",
+      "pillar": "Archetype Diagnosis",
+      "topic_thesis": "The Pyrrhic Leader.",
+      "angle": "Make the pattern recognizable fast and show what drives it. Keep the framing specific to this thesis: The Pyrrhic Leader.",
+      "hook": "You can hit the number and still be losing the company.",
+      "summary": "You can hit the number and still be losing the company.\n\nThe Pyrrhic Leader is easy to recognize. Quarterly results are strong. The all-hands sounds triumphant and feels thin. Your best people quietly leave after the big push. Glassdoor says some version of: great for your resume",
+      "source_refs": [],
+      "framework_terms_used": [
+        "trust",
+        "ren"
+      ],
+      "subject_entities": [],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "3b70a5872fe0",
+      "final_text_hash": "e33cff0c7d86eadb5fe888b584572bc978ff40185f7bc245051b64dcddb8c709",
+      "note_slug": "2026-05-07-you-can-hit-the-number-and-still-be-losing-the-company",
+      "note_source_path": "content/notes/2026-05-07-you-can-hit-the-number-and-still-be-losing-the-company.md",
+      "x_status": "published",
+      "x_external_post_id": "2052377236771332204",
+      "x_published_at": "2026-05-07T13:17:19.330Z",
+      "x_winning_candidate_id": "5842465bad68",
+      "x_final_text_hash": "4e8fb38d4993bf14749635ce150e72e91b92bff3061923e60d2f58867b81f5f3",
+      "x_summary": "Fast decisions and hard standards aren’t the problem. Extraction without replenishment is.\n\nIf every win is paid for in fear or exhaustion, you’re not building a strong company. You’re borrowing performance from the people least likely to stay.",
+      "x_skip_reason": null
     }
   ],
   "recent_topics": [
@@ -3728,49 +3792,41 @@
       "x_final_text_hash": "087ddf47340467d31a8ce1bb3cbc662e46357de1e87d5d62b5688203d68e9f30",
       "x_summary": "Low-trust candor has a name: management theater.\n\nYou can script the retro, the circle, the hard-feedback session. But if people haven’t seen dissent survive contact with power, the ritual becomes punishment dressed up as honesty.",
       "x_skip_reason": null
+    },
+    {
+      "post_id": "019e0294-7c06-6695-2915-59fdb41ac7c7",
+      "external_post_id": "019e0294-7c06-6695-2915-59fdb41ac7c7",
+      "published_at": "2026-05-07T13:15:46.092Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "archetype_diagnosis",
+      "pillar": "Archetype Diagnosis",
+      "topic_thesis": "The Pyrrhic Leader.",
+      "angle": "Make the pattern recognizable fast and show what drives it. Keep the framing specific to this thesis: The Pyrrhic Leader.",
+      "hook": "You can hit the number and still be losing the company.",
+      "summary": "You can hit the number and still be losing the company.\n\nThe Pyrrhic Leader is easy to recognize. Quarterly results are strong. The all-hands sounds triumphant and feels thin. Your best people quietly leave after the big push. Glassdoor says some version of: great for your resume",
+      "source_refs": [],
+      "framework_terms_used": [
+        "trust",
+        "ren"
+      ],
+      "subject_entities": [],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "3b70a5872fe0",
+      "final_text_hash": "e33cff0c7d86eadb5fe888b584572bc978ff40185f7bc245051b64dcddb8c709",
+      "note_slug": "2026-05-07-you-can-hit-the-number-and-still-be-losing-the-company",
+      "note_source_path": "content/notes/2026-05-07-you-can-hit-the-number-and-still-be-losing-the-company.md",
+      "x_status": "published",
+      "x_external_post_id": "2052377236771332204",
+      "x_published_at": "2026-05-07T13:17:19.330Z",
+      "x_winning_candidate_id": "5842465bad68",
+      "x_final_text_hash": "4e8fb38d4993bf14749635ce150e72e91b92bff3061923e60d2f58867b81f5f3",
+      "x_summary": "Fast decisions and hard standards aren’t the problem. Extraction without replenishment is.\n\nIf every win is paid for in fear or exhaustion, you’re not building a strong company. You’re borrowing performance from the people least likely to stay.",
+      "x_skip_reason": null
     }
   ],
   "recent_subjects": [
-    {
-      "post_id": "019d62e6-b014-5b44-3f0c-516a1033247c",
-      "external_post_id": "019d62e6-b014-5b44-3f0c-516a1033247c",
-      "published_at": "2026-04-06T13:06:18.779Z",
-      "linkedin_post_url": null,
-      "linkedin_activity_urn": null,
-      "content_type": "decoder_ring",
-      "pillar": "Decoder Ring",
-      "topic_thesis": "The Alchemy of Error is the practical art of turning disruption into better structure.",
-      "angle": "Open on Anthropic accidentally exposed Claude Code’s source via a public npm package in plain language, then show how it makes the deeper diagnosis legible.",
-      "hook": "Anthropic just handed the internet a large piece of Claude Code through a public npm package. The leak is the visible failure. The more important signal is that the response was framed as a systems failure, not a hunt for a villain.",
-      "summary": "Anthropic just handed the internet a large piece of Claude Code through a public npm package. The leak is the visible failure. The more important signal is that the response was framed as a systems failure, not a hunt for a villain.\n\nWhat people miss in moments like this is that ",
-      "source_refs": [
-        "https://www.theregister.com/2026/04/01/anthropic_claude_code_leak/",
-        "https://www.businessinsider.com/salesforce-ceo-marc-benioff-ai-excuse-for-layoffs-lazy-way-out-2026-4",
-        "https://www.windowscentral.com/software-apps/amazons-ai-agent-kiro-caused-aws-outage-report",
-        "https://fortune.com/2026/04/03/openai-leadership-reshuffle-fidji-simo-kate-rouch-medical-leave/"
-      ],
-      "framework_terms_used": [
-        "trust",
-        "li",
-        "scapegoat"
-      ],
-      "subject_entities": [
-        "Anthropic"
-      ],
-      "timely_subject": "Anthropic accidentally exposed Claude Code’s source via a public npm package",
-      "research_bundle_id": "6fc92f15af7a",
-      "winning_candidate_id": "69cdefbc568e",
-      "final_text_hash": "eb2af24ea56b9592d5b3bbeb49e52dfc841e9ad4042fc3bb753931acca6e24d5",
-      "note_slug": "2026-04-06-the-alchemy-of-error-is-the-practical-art-of-turning-disruption-into-better-structure",
-      "note_source_path": "content/notes/2026-04-06-the-alchemy-of-error-is-the-practical-art-of-turning-disruption-into-better-structure.md",
-      "x_status": "published",
-      "x_external_post_id": "2041141064875057185",
-      "x_published_at": "2026-04-06T13:08:47.201Z",
-      "x_winning_candidate_id": "0a727d39f996",
-      "x_final_text_hash": "8d46a7b155cc6656d8223cf63696ee51bd58d231eb550b7fa127c7daf07b66b1",
-      "x_summary": "Code leaks hurt once. Scapegoating makes you pay twice.\n\nA public npm package exposed part of Claude Code. That’s fixable. Training the org to hide bad signals after embarrassment is not. The real asset is the ability to tell the truth before the next failure compounds.",
-      "x_skip_reason": null
-    },
     {
       "post_id": "019d6808-c81f-5583-65cd-ca5f12f86ce9",
       "external_post_id": "019d6808-c81f-5583-65cd-ca5f12f86ce9",
@@ -4511,40 +4567,41 @@
       "x_final_text_hash": "087ddf47340467d31a8ce1bb3cbc662e46357de1e87d5d62b5688203d68e9f30",
       "x_summary": "Low-trust candor has a name: management theater.\n\nYou can script the retro, the circle, the hard-feedback session. But if people haven’t seen dissent survive contact with power, the ritual becomes punishment dressed up as honesty.",
       "x_skip_reason": null
-    }
-  ],
-  "recent_sources": [
+    },
     {
-      "post_id": "019d913c-1ed2-e2c8-adb8-d66795ccf27f",
-      "external_post_id": "019d913c-1ed2-e2c8-adb8-d66795ccf27f",
-      "published_at": "2026-04-15T13:02:09.644Z",
+      "post_id": "019e0294-7c06-6695-2915-59fdb41ac7c7",
+      "external_post_id": "019e0294-7c06-6695-2915-59fdb41ac7c7",
+      "published_at": "2026-05-07T13:15:46.092Z",
       "linkedin_post_url": null,
       "linkedin_activity_urn": null,
-      "content_type": "extracted_insight",
-      "pillar": "Extracted Insights",
-      "topic_thesis": "The faster knowledge changes, the more an organization needs a stable myth layer.",
-      "angle": "Name the concept, explain it plainly, and show why it matters now. Keep the framing specific to this thesis: The faster knowledge changes, the more an organization needs a stable myth layer.",
-      "hook": "The faster your knowledge expires, the more dangerous it is to build identity on expertise.",
-      "summary": "The faster your knowledge expires, the more dangerous it is to build identity on expertise.\n\nThe distinction is simple: the knowledge layer explains the world; the myth layer explains you. Knowledge makes bets reality can falsify. Myth carries stories about how to be, not what is",
+      "content_type": "archetype_diagnosis",
+      "pillar": "Archetype Diagnosis",
+      "topic_thesis": "The Pyrrhic Leader.",
+      "angle": "Make the pattern recognizable fast and show what drives it. Keep the framing specific to this thesis: The Pyrrhic Leader.",
+      "hook": "You can hit the number and still be losing the company.",
+      "summary": "You can hit the number and still be losing the company.\n\nThe Pyrrhic Leader is easy to recognize. Quarterly results are strong. The all-hands sounds triumphant and feels thin. Your best people quietly leave after the big push. Glassdoor says some version of: great for your resume",
       "source_refs": [],
       "framework_terms_used": [
-        "li"
+        "trust",
+        "ren"
       ],
       "subject_entities": [],
       "timely_subject": null,
       "research_bundle_id": null,
-      "winning_candidate_id": "d312e39a80b9",
-      "final_text_hash": "84f94703dd907408c0e85d56a338b18f4c68248ea315ed996041e9e1868418de",
-      "note_slug": "2026-04-15-the-faster-knowledge-changes-the-more-an-organization-needs-a-stable-myth-layer",
-      "note_source_path": "content/notes/2026-04-15-the-faster-knowledge-changes-the-more-an-organization-needs-a-stable-myth-layer.md",
+      "winning_candidate_id": "3b70a5872fe0",
+      "final_text_hash": "e33cff0c7d86eadb5fe888b584572bc978ff40185f7bc245051b64dcddb8c709",
+      "note_slug": "2026-05-07-you-can-hit-the-number-and-still-be-losing-the-company",
+      "note_source_path": "content/notes/2026-05-07-you-can-hit-the-number-and-still-be-losing-the-company.md",
       "x_status": "published",
-      "x_external_post_id": "2044401650509426797",
-      "x_published_at": "2026-04-15T13:05:11.409Z",
-      "x_winning_candidate_id": "ae78e6de2ef9",
-      "x_final_text_hash": "1ab05d83e1f019daa81a57b30317237cc8a9ced63c063adfd50a3d5d92c363f8",
-      "x_summary": "Knowledge tells you what is true. Myth tells you who you are.\n\nIn a slow world, those could blur. In a fast one, they can't. Tools go stale in months; identity needs a deeper anchor.\n\nWithout it, people defend yesterday's knowledge as themselves.",
+      "x_external_post_id": "2052377236771332204",
+      "x_published_at": "2026-05-07T13:17:19.330Z",
+      "x_winning_candidate_id": "5842465bad68",
+      "x_final_text_hash": "4e8fb38d4993bf14749635ce150e72e91b92bff3061923e60d2f58867b81f5f3",
+      "x_summary": "Fast decisions and hard standards aren’t the problem. Extraction without replenishment is.\n\nIf every win is paid for in fear or exhaustion, you’re not building a strong company. You’re borrowing performance from the people least likely to stay.",
       "x_skip_reason": null
-    },
+    }
+  ],
+  "recent_sources": [
     {
       "post_id": "019d9663-f62b-227d-4c04-541640606324",
       "external_post_id": "019d9663-f62b-227d-4c04-541640606324",
@@ -5051,49 +5108,41 @@
       "x_final_text_hash": "087ddf47340467d31a8ce1bb3cbc662e46357de1e87d5d62b5688203d68e9f30",
       "x_summary": "Low-trust candor has a name: management theater.\n\nYou can script the retro, the circle, the hard-feedback session. But if people haven’t seen dissent survive contact with power, the ritual becomes punishment dressed up as honesty.",
       "x_skip_reason": null
+    },
+    {
+      "post_id": "019e0294-7c06-6695-2915-59fdb41ac7c7",
+      "external_post_id": "019e0294-7c06-6695-2915-59fdb41ac7c7",
+      "published_at": "2026-05-07T13:15:46.092Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "archetype_diagnosis",
+      "pillar": "Archetype Diagnosis",
+      "topic_thesis": "The Pyrrhic Leader.",
+      "angle": "Make the pattern recognizable fast and show what drives it. Keep the framing specific to this thesis: The Pyrrhic Leader.",
+      "hook": "You can hit the number and still be losing the company.",
+      "summary": "You can hit the number and still be losing the company.\n\nThe Pyrrhic Leader is easy to recognize. Quarterly results are strong. The all-hands sounds triumphant and feels thin. Your best people quietly leave after the big push. Glassdoor says some version of: great for your resume",
+      "source_refs": [],
+      "framework_terms_used": [
+        "trust",
+        "ren"
+      ],
+      "subject_entities": [],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "3b70a5872fe0",
+      "final_text_hash": "e33cff0c7d86eadb5fe888b584572bc978ff40185f7bc245051b64dcddb8c709",
+      "note_slug": "2026-05-07-you-can-hit-the-number-and-still-be-losing-the-company",
+      "note_source_path": "content/notes/2026-05-07-you-can-hit-the-number-and-still-be-losing-the-company.md",
+      "x_status": "published",
+      "x_external_post_id": "2052377236771332204",
+      "x_published_at": "2026-05-07T13:17:19.330Z",
+      "x_winning_candidate_id": "5842465bad68",
+      "x_final_text_hash": "4e8fb38d4993bf14749635ce150e72e91b92bff3061923e60d2f58867b81f5f3",
+      "x_summary": "Fast decisions and hard standards aren’t the problem. Extraction without replenishment is.\n\nIf every win is paid for in fear or exhaustion, you’re not building a strong company. You’re borrowing performance from the people least likely to stay.",
+      "x_skip_reason": null
     }
   ],
   "recent_entities": [
-    {
-      "post_id": "019d62e6-b014-5b44-3f0c-516a1033247c",
-      "external_post_id": "019d62e6-b014-5b44-3f0c-516a1033247c",
-      "published_at": "2026-04-06T13:06:18.779Z",
-      "linkedin_post_url": null,
-      "linkedin_activity_urn": null,
-      "content_type": "decoder_ring",
-      "pillar": "Decoder Ring",
-      "topic_thesis": "The Alchemy of Error is the practical art of turning disruption into better structure.",
-      "angle": "Open on Anthropic accidentally exposed Claude Code’s source via a public npm package in plain language, then show how it makes the deeper diagnosis legible.",
-      "hook": "Anthropic just handed the internet a large piece of Claude Code through a public npm package. The leak is the visible failure. The more important signal is that the response was framed as a systems failure, not a hunt for a villain.",
-      "summary": "Anthropic just handed the internet a large piece of Claude Code through a public npm package. The leak is the visible failure. The more important signal is that the response was framed as a systems failure, not a hunt for a villain.\n\nWhat people miss in moments like this is that ",
-      "source_refs": [
-        "https://www.theregister.com/2026/04/01/anthropic_claude_code_leak/",
-        "https://www.businessinsider.com/salesforce-ceo-marc-benioff-ai-excuse-for-layoffs-lazy-way-out-2026-4",
-        "https://www.windowscentral.com/software-apps/amazons-ai-agent-kiro-caused-aws-outage-report",
-        "https://fortune.com/2026/04/03/openai-leadership-reshuffle-fidji-simo-kate-rouch-medical-leave/"
-      ],
-      "framework_terms_used": [
-        "trust",
-        "li",
-        "scapegoat"
-      ],
-      "subject_entities": [
-        "Anthropic"
-      ],
-      "timely_subject": "Anthropic accidentally exposed Claude Code’s source via a public npm package",
-      "research_bundle_id": "6fc92f15af7a",
-      "winning_candidate_id": "69cdefbc568e",
-      "final_text_hash": "eb2af24ea56b9592d5b3bbeb49e52dfc841e9ad4042fc3bb753931acca6e24d5",
-      "note_slug": "2026-04-06-the-alchemy-of-error-is-the-practical-art-of-turning-disruption-into-better-structure",
-      "note_source_path": "content/notes/2026-04-06-the-alchemy-of-error-is-the-practical-art-of-turning-disruption-into-better-structure.md",
-      "x_status": "published",
-      "x_external_post_id": "2041141064875057185",
-      "x_published_at": "2026-04-06T13:08:47.201Z",
-      "x_winning_candidate_id": "0a727d39f996",
-      "x_final_text_hash": "8d46a7b155cc6656d8223cf63696ee51bd58d231eb550b7fa127c7daf07b66b1",
-      "x_summary": "Code leaks hurt once. Scapegoating makes you pay twice.\n\nA public npm package exposed part of Claude Code. That’s fixable. Training the org to hide bad signals after embarrassment is not. The real asset is the ability to tell the truth before the next failure compounds.",
-      "x_skip_reason": null
-    },
     {
       "post_id": "019db027-0e02-7c3e-53fc-7b7791b97c22",
       "external_post_id": "019db027-0e02-7c3e-53fc-7b7791b97c22",

@@ -1,6 +1,11 @@
 notes_archive_url: notes/index.html
 recent_notes_empty: false
 recent_notes:
+  - title: You can hit the number and still be losing the company
+    display_date: May 7, 2026
+    url: notes/2026-05-07-you-can-hit-the-number-and-still-be-losing-the-company/index.html
+    excerpt: You can hit the number and still be losing the company.
+    pillar: Archetype Diagnosis
   - title: A Crossing in a low-trust team is not brave. It is a struggle session
     display_date: May 6, 2026
     url: notes/2026-05-06-a-crossing-in-a-low-trust-team-is-not-brave-it-is-a-struggle-session/index.html
@@ -14,10 +19,3 @@ recent_notes:
       topics keep getting airtime, one small group explains what the ritual
       “really means,” and the ceremony gets longer every quarter."
     pillar: Ritual Recipes
-  - title: Overflow does quadratic damage when melt outruns capacity
-    display_date: May 4, 2026
-    url: notes/2026-05-04-overflow-does-quadratic-damage-when-melt-outruns-capacity/index.html
-    excerpt: "Salesforce’s new enterprise AI benchmark says the quiet part out loud:
-      companies are rolling out agents faster than they can integrate or govern
-      them."
-    pillar: Decoder Ring
