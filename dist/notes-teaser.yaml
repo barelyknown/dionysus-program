@@ -1,6 +1,13 @@
 notes_archive_url: notes/index.html
 recent_notes_empty: false
 recent_notes:
+  - title: Ritual oligarchy and sacerdotal capture are predictable phase
+      transitions, not surprise pathologies
+    display_date: May 8, 2026
+    url: notes/2026-05-08-ritual-oligarchy-and-sacerdotal-capture-are-predictable-phase-transitions-not-surprise-pathologies/index.html
+    excerpt: The moment a culture team starts managing truth for the operators, the
+      decay has already begun.
+    pillar: Ritual Recipes
   - title: You can hit the number and still be losing the company
     display_date: May 7, 2026
     url: notes/2026-05-07-you-can-hit-the-number-and-still-be-losing-the-company/index.html
@@ -11,11 +18,3 @@ recent_notes:
     url: notes/2026-05-06-a-crossing-in-a-low-trust-team-is-not-brave-it-is-a-struggle-session/index.html
     excerpt: A Crossing in a low-trust team is not brave. It is a struggle session.
     pillar: Extracted Insights
-  - title: Agenda control, interpretive monopoly, and ritual inflation are early
-      symptoms of captured rites
-    display_date: May 5, 2026
-    url: notes/2026-05-05-agenda-control-interpretive-monopoly-and-ritual-inflation-are-early-symptoms-of-captured-rites/index.html
-    excerpt: "You can spot captured rites before performance drops: the same safe
-      topics keep getting airtime, one small group explains what the ritual
-      “really means,” and the ceremony gets longer every quarter."
-    pillar: Ritual Recipes
