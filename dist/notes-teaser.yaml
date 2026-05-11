@@ -1,6 +1,12 @@
 notes_archive_url: notes/index.html
 recent_notes_empty: false
 recent_notes:
+  - title: Run Time and Ritual Time require different forms of accountability
+    display_date: May 11, 2026
+    url: notes/2026-05-11-run-time-and-ritual-time-require-different-forms-of-accountability/index.html
+    excerpt: Anthropic made a quiet admission of scope when it added Novartis CEO
+      Vas Narasimhan to its Long-Term Benefit Trust.
+    pillar: Decoder Ring
   - title: Ritual oligarchy and sacerdotal capture are predictable phase
       transitions, not surprise pathologies
     display_date: May 8, 2026
@@ -13,8 +19,3 @@ recent_notes:
     url: notes/2026-05-07-you-can-hit-the-number-and-still-be-losing-the-company/index.html
     excerpt: You can hit the number and still be losing the company.
     pillar: Archetype Diagnosis
-  - title: A Crossing in a low-trust team is not brave. It is a struggle session
-    display_date: May 6, 2026
-    url: notes/2026-05-06-a-crossing-in-a-low-trust-team-is-not-brave-it-is-a-struggle-session/index.html
-    excerpt: A Crossing in a low-trust team is not brave. It is a struggle session.
-    pillar: Extracted Insights

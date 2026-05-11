@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-10T16:27:23.202Z",
-  "published_count": 40,
+  "generated_at": "2026-05-11T13:51:31.394Z",
+  "published_count": 41,
   "rolling_window_days": 84,
   "typeCounts": {
-    "decoder_ring": 8,
+    "decoder_ring": 9,
     "ritual_recipe": 7,
     "extracted_insight": 8,
     "archetype_diagnosis": 6,
@@ -13,37 +13,6 @@
     "short_story": 1
   },
   "recent_hooks": [
-    {
-      "post_id": "019d2a3c-03c8-00ca-6184-cbf2594a95db",
-      "external_post_id": "019d2a3c-03c8-00ca-6184-cbf2594a95db",
-      "published_at": "2026-03-26T13:01:09.482Z",
-      "linkedin_post_url": null,
-      "linkedin_activity_urn": null,
-      "content_type": "cautionary_tale",
-      "pillar": "Cautionary Tales",
-      "topic_thesis": "Trust burns faster than organizations know how to rebuild it.",
-      "angle": "Name the misuse clearly and show the cost of getting it wrong.",
-      "hook": "Nothing burns trust faster than a blameless postmortem with a hidden defendant.",
-      "summary": "Nothing burns trust faster than a blameless postmortem with a hidden defendant.\n\nThe anti-pattern is simple: import the agenda from a high-trust team into a low-trust one and call it culture change. The form looks right. The substrate is wrong.\n\nIf people know the real consequenc",
-      "source_refs": [],
-      "framework_terms_used": [
-        "trust",
-        "li"
-      ],
-      "timely_subject": null,
-      "research_bundle_id": null,
-      "winning_candidate_id": "49aeabcb5531",
-      "final_text_hash": "0ddcbccf8ed86f0e61a3f27908f4f17ec462da80b707a14053bc8a79571370cc",
-      "note_slug": "2026-03-26-nothing-burns-trust-faster-than-a-blameless-postmortem-with-a-hidden-defendant",
-      "note_source_path": "content/notes/2026-03-26-nothing-burns-trust-faster-than-a-blameless-postmortem-with-a-hidden-defendant.md",
-      "x_status": "published",
-      "x_external_post_id": "2037153162474221962",
-      "x_published_at": "2026-03-26T13:02:17.203Z",
-      "x_winning_candidate_id": "7e16024437c0",
-      "x_final_text_hash": "baa5a48f3cf7ac2e24e88fb59771b658c926097b6780302f2f44d9192a047f45",
-      "x_summary": "Blameless postmortems fail the moment everyone knows the defendant is just offstage.\n\nIn low-trust teams, candor is expensive. People perform in the room and tell the truth in side channels. Trust doesn’t snap; it cools, then quiets, then starts charging interest.",
-      "x_skip_reason": null
-    },
     {
       "post_id": "019d2f62-3933-2222-2412-84bc7654b2f9",
       "external_post_id": "019d2f62-3933-2222-2412-84bc7654b2f9",
@@ -1088,6 +1057,49 @@
       "x_winning_candidate_id": "4804b47694b8",
       "x_final_text_hash": "d18fc6465f05e56198f13e30867af135db4f7bea845a93d922b3a9905ba670ce",
       "x_summary": "The failure mode isn’t bad culture. It’s ritual capture.\n\nA process built to surface conflict gets staffed, then defended, then insulated. By the time operators need the room most, the room belongs to people without operating downside.",
+      "x_skip_reason": null
+    },
+    {
+      "post_id": "019e174d-5d74-735c-3647-3fa68df6c998",
+      "external_post_id": "019e174d-5d74-735c-3647-3fa68df6c998",
+      "published_at": "2026-05-11T13:50:06.723Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "decoder_ring",
+      "pillar": "Decoder Ring",
+      "topic_thesis": "Run Time and Ritual Time require different forms of accountability.",
+      "angle": "Open on Anthropic welcomes Dr. Vas Narasimhan to its Long-Term Benefit Trust in plain language, then show how it makes the deeper diagnosis legible.",
+      "hook": "Anthropic just made a quiet admission of scope: it added Novartis CEO Vas Narasimhan to its Long-Term Benefit Trust.",
+      "summary": "Anthropic just made a quiet admission of scope: it added Novartis CEO Vas Narasimhan to its Long-Term Benefit Trust.\n\nMost people will read that as governance window dressing. It’s more important than that. It’s a sign that Anthropic understands one uncomfortable fact: the people",
+      "source_refs": [
+        "https://www.anthropic.com/news/anthropic-welcomes-dr-vas-narasimhan-to-its-long-term-benefit-trust",
+        "https://www.reuters.com/technology/microsoft-offers-some-employees-voluntary-buyouts-free-up-cash-ai-spending-bloomberg-news-reports-2026-04-23/",
+        "https://www.reuters.com/world/uk/google-deepmind-workers-seek-union-recognition-over-military-ai-concerns-2026-05-07/",
+        "https://www.cnbc.com/2026/05/11/klarna-ceo-says-company-went-too-far-using-ai-in-customer-service-and-will-hire-more-humans.html",
+        "https://www.reuters.com/technology/openais-nonprofit-control-faces-fresh-scrutiny-musk-case-advances-2026-04-18/"
+      ],
+      "framework_terms_used": [
+        "ritual time",
+        "run time",
+        "trust",
+        "li",
+        "ren"
+      ],
+      "subject_entities": [
+        "Anthropic"
+      ],
+      "timely_subject": "Anthropic welcomes Dr. Vas Narasimhan to its Long-Term Benefit Trust",
+      "research_bundle_id": "1ce51c71b660",
+      "winning_candidate_id": "b6d18d0a742c",
+      "final_text_hash": "d40a82e85d3b660093c7f38c1175e23a3235a9ba0e89d813e1b2dd254c16c683",
+      "note_slug": "2026-05-11-run-time-and-ritual-time-require-different-forms-of-accountability",
+      "note_source_path": "content/notes/2026-05-11-run-time-and-ritual-time-require-different-forms-of-accountability.md",
+      "x_status": "published",
+      "x_external_post_id": "2053835395163414744",
+      "x_published_at": "2026-05-11T13:51:31.390Z",
+      "x_winning_candidate_id": "b8bcd4f25a47",
+      "x_final_text_hash": "3d35bc38f581743ea541aaed11fb69a8b3bead363473565c3ef3d0eb11cd29a6",
+      "x_summary": "Shipping a system and authorizing its trajectory are different authorities.\n\nAnthropic adding Vas Narasimhan to its trust is a clean example. The team that moves fastest should not be the only team allowed to define the boundary.",
       "x_skip_reason": null
     }
   ],
@@ -2455,6 +2467,49 @@
       "x_final_text_hash": "d18fc6465f05e56198f13e30867af135db4f7bea845a93d922b3a9905ba670ce",
       "x_summary": "The failure mode isn’t bad culture. It’s ritual capture.\n\nA process built to surface conflict gets staffed, then defended, then insulated. By the time operators need the room most, the room belongs to people without operating downside.",
       "x_skip_reason": null
+    },
+    {
+      "post_id": "019e174d-5d74-735c-3647-3fa68df6c998",
+      "external_post_id": "019e174d-5d74-735c-3647-3fa68df6c998",
+      "published_at": "2026-05-11T13:50:06.723Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "decoder_ring",
+      "pillar": "Decoder Ring",
+      "topic_thesis": "Run Time and Ritual Time require different forms of accountability.",
+      "angle": "Open on Anthropic welcomes Dr. Vas Narasimhan to its Long-Term Benefit Trust in plain language, then show how it makes the deeper diagnosis legible.",
+      "hook": "Anthropic just made a quiet admission of scope: it added Novartis CEO Vas Narasimhan to its Long-Term Benefit Trust.",
+      "summary": "Anthropic just made a quiet admission of scope: it added Novartis CEO Vas Narasimhan to its Long-Term Benefit Trust.\n\nMost people will read that as governance window dressing. It’s more important than that. It’s a sign that Anthropic understands one uncomfortable fact: the people",
+      "source_refs": [
+        "https://www.anthropic.com/news/anthropic-welcomes-dr-vas-narasimhan-to-its-long-term-benefit-trust",
+        "https://www.reuters.com/technology/microsoft-offers-some-employees-voluntary-buyouts-free-up-cash-ai-spending-bloomberg-news-reports-2026-04-23/",
+        "https://www.reuters.com/world/uk/google-deepmind-workers-seek-union-recognition-over-military-ai-concerns-2026-05-07/",
+        "https://www.cnbc.com/2026/05/11/klarna-ceo-says-company-went-too-far-using-ai-in-customer-service-and-will-hire-more-humans.html",
+        "https://www.reuters.com/technology/openais-nonprofit-control-faces-fresh-scrutiny-musk-case-advances-2026-04-18/"
+      ],
+      "framework_terms_used": [
+        "ritual time",
+        "run time",
+        "trust",
+        "li",
+        "ren"
+      ],
+      "subject_entities": [
+        "Anthropic"
+      ],
+      "timely_subject": "Anthropic welcomes Dr. Vas Narasimhan to its Long-Term Benefit Trust",
+      "research_bundle_id": "1ce51c71b660",
+      "winning_candidate_id": "b6d18d0a742c",
+      "final_text_hash": "d40a82e85d3b660093c7f38c1175e23a3235a9ba0e89d813e1b2dd254c16c683",
+      "note_slug": "2026-05-11-run-time-and-ritual-time-require-different-forms-of-accountability",
+      "note_source_path": "content/notes/2026-05-11-run-time-and-ritual-time-require-different-forms-of-accountability.md",
+      "x_status": "published",
+      "x_external_post_id": "2053835395163414744",
+      "x_published_at": "2026-05-11T13:51:31.390Z",
+      "x_winning_candidate_id": "b8bcd4f25a47",
+      "x_final_text_hash": "3d35bc38f581743ea541aaed11fb69a8b3bead363473565c3ef3d0eb11cd29a6",
+      "x_summary": "Shipping a system and authorizing its trajectory are different authorities.\n\nAnthropic adding Vas Narasimhan to its trust is a clean example. The team that moves fastest should not be the only team allowed to define the boundary.",
+      "x_skip_reason": null
     }
   ],
   "recent_topics": [
@@ -3821,41 +3876,52 @@
       "x_final_text_hash": "d18fc6465f05e56198f13e30867af135db4f7bea845a93d922b3a9905ba670ce",
       "x_summary": "The failure mode isn’t bad culture. It’s ritual capture.\n\nA process built to surface conflict gets staffed, then defended, then insulated. By the time operators need the room most, the room belongs to people without operating downside.",
       "x_skip_reason": null
+    },
+    {
+      "post_id": "019e174d-5d74-735c-3647-3fa68df6c998",
+      "external_post_id": "019e174d-5d74-735c-3647-3fa68df6c998",
+      "published_at": "2026-05-11T13:50:06.723Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "decoder_ring",
+      "pillar": "Decoder Ring",
+      "topic_thesis": "Run Time and Ritual Time require different forms of accountability.",
+      "angle": "Open on Anthropic welcomes Dr. Vas Narasimhan to its Long-Term Benefit Trust in plain language, then show how it makes the deeper diagnosis legible.",
+      "hook": "Anthropic just made a quiet admission of scope: it added Novartis CEO Vas Narasimhan to its Long-Term Benefit Trust.",
+      "summary": "Anthropic just made a quiet admission of scope: it added Novartis CEO Vas Narasimhan to its Long-Term Benefit Trust.\n\nMost people will read that as governance window dressing. It’s more important than that. It’s a sign that Anthropic understands one uncomfortable fact: the people",
+      "source_refs": [
+        "https://www.anthropic.com/news/anthropic-welcomes-dr-vas-narasimhan-to-its-long-term-benefit-trust",
+        "https://www.reuters.com/technology/microsoft-offers-some-employees-voluntary-buyouts-free-up-cash-ai-spending-bloomberg-news-reports-2026-04-23/",
+        "https://www.reuters.com/world/uk/google-deepmind-workers-seek-union-recognition-over-military-ai-concerns-2026-05-07/",
+        "https://www.cnbc.com/2026/05/11/klarna-ceo-says-company-went-too-far-using-ai-in-customer-service-and-will-hire-more-humans.html",
+        "https://www.reuters.com/technology/openais-nonprofit-control-faces-fresh-scrutiny-musk-case-advances-2026-04-18/"
+      ],
+      "framework_terms_used": [
+        "ritual time",
+        "run time",
+        "trust",
+        "li",
+        "ren"
+      ],
+      "subject_entities": [
+        "Anthropic"
+      ],
+      "timely_subject": "Anthropic welcomes Dr. Vas Narasimhan to its Long-Term Benefit Trust",
+      "research_bundle_id": "1ce51c71b660",
+      "winning_candidate_id": "b6d18d0a742c",
+      "final_text_hash": "d40a82e85d3b660093c7f38c1175e23a3235a9ba0e89d813e1b2dd254c16c683",
+      "note_slug": "2026-05-11-run-time-and-ritual-time-require-different-forms-of-accountability",
+      "note_source_path": "content/notes/2026-05-11-run-time-and-ritual-time-require-different-forms-of-accountability.md",
+      "x_status": "published",
+      "x_external_post_id": "2053835395163414744",
+      "x_published_at": "2026-05-11T13:51:31.390Z",
+      "x_winning_candidate_id": "b8bcd4f25a47",
+      "x_final_text_hash": "3d35bc38f581743ea541aaed11fb69a8b3bead363473565c3ef3d0eb11cd29a6",
+      "x_summary": "Shipping a system and authorizing its trajectory are different authorities.\n\nAnthropic adding Vas Narasimhan to its trust is a clean example. The team that moves fastest should not be the only team allowed to define the boundary.",
+      "x_skip_reason": null
     }
   ],
   "recent_subjects": [
-    {
-      "post_id": "019d777c-9c45-73db-8674-e502a85b4ae2",
-      "external_post_id": "019d777c-9c45-73db-8674-e502a85b4ae2",
-      "published_at": "2026-04-10T13:02:28.433Z",
-      "linkedin_post_url": null,
-      "linkedin_activity_urn": null,
-      "content_type": "cautionary_tale",
-      "pillar": "Cautionary Tales",
-      "topic_thesis": "The catechumenate comes before the high-heat rite.",
-      "angle": "Start with the surface rigor, then show the hidden damage it causes.",
-      "hook": "The fastest way to poison candor is to stage it before the group can bear it.",
-      "summary": "The fastest way to poison candor is to stage it before the group can bear it.\n\nYou can make the meeting look rigorous: the no-blame covenant, the hard questions, the facilitator, the postmortem deck. From the outside, it reads as maturity.\n\nBut if the last junior person who contr",
-      "source_refs": [],
-      "framework_terms_used": [
-        "management theater",
-        "li"
-      ],
-      "subject_entities": [],
-      "timely_subject": null,
-      "research_bundle_id": null,
-      "winning_candidate_id": "11bc379eb22d",
-      "final_text_hash": "5af6ef87a0ca298e0885323976738d1e9a8cafbc5b98cba1f57612d0efe59651",
-      "note_slug": "2026-04-10-the-fastest-way-to-poison-candor-is-to-stage-it-before-the-group-can-bear-it",
-      "note_source_path": "content/notes/2026-04-10-the-fastest-way-to-poison-candor-is-to-stage-it-before-the-group-can-bear-it.md",
-      "x_status": "published",
-      "x_external_post_id": "2042589410898637062",
-      "x_published_at": "2026-04-10T13:03:59.803Z",
-      "x_winning_candidate_id": "e258ccf34959",
-      "x_final_text_hash": "513145f56ed4b0df316457bbd97fdc416d9597842eb55f4c7f45d136dc1ab826",
-      "x_summary": "Stage candor too early and people learn the real rule fast.\n\nNot “speak freely,” but “perform openness and protect yourself.” Then the meeting looks mature from the outside while the useful information exits the room.",
-      "x_skip_reason": null
-    },
     {
       "post_id": "019d8709-e18d-80b1-c296-5fdbfd6f772a",
       "external_post_id": "019d8709-e18d-80b1-c296-5fdbfd6f772a",
@@ -4530,6 +4596,49 @@
       "x_final_text_hash": "d18fc6465f05e56198f13e30867af135db4f7bea845a93d922b3a9905ba670ce",
       "x_summary": "The failure mode isn’t bad culture. It’s ritual capture.\n\nA process built to surface conflict gets staffed, then defended, then insulated. By the time operators need the room most, the room belongs to people without operating downside.",
       "x_skip_reason": null
+    },
+    {
+      "post_id": "019e174d-5d74-735c-3647-3fa68df6c998",
+      "external_post_id": "019e174d-5d74-735c-3647-3fa68df6c998",
+      "published_at": "2026-05-11T13:50:06.723Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "decoder_ring",
+      "pillar": "Decoder Ring",
+      "topic_thesis": "Run Time and Ritual Time require different forms of accountability.",
+      "angle": "Open on Anthropic welcomes Dr. Vas Narasimhan to its Long-Term Benefit Trust in plain language, then show how it makes the deeper diagnosis legible.",
+      "hook": "Anthropic just made a quiet admission of scope: it added Novartis CEO Vas Narasimhan to its Long-Term Benefit Trust.",
+      "summary": "Anthropic just made a quiet admission of scope: it added Novartis CEO Vas Narasimhan to its Long-Term Benefit Trust.\n\nMost people will read that as governance window dressing. It’s more important than that. It’s a sign that Anthropic understands one uncomfortable fact: the people",
+      "source_refs": [
+        "https://www.anthropic.com/news/anthropic-welcomes-dr-vas-narasimhan-to-its-long-term-benefit-trust",
+        "https://www.reuters.com/technology/microsoft-offers-some-employees-voluntary-buyouts-free-up-cash-ai-spending-bloomberg-news-reports-2026-04-23/",
+        "https://www.reuters.com/world/uk/google-deepmind-workers-seek-union-recognition-over-military-ai-concerns-2026-05-07/",
+        "https://www.cnbc.com/2026/05/11/klarna-ceo-says-company-went-too-far-using-ai-in-customer-service-and-will-hire-more-humans.html",
+        "https://www.reuters.com/technology/openais-nonprofit-control-faces-fresh-scrutiny-musk-case-advances-2026-04-18/"
+      ],
+      "framework_terms_used": [
+        "ritual time",
+        "run time",
+        "trust",
+        "li",
+        "ren"
+      ],
+      "subject_entities": [
+        "Anthropic"
+      ],
+      "timely_subject": "Anthropic welcomes Dr. Vas Narasimhan to its Long-Term Benefit Trust",
+      "research_bundle_id": "1ce51c71b660",
+      "winning_candidate_id": "b6d18d0a742c",
+      "final_text_hash": "d40a82e85d3b660093c7f38c1175e23a3235a9ba0e89d813e1b2dd254c16c683",
+      "note_slug": "2026-05-11-run-time-and-ritual-time-require-different-forms-of-accountability",
+      "note_source_path": "content/notes/2026-05-11-run-time-and-ritual-time-require-different-forms-of-accountability.md",
+      "x_status": "published",
+      "x_external_post_id": "2053835395163414744",
+      "x_published_at": "2026-05-11T13:51:31.390Z",
+      "x_winning_candidate_id": "b8bcd4f25a47",
+      "x_final_text_hash": "3d35bc38f581743ea541aaed11fb69a8b3bead363473565c3ef3d0eb11cd29a6",
+      "x_summary": "Shipping a system and authorizing its trajectory are different authorities.\n\nAnthropic adding Vas Narasimhan to its trust is a clean example. The team that moves fastest should not be the only team allowed to define the boundary.",
+      "x_skip_reason": null
     }
   ],
   "recent_sources": [
@@ -5039,6 +5148,49 @@
       "x_final_text_hash": "d18fc6465f05e56198f13e30867af135db4f7bea845a93d922b3a9905ba670ce",
       "x_summary": "The failure mode isn’t bad culture. It’s ritual capture.\n\nA process built to surface conflict gets staffed, then defended, then insulated. By the time operators need the room most, the room belongs to people without operating downside.",
       "x_skip_reason": null
+    },
+    {
+      "post_id": "019e174d-5d74-735c-3647-3fa68df6c998",
+      "external_post_id": "019e174d-5d74-735c-3647-3fa68df6c998",
+      "published_at": "2026-05-11T13:50:06.723Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "decoder_ring",
+      "pillar": "Decoder Ring",
+      "topic_thesis": "Run Time and Ritual Time require different forms of accountability.",
+      "angle": "Open on Anthropic welcomes Dr. Vas Narasimhan to its Long-Term Benefit Trust in plain language, then show how it makes the deeper diagnosis legible.",
+      "hook": "Anthropic just made a quiet admission of scope: it added Novartis CEO Vas Narasimhan to its Long-Term Benefit Trust.",
+      "summary": "Anthropic just made a quiet admission of scope: it added Novartis CEO Vas Narasimhan to its Long-Term Benefit Trust.\n\nMost people will read that as governance window dressing. It’s more important than that. It’s a sign that Anthropic understands one uncomfortable fact: the people",
+      "source_refs": [
+        "https://www.anthropic.com/news/anthropic-welcomes-dr-vas-narasimhan-to-its-long-term-benefit-trust",
+        "https://www.reuters.com/technology/microsoft-offers-some-employees-voluntary-buyouts-free-up-cash-ai-spending-bloomberg-news-reports-2026-04-23/",
+        "https://www.reuters.com/world/uk/google-deepmind-workers-seek-union-recognition-over-military-ai-concerns-2026-05-07/",
+        "https://www.cnbc.com/2026/05/11/klarna-ceo-says-company-went-too-far-using-ai-in-customer-service-and-will-hire-more-humans.html",
+        "https://www.reuters.com/technology/openais-nonprofit-control-faces-fresh-scrutiny-musk-case-advances-2026-04-18/"
+      ],
+      "framework_terms_used": [
+        "ritual time",
+        "run time",
+        "trust",
+        "li",
+        "ren"
+      ],
+      "subject_entities": [
+        "Anthropic"
+      ],
+      "timely_subject": "Anthropic welcomes Dr. Vas Narasimhan to its Long-Term Benefit Trust",
+      "research_bundle_id": "1ce51c71b660",
+      "winning_candidate_id": "b6d18d0a742c",
+      "final_text_hash": "d40a82e85d3b660093c7f38c1175e23a3235a9ba0e89d813e1b2dd254c16c683",
+      "note_slug": "2026-05-11-run-time-and-ritual-time-require-different-forms-of-accountability",
+      "note_source_path": "content/notes/2026-05-11-run-time-and-ritual-time-require-different-forms-of-accountability.md",
+      "x_status": "published",
+      "x_external_post_id": "2053835395163414744",
+      "x_published_at": "2026-05-11T13:51:31.390Z",
+      "x_winning_candidate_id": "b8bcd4f25a47",
+      "x_final_text_hash": "3d35bc38f581743ea541aaed11fb69a8b3bead363473565c3ef3d0eb11cd29a6",
+      "x_summary": "Shipping a system and authorizing its trajectory are different authorities.\n\nAnthropic adding Vas Narasimhan to its trust is a clean example. The team that moves fastest should not be the only team allowed to define the boundary.",
+      "x_skip_reason": null
     }
   ],
   "recent_entities": [
@@ -5157,6 +5309,49 @@
       "x_winning_candidate_id": "50cbbe728543",
       "x_final_text_hash": "e4660e56b0489b4cd746c07605e8c54f3186874e691ad49c54970cc6482c3fc7",
       "x_summary": "When agent rollout outruns integration and governance, the damage stops being linear.\n\nTen agents across ten systems don’t create ten risks. They create invisible interactions, unclear ownership, and failure paths that only show up after something breaks.",
+      "x_skip_reason": null
+    },
+    {
+      "post_id": "019e174d-5d74-735c-3647-3fa68df6c998",
+      "external_post_id": "019e174d-5d74-735c-3647-3fa68df6c998",
+      "published_at": "2026-05-11T13:50:06.723Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "decoder_ring",
+      "pillar": "Decoder Ring",
+      "topic_thesis": "Run Time and Ritual Time require different forms of accountability.",
+      "angle": "Open on Anthropic welcomes Dr. Vas Narasimhan to its Long-Term Benefit Trust in plain language, then show how it makes the deeper diagnosis legible.",
+      "hook": "Anthropic just made a quiet admission of scope: it added Novartis CEO Vas Narasimhan to its Long-Term Benefit Trust.",
+      "summary": "Anthropic just made a quiet admission of scope: it added Novartis CEO Vas Narasimhan to its Long-Term Benefit Trust.\n\nMost people will read that as governance window dressing. It’s more important than that. It’s a sign that Anthropic understands one uncomfortable fact: the people",
+      "source_refs": [
+        "https://www.anthropic.com/news/anthropic-welcomes-dr-vas-narasimhan-to-its-long-term-benefit-trust",
+        "https://www.reuters.com/technology/microsoft-offers-some-employees-voluntary-buyouts-free-up-cash-ai-spending-bloomberg-news-reports-2026-04-23/",
+        "https://www.reuters.com/world/uk/google-deepmind-workers-seek-union-recognition-over-military-ai-concerns-2026-05-07/",
+        "https://www.cnbc.com/2026/05/11/klarna-ceo-says-company-went-too-far-using-ai-in-customer-service-and-will-hire-more-humans.html",
+        "https://www.reuters.com/technology/openais-nonprofit-control-faces-fresh-scrutiny-musk-case-advances-2026-04-18/"
+      ],
+      "framework_terms_used": [
+        "ritual time",
+        "run time",
+        "trust",
+        "li",
+        "ren"
+      ],
+      "subject_entities": [
+        "Anthropic"
+      ],
+      "timely_subject": "Anthropic welcomes Dr. Vas Narasimhan to its Long-Term Benefit Trust",
+      "research_bundle_id": "1ce51c71b660",
+      "winning_candidate_id": "b6d18d0a742c",
+      "final_text_hash": "d40a82e85d3b660093c7f38c1175e23a3235a9ba0e89d813e1b2dd254c16c683",
+      "note_slug": "2026-05-11-run-time-and-ritual-time-require-different-forms-of-accountability",
+      "note_source_path": "content/notes/2026-05-11-run-time-and-ritual-time-require-different-forms-of-accountability.md",
+      "x_status": "published",
+      "x_external_post_id": "2053835395163414744",
+      "x_published_at": "2026-05-11T13:51:31.390Z",
+      "x_winning_candidate_id": "b8bcd4f25a47",
+      "x_final_text_hash": "3d35bc38f581743ea541aaed11fb69a8b3bead363473565c3ef3d0eb11cd29a6",
+      "x_summary": "Shipping a system and authorizing its trajectory are different authorities.\n\nAnthropic adding Vas Narasimhan to its trust is a clean example. The team that moves fastest should not be the only team allowed to define the boundary.",
       "x_skip_reason": null
     }
   ]
