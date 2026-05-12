@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-05-11T13:51:31.394Z",
-  "published_count": 41,
+  "generated_at": "2026-05-12T13:21:25.784Z",
+  "published_count": 42,
   "rolling_window_days": 84,
   "typeCounts": {
     "decoder_ring": 9,
     "ritual_recipe": 7,
-    "extracted_insight": 8,
+    "extracted_insight": 9,
     "archetype_diagnosis": 6,
     "high_lindy_source_tour": 4,
     "from_the_mailbag": 3,
@@ -13,40 +13,6 @@
     "short_story": 1
   },
   "recent_hooks": [
-    {
-      "post_id": "019d2f62-3933-2222-2412-84bc7654b2f9",
-      "external_post_id": "019d2f62-3933-2222-2412-84bc7654b2f9",
-      "published_at": "2026-03-27T13:00:59.580Z",
-      "linkedin_post_url": null,
-      "linkedin_activity_urn": null,
-      "content_type": "ritual_recipe",
-      "pillar": "Ritual Recipes",
-      "topic_thesis": "Tragic Postmortems should change identity, not just improve documentation.",
-      "angle": "Open on the failure mode, then give the smallest ritual that changes the behavior.",
-      "hook": "If your postmortem ends with a document, you probably just preserved the failure.",
-      "summary": "If your postmortem ends with a document, you probably just preserved the failure.\n\nMost teams treat a serious miss like a process bug. They build the timeline, assign owners, tighten the checklist. But tragic failures usually come from identity: what the team calls prudent, heroi",
-      "source_refs": [],
-      "framework_terms_used": [
-        "trust",
-        "management theater",
-        "li",
-        "ren",
-        "tragic postmortem"
-      ],
-      "timely_subject": null,
-      "research_bundle_id": null,
-      "winning_candidate_id": "da13aa677ad9",
-      "final_text_hash": "ff21efb4c58bd1b833b1d74e5123061c995d8209d78e853ec05ca0051743921b",
-      "note_slug": "2026-03-27-if-a-postmortem-ends-with-a-document-it-probably-just-preserved-the-failure",
-      "note_source_path": "content/notes/2026-03-27-if-a-postmortem-ends-with-a-document-it-probably-just-preserved-the-failure.md",
-      "x_status": "published",
-      "x_external_post_id": "2037516091077931129",
-      "x_published_at": "2026-03-27T13:04:26.103Z",
-      "x_winning_candidate_id": "2c4d29c89930",
-      "x_final_text_hash": "106181ff61074affdd85148251f1c5f68edda061f890efe28b25a6b561ecff8b",
-      "x_summary": "Most postmortems don’t change the team. They archive the failure.\n\nSerious misses rarely survive on process alone. They’re protected by identity—what the team calls prudent, heroic, untouchable. If the nouns stay the same, the pattern does too.",
-      "x_skip_reason": null
-    },
     {
       "post_id": "019d3edb-4b69-a084-7520-4c1dc07bacbe",
       "external_post_id": "019d3edb-4b69-a084-7520-4c1dc07bacbe",
@@ -1100,6 +1066,37 @@
       "x_winning_candidate_id": "b8bcd4f25a47",
       "x_final_text_hash": "3d35bc38f581743ea541aaed11fb69a8b3bead363473565c3ef3d0eb11cd29a6",
       "x_summary": "Shipping a system and authorizing its trajectory are different authorities.\n\nAnthropic adding Vas Narasimhan to its trust is a clean example. The team that moves fastest should not be the only team allowed to define the boundary.",
+      "x_skip_reason": null
+    },
+    {
+      "post_id": "019e1c57-87eb-b1d6-f5b6-049598dd06ab",
+      "external_post_id": "019e1c57-87eb-b1d6-f5b6-049598dd06ab",
+      "published_at": "2026-05-12T13:19:19.040Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "extracted_insight",
+      "pillar": "Extracted Insights",
+      "topic_thesis": "Exhausted people cannot metabolize truth safely; the substrate test is metabolic, not just moral.",
+      "angle": "Name the concept, explain it plainly, and show why it matters now. Keep the framing specific to this thesis: Exhausted people cannot metabolize truth safely; the substrate test is metabolic, not just moral.",
+      "hook": "The fastest way to turn truth into violence is to ask for candor from exhausted people.",
+      "summary": "The fastest way to turn truth into violence is to ask for candor from exhausted people.\n\nIn The Dionysus Program, this is the substrate test. Before you run a hard postmortem or ask for radical honesty, ask a simpler question: is the group merely afraid, or depleted? The test isn",
+      "source_refs": [],
+      "framework_terms_used": [
+        "li"
+      ],
+      "subject_entities": [],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "9b77e5c6d825",
+      "final_text_hash": "dad45f4db41d3fbf6e6f203b141fcb6718697a8f7f6464200b4af81c5a7d2a76",
+      "note_slug": "2026-05-12-the-fastest-way-to-turn-truth-into-violence-is-to-ask-for-candor-from-exhausted-people",
+      "note_source_path": "content/notes/2026-05-12-the-fastest-way-to-turn-truth-into-violence-is-to-ask-for-candor-from-exhausted-people.md",
+      "x_status": "published",
+      "x_external_post_id": "2054190209768505438",
+      "x_published_at": "2026-05-12T13:21:25.781Z",
+      "x_winning_candidate_id": "1af65aeac0b9",
+      "x_final_text_hash": "495699da4e8d19a255bfff59a41ad5141d48b0e05f7c1559404d7274d66ba78f",
+      "x_summary": "Fear and depletion look similar from a distance, but they behave very differently.\n\nA fearful team may stay quiet. An exhausted one will turn candor into punishment. After a brutal sprint, an “honest conversation” is usually just fatigue looking for a target.",
       "x_skip_reason": null
     }
   ],
@@ -2510,6 +2507,37 @@
       "x_final_text_hash": "3d35bc38f581743ea541aaed11fb69a8b3bead363473565c3ef3d0eb11cd29a6",
       "x_summary": "Shipping a system and authorizing its trajectory are different authorities.\n\nAnthropic adding Vas Narasimhan to its trust is a clean example. The team that moves fastest should not be the only team allowed to define the boundary.",
       "x_skip_reason": null
+    },
+    {
+      "post_id": "019e1c57-87eb-b1d6-f5b6-049598dd06ab",
+      "external_post_id": "019e1c57-87eb-b1d6-f5b6-049598dd06ab",
+      "published_at": "2026-05-12T13:19:19.040Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "extracted_insight",
+      "pillar": "Extracted Insights",
+      "topic_thesis": "Exhausted people cannot metabolize truth safely; the substrate test is metabolic, not just moral.",
+      "angle": "Name the concept, explain it plainly, and show why it matters now. Keep the framing specific to this thesis: Exhausted people cannot metabolize truth safely; the substrate test is metabolic, not just moral.",
+      "hook": "The fastest way to turn truth into violence is to ask for candor from exhausted people.",
+      "summary": "The fastest way to turn truth into violence is to ask for candor from exhausted people.\n\nIn The Dionysus Program, this is the substrate test. Before you run a hard postmortem or ask for radical honesty, ask a simpler question: is the group merely afraid, or depleted? The test isn",
+      "source_refs": [],
+      "framework_terms_used": [
+        "li"
+      ],
+      "subject_entities": [],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "9b77e5c6d825",
+      "final_text_hash": "dad45f4db41d3fbf6e6f203b141fcb6718697a8f7f6464200b4af81c5a7d2a76",
+      "note_slug": "2026-05-12-the-fastest-way-to-turn-truth-into-violence-is-to-ask-for-candor-from-exhausted-people",
+      "note_source_path": "content/notes/2026-05-12-the-fastest-way-to-turn-truth-into-violence-is-to-ask-for-candor-from-exhausted-people.md",
+      "x_status": "published",
+      "x_external_post_id": "2054190209768505438",
+      "x_published_at": "2026-05-12T13:21:25.781Z",
+      "x_winning_candidate_id": "1af65aeac0b9",
+      "x_final_text_hash": "495699da4e8d19a255bfff59a41ad5141d48b0e05f7c1559404d7274d66ba78f",
+      "x_summary": "Fear and depletion look similar from a distance, but they behave very differently.\n\nA fearful team may stay quiet. An exhausted one will turn candor into punishment. After a brutal sprint, an “honest conversation” is usually just fatigue looking for a target.",
+      "x_skip_reason": null
     }
   ],
   "recent_topics": [
@@ -3919,6 +3947,37 @@
       "x_final_text_hash": "3d35bc38f581743ea541aaed11fb69a8b3bead363473565c3ef3d0eb11cd29a6",
       "x_summary": "Shipping a system and authorizing its trajectory are different authorities.\n\nAnthropic adding Vas Narasimhan to its trust is a clean example. The team that moves fastest should not be the only team allowed to define the boundary.",
       "x_skip_reason": null
+    },
+    {
+      "post_id": "019e1c57-87eb-b1d6-f5b6-049598dd06ab",
+      "external_post_id": "019e1c57-87eb-b1d6-f5b6-049598dd06ab",
+      "published_at": "2026-05-12T13:19:19.040Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "extracted_insight",
+      "pillar": "Extracted Insights",
+      "topic_thesis": "Exhausted people cannot metabolize truth safely; the substrate test is metabolic, not just moral.",
+      "angle": "Name the concept, explain it plainly, and show why it matters now. Keep the framing specific to this thesis: Exhausted people cannot metabolize truth safely; the substrate test is metabolic, not just moral.",
+      "hook": "The fastest way to turn truth into violence is to ask for candor from exhausted people.",
+      "summary": "The fastest way to turn truth into violence is to ask for candor from exhausted people.\n\nIn The Dionysus Program, this is the substrate test. Before you run a hard postmortem or ask for radical honesty, ask a simpler question: is the group merely afraid, or depleted? The test isn",
+      "source_refs": [],
+      "framework_terms_used": [
+        "li"
+      ],
+      "subject_entities": [],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "9b77e5c6d825",
+      "final_text_hash": "dad45f4db41d3fbf6e6f203b141fcb6718697a8f7f6464200b4af81c5a7d2a76",
+      "note_slug": "2026-05-12-the-fastest-way-to-turn-truth-into-violence-is-to-ask-for-candor-from-exhausted-people",
+      "note_source_path": "content/notes/2026-05-12-the-fastest-way-to-turn-truth-into-violence-is-to-ask-for-candor-from-exhausted-people.md",
+      "x_status": "published",
+      "x_external_post_id": "2054190209768505438",
+      "x_published_at": "2026-05-12T13:21:25.781Z",
+      "x_winning_candidate_id": "1af65aeac0b9",
+      "x_final_text_hash": "495699da4e8d19a255bfff59a41ad5141d48b0e05f7c1559404d7274d66ba78f",
+      "x_summary": "Fear and depletion look similar from a distance, but they behave very differently.\n\nA fearful team may stay quiet. An exhausted one will turn candor into punishment. After a brutal sprint, an “honest conversation” is usually just fatigue looking for a target.",
+      "x_skip_reason": null
     }
   ],
   "recent_subjects": [
@@ -4639,6 +4698,37 @@
       "x_final_text_hash": "3d35bc38f581743ea541aaed11fb69a8b3bead363473565c3ef3d0eb11cd29a6",
       "x_summary": "Shipping a system and authorizing its trajectory are different authorities.\n\nAnthropic adding Vas Narasimhan to its trust is a clean example. The team that moves fastest should not be the only team allowed to define the boundary.",
       "x_skip_reason": null
+    },
+    {
+      "post_id": "019e1c57-87eb-b1d6-f5b6-049598dd06ab",
+      "external_post_id": "019e1c57-87eb-b1d6-f5b6-049598dd06ab",
+      "published_at": "2026-05-12T13:19:19.040Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "extracted_insight",
+      "pillar": "Extracted Insights",
+      "topic_thesis": "Exhausted people cannot metabolize truth safely; the substrate test is metabolic, not just moral.",
+      "angle": "Name the concept, explain it plainly, and show why it matters now. Keep the framing specific to this thesis: Exhausted people cannot metabolize truth safely; the substrate test is metabolic, not just moral.",
+      "hook": "The fastest way to turn truth into violence is to ask for candor from exhausted people.",
+      "summary": "The fastest way to turn truth into violence is to ask for candor from exhausted people.\n\nIn The Dionysus Program, this is the substrate test. Before you run a hard postmortem or ask for radical honesty, ask a simpler question: is the group merely afraid, or depleted? The test isn",
+      "source_refs": [],
+      "framework_terms_used": [
+        "li"
+      ],
+      "subject_entities": [],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "9b77e5c6d825",
+      "final_text_hash": "dad45f4db41d3fbf6e6f203b141fcb6718697a8f7f6464200b4af81c5a7d2a76",
+      "note_slug": "2026-05-12-the-fastest-way-to-turn-truth-into-violence-is-to-ask-for-candor-from-exhausted-people",
+      "note_source_path": "content/notes/2026-05-12-the-fastest-way-to-turn-truth-into-violence-is-to-ask-for-candor-from-exhausted-people.md",
+      "x_status": "published",
+      "x_external_post_id": "2054190209768505438",
+      "x_published_at": "2026-05-12T13:21:25.781Z",
+      "x_winning_candidate_id": "1af65aeac0b9",
+      "x_final_text_hash": "495699da4e8d19a255bfff59a41ad5141d48b0e05f7c1559404d7274d66ba78f",
+      "x_summary": "Fear and depletion look similar from a distance, but they behave very differently.\n\nA fearful team may stay quiet. An exhausted one will turn candor into punishment. After a brutal sprint, an “honest conversation” is usually just fatigue looking for a target.",
+      "x_skip_reason": null
     }
   ],
   "recent_sources": [
@@ -5190,6 +5280,37 @@
       "x_winning_candidate_id": "b8bcd4f25a47",
       "x_final_text_hash": "3d35bc38f581743ea541aaed11fb69a8b3bead363473565c3ef3d0eb11cd29a6",
       "x_summary": "Shipping a system and authorizing its trajectory are different authorities.\n\nAnthropic adding Vas Narasimhan to its trust is a clean example. The team that moves fastest should not be the only team allowed to define the boundary.",
+      "x_skip_reason": null
+    },
+    {
+      "post_id": "019e1c57-87eb-b1d6-f5b6-049598dd06ab",
+      "external_post_id": "019e1c57-87eb-b1d6-f5b6-049598dd06ab",
+      "published_at": "2026-05-12T13:19:19.040Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "extracted_insight",
+      "pillar": "Extracted Insights",
+      "topic_thesis": "Exhausted people cannot metabolize truth safely; the substrate test is metabolic, not just moral.",
+      "angle": "Name the concept, explain it plainly, and show why it matters now. Keep the framing specific to this thesis: Exhausted people cannot metabolize truth safely; the substrate test is metabolic, not just moral.",
+      "hook": "The fastest way to turn truth into violence is to ask for candor from exhausted people.",
+      "summary": "The fastest way to turn truth into violence is to ask for candor from exhausted people.\n\nIn The Dionysus Program, this is the substrate test. Before you run a hard postmortem or ask for radical honesty, ask a simpler question: is the group merely afraid, or depleted? The test isn",
+      "source_refs": [],
+      "framework_terms_used": [
+        "li"
+      ],
+      "subject_entities": [],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "9b77e5c6d825",
+      "final_text_hash": "dad45f4db41d3fbf6e6f203b141fcb6718697a8f7f6464200b4af81c5a7d2a76",
+      "note_slug": "2026-05-12-the-fastest-way-to-turn-truth-into-violence-is-to-ask-for-candor-from-exhausted-people",
+      "note_source_path": "content/notes/2026-05-12-the-fastest-way-to-turn-truth-into-violence-is-to-ask-for-candor-from-exhausted-people.md",
+      "x_status": "published",
+      "x_external_post_id": "2054190209768505438",
+      "x_published_at": "2026-05-12T13:21:25.781Z",
+      "x_winning_candidate_id": "1af65aeac0b9",
+      "x_final_text_hash": "495699da4e8d19a255bfff59a41ad5141d48b0e05f7c1559404d7274d66ba78f",
+      "x_summary": "Fear and depletion look similar from a distance, but they behave very differently.\n\nA fearful team may stay quiet. An exhausted one will turn candor into punishment. After a brutal sprint, an “honest conversation” is usually just fatigue looking for a target.",
       "x_skip_reason": null
     }
   ],

@@ -1,6 +1,13 @@
 notes_archive_url: notes/index.html
 recent_notes_empty: false
 recent_notes:
+  - title: The fastest way to turn truth into violence is to ask for candor from
+      exhausted people
+    display_date: May 12, 2026
+    url: notes/2026-05-12-the-fastest-way-to-turn-truth-into-violence-is-to-ask-for-candor-from-exhausted-people/index.html
+    excerpt: The fastest way to turn truth into violence is to ask for candor from
+      exhausted people.
+    pillar: Extracted Insights
   - title: Run Time and Ritual Time require different forms of accountability
     display_date: May 11, 2026
     url: notes/2026-05-11-run-time-and-ritual-time-require-different-forms-of-accountability/index.html
@@ -14,8 +21,3 @@ recent_notes:
     excerpt: The moment a culture team starts managing truth for the operators, the
       decay has already begun.
     pillar: Ritual Recipes
-  - title: You can hit the number and still be losing the company
-    display_date: May 7, 2026
-    url: notes/2026-05-07-you-can-hit-the-number-and-still-be-losing-the-company/index.html
-    excerpt: You can hit the number and still be losing the company.
-    pillar: Archetype Diagnosis
