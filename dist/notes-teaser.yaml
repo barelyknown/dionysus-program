@@ -1,6 +1,14 @@
 notes_archive_url: notes/index.html
 recent_notes_empty: false
 recent_notes:
+  - title: The Apollo Program is necessary but insufficient because optimization
+      cannot metabolize meaning
+    display_date: May 13, 2026
+    url: notes/2026-05-13-the-apollo-program-is-necessary-but-insufficient-because-optimization-cannot-metabolize-meaning/index.html
+    excerpt: Klarna’s AI assistant handled 2.3 million customer service
+      conversations in its first month—about two-thirds of the total.
+      Impressive. It is also the cleanest expression of a category error.
+    pillar: Decoder Ring
   - title: The fastest way to turn truth into violence is to ask for candor from
       exhausted people
     display_date: May 12, 2026
@@ -14,10 +22,3 @@ recent_notes:
     excerpt: Anthropic made a quiet admission of scope when it added Novartis CEO
       Vas Narasimhan to its Long-Term Benefit Trust.
     pillar: Decoder Ring
-  - title: Ritual oligarchy and sacerdotal capture are predictable phase
-      transitions, not surprise pathologies
-    display_date: May 8, 2026
-    url: notes/2026-05-08-ritual-oligarchy-and-sacerdotal-capture-are-predictable-phase-transitions-not-surprise-pathologies/index.html
-    excerpt: The moment a culture team starts managing truth for the operators, the
-      decay has already begun.
-    pillar: Ritual Recipes
