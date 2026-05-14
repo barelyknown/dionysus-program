@@ -1,6 +1,14 @@
 notes_archive_url: notes/index.html
 recent_notes_empty: false
 recent_notes:
+  - title: Planning tools are communication tools when they make uncertainty
+      socially admissible before the fact
+    display_date: May 14, 2026
+    url: notes/2026-05-14-planning-tools-are-communication-tools-when-they-make-uncertainty-socially-admissible-before-the-fact/index.html
+    excerpt: "Microsoft’s 2026 Work Trend Index is a useful confession: the models
+      moved first, and management didn’t. Read plainly, the technology is ready
+      to act before many organizations are ready to hear,..."
+    pillar: Decoder Ring
   - title: The Apollo Program is necessary but insufficient because optimization
       cannot metabolize meaning
     display_date: May 13, 2026
@@ -16,9 +24,3 @@ recent_notes:
     excerpt: The fastest way to turn truth into violence is to ask for candor from
       exhausted people.
     pillar: Extracted Insights
-  - title: Run Time and Ritual Time require different forms of accountability
-    display_date: May 11, 2026
-    url: notes/2026-05-11-run-time-and-ritual-time-require-different-forms-of-accountability/index.html
-    excerpt: Anthropic made a quiet admission of scope when it added Novartis CEO
-      Vas Narasimhan to its Long-Term Benefit Trust.
-    pillar: Decoder Ring

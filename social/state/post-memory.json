@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-13T13:39:42.637Z",
-  "published_count": 43,
+  "generated_at": "2026-05-14T13:22:40.698Z",
+  "published_count": 44,
   "rolling_window_days": 84,
   "typeCounts": {
-    "decoder_ring": 10,
+    "decoder_ring": 11,
     "ritual_recipe": 7,
     "extracted_insight": 9,
     "archetype_diagnosis": 6,
@@ -1137,6 +1137,46 @@
       "x_winning_candidate_id": "da4405085417",
       "x_final_text_hash": "2c40a5af258045726522bba17d61b210d1988b99147b14263e110f1748153aac",
       "x_summary": "Ticket resolution is a process. Customer service is also a sensing system. Confusing the two is how automation wins become governance losses.\n\nKlarna’s 2.3 million AI chats show the upside clearly. They also show that meaning, exceptions, and mistrust don’t get automated away.",
+      "x_skip_reason": null
+    },
+    {
+      "post_id": "019e26a5-f87d-cd2a-201b-3fd76530f6d2",
+      "external_post_id": "019e26a5-f87d-cd2a-201b-3fd76530f6d2",
+      "published_at": "2026-05-14T13:21:11.812Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "decoder_ring",
+      "pillar": "Decoder Ring",
+      "topic_thesis": "Planning tools are communication tools when they make uncertainty socially admissible before the fact.",
+      "angle": "Open on Microsoft Work Trend Index 2026 in plain language, then show how it makes the deeper diagnosis legible.",
+      "hook": "Microsoft’s 2026 Work Trend Index is a useful confession: the models moved first, and management didn’t. Read plainly, the technology is ready to act before many organizations are ready to hear, “We’re not sure.”",
+      "summary": "Microsoft’s 2026 Work Trend Index is a useful confession: the models moved first, and management didn’t. Read plainly, the technology is ready to act before many organizations are ready to hear, “We’re not sure.”\n\nThat’s the deeper diagnosis people miss. Planning tools are not ma",
+      "source_refs": [
+        "https://www.microsoft.com/en-us/worklab/work-trend-index/",
+        "https://www.reuters.com/world/uk/google-deepmind-workers-seek-union-recognition-over-military-ai-concerns-2026-05-07/",
+        "https://www.cnbc.com/2026/04/24/google-workers-urge-company-to-bar-pentagon-from-using-its-ai-for-classified-work.html",
+        "https://ai.google/responsibility/principles/"
+      ],
+      "framework_terms_used": [
+        "management theater",
+        "li",
+        "ren"
+      ],
+      "subject_entities": [
+        "Microsoft"
+      ],
+      "timely_subject": "Microsoft Work Trend Index 2026",
+      "research_bundle_id": "00283950f661",
+      "winning_candidate_id": "d7d912b0d1b7",
+      "final_text_hash": "7118a05f89c9dd33cfaf686b5998c3324c95e101eb3541c9b3f7ed006941ae74",
+      "note_slug": "2026-05-14-planning-tools-are-communication-tools-when-they-make-uncertainty-socially-admissible-before-the-fact",
+      "note_source_path": "content/notes/2026-05-14-planning-tools-are-communication-tools-when-they-make-uncertainty-socially-admissible-before-the-fact.md",
+      "x_status": "published",
+      "x_external_post_id": "2054915299724394658",
+      "x_published_at": "2026-05-14T13:22:40.694Z",
+      "x_winning_candidate_id": "845c0fb1bed8",
+      "x_final_text_hash": "1d5cd14c5ae7fc73e134db9daebcca2f77222ec322edd6e5bf1ea0dcf2693656",
+      "x_summary": "Planning tools don’t fail because forecasts are wrong. They fail because uncertainty can’t be spoken early.\n\nThen teams pad estimates, hide insurance, and wait for reality to make honesty permissible. That’s not planning. It’s management theater.",
       "x_skip_reason": null
     }
   ],
@@ -2618,6 +2658,46 @@
       "x_final_text_hash": "2c40a5af258045726522bba17d61b210d1988b99147b14263e110f1748153aac",
       "x_summary": "Ticket resolution is a process. Customer service is also a sensing system. Confusing the two is how automation wins become governance losses.\n\nKlarna’s 2.3 million AI chats show the upside clearly. They also show that meaning, exceptions, and mistrust don’t get automated away.",
       "x_skip_reason": null
+    },
+    {
+      "post_id": "019e26a5-f87d-cd2a-201b-3fd76530f6d2",
+      "external_post_id": "019e26a5-f87d-cd2a-201b-3fd76530f6d2",
+      "published_at": "2026-05-14T13:21:11.812Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "decoder_ring",
+      "pillar": "Decoder Ring",
+      "topic_thesis": "Planning tools are communication tools when they make uncertainty socially admissible before the fact.",
+      "angle": "Open on Microsoft Work Trend Index 2026 in plain language, then show how it makes the deeper diagnosis legible.",
+      "hook": "Microsoft’s 2026 Work Trend Index is a useful confession: the models moved first, and management didn’t. Read plainly, the technology is ready to act before many organizations are ready to hear, “We’re not sure.”",
+      "summary": "Microsoft’s 2026 Work Trend Index is a useful confession: the models moved first, and management didn’t. Read plainly, the technology is ready to act before many organizations are ready to hear, “We’re not sure.”\n\nThat’s the deeper diagnosis people miss. Planning tools are not ma",
+      "source_refs": [
+        "https://www.microsoft.com/en-us/worklab/work-trend-index/",
+        "https://www.reuters.com/world/uk/google-deepmind-workers-seek-union-recognition-over-military-ai-concerns-2026-05-07/",
+        "https://www.cnbc.com/2026/04/24/google-workers-urge-company-to-bar-pentagon-from-using-its-ai-for-classified-work.html",
+        "https://ai.google/responsibility/principles/"
+      ],
+      "framework_terms_used": [
+        "management theater",
+        "li",
+        "ren"
+      ],
+      "subject_entities": [
+        "Microsoft"
+      ],
+      "timely_subject": "Microsoft Work Trend Index 2026",
+      "research_bundle_id": "00283950f661",
+      "winning_candidate_id": "d7d912b0d1b7",
+      "final_text_hash": "7118a05f89c9dd33cfaf686b5998c3324c95e101eb3541c9b3f7ed006941ae74",
+      "note_slug": "2026-05-14-planning-tools-are-communication-tools-when-they-make-uncertainty-socially-admissible-before-the-fact",
+      "note_source_path": "content/notes/2026-05-14-planning-tools-are-communication-tools-when-they-make-uncertainty-socially-admissible-before-the-fact.md",
+      "x_status": "published",
+      "x_external_post_id": "2054915299724394658",
+      "x_published_at": "2026-05-14T13:22:40.694Z",
+      "x_winning_candidate_id": "845c0fb1bed8",
+      "x_final_text_hash": "1d5cd14c5ae7fc73e134db9daebcca2f77222ec322edd6e5bf1ea0dcf2693656",
+      "x_summary": "Planning tools don’t fail because forecasts are wrong. They fail because uncertainty can’t be spoken early.\n\nThen teams pad estimates, hide insurance, and wait for reality to make honesty permissible. That’s not planning. It’s management theater.",
+      "x_skip_reason": null
     }
   ],
   "recent_topics": [
@@ -4098,6 +4178,46 @@
       "x_final_text_hash": "2c40a5af258045726522bba17d61b210d1988b99147b14263e110f1748153aac",
       "x_summary": "Ticket resolution is a process. Customer service is also a sensing system. Confusing the two is how automation wins become governance losses.\n\nKlarna’s 2.3 million AI chats show the upside clearly. They also show that meaning, exceptions, and mistrust don’t get automated away.",
       "x_skip_reason": null
+    },
+    {
+      "post_id": "019e26a5-f87d-cd2a-201b-3fd76530f6d2",
+      "external_post_id": "019e26a5-f87d-cd2a-201b-3fd76530f6d2",
+      "published_at": "2026-05-14T13:21:11.812Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "decoder_ring",
+      "pillar": "Decoder Ring",
+      "topic_thesis": "Planning tools are communication tools when they make uncertainty socially admissible before the fact.",
+      "angle": "Open on Microsoft Work Trend Index 2026 in plain language, then show how it makes the deeper diagnosis legible.",
+      "hook": "Microsoft’s 2026 Work Trend Index is a useful confession: the models moved first, and management didn’t. Read plainly, the technology is ready to act before many organizations are ready to hear, “We’re not sure.”",
+      "summary": "Microsoft’s 2026 Work Trend Index is a useful confession: the models moved first, and management didn’t. Read plainly, the technology is ready to act before many organizations are ready to hear, “We’re not sure.”\n\nThat’s the deeper diagnosis people miss. Planning tools are not ma",
+      "source_refs": [
+        "https://www.microsoft.com/en-us/worklab/work-trend-index/",
+        "https://www.reuters.com/world/uk/google-deepmind-workers-seek-union-recognition-over-military-ai-concerns-2026-05-07/",
+        "https://www.cnbc.com/2026/04/24/google-workers-urge-company-to-bar-pentagon-from-using-its-ai-for-classified-work.html",
+        "https://ai.google/responsibility/principles/"
+      ],
+      "framework_terms_used": [
+        "management theater",
+        "li",
+        "ren"
+      ],
+      "subject_entities": [
+        "Microsoft"
+      ],
+      "timely_subject": "Microsoft Work Trend Index 2026",
+      "research_bundle_id": "00283950f661",
+      "winning_candidate_id": "d7d912b0d1b7",
+      "final_text_hash": "7118a05f89c9dd33cfaf686b5998c3324c95e101eb3541c9b3f7ed006941ae74",
+      "note_slug": "2026-05-14-planning-tools-are-communication-tools-when-they-make-uncertainty-socially-admissible-before-the-fact",
+      "note_source_path": "content/notes/2026-05-14-planning-tools-are-communication-tools-when-they-make-uncertainty-socially-admissible-before-the-fact.md",
+      "x_status": "published",
+      "x_external_post_id": "2054915299724394658",
+      "x_published_at": "2026-05-14T13:22:40.694Z",
+      "x_winning_candidate_id": "845c0fb1bed8",
+      "x_final_text_hash": "1d5cd14c5ae7fc73e134db9daebcca2f77222ec322edd6e5bf1ea0dcf2693656",
+      "x_summary": "Planning tools don’t fail because forecasts are wrong. They fail because uncertainty can’t be spoken early.\n\nThen teams pad estimates, hide insurance, and wait for reality to make honesty permissible. That’s not planning. It’s management theater.",
+      "x_skip_reason": null
     }
   ],
   "recent_subjects": [
@@ -4889,42 +5009,49 @@
       "x_final_text_hash": "2c40a5af258045726522bba17d61b210d1988b99147b14263e110f1748153aac",
       "x_summary": "Ticket resolution is a process. Customer service is also a sensing system. Confusing the two is how automation wins become governance losses.\n\nKlarna’s 2.3 million AI chats show the upside clearly. They also show that meaning, exceptions, and mistrust don’t get automated away.",
       "x_skip_reason": null
-    }
-  ],
-  "recent_sources": [
+    },
     {
-      "post_id": "019db548-23ee-01db-0fb4-ec6e1e10f869",
-      "external_post_id": "019db548-23ee-01db-0fb4-ec6e1e10f869",
-      "published_at": "2026-04-22T13:01:37.176Z",
+      "post_id": "019e26a5-f87d-cd2a-201b-3fd76530f6d2",
+      "external_post_id": "019e26a5-f87d-cd2a-201b-3fd76530f6d2",
+      "published_at": "2026-05-14T13:21:11.812Z",
       "linkedin_post_url": null,
       "linkedin_activity_urn": null,
-      "content_type": "extracted_insight",
-      "pillar": "Extracted Insights",
-      "topic_thesis": "The Village Honest Person is perfect compliance without soul: Li without Ren made flesh.",
-      "angle": "Name the concept, explain it plainly, and show why it matters now. Keep the framing specific to this thesis: The Village Honest Person is perfect compliance without soul: Li without Ren made flesh.",
-      "hook": "Perfect compliance without soul has a name: the Village Honest Person.",
-      "summary": "Perfect compliance without soul has a name: the Village Honest Person.\n\nConfucius’s warning was not about obvious bad actors. It was about the person who follows the forms perfectly and still hollows them out. Li without Ren: ritual form without humaneness. Every box checked. Not",
-      "source_refs": [],
+      "content_type": "decoder_ring",
+      "pillar": "Decoder Ring",
+      "topic_thesis": "Planning tools are communication tools when they make uncertainty socially admissible before the fact.",
+      "angle": "Open on Microsoft Work Trend Index 2026 in plain language, then show how it makes the deeper diagnosis legible.",
+      "hook": "Microsoft’s 2026 Work Trend Index is a useful confession: the models moved first, and management didn’t. Read plainly, the technology is ready to act before many organizations are ready to hear, “We’re not sure.”",
+      "summary": "Microsoft’s 2026 Work Trend Index is a useful confession: the models moved first, and management didn’t. Read plainly, the technology is ready to act before many organizations are ready to hear, “We’re not sure.”\n\nThat’s the deeper diagnosis people miss. Planning tools are not ma",
+      "source_refs": [
+        "https://www.microsoft.com/en-us/worklab/work-trend-index/",
+        "https://www.reuters.com/world/uk/google-deepmind-workers-seek-union-recognition-over-military-ai-concerns-2026-05-07/",
+        "https://www.cnbc.com/2026/04/24/google-workers-urge-company-to-bar-pentagon-from-using-its-ai-for-classified-work.html",
+        "https://ai.google/responsibility/principles/"
+      ],
       "framework_terms_used": [
         "management theater",
         "li",
         "ren"
       ],
-      "subject_entities": [],
-      "timely_subject": null,
-      "research_bundle_id": null,
-      "winning_candidate_id": "1736f3caa343",
-      "final_text_hash": "59fc522740c44f3525555ddc7c0030979ae43a5929bae39fd119ea186252a8d6",
-      "note_slug": "2026-04-22-perfect-compliance-without-soul-has-a-name-the-village-honest-person",
-      "note_source_path": "content/notes/2026-04-22-perfect-compliance-without-soul-has-a-name-the-village-honest-person.md",
+      "subject_entities": [
+        "Microsoft"
+      ],
+      "timely_subject": "Microsoft Work Trend Index 2026",
+      "research_bundle_id": "00283950f661",
+      "winning_candidate_id": "d7d912b0d1b7",
+      "final_text_hash": "7118a05f89c9dd33cfaf686b5998c3324c95e101eb3541c9b3f7ed006941ae74",
+      "note_slug": "2026-05-14-planning-tools-are-communication-tools-when-they-make-uncertainty-socially-admissible-before-the-fact",
+      "note_source_path": "content/notes/2026-05-14-planning-tools-are-communication-tools-when-they-make-uncertainty-socially-admissible-before-the-fact.md",
       "x_status": "published",
-      "x_external_post_id": "2046938141798379828",
-      "x_published_at": "2026-04-22T13:04:18.060Z",
-      "x_winning_candidate_id": "d4eb9e0278cd",
-      "x_final_text_hash": "7a9a78bc7fe285391c52595b39990fdef5a1c8b87fd56063fb626bef65c94335",
-      "x_summary": "Process is not the same thing as trust. Scripted candor is not the same thing as safety.\n\nThat distinction shows up in the blameless postmortem: criticism is allowed, but only if it changes nothing important. The ritual stays intact. The truth does not.",
+      "x_external_post_id": "2054915299724394658",
+      "x_published_at": "2026-05-14T13:22:40.694Z",
+      "x_winning_candidate_id": "845c0fb1bed8",
+      "x_final_text_hash": "1d5cd14c5ae7fc73e134db9daebcca2f77222ec322edd6e5bf1ea0dcf2693656",
+      "x_summary": "Planning tools don’t fail because forecasts are wrong. They fail because uncertainty can’t be spoken early.\n\nThen teams pad estimates, hide insurance, and wait for reality to make honesty permissible. That’s not planning. It’s management theater.",
       "x_skip_reason": null
-    },
+    }
+  ],
+  "recent_sources": [
     {
       "post_id": "019dba6e-7ca8-bf37-2a8c-9fe852a7423f",
       "external_post_id": "019dba6e-7ca8-bf37-2a8c-9fe852a7423f",
@@ -5443,6 +5570,46 @@
       "x_final_text_hash": "2c40a5af258045726522bba17d61b210d1988b99147b14263e110f1748153aac",
       "x_summary": "Ticket resolution is a process. Customer service is also a sensing system. Confusing the two is how automation wins become governance losses.\n\nKlarna’s 2.3 million AI chats show the upside clearly. They also show that meaning, exceptions, and mistrust don’t get automated away.",
       "x_skip_reason": null
+    },
+    {
+      "post_id": "019e26a5-f87d-cd2a-201b-3fd76530f6d2",
+      "external_post_id": "019e26a5-f87d-cd2a-201b-3fd76530f6d2",
+      "published_at": "2026-05-14T13:21:11.812Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "decoder_ring",
+      "pillar": "Decoder Ring",
+      "topic_thesis": "Planning tools are communication tools when they make uncertainty socially admissible before the fact.",
+      "angle": "Open on Microsoft Work Trend Index 2026 in plain language, then show how it makes the deeper diagnosis legible.",
+      "hook": "Microsoft’s 2026 Work Trend Index is a useful confession: the models moved first, and management didn’t. Read plainly, the technology is ready to act before many organizations are ready to hear, “We’re not sure.”",
+      "summary": "Microsoft’s 2026 Work Trend Index is a useful confession: the models moved first, and management didn’t. Read plainly, the technology is ready to act before many organizations are ready to hear, “We’re not sure.”\n\nThat’s the deeper diagnosis people miss. Planning tools are not ma",
+      "source_refs": [
+        "https://www.microsoft.com/en-us/worklab/work-trend-index/",
+        "https://www.reuters.com/world/uk/google-deepmind-workers-seek-union-recognition-over-military-ai-concerns-2026-05-07/",
+        "https://www.cnbc.com/2026/04/24/google-workers-urge-company-to-bar-pentagon-from-using-its-ai-for-classified-work.html",
+        "https://ai.google/responsibility/principles/"
+      ],
+      "framework_terms_used": [
+        "management theater",
+        "li",
+        "ren"
+      ],
+      "subject_entities": [
+        "Microsoft"
+      ],
+      "timely_subject": "Microsoft Work Trend Index 2026",
+      "research_bundle_id": "00283950f661",
+      "winning_candidate_id": "d7d912b0d1b7",
+      "final_text_hash": "7118a05f89c9dd33cfaf686b5998c3324c95e101eb3541c9b3f7ed006941ae74",
+      "note_slug": "2026-05-14-planning-tools-are-communication-tools-when-they-make-uncertainty-socially-admissible-before-the-fact",
+      "note_source_path": "content/notes/2026-05-14-planning-tools-are-communication-tools-when-they-make-uncertainty-socially-admissible-before-the-fact.md",
+      "x_status": "published",
+      "x_external_post_id": "2054915299724394658",
+      "x_published_at": "2026-05-14T13:22:40.694Z",
+      "x_winning_candidate_id": "845c0fb1bed8",
+      "x_final_text_hash": "1d5cd14c5ae7fc73e134db9daebcca2f77222ec322edd6e5bf1ea0dcf2693656",
+      "x_summary": "Planning tools don’t fail because forecasts are wrong. They fail because uncertainty can’t be spoken early.\n\nThen teams pad estimates, hide insurance, and wait for reality to make honesty permissible. That’s not planning. It’s management theater.",
+      "x_skip_reason": null
     }
   ],
   "recent_entities": [
@@ -5644,6 +5811,46 @@
       "x_winning_candidate_id": "da4405085417",
       "x_final_text_hash": "2c40a5af258045726522bba17d61b210d1988b99147b14263e110f1748153aac",
       "x_summary": "Ticket resolution is a process. Customer service is also a sensing system. Confusing the two is how automation wins become governance losses.\n\nKlarna’s 2.3 million AI chats show the upside clearly. They also show that meaning, exceptions, and mistrust don’t get automated away.",
+      "x_skip_reason": null
+    },
+    {
+      "post_id": "019e26a5-f87d-cd2a-201b-3fd76530f6d2",
+      "external_post_id": "019e26a5-f87d-cd2a-201b-3fd76530f6d2",
+      "published_at": "2026-05-14T13:21:11.812Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "decoder_ring",
+      "pillar": "Decoder Ring",
+      "topic_thesis": "Planning tools are communication tools when they make uncertainty socially admissible before the fact.",
+      "angle": "Open on Microsoft Work Trend Index 2026 in plain language, then show how it makes the deeper diagnosis legible.",
+      "hook": "Microsoft’s 2026 Work Trend Index is a useful confession: the models moved first, and management didn’t. Read plainly, the technology is ready to act before many organizations are ready to hear, “We’re not sure.”",
+      "summary": "Microsoft’s 2026 Work Trend Index is a useful confession: the models moved first, and management didn’t. Read plainly, the technology is ready to act before many organizations are ready to hear, “We’re not sure.”\n\nThat’s the deeper diagnosis people miss. Planning tools are not ma",
+      "source_refs": [
+        "https://www.microsoft.com/en-us/worklab/work-trend-index/",
+        "https://www.reuters.com/world/uk/google-deepmind-workers-seek-union-recognition-over-military-ai-concerns-2026-05-07/",
+        "https://www.cnbc.com/2026/04/24/google-workers-urge-company-to-bar-pentagon-from-using-its-ai-for-classified-work.html",
+        "https://ai.google/responsibility/principles/"
+      ],
+      "framework_terms_used": [
+        "management theater",
+        "li",
+        "ren"
+      ],
+      "subject_entities": [
+        "Microsoft"
+      ],
+      "timely_subject": "Microsoft Work Trend Index 2026",
+      "research_bundle_id": "00283950f661",
+      "winning_candidate_id": "d7d912b0d1b7",
+      "final_text_hash": "7118a05f89c9dd33cfaf686b5998c3324c95e101eb3541c9b3f7ed006941ae74",
+      "note_slug": "2026-05-14-planning-tools-are-communication-tools-when-they-make-uncertainty-socially-admissible-before-the-fact",
+      "note_source_path": "content/notes/2026-05-14-planning-tools-are-communication-tools-when-they-make-uncertainty-socially-admissible-before-the-fact.md",
+      "x_status": "published",
+      "x_external_post_id": "2054915299724394658",
+      "x_published_at": "2026-05-14T13:22:40.694Z",
+      "x_winning_candidate_id": "845c0fb1bed8",
+      "x_final_text_hash": "1d5cd14c5ae7fc73e134db9daebcca2f77222ec322edd6e5bf1ea0dcf2693656",
+      "x_summary": "Planning tools don’t fail because forecasts are wrong. They fail because uncertainty can’t be spoken early.\n\nThen teams pad estimates, hide insurance, and wait for reality to make honesty permissible. That’s not planning. It’s management theater.",
       "x_skip_reason": null
     }
   ]
