@@ -1,6 +1,11 @@
 notes_archive_url: notes/index.html
 recent_notes_empty: false
 recent_notes:
+  - title: Most founders can force commitment. Very few can turn it into trust
+    display_date: May 18, 2026
+    url: notes/2026-05-18-most-founders-can-force-commitment-very-few-can-turn-it-into-trust/index.html
+    excerpt: Most founders can force commitment. Very few can turn it into trust.
+    pillar: Extracted Insights
   - title: Captured rites create negative selection against the people best able to
       metabolize error
     display_date: May 15, 2026
@@ -15,12 +20,4 @@ recent_notes:
     excerpt: "Microsoft’s 2026 Work Trend Index is a useful confession: the models
       moved first, and management didn’t. Read plainly, the technology is ready
       to act before many organizations are ready to hear,..."
-    pillar: Decoder Ring
-  - title: The Apollo Program is necessary but insufficient because optimization
-      cannot metabolize meaning
-    display_date: May 13, 2026
-    url: notes/2026-05-13-the-apollo-program-is-necessary-but-insufficient-because-optimization-cannot-metabolize-meaning/index.html
-    excerpt: Klarna’s AI assistant handled 2.3 million customer service
-      conversations in its first month—about two-thirds of the total.
-      Impressive. It is also the cleanest expression of a category error.
     pillar: Decoder Ring
