@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-05-18T14:00:06.316Z",
-  "published_count": 46,
+  "generated_at": "2026-05-19T13:45:15.856Z",
+  "published_count": 47,
   "rolling_window_days": 84,
   "typeCounts": {
     "decoder_ring": 11,
     "ritual_recipe": 7,
-    "extracted_insight": 11,
+    "extracted_insight": 12,
     "archetype_diagnosis": 6,
     "high_lindy_source_tour": 4,
     "from_the_mailbag": 3,
@@ -13,37 +13,6 @@
     "short_story": 1
   },
   "recent_hooks": [
-    {
-      "post_id": "019d536e-0c12-249a-7d1a-f1f2336c60b1",
-      "external_post_id": "019d536e-0c12-249a-7d1a-f1f2336c60b1",
-      "published_at": "2026-04-03T13:00:14.236Z",
-      "linkedin_post_url": null,
-      "linkedin_activity_urn": null,
-      "content_type": "short_story",
-      "pillar": "Short Stories",
-      "topic_thesis": "Bad organizational myths do not decay slowly; they walk until they suddenly collapse.",
-      "angle": "A short story must resolve into a concrete lesson, not just a mood.",
-      "hook": "“We still reward candor.”",
-      "summary": "“We still reward candor.”\n\nThe slide advanced. No one objected. No one agreed either. A few people looked down at their laptops, which is what quiet disbelief looks like in a company meeting.\n\nFor six months, everyone had watched the opposite happen. The person who named the real",
-      "source_refs": [],
-      "framework_terms_used": [
-        "li"
-      ],
-      "subject_entities": [],
-      "timely_subject": null,
-      "research_bundle_id": null,
-      "winning_candidate_id": "de39ea73fd9d",
-      "final_text_hash": "cc71006070adef0df41744f9d9ffbdb6e3b7697230be08fc453d4c2f22f1386f",
-      "note_slug": "2026-04-03-we-still-reward-candor",
-      "note_source_path": "content/notes/2026-04-03-we-still-reward-candor.md",
-      "x_status": "published",
-      "x_external_post_id": "2040052120141914438",
-      "x_published_at": "2026-04-03T13:01:42.545Z",
-      "x_winning_candidate_id": "7ef42fcdf5f7",
-      "x_final_text_hash": "8136b626ec1137b4deda879c6404de1d91a82bdc2977ff4ed7e5c3e31f987b07",
-      "x_summary": "Most culture lies survive because silence is cheaper than candor.\n\nWhen naming the problem gets you sidelined, the myth keeps walking. It doesn’t die from evidence. It dies at the first legitimacy event the company can’t absorb.",
-      "x_skip_reason": null
-    },
     {
       "post_id": "019d62e6-b014-5b44-3f0c-516a1033247c",
       "external_post_id": "019d62e6-b014-5b44-3f0c-516a1033247c",
@@ -1105,6 +1074,37 @@
       "x_winning_candidate_id": "8ede6dfa3bcc",
       "x_final_text_hash": "f26f39c852f1823031b6d8f1d3a74003afdcf5195a27e2c77c6cde0f8e23f3db",
       "x_summary": "Teams often mistake induced commitment for trust.\n\nThe tell is simple: pressure works, but the bond still points upward. If the leader stays outside the rules, the organization doesn’t trust itself. It trusts the person applying force.",
+      "x_skip_reason": null
+    },
+    {
+      "post_id": "019e407a-6595-eef2-27d0-b6ca3c68baae",
+      "external_post_id": "019e407a-6595-eef2-27d0-b6ca3c68baae",
+      "published_at": "2026-05-19T13:43:43.804Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "extracted_insight",
+      "pillar": "Extracted Insights",
+      "topic_thesis": "Game Tape Review makes public wrongness safe while errors are still cheap.",
+      "angle": "Name the concept, explain it plainly, and show why it matters now. Keep the framing specific to this thesis: Game Tape Review makes public wrongness safe while errors are still cheap.",
+      "hook": "The most expensive mistake is the one nobody can safely be wrong about until after the money is gone.",
+      "summary": "The most expensive mistake is the one nobody can safely be wrong about until after the money is gone.\n\nGame Tape Review is the opposite. In the book, I describe it as a recurring plan-performance review: not blame, but cheap error study. You put the tape on the screen while the m",
+      "source_refs": [],
+      "framework_terms_used": [
+        "li"
+      ],
+      "subject_entities": [],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "8fe835e400f7",
+      "final_text_hash": "fc73f06b23df830c09eedff8994c79a300d699dd5f35802b9c8c75a0632538bb",
+      "note_slug": "2026-05-19-game-tape-review-makes-public-wrongness-safe-while-errors-are-still-cheap",
+      "note_source_path": "content/notes/2026-05-19-game-tape-review-makes-public-wrongness-safe-while-errors-are-still-cheap.md",
+      "x_status": "published",
+      "x_external_post_id": "2056732922993127600",
+      "x_published_at": "2026-05-19T13:45:15.853Z",
+      "x_winning_candidate_id": "23eb034ad753",
+      "x_final_text_hash": "d23c338181d816954d435dcacee7c1269243e25da6ff788f050ff91d4aa49e29",
+      "x_summary": "Most waste is paid for before it’s visible.\n\nOn night paving jobs, the obvious problem was truck backups. The expensive mistake happened hours earlier: over-ordering under uncertainty. When teams can’t surface small misses early, they buy certainty at full price.",
       "x_skip_reason": null
     }
   ],
@@ -2690,6 +2690,37 @@
       "x_final_text_hash": "f26f39c852f1823031b6d8f1d3a74003afdcf5195a27e2c77c6cde0f8e23f3db",
       "x_summary": "Teams often mistake induced commitment for trust.\n\nThe tell is simple: pressure works, but the bond still points upward. If the leader stays outside the rules, the organization doesn’t trust itself. It trusts the person applying force.",
       "x_skip_reason": null
+    },
+    {
+      "post_id": "019e407a-6595-eef2-27d0-b6ca3c68baae",
+      "external_post_id": "019e407a-6595-eef2-27d0-b6ca3c68baae",
+      "published_at": "2026-05-19T13:43:43.804Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "extracted_insight",
+      "pillar": "Extracted Insights",
+      "topic_thesis": "Game Tape Review makes public wrongness safe while errors are still cheap.",
+      "angle": "Name the concept, explain it plainly, and show why it matters now. Keep the framing specific to this thesis: Game Tape Review makes public wrongness safe while errors are still cheap.",
+      "hook": "The most expensive mistake is the one nobody can safely be wrong about until after the money is gone.",
+      "summary": "The most expensive mistake is the one nobody can safely be wrong about until after the money is gone.\n\nGame Tape Review is the opposite. In the book, I describe it as a recurring plan-performance review: not blame, but cheap error study. You put the tape on the screen while the m",
+      "source_refs": [],
+      "framework_terms_used": [
+        "li"
+      ],
+      "subject_entities": [],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "8fe835e400f7",
+      "final_text_hash": "fc73f06b23df830c09eedff8994c79a300d699dd5f35802b9c8c75a0632538bb",
+      "note_slug": "2026-05-19-game-tape-review-makes-public-wrongness-safe-while-errors-are-still-cheap",
+      "note_source_path": "content/notes/2026-05-19-game-tape-review-makes-public-wrongness-safe-while-errors-are-still-cheap.md",
+      "x_status": "published",
+      "x_external_post_id": "2056732922993127600",
+      "x_published_at": "2026-05-19T13:45:15.853Z",
+      "x_winning_candidate_id": "23eb034ad753",
+      "x_final_text_hash": "d23c338181d816954d435dcacee7c1269243e25da6ff788f050ff91d4aa49e29",
+      "x_summary": "Most waste is paid for before it’s visible.\n\nOn night paving jobs, the obvious problem was truck backups. The expensive mistake happened hours earlier: over-ordering under uncertainty. When teams can’t surface small misses early, they buy certainty at full price.",
+      "x_skip_reason": null
     }
   ],
   "recent_topics": [
@@ -4274,6 +4305,37 @@
       "x_final_text_hash": "f26f39c852f1823031b6d8f1d3a74003afdcf5195a27e2c77c6cde0f8e23f3db",
       "x_summary": "Teams often mistake induced commitment for trust.\n\nThe tell is simple: pressure works, but the bond still points upward. If the leader stays outside the rules, the organization doesn’t trust itself. It trusts the person applying force.",
       "x_skip_reason": null
+    },
+    {
+      "post_id": "019e407a-6595-eef2-27d0-b6ca3c68baae",
+      "external_post_id": "019e407a-6595-eef2-27d0-b6ca3c68baae",
+      "published_at": "2026-05-19T13:43:43.804Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "extracted_insight",
+      "pillar": "Extracted Insights",
+      "topic_thesis": "Game Tape Review makes public wrongness safe while errors are still cheap.",
+      "angle": "Name the concept, explain it plainly, and show why it matters now. Keep the framing specific to this thesis: Game Tape Review makes public wrongness safe while errors are still cheap.",
+      "hook": "The most expensive mistake is the one nobody can safely be wrong about until after the money is gone.",
+      "summary": "The most expensive mistake is the one nobody can safely be wrong about until after the money is gone.\n\nGame Tape Review is the opposite. In the book, I describe it as a recurring plan-performance review: not blame, but cheap error study. You put the tape on the screen while the m",
+      "source_refs": [],
+      "framework_terms_used": [
+        "li"
+      ],
+      "subject_entities": [],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "8fe835e400f7",
+      "final_text_hash": "fc73f06b23df830c09eedff8994c79a300d699dd5f35802b9c8c75a0632538bb",
+      "note_slug": "2026-05-19-game-tape-review-makes-public-wrongness-safe-while-errors-are-still-cheap",
+      "note_source_path": "content/notes/2026-05-19-game-tape-review-makes-public-wrongness-safe-while-errors-are-still-cheap.md",
+      "x_status": "published",
+      "x_external_post_id": "2056732922993127600",
+      "x_published_at": "2026-05-19T13:45:15.853Z",
+      "x_winning_candidate_id": "23eb034ad753",
+      "x_final_text_hash": "d23c338181d816954d435dcacee7c1269243e25da6ff788f050ff91d4aa49e29",
+      "x_summary": "Most waste is paid for before it’s visible.\n\nOn night paving jobs, the obvious problem was truck backups. The expensive mistake happened hours earlier: over-ordering under uncertainty. When teams can’t surface small misses early, they buy certainty at full price.",
+      "x_skip_reason": null
     }
   ],
   "recent_subjects": [
@@ -5001,50 +5063,40 @@
       "x_final_text_hash": "f26f39c852f1823031b6d8f1d3a74003afdcf5195a27e2c77c6cde0f8e23f3db",
       "x_summary": "Teams often mistake induced commitment for trust.\n\nThe tell is simple: pressure works, but the bond still points upward. If the leader stays outside the rules, the organization doesn’t trust itself. It trusts the person applying force.",
       "x_skip_reason": null
+    },
+    {
+      "post_id": "019e407a-6595-eef2-27d0-b6ca3c68baae",
+      "external_post_id": "019e407a-6595-eef2-27d0-b6ca3c68baae",
+      "published_at": "2026-05-19T13:43:43.804Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "extracted_insight",
+      "pillar": "Extracted Insights",
+      "topic_thesis": "Game Tape Review makes public wrongness safe while errors are still cheap.",
+      "angle": "Name the concept, explain it plainly, and show why it matters now. Keep the framing specific to this thesis: Game Tape Review makes public wrongness safe while errors are still cheap.",
+      "hook": "The most expensive mistake is the one nobody can safely be wrong about until after the money is gone.",
+      "summary": "The most expensive mistake is the one nobody can safely be wrong about until after the money is gone.\n\nGame Tape Review is the opposite. In the book, I describe it as a recurring plan-performance review: not blame, but cheap error study. You put the tape on the screen while the m",
+      "source_refs": [],
+      "framework_terms_used": [
+        "li"
+      ],
+      "subject_entities": [],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "8fe835e400f7",
+      "final_text_hash": "fc73f06b23df830c09eedff8994c79a300d699dd5f35802b9c8c75a0632538bb",
+      "note_slug": "2026-05-19-game-tape-review-makes-public-wrongness-safe-while-errors-are-still-cheap",
+      "note_source_path": "content/notes/2026-05-19-game-tape-review-makes-public-wrongness-safe-while-errors-are-still-cheap.md",
+      "x_status": "published",
+      "x_external_post_id": "2056732922993127600",
+      "x_published_at": "2026-05-19T13:45:15.853Z",
+      "x_winning_candidate_id": "23eb034ad753",
+      "x_final_text_hash": "d23c338181d816954d435dcacee7c1269243e25da6ff788f050ff91d4aa49e29",
+      "x_summary": "Most waste is paid for before it’s visible.\n\nOn night paving jobs, the obvious problem was truck backups. The expensive mistake happened hours earlier: over-ordering under uncertainty. When teams can’t surface small misses early, they buy certainty at full price.",
+      "x_skip_reason": null
     }
   ],
   "recent_sources": [
-    {
-      "post_id": "019dcf14-1053-6015-9cd4-b47660a902a8",
-      "external_post_id": "019dcf14-1053-6015-9cd4-b47660a902a8",
-      "published_at": "2026-04-27T13:14:51.899Z",
-      "linkedin_post_url": null,
-      "linkedin_activity_urn": null,
-      "content_type": "decoder_ring",
-      "pillar": "Decoder Ring",
-      "topic_thesis": "Crimes Against Ren are real because truth can still be weaponized against the substrate that makes truth possible.",
-      "angle": "Open on Meta asks some workers to install software that monitors how they use their computers in plain language, then show how it makes the deeper diagnosis legible.",
-      "hook": "Meta is asking some employees to install software that records clicks, keystrokes, and screen activity so it can train AI agents. Plain language: the company is turning work into training data.",
-      "summary": "Meta is asking some employees to install software that records clicks, keystrokes, and screen activity so it can train AI agents. Plain language: the company is turning work into training data.\n\nWhat most people miss is that this is not only a labor or privacy story. It is a subs",
-      "source_refs": [
-        "https://www.reuters.com/technology/meta-asks-some-workers-install-software-that-monitors-how-they-use-computers-2026-04-24/",
-        "https://www.businessinsider.com/meta-monitoring-employee-computer-activity-train-ai-agents-2026-4",
-        "https://www.ft.com/content/6d4a3d7d-2e8a-4d8a-9a9c-5a3b5f8d0f71",
-        "https://news.microsoft.com/en-au/features/microsoft-and-actu-convene-workers-summit-to-help-australians-thrive-in-ai-economy/",
-        "https://www.reuters.com/technology/salesforce-shifts-support-staff-agentforce-automates-customer-service-work-2026-04-09/"
-      ],
-      "framework_terms_used": [
-        "trust",
-        "li",
-        "ren"
-      ],
-      "subject_entities": [
-        "Meta"
-      ],
-      "timely_subject": "Meta asks some workers to install software that monitors how they use their computers",
-      "research_bundle_id": "8871ef321e75",
-      "winning_candidate_id": "fc115c2f64d5",
-      "final_text_hash": "10f4d560aca3512989ca9d4cc6d9aa152b1e0d4443bbd17aea76b54a7e4ea599",
-      "note_slug": "2026-04-27-crimes-against-ren-are-real-because-truth-can-still-be-weaponized-against-the-substrate-that-makes-truth-possible",
-      "note_source_path": "content/notes/2026-04-27-crimes-against-ren-are-real-because-truth-can-still-be-weaponized-against-the-substrate-that-makes-truth-possible.md",
-      "x_status": "published",
-      "x_external_post_id": "2048753187705004211",
-      "x_published_at": "2026-04-27T13:16:38.697Z",
-      "x_winning_candidate_id": "44f884e0f3b0",
-      "x_final_text_hash": "a5d88a2c011c18531d7d4e3b0aeb111e9f20011f4d70a7f6807217f6d3c266dd",
-      "x_summary": "The better you capture work by force, the worse your understanding becomes.\n\nA log of clicks, keystrokes, and screens looks like ground truth. But once employees know that truth trains the system that may replace them, the real workflow moves offstage.",
-      "x_skip_reason": null
-    },
     {
       "post_id": "019dd439-c628-af80-48d5-7773d64edbb2",
       "external_post_id": "019dd439-c628-af80-48d5-7773d64edbb2",
@@ -5561,6 +5613,37 @@
       "x_winning_candidate_id": "8ede6dfa3bcc",
       "x_final_text_hash": "f26f39c852f1823031b6d8f1d3a74003afdcf5195a27e2c77c6cde0f8e23f3db",
       "x_summary": "Teams often mistake induced commitment for trust.\n\nThe tell is simple: pressure works, but the bond still points upward. If the leader stays outside the rules, the organization doesn’t trust itself. It trusts the person applying force.",
+      "x_skip_reason": null
+    },
+    {
+      "post_id": "019e407a-6595-eef2-27d0-b6ca3c68baae",
+      "external_post_id": "019e407a-6595-eef2-27d0-b6ca3c68baae",
+      "published_at": "2026-05-19T13:43:43.804Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "extracted_insight",
+      "pillar": "Extracted Insights",
+      "topic_thesis": "Game Tape Review makes public wrongness safe while errors are still cheap.",
+      "angle": "Name the concept, explain it plainly, and show why it matters now. Keep the framing specific to this thesis: Game Tape Review makes public wrongness safe while errors are still cheap.",
+      "hook": "The most expensive mistake is the one nobody can safely be wrong about until after the money is gone.",
+      "summary": "The most expensive mistake is the one nobody can safely be wrong about until after the money is gone.\n\nGame Tape Review is the opposite. In the book, I describe it as a recurring plan-performance review: not blame, but cheap error study. You put the tape on the screen while the m",
+      "source_refs": [],
+      "framework_terms_used": [
+        "li"
+      ],
+      "subject_entities": [],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "8fe835e400f7",
+      "final_text_hash": "fc73f06b23df830c09eedff8994c79a300d699dd5f35802b9c8c75a0632538bb",
+      "note_slug": "2026-05-19-game-tape-review-makes-public-wrongness-safe-while-errors-are-still-cheap",
+      "note_source_path": "content/notes/2026-05-19-game-tape-review-makes-public-wrongness-safe-while-errors-are-still-cheap.md",
+      "x_status": "published",
+      "x_external_post_id": "2056732922993127600",
+      "x_published_at": "2026-05-19T13:45:15.853Z",
+      "x_winning_candidate_id": "23eb034ad753",
+      "x_final_text_hash": "d23c338181d816954d435dcacee7c1269243e25da6ff788f050ff91d4aa49e29",
+      "x_summary": "Most waste is paid for before it’s visible.\n\nOn night paving jobs, the obvious problem was truck backups. The expensive mistake happened hours earlier: over-ordering under uncertainty. When teams can’t surface small misses early, they buy certainty at full price.",
       "x_skip_reason": null
     }
   ],

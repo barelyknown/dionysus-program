@@ -1,6 +1,12 @@
 notes_archive_url: notes/index.html
 recent_notes_empty: false
 recent_notes:
+  - title: Game Tape Review makes public wrongness safe while errors are still cheap
+    display_date: May 19, 2026
+    url: notes/2026-05-19-game-tape-review-makes-public-wrongness-safe-while-errors-are-still-cheap/index.html
+    excerpt: The most expensive mistake is the one nobody can safely be wrong about
+      until after the money is gone.
+    pillar: Extracted Insights
   - title: Most founders can force commitment. Very few can turn it into trust
     display_date: May 18, 2026
     url: notes/2026-05-18-most-founders-can-force-commitment-very-few-can-turn-it-into-trust/index.html
@@ -13,11 +19,3 @@ recent_notes:
     excerpt: The moment a culture gets keepers of the rites, it starts pushing out
       the people it most needs.
     pillar: Extracted Insights
-  - title: Planning tools are communication tools when they make uncertainty
-      socially admissible before the fact
-    display_date: May 14, 2026
-    url: notes/2026-05-14-planning-tools-are-communication-tools-when-they-make-uncertainty-socially-admissible-before-the-fact/index.html
-    excerpt: "Microsoft’s 2026 Work Trend Index is a useful confession: the models
-      moved first, and management didn’t. Read plainly, the technology is ready
-      to act before many organizations are ready to hear,..."
-    pillar: Decoder Ring
