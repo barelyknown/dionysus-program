@@ -1,6 +1,11 @@
 notes_archive_url: notes/index.html
 recent_notes_empty: false
 recent_notes:
+  - title: Don’t confuse less coordination with better organization
+    display_date: May 20, 2026
+    url: notes/2026-05-20-don-t-confuse-less-coordination-with-better-organization/index.html
+    excerpt: Don’t confuse less coordination with better organization.
+    pillar: Extracted Insights
   - title: Game Tape Review makes public wrongness safe while errors are still cheap
     display_date: May 19, 2026
     url: notes/2026-05-19-game-tape-review-makes-public-wrongness-safe-while-errors-are-still-cheap/index.html
@@ -11,11 +16,4 @@ recent_notes:
     display_date: May 18, 2026
     url: notes/2026-05-18-most-founders-can-force-commitment-very-few-can-turn-it-into-trust/index.html
     excerpt: Most founders can force commitment. Very few can turn it into trust.
-    pillar: Extracted Insights
-  - title: Captured rites create negative selection against the people best able to
-      metabolize error
-    display_date: May 15, 2026
-    url: notes/2026-05-15-captured-rites-create-negative-selection-against-the-people-best-able-to-metabolize-error/index.html
-    excerpt: The moment a culture gets keepers of the rites, it starts pushing out
-      the people it most needs.
     pillar: Extracted Insights
