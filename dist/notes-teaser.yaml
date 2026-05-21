@@ -1,6 +1,13 @@
 notes_archive_url: notes/index.html
 recent_notes_empty: false
 recent_notes:
+  - title: Every system has one sentence it cannot prove without already standing on
+      it
+    display_date: May 21, 2026
+    url: notes/2026-05-21-every-system-has-one-sentence-it-cannot-prove-without-already-standing-on-it/index.html
+    excerpt: Every system has one sentence it cannot prove without already standing
+      on it.
+    pillar: Extracted Insights
   - title: Don’t confuse less coordination with better organization
     display_date: May 20, 2026
     url: notes/2026-05-20-don-t-confuse-less-coordination-with-better-organization/index.html
@@ -11,9 +18,4 @@ recent_notes:
     url: notes/2026-05-19-game-tape-review-makes-public-wrongness-safe-while-errors-are-still-cheap/index.html
     excerpt: The most expensive mistake is the one nobody can safely be wrong about
       until after the money is gone.
-    pillar: Extracted Insights
-  - title: Most founders can force commitment. Very few can turn it into trust
-    display_date: May 18, 2026
-    url: notes/2026-05-18-most-founders-can-force-commitment-very-few-can-turn-it-into-trust/index.html
-    excerpt: Most founders can force commitment. Very few can turn it into trust.
     pillar: Extracted Insights
