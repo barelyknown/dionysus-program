@@ -1,6 +1,11 @@
 notes_archive_url: notes/index.html
 recent_notes_empty: false
 recent_notes:
+  - title: AI is turning trust from a byproduct into a line item
+    display_date: May 22, 2026
+    url: notes/2026-05-22-ai-is-turning-trust-from-a-byproduct-into-a-line-item/index.html
+    excerpt: AI is turning trust from a byproduct into a line item.
+    pillar: Extracted Insights
   - title: Every system has one sentence it cannot prove without already standing on
       it
     display_date: May 21, 2026
@@ -12,10 +17,4 @@ recent_notes:
     display_date: May 20, 2026
     url: notes/2026-05-20-don-t-confuse-less-coordination-with-better-organization/index.html
     excerpt: Don’t confuse less coordination with better organization.
-    pillar: Extracted Insights
-  - title: Game Tape Review makes public wrongness safe while errors are still cheap
-    display_date: May 19, 2026
-    url: notes/2026-05-19-game-tape-review-makes-public-wrongness-safe-while-errors-are-still-cheap/index.html
-    excerpt: The most expensive mistake is the one nobody can safely be wrong about
-      until after the money is gone.
     pillar: Extracted Insights

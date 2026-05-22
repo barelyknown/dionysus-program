@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-05-21T13:47:09.191Z",
-  "published_count": 49,
+  "generated_at": "2026-05-22T13:32:25.141Z",
+  "published_count": 50,
   "rolling_window_days": 84,
   "typeCounts": {
     "decoder_ring": 11,
     "ritual_recipe": 7,
-    "extracted_insight": 14,
+    "extracted_insight": 15,
     "archetype_diagnosis": 6,
     "high_lindy_source_tour": 4,
     "from_the_mailbag": 3,
@@ -13,46 +13,6 @@
     "short_story": 1
   },
   "recent_hooks": [
-    {
-      "post_id": "019d62e6-b014-5b44-3f0c-516a1033247c",
-      "external_post_id": "019d62e6-b014-5b44-3f0c-516a1033247c",
-      "published_at": "2026-04-06T13:06:18.779Z",
-      "linkedin_post_url": null,
-      "linkedin_activity_urn": null,
-      "content_type": "decoder_ring",
-      "pillar": "Decoder Ring",
-      "topic_thesis": "The Alchemy of Error is the practical art of turning disruption into better structure.",
-      "angle": "Open on Anthropic accidentally exposed Claude Code’s source via a public npm package in plain language, then show how it makes the deeper diagnosis legible.",
-      "hook": "Anthropic just handed the internet a large piece of Claude Code through a public npm package. The leak is the visible failure. The more important signal is that the response was framed as a systems failure, not a hunt for a villain.",
-      "summary": "Anthropic just handed the internet a large piece of Claude Code through a public npm package. The leak is the visible failure. The more important signal is that the response was framed as a systems failure, not a hunt for a villain.\n\nWhat people miss in moments like this is that ",
-      "source_refs": [
-        "https://www.theregister.com/2026/04/01/anthropic_claude_code_leak/",
-        "https://www.businessinsider.com/salesforce-ceo-marc-benioff-ai-excuse-for-layoffs-lazy-way-out-2026-4",
-        "https://www.windowscentral.com/software-apps/amazons-ai-agent-kiro-caused-aws-outage-report",
-        "https://fortune.com/2026/04/03/openai-leadership-reshuffle-fidji-simo-kate-rouch-medical-leave/"
-      ],
-      "framework_terms_used": [
-        "trust",
-        "li",
-        "scapegoat"
-      ],
-      "subject_entities": [
-        "Anthropic"
-      ],
-      "timely_subject": "Anthropic accidentally exposed Claude Code’s source via a public npm package",
-      "research_bundle_id": "6fc92f15af7a",
-      "winning_candidate_id": "69cdefbc568e",
-      "final_text_hash": "eb2af24ea56b9592d5b3bbeb49e52dfc841e9ad4042fc3bb753931acca6e24d5",
-      "note_slug": "2026-04-06-the-alchemy-of-error-is-the-practical-art-of-turning-disruption-into-better-structure",
-      "note_source_path": "content/notes/2026-04-06-the-alchemy-of-error-is-the-practical-art-of-turning-disruption-into-better-structure.md",
-      "x_status": "published",
-      "x_external_post_id": "2041141064875057185",
-      "x_published_at": "2026-04-06T13:08:47.201Z",
-      "x_winning_candidate_id": "0a727d39f996",
-      "x_final_text_hash": "8d46a7b155cc6656d8223cf63696ee51bd58d231eb550b7fa127c7daf07b66b1",
-      "x_summary": "Code leaks hurt once. Scapegoating makes you pay twice.\n\nA public npm package exposed part of Claude Code. That’s fixable. Training the org to hide bad signals after embarrassment is not. The real asset is the ability to tell the truth before the next failure compounds.",
-      "x_skip_reason": null
-    },
     {
       "post_id": "019d6808-c81f-5583-65cd-ca5f12f86ce9",
       "external_post_id": "019d6808-c81f-5583-65cd-ca5f12f86ce9",
@@ -1169,6 +1129,38 @@
       "x_winning_candidate_id": "ab6bf40a9df7",
       "x_final_text_hash": "4790d354c9e589927d44bd84cd6f923ae3bf97ada6f36316091814655e64daf0",
       "x_summary": "When a process won't name its hinge, it starts calling its priors neutral.\n\nThen every review becomes theater: evidence on the surface, protected commitments underneath. That's how rigor hardens into dogma without anyone noticing.",
+      "x_skip_reason": null
+    },
+    {
+      "post_id": "019e4fe1-a7d5-2b89-c974-07da36de991e",
+      "external_post_id": "019e4fe1-a7d5-2b89-c974-07da36de991e",
+      "published_at": "2026-05-22T13:30:49.214Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "extracted_insight",
+      "pillar": "Extracted Insights",
+      "topic_thesis": "AI independence and distributed work shrink the surface area where trust used to form by accident.",
+      "angle": "Name the concept, explain it plainly, and show why it matters now. Keep the framing specific to this thesis: AI independence and distributed work shrink the surface area where trust used to form by accident.",
+      "hook": "AI is turning trust from a byproduct into a line item.",
+      "summary": "AI is turning trust from a byproduct into a line item.\n\nWhat used to build trust at work was relationship surface area: shared space, shared problems, shared outcomes. People didn’t need a program for it. Work itself forced contact, and some trust formed in the gaps.\n\nAI independ",
+      "source_refs": [],
+      "framework_terms_used": [
+        "trust",
+        "li"
+      ],
+      "subject_entities": [],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "52cebe19a140",
+      "final_text_hash": "f59c44b3017768f171dec43656981a419e87cf5c9d9b2ba15ef78a8dfd3f4232",
+      "note_slug": "2026-05-22-ai-is-turning-trust-from-a-byproduct-into-a-line-item",
+      "note_source_path": "content/notes/2026-05-22-ai-is-turning-trust-from-a-byproduct-into-a-line-item.md",
+      "x_status": "published",
+      "x_external_post_id": "2057816853968478584",
+      "x_published_at": "2026-05-22T13:32:25.137Z",
+      "x_winning_candidate_id": "0bbd75ea442f",
+      "x_final_text_hash": "7b48ecd1e6754fc128445d0e9772d82c5520441d2f294dd4555e4392483bd92f",
+      "x_summary": "Coordination is not trust.\n\nYou can have fast replies, crisp meetings, clean handoffs—and still have a company full of strangers. Shared work used to close that gap. AI and distributed work widen it, even as everything looks more organized.",
       "x_skip_reason": null
     }
   ],
@@ -2849,6 +2841,38 @@
       "x_final_text_hash": "4790d354c9e589927d44bd84cd6f923ae3bf97ada6f36316091814655e64daf0",
       "x_summary": "When a process won't name its hinge, it starts calling its priors neutral.\n\nThen every review becomes theater: evidence on the surface, protected commitments underneath. That's how rigor hardens into dogma without anyone noticing.",
       "x_skip_reason": null
+    },
+    {
+      "post_id": "019e4fe1-a7d5-2b89-c974-07da36de991e",
+      "external_post_id": "019e4fe1-a7d5-2b89-c974-07da36de991e",
+      "published_at": "2026-05-22T13:30:49.214Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "extracted_insight",
+      "pillar": "Extracted Insights",
+      "topic_thesis": "AI independence and distributed work shrink the surface area where trust used to form by accident.",
+      "angle": "Name the concept, explain it plainly, and show why it matters now. Keep the framing specific to this thesis: AI independence and distributed work shrink the surface area where trust used to form by accident.",
+      "hook": "AI is turning trust from a byproduct into a line item.",
+      "summary": "AI is turning trust from a byproduct into a line item.\n\nWhat used to build trust at work was relationship surface area: shared space, shared problems, shared outcomes. People didn’t need a program for it. Work itself forced contact, and some trust formed in the gaps.\n\nAI independ",
+      "source_refs": [],
+      "framework_terms_used": [
+        "trust",
+        "li"
+      ],
+      "subject_entities": [],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "52cebe19a140",
+      "final_text_hash": "f59c44b3017768f171dec43656981a419e87cf5c9d9b2ba15ef78a8dfd3f4232",
+      "note_slug": "2026-05-22-ai-is-turning-trust-from-a-byproduct-into-a-line-item",
+      "note_source_path": "content/notes/2026-05-22-ai-is-turning-trust-from-a-byproduct-into-a-line-item.md",
+      "x_status": "published",
+      "x_external_post_id": "2057816853968478584",
+      "x_published_at": "2026-05-22T13:32:25.137Z",
+      "x_winning_candidate_id": "0bbd75ea442f",
+      "x_final_text_hash": "7b48ecd1e6754fc128445d0e9772d82c5520441d2f294dd4555e4392483bd92f",
+      "x_summary": "Coordination is not trust.\n\nYou can have fast replies, crisp meetings, clean handoffs—and still have a company full of strangers. Shared work used to close that gap. AI and distributed work widen it, even as everything looks more organized.",
+      "x_skip_reason": null
     }
   ],
   "recent_topics": [
@@ -4528,58 +4552,19 @@
       "x_final_text_hash": "4790d354c9e589927d44bd84cd6f923ae3bf97ada6f36316091814655e64daf0",
       "x_summary": "When a process won't name its hinge, it starts calling its priors neutral.\n\nThen every review becomes theater: evidence on the surface, protected commitments underneath. That's how rigor hardens into dogma without anyone noticing.",
       "x_skip_reason": null
-    }
-  ],
-  "recent_subjects": [
-    {
-      "post_id": "019db027-0e02-7c3e-53fc-7b7791b97c22",
-      "external_post_id": "019db027-0e02-7c3e-53fc-7b7791b97c22",
-      "published_at": "2026-04-21T13:07:22.765Z",
-      "linkedin_post_url": null,
-      "linkedin_activity_urn": null,
-      "content_type": "decoder_ring",
-      "pillar": "Decoder Ring",
-      "topic_thesis": "Waste is often an insurance policy against uncertainty, not simply an error.",
-      "angle": "Open on Amazon 2025 Letter to Shareholders in plain language, then show how it makes the deeper diagnosis legible.",
-      "hook": "Amazon is about to spend roughly $200B on capex in 2026, and the easy read—bloat—is the wrong one. In his shareholder letter, Andy Jassy is saying something plain: Amazon would rather risk overbuilding AI infrastructure than be caught short in a market that may move faster than forecasts.",
-      "summary": "Amazon is about to spend roughly $200B on capex in 2026, and the easy read—bloat—is the wrong one. In his shareholder letter, Andy Jassy is saying something plain: Amazon would rather risk overbuilding AI infrastructure than be caught short in a market that may move faster than f",
-      "source_refs": [
-        "https://www.aboutamazon.com/news/company-news/2025-letter-to-shareholders",
-        "https://openai.com/index/openai-acquires-tbpn/",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/a/NASDAQ_amzn_2025.pdf"
-      ],
-      "framework_terms_used": [
-        "li"
-      ],
-      "subject_entities": [
-        "Amazon"
-      ],
-      "timely_subject": "Amazon 2025 Letter to Shareholders",
-      "research_bundle_id": "7071bdf07006",
-      "winning_candidate_id": "248c90f6604a",
-      "final_text_hash": "d288ba19e15563355d8baf4170d7bb91750982c22c8fd7c3a287c985e657fe95",
-      "note_slug": "2026-04-21-waste-is-often-an-insurance-policy-against-uncertainty-not-simply-an-error",
-      "note_source_path": "content/notes/2026-04-21-waste-is-often-an-insurance-policy-against-uncertainty-not-simply-an-error.md",
-      "x_status": "published",
-      "x_external_post_id": "2046576936856535203",
-      "x_published_at": "2026-04-21T13:09:00.075Z",
-      "x_winning_candidate_id": "57276eaf1cfe",
-      "x_final_text_hash": "784544adab57fb5881c3bf8946e1212fab6917a3feda4c59582471376a0cdf87",
-      "x_summary": "By the time a capacity shortage is obvious, the real error is already old.\n\nAmazon’s $200B isn’t a forecast victory lap. It’s a hedge against the lag between seeing demand and being able to serve it.",
-      "x_skip_reason": null
     },
     {
-      "post_id": "019db029-b192-b3ff-3742-1564677248e6",
-      "external_post_id": "019db029-b192-b3ff-3742-1564677248e6",
-      "published_at": "2026-04-21T13:10:15.709Z",
+      "post_id": "019e4fe1-a7d5-2b89-c974-07da36de991e",
+      "external_post_id": "019e4fe1-a7d5-2b89-c974-07da36de991e",
+      "published_at": "2026-05-22T13:30:49.214Z",
       "linkedin_post_url": null,
       "linkedin_activity_urn": null,
-      "content_type": "ritual_recipe",
-      "pillar": "Ritual Recipes",
-      "topic_thesis": "Deprecation Ceremonies, Scrap Heap Libraries, and Sunset Budgets turn dead structure into usable memory instead of haunted residue.",
-      "angle": "Start with a recurring problem and end with a usable move. Keep the framing specific to this thesis: Deprecation Ceremonies, Scrap Heap Libraries, and Sunset Budgets turn dead structure into usable memory instead of haunted residue.",
-      "hook": "The most expensive process in your company is usually the one nobody believes in but everyone still has to touch.",
-      "summary": "The most expensive process in your company is usually the one nobody believes in but everyone still has to touch.\n\nCommon mistake: you either leave dead structure in place out of politeness, or you delete it quietly and lose the lesson with it. That creates haunted residue: old p",
+      "content_type": "extracted_insight",
+      "pillar": "Extracted Insights",
+      "topic_thesis": "AI independence and distributed work shrink the surface area where trust used to form by accident.",
+      "angle": "Name the concept, explain it plainly, and show why it matters now. Keep the framing specific to this thesis: AI independence and distributed work shrink the surface area where trust used to form by accident.",
+      "hook": "AI is turning trust from a byproduct into a line item.",
+      "summary": "AI is turning trust from a byproduct into a line item.\n\nWhat used to build trust at work was relationship surface area: shared space, shared problems, shared outcomes. People didn’t need a program for it. Work itself forced contact, and some trust formed in the gaps.\n\nAI independ",
       "source_refs": [],
       "framework_terms_used": [
         "trust",
@@ -4588,18 +4573,20 @@
       "subject_entities": [],
       "timely_subject": null,
       "research_bundle_id": null,
-      "winning_candidate_id": "39792ad11175",
-      "final_text_hash": "f39caf34c337129a64ef24512eb7225194f531b7ce8f129d1a1e9a59dbb1fc92",
-      "note_slug": "2026-04-21-deprecation-ceremonies-scrap-heap-libraries-and-sunset-budgets-turn-dead-structure-into-usable-memory-instead-of-haunted-residue",
-      "note_source_path": "content/notes/2026-04-21-deprecation-ceremonies-scrap-heap-libraries-and-sunset-budgets-turn-dead-structure-into-usable-memory-instead-of-haunted-residue.md",
+      "winning_candidate_id": "52cebe19a140",
+      "final_text_hash": "f59c44b3017768f171dec43656981a419e87cf5c9d9b2ba15ef78a8dfd3f4232",
+      "note_slug": "2026-05-22-ai-is-turning-trust-from-a-byproduct-into-a-line-item",
+      "note_source_path": "content/notes/2026-05-22-ai-is-turning-trust-from-a-byproduct-into-a-line-item.md",
       "x_status": "published",
-      "x_external_post_id": "2046577831925215618",
-      "x_published_at": "2026-04-21T13:12:33.493Z",
-      "x_winning_candidate_id": "d70386a201ae",
-      "x_final_text_hash": "aa7c5de9fdfda836d891c91feb0d094122b3c39545e93adbf7ae9376fb18fcaf",
-      "x_summary": "Most process cost isn’t in the workflow. It’s in the residue.\n\nThe dashboard no one believes, the review ritual everyone performs anyway. Delete them quietly and they return as hidden policy. Removal needs a public ending, a record, and budget.",
+      "x_external_post_id": "2057816853968478584",
+      "x_published_at": "2026-05-22T13:32:25.137Z",
+      "x_winning_candidate_id": "0bbd75ea442f",
+      "x_final_text_hash": "7b48ecd1e6754fc128445d0e9772d82c5520441d2f294dd4555e4392483bd92f",
+      "x_summary": "Coordination is not trust.\n\nYou can have fast replies, crisp meetings, clean handoffs—and still have a company full of strangers. Shared work used to close that gap. AI and distributed work widen it, even as everything looks more organized.",
       "x_skip_reason": null
-    },
+    }
+  ],
+  "recent_subjects": [
     {
       "post_id": "019db548-23ee-01db-0fb4-ec6e1e10f869",
       "external_post_id": "019db548-23ee-01db-0fb4-ec6e1e10f869",
@@ -5350,43 +5337,41 @@
       "x_final_text_hash": "4790d354c9e589927d44bd84cd6f923ae3bf97ada6f36316091814655e64daf0",
       "x_summary": "When a process won't name its hinge, it starts calling its priors neutral.\n\nThen every review becomes theater: evidence on the surface, protected commitments underneath. That's how rigor hardens into dogma without anyone noticing.",
       "x_skip_reason": null
-    }
-  ],
-  "recent_sources": [
+    },
     {
-      "post_id": "019dde82-2051-708e-58f1-4e5e8a6fb206",
-      "external_post_id": "019dde82-2051-708e-58f1-4e5e8a6fb206",
-      "published_at": "2026-04-30T13:09:23.203Z",
+      "post_id": "019e4fe1-a7d5-2b89-c974-07da36de991e",
+      "external_post_id": "019e4fe1-a7d5-2b89-c974-07da36de991e",
+      "published_at": "2026-05-22T13:30:49.214Z",
       "linkedin_post_url": null,
       "linkedin_activity_urn": null,
-      "content_type": "from_the_mailbag",
-      "pillar": "From the Mailbag",
-      "topic_thesis": "Autophagic growth means healthy organizations learn to eat their own decay.",
-      "angle": "Start with the live wire in the letter, then explain why it matters beyond the sender.",
-      "hook": "Most companies don’t die because they refuse to change.",
-      "summary": "Most companies don’t die because they refuse to change.\n\nThey die because they dissolve themselves while trying.\n\nNot Yoshinori Ohsumi put the live wire in one line: “Without it, you are only destroying.” In a cell, damaged material gets wrapped in a membrane before the enzymes a",
-      "source_refs": [
-        "letters_to_editor/yoshinori_ohsumi.txt"
-      ],
+      "content_type": "extracted_insight",
+      "pillar": "Extracted Insights",
+      "topic_thesis": "AI independence and distributed work shrink the surface area where trust used to form by accident.",
+      "angle": "Name the concept, explain it plainly, and show why it matters now. Keep the framing specific to this thesis: AI independence and distributed work shrink the surface area where trust used to form by accident.",
+      "hook": "AI is turning trust from a byproduct into a line item.",
+      "summary": "AI is turning trust from a byproduct into a line item.\n\nWhat used to build trust at work was relationship surface area: shared space, shared problems, shared outcomes. People didn’t need a program for it. Work itself forced contact, and some trust formed in the gaps.\n\nAI independ",
+      "source_refs": [],
       "framework_terms_used": [
-        "li",
-        "ren"
+        "trust",
+        "li"
       ],
       "subject_entities": [],
       "timely_subject": null,
       "research_bundle_id": null,
-      "winning_candidate_id": "8ba13229b179",
-      "final_text_hash": "07d0d0ef52d959ee9b758fca73e040445f7f38407cbe666d744c1b2b6bf16a13",
-      "note_slug": "2026-04-30-most-companies-don-t-die-because-they-refuse-to-change",
-      "note_source_path": "content/notes/2026-04-30-most-companies-don-t-die-because-they-refuse-to-change.md",
+      "winning_candidate_id": "52cebe19a140",
+      "final_text_hash": "f59c44b3017768f171dec43656981a419e87cf5c9d9b2ba15ef78a8dfd3f4232",
+      "note_slug": "2026-05-22-ai-is-turning-trust-from-a-byproduct-into-a-line-item",
+      "note_source_path": "content/notes/2026-05-22-ai-is-turning-trust-from-a-byproduct-into-a-line-item.md",
       "x_status": "published",
-      "x_external_post_id": "2049839207045296526",
-      "x_published_at": "2026-04-30T13:12:05.888Z",
-      "x_winning_candidate_id": "408bf2f00eb1",
-      "x_final_text_hash": "bd21a792a61cbbd748b5db0fa0317203051e6aae483126fcf60303e325f1feea",
-      "x_summary": "A lot of “candor” is just uncontained destruction.\n\nWhen critique has no membrane, it spills off the work and onto the person. A failed launch reviewed under rules can teach. The same review run sloppily teaches everyone to hide.",
+      "x_external_post_id": "2057816853968478584",
+      "x_published_at": "2026-05-22T13:32:25.137Z",
+      "x_winning_candidate_id": "0bbd75ea442f",
+      "x_final_text_hash": "7b48ecd1e6754fc128445d0e9772d82c5520441d2f294dd4555e4392483bd92f",
+      "x_summary": "Coordination is not trust.\n\nYou can have fast replies, crisp meetings, clean handoffs—and still have a company full of strangers. Shared work used to close that gap. AI and distributed work widen it, even as everything looks more organized.",
       "x_skip_reason": null
-    },
+    }
+  ],
+  "recent_sources": [
     {
       "post_id": "019de3a1-7ce2-b97b-dafb-672f63b17755",
       "external_post_id": "019de3a1-7ce2-b97b-dafb-672f63b17755",
@@ -5900,46 +5885,41 @@
       "x_final_text_hash": "4790d354c9e589927d44bd84cd6f923ae3bf97ada6f36316091814655e64daf0",
       "x_summary": "When a process won't name its hinge, it starts calling its priors neutral.\n\nThen every review becomes theater: evidence on the surface, protected commitments underneath. That's how rigor hardens into dogma without anyone noticing.",
       "x_skip_reason": null
+    },
+    {
+      "post_id": "019e4fe1-a7d5-2b89-c974-07da36de991e",
+      "external_post_id": "019e4fe1-a7d5-2b89-c974-07da36de991e",
+      "published_at": "2026-05-22T13:30:49.214Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "extracted_insight",
+      "pillar": "Extracted Insights",
+      "topic_thesis": "AI independence and distributed work shrink the surface area where trust used to form by accident.",
+      "angle": "Name the concept, explain it plainly, and show why it matters now. Keep the framing specific to this thesis: AI independence and distributed work shrink the surface area where trust used to form by accident.",
+      "hook": "AI is turning trust from a byproduct into a line item.",
+      "summary": "AI is turning trust from a byproduct into a line item.\n\nWhat used to build trust at work was relationship surface area: shared space, shared problems, shared outcomes. People didn’t need a program for it. Work itself forced contact, and some trust formed in the gaps.\n\nAI independ",
+      "source_refs": [],
+      "framework_terms_used": [
+        "trust",
+        "li"
+      ],
+      "subject_entities": [],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "52cebe19a140",
+      "final_text_hash": "f59c44b3017768f171dec43656981a419e87cf5c9d9b2ba15ef78a8dfd3f4232",
+      "note_slug": "2026-05-22-ai-is-turning-trust-from-a-byproduct-into-a-line-item",
+      "note_source_path": "content/notes/2026-05-22-ai-is-turning-trust-from-a-byproduct-into-a-line-item.md",
+      "x_status": "published",
+      "x_external_post_id": "2057816853968478584",
+      "x_published_at": "2026-05-22T13:32:25.137Z",
+      "x_winning_candidate_id": "0bbd75ea442f",
+      "x_final_text_hash": "7b48ecd1e6754fc128445d0e9772d82c5520441d2f294dd4555e4392483bd92f",
+      "x_summary": "Coordination is not trust.\n\nYou can have fast replies, crisp meetings, clean handoffs—and still have a company full of strangers. Shared work used to close that gap. AI and distributed work widen it, even as everything looks more organized.",
+      "x_skip_reason": null
     }
   ],
   "recent_entities": [
-    {
-      "post_id": "019db027-0e02-7c3e-53fc-7b7791b97c22",
-      "external_post_id": "019db027-0e02-7c3e-53fc-7b7791b97c22",
-      "published_at": "2026-04-21T13:07:22.765Z",
-      "linkedin_post_url": null,
-      "linkedin_activity_urn": null,
-      "content_type": "decoder_ring",
-      "pillar": "Decoder Ring",
-      "topic_thesis": "Waste is often an insurance policy against uncertainty, not simply an error.",
-      "angle": "Open on Amazon 2025 Letter to Shareholders in plain language, then show how it makes the deeper diagnosis legible.",
-      "hook": "Amazon is about to spend roughly $200B on capex in 2026, and the easy read—bloat—is the wrong one. In his shareholder letter, Andy Jassy is saying something plain: Amazon would rather risk overbuilding AI infrastructure than be caught short in a market that may move faster than forecasts.",
-      "summary": "Amazon is about to spend roughly $200B on capex in 2026, and the easy read—bloat—is the wrong one. In his shareholder letter, Andy Jassy is saying something plain: Amazon would rather risk overbuilding AI infrastructure than be caught short in a market that may move faster than f",
-      "source_refs": [
-        "https://www.aboutamazon.com/news/company-news/2025-letter-to-shareholders",
-        "https://openai.com/index/openai-acquires-tbpn/",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/a/NASDAQ_amzn_2025.pdf"
-      ],
-      "framework_terms_used": [
-        "li"
-      ],
-      "subject_entities": [
-        "Amazon"
-      ],
-      "timely_subject": "Amazon 2025 Letter to Shareholders",
-      "research_bundle_id": "7071bdf07006",
-      "winning_candidate_id": "248c90f6604a",
-      "final_text_hash": "d288ba19e15563355d8baf4170d7bb91750982c22c8fd7c3a287c985e657fe95",
-      "note_slug": "2026-04-21-waste-is-often-an-insurance-policy-against-uncertainty-not-simply-an-error",
-      "note_source_path": "content/notes/2026-04-21-waste-is-often-an-insurance-policy-against-uncertainty-not-simply-an-error.md",
-      "x_status": "published",
-      "x_external_post_id": "2046576936856535203",
-      "x_published_at": "2026-04-21T13:09:00.075Z",
-      "x_winning_candidate_id": "57276eaf1cfe",
-      "x_final_text_hash": "784544adab57fb5881c3bf8946e1212fab6917a3feda4c59582471376a0cdf87",
-      "x_summary": "By the time a capacity shortage is obvious, the real error is already old.\n\nAmazon’s $200B isn’t a forecast victory lap. It’s a hedge against the lag between seeing demand and being able to serve it.",
-      "x_skip_reason": null
-    },
     {
       "post_id": "019dcf14-1053-6015-9cd4-b47660a902a8",
       "external_post_id": "019dcf14-1053-6015-9cd4-b47660a902a8",
