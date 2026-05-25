@@ -1,6 +1,13 @@
 notes_archive_url: notes/index.html
 recent_notes_empty: false
 recent_notes:
+  - title: If your foundation story makes factual claims, it will die on the next
+      frontier shift
+    display_date: May 25, 2026
+    url: notes/2026-05-25-if-your-foundation-story-makes-factual-claims-it-will-die-on-the-next-frontier-shift/index.html
+    excerpt: If your foundation story makes factual claims, it will die on the next
+      frontier shift.
+    pillar: Extracted Insights
   - title: AI is turning trust from a byproduct into a line item
     display_date: May 22, 2026
     url: notes/2026-05-22-ai-is-turning-trust-from-a-byproduct-into-a-line-item/index.html
@@ -12,9 +19,4 @@ recent_notes:
     url: notes/2026-05-21-every-system-has-one-sentence-it-cannot-prove-without-already-standing-on-it/index.html
     excerpt: Every system has one sentence it cannot prove without already standing
       on it.
-    pillar: Extracted Insights
-  - title: Don’t confuse less coordination with better organization
-    display_date: May 20, 2026
-    url: notes/2026-05-20-don-t-confuse-less-coordination-with-better-organization/index.html
-    excerpt: Don’t confuse less coordination with better organization.
     pillar: Extracted Insights
