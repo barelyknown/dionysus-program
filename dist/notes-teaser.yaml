@@ -1,6 +1,11 @@
 notes_archive_url: notes/index.html
 recent_notes_empty: false
 recent_notes:
+  - title: Some of the most committed-looking teams are just trapped
+    display_date: May 26, 2026
+    url: notes/2026-05-26-some-of-the-most-committed-looking-teams-are-just-trapped/index.html
+    excerpt: Some of the most committed-looking teams are just trapped.
+    pillar: Extracted Insights
   - title: If your foundation story makes factual claims, it will die on the next
       frontier shift
     display_date: May 25, 2026
@@ -12,11 +17,4 @@ recent_notes:
     display_date: May 22, 2026
     url: notes/2026-05-22-ai-is-turning-trust-from-a-byproduct-into-a-line-item/index.html
     excerpt: AI is turning trust from a byproduct into a line item.
-    pillar: Extracted Insights
-  - title: Every system has one sentence it cannot prove without already standing on
-      it
-    display_date: May 21, 2026
-    url: notes/2026-05-21-every-system-has-one-sentence-it-cannot-prove-without-already-standing-on-it/index.html
-    excerpt: Every system has one sentence it cannot prove without already standing
-      on it.
     pillar: Extracted Insights

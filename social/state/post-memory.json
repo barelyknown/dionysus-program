@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-05-25T13:47:09.501Z",
-  "published_count": 51,
+  "generated_at": "2026-05-26T13:41:18.945Z",
+  "published_count": 52,
   "rolling_window_days": 84,
   "typeCounts": {
     "decoder_ring": 11,
     "ritual_recipe": 7,
-    "extracted_insight": 16,
+    "extracted_insight": 17,
     "archetype_diagnosis": 6,
     "high_lindy_source_tour": 4,
     "from_the_mailbag": 3,
@@ -13,38 +13,6 @@
     "short_story": 1
   },
   "recent_hooks": [
-    {
-      "post_id": "019d777c-9c45-73db-8674-e502a85b4ae2",
-      "external_post_id": "019d777c-9c45-73db-8674-e502a85b4ae2",
-      "published_at": "2026-04-10T13:02:28.433Z",
-      "linkedin_post_url": null,
-      "linkedin_activity_urn": null,
-      "content_type": "cautionary_tale",
-      "pillar": "Cautionary Tales",
-      "topic_thesis": "The catechumenate comes before the high-heat rite.",
-      "angle": "Start with the surface rigor, then show the hidden damage it causes.",
-      "hook": "The fastest way to poison candor is to stage it before the group can bear it.",
-      "summary": "The fastest way to poison candor is to stage it before the group can bear it.\n\nYou can make the meeting look rigorous: the no-blame covenant, the hard questions, the facilitator, the postmortem deck. From the outside, it reads as maturity.\n\nBut if the last junior person who contr",
-      "source_refs": [],
-      "framework_terms_used": [
-        "management theater",
-        "li"
-      ],
-      "subject_entities": [],
-      "timely_subject": null,
-      "research_bundle_id": null,
-      "winning_candidate_id": "11bc379eb22d",
-      "final_text_hash": "5af6ef87a0ca298e0885323976738d1e9a8cafbc5b98cba1f57612d0efe59651",
-      "note_slug": "2026-04-10-the-fastest-way-to-poison-candor-is-to-stage-it-before-the-group-can-bear-it",
-      "note_source_path": "content/notes/2026-04-10-the-fastest-way-to-poison-candor-is-to-stage-it-before-the-group-can-bear-it.md",
-      "x_status": "published",
-      "x_external_post_id": "2042589410898637062",
-      "x_published_at": "2026-04-10T13:03:59.803Z",
-      "x_winning_candidate_id": "e258ccf34959",
-      "x_final_text_hash": "513145f56ed4b0df316457bbd97fdc416d9597842eb55f4c7f45d136dc1ab826",
-      "x_summary": "Stage candor too early and people learn the real rule fast.\n\nNot “speak freely,” but “perform openness and protect yourself.” Then the meeting looks mature from the outside while the useful information exits the room.",
-      "x_skip_reason": null
-    },
     {
       "post_id": "019d8709-e18d-80b1-c296-5fdbfd6f772a",
       "external_post_id": "019d8709-e18d-80b1-c296-5fdbfd6f772a",
@@ -1095,6 +1063,38 @@
       "x_winning_candidate_id": "99b52eb73e39",
       "x_final_text_hash": "e2fd27cc0da6f7aac4c0478179b9c236852965be7b4cedec9c240b1744b2d377",
       "x_summary": "Knowledge tells you what the world is. Myth tells you who to be when that answer changes.\n\nThat’s why Cincinnatus outlives better-informed eras. The story isn’t falsified by bad leaders. It survives as a demand, not a description.",
+      "x_skip_reason": null
+    },
+    {
+      "post_id": "019e6483-4a1c-90dc-6685-e804e8c2892e",
+      "external_post_id": "019e6483-4a1c-90dc-6685-e804e8c2892e",
+      "published_at": "2026-05-26T13:39:46.352Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "extracted_insight",
+      "pillar": "Extracted Insights",
+      "topic_thesis": "Lock-in is not trust; would they leave if they could is the real test.",
+      "angle": "Name the concept, explain it plainly, and show why it matters now. Keep the framing specific to this thesis: Lock-in is not trust; would they leave if they could is the real test.",
+      "hook": "Some of the most committed-looking teams are just trapped.",
+      "summary": "Some of the most committed-looking teams are just trapped.\n\nThe book draws a hard line between lock-in and trust. Lock-in is when people stay because leaving is costly: too much equity, too many burned bridges, too much identity tied up in the bet. Trust is when people with real ",
+      "source_refs": [],
+      "framework_terms_used": [
+        "trust",
+        "li"
+      ],
+      "subject_entities": [],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "6851c8083ec8",
+      "final_text_hash": "5cabf982a3059b98c2656d90d917e1725645ee9fcbc16750ebd6f3cb1034e5bb",
+      "note_slug": "2026-05-26-some-of-the-most-committed-looking-teams-are-just-trapped",
+      "note_source_path": "content/notes/2026-05-26-some-of-the-most-committed-looking-teams-are-just-trapped.md",
+      "x_status": "published",
+      "x_external_post_id": "2059268643913965658",
+      "x_published_at": "2026-05-26T13:41:18.941Z",
+      "x_winning_candidate_id": "0c8de7b6058c",
+      "x_final_text_hash": "60b3be23404695a5716dde0dd974dbd0abe1250a1db91a465c534015c722b22b",
+      "x_summary": "Some teams don’t have trust. They have exit costs.\n\nEquity cliffs, burned bridges, identity fused to the bet—people stay because leaving hurts. That buys compliance. It won’t buy candor when the ground starts moving.",
       "x_skip_reason": null
     }
   ],
@@ -2839,6 +2839,38 @@
       "x_final_text_hash": "e2fd27cc0da6f7aac4c0478179b9c236852965be7b4cedec9c240b1744b2d377",
       "x_summary": "Knowledge tells you what the world is. Myth tells you who to be when that answer changes.\n\nThat’s why Cincinnatus outlives better-informed eras. The story isn’t falsified by bad leaders. It survives as a demand, not a description.",
       "x_skip_reason": null
+    },
+    {
+      "post_id": "019e6483-4a1c-90dc-6685-e804e8c2892e",
+      "external_post_id": "019e6483-4a1c-90dc-6685-e804e8c2892e",
+      "published_at": "2026-05-26T13:39:46.352Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "extracted_insight",
+      "pillar": "Extracted Insights",
+      "topic_thesis": "Lock-in is not trust; would they leave if they could is the real test.",
+      "angle": "Name the concept, explain it plainly, and show why it matters now. Keep the framing specific to this thesis: Lock-in is not trust; would they leave if they could is the real test.",
+      "hook": "Some of the most committed-looking teams are just trapped.",
+      "summary": "Some of the most committed-looking teams are just trapped.\n\nThe book draws a hard line between lock-in and trust. Lock-in is when people stay because leaving is costly: too much equity, too many burned bridges, too much identity tied up in the bet. Trust is when people with real ",
+      "source_refs": [],
+      "framework_terms_used": [
+        "trust",
+        "li"
+      ],
+      "subject_entities": [],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "6851c8083ec8",
+      "final_text_hash": "5cabf982a3059b98c2656d90d917e1725645ee9fcbc16750ebd6f3cb1034e5bb",
+      "note_slug": "2026-05-26-some-of-the-most-committed-looking-teams-are-just-trapped",
+      "note_source_path": "content/notes/2026-05-26-some-of-the-most-committed-looking-teams-are-just-trapped.md",
+      "x_status": "published",
+      "x_external_post_id": "2059268643913965658",
+      "x_published_at": "2026-05-26T13:41:18.941Z",
+      "x_winning_candidate_id": "0c8de7b6058c",
+      "x_final_text_hash": "60b3be23404695a5716dde0dd974dbd0abe1250a1db91a465c534015c722b22b",
+      "x_summary": "Some teams don’t have trust. They have exit costs.\n\nEquity cliffs, burned bridges, identity fused to the bet—people stay because leaving hurts. That buys compliance. It won’t buy candor when the ground starts moving.",
+      "x_skip_reason": null
     }
   ],
   "recent_topics": [
@@ -4582,6 +4614,38 @@
       "x_final_text_hash": "e2fd27cc0da6f7aac4c0478179b9c236852965be7b4cedec9c240b1744b2d377",
       "x_summary": "Knowledge tells you what the world is. Myth tells you who to be when that answer changes.\n\nThat’s why Cincinnatus outlives better-informed eras. The story isn’t falsified by bad leaders. It survives as a demand, not a description.",
       "x_skip_reason": null
+    },
+    {
+      "post_id": "019e6483-4a1c-90dc-6685-e804e8c2892e",
+      "external_post_id": "019e6483-4a1c-90dc-6685-e804e8c2892e",
+      "published_at": "2026-05-26T13:39:46.352Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "extracted_insight",
+      "pillar": "Extracted Insights",
+      "topic_thesis": "Lock-in is not trust; would they leave if they could is the real test.",
+      "angle": "Name the concept, explain it plainly, and show why it matters now. Keep the framing specific to this thesis: Lock-in is not trust; would they leave if they could is the real test.",
+      "hook": "Some of the most committed-looking teams are just trapped.",
+      "summary": "Some of the most committed-looking teams are just trapped.\n\nThe book draws a hard line between lock-in and trust. Lock-in is when people stay because leaving is costly: too much equity, too many burned bridges, too much identity tied up in the bet. Trust is when people with real ",
+      "source_refs": [],
+      "framework_terms_used": [
+        "trust",
+        "li"
+      ],
+      "subject_entities": [],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "6851c8083ec8",
+      "final_text_hash": "5cabf982a3059b98c2656d90d917e1725645ee9fcbc16750ebd6f3cb1034e5bb",
+      "note_slug": "2026-05-26-some-of-the-most-committed-looking-teams-are-just-trapped",
+      "note_source_path": "content/notes/2026-05-26-some-of-the-most-committed-looking-teams-are-just-trapped.md",
+      "x_status": "published",
+      "x_external_post_id": "2059268643913965658",
+      "x_published_at": "2026-05-26T13:41:18.941Z",
+      "x_winning_candidate_id": "0c8de7b6058c",
+      "x_final_text_hash": "60b3be23404695a5716dde0dd974dbd0abe1250a1db91a465c534015c722b22b",
+      "x_summary": "Some teams don’t have trust. They have exit costs.\n\nEquity cliffs, burned bridges, identity fused to the bet—people stay because leaving hurts. That buys compliance. It won’t buy candor when the ground starts moving.",
+      "x_skip_reason": null
     }
   ],
   "recent_subjects": [
@@ -5302,48 +5366,41 @@
       "x_final_text_hash": "e2fd27cc0da6f7aac4c0478179b9c236852965be7b4cedec9c240b1744b2d377",
       "x_summary": "Knowledge tells you what the world is. Myth tells you who to be when that answer changes.\n\nThat’s why Cincinnatus outlives better-informed eras. The story isn’t falsified by bad leaders. It survives as a demand, not a description.",
       "x_skip_reason": null
+    },
+    {
+      "post_id": "019e6483-4a1c-90dc-6685-e804e8c2892e",
+      "external_post_id": "019e6483-4a1c-90dc-6685-e804e8c2892e",
+      "published_at": "2026-05-26T13:39:46.352Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "extracted_insight",
+      "pillar": "Extracted Insights",
+      "topic_thesis": "Lock-in is not trust; would they leave if they could is the real test.",
+      "angle": "Name the concept, explain it plainly, and show why it matters now. Keep the framing specific to this thesis: Lock-in is not trust; would they leave if they could is the real test.",
+      "hook": "Some of the most committed-looking teams are just trapped.",
+      "summary": "Some of the most committed-looking teams are just trapped.\n\nThe book draws a hard line between lock-in and trust. Lock-in is when people stay because leaving is costly: too much equity, too many burned bridges, too much identity tied up in the bet. Trust is when people with real ",
+      "source_refs": [],
+      "framework_terms_used": [
+        "trust",
+        "li"
+      ],
+      "subject_entities": [],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "6851c8083ec8",
+      "final_text_hash": "5cabf982a3059b98c2656d90d917e1725645ee9fcbc16750ebd6f3cb1034e5bb",
+      "note_slug": "2026-05-26-some-of-the-most-committed-looking-teams-are-just-trapped",
+      "note_source_path": "content/notes/2026-05-26-some-of-the-most-committed-looking-teams-are-just-trapped.md",
+      "x_status": "published",
+      "x_external_post_id": "2059268643913965658",
+      "x_published_at": "2026-05-26T13:41:18.941Z",
+      "x_winning_candidate_id": "0c8de7b6058c",
+      "x_final_text_hash": "60b3be23404695a5716dde0dd974dbd0abe1250a1db91a465c534015c722b22b",
+      "x_summary": "Some teams don’t have trust. They have exit costs.\n\nEquity cliffs, burned bridges, identity fused to the bet—people stay because leaving hurts. That buys compliance. It won’t buy candor when the ground starts moving.",
+      "x_skip_reason": null
     }
   ],
   "recent_sources": [
-    {
-      "post_id": "019df324-1727-415f-22c1-fe34968e9929",
-      "external_post_id": "019df324-1727-415f-22c1-fe34968e9929",
-      "published_at": "2026-05-04T13:18:42.001Z",
-      "linkedin_post_url": null,
-      "linkedin_activity_urn": null,
-      "content_type": "decoder_ring",
-      "pillar": "Decoder Ring",
-      "topic_thesis": "Overflow does quadratic damage when melt outruns capacity.",
-      "angle": "Open on Connectivity Benchmark Report 2026: AI Agents, Integration, and Enterprise Risk in plain language, then show how it makes the deeper diagnosis legible.",
-      "hook": "Salesforce’s new enterprise AI benchmark says the quiet part out loud: companies are rolling out agents faster than they can integrate or govern them.",
-      "summary": "Salesforce’s new enterprise AI benchmark says the quiet part out loud: companies are rolling out agents faster than they can integrate or govern them.\n\nMost people will read that as a tooling gap. It’s deeper than that. This is what melt looks like: new capability dissolving old ",
-      "source_refs": [
-        "https://www.salesforce.com/news/stories/connectivity-benchmark-report-2026/",
-        "https://www.salesforce.com/news/press-releases/2026/04/agentforce-for-operations/",
-        "https://www.cnbc.com/2026/04/24/google-workers-urge-company-to-bar-pentagon-from-using-its-ai-for-classified-work.html",
-        "https://www.reuters.com/technology/openais-nonprofit-control-faces-fresh-scrutiny-musk-case-advances-2026-04-18/",
-        "https://ai.google/responsibility/principles/"
-      ],
-      "framework_terms_used": [
-        "li"
-      ],
-      "subject_entities": [
-        "Salesforce"
-      ],
-      "timely_subject": "Connectivity Benchmark Report 2026: AI Agents, Integration, and Enterprise Risk",
-      "research_bundle_id": "783be3b01522",
-      "winning_candidate_id": "94ee60884c0a",
-      "final_text_hash": "75ee8385ecf03d9186250a9a86615a2c5777ddc3bc54c35eafaf5fef14f66abb",
-      "note_slug": "2026-05-04-overflow-does-quadratic-damage-when-melt-outruns-capacity",
-      "note_source_path": "content/notes/2026-05-04-overflow-does-quadratic-damage-when-melt-outruns-capacity.md",
-      "x_status": "published",
-      "x_external_post_id": "2051290921388618055",
-      "x_published_at": "2026-05-04T13:20:41.561Z",
-      "x_winning_candidate_id": "50cbbe728543",
-      "x_final_text_hash": "e4660e56b0489b4cd746c07605e8c54f3186874e691ad49c54970cc6482c3fc7",
-      "x_summary": "When agent rollout outruns integration and governance, the damage stops being linear.\n\nTen agents across ten systems don’t create ten risks. They create invisible interactions, unclear ownership, and failure paths that only show up after something breaks.",
-      "x_skip_reason": null
-    },
     {
       "post_id": "019df83e-2159-4874-dd52-2c260b383f75",
       "external_post_id": "019df83e-2159-4874-dd52-2c260b383f75",
@@ -5849,6 +5906,38 @@
       "x_winning_candidate_id": "99b52eb73e39",
       "x_final_text_hash": "e2fd27cc0da6f7aac4c0478179b9c236852965be7b4cedec9c240b1744b2d377",
       "x_summary": "Knowledge tells you what the world is. Myth tells you who to be when that answer changes.\n\nThat’s why Cincinnatus outlives better-informed eras. The story isn’t falsified by bad leaders. It survives as a demand, not a description.",
+      "x_skip_reason": null
+    },
+    {
+      "post_id": "019e6483-4a1c-90dc-6685-e804e8c2892e",
+      "external_post_id": "019e6483-4a1c-90dc-6685-e804e8c2892e",
+      "published_at": "2026-05-26T13:39:46.352Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "extracted_insight",
+      "pillar": "Extracted Insights",
+      "topic_thesis": "Lock-in is not trust; would they leave if they could is the real test.",
+      "angle": "Name the concept, explain it plainly, and show why it matters now. Keep the framing specific to this thesis: Lock-in is not trust; would they leave if they could is the real test.",
+      "hook": "Some of the most committed-looking teams are just trapped.",
+      "summary": "Some of the most committed-looking teams are just trapped.\n\nThe book draws a hard line between lock-in and trust. Lock-in is when people stay because leaving is costly: too much equity, too many burned bridges, too much identity tied up in the bet. Trust is when people with real ",
+      "source_refs": [],
+      "framework_terms_used": [
+        "trust",
+        "li"
+      ],
+      "subject_entities": [],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "6851c8083ec8",
+      "final_text_hash": "5cabf982a3059b98c2656d90d917e1725645ee9fcbc16750ebd6f3cb1034e5bb",
+      "note_slug": "2026-05-26-some-of-the-most-committed-looking-teams-are-just-trapped",
+      "note_source_path": "content/notes/2026-05-26-some-of-the-most-committed-looking-teams-are-just-trapped.md",
+      "x_status": "published",
+      "x_external_post_id": "2059268643913965658",
+      "x_published_at": "2026-05-26T13:41:18.941Z",
+      "x_winning_candidate_id": "0c8de7b6058c",
+      "x_final_text_hash": "60b3be23404695a5716dde0dd974dbd0abe1250a1db91a465c534015c722b22b",
+      "x_summary": "Some teams don’t have trust. They have exit costs.\n\nEquity cliffs, burned bridges, identity fused to the bet—people stay because leaving hurts. That buys compliance. It won’t buy candor when the ground starts moving.",
       "x_skip_reason": null
     }
   ],
