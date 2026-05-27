@@ -1,6 +1,13 @@
 notes_archive_url: notes/index.html
 recent_notes_empty: false
 recent_notes:
+  - title: The bar you have to clear is not standing still. It is rising while you
+      debate
+    display_date: May 27, 2026
+    url: notes/2026-05-27-the-bar-you-have-to-clear-is-not-standing-still-it-is-rising-while-you-debate/index.html
+    excerpt: The bar you have to clear is not standing still. It is rising while you
+      debate.
+    pillar: Extracted Insights
   - title: Some of the most committed-looking teams are just trapped
     display_date: May 26, 2026
     url: notes/2026-05-26-some-of-the-most-committed-looking-teams-are-just-trapped/index.html
@@ -12,9 +19,4 @@ recent_notes:
     url: notes/2026-05-25-if-your-foundation-story-makes-factual-claims-it-will-die-on-the-next-frontier-shift/index.html
     excerpt: If your foundation story makes factual claims, it will die on the next
       frontier shift.
-    pillar: Extracted Insights
-  - title: AI is turning trust from a byproduct into a line item
-    display_date: May 22, 2026
-    url: notes/2026-05-22-ai-is-turning-trust-from-a-byproduct-into-a-line-item/index.html
-    excerpt: AI is turning trust from a byproduct into a line item.
     pillar: Extracted Insights
