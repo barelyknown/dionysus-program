@@ -28,7 +28,7 @@ Rites of Renewal
 ::: about-program
 Knowledge now melts faster than organizations can re-bind it into identity, norms, and operating systems—without depleting trust. AI compresses the half-life of expertise; what took decades now happens in quarters. Under that pressure, the primary obstacle to progress is no longer technical—it's cultural. Teams hit their limits not because they can't think, but because they can't digest disruptive reality into new roles, new norms, and new commitments without collapsing into numbness, scapegoating, or management theater.
 
-AI also creates a second bottleneck. As competent agency becomes cheap, organizations do not merely face more knowledge-change; they face more action. Human teams, software workflows, machine systems, and mixed human-machine units can now plan, draft, commit, publish, promise, decide, and revise faster than the organization can preserve intent across them. The limiting factor becomes coherence: the capacity to keep distributed agency acting from one living map without turning the map into dogma. Coherence is the Run Time state. Epimetabolism is the renewal process that restores and raises it when reality breaks the map.
+AI also opens a second bottleneck. As competent agency becomes cheap, organizations face not only more knowledge-change but more action: people, software workflows, and mixed human-machine units can now plan, commit, publish, promise, and revise faster than the organization can carry intent across them. The limiting factor becomes coherence—the capacity to keep distributed agency acting from one living map without freezing the map into dogma. Coherence is the Run Time state; epimetabolism is the renewal that restores and raises it when reality breaks the map.
 
 The *Dionysus Program* is a field manual for leaders facing those bottlenecks. Written by Sean Devine, founder and CEO of XBE.
 
@@ -236,9 +236,9 @@ The governing constraint isn’t chips. It isn’t data. It isn’t algorithms. 
 
 In other words: the bottleneck is our capacity to let meaning melt and then re-bind.
 
-Later I saw the second side of the same transition. AI was not only melting expertise. It was multiplying agency. Work that once required a chain of specialists could be compressed into one person with tools, and then into one person directing many agents. The old question was whether the organization had enough competent hands. The new question is whether those hands, human and machine, still belong to one body.
+Later I saw the second side of the same transition. AI was not only melting expertise; it was multiplying agency. Work that once required a chain of specialists could be compressed into one person with tools, and then into one person directing many agents. The old question was whether the organization had enough competent hands. The new question is whether those hands, human and machine, still belong to one body.
 
-That is the factory-electrification lesson in a new domain. The first electric factories often kept the old line shafts and merely changed the power source. The real productivity came later, when unit motors let the factory be redesigned around flow instead of power transmission. AGI inside the old org chart is the same early mistake. It bolts the dynamo to the line shaft. The gains that matter require redesign around the new bottleneck: not labor capacity, but coherent agency.
+That is the lesson of factory electrification in a new domain. The first electric factories kept the old line shafts and merely changed the power source; the real productivity came later, when unit motors let the plant be redesigned around flow instead of power transmission. AGI inside the old org chart repeats the early mistake—it bolts the dynamo to the line shaft. The gains that matter wait on a redesign around the new bottleneck, which is no longer labor capacity but coherent agency.
 
 Earlier in my career I fell into a trap: stoicism plus optimization. I judged solutions by whether they eliminated waste and whether I could implement them myself in the short run. I undervalued social scale over time. I treated identities as liabilities to be reduced rather than assets to be cultivated. I treated redundancy as waste rather than as the buffer needed to live with uncertainty—and to make room for renewal.
 
@@ -317,9 +317,9 @@ Between the acts you’ll find two interludes that work as gates: one checks whe
 
 The first bottleneck this book names is epistemic: knowledge melts faster than organizations can re-bind it into roles, norms, stories, and commitments. That is why Ritual Time exists. It lets a group metabolize the loss of a map without burning the people who lived by it.
 
-AGI adds a second bottleneck. It does not merely make knowing cheaper. It makes action cheaper. The organization can now generate analyses, code, sales motions, support responses, forecasts, campaigns, negotiations, and plans at a rate that used to require layers of labor. Capacity increases, but the capacity is not inert. Agency acts. It commits, publishes, promises, optimizes, irritates customers, opens obligations, and changes the state of the world.
+AGI adds a second bottleneck. It does not merely make knowing cheaper; it makes action cheaper. The organization can now generate analyses, code, sales motions, support responses, forecasts, campaigns, and plans at a rate that used to require layers of labor. But the new capacity is not inert. Agency acts: it commits, publishes, promises, optimizes, opens obligations, and changes the state of the world.
 
-When competent labor was scarce, the organization was built to allocate people. Managers divided work, mediated context, approved decisions, and synchronized specialized hands. In post-AGI knowledge work, the scarce factor moves. The central question is no longer only, "Can we do enough work?" It becomes, "Can we preserve low-loss intent as agency multiplies?"
+When competent labor was scarce, the organization was built to allocate people—managers divided work, mediated context, approved decisions, synchronized specialized hands. In post-AGI knowledge work the scarce factor moves, and the central question is no longer only "Can we do enough work?" but "Can we preserve low-loss intent as agency multiplies?"
 
 Call that constraint coherence.
 
@@ -356,7 +356,7 @@ This is why the *Dionysus Program* exists. It is not an alternative flight plan 
 
 Apollo governs what I’ll call Run Time—prediction, execution, scored forecasts, safety margins. Dionysus governs Ritual Time—containers in which critique is welcomed, meanings are allowed to melt, and new commitments are forged in public. Apollo flies the rocket; Dionysus keeps the culture that builds and launches it able to digest its own mistakes quickly and cleanly.
 
-In the post-AGI organization, Apollo also has a sharper job. It makes action legible. Doctrine, evals, permissions, operating discipline, decision memory, and clear interfaces are not bureaucratic residue; they are the conditions under which abundant agency can act without dissolving into contradiction. Dionysus has the complementary job. It makes correction survivable. When the doctrine is false, Ritual Time lets the group hold contradiction, repair Ren, and allow dead explanations to die without turning the correction into sacrifice.
+In the post-AGI organization, Apollo takes on a sharper job. Doctrine, evals, permissions, operating discipline, decision memory, and clear interfaces are not bureaucratic residue; they are the conditions under which abundant agency can act without dissolving into contradiction. Dionysus does the complementary work: when the doctrine is false, Ritual Time lets the group hold contradiction, repair Ren, and let dead explanations die without turning the correction into sacrifice.
 
 Apollo makes action legible. Dionysus makes correction survivable.
 
@@ -464,21 +464,21 @@ If that is the goal, some common ways of “winning” will lose. They are all w
 
 When meaning starts to melt—when old stories, roles, and norms stop making sense—most leaders reach for some mix of three moves:
 
-1. Self-erasure (violence inward, against the self).  
+1. Self-erasure (violence inward, against the self).
    Ask people to shrink themselves so the melt barely registers.
 
    * “Be more stoic. Detach from want entirely. Shrink your identity.”
    * “Leave the rest of who you are at the door and just do the job.”
    * “Numb your feelings or distract yourself.”
 
-2. Coercive order (violence downward/sideways, through power).  
+2. Coercive order (violence downward/sideways, through power).
    Keep meaning stable by keeping a standing capacity to punish anyone who threatens it.
 
    * “Follow the process or you’ll be fired.”
    * “Align with the culture or you’ll be ostracized.”
    * “Agree with leadership or you’ll be demoted.”
 
-3. Abdication (violence outward/forward, through neglect).  
+3. Abdication (violence outward/forward, through neglect).
    Refuse to deal with the melt at all and let competition and uncertainty act beyond your control.
 
    * “Focus on short-term results.”
@@ -494,7 +494,7 @@ But they all fail an infinite game on two fronts:
 
 In the terms of the *Dionysus Program*, all three are low-epimetabolic strategies: they trade away the capacity to digest error into new structure in exchange for the illusion of control.
 
-AI agency abundance is a fourth kind of win that can break the game. It is a genuine win: more capacity, more independence, less handoff loss, more surface area for experiment. But it breaks the old game because coordination, apprenticeship, shared context, and trust often used to arrive as byproducts of labor scarcity. When one person with agents can do what a small team used to do, the productive gain is real and the byproduct disappears.
+AI agency abundance is a fourth kind of win that can break the game. It is a genuine win: more capacity, more independence, less handoff loss, more surface area for experiment. But it breaks the old game because coordination, apprenticeship, shared context, and trust used to arrive as byproducts of labor scarcity. When one person with agents can do what a small team used to do, that work no longer throws off the relationship it once did.
 
 The win is real. The byproduct disappears.
 
@@ -622,11 +622,11 @@ These forces are distinct. AI independence removes the necessity of collaboratio
 
 The seduction is obvious. Coordination has real costs—scheduling, miscommunication, politics, waiting. The one-man job moves at the speed of thought. For any given task, working alone is often faster, cleaner, and more satisfying than working together. The individual who embraces this will outproduce the individual who insists on collaboration for its own sake.
 
-That is the first reading of the one-man job, and it is true. Less handoff loss is a real gain. Local coordination cost falls. The organization can do work it previously could not afford to initiate.
+That is the first reading of the one-man job, and it is true. Handoff loss falls, local coordination cost falls, and the organization can take on work it could not previously afford to initiate.
 
-The second reading is more dangerous. Less coordination is not the same thing as better organization. Coordination was expensive, but it also forced context to move through shared work. People heard each other's premises. They noticed local optimizations that violated the whole. They acquired a shared sense of what the organization would and would not do. When the one-man job is mediated only by personal taste and local context, it can become fast isolation. When it is mediated by doctrine, it can become coherent autonomy.
+The second reading is more dangerous: less coordination is not the same thing as better organization. Coordination was expensive, but it also forced context to move through shared work. People heard each other's premises, noticed local optimizations that violated the whole, and acquired a shared sense of what the organization would and would not do. Mediated only by personal taste and local context, the one-man job becomes fast isolation; mediated by doctrine, it becomes coherent autonomy.
 
-The one-man job is productive when doctrine travels with the agency. It is isolating when the person or agent acts from a private map.
+The difference is whether doctrine travels with the agency or the agent acts from a private map.
 
 So what is lost?
 
@@ -733,49 +733,23 @@ And we will be outlearned by those who can.
 
 ## The Dynamo and the Agent
 
-The first mistake with a general-purpose technology is to install it inside the old organization and declare victory.
+The first mistake with a general-purpose technology is to install it inside the old organization and declare victory. The factory made this mistake with electricity.
 
-The factory made this mistake with electricity.
+Before electrification, industrial power was physical, centralized, and stubborn. A water wheel or steam engine drove a central shaft; belts, pulleys, gears, and secondary shafts carried mechanical force across the building. The layout obeyed the geometry of power transmission—machines sat where the shaft could reach them, not where the work wanted to flow. The arrangement made sense because power was scarce and centralized. When power has to travel through belts, the factory organizes around belts, and the hidden architecture of the energy system becomes the visible architecture of the work.
 
-Before electrification, industrial power was physical, centralized, and stubborn. A water wheel or steam engine drove a central shaft. Belts, pulleys, gears, and secondary shafts carried mechanical force across the building. The layout of the factory obeyed the geometry of power transmission. Machines were placed where the shaft could reach them, not necessarily where the work wanted to flow.
+Then the electric motor arrived, and at first the factories did the obvious thing. They swapped the prime mover for electric power and kept the old group-drive logic. Electricity entered the factory, but the factory did not yet become electric in the deeper sense; the new source was poured into the old architecture. They bolted the dynamo to the line shaft.
 
-The line shaft world made sense because physical power was scarce and centralized. When power has to travel through belts, the factory organizes around belts. The hidden architecture of the energy system becomes the visible architecture of the work.
+That is the first stage of AGI adoption. The firm keeps its job descriptions, approval chains, meeting cadences, handoff rituals, managerial spans, and departmental boundaries, then gives each person a model, adds a few copilots, routes some summaries into Slack, and calls itself transformed. The new power source is real; the architecture is still pre-electric.
 
-Then the electric motor arrived.
+The deeper gains came later, when the motor stopped being a better way to turn the old shaft and became a reason to redesign the plant. Unit drive put a motor on each machine. Once power no longer had to be dragged mechanically across the building, machines could be placed by process flow: material moved in cleaner lines, backtracking fell, single-story layouts became practical, downtime grew modular, buildings got lighter, capital worked harder. The new power source mattered less than the new layout it made possible.
 
-At first, many factories did the obvious thing. They replaced or supplemented the prime mover with electric power while keeping the old group-drive logic. Electricity entered the factory, but the factory did not yet become electric in the deeper sense. The new source was installed into the old architecture.
+Paul David and Gavin Wright describe the lag precisely: the productivity surge did not arrive with the dynamo. There was a long pause while the complementary practices—layouts, accounting, management, operating concepts—caught up. Warren Devine's history of the shift from shafts to wires makes the same physical point. Electricity did not merely lower the cost of energy; it changed what the factory could be organized around. The bottleneck moved. Once power was abundant, the binding constraints became material flow, scheduling, information, downtime, coordination, and managerial imagination. The factory did not merely become stronger. It became reorganizable.
 
-They bolted the dynamo to the old line shaft.
+AGI moves the bottleneck the same way in knowledge work. Pre-AGI organizations are built around competent labor capacity, because people held the scarce judgment, memory, skill, context, and execution. The org chart is, among other things, a power-distribution system for human cognition: managers allocate attention, specialists sit where their expertise can be reached, meetings move context across the shafts, approvals transmit force.
 
-This is the first stage of AGI adoption. The firm keeps the old job descriptions, approval chains, meeting cadences, handoff rituals, managerial spans, and departmental boundaries. Then it gives each person a model, adds a few copilots, routes some summaries into Slack, and calls itself transformed. The new power source is real. The architecture is still pre-electric.
+That arrangement is what AGI dissolves. The new question is not "Can we do enough knowledge work?"—in many domains the answer will increasingly be yes, because one person with agents can research, draft, code, test, analyze, sell, support, and revise at scales that used to require teams. The constraint moves from capacity to coherence: can the organization preserve low-loss intent as agency multiplies? That is the post-AGI equivalent of flow. The limiting factor is no longer the supply of hands but whether many forms of agency, human and machine, can act from one living map without contradicting each other, outrunning correction, or opening obligations the organization cannot own.
 
-The deeper factory gains came later, when the electric motor stopped being merely a better way to turn the old shaft and became a reason to redesign the plant. Unit drive attached motors to individual machines. Once power no longer had to be dragged mechanically across the building, machines could be placed according to process flow. Material could move in cleaner lines. Backtracking fell. Single-story layouts became more practical. Downtime became more modular. Buildings could be lighter. Capital could be used differently.
-
-The new power source mattered less than the new layout it made possible.
-
-Paul David and Gavin Wright describe the lag clearly: the productivity surge did not arrive the moment the dynamo arrived. There was a long pause while the complementary practices, layouts, accounting, management, and operating concepts caught up. Warren Devine's history of the shift from shafts to wires makes the same physical point. Electricity did not merely reduce energy cost. It changed what the factory could be organized around.
-
-The bottleneck moved.
-
-The old bottleneck was physical power. Once electricity relieved it, the constraints shifted to material flow, scheduling, information, downtime, coordination, and managerial imagination. The factory did not merely become stronger. It became reorganizable.
-
-AGI moves the bottleneck in knowledge work.
-
-Pre-AGI organizations are organized around competent labor capacity. People mediate the work because people historically held scarce judgment, memory, skill, context, and execution capacity. The org chart is, among other things, a power-distribution system for human cognition. Managers allocate attention. Specialists sit where their expertise can be reached. Meetings move context across the shafts. Approvals transmit force.
-
-AGI changes that.
-
-The new bottleneck is not simply, "Can we do enough knowledge work?" In many domains, the answer will increasingly be yes. A person with agents can research, draft, code, test, analyze, sell, support, and revise at scales that used to require teams. The constraint moves from capacity to coherence.
-
-Can the organization preserve low-loss intent as agency multiplies?
-
-That is the post-AGI equivalent of flow. The limiting factor is no longer the availability of hands. It is whether many forms of agency, human and machine, can act from one living map without constantly contradicting each other, outrunning correction, or creating obligations the organization cannot own.
-
-The old org chart is the new line shaft.
-
-It will persist for longer than the technology requires because it encodes status, comfort, law, habit, and memory. The first wave of productivity will come from using agents to make the old architecture cheaper. The real wave will come from redesigning the architecture around the new bottleneck.
-
-Here is the law:
+So the old org chart is the new line shaft. It will outlast the technology that made it necessary, because it encodes status, comfort, law, habit, and memory. The first wave of productivity will come from using agents to make the old architecture cheaper; the real wave will come from redesigning the architecture around the new bottleneck. Hence the law:
 
 An organization scales until its agency exceeds its coherence. Beyond that point, agency becomes an accelerant of incoherence.
 
@@ -792,41 +766,19 @@ An organization scales until its agency exceeds its coherence. Beyond that point
 
 ## The Coherence Ceiling
 
-The post-AGI danger is not insufficient intelligence. It is more intelligence than the organization can metabolize.
-
-To name that danger, we need a cleaner vocabulary.
+The post-AGI danger is not insufficient intelligence. It is more intelligence than the organization can metabolize. Naming that danger takes a cleaner vocabulary.
 
 **Agency:** the capacity to perceive, choose, act, and create commitments in the world.
 
-Agency is not output. Output is a thing produced. Agency is the power to make things happen. A sales agent that emails a customer, a code agent that opens a pull request, a support workflow that credits an account, a team that launches a campaign, a manager who changes a policy, and a founder who makes a public promise are all exercising agency because the world is different after they act.
-
-Agency appears in at least three states.
-
-Latent agency is capacity available but not deployed. A model can do the work, but no workflow yet uses it.
-
-Bounded agency operates inside doctrine, permissions, evals, stop conditions, and feedback paths. It can act, but the organization knows what map it is using, what it may touch, when it must stop, and how correction returns.
-
-Unbounded agency acts faster than the organization can integrate, correct, or metabolize. It may look productive locally while increasing contradiction globally.
+Agency is not output. Output is a thing produced; agency is the power to make things happen. A sales agent emailing a customer, a code agent opening a pull request, a support workflow crediting an account, a team launching a campaign, a manager changing a policy, a founder making a public promise—all exercise agency, because the world is different after they act. It appears in three states. *Latent* agency is capacity available but unused: the model can do the work, but no workflow calls on it. *Bounded* agency operates inside doctrine, permissions, evals, stop conditions, and feedback paths—it can act, and the organization knows what map it is using, what it may touch, when it must stop, and how correction returns. *Unbounded* agency acts faster than the organization can integrate or correct, and may look productive locally while multiplying contradiction globally.
 
 **Coherence:** low-loss intent across distributed agency.
 
-Coherence means intent survives the passage from vision into strategy, from strategy into doctrine, from doctrine into decisions, from decisions into actions, from actions into feedback, and from feedback back into doctrine. It is not everyone agreeing. It is not conformity. It is not vibe. It is not everyone saying the same words in the same meeting.
+Coherence is intent surviving the passage from vision into strategy, strategy into doctrine, doctrine into decisions, decisions into actions, actions into feedback, and feedback back into doctrine. It is not agreement, conformity, vibe, or everyone reciting the same words in the same meeting. It is regulated variety in service of shared essential variables. A coherent organization can hold disagreement, rivalry, exploration, and local judgment—in fact it needs them. The opposite of coherence is not disagreement but drift: local action that no longer participates in a shared whole.
 
-Coherence is regulated variety in service of shared essential variables.
+The **Coherence Ceiling** is the point at which added agency stops increasing useful throughput, because shared intent, context, trust, and correction can no longer keep pace with the actions being generated. Below it, agency becomes throughput; above it, agency becomes contradiction. Past the ceiling, every new agent is a faster way to be wrong. The organization produces more documents, variants, tickets, campaigns, dashboards, code, decisions, meetings, summaries, confident local answers—and the outputs do not add, they collide. Each new channel creates fresh obligations to interpret, supervise, review, handle exceptions, delete, and repair trust. The system gets louder and less true. Call the sign flip *agency inversion*: the point beyond the ceiling where marginal agency becomes harmful.
 
-A coherent organization can contain disagreement, rivalry, exploration, and local judgment. In fact, it needs them. The opposite of coherence is not disagreement. The opposite is drift: local action no longer participates in a shared whole.
-
-The Coherence Ceiling is the point at which added agency stops increasing useful throughput because shared intent, context, trust, and correction cannot keep up with the actions being generated.
-
-Below the coherence ceiling, agency becomes throughput.
-
-Above it, agency becomes contradiction.
-
-Past the ceiling, every new agent is a faster way to be wrong. The organization produces more documents, more variants, more tickets, more campaigns, more dashboards, more code, more decisions, more meetings, more summaries, more confident local answers. But the outputs do not add. They collide. Each new channel creates interpretation, supervision, review, exception-handling, deletion, and trust obligations. The system gets louder and less true.
-
-Call the sign flip agency inversion: the point beyond the coherence ceiling where marginal agency becomes harmful.
-
-The controlled vocabulary is small:
+The rest of the controlled vocabulary is small:
 
 **Dominant scaling constraint:** the constraint that most limits further useful scale after other constraints have been relieved.
 
@@ -838,39 +790,19 @@ The controlled vocabulary is small:
 
 **Span of coherence:** how much human and machine agency can act autonomously while remaining one system.
 
-Herbert Simon helps explain why AGI does not solve this automatically. Bounded rationality was never only a story about weak human computation. It was a story about decisions made under limits: limits on alternatives, attention, information, consequences, search, and shared premises. AGI expands local rationality. It can search more alternatives, summarize more information, simulate more consequences, and produce more options. But it does not abolish organizational bounded rationality.
+Herbert Simon explains why AGI does not dissolve the problem on its own. Bounded rationality was never only a story about weak human computation; it was a story about decisions made under limits—on alternatives, attention, information, consequences, search, and shared premises. AGI expands local rationality: it can search more alternatives, summarize more information, simulate more consequences, generate more options. It does not abolish organizational bounded rationality. The organization still has to decide which premises are valid, which tradeoffs dominate, which customer promises are canonical, which facts are current, which obligations bind, and which action counts as "us." If every agent reasons brilliantly from a different premise set, the organization has not become rational. It has become many rationalities competing under one logo.
 
-The organization still has to decide which premises are valid, which tradeoffs dominate, which customer promises are canonical, which facts are current, which obligations are binding, and which action counts as "us." If every agent reasons brilliantly from a different premise set, the organization has not become rational. It has become many rationalities competing under one logo.
+Doctrine is how an organization bounds rationality without merely throttling intelligence. Doctrine is strategy made executable: it tells distributed agency what diagnosis is current, what tradeoffs are accepted, what local wins are globally wrong, which decisions belong where, what must be escalated, what must be killed, and what would change the map. It is not a motivational poster or a strategy deck. It is the set of premises the organization is willing to let action proceed from.
 
-Doctrine is how an organization bounds rationality without merely reducing intelligence.
+Jay Galbraith frames organization design as information processing under uncertainty: as tasks grow more uncertain, the organization must either reduce the need to process information, increase its capacity to process it, or restructure the work so coordination costs less. AGI obviously increases capacity—it can read, summarize, generate, route, and compare at absurd speed. But it can also explode demand. Every agent can spawn plans, variants, objections, analyses, workflows, code, forecasts, customer messages, memos, and rival interpretations. The firm is not starved for information; it drowns in it. When agency exceeds coherence, the organization does not get smarter. It gets louder.
 
-Doctrine is strategy made executable. It tells distributed agency what diagnosis is current, what tradeoffs are accepted, what local wins are globally wrong, which decisions belong where, what must be escalated, what must be killed, and what would change the map. It is not a motivational poster. It is not a strategy deck. It is the set of premises the organization is willing to let action proceed from.
+This is why the design question matters more than the tool question. Should the organization add processing capacity, cut processing demand, or redesign the work so less coordination is needed? Direct doctrine-to-agent execution is powerful because it removes avoidable mediation—but only where the work is modular enough and the doctrine current enough. Otherwise it just moves ambiguity faster.
 
-Jay Galbraith frames organization design as information processing under uncertainty. When tasks become more uncertain, the organization must either reduce the need for information processing, increase its capacity to process information, or restructure the work so coordination is less expensive. AGI obviously increases information-processing capacity. It can read, summarize, generate, route, and compare at absurd speed.
+James D. Thompson marks where the boundary belongs. Different kinds of interdependence demand different coordination: pooled interdependence can be standardized; sequential interdependence needs plans and interfaces, because one output becomes the next input; reciprocal interdependence needs mutual adjustment, because the parts continuously shape one another. The post-AGI translation: route modular work through doctrine-guided agents, and route reciprocal, ambiguous, high-stakes work through Actor clusters with agent support. Do not mediate all work through people, and do not treat every executing unit as a boundary-of-consequence Actor where reality is ambiguous, trust-laden, regulated, embodied, or irreversible. Matching the coordination mechanism to the interdependence is what disarms both nostalgia and automation mania.
 
-But it can also explode information-processing demand.
+Ashby's guardrail is sterner: only variety can absorb variety. If AGI multiplies agency-variety—the number and diversity of actions the organization can take—then regulatory variety must rise to meet it: doctrine, evals, permissions, feedback paths, decision memory, Ritual Time, human judgment. The answer is not less variety but regulated variety—coherence without conformity, shared premises with divergent probes.
 
-Every agent can create plans, variants, objections, analyses, workflows, code, forecasts, customer messages, internal memos, and alternative interpretations. The firm may not be starved for information. It may drown in it.
-
-When agency exceeds coherence, the organization does not get smarter. It gets louder.
-
-This is why the design question matters more than the tool question. Should the organization increase processing capacity, reduce processing demand, or redesign the work so less coordination is necessary? Direct doctrine-to-agent execution is powerful because it can reduce avoidable mediation. But it only works where the work is modular enough and the doctrine is current enough. Otherwise it just moves ambiguity faster.
-
-James D. Thompson clarifies where the boundary belongs. Organizations face uncertainty, and different kinds of interdependence require different coordination mechanisms. Pooled interdependence can be standardized. Sequential interdependence needs plans and interfaces because one output becomes another input. Reciprocal interdependence needs mutual adjustment because the parts continuously affect one another.
-
-Post-AGI translation: route modular work through doctrine-guided agents. Route reciprocal, ambiguous, high-stakes work through Actor clusters with agent support. Do not mediate all work through people. Mediate uncertainty through the right boundary.
-
-This distinction prevents both nostalgia and automation mania. Humans do not need to be relay nodes for every action. But not every executing unit should be treated as a boundary-of-consequence Actor where reality is ambiguous, trust-laden, regulated, embodied, or irreversible. The coordination mechanism should match the interdependence.
-
-Ashby's cybernetic guardrail is sterner: a regulator needs enough variety to absorb the disturbances it faces. Only variety can absorb variety. If AGI increases agency-variety—the number and diversity of possible actions the organization can take—then the organization must increase regulatory variety: doctrine, evals, permissions, feedback paths, decision memory, Ritual Time, and human judgment.
-
-The answer is not less variety. The answer is regulated variety.
-
-Coherence without conformity.
-
-Shared premises, divergent probes.
-
-Theory of Constraints turns this into an operating method. When coherence is the constraint, do not add more agency and hope the system catches up. Find the constraint, exploit it, subordinate to it, elevate it, then repeat when the bottleneck moves.
+Theory of Constraints turns this into method. When coherence is the constraint, do not add agency and hope the system catches up. Find the constraint, exploit it, subordinate to it, elevate it, then repeat when it moves.
 
 In a coherence-constrained organization, the five focusing steps become concrete:
 
@@ -882,22 +814,14 @@ In a coherence-constrained organization, the five focusing steps become concrete
 
 Do not add agency to a coherence-constrained system. First exploit and elevate coherence.
 
-Now return to the central split of this book.
-
-Run Time is where current doctrine is converted into coherent agency. Ritual Time is where doctrine is updated after reality falsifies it, and where the organization repairs the social substrate damaged by knowledge-change.
-
-Run Time preserves fidelity to the current map. Ritual Time changes the map.
-
-That distinction matters because a group can fail in four different ways:
+Now return to the central split of this book. Run Time converts current doctrine into coherent agency; Ritual Time updates doctrine after reality falsifies it and repairs the social substrate that knowledge-change damages. Run Time preserves fidelity to the current map; Ritual Time changes the map. The distinction matters because a group can fail in four ways:
 
 |  | High coherence | Low coherence |
 | --- | --- | --- |
 | Valid knowledge | Productive Run Time | Agentic decoherence |
 | Invalid knowledge | Coherent wrongness | Collapse, churn, anomie |
 
-Productive Run Time is the ordinary target: current doctrine is valid enough, and action is faithful enough. Agentic decoherence is what happens when the knowledge is fine but distributed action no longer carries it cleanly. Coherent wrongness is more frightening: everyone acts beautifully from a false premise. Collapse is the combined failure, where the map is wrong and action cannot even remain faithful to it.
-
-This is why coherence cannot replace epimetabolism. Coherence is the Run Time scaling constraint. Epimetabolism is the Ritual Time capacity that restores and raises the coherence ceiling after the world breaks the map.
+Productive Run Time is the ordinary target: doctrine valid enough, action faithful enough. Agentic decoherence is knowledge that is fine while distributed action no longer carries it cleanly. Coherent wrongness is the more frightening case—everyone acting beautifully from a false premise. Collapse is both at once: the map is wrong and action cannot even stay faithful to it. This is why coherence cannot replace epimetabolism. Coherence is the Run Time scaling constraint; epimetabolism is the Ritual Time capacity that restores and raises the ceiling after the world breaks the map.
 
 ```{=latex}
 \iffalse
@@ -912,57 +836,31 @@ This is why coherence cannot replace epimetabolism. Coherence is the Run Time sc
 
 ## Auteurs, Agents, Actors
 
-The old organization was built around scarce competent labor capacity.
-
-Managers allocated people, supervised people, coordinated people, reviewed people, approved people, and corrected people because people were the work's primary carriers of judgment and execution. That structure made sense when cognition was the scarce power source. It begins to decay when cognition and execution can be replicated cheaply.
+The old organization was built around scarce competent labor capacity. Managers allocated, supervised, coordinated, reviewed, approved, and corrected people because people were the work's primary carriers of judgment and execution. That structure made sense when cognition was the scarce power source. It decays when cognition and execution can be replicated cheaply.
 
 People should not be the middleware. Doctrine should be the middleware.
 
-That sentence is easy to abuse, so state the caveat immediately: minimize humans as relay nodes; preserve the human requirements of Ren, taste, legal accountability, moral responsibility, grief, trust, and repair. The point is not to remove people from human organizations. It is to stop using people as belts and pulleys when the scarce work has moved somewhere else.
+That sentence is easy to abuse, so the caveat comes first: minimize humans as relay nodes, but preserve the human requirements of Ren, taste, legal accountability, moral responsibility, grief, trust, and repair. The point is not to remove people from human organizations. It is to stop using them as belts and pulleys when the scarce work has moved somewhere else.
 
-The post-AGI organization needs a cleaner triad:
+The post-AGI organization needs a cleaner triad. Auteurs author doctrine. Agents execute doctrine. Actors expose doctrine to reality. These are not human/machine categories but functions in the organization's coherence loop: a human can be an Agent, a machine can be an Actor, and a founder, committee, model, constitution, or governance process can occupy part of the Auteur function. The distinction is not human versus machine; it is authoring, executing, and reality-contact.
 
-Auteurs author doctrine. Agents execute doctrine. Actors expose doctrine to reality.
-
-Auteurs, Agents, and Actors are not human/machine categories. They are functions in the organization's coherence loop. A human can be an Agent. A machine can be an Actor. A founder, committee, model, constitution, or governance process can occupy part of the Auteur function. The distinction is not human versus machine. It is authoring, executing, and reality-contact.
-
-The model is substrate-neutral. It applies to a coherence system spanning mixed substrates, and even to a fully nonhuman organization in principle: some function must generate intent, some function must execute it, some function must encounter reality, and some function must update doctrine when reality contradicts it. But human organizations still have human requirements. Ren, legal accountability, moral responsibility, grief, trust, taste, and repair do not disappear. They shape how the functions are implemented in human organizations, but they do not define the functions themselves.
+The model is substrate-neutral. It applies to any coherence system spanning mixed substrates, and in principle to a fully nonhuman one: some function must generate intent, some must execute it, some must encounter reality, and some must update doctrine when reality contradicts it. But human organizations keep their human requirements. Ren, legal accountability, moral responsibility, grief, trust, taste, and repair do not disappear; they shape how the functions are implemented without defining the functions themselves.
 
 ---
 
 **Auteurs**
 
-The Auteur function generates, preserves, and revises the organization's source of intent: vision, taste, doctrine, identity, and essential variables.
+The Auteur function generates, preserves, and revises the organization's source of intent: vision, taste, doctrine, identity, and essential variables. It answers the questions the executing layer cannot answer for itself: What is this organization? What is it trying to become? What must not be violated? What counts as excellence, and what counts as betrayal? What local success would be globally wrong?
 
-It answers questions the executing layer cannot answer for itself:
+The Auteur need not be one person, or even one substrate. It may be a founder, executive group, creative lead, board, council, model, constitution, governance process, or some combination. What matters is the function: some part of the system must author the premises that make action meaningfully "ours."
 
-What is this organization?
-
-What is it trying to become?
-
-What must not be violated?
-
-What counts as excellence?
-
-What counts as betrayal?
-
-What local success would be globally wrong?
-
-The Auteur is not necessarily one person, or even one substrate. It may be a founder, executive group, creative lead, board, council, model, constitution, governance process, or some combination of these. What matters is the function: some part of the system must author the premises that make action meaningfully "ours."
-
-Auteurship is the anti-slop layer.
-
-A generic agent can produce plausible output. Plausibility is not enough. The organization needs taste, refusal, symbolic continuity, and a felt sense of what does not belong. The Auteur should be the source of doctrine, not the bottleneck of action.
-
-If every meaningful decision returns to the Auteur for interpretation, the organization has not scaled. It has merely surrounded a founder with assistants.
+Auteurship is the anti-slop layer. A generic agent can produce plausible output, and plausibility is not enough; the organization needs taste, refusal, symbolic continuity, and a felt sense of what does not belong. But the Auteur should be the source of doctrine, not the bottleneck of action. If every meaningful decision returns to the center for interpretation, the organization has not scaled. It has merely surrounded a founder with assistants.
 
 ---
 
 **Doctrine**
 
-Doctrine is strategy made executable.
-
-A strategy says where the organization intends to go. Doctrine says how distributed agency should act now, under the current diagnosis, with current tradeoffs, while reality remains uncertain. Strategy that cannot be executed by agents is not yet doctrine.
+Doctrine is strategy made executable. A strategy says where the organization intends to go; doctrine says how distributed agency should act now, under the current diagnosis, with current tradeoffs, while reality stays uncertain. Strategy that agents cannot execute is not yet doctrine.
 
 A useful doctrine packet contains:
 
@@ -980,41 +878,27 @@ A useful doctrine packet contains:
 * Escalation conditions.
 * Agent-readable instructions and evals.
 
-Doctrine should be beautiful enough to travel and precise enough to execute. Ugly compliance text will not carry an Auteur's taste. Inspirational language without permissions and kill criteria will not govern agents.
+Doctrine should be beautiful enough to travel and precise enough to execute. Ugly compliance text will not carry an Auteur's taste; inspirational language without permissions and kill criteria will not govern agents.
 
-Doctrine is living Li. It gives form to action. It does not replace Ren, and it must never be confused with myth. Myth explains who we are at a depth that should not be revised every quarter. Doctrine explains how we currently act under a map that may need to die next week.
+Doctrine is living Li: it gives form to action. It does not replace Ren, and it must never be confused with myth. Myth explains who we are, at a depth that should not be revised every quarter; doctrine explains how we currently act, under a map that may need to die next week.
 
 ---
 
 **Agents**
 
-The Agent function converts doctrine into action.
+The Agent function converts doctrine into action. Agents do not merely "do tasks"; they act from some premise set, and the only question that matters is whether that set is canonical, fresh, and bounded. A generic agent produces plausible output; a doctrine-bound agent produces organizationally coherent output.
 
-Agents do not merely "do tasks." They act from some premise set. The question is whether that premise set is canonical, fresh, and bounded.
-
-A generic agent produces plausible output. A doctrine-bound agent produces organizationally coherent output.
-
-Agents need current doctrine, retrieval from canonical sources, permissions, evals, stop conditions, escalation triggers, blast-radius limits, output review proportional to risk, and feedback paths into doctrine. Without those, the organization is not deploying agency. It is launching private interpretations at scale.
-
-Agent permissions should rise only as doctrine, evals, and Actor feedback mature. A suggest-only workflow can tolerate ambiguity. An agent that touches customers, money, compliance, code deployment, or irreversible promises cannot.
+Agents need current doctrine, retrieval from canonical sources, permissions, evals, stop conditions, escalation triggers, blast-radius limits, output review proportional to risk, and feedback paths back into doctrine. Without those, the organization is not deploying agency. It is launching private interpretations at scale. Permissions should rise only as doctrine, evals, and Actor feedback mature: a suggest-only workflow can tolerate ambiguity; an agent that touches customers, money, compliance, code deployment, or irreversible promises cannot.
 
 ---
 
 **Actors**
 
-The Actor function acts at the boundary of consequence, where doctrine meets reality and reality can answer back.
+The Actor function acts at the boundary of consequence, where doctrine meets reality and reality can answer back. Actors may interface with customers, partners, regulators, employees, markets, physical operations, ambiguous social meaning, trust, and accountability. They are not defined by being human, social, embodied, or external-facing; they are agents operating where consequences return information to the system. An Actor is simply an Agent at the boundary of consequence—all Actors are Agents, but not all Agents are Actors.
 
-Actors may interface with customers, partners, regulators, employees, markets, physical operations, ambiguous social meaning, trust, and accountability. They are not defined by being human, social, embodied, or external-facing. They are agents operating where consequences return information to the system.
+Actors preserve reality-contact. Without them, Auteurs and Agents can become coherent but false: the doctrine elegant, the agents faithful, the outputs polished, and no function standing where promises meet weather, customers, bodies, law, status, shame, resentment, and trust. An Actorless organization is a hallucination with a budget.
 
-Actors preserve reality-contact.
-
-Without Actors, Auteurs and Agents can become coherent but false. The doctrine may be elegant. The agents may execute it faithfully. The outputs may look polished. But no function is standing at the boundary where promises meet weather, customers, bodies, law, status, shame, resentment, and trust.
-
-An Actorless organization is a hallucination with a budget.
-
-All Actors are Agents, but not all Agents are Actors. An Actor is an Agent at the boundary of consequence.
-
-In human organizations, the Actor function carries legal and moral weight. A machine may expose doctrine to reality by touching a market, a customer, a sensor, or a regulator-facing workflow. But moral responsibility does not vanish into the tool. Accountability remains part of the human organization that authorized, bounded, and learned from the action.
+In human organizations the Actor function carries legal and moral weight. A machine may expose doctrine to reality by touching a market, a customer, a sensor, or a regulator-facing workflow, but moral responsibility does not vanish into the tool. Accountability stays with the human organization that authorized, bounded, and learned from the action.
 
 ---
 
@@ -1022,9 +906,7 @@ The loop looks like this:
 
 Auteur → Doctrine → Agents → Output → Actors → Reality-contact → Contradiction → Ritual Time → Revised Doctrine → Run Time
 
-That is the post-AGI metabolism of the firm.
-
-The system fails in recognizable ways.
+That is the post-AGI metabolism of the firm, and it fails in recognizable ways.
 
 **Auteur Bottleneck:** the Auteur function remains the only place doctrine can be interpreted, so every serious action returns to the center.
 
@@ -1042,9 +924,7 @@ The system fails in recognizable ways.
 
 **Agency Inversion:** marginal agency has turned negative because coherence capacity is exhausted.
 
-The success state is the bounded swarm: a high-agency organization whose human and machine agency can act autonomously because doctrine is fresh, permissions are bounded, reality-contact is alive, and Ritual Time can update the system when the map melts.
-
-Span of control becomes span of coherence.
+The success state is the bounded swarm: a high-agency organization whose human and machine agency can act autonomously because doctrine is fresh, permissions are bounded, reality-contact is alive, and Ritual Time can update the system when the map melts. Span of control becomes span of coherence.
 
 ```{=latex}
 \iffalse
@@ -1065,7 +945,7 @@ But deliberate investment takes time. And the leader facing entropy does not alw
 
 What happens when the need for Ren outpaces its organic accumulation?
 
-After the coherence sequence, the pressure is doubled. Ren must form faster because AI erodes organic relationship formation. Coherence must form faster because agency multiplies action. The impatient leader now faces two clocks: the Ren clock and the coherence clock. One asks whether the group has enough trust to process loss without violence. The other asks whether the group has enough doctrine, permission, feedback, and correction to let new agency act without contradiction.
+With coherence in the picture, the pressure doubles. Ren must form faster because AI erodes organic relationship; coherence must form faster because agency multiplies action. The impatient leader now runs two clocks at once. One asks whether the group has enough trust to process loss without violence. The other asks whether it has enough doctrine, permission, feedback, and correction to let new agency act without contradiction.
 
 The answer is uncomfortable. It requires what we might call the **Impatience of Jobs**—a willingness to compress decades of bonding into quarters through methods that appear, from the outside, as transgressions.
 
@@ -1275,13 +1155,9 @@ Neither is acceptable. The non-violent alternative is to raise epimetabolic rate
 
 ### Agentic Decoherence
 
-Post-AGI dissolution has a second signature.
+Post-AGI dissolution has a second signature. The organization does not look blocked; it looks busy. More AI output appears every week, teams move faster, artifacts get more polished, agents clear queues, documents multiply—and the whole becomes harder to steer.
 
-The organization may not look blocked. It may look busy. More AI output appears every week. Teams move faster. Artifacts get more polished. Dashboards improve locally. Agents clear queues. Documents multiply. But the whole becomes harder to steer.
-
-That is agentic decoherence.
-
-The symptoms are practical:
+That is agentic decoherence. The symptoms are practical:
 
 * More AI output, more rework.
 * Faster teams, less shared direction.
@@ -1501,7 +1377,7 @@ Key elements:
 
 * **Hospitality as binding force:** Following Mauss, treat the ritual time as a gift, not an assignment. The convener owes the participants protection, dignity, and material hospitality. By making the ritual time expensive and generous, you create a reciprocal social obligation for the participants to return the gift in the form of candor. If the ritual feels like a chore, you will get compliance; if it feels like a gift, you will get truth.
 
-This is ritual as engineering. It channels heat away from bodies and into forms. It preserves the necessary roughness of criticism and conflict while giving it a non-destructive shape, instead of smoothing it into silence or letting it explode into scapegoating.  
+This is ritual as engineering. It channels heat away from bodies and into forms. It preserves the necessary roughness of criticism and conflict while giving it a non-destructive shape, instead of smoothing it into silence or letting it explode into scapegoating.
 
 Rituals also owe part of their power to feeling given rather than endlessly negotiable. To preserve that, keep the design surface small: a limited steward group, drawn from active operators for short rotating terms, sketches and iterates the container, then returns to ordinary work while the form itself stays stable. Everyone can help test and critique the rite in use; not everyone should be in the room rewriting its bones every cycle, or it will never acquire the opacity and taken-for-grantedness that real social facts need.
 
@@ -1591,7 +1467,7 @@ When a group refuses to grant a Fallow Interval, people will take one privately.
 
 Rest is not outside the Dionysian cycle. It is one of the conditions that keeps the cycle from turning predatory.
 
-In a post-AGI organization, fallow time also becomes deletion time. Creation becomes cheap; deletion becomes scarce. The organization must kill stale prompts, dead docs, zombie initiatives, obsolete metrics, abandoned automations, old commitments, and workflows that no longer correspond to doctrine. Otherwise agents will faithfully execute yesterday's decay.
+In a post-AGI organization, fallow time also becomes deletion time. The organization must kill stale prompts, dead docs, zombie initiatives, obsolete metrics, abandoned automations, old commitments, and workflows that no longer correspond to doctrine. Otherwise agents will faithfully execute yesterday's decay.
 
 When creation becomes cheap, deletion becomes sacred.
 
@@ -1969,7 +1845,7 @@ Recognizing this does not weaken the program. It makes the program more honest a
 
 This myth was chosen well. A commitment to metabolize error is as close to a procedural myth as it is possible to construct—it says almost nothing about what is true and almost everything about how to be. It does not promise specific outcomes. It does not age when the competitive landscape changes. It is equally available to a Roman farmer, a Greek tragedian, a Confucian court, and a software company navigating an AI transition. That is what belongs at the foundation.
 
-Doctrine must not be smuggled into the myth layer. Myth is more stable. Doctrine is more updateable. Myth explains who we are. Doctrine explains how we currently act. If doctrine becomes sacred, the organization cannot update. If myth is revised every quarter, the organization cannot orient. Confusing the two is one of the cleanest ways to turn coherence into frozen meaning.
+Doctrine must not be smuggled into the myth layer. Myth is the stable tier and doctrine the updateable one: myth explains who we are, doctrine how we currently act. Make doctrine sacred and the organization cannot update; revise myth every quarter and it cannot orient. Confusing the two is among the cleanest ways to turn coherence into frozen meaning.
 
 But it must be named as myth. Treating it as a knowledge claim—as something the program derived through rigorous analysis and would update if new evidence arrived—would be dishonest. It is prior to analysis. It is what makes analysis possible. Hold it accordingly: not as a conclusion you reached, but as a commitment you made, with eyes open, knowing that it will organize everything else you do.
 
@@ -2768,9 +2644,7 @@ Monthly or quarterly, kill:
 * Misleading metrics.
 * Abandoned agent workflows.
 
-Creation is cheap enough now that deletion needs a standing discipline.
-
-When creation becomes cheap, deletion becomes sacred.
+Creation is cheap enough now that deletion needs a standing discipline. When creation becomes cheap, deletion becomes sacred.
 
 ### IX. Preserve Actor Feedback
 
