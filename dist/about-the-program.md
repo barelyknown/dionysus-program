@@ -3,7 +3,9 @@
 ::: about-program
 Knowledge now melts faster than organizations can re-bind it into identity, norms, and operating systems—without depleting trust. AI compresses the half-life of expertise; what took decades now happens in quarters. Under that pressure, the primary obstacle to progress is no longer technical—it's cultural. Teams hit their limits not because they can't think, but because they can't digest disruptive reality into new roles, new norms, and new commitments without collapsing into numbness, scapegoating, or management theater.
 
-The *Dionysus Program* is a field manual for leaders facing that bottleneck. Written by Sean Devine, founder and CEO of XBE.
+AI also creates a second bottleneck. As competent agency becomes cheap, organizations do not merely face more knowledge-change; they face more action. Human teams, software workflows, machine systems, and mixed human-machine units can now plan, draft, commit, publish, promise, decide, and revise faster than the organization can preserve intent across them. The limiting factor becomes coherence: the capacity to keep distributed agency acting from one living map without turning the map into dogma. Coherence is the Run Time state. Epimetabolism is the renewal process that restores and raises it when reality breaks the map.
+
+The *Dionysus Program* is a field manual for leaders facing those bottlenecks. Written by Sean Devine, founder and CEO of XBE.
 
 It argues for a new scoreboard: **epimetabolic rate**—the speed at which a person, team, or organization converts error into new structure without burning its social fabric. The method is a loop you can actually run: critique → dissolution → reconstitution → renewal. Not "more candor" stapled onto an unchanged culture, but an operating system where knowledge-updating becomes cheaper, safer, and more productive over time—so you can move fast, break things, and then mend what you break into something stronger.
 
@@ -11,8 +13,8 @@ Underlying both modes is a distinction the program makes explicit: knowledge and
 
 The program is built around a deliberate toggle between two modes:
 
-* **Run Time**: ordinary operations—execution, decisions, outcomes, accountability to plans.
-* **Ritual Time**: protected containers where the work is metabolizing loss—where performance scoring pauses and the group becomes accountable to the rite: non-violent rules, reason-giving, and the standing right of criticism.
+* **Run Time**: ordinary operations—execution, decisions, outcomes, accountability to plans, and the conversion of current doctrine into coherent agency.
+* **Ritual Time**: protected containers where the work is metabolizing loss—where performance scoring pauses, doctrine can be updated, and the group becomes accountable to the rite: non-violent rules, reason-giving, and the standing right of criticism.
 
 This distinction is the heart of the book. Most organizations either stay in Run Time until reality forces a catastrophic break, or they perform Ritual Time and get theater. The *Dionysus Program* shows how to build Ritual Time that can hold real heat without harm: concentrating conflict onto shared objects instead of people, designing beauty and hospitality so disruptive knowledge is bearable, and practicing tragedy so losses teach instead of traumatize.
 
@@ -20,6 +22,7 @@ What makes this unusually usable is that it isn't just an essay. It's a toolset 
 
 * **The Epimetabolic Equation**: a mathematical model that turns culture into dynamics—linking trust, ritual capacity, stewardship integrity, beauty, and melt into explicit failure modes and a single diagnostic: how much structure you gain per unit of trust you burn.
 * **The One-Man Job**: a diagnosis of why trust is harder to accumulate when AI collapses the division of labor and distributed work eliminates proximity—and practical guidance on generating *Ren* (the density of trust and shared history that makes high-heat rituals safe) deliberately through play, mission commitment, and hiring for relational density.
+* **The Coherence sequence**: three chapters that explain the post-AGI scaling constraint—why agency abundance creates a coherence ceiling, why doctrine must become executable, and why post-AGI organizations need Auteurs, Agents, and Actors rather than people acting as middleware for everything.
 * **The Impatience of Jobs**: the hard case—how to compress relational time through boundary, ordeal, and complicity when Ren must form in quarters rather than decades, without turning necessity into cult.
 * **The Alchemy of Error**: why organizational truth requires both public rigor and a protected human container.
 * **The Alchemist's Assay**: a diagnostic lens that distinguishes true transformation from false alchemy.

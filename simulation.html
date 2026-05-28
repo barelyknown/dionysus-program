@@ -190,6 +190,27 @@ const ARCHETYPE_CATEGORIES = [
   { name: 'Internal Collapse', keys: ['MANAGEMENT_THEATER', 'OVERWHELMED', 'OLIGARCHIC_DECAY', 'DEATH_SPIRAL'] }
 ];
 
+const DEFAULT_PARAMS = {
+  mu_env: 3.0,
+  mu_choice: 2.0,
+  L: 8.0,
+  rho: 0.1,
+  beta: 1.0,
+  tau: 1.5,
+  R0: 100.0,
+  alpha: 0.02,
+  gamma: 0.10,
+  delta: 0.05,
+  kappa: 0.50,
+  lambda: 0.20,
+  A: 10.0,
+  Va: 1.2,
+  Coh0: 45.0,
+  Vr: 1.2,
+  F: 0.85,
+  H: 40.0
+};
+
 function SliderControl({ label, symbol, value, min, max, step, desc, onChange }) {
   return h('div', { className: 'sim-slider-group' },
     h('div', { className: 'sim-slider-header' },
@@ -238,34 +259,8 @@ function EpimetabolicSimulation() {
   // Check URL for initial archetype
   const initialArchetype = getArchetypeFromURL();
   const initialParams = initialArchetype
-    ? Object.assign({}, {
-        mu_env: 3.0,
-        mu_choice: 2.0,
-        L: 8.0,
-        rho: 0.1,
-        beta: 1.0,
-        tau: 1.5,
-        R0: 100.0,
-        alpha: 0.02,
-        gamma: 0.10,
-        delta: 0.05,
-        kappa: 0.50,
-        lambda: 0.20
-      }, ARCHETYPES[initialArchetype].params)
-    : {
-        mu_env: 3.0,
-        mu_choice: 2.0,
-        L: 8.0,
-        rho: 0.1,
-        beta: 1.0,
-        tau: 1.5,
-        R0: 100.0,
-        alpha: 0.02,
-        gamma: 0.10,
-        delta: 0.05,
-        kappa: 0.50,
-        lambda: 0.20
-      };
+    ? Object.assign({}, DEFAULT_PARAMS, ARCHETYPES[initialArchetype].params)
+    : Object.assign({}, DEFAULT_PARAMS);
 
   const [inputs, setInputs] = useState(initialParams);
 
@@ -285,7 +280,7 @@ function EpimetabolicSimulation() {
       setSelectedArchetype(key);
       updateURL(key);
       setInputs(function(prev) {
-        return Object.assign({}, prev, archetype.params);
+        return Object.assign({}, DEFAULT_PARAMS, archetype.params);
       });
       setSeed(Date.now());
     }
@@ -297,6 +292,9 @@ function EpimetabolicSimulation() {
     var S_threshold = 10.0; // Competitive threshold starts at initial S
     var R = inputs.R0;
     var C = 1.0;
+    var Coh = inputs.Coh0;
+    var doctrineAge = 0;
+    var inversionStreak = 0;
     var collapse = null;
 
     var randomVals = [];
@@ -312,9 +310,24 @@ function EpimetabolicSimulation() {
       var Theater = Math.max(0, (inputs.L * C) - R);
       var Overflow = Math.max(0, mu - Omega);
 
-      var G = Math.min(mu, Omega) * (1 + inputs.lambda * inputs.beta);
+      var baseG = Math.min(mu, Omega) * (1 + inputs.lambda * inputs.beta);
       var safeBeta = Math.max(0.1, inputs.beta);
-      var D = (Math.pow(Overflow, 2) * inputs.tau) + ((inputs.kappa * Theater) / safeBeta);
+      var baseD = (Math.pow(Overflow, 2) * inputs.tau) + ((inputs.kappa * Theater) / safeBeta);
+
+      var safeVariety = Math.max(0.05, inputs.Va);
+      var safeRegulation = Math.max(0.05, inputs.Vr);
+      var safeHalfLife = Math.max(1, inputs.H);
+      var doctrineFreshness = Math.pow(0.5, doctrineAge / safeHalfLife);
+      var doctrineFidelity = Math.max(0.05, inputs.F * (0.25 + 0.75 * doctrineFreshness));
+      var agencyLoad = inputs.A * safeVariety;
+      var regulatedCoherence = Coh * Math.min(1, safeRegulation / safeVariety) * doctrineFidelity;
+      var coherenceGap = Math.max(0, agencyLoad - regulatedCoherence);
+      var coherentAgency = Math.min(agencyLoad, regulatedCoherence);
+      var agencyGain = coherentAgency * 0.08;
+      var IncoherenceTax = Math.pow(coherenceGap, 2) * 0.03;
+
+      var G = baseG + agencyGain;
+      var D = baseD + IncoherenceTax;
 
       var deltaS = G - D;
       S = S + deltaS;
@@ -327,11 +340,24 @@ function EpimetabolicSimulation() {
 
       var isReset = randomVals[t] < inputs.rho;
       var C_prev = C;
+      var Coh_prev = Coh;
 
       if (isReset) {
         C = 1.0;
+        doctrineAge = 0;
       } else {
         C = C * (1 - inputs.delta);
+        doctrineAge += 1;
+      }
+
+      var doctrineRefresh = isReset ? (inputs.beta * safeRegulation) : 0;
+      Coh = Math.max(0, Math.min(100, Coh + (0.04 * G) + doctrineRefresh - (0.08 * IncoherenceTax)));
+
+      var agencyInverted = IncoherenceTax > agencyGain + (baseG * 0.2);
+      if (agencyInverted) {
+        inversionStreak += 1;
+      } else {
+        inversionStreak = Math.max(0, inversionStreak - 1);
       }
 
       data.push({
@@ -339,12 +365,17 @@ function EpimetabolicSimulation() {
         S: parseFloat(S.toFixed(2)),
         S_threshold: parseFloat(S_threshold.toFixed(2)),
         R: parseFloat(R.toFixed(2)),
-        C: parseFloat(C_prev.toFixed(2))
+        C: parseFloat(C_prev.toFixed(2)),
+        Coh: parseFloat(Coh_prev.toFixed(2)),
+        I: parseFloat(IncoherenceTax.toFixed(2)),
+        agencyLoad: parseFloat(agencyLoad.toFixed(2))
       });
 
       // Check failure conditions
       if (collapse === null) {
-        if (R <= 0) {
+        if (agencyInverted && (inversionStreak >= 3 || R <= 0)) {
+          collapse = 'agency';
+        } else if (R <= 0) {
           collapse = 'internal';
         } else if (S < S_threshold) {
           collapse = 'competitive';
@@ -366,16 +397,19 @@ function EpimetabolicSimulation() {
     });
   }
 
-  var lastData = simulationData[simulationData.length - 1] || { S: 0, R: 0, S_threshold: 10 };
-  var internalCollapse = simulationData.length < 100;
+  var lastData = simulationData[simulationData.length - 1] || { S: 0, R: 0, S_threshold: 10, Coh: 0, I: 0, agencyLoad: 0 };
+  var internalCollapse = collapseType === 'internal';
   var competitiveCollapse = collapseType === 'competitive';
-  var anyCollapse = internalCollapse || competitiveCollapse;
+  var agencyCollapse = collapseType === 'agency';
+  var anyCollapse = internalCollapse || competitiveCollapse || agencyCollapse;
 
   var collapseLabel = null;
   if (internalCollapse) {
     collapseLabel = 'Internal Collapse (Trust → 0)';
   } else if (competitiveCollapse) {
     collapseLabel = 'Competitive Collapse (S < S̄)';
+  } else if (agencyCollapse) {
+    collapseLabel = 'Agency Inversion (A × Vᵃ > Coh)';
   }
 
   return h('div', { className: 'sim-wrapper' },
@@ -422,6 +456,7 @@ function EpimetabolicSimulation() {
             h(Line, { yAxisId: 'left', type: 'monotone', dataKey: 'S', name: 'Explanatory Reach (S)', stroke: '#41403b', strokeWidth: 2.5, dot: false, activeDot: { r: 5, fill: '#41403b', stroke: '#fff', strokeWidth: 2 }, isAnimationActive: true, animationDuration: 1000 }),
             h(Line, { yAxisId: 'left', type: 'monotone', dataKey: 'S_threshold', name: 'Competitive Threshold (S̄)', stroke: '#dc2626', strokeWidth: 1.5, strokeDasharray: '2 2', dot: false, activeDot: { r: 4, fill: '#dc2626', stroke: '#fff', strokeWidth: 2 }, isAnimationActive: true, animationDuration: 1000 }),
             h(Line, { yAxisId: 'left', type: 'monotone', dataKey: 'R', name: 'Ren (Trust)', stroke: '#b45309', strokeWidth: 2, strokeDasharray: '4 4', dot: false, activeDot: { r: 5, fill: '#b45309', stroke: '#fff', strokeWidth: 2 }, isAnimationActive: true, animationDuration: 1000 }),
+            h(Line, { yAxisId: 'left', type: 'monotone', dataKey: 'Coh', name: 'Coherence Capacity (Coh)', stroke: '#047857', strokeWidth: 2, dot: false, activeDot: { r: 5, fill: '#047857', stroke: '#fff', strokeWidth: 2 }, isAnimationActive: true, animationDuration: 1000 }),
             h(Line, { yAxisId: 'right', type: 'stepAfter', dataKey: 'C', name: 'Stewardship (C)', stroke: '#d4d4d4', strokeWidth: 1.5, dot: false, isAnimationActive: false })
           )
         )
@@ -443,11 +478,18 @@ function EpimetabolicSimulation() {
         h('h5', { className: 'sim-metric-title' }, 'Ren (Trust) (', h('em', null, 'R'), ')'),
         h('div', { className: 'sim-metric-value' }, lastData.R.toFixed(1)),
         h('div', { className: 'sim-metric-status ' + (anyCollapse ? 'danger' : 'ok') },
-          anyCollapse ? (internalCollapse ? 'Internal collapse at t=' + simulationData.length : 'Outpaced by competition') : 'System Survives'
+          anyCollapse ? (internalCollapse ? 'Internal collapse at t=' + simulationData.length : (competitiveCollapse ? 'Outpaced by competition' : 'Agency inversion')) : 'System Survives'
+        )
+      ),
+      h('div', { className: 'sim-metric sim-metric-coherence ' + (agencyCollapse ? 'collapsed' : '') },
+        h('h5', { className: 'sim-metric-title' }, 'Coherence (', h('em', null, 'Coh'), ')'),
+        h('div', { className: 'sim-metric-value' }, lastData.Coh.toFixed(1)),
+        h('div', { className: 'sim-metric-status ' + (agencyCollapse ? 'danger' : 'ok') },
+          agencyCollapse ? 'Agency inversion' : 'Load ' + lastData.agencyLoad.toFixed(1) + ', tax ' + lastData.I.toFixed(1)
         )
       )
     ),
-    // Two-column controls
+    // Controls
     h('div', { className: 'sim-controls-grid' },
       h('div', { className: 'sim-controls-col' },
         h('h4', { className: 'sim-section-title' }, 'Environment & Choices'),
@@ -465,7 +507,16 @@ function EpimetabolicSimulation() {
         h(SliderControl, { label: 'Burn Rate', symbol: 'γ', value: inputs.gamma, min: 0.01, max: 0.5, step: 0.01, desc: 'Trust destroyed per unit of toxic overflow.', onChange: function(v) { updateInput('gamma', v); } }),
         h(SliderControl, { label: 'Oligarchic Drift', symbol: 'δ', value: inputs.delta, min: 0.01, max: 0.2, step: 0.01, desc: 'Rate of stewardship decay per cycle.', onChange: function(v) { updateInput('delta', v); } }),
         h(SliderControl, { label: 'Hollow Penalty', symbol: 'κ', value: inputs.kappa, min: 0.1, max: 2.0, step: 0.1, desc: 'Damage from ritual exceeding trust.', onChange: function(v) { updateInput('kappa', v); } }),
-        h(SliderControl, { label: 'Aesthetic Multi', symbol: 'λ', value: inputs.lambda, min: 0.05, max: 1.0, step: 0.05, desc: 'Efficiency gain from high beauty.', onChange: function(v) { updateInput('lambda', v); } }),
+        h(SliderControl, { label: 'Aesthetic Multi', symbol: 'λ', value: inputs.lambda, min: 0.05, max: 1.0, step: 0.05, desc: 'Efficiency gain from high beauty.', onChange: function(v) { updateInput('lambda', v); } })
+      ),
+      h('div', { className: 'sim-controls-col' },
+        h('h4', { className: 'sim-section-title' }, 'Agency & Coherence'),
+        h(SliderControl, { label: 'Deployed Agency', symbol: 'A', value: inputs.A, min: 0, max: 40, step: 1, desc: 'Action-capacity currently active.', onChange: function(v) { updateInput('A', v); } }),
+        h(SliderControl, { label: 'Agency Variety', symbol: 'Vᵃ', value: inputs.Va, min: 0.2, max: 5, step: 0.1, desc: 'Range of possible actions.', onChange: function(v) { updateInput('Va', v); } }),
+        h(SliderControl, { label: 'Initial Coherence', symbol: 'Coh₀', value: inputs.Coh0, min: 5, max: 100, step: 5, desc: 'Capacity to preserve intent.', onChange: function(v) { updateInput('Coh0', v); } }),
+        h(SliderControl, { label: 'Regulatory Variety', symbol: 'Vʳ', value: inputs.Vr, min: 0.2, max: 5, step: 0.1, desc: 'Doctrine, evals, permissions, feedback.', onChange: function(v) { updateInput('Vr', v); } }),
+        h(SliderControl, { label: 'Doctrine Fidelity', symbol: 'F', value: inputs.F, min: 0.1, max: 1, step: 0.05, desc: 'How faithfully action follows doctrine.', onChange: function(v) { updateInput('F', v); } }),
+        h(SliderControl, { label: 'Doctrine Half-Life', symbol: 'H', value: inputs.H, min: 5, max: 80, step: 1, desc: 'How long doctrine stays fresh.', onChange: function(v) { updateInput('H', v); } }),
         h('div', { className: 'sim-reroll' },
           h('button', { onClick: function() { setSeed(Date.now()); }, className: 'sim-reroll-btn' },
             h(RefreshIcon),
@@ -487,17 +538,21 @@ function EpimetabolicSimulation() {
             h('em', null, 'Competitive Threshold (S̄)'),
             '—fall below it and you\'re outpaced. The gold dashed line is ',
             h('em', null, 'Ren / Trust (R)'),
+            '. The green line is ',
+            h('em', null, 'Coherence Capacity (Coh)'),
             '. The faint gray line tracks ',
             h('em', null, 'Stewardship (C)'),
             '.'
           ),
           h('p', null,
-            h('strong', null, 'Two failure modes:'),
+            h('strong', null, 'Failure modes:'),
             ' (1) ',
             h('em', null, 'Internal Collapse'),
             '—trust burns to zero. (2) ',
             h('em', null, 'Competitive Collapse'),
-            '—S falls below S̄. Environmental melt (μᵉⁿᵛ) raises S̄ every cycle. You can\'t ignore it; you must metabolize it or be outcompeted.'
+            '—S falls below S̄. (3) ',
+            h('em', null, 'Agency Inversion'),
+            '—agency load exceeds coherence long enough that new action creates more tax than throughput.'
           )
         )
       )

@@ -108,7 +108,7 @@ function buildLettersMarkdown(names, options = {}) {
     lines.push('<hr class="letter-divider" />');
     lines.push('');
   }
-  lines.push('## Appendix C: Letters to the Editor');
+  lines.push('## Appendix D: Letters to the Editor');
   lines.push('');
   lines.push(
     "The following letters are hypothetical responses imagined through the lens of the archetypes described in this book. They represent the author's synthesis of public records and philosophical stances, not the actual voices of the individuals named."
