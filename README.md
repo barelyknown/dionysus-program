@@ -22,12 +22,12 @@ This repository contains a single static webpage that renders the essay “The D
 ├─ styles.css                 # Hand-tuned stylesheet (header includes PDF/Markdown download links)
 ├─ templates/page.html        # Pandoc HTML template
 ├─ templates/pdf.tex          # Pandoc LaTeX template for the PDF title page
-└─ essay.md                   # Source markdown with metadata front matter (title, author, date, description, rights)
+└─ essay.md                   # Main source markdown with metadata front matter (title, author, date, description, rights)
 ```
 
 ## Updating the essay
 
-1. Edit `essay.md` (the YAML block at the top feeds metadata into the build template—update the `rights` line if the year changes).
+1. Edit `essay.md` for the main book text and appendices (the YAML block at the top feeds metadata into the build template—update the `rights` line if the year changes).
 2. Run the build script:
    ```bash
    ./build.sh

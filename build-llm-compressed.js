@@ -5,7 +5,7 @@
  * Smart pipeline:
  * 1) Build appendices (letters).
  * 2) Use pandoc + Lua filter to emit plain text with TOC markers.
- * 3) Split by TOC (H1/H2) into sections; split Appendix B per archetype and Letters appendix per letter.
+ * 3) Split by TOC (H1/H2) into sections; split Appendix C per archetype and Letters appendix per letter.
  * 4) Use "About the Program" as anchor context to derive a global lexicon.
  * 5) Compress each section with GPT-5.4 (Responses API, reasoning high), aggressive targets.
  * 6) Final merge pass to tighten output (single-pass if it fits).

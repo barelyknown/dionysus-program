@@ -2,13 +2,15 @@
 
 \newpage
 
-## Appendix D: Sources
+## Appendix E: Sources
 
 Aristotle. Nicomachean Ethics (c. 340 BCE). [Free](https://www.gutenberg.org/ebooks/8438) · [Amazon](https://www.amazon.com/Nicomachean-Ethics-Aristotle/dp/0140449493)
 
 Aristotle. Poetics (c. 335 BCE). [Free](https://www.gutenberg.org/ebooks/1974) · [Amazon](https://www.amazon.com/Poetics-Aristotle/dp/0140446362)
 
 Aristotle. Politics (c. 350 BCE). [Free](https://classics.mit.edu/Aristotle/politics.html) · [Amazon](https://www.amazon.com/s?k=Aristotle+Politics)
+
+W. Ross Ashby. An Introduction to Cybernetics (1956). [Free](https://www.panarchy.org/ashby/variety.1956.html) · [Amazon](https://www.amazon.com/s?k=W.+Ross+Ashby+An+Introduction+to+Cybernetics)
 
 James P. Carse. Finite and Infinite Games: A Vision of Life as Play and Possibility (1986). [Amazon](https://www.amazon.com/Finite-Infinite-Games-James-Carse/dp/1476731713)
 
@@ -17,6 +19,12 @@ Ed (Edwin) Catmull with Amy Wallace. Creativity, Inc.: Overcoming the Unseen For
 Confucius. The Analects (c. 475 BCE). [Free](https://www.gutenberg.org/ebooks/3330) · [Amazon](https://www.amazon.com/Analects-Penguin-Classics-Confucius/dp/0140443487)
 
 David Deutsch. The Beginning of Infinity: Explanations that Transform the World (2011). [Amazon](https://www.amazon.com/Beginning-Infinity-Explanations-Transform-World/dp/0143121359)
+
+Paul A. David. “The Dynamo and the Computer: An Historical Perspective on the Modern Productivity Paradox” (1990). [Free](https://ideas.repec.org/a/aea/aecrev/v80y1990i2p355-61.html)
+
+Paul A. David and Gavin Wright. “General Purpose Technologies and Surges in Productivity: Historical Reflections on the Future of the ICT Revolution” (1999). [Free](https://ora.ox.ac.uk/objects/uuid:f7410c97-0cc6-4483-9661-38424a3bbabe)
+
+Warren D. Devine Jr. “From Shafts to Wires: Historical Perspective on Electrification” (1983). [Free](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/500078D9B4764BA1109A7967437CF226/S0022050700029673a.pdf/from-shafts-to-wires-historical-perspective-on-electrification.pdf)
 
 Mircea Eliade. The Myth of the Eternal Return (1949). [Amazon](https://www.amazon.com/s?k=Mircea+Eliade+The+Myth+of+the+Eternal+Return)
 
@@ -32,11 +40,15 @@ Mircea Eliade. The Sacred and the Profane (1957). [Amazon](https://www.amazon.co
 
 Richard P. Feynman. “Cargo Cult Science” (1974). [Free](https://calteches.library.caltech.edu/51/2/CargoCult.htm)
 
+Jay R. Galbraith. “Organization Design: An Information Processing View” (1974). [Free](https://jaygalbraith.com/organization-design-an-information-processing-view/)
+
 René Girard. The Scapegoat (1982). [Amazon](https://www.amazon.com/s?k=Girard+Scapegoat)
 
 René Girard. Things Hidden Since the Foundation of the World (1978). [Amazon](https://www.amazon.com/Things-Hidden-Since-Foundation-World/dp/0804722153)
 
 René Girard. Violence and the Sacred (1972). [Amazon](https://www.amazon.com/Violence-Sacred-Rene-Girard/dp/0801822181)
+
+Eliyahu M. Goldratt and Jeff Cox. The Goal: A Process of Ongoing Improvement (1984). [Amazon](https://www.amazon.com/Goal-Process-Ongoing-Improvement/dp/0884271951)
 
 Georg Wilhelm Friedrich Hegel. Phenomenology of Spirit (1807). [Free](https://www.marxists.org/reference/archive/hegel/works/ph/phprefac.htm) · [Amazon](https://www.amazon.com/Phenomenology-Spirit-G-W-F-Hegel/dp/0198245971)
 
@@ -84,11 +96,17 @@ Seneca. Letters from a Stoic (c. 65 CE). [Free](https://archive.org/details/adlu
 
 Claude E. Shannon. “A Mathematical Theory of Communication” (1948). [Free](https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf)
 
+Herbert A. Simon. Administrative Behavior: A Study of Decision-Making Processes in Administrative Organization (1947). [Amazon](https://www.amazon.com/Administrative-Behavior-Decision-Making-Administrative-Organization/dp/0684835827)
+
+Herbert A. Simon. “Rational Decision-Making in Business Organizations” (1978). [Free](https://www.nobelprize.org/prizes/economic-sciences/1978/simon/lecture/)
+
 Georg Simmel. “Sociability” (1908). [Free](https://archive.org/details/sociologyofgeorg0000simm) · [Amazon](https://www.amazon.com/Sociology-Georg-Simmel-George/dp/0029289203)
 
 Nassim Nicholas Taleb. Antifragile: Things That Gain from Disorder (2012). [Amazon](https://www.amazon.com/Antifragile-Things-That-Disorder-Incerto/dp/0812979680)
 
 Alexis de Tocqueville. Democracy in America (1835). [Free](https://www.gutenberg.org/ebooks/815) · [Amazon](https://www.amazon.com/Democracy-America-Essays-Penguin-Classics/dp/0140447601)
+
+James D. Thompson. Organizations in Action: Social Science Bases of Administrative Theory (1967). [Free](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1496215) · [Amazon](https://www.amazon.com/Organizations-Action-Science-Administrative-Classics/dp/0765809915)
 
 Victor Turner. The Ritual Process: Structure and Anti-Structure (1969). [Amazon](https://www.amazon.com/Ritual-Process-Structure-Anti-Structure/dp/0202011909)
 

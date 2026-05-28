@@ -1036,7 +1036,7 @@ button:focus-visible {
 
 .sim-controls-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 2rem;
   margin-top: 1.5rem;
 }
@@ -1314,7 +1314,7 @@ button:focus-visible {
 
 .sim-metrics {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1rem;
   margin-bottom: 1.5rem;
 }
@@ -1335,6 +1335,15 @@ button:focus-visible {
 }
 
 .sim-metric-trust.collapsed {
+  border-left-color: #b91c1c;
+  background: #fef7f7;
+}
+
+.sim-metric-coherence {
+  border-left-color: #047857;
+}
+
+.sim-metric-coherence.collapsed {
   border-left-color: #b91c1c;
   background: #fef7f7;
 }
@@ -1444,6 +1453,10 @@ button:focus-visible {
     border-bottom: 1px solid var(--border-color);
     padding-right: 0;
     padding-bottom: 1.5rem;
+  }
+
+  .sim-controls-grid {
+    grid-template-columns: 1fr 1fr;
   }
 }
 

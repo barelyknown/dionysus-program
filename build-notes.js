@@ -185,7 +185,7 @@ function pageContext(kind) {
 function writeTeaserMetadata(teaserMetaPath, notes) {
   ensureDir(path.dirname(teaserMetaPath));
   const payload = {
-    notes_archive_url: 'notes/index.html',
+    notes_archive_url: 'notes/',
     recent_notes_empty: notes.length === 0,
   };
 

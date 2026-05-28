@@ -1,6 +1,6 @@
 <hr class="letter-divider" />
 
-## Appendix C: Letters to the Editor
+## Appendix D: Letters to the Editor
 
 The following letters are hypothetical responses imagined through the lens of the archetypes described in this book. They represent the author's synthesis of public records and philosophical stances, not the actual voices of the individuals named.
 

@@ -28,7 +28,9 @@ Rites of Renewal
 ::: about-program
 Knowledge now melts faster than organizations can re-bind it into identity, norms, and operating systems—without depleting trust. AI compresses the half-life of expertise; what took decades now happens in quarters. Under that pressure, the primary obstacle to progress is no longer technical—it's cultural. Teams hit their limits not because they can't think, but because they can't digest disruptive reality into new roles, new norms, and new commitments without collapsing into numbness, scapegoating, or management theater.
 
-The *Dionysus Program* is a field manual for leaders facing that bottleneck. Written by Sean Devine, founder and CEO of XBE.
+AI also opens a second bottleneck. As competent agency becomes cheap, organizations face not only more knowledge-change but more action: people, software workflows, and mixed human-machine units can now plan, commit, publish, promise, and revise faster than the organization can carry intent across them. The limiting factor becomes coherence—the capacity to keep distributed agency acting from one living map without freezing the map into dogma. Coherence is the Run Time state; epimetabolism is the renewal that restores and raises it when reality breaks the map.
+
+The *Dionysus Program* is a field manual for leaders facing those bottlenecks. Written by Sean Devine, founder and CEO of XBE.
 
 It argues for a new scoreboard: **epimetabolic rate**—the speed at which a person, team, or organization converts error into new structure without burning its social fabric. The method is a loop you can actually run: critique → dissolution → reconstitution → renewal. Not "more candor" stapled onto an unchanged culture, but an operating system where knowledge-updating becomes cheaper, safer, and more productive over time—so you can move fast, break things, and then mend what you break into something stronger.
 
@@ -36,8 +38,8 @@ Underlying both modes is a distinction the program makes explicit: knowledge and
 
 The program is built around a deliberate toggle between two modes:
 
-* **Run Time**: ordinary operations—execution, decisions, outcomes, accountability to plans.
-* **Ritual Time**: protected containers where the work is metabolizing loss—where performance scoring pauses and the group becomes accountable to the rite: non-violent rules, reason-giving, and the standing right of criticism.
+* **Run Time**: ordinary operations—execution, decisions, outcomes, accountability to plans, and the conversion of current doctrine into coherent agency.
+* **Ritual Time**: protected containers where the work is metabolizing loss—where performance scoring pauses, doctrine can be updated, and the group becomes accountable to the rite: non-violent rules, reason-giving, and the standing right of criticism.
 
 This distinction is the heart of the book. Most organizations either stay in Run Time until reality forces a catastrophic break, or they perform Ritual Time and get theater. The *Dionysus Program* shows how to build Ritual Time that can hold real heat without harm: concentrating conflict onto shared objects instead of people, designing beauty and hospitality so disruptive knowledge is bearable, and practicing tragedy so losses teach instead of traumatize.
 
@@ -45,6 +47,7 @@ What makes this unusually usable is that it isn't just an essay. It's a toolset 
 
 * **The Epimetabolic Equation**: a mathematical model that turns culture into dynamics—linking trust, ritual capacity, stewardship integrity, beauty, and melt into explicit failure modes and a single diagnostic: how much structure you gain per unit of trust you burn.
 * **The One-Man Job**: a diagnosis of why trust is harder to accumulate when AI collapses the division of labor and distributed work eliminates proximity—and practical guidance on generating *Ren* (the density of trust and shared history that makes high-heat rituals safe) deliberately through play, mission commitment, and hiring for relational density.
+* **The Coherence sequence**: three chapters that explain the post-AGI scaling constraint—why agency abundance creates a coherence ceiling, why doctrine must become executable, and why post-AGI organizations need Auteurs, Agents, and Actors rather than people acting as middleware for everything.
 * **The Impatience of Jobs**: the hard case—how to compress relational time through boundary, ordeal, and complicity when Ren must form in quarters rather than decades, without turning necessity into cult.
 * **The Alchemy of Error**: why organizational truth requires both public rigor and a protected human container.
 * **The Alchemist's Assay**: a diagnostic lens that distinguishes true transformation from false alchemy.
@@ -233,6 +236,10 @@ The governing constraint isn’t chips. It isn’t data. It isn’t algorithms. 
 
 In other words: the bottleneck is our capacity to let meaning melt and then re-bind.
 
+Later I saw the second side of the same transition. AI was not only melting expertise; it was multiplying agency. Work that once required a chain of specialists could be compressed into one person with tools, and then into one person directing many agents. The old question was whether the organization had enough competent hands. The new question is whether those hands, human and machine, still belong to one body.
+
+That is the lesson of factory electrification in a new domain. The first electric factories kept the old line shafts and merely changed the power source; the real productivity came later, when unit motors let the plant be redesigned around flow instead of power transmission. AGI inside the old org chart repeats the early mistake—it bolts the dynamo to the line shaft. The gains that matter wait on a redesign around the new bottleneck, which is no longer labor capacity but coherent agency.
+
 Earlier in my career I fell into a trap: stoicism plus optimization. I judged solutions by whether they eliminated waste and whether I could implement them myself in the short run. I undervalued social scale over time. I treated identities as liabilities to be reduced rather than assets to be cultivated. I treated redundancy as waste rather than as the buffer needed to live with uncertainty—and to make room for renewal.
 
 This book exists as a response to that critique.
@@ -291,9 +298,34 @@ So we will have to become the kind of people who can keep up—without becoming 
 
 ## Introduction
 
-The first five mini essays outline why this program exists, what it protects, and how to read the remaining acts.
+The first six mini essays outline why this program exists, what it protects, and how to read the remaining acts.
 
 Between the acts you’ll find two interludes that work as gates: one checks whether you have the relational density to run the rites at all, the other checks whether the stewards can avoid turning those rites into a standing priesthood. Consider them a shared introduction you can return to before you attempt the more volatile practices.
+
+```{=latex}
+\iffalse
+```
+
+---
+
+```{=latex}
+\fi
+\newpage
+```
+
+### The Second Bottleneck
+
+The first bottleneck this book names is epistemic: knowledge melts faster than organizations can re-bind it into roles, norms, stories, and commitments. That is why Ritual Time exists. It lets a group metabolize the loss of a map without burning the people who lived by it.
+
+AGI adds a second bottleneck. It does not merely make knowing cheaper; it makes action cheaper. The organization can now generate analyses, code, sales motions, support responses, forecasts, campaigns, and plans at a rate that used to require layers of labor. But the new capacity is not inert. Agency acts: it commits, publishes, promises, optimizes, opens obligations, and changes the state of the world.
+
+When competent labor was scarce, the organization was built to allocate people—managers divided work, mediated context, approved decisions, synchronized specialized hands. In post-AGI knowledge work the scarce factor moves, and the central question is no longer only "Can we do enough work?" but "Can we preserve low-loss intent as agency multiplies?"
+
+Call that constraint coherence.
+
+Coherence is not agreement, compliance, or everyone repeating the same words. It is low-loss intent across distributed agency: the ability of a group to let mixed human and machine agency act autonomously while still remaining one system. Run Time exists to maximize coherent agency under current doctrine. Ritual Time exists to change the doctrine when reality falsifies it and to repair the human substrate damaged by that change.
+
+The two pressures must stay distinct. Epistemic melt is about knowledge validity. Agentic abundance is about execution fidelity. A perfectly coherent organization can still be wrong; a brilliant organization can still act incoherently. The program needs both ledgers because AGI pressures both layers at once.
 
 ```{=latex}
 \iffalse
@@ -323,6 +355,10 @@ As explanatory power compounds, Apollo-style control is bottlenecked not by phys
 This is why the *Dionysus Program* exists. It is not an alternative flight plan that replaces Apollo. It is Apollo’s counterweight and complement, in exactly Nietzsche’s sense. Where Apollo optimizes known systems, Dionysus teaches us how to let systems die and be reborn without violence—without sacrificing your self or other selves. Where Apollo narrows variance, Dionysus opens a controlled space for excess, feeling, beauty, and ritual so that loss can become gain.
 
 Apollo governs what I’ll call Run Time—prediction, execution, scored forecasts, safety margins. Dionysus governs Ritual Time—containers in which critique is welcomed, meanings are allowed to melt, and new commitments are forged in public. Apollo flies the rocket; Dionysus keeps the culture that builds and launches it able to digest its own mistakes quickly and cleanly.
+
+In the post-AGI organization, Apollo takes on a sharper job. Doctrine, evals, permissions, operating discipline, decision memory, and clear interfaces are not bureaucratic residue; they are the conditions under which abundant agency can act without dissolving into contradiction. Dionysus does the complementary work: when the doctrine is false, Ritual Time lets the group hold contradiction, repair Ren, and let dead explanations die without turning the correction into sacrifice.
+
+Apollo makes action legible. Dionysus makes correction survivable.
 
 To get to the Moon, Apollo was enough. To infinity and beyond, we have to run both programs together. Apollo gets us off the pad; Dionysus keeps us human while we keep going.
 
@@ -373,6 +409,8 @@ Now the trade-off has flipped. The bottleneck is no longer epistemic—we know h
 
 It keeps what the chemists got right: public critique, falsification, replication, the demand that methods survive attack. It reinstalls what the chemists discarded: the transformer's quality, the vessel's integrity, the container that makes high-heat work possible. It is a repeatable method for turning error into explanatory reach without consuming the trust that makes truth-telling safe.
 
+AGI expands the error surface in two directions. Epistemic error means the map is wrong. Agentic error means action is no longer faithful to the map. A model can be false; an agent can also execute a true model at the wrong boundary, under stale permissions, from a local optimization that betrays the whole. Ritual Time metabolizes epistemic error. Run Time prevents agentic error from compounding while the current map still holds.
+
 What follows is the method. After you have learned it, we will return to the alchemical frame—not for decoration, but for diagnosis.
 
 ```{=latex}
@@ -397,9 +435,13 @@ To understand why, we need the distinction made by Confucius between *Li* (ritua
 * **Li:** the container—the meeting agenda, the rule set, the calendar invite, the "No-Blame Covenant."
 * **Ren:** the current—the density of trust, benevolence, and shared history that flows between people.
 
+Doctrine is a form of Li. It can organize action, bound agents, and make strategy executable. It cannot, by itself, create Ren. A doctrine packet can tell a person or machine how to act; it cannot make the people living under that doctrine trust each other enough to revise it honestly when it fails.
+
 The *Dionysus Program* provides the Li. It offers the structural containers to process conflict and change. It cannot provide the Ren. You must bring that with you.
 
 If you install high-intensity rituals (Li) in a group that lacks basic trust (Ren), you do not get renewal; you get management theater or a struggle session. You will demand vulnerability from people who know they will be punished for it.
+
+Coherence without Ren becomes compliance theater. The words align while the current is dead.
 
 **The Readiness Rule:** Never build a ritual container (Li) larger than the shared humanity (Ren) you have available to fill it. If your group is purely transactional, start small. Do not attempt the Great Dissolution until you have earned the right to hold it.
 
@@ -422,21 +464,21 @@ If that is the goal, some common ways of “winning” will lose. They are all w
 
 When meaning starts to melt—when old stories, roles, and norms stop making sense—most leaders reach for some mix of three moves:
 
-1. Self-erasure (violence inward, against the self).  
+1. Self-erasure (violence inward, against the self).
    Ask people to shrink themselves so the melt barely registers.
 
    * “Be more stoic. Detach from want entirely. Shrink your identity.”
    * “Leave the rest of who you are at the door and just do the job.”
    * “Numb your feelings or distract yourself.”
 
-2. Coercive order (violence downward/sideways, through power).  
+2. Coercive order (violence downward/sideways, through power).
    Keep meaning stable by keeping a standing capacity to punish anyone who threatens it.
 
    * “Follow the process or you’ll be fired.”
    * “Align with the culture or you’ll be ostracized.”
    * “Agree with leadership or you’ll be demoted.”
 
-3. Abdication (violence outward/forward, through neglect).  
+3. Abdication (violence outward/forward, through neglect).
    Refuse to deal with the melt at all and let competition and uncertainty act beyond your control.
 
    * “Focus on short-term results.”
@@ -451,6 +493,10 @@ But they all fail an infinite game on two fronts:
 * Practically, because they quietly destroy the very capacity to adapt that you need to survive.
 
 In the terms of the *Dionysus Program*, all three are low-epimetabolic strategies: they trade away the capacity to digest error into new structure in exchange for the illusion of control.
+
+AI agency abundance is a fourth kind of win that can break the game. It is a genuine win: more capacity, more independence, less handoff loss, more surface area for experiment. But it breaks the old game because coordination, apprenticeship, shared context, and trust used to arrive as byproducts of labor scarcity. When one person with agents can do what a small team used to do, that work no longer throws off the relationship it once did.
+
+The win is real. The byproduct disappears.
 
 More concretely:
 
@@ -477,7 +523,7 @@ The *Dionysus Program* is a strategy for infinite games. Infinite games don’t 
 
 ### How to Read This Document
 
-This essay leans heavily on canonical versions of certain ideas and on naming the people who developed them: Carse on finite and infinite games, Popper on error-correction, Deutsch on explanations, Confucius on ritual (Li) and humaneness (Ren), Durkheim on anomie and social facts, Mauss on the gift, Girard on mimesis and scapegoats, Ibn Khaldun on group feeling (*Asabiyyah*), Weber and Michels on bureaucracy and oligarchy, Turner on ritual, Nietzsche on Apollo and Dionysus, Hegel on tragedy, Prigogine and Ohsumi on autophagy and dissipative structures, Taleb and Mandelbrot on volatility, roughness, and fractals, Eliade on sacred time and the temporal structure of myth, Wittgenstein on the foundational commitments every system lives from but cannot itself justify, plus classical patterns like Cincinnatus and Athenian sortition on how extraordinary authority should be granted and withdrawn. That is a design choice. These ideas have been argued, refined, and popularized in public for decades. As a result, large language models are unusually good at explaining them in whatever terms are most accessible to a particular reader—if the reader knows what to ask for.
+This essay leans heavily on canonical versions of certain ideas and on naming the people who developed them: Carse on finite and infinite games, Popper on error-correction, Deutsch on explanations, Confucius on ritual (Li) and humaneness (Ren), Durkheim on anomie and social facts, Mauss on the gift, Girard on mimesis and scapegoats, Ibn Khaldun on group feeling (*Asabiyyah*), Weber and Michels on bureaucracy and oligarchy, Turner on ritual, Nietzsche on Apollo and Dionysus, Hegel on tragedy, Prigogine and Ohsumi on autophagy and dissipative structures, Taleb and Mandelbrot on volatility, roughness, and fractals, Eliade on sacred time and the temporal structure of myth, Wittgenstein on the foundational commitments every system lives from but cannot itself justify, Simon on bounded rationality, Galbraith on information-processing organizations, Thompson on uncertainty and interdependence, Ashby on requisite variety, Goldratt on constraints, and Paul David, Gavin Wright, and Warren Devine on the productivity lag that follows general-purpose technologies, plus classical patterns like Cincinnatus and Athenian sortition on how extraordinary authority should be granted and withdrawn. That is a design choice. These ideas have been argued, refined, and popularized in public for decades. As a result, large language models are unusually good at explaining them in whatever terms are most accessible to a particular reader—if the reader knows what to ask for.
 
 To make that work, give the model direct access to this document whenever possible: paste the full text (or the relevant sections) into the prompt, let it read the page you are currently viewing, or use the compressed context-ready text available on the website. The site includes a “Context” export you can download or copy directly; it exists so you can load a large share of the program into an LLM without manually trimming or reformatting the essay. With the essay or that compressed context in view, the model can not only explain Popper, Durkheim, or Girard in your language; it can also show you precisely how those ideas are being used in the surrounding paragraphs, and it can do so with much leaner prompts.
 
@@ -490,6 +536,8 @@ Practically, that means you should treat the named thinkers and key phrases here
 Or, early on, you might select the opening sections and ask:
 
 > “Using the essay above as context, summarize Nietzsche’s distinction between the Apollonian and the Dionysian as it applies to organizations, then explain how that distinction structures the ‘Run Time’ vs. ‘Ritual Time’ split in this text.”
+
+For the new coherence sequence, use the chapters as a map. Read "The Dynamo and the Agent" for the bottleneck-shift analogy: why AGI inside the old org chart repeats the early factory mistake of bolting a dynamo to a line shaft. Read "The Coherence Ceiling" for the post-AGI scaling law: why agency becomes harmful when intent cannot survive distribution. Read "Auteurs, Agents, Actors" for the organizational form: doctrine as middleware, agents as scalable execution, and actors as reality-contact. Then read the Ritual Time chapters for the harder question: how doctrine changes when reality melts the map.
 
 You can repeat this pattern at any point: expose the relevant passage, name the canonical idea, name your own context, and let the model build a bridge between them. In that sense, the essay is not meant to be a closed, self-sufficient textbook on each thinker it cites. It is a wiring diagram—a specific program that assumes the canonical sources exist and that modern tools can mediate between them and you. By making the document more accessible to LLMs, it becomes more accessible to you, whatever your background, because you can pull on any thread and have the explanation tailored to your needs in real time.
 
@@ -515,6 +563,8 @@ Myth explains you—your relationship to phenomena, your orientation toward acti
 
 The similarity is the one easiest to miss: both are explanatory. They are doing the same epistemic work at different levels. Knowledge orients your model of the world. Myth orients the one doing the modeling. You need both. Neither substitutes for the other.
 
+Doctrine is different from both. Knowledge explains the world. Myth explains us. Doctrine tells current agents how to act. It is strategy made executable under the best map presently available. Coherence measures how much intent survives the passage from doctrine into distributed action. Epimetabolism is the process by which error updates the structure without burning Ren.
+
 This distinction carries a specific implication for an era of shortening expertise half-lives.
 
 When knowledge was durable—when professional identity held stable for a career, when an industry's assumptions lasted a generation—myth's comparative advantage was invisible. Knowledge was stable enough to carry identity and orientation on its own. You could anchor to what you knew, because what you knew persisted.
@@ -523,7 +573,7 @@ When knowledge becomes radioactive—cycling to obsolescence in months rather th
 
 This is the deepest argument for deliberately cultivating myth in organizations. Not as a soft complement to the real work. Not as narrative decoration layered over strategy. As infrastructure. The faster knowledge moves, the more an organization needs a stable tier below it—stories about how to be, not what is true, that do not age when the product roadmap does.
 
-Apollo governs the knowledge layer: predict, execute, score, update. Dionysus governs the myth layer: metabolize loss, rebuild identity, remain orientable after the map has been redrawn. You cannot strengthen one by optimizing the other. They are answering different questions, running on different clocks, serving different needs.
+Apollo governs the knowledge and doctrine layer in Run Time: predict, execute, score, preserve fidelity to the current map. Dionysus governs Ritual Time: metabolize loss, rebuild identity, change the map, remain orientable after it has been redrawn. You cannot strengthen one by optimizing the other. They are answering different questions, running on different clocks, serving different needs.
 
 Run both.
 
@@ -531,13 +581,13 @@ Demolition has a social cost. The more accurate our explanations become, the mor
 
 AI compresses all of this. With scaling laws in hand, cycles that used to take decades now happen in quarters. Expertise half-lives shrink. Institutional calendars lag the frontier. If we treat the turbulence as an engineering problem, we will try to smooth the curve—overbuilding guardrails that freeze progress. If we ignore the human problem, we get the opposite mistake: letting all the roughness hit bare skin and shatter meaning and culture. Those are the wrong choices.
 
-The *Dionysus Program* is a way to move fast by breaking things because it teaches how to mend what you break into something stronger. Its loop is simple and total: critique → dissolution → reconstitution → renewal.
+The *Dionysus Program* is a way to move fast by breaking things because it teaches how to mend what you break into something stronger. Its loop is direct: critique → dissolution → reconstitution → renewal.
 
 Call the speed at which a person, team, organization, or city digests error into new structure its epimetabolic rate. When the rate is high, the melt does not stall; it rebinds quickly and cleanly.
 
 Epimetabolic rate is the only real scoreboard of this program. Revenue, valuation, headcount, shipping velocity, even “engagement” are derivative statistics; they go up or down for many reasons. What the *Dionysus Program* is actually trying to maximize is how quickly a group can notice that its explanations are wrong, dissolve the structures built on top of them, and bind that loss back into better structure without burning people. If the forms in this essay do not raise your epimetabolic rate, they are theater and should be killed.
 
-Accountability, split: Call the ordinary operating mode Run Time. In Run Time, we practice Apollonian accountability—answering to the best available knowledge, meanings, and processes we’ve already stabilized (forecast → act → score). During liminal phases, which we name Ritual Time, we practice Dionysian accountability—answering to the rituals and rules of the container that keep the melt non-violent and raise epimetabolic rate by metabolizing loss (call the rite → follow the vows → publish the recognition → exit on time). Ritual Time does not exist only to run critique. It also exists to restore the human substrate on which critique depends. In periods of intense Run Time, restoration is not peripheral to renewal; it is its precondition. Standards of rationality and personal responsibility do not relax between modes. What inverts is only what everyone is accountable to: Ritual Time suspends performance scoring and output targets and re-aims accountability toward fidelity to the rite and reason-giving; Run Time restores performance scoring and decision-owner accountability for the explanations and commitments they endorse. We toggle modes deliberately and we name the mode we are in.
+Accountability, split: Call the ordinary operating mode Run Time. In Run Time, we practice Apollonian accountability—answering to the best available knowledge, meanings, doctrine, and processes we’ve already stabilized (forecast → act → score). Run Time maximizes coherent agency under current doctrine. During liminal phases, which we name Ritual Time, we practice Dionysian accountability—answering to the rituals and rules of the container that keep the melt non-violent and raise epimetabolic rate by metabolizing loss (call the rite → follow the vows → publish the recognition → exit on time). Ritual Time updates doctrine when reality melts it. It does not exist only to run critique. It also exists to restore the human substrate on which critique depends. In periods of intense Run Time, restoration is not peripheral to renewal; it is its precondition. Standards of rationality and personal responsibility do not relax between modes. What inverts is only what everyone is accountable to: Ritual Time suspends performance scoring and output targets and re-aims accountability toward fidelity to the rite and reason-giving; Run Time restores performance scoring and decision-owner accountability for the explanations and commitments they endorse. We toggle modes deliberately and we name the mode we are in.
 
 The engine is Popperian error-correction; the stabilizers are ritual—the liturgical layer of repeatable containers around error—(Victor Turner), aesthetics (Nietzsche), and tragedy (Hegel). At every scale—person, team, organization, city—the loop repeats, fractally self-similar. We hold a non-violent center with an anti-scapegoat, use beauty as heat so dissolution becomes bearable, and practice tragic metabolism so the self can turn breakdown into understanding. The output is a culture that can learn without end and remain human.
 
@@ -571,6 +621,12 @@ Distributed work also severs work from community. When people live and work in t
 These forces are distinct. AI independence removes the necessity of collaboration. Distributed work removes the serendipity of proximity and the rootedness of shared community. You can have either without the other. But they are currently co-occurring in most knowledge work, and together they eliminate Ren from multiple directions—we no longer need to work together, we no longer happen to be together, and we no longer live together. The isolation that results is more complete than any single force would produce alone.
 
 The seduction is obvious. Coordination has real costs—scheduling, miscommunication, politics, waiting. The one-man job moves at the speed of thought. For any given task, working alone is often faster, cleaner, and more satisfying than working together. The individual who embraces this will outproduce the individual who insists on collaboration for its own sake.
+
+That is the first reading of the one-man job, and it is true. Handoff loss falls, local coordination cost falls, and the organization can take on work it could not previously afford to initiate.
+
+The second reading is more dangerous: less coordination is not the same thing as better organization. Coordination was expensive, but it also forced context to move through shared work. People heard each other's premises, noticed local optimizations that violated the whole, and acquired a shared sense of what the organization would and would not do. Mediated only by personal taste and local context, the one-man job becomes fast isolation; mediated by doctrine, it becomes coherent autonomy.
+
+The difference is whether doctrine travels with the agency or the agent acts from a private map.
 
 So what is lost?
 
@@ -630,7 +686,7 @@ Three implications follow.
 
 **Hiring:** Ren-generation capacity is unevenly distributed. Some people are natural connectors—they bring others together, make groups cohere, create warmth that others want to be near. They are not necessarily the highest performers on individual metrics. They are the people who make the room feel different when they enter it.
 
-An organization needs a minimum density of these people, even at the cost of other capabilities. This is not a statement about every individual hire; it is a statement about the portfolio. A team composed entirely of brilliant isolates will underperform a team with slightly less individual firepower but sufficient binding force. The investment thesis is simple: Ren compounds; isolation does not.
+An organization needs a minimum density of these people, even at the cost of other capabilities. This is not a statement about every individual hire; it is a statement about the portfolio. A team composed entirely of brilliant isolates will underperform a team with slightly less individual firepower but sufficient binding force. The investment thesis is plain: Ren compounds; isolation does not.
 
 This is not "culture fit" in the sense that has rightly been criticized—filtering for homogeneity, for people who look and sound like the existing team. Ren-generators come in many forms. The question is functional: does this person increase or decrease the group's capacity for trust and cohesion? The answer is observable in how others respond to them.
 
@@ -656,11 +712,219 @@ For organizations pursuing large missions—the kind that require synchronizing 
 
 The one-man job is coming for most tasks. Let it come. The response is not to artificially preserve collaboration that is no longer needed. The response is to recognize what collaboration was secretly providing—relationship surface area, trust accumulation, the Ren that makes everything else possible—and to provide it deliberately through other means.
 
+It also means giving solitary agency a shared map. The new work unit cannot be "one person plus private judgment" multiplied across the firm. It has to become a bounded unit acting from living doctrine—with enough reality-contact and feedback that autonomy does not decay into drift.
+
 Play. Commitment to quality. People who bring others together. These are the new infrastructure.
 
 Either we become organizations that invest in them, or we become collections of isolated individuals who cannot learn from each other.
 
 And we will be outlearned by those who can.
+
+```{=latex}
+\iffalse
+```
+
+---
+
+```{=latex}
+\fi
+\newpage
+```
+
+## The Dynamo and the Agent
+
+The first mistake with a general-purpose technology is to install it inside the old organization and declare victory. The factory made this mistake with electricity.
+
+Before electrification, industrial power was physical, centralized, and stubborn. A water wheel or steam engine drove a central shaft; belts, pulleys, gears, and secondary shafts carried mechanical force across the building. The layout obeyed the geometry of power transmission—machines sat where the shaft could reach them, not where the work wanted to flow. The arrangement made sense because power was scarce and centralized. When power has to travel through belts, the factory organizes around belts, and the hidden architecture of the energy system becomes the visible architecture of the work.
+
+Then the electric motor arrived, and at first the factories did the obvious thing. They swapped the prime mover for electric power and kept the old group-drive logic. Electricity entered the factory, but the factory did not yet become electric in the deeper sense; the new source was poured into the old architecture. They bolted the dynamo to the line shaft.
+
+That is the first stage of AGI adoption. The firm keeps its job descriptions, approval chains, meeting cadences, handoff rituals, managerial spans, and departmental boundaries, then gives each person a model, adds a few copilots, routes some summaries into Slack, and calls itself transformed. The new power source is real; the architecture is still pre-electric.
+
+The deeper gains came later, when the motor stopped being a better way to turn the old shaft and became a reason to redesign the plant. Unit drive put a motor on each machine. Once power no longer had to be dragged mechanically across the building, machines could be placed by process flow: material moved in cleaner lines, backtracking fell, single-story layouts became practical, downtime grew modular, buildings got lighter, capital worked harder. The new power source mattered less than the new layout it made possible.
+
+Paul David and Gavin Wright describe the lag precisely: the productivity surge did not arrive with the dynamo. There was a long pause while the complementary practices—layouts, accounting, management, operating concepts—caught up. Warren Devine's history of the shift from shafts to wires makes the same physical point. Electricity did not merely lower the cost of energy; it changed what the factory could be organized around. The bottleneck moved. Once power was abundant, the binding constraints became material flow, scheduling, information, downtime, coordination, and managerial imagination. The factory did not merely become stronger. It became reorganizable.
+
+AGI moves the bottleneck the same way in knowledge work. Pre-AGI organizations are built around competent labor capacity, because people held the scarce judgment, memory, skill, context, and execution. The org chart is, among other things, a power-distribution system for human cognition: managers allocate attention, specialists sit where their expertise can be reached, meetings move context across the shafts, approvals transmit force.
+
+That arrangement is what AGI dissolves. The new question is not "Can we do enough knowledge work?"—in many domains the answer will increasingly be yes, because one person with agents can research, draft, code, test, analyze, sell, support, and revise at scales that used to require teams. The constraint moves from capacity to coherence: can the organization preserve low-loss intent as agency multiplies? That is the post-AGI equivalent of flow. The limiting factor is no longer the supply of hands but whether many forms of agency, human and machine, can act from one living map without contradicting each other, outrunning correction, or opening obligations the organization cannot own.
+
+So the old org chart is the new line shaft. It will outlast the technology that made it necessary, because it encodes status, comfort, law, habit, and memory. The first wave of productivity will come from using agents to make the old architecture cheaper; the real wave will come from redesigning the architecture around the new bottleneck. Hence the law:
+
+An organization scales until its agency exceeds its coherence. Beyond that point, agency becomes an accelerant of incoherence.
+
+```{=latex}
+\iffalse
+```
+
+---
+
+```{=latex}
+\fi
+\newpage
+```
+
+## The Coherence Ceiling
+
+The post-AGI danger is not insufficient intelligence. It is more intelligence than the organization can metabolize. Naming that danger takes a cleaner vocabulary.
+
+**Agency:** the capacity to perceive, choose, act, and create commitments in the world.
+
+Agency is not output. Output is a thing produced; agency is the power to make things happen. A sales agent emailing a customer, a code agent opening a pull request, a support workflow crediting an account, a team launching a campaign, a manager changing a policy, a founder making a public promise—all exercise agency, because the world is different after they act. It appears in three states. *Latent* agency is capacity available but unused: the model can do the work, but no workflow calls on it. *Bounded* agency operates inside doctrine, permissions, evals, stop conditions, and feedback paths—it can act, and the organization knows what map it is using, what it may touch, when it must stop, and how correction returns. *Unbounded* agency acts faster than the organization can integrate or correct, and may look productive locally while multiplying contradiction globally.
+
+**Coherence:** low-loss intent across distributed agency.
+
+Coherence is intent surviving the passage from vision into strategy, strategy into doctrine, doctrine into decisions, decisions into actions, actions into feedback, and feedback back into doctrine. It is not agreement, conformity, vibe, or everyone reciting the same words in the same meeting. It is regulated variety in service of shared essential variables. A coherent organization can hold disagreement, rivalry, exploration, and local judgment—in fact it needs them. The opposite of coherence is not disagreement but drift: local action that no longer participates in a shared whole.
+
+The **Coherence Ceiling** is the point at which added agency stops increasing useful throughput, because shared intent, context, trust, and correction can no longer keep pace with the actions being generated. Below it, agency becomes throughput; above it, agency becomes contradiction. Past the ceiling, every new agent is a faster way to be wrong. The organization produces more documents, variants, tickets, campaigns, dashboards, code, decisions, meetings, summaries, confident local answers—and the outputs do not add, they collide. Each new channel creates fresh obligations to interpret, supervise, review, handle exceptions, delete, and repair trust. The system gets louder and less true. Call the sign flip *agency inversion*: the point beyond the ceiling where marginal agency becomes harmful.
+
+The rest of the controlled vocabulary is small:
+
+**Dominant scaling constraint:** the constraint that most limits further useful scale after other constraints have been relieved.
+
+**Incoherence tax:** the cost of excess agency: rework, contradiction, clarification, duplicated effort, supervision, political friction, trust repair, and strategic drift.
+
+**Doctrine half-life:** how long doctrine remains valid, current, and understood before drift or world-change makes it stale.
+
+**Context debt:** the accumulated divergence between stated strategy, lived incentives, operating reality, and executed instructions.
+
+**Span of coherence:** how much human and machine agency can act autonomously while remaining one system.
+
+Herbert Simon explains why AGI does not dissolve the problem on its own. Bounded rationality was never only a story about weak human computation; it was a story about decisions made under limits—on alternatives, attention, information, consequences, search, and shared premises. AGI expands local rationality: it can search more alternatives, summarize more information, simulate more consequences, generate more options. It does not abolish organizational bounded rationality. The organization still has to decide which premises are valid, which tradeoffs dominate, which customer promises are canonical, which facts are current, which obligations bind, and which action counts as "us." If every agent reasons brilliantly from a different premise set, the organization has not become rational. It has become many rationalities competing under one logo.
+
+Doctrine is how an organization bounds rationality without merely throttling intelligence. Doctrine is strategy made executable: it tells distributed agency what diagnosis is current, what tradeoffs are accepted, what local wins are globally wrong, which decisions belong where, what must be escalated, what must be killed, and what would change the map. It is not a motivational poster or a strategy deck. It is the set of premises the organization is willing to let action proceed from.
+
+Jay Galbraith frames organization design as information processing under uncertainty: as tasks grow more uncertain, the organization must either reduce the need to process information, increase its capacity to process it, or restructure the work so coordination costs less. AGI obviously increases capacity—it can read, summarize, generate, route, and compare at absurd speed. But it can also explode demand. Every agent can spawn plans, variants, objections, analyses, workflows, code, forecasts, customer messages, memos, and rival interpretations. The firm is not starved for information; it drowns in it. When agency exceeds coherence, the organization does not get smarter. It gets louder.
+
+This is why the design question matters more than the tool question. Should the organization add processing capacity, cut processing demand, or redesign the work so less coordination is needed? Direct doctrine-to-agent execution is powerful because it removes avoidable mediation—but only where the work is modular enough and the doctrine current enough. Otherwise it just moves ambiguity faster.
+
+James D. Thompson marks where the boundary belongs. Different kinds of interdependence demand different coordination: pooled interdependence can be standardized; sequential interdependence needs plans and interfaces, because one output becomes the next input; reciprocal interdependence needs mutual adjustment, because the parts continuously shape one another. The post-AGI translation: route modular work through doctrine-guided agents, and route reciprocal, ambiguous, high-stakes work through Actor clusters with agent support. Do not mediate all work through people, and do not treat every executing unit as a boundary-of-consequence Actor where reality is ambiguous, trust-laden, regulated, embodied, or irreversible. Matching the coordination mechanism to the interdependence is what disarms both nostalgia and automation mania.
+
+Ashby's guardrail is sterner: only variety can absorb variety. If AGI multiplies agency-variety—the number and diversity of actions the organization can take—then regulatory variety must rise to meet it: doctrine, evals, permissions, feedback paths, decision memory, Ritual Time, human judgment. The answer is not less variety but regulated variety—coherence without conformity, shared premises with divergent probes.
+
+Theory of Constraints turns this into method. When coherence is the constraint, do not add agency and hope the system catches up. Find the constraint, exploit it, subordinate to it, elevate it, then repeat when it moves.
+
+In a coherence-constrained organization, the five focusing steps become concrete:
+
+1. Identify the coherence constraint. Where does intent degrade? Between Auteur and doctrine? Doctrine and agent? Agent and Actor? Customer feedback and doctrine update?
+2. Exploit coherence. Stop wasting coherence on stale decisions, ambiguous handoffs, local initiatives, duplicate documents, and unbounded agentic work.
+3. Subordinate agency to coherence. Do not deploy more autonomous agency than the current doctrine, evals, interfaces, and feedback loops can integrate.
+4. Elevate coherence. Build doctrine systems, context stewards, agent evals, Actor feedback loops, Ritual Time cadence, and decision memory.
+5. Repeat. Once coherence is no longer the constraint, the bottleneck may move to demand, regulation, capital, compute, physical operations, or trust outside the firm.
+
+Do not add agency to a coherence-constrained system. First exploit and elevate coherence.
+
+Now return to the central split of this book. Run Time converts current doctrine into coherent agency; Ritual Time updates doctrine after reality falsifies it and repairs the social substrate that knowledge-change damages. Run Time preserves fidelity to the current map; Ritual Time changes the map. The distinction matters because a group can fail in four ways:
+
+|  | High coherence | Low coherence |
+| --- | --- | --- |
+| Valid knowledge | Productive Run Time | Agentic decoherence |
+| Invalid knowledge | Coherent wrongness | Collapse, churn, anomie |
+
+Productive Run Time is the ordinary target: doctrine valid enough, action faithful enough. Agentic decoherence is knowledge that is fine while distributed action no longer carries it cleanly. Coherent wrongness is the more frightening case—everyone acting beautifully from a false premise. Collapse is both at once: the map is wrong and action cannot even stay faithful to it. This is why coherence cannot replace epimetabolism. Coherence is the Run Time scaling constraint; epimetabolism is the Ritual Time capacity that restores and raises the ceiling after the world breaks the map.
+
+```{=latex}
+\iffalse
+```
+
+---
+
+```{=latex}
+\fi
+\newpage
+```
+
+## Auteurs, Agents, Actors
+
+The old organization was built around scarce competent labor capacity. Managers allocated, supervised, coordinated, reviewed, approved, and corrected people because people were the work's primary carriers of judgment and execution. That structure made sense when cognition was the scarce power source. It decays when cognition and execution can be replicated cheaply.
+
+People should not be the middleware. Doctrine should be the middleware.
+
+That sentence is easy to abuse, so the caveat comes first: minimize humans as relay nodes, but preserve the human requirements of Ren, taste, legal accountability, moral responsibility, grief, trust, and repair. The point is not to remove people from human organizations. It is to stop using them as belts and pulleys when the scarce work has moved somewhere else.
+
+The post-AGI organization needs a cleaner triad. Auteurs author doctrine. Agents execute doctrine. Actors expose doctrine to reality. These are not human/machine categories but functions in the organization's coherence loop: a human can be an Agent, a machine can be an Actor, and a founder, committee, model, constitution, or governance process can occupy part of the Auteur function. The distinction is not human versus machine; it is authoring, executing, and reality-contact.
+
+The model is substrate-neutral. It applies to any coherence system spanning mixed substrates, and in principle to a fully nonhuman one: some function must generate intent, some must execute it, some must encounter reality, and some must update doctrine when reality contradicts it. But human organizations keep their human requirements. Ren, legal accountability, moral responsibility, grief, trust, taste, and repair do not disappear; they shape how the functions are implemented without defining the functions themselves.
+
+---
+
+**Auteurs**
+
+The Auteur function generates, preserves, and revises the organization's source of intent: vision, taste, doctrine, identity, and essential variables. It answers the questions the executing layer cannot answer for itself: What is this organization? What is it trying to become? What must not be violated? What counts as excellence, and what counts as betrayal? What local success would be globally wrong?
+
+The Auteur need not be one person, or even one substrate. It may be a founder, executive group, creative lead, board, council, model, constitution, governance process, or some combination. What matters is the function: some part of the system must author the premises that make action meaningfully "ours."
+
+Auteurship is the anti-slop layer. A generic agent can produce plausible output, and plausibility is not enough; the organization needs taste, refusal, symbolic continuity, and a felt sense of what does not belong. But the Auteur should be the source of doctrine, not the bottleneck of action. If every meaningful decision returns to the center for interpretation, the organization has not scaled. It has merely surrounded a founder with assistants.
+
+---
+
+**Doctrine**
+
+Doctrine is strategy made executable. A strategy says where the organization intends to go; doctrine says how distributed agency should act now, under the current diagnosis, with current tradeoffs, while reality stays uncertain. Strategy that agents cannot execute is not yet doctrine.
+
+A useful doctrine packet contains:
+
+* Current diagnosis.
+* Guiding policy.
+* Strategic tradeoffs.
+* Anti-goals.
+* Kill criteria.
+* Decision rights.
+* Examples of good judgment.
+* Examples of tempting but wrong local optimization.
+* Current known contradictions.
+* Version history.
+* Update owner.
+* Escalation conditions.
+* Agent-readable instructions and evals.
+
+Doctrine should be beautiful enough to travel and precise enough to execute. Ugly compliance text will not carry an Auteur's taste; inspirational language without permissions and kill criteria will not govern agents.
+
+Doctrine is living Li: it gives form to action. It does not replace Ren, and it must never be confused with myth. Myth explains who we are, at a depth that should not be revised every quarter; doctrine explains how we currently act, under a map that may need to die next week.
+
+---
+
+**Agents**
+
+The Agent function converts doctrine into action. Agents do not merely "do tasks"; they act from some premise set, and the only question that matters is whether that set is canonical, fresh, and bounded. A generic agent produces plausible output; a doctrine-bound agent produces organizationally coherent output.
+
+Agents need current doctrine, retrieval from canonical sources, permissions, evals, stop conditions, escalation triggers, blast-radius limits, output review proportional to risk, and feedback paths back into doctrine. Without those, the organization is not deploying agency. It is launching private interpretations at scale. Permissions should rise only as doctrine, evals, and Actor feedback mature: a suggest-only workflow can tolerate ambiguity; an agent that touches customers, money, compliance, code deployment, or irreversible promises cannot.
+
+---
+
+**Actors**
+
+The Actor function acts at the boundary of consequence, where doctrine meets reality and reality can answer back. Actors may interface with customers, partners, regulators, employees, markets, physical operations, ambiguous social meaning, trust, and accountability. They are not defined by being human, social, embodied, or external-facing; they are agents operating where consequences return information to the system. An Actor is simply an Agent at the boundary of consequence—all Actors are Agents, but not all Agents are Actors.
+
+Actors preserve reality-contact. Without them, Auteurs and Agents can become coherent but false: the doctrine elegant, the agents faithful, the outputs polished, and no function standing where promises meet weather, customers, bodies, law, status, shame, resentment, and trust. An Actorless organization is a hallucination with a budget.
+
+In human organizations the Actor function carries legal and moral weight. A machine may expose doctrine to reality by touching a market, a customer, a sensor, or a regulator-facing workflow, but moral responsibility does not vanish into the tool. Accountability stays with the human organization that authorized, bounded, and learned from the action.
+
+---
+
+The loop looks like this:
+
+Auteur → Doctrine → Agents → Output → Actors → Reality-contact → Contradiction → Ritual Time → Revised Doctrine → Run Time
+
+That is the post-AGI metabolism of the firm, and it fails in recognizable ways.
+
+**Auteur Bottleneck:** the Auteur function remains the only place doctrine can be interpreted, so every serious action returns to the center.
+
+**Auteur Delusion:** top vision overwhelms reality-contact, and the organization becomes loyal to a beautiful falsehood.
+
+**Agentic Slop:** agents produce endless plausible output without taste, context, kill criteria, or deletion.
+
+**Actorless Execution:** doctrine and agents are tightly coupled, but no boundary-of-consequence function is testing the work against the world.
+
+**Coherent Wrongness:** the organization is beautifully aligned around a false premise.
+
+**Shadow Doctrine:** teams or agents act from stale, local, political, or private versions of strategy while official doctrine remains decorative.
+
+**Doctrine Rot:** doctrine is technically available but no longer current, trusted, or used.
+
+**Agency Inversion:** marginal agency has turned negative because coherence capacity is exhausted.
+
+The success state is the bounded swarm: a high-agency organization whose human and machine agency can act autonomously because doctrine is fresh, permissions are bounded, reality-contact is alive, and Ritual Time can update the system when the map melts. Span of control becomes span of coherence.
 
 ```{=latex}
 \iffalse
@@ -680,6 +944,8 @@ And we will be outlearned by those who can.
 But deliberate investment takes time. And the leader facing entropy does not always have time.
 
 What happens when the need for Ren outpaces its organic accumulation?
+
+With coherence in the picture, the pressure doubles. Ren must form faster because AI erodes organic relationship; coherence must form faster because agency multiplies action. The impatient leader now runs two clocks at once. One asks whether the group has enough trust to process loss without violence. The other asks whether it has enough doctrine, permission, feedback, and correction to let new agency act without contradiction.
 
 The answer is uncomfortable. It requires what we might call the **Impatience of Jobs**—a willingness to compress decades of bonding into quarters through methods that appear, from the outside, as transgressions.
 
@@ -771,7 +1037,7 @@ A critical distinction: transgression can generate genuine trust, or it can gene
 
 **Trust** occurs when people stay because they want to—because the group has become valuable to them beyond any calculation of cost and benefit. Trust produces discretionary effort, honest feedback, and resilience under pressure.
 
-The test is simple: **Would they leave if they could?**
+The test is blunt: **Would they leave if they could?**
 
 If the answer is yes—if people are staying only because exit is costly—then you have created lock-in, not Ren. You have trapped people rather than bonded them. Lock-in will not hold under the pressure of a Crossing. It will shatter into resentment the moment conditions change.
 
@@ -887,6 +1153,24 @@ Two paths open. The first is violent unification through scapegoating. Find a pe
 
 Neither is acceptable. The non-violent alternative is to raise epimetabolic rate—heat the culture without burning it, and turn loss into structure on a deadline. We need a way to heat the culture without burning it. We need a form that metabolizes loss into knowledge. That requires ritual, beauty, and tragedy.
 
+### Agentic Decoherence
+
+Post-AGI dissolution has a second signature. The organization does not look blocked; it looks busy. More AI output appears every week, teams move faster, artifacts get more polished, agents clear queues, documents multiply—and the whole becomes harder to steer.
+
+That is agentic decoherence. The symptoms are practical:
+
+* More AI output, more rework.
+* Faster teams, less shared direction.
+* Polished but contradictory artifacts.
+* Agent workflows acting from stale strategy.
+* Metrics improving locally while the customer promise deteriorates.
+* Decisions repeatedly reopened.
+* Nobody knows which context is canonical.
+
+The organization is not blocked. It is overproducing contradiction.
+
+This is not the same failure as anomie, though it can lead there. Anomie is a vacuum of valuation after meanings melt. Agentic decoherence is an excess of action after shared intent fragments. The first says, "We no longer know what matters." The second says, "We are all acting as if we know, but not from the same map."
+
 ```{=latex}
 \iffalse
 ```
@@ -933,6 +1217,27 @@ Before entering Act II, audit your readiness.
 3. **The Naming Test:** Do you use language to reveal reality or obscure it? If you use euphemisms for pain, you are not ready for the Rite of Redress.
 4. **The Substrate Test:** Is this group merely afraid, or is it also depleted? If people are exhausted, overstimulated, or coming directly out of prolonged Run Time, you are not ready for a high-heat rite. Lower the heat first. Sleep, food, daylight, silence, ordinary kindness, and a temporary reduction in demands are not luxuries here; they are prerequisites.
 
+Add a Coherence Gate before deploying high-agency workflows. Do not ask only whether the team can tolerate truth. Ask whether the organization can preserve intent through action.
+
+1. **Doctrine Currency:** Is the doctrine current, versioned, and owned?
+2. **Doctrine Executability:** Can each executing unit tell from the doctrine what to do, what not to do, what to escalate, and what to kill?
+3. **Decision Rights:** Are decisions and permissions clear enough that autonomy will not become ambiguity?
+4. **Kill Criteria:** Are stop conditions defined before the workflow starts?
+5. **Bounded Permissions:** Is the agent's blast radius explicit and proportional to maturity?
+6. **Actor Feedback:** Which boundary actors will see the real-world effects and return contradiction?
+7. **Ritual Path:** If the workflow creates contradictions, where will they be metabolized?
+8. **Stale Doctrine Owner:** Who is accountable if the doctrine ages but the agent keeps acting?
+
+Then run a Coherence Audit.
+
+**Telephone assay:** Track Auteur intent through executives, managers, teams, people, agents, customer-facing output, and feedback. Note where the meaning changes.
+
+**Context checksum:** Ask human operators and machine systems to answer independently: What are we doing? Why? What are we refusing? What would change our mind? What local win would be globally wrong?
+
+**Agency inventory:** List every deployed agentic workflow, its owner, doctrine source, permission level, blast radius, and update cadence.
+
+**Contradiction ledger:** Keep a visible list of unresolved tensions between strategy, incentives, customer reality, doctrine, metrics, and execution.
+
 If you fail these tests, do not despair, but do not proceed to the heavy machinery. Go back to the "Catechumenate"—the porch. Build Ren through lower-stakes coordination, shared meals, and small, survivable promises kept.
 
 Some groups fail the gate morally; others fail it metabolically. Both failures matter. A team too depleted to metabolize truth will turn even a good rite into punishment, theater, or collapse. No ritual technology, however elegant, can metabolize loss on a fully exhausted substrate.
@@ -951,6 +1256,8 @@ Ritual Time is not optional. Only its location is optional. If a family, company
 
 Public Ritual Time creates common knowledge. Everyone knows what was named, what died, what survived, and what is now binding. Submerged Ritual Time usually cannot do that. It can preserve private truth, but it cannot fully reconstitute shared roles, norms, and commitments. Public Ritual Time repairs the world. Submerged Ritual Time preserves the soul until the world can be repaired.
 
+Agentic systems create their own submerged forms. People may not say, "The doctrine is stale." They may route around it with private prompts, shadow workflows, hidden spreadsheets, unapproved scripts, local retrieval folders, ironic detachment, or quiet refusal to trust the official agent. Shadow doctrine is submerged Ritual Time in operational form. It is the private processing of contradiction when public doctrine cannot be corrected safely.
+
 This is why withdrawal should not be read first as cowardice, apathy, laziness, decadence, or disloyalty. When people withdraw, the steward's first question should not be: Why are they weak? It should be: What public container was missing such that withdrawal became the safest available rite?
 
 The mercy is real. So is the danger. Submerged Ritual Time can become permanent fallow: rest becomes identity, and nothing is planted again. It can become cynical superiority, where "I see through the game" becomes a new status game. It can become fragmented truth, conspiracy drift, aestheticized despair, or exit addiction. Everyone knows privately, but no one can bind publicly. Memes, irony, and art process pain but never re-enter action. Leaving feels purer than repairing. Submerged Ritual Time is medicinal only when it preserves the possibility of re-entry. When it makes re-entry contemptible, it becomes another form of death.
@@ -962,6 +1269,8 @@ The mercy is real. So is the danger. Submerged Ritual Time can become permanent 
 Most modern corporate rituals are actually just meetings in costume. We give them fancy names but everyone knows the truth. They are assignments. They are authored by a manager, placed on a calendar by an algorithm, and performed by employees who are calculating the minimum viable participation required to stay employed.
 
 They fail because they lack bite. They feel invented rather than received.
+
+Agency has the same hidden bite. More capacity is not free. Every new autonomous channel creates interpretation, supervision, review, exception-handling, deletion, and trust obligations. The gift of agency includes the bite of integration.
 
 One way to name what’s missing is *chronos* versus *kairos*. Chronos is clock time—calendar time—fungible minutes allocated to tasks. Kairos is threshold time: the felt moment when we step out of ordinary work and into a container whose rules bind. Most corporate “rituals” are chronos disguised as kairos: meetings in costume that borrow solemnity without acquiring gravity.
 
@@ -989,7 +1298,7 @@ If a manager says, Let's all be honest, that is a request. If a ritual container
 
 **The Mauss Dynamic:** The Rite as Gift
 
-If Durkheim gives us the container, Marcel Mauss gives us the current that flows through it. Mauss argued that the fundamental social bond is not the contract, but the gift. The gift creates a cycle of obligation: to give, to receive, and to reciprocate.
+Durkheim names the container; Marcel Mauss names the current that flows through it. Mauss argued that the fundamental social bond is not the contract, but the gift. The gift creates a cycle of obligation: to give, to receive, and to reciprocate.
 
 Most business time is transactional. I pay you; you give me labor. I call a meeting; you give me attention. This transaction creates no deep bond and encourages efficiency, which means doing the least for the most.
 
@@ -1026,13 +1335,27 @@ By combining Durkheim's receivedness with Mauss's gift, we ensure that rituals c
 
 ## Act II — Reversal of Reconstitution
 
+### Doctrine Reconstitution
+
+Ritual Time is not finished when the room reaches insight.
+
+Insight is still vapor. If the new recognition does not enter Run Time, the old structure will keep acting through old prompts, old dashboards, old incentives, old approval rules, old definitions of success, and old customer promises. The group will feel transformed and behave unchanged.
+
+After Ritual Time produces new knowledge, the organization must encode it into doctrine, agent instructions, evals, decision memory, permissions, workflows, and promises. What changed? Where does it live? Which agents need new context? Which workflows are now invalid? Which commitments must be revised? Who owns the update?
+
+A lesson not encoded into doctrine is a future incoherence.
+
+Doctrine Reconstitution is the bridge from recognition to action. It is the Apollonian hardening that follows the Dionysian melt: not freezing the whole system forever, but giving the current truth enough form that distributed agency can act from it.
+
 ### Retraining Order: The Anti-Scapegoat
 
 Girard taught that scapegoats resolve crises by uniting a community against a victim, creating sacred peace through violence. The *Dionysus Program* keeps the stabilizing function and rejects the violence. The anti-scapegoat is a conscious, non-person, non-faction ritual object that absorbs the blame, tension, and critique during liminal phases while new structures form.
 
 When no public anti-scapegoat is available, people often create submerged substitutes: jokes, memes, nicknames, private documents, anonymous stories, hidden symbols. These can reduce immediate self-blame, but they are unstable; they do not create public reconstitution.
 
-Victor Turner gives the choreography: separation → limen → reincorporation. We suspend normal rank, enter a threshold where rules invert and intensity peaks, then cross back into order with new bonds (communitas) and clarified norms.
+When an agentic workflow fails, the anti-scapegoat may be the prompt, doctrine packet, eval, permission boundary, handoff, escalation rule, stale premise, missing Actor feedback loop, or decision memory that never got updated. Do not scapegoat the person who "used AI wrong" if the system never made coherent use possible.
+
+Victor Turner names the choreography: separation → limen → reincorporation. We suspend normal rank, enter a threshold where rules invert and intensity peaks, then cross back into order with new bonds (communitas) and clarified norms.
 
 * Separation: We bracket blame. “No person is on trial.” We designate the anti-scapegoat—a charter, an assumption document, a test suite, a prototype, a policy—something everyone can legitimately attack. We move the heat to the symbol.
 
@@ -1054,7 +1377,7 @@ Key elements:
 
 * **Hospitality as binding force:** Following Mauss, treat the ritual time as a gift, not an assignment. The convener owes the participants protection, dignity, and material hospitality. By making the ritual time expensive and generous, you create a reciprocal social obligation for the participants to return the gift in the form of candor. If the ritual feels like a chore, you will get compliance; if it feels like a gift, you will get truth.
 
-This is ritual as engineering. It channels heat away from bodies and into forms. It preserves the necessary roughness of criticism and conflict while giving it a non-destructive shape, instead of smoothing it into silence or letting it explode into scapegoating.  
+This is ritual as engineering. It channels heat away from bodies and into forms. It preserves the necessary roughness of criticism and conflict while giving it a non-destructive shape, instead of smoothing it into silence or letting it explode into scapegoating.
 
 Rituals also owe part of their power to feeling given rather than endlessly negotiable. To preserve that, keep the design surface small: a limited steward group, drawn from active operators for short rotating terms, sketches and iterates the container, then returns to ordinary work while the form itself stays stable. Everyone can help test and critique the rite in use; not everyone should be in the room rewriting its bones every cycle, or it will never acquire the opacity and taken-for-grantedness that real social facts need.
 
@@ -1100,6 +1423,8 @@ At home: memorize a poem about a loss that taught you. Read it aloud before you 
 
 Beauty supplies heat without choosing a side. It makes pain sayable and, therefore, processable.
 
+Doctrine needs beauty too. If doctrine is going to carry the Auteur's taste and the organization's identity, it cannot read like ugly compliance text. It needs compression, examples, cadence, and felt meaning. Doctrine must be memorable enough to travel and precise enough to execute.
+
 ### The Fallow Interval
 
 Run Time does not only consume hours. It consumes slack.
@@ -1114,7 +1439,7 @@ The Sabbath traditions reached the same conclusion from another direction. Rest 
 
 So Ritual Time has two forms.
 
-The first is passive renewal: sleep, silence, meals without agenda, walks, beauty without argument, shared presence without scorekeeping, intervals in which nothing is being extracted, solved, decided, or improved. Passive renewal lowers heat. It restores physiological and emotional surplus. It gives the organism back to itself.
+The first is passive renewal: sleep, silence, meals without agenda, walks, beauty without argument, shared presence without scorekeeping, intervals in which nothing is being extracted, solved, decided, or improved. Passive renewal lowers heat. It restores physiological and emotional surplus. The organism gets itself back.
 
 The second is active renewal: lament, critique, postmortem, confession, recognition, the explicit naming of what has ended, the deliberate rebinding of commitments. Active renewal is where meaning is metabolized. But active renewal only works when passive renewal has restored enough capacity for the truth to be borne without violence.
 
@@ -1142,6 +1467,10 @@ When a group refuses to grant a Fallow Interval, people will take one privately.
 
 Rest is not outside the Dionysian cycle. It is one of the conditions that keeps the cycle from turning predatory.
 
+In a post-AGI organization, fallow time also becomes deletion time. The organization must kill stale prompts, dead docs, zombie initiatives, obsolete metrics, abandoned automations, old commitments, and workflows that no longer correspond to doctrine. Otherwise agents will faithfully execute yesterday's decay.
+
+When creation becomes cheap, deletion becomes sacred.
+
 Once the system has cooled enough to bear recognition without choosing a victim, tragedy can do its work.
 
 ### Tragic Metabolism
@@ -1167,6 +1496,8 @@ Install tragedy as method:
 * Public Trials with Mercy: courts are ritualized conflict that turn vengeance into symbolically contained judgment. Preserve adversarial rigor; forbid humiliation. Mercy is not leniency; it is refusal to scapegoat.
 
 The difference between tragedy and farce is whether recognition lands in structure. With tragedy, the self metabolizes destruction into comprehension. Without it, destruction returns.
+
+Coherent wrongness is one of the hardest tragedies to metabolize. Sometimes fragmentation is not the problem. Sometimes everyone did exactly what doctrine said, and doctrine was wrong. A false map becomes more dangerous when the organization is excellent at following it. Tragic Metabolism must therefore be willing to put coherence itself on trial, not only the deviations from coherence.
 
 ```{=latex}
 \iffalse
@@ -1199,6 +1530,10 @@ Apply that arc to ritual. First, a group of high-Ren operators improvises rites 
 
 In a captured *Dionysus Program*, you see a “ritual team” or “culture office” become the exclusive site of anti-scapegoat design and Crossing schedules, even though its members no longer own operating charters. Stewardship becomes full-time; the stewards stop shipping products, running cases, teaching classes. Criticism of the rites themselves is coded as bad manners rather than as a normal part of the epimetabolic loop. The net effect is to lower epimetabolic rate: rituals installed to accelerate error digestion now protect the people who run them from error; forms meant as containers for conflict become topics that cannot themselves be safely questioned. The program designed to keep the organization from freezing becomes a new layer of ice. This is not primarily a moral failure; it is Weber and Michels doing their work unless you design against them.
 
+The post-AGI variant is doctrine capture. The people who maintain doctrine, evals, agent permissions, and context gates can become a coherence priesthood. They can preserve control under the language of coherence, decide which contradictions count as valid, and frame dissent as misalignment. Stale doctrine protected by status becomes more dangerous than stale ritual because agents can reproduce it at scale.
+
+Doctrine capture has a specific smell: agents are forced to reproduce leadership's preferred hallucination; Actor feedback is treated as noise; dissent is called incoherence; coherence is weaponized against reality-contact.
+
 ### Symptoms of Ritual Oligarchy
 
 Ritual oligarchy is easiest to see in its downstream effects. Five symptoms matter most for the *Dionysus Program*.
@@ -1227,7 +1562,7 @@ Left unchecked, these dynamics turn the *Dionysus Program* into what it was mean
 
 ### The Cincinnatus Design: Four Countermeasures
 
-The Skin-in-the-Game Rule and Lindy-first design already push against capture: rites must be owned by those with the most downside, and their skeletons should be stolen from long-lived institutions. The Cincinnatus Design adds four governance constraints aimed directly at ritual oligarchy.
+The Skin-in-the-Game Rule and Lindy-first design already push against capture: rites must be owned by those with the most downside, and their skeletons should be stolen from long-lived institutions. For doctrine stewards, the same logic requires rotation, auditability, public decision memory, standing criticism, Actor feedback channels, and periodic Ritual Time review of the doctrine layer itself. The Cincinnatus Design adds four governance constraints aimed directly at ritual oligarchy.
 
 #### 1. Sortition Selectors
 
@@ -1265,6 +1600,8 @@ A simple test remains: if someone in your system can plausibly build a long, com
 
 ## Act III — Negentropy of Renewal
 
+Renewal is not only a new explanation. It is a higher coherence ceiling. After successful Ritual Time, the organization should be able to sustain more agency without drift because doctrine is clearer, Ren is less damaged by correction, and feedback returns faster from reality into structure.
+
 ### Autophagic Growth
 
 Life survives by eating its own decay. Cellular autophagy (Yoshinori Ohsumi’s Nobel-winning work) recycles damaged components into usable material. Ilya Prigogine showed how order persists far from equilibrium: dissipative structures export entropy and maintain coherence by consuming energy.
@@ -1278,6 +1615,8 @@ Translate to knowledge and culture: build systems that treat breakdown as nouris
 * Hormesis Quotas: schedule small, non-catastrophic stressors—chaos drills, adversarial patches, leaderless sprints—to keep the system’s epimetabolic rate high. Taleb’s antifragility depends on this: low-level volatility inoculates against ruin.
 
 * Deprecation Ceremonies: dignify the end of roles and rules. Give them names; mark the time; publish “obituaries” that tell the truth; redeem symbols for new use. It prevents undead norms from clogging living pathways.
+
+* Agentic Autophagy: retire stale prompts, abandoned automations, obsolete retrieval indexes, misleading dashboards, old evals, and decision premises that agents will otherwise keep executing. Eat your decay now, or your agents will execute it later.
 
 * Reverse Apprenticeships: let novices study and refactor the compost. They extract patterns the veterans can no longer see. This spreads renewal across generations.
 
@@ -1300,6 +1639,8 @@ The loop—critique → dissolution → reconstitution → renewal—wins becaus
 * **The Renormalization Rule:** as you scale up, lengthen the liminal period, widen participation, and thicken symbols. Keep the verbs the same. Attack objects; not people. Bring heat; avoid harm. Bind commitments; publish them.
 
 Meta-fractal: the *Dionysus Program* does not stand outside its own loop. The small group stewarding these forms should periodically treat the program itself as an anti-scapegoat—especially its steward selection, term limits, and risk-sharing rules—and run a relatively private Crossing on its charters, vocabulary, and metrics. Score it on the same ledgers; let it shed and rename parts that no longer serve, aided by the protected internal criticism encoded in the Jester’s Privilege. That self-application keeps the program from hardening into the kind of frozen, over-explained orthodoxy it was designed to dissolve.
+
+The same fractal applies to coherence. At every scale—person, team, firm—the loop should exist: Auteur-like intention → doctrine → agentic action → Actor-like reality-contact → contradiction → Ritual Time → revised doctrine. The names change with scale, but the metabolism does not. A person has commitments, habits, tools, reality-contact, contradiction, and revision. A team has doctrine, agents, customers, postmortems, and updated commitments. A firm has Auteurs, formal doctrine, agentic workflows, Actors, Ritual Time, and Run Time. If the loop exists only at the top, coherence will not travel.
 
 Two ledgers, one toggle:
 
@@ -1328,6 +1669,8 @@ Taleb’s antifragility inverts here: we gain from uncertainty not primarily thr
 The point is not an aestheticization of work or a romanticization of chaos. The point is a civilization that can accept the gift of infinite knowledge without disintegrating. We do not choose between freezing progress to protect meaning or sacrificing meaning to chase progress. We choreograph the loop that couples critique with repair.
 
 Practices to run tomorrow:
+
+* Close Ritual Time with doctrine updates. Before Touch Down, answer: What changed? Where does it live? Which agents need updated context? Which workflows are invalid? Which commitments must be revised? Who is accountable for encoding the change?
 
 * Install the anti-scapegoat. Write a no-person blame covenant. Choose one artifact for your next Crossing. Put it on trial. Publish the verdict and your next oath.
 
@@ -1370,6 +1713,18 @@ The *Dionysus Program* is intentionally conservative about form. Almost nothing 
 * Prigogine and Ohsumi give you the physics and biology. Export entropy; eat your decay.
 
 * Taleb and Mandelbrot give you the implementation guidance. Design for volatility; keep the shape self-similar.
+
+* Paul David, Gavin Wright, and Warren Devine give you the bottleneck-shift analogy. General-purpose technologies create their largest gains after organizations redesign around the new constraint.
+
+* Simon explains why shared premises remain necessary even when local intelligence rises.
+
+* Galbraith explains why uncertainty creates information-processing load.
+
+* Thompson explains why interdependence changes the right organizational form.
+
+* Ashby explains why agency-variety requires regulatory variety.
+
+* Goldratt explains how to organize around the constraint instead of optimizing everything except the bottleneck.
 
 * Eliade: myth runs on sacred time, not chronos—received forms draw power from being older than your current problem. This is why Lindy-first design works: the form has already survived conditions you have not yet encountered.
 
@@ -1447,13 +1802,24 @@ This is the fundamental asymmetry. When you run a Crossing, the trust in the roo
 
 **Multiplication** produces structure *and* thickens Ren. The mechanism: the group enters heat together under protection, survives without scapegoating, binds recognition into commitment, exits knowing they can do this again. Trust becomes common knowledge.
 
-The assay is simple. After Touch Down, ask two questions:
+After Touch Down, ask two questions:
 
 1. **Did reach expand?** Can you solve problem-classes you could not solve before?
 
 2. **Did the catalyst survive?** Is the team more willing to surface error next time, or less?
 
 If both answers are yes, you practiced true alchemy. If only the first, you practiced extraction—and should expect diminishing returns as the trust account drains.
+
+Add a Coherence Assay after any high-agency cycle:
+
+1. Did intent survive distribution?
+2. Did agents act from current doctrine?
+3. Did local optimizations preserve the system goal?
+4. Did feedback return to doctrine?
+5. Did contradictions become structure?
+6. Did trust survive correction?
+
+If the work shipped but these answers are no, the organization may have increased output while lowering its coherence ceiling. That is not renewal. It is inventory before the bottleneck.
 
 The alchemists depicted the Ouroboros—the serpent eating its own tail—as a symbol of cyclical transformation. The *Dionysus Program* is Ouroboratic: every gold eventually becomes lead as environments shift. The goal is not a single transformation but a repeatable cycle where yesterday's error is metabolized faster than it can poison the vessel.
 
@@ -1479,6 +1845,8 @@ Recognizing this does not weaken the program. It makes the program more honest a
 
 This myth was chosen well. A commitment to metabolize error is as close to a procedural myth as it is possible to construct—it says almost nothing about what is true and almost everything about how to be. It does not promise specific outcomes. It does not age when the competitive landscape changes. It is equally available to a Roman farmer, a Greek tragedian, a Confucian court, and a software company navigating an AI transition. That is what belongs at the foundation.
 
+Doctrine must not be smuggled into the myth layer. Myth is the stable tier and doctrine the updateable one: myth explains who we are, doctrine how we currently act. Make doctrine sacred and the organization cannot update; revise myth every quarter and it cannot orient. Confusing the two is among the cleanest ways to turn coherence into frozen meaning.
+
 But it must be named as myth. Treating it as a knowledge claim—as something the program derived through rigorous analysis and would update if new evidence arrived—would be dishonest. It is prior to analysis. It is what makes analysis possible. Hold it accordingly: not as a conclusion you reached, but as a commitment you made, with eyes open, knowing that it will organize everything else you do.
 
 Everything else in this program is subject to the program. This is not.
@@ -1500,6 +1868,12 @@ A container that cannot be enforced is not a container; it is a suggestion. The 
 Ancient traditions—separated by geography and theology—converged on a single recognition: crimes against the sacred social fabric require distinct treatment. The Hebrews held that even the Day of Atonement could not discharge sins against a fellow human without the victim’s consent. The Athenians prosecuted hubris as a public crime because degrading dignity threatened the city. The Germanic tribes placed oath-breakers outside the law’s protection entirely.
 
 They agreed on the mechanism: If you harm Ren, you lose Ren.
+
+There are also crimes against coherence, but they remain subordinate to Ren. The point is not to build a procedural penal code for every stale prompt. It is to name the breaches that make distributed agency untrustworthy.
+
+Doctrine laundering uses official language to smuggle local interests into agentic execution. Shadow doctrine maintains private operating premises while pretending to follow shared doctrine. Stale-agent negligence knowingly allows agents to execute obsolete doctrine. False coherence suppresses valid contradiction in the name of alignment. Mode fraud uses Ritual Time language to win Run Time power, or Run Time authority to prevent necessary Ritual Time.
+
+These are serious because they damage the machinery by which intent survives distribution. But they become crimes against Ren when they weaponize trust, suppress reality-contact, punish protected contradiction, or make people unsafe inside the container. Coherence law must never outrank the social substrate that makes correction possible.
 
 The stakes run in both directions. Without enforcement, the container is theater. With enforcement that cannot be questioned, the penal code becomes an instrument of scapegoating. What follows names the crimes, the judgment, and the penalty.
 
@@ -1625,6 +1999,8 @@ The law that lives is the law that can die and be reborn.
 ### A Mathematical Model of The Dionysus Program
 
 This model quantifies the central thesis of the program: that an organization's ability to improve is not determined by its raw intelligence or resources, but by its Epimetabolic Rate—the speed at which it can digest error into new structure without destroying its social fabric.
+
+The coherence addition does not replace the model. It adds a Run Time load condition. Epimetabolic rate governs how well the organization updates the map and repairs the substrate. Coherence capacity governs how much distributed agency can act from the current map before marginal agency turns negative.
 
 ### Objective: Explanatory Reach ($S$)
 
@@ -1770,6 +2146,36 @@ The system can fail in two distinct ways:
    The organization falls behind the cumulative demands of its environment. Even with healthy trust, it becomes irrelevant—outcompeted by others who metabolized the same environmental melt into structure.
 
 An organization can collapse internally while ahead competitively (burned the team but was winning), collapse competitively while internally healthy (good culture, obsolete capabilities), or both. Survival requires $R_t > 0$ and $S_t \geq \bar{S}_t$.
+
+### Agency Load and the Coherence Ceiling
+
+AGI adds a second operating constraint to the model: agency load.
+
+* $A_t$ — Deployed Agency: the amount of action-capacity currently active across substrates.
+
+* $Coh_t$ — Coherence Capacity: the organization's capacity to preserve low-loss intent across distributed agency.
+
+* $F_t$ — Doctrine Fidelity: how accurately local actors and agents act from current doctrine.
+
+* $H_t$ — Doctrine Half-Life: how long doctrine remains valid, current, and understood before drift or world-change makes it stale.
+
+* $I_t$ — Incoherence Tax: rework, contradiction, clarification, duplicated effort, supervision load, political friction, trust repair, and strategic drift.
+
+* $V^a_t$ — Agency Variety: the variety of possible actions created by deployed agency.
+
+* $V^r_t$ — Regulatory Variety: the variety of doctrine, evals, permissions, feedback paths, rituals, and human judgment available to regulate action.
+
+The practical diagnostic is:
+
+$$A_t \cdot V^a_t > Coh_t \Rightarrow \text{marginal agency turns negative}$$
+
+The Ashby-compatible version is:
+
+$$V^r_t \geq V^a_t \quad \text{for action that must remain within shared essential variables}$$
+
+This is not a full replacement equation. It is a load warning. When agency and agency-variety exceed coherence capacity and regulatory variety, the organization enters agency inversion: new agents add rework, contradiction, supervision, deletion, and trust repair faster than they add useful throughput.
+
+Epimetabolic rate raises the coherence ceiling by updating doctrine, restoring Ren, and improving the organization's ability to regulate distributed agency. A successful Ritual Time cycle should therefore show up in two ways: better explanations and a higher span of coherence.
 
 ### Diagnostic: Epimetabolic Rate ($\Phi$)
 
@@ -2003,6 +2409,8 @@ The full *Dionysus Program* is meant to scale—from one person to a city. But m
 
 “Minimum viable” here means the smallest program that preserves the shape of the loop: critique → dissolution → reconstitution → renewal. It keeps the Run Time / Ritual Time split real, protects the standing right of criticism, and treats decay as fuel instead of waste. Everything else in this essay is elaboration.
 
+Appendix B is the companion minimum install for coherence: doctrine packets, context checksums, agent permissions, contradiction ledgers, agency WIP limits, decision memory, and doctrine update loops. Appendix A is the minimum Ritual Time program. Appendix B is the minimum Run Time coherence program.
+
 In practice: if the minimum install does not make it cheaper and faster for your group to admit error, change its mind in public, and update how it actually behaves, it has not raised your epimetabolic rate and it is not yet a *Dionysus Program*. Try again or cut forms until the loop runs.
 
 What follows is the minimal install for a single team, founding group, class, or board.
@@ -2116,13 +2524,165 @@ That is why it does not go through a Crossing.
 
 Choose yours with the same care.
 
-Installed together, these six practices already constitute a *Dionysus Program* in miniature. You toggle the mode, give conflict a lawful altar, tell your losses as tragedies, protect the cooling interval, feed on your own decay, and let the loop repeat. The forms can be simple and improvised; what matters is that they exist, and that you keep them. The rest is elaboration and ornament. If you want a single test of whether they are working, it is this: six months from now, is it easier and faster for this group to change its mind in public than it is today? If yes, your epimetabolic rate is rising. If no, the rest is ornament. And if someone here can plausibly make a career mainly as "keeper of the rites," you have work to do on governance before you add more form.
+Installed together, these six practices already constitute a *Dionysus Program* in miniature. You toggle the mode, give conflict a lawful altar, tell your losses as tragedies, protect the cooling interval, feed on your own decay, and let the loop repeat. The forms can be rough and improvised; what matters is that they exist, and that you keep them. The rest is elaboration and ornament. If you want a single test of whether they are working, it is this: six months from now, is it easier and faster for this group to change its mind in public than it is today? If yes, your epimetabolic rate is rising. If no, the rest is ornament. And if someone here can plausibly make a career mainly as "keeper of the rites," you have work to do on governance before you add more form.
 
 ---
 
 \newpage
 
-## Appendix B: Archetypes in History
+## Appendix B: Minimum Viable Coherence Program
+
+The minimum viable Dionysus Program helps a group metabolize error. The minimum viable coherence program helps the same group keep agency useful while the current doctrine still holds.
+
+You do not need a reorganization to begin. You need enough doctrine, permissioning, feedback, and deletion to keep new agency from becoming contradiction.
+
+### I. Publish a Doctrine Packet
+
+Every team should have a short, current, versioned doctrine packet.
+
+Minimum contents:
+
+* Current diagnosis.
+* What we are trying to do.
+* What we are not trying to do.
+* Strategic tradeoffs.
+* Anti-goals.
+* Kill criteria.
+* Decision rights.
+* Current contradictions.
+* Examples of good judgment.
+* Examples of tempting but wrong local optimization.
+* Agent instructions and escalation rules.
+
+The packet does not need to be long. It needs to be binding enough that human operators and machine systems can act from it without returning every question to the center.
+
+### II. Build a Doctrine-to-Agent Interface
+
+Every significant agentic workflow should answer:
+
+* Which doctrine version is it using?
+* Who owns that doctrine?
+* What can it do without review?
+* What must it escalate?
+* What is its blast radius?
+* How is it evaluated?
+* How does feedback return?
+
+If those questions cannot be answered, the workflow is not bounded agency. It is private judgment with tooling attached.
+
+### III. Run a Weekly Context Checksum
+
+Ask human operators and machine systems the same five questions:
+
+1. What are we trying to do?
+2. Why now?
+3. What are we refusing?
+4. What would change our mind?
+5. What local win would be globally wrong?
+
+Divergence is context debt. Do not treat it as a communication problem until you know whether the doctrine is stale, ambiguous, politically contested, or simply unread.
+
+### IV. Maintain a Contradiction Ledger
+
+Track unresolved contradictions between:
+
+* Strategy and incentives.
+* Customer reality and product roadmap.
+* Doctrine and agent behavior.
+* Public commitments and operational capacity.
+* Metrics and lived reality.
+* Auteur intent and Actor feedback.
+
+A contradiction ledger is not a backlog of complaints. It is a visible inventory of tensions the organization has not yet metabolized. Some entries belong in Run Time as clarification. Some belong in Ritual Time because the map itself is failing.
+
+### V. Install Agency WIP Limits
+
+Cap active agentic initiatives the same way a factory caps work in process.
+
+Do not allow every team to launch unlimited automations, experiments, campaigns, docs, and workflows simply because capacity is abundant. If coherence is the constraint, more agency upstream of that constraint becomes inventory. It waits, rots, creates supervision load, and hides the bottleneck.
+
+When coherence is the constraint, agency WIP is inventory before the bottleneck.
+
+### VI. Add a Permission Ladder for Agents
+
+Use a basic ladder until your domain requires a more formal one:
+
+* Level 0: Suggest only.
+* Level 1: Draft with human approval.
+* Level 2: Execute reversible internal actions.
+* Level 3: Execute reversible external actions with monitoring.
+* Level 4: Execute irreversible or customer-visible actions only under explicit doctrine and escalation.
+* Level 5: Autonomous high-stakes action, allowed only where doctrine, evals, and Actor feedback are mature.
+
+Do not let enthusiasm choose the level. Let doctrine maturity, eval quality, reversibility, blast radius, and Actor feedback choose it.
+
+### VII. Create Decision Memory
+
+Every major decision should preserve:
+
+* Decision made.
+* Owner.
+* Premises.
+* Alternatives rejected.
+* Tradeoffs accepted.
+* What would change the decision.
+* Doctrine affected.
+* Agents and workflows affected.
+
+Decision memory prevents agents and new people from relitigating the same choice without understanding the premises that made it binding.
+
+### VIII. Create a Deletion Cadence
+
+Monthly or quarterly, kill:
+
+* Stale prompts.
+* Old automations.
+* Zombie initiatives.
+* Duplicated docs.
+* Inactive dashboards.
+* Obsolete policies.
+* Misleading metrics.
+* Abandoned agent workflows.
+
+Creation is cheap enough now that deletion needs a standing discipline. When creation becomes cheap, deletion becomes sacred.
+
+### IX. Preserve Actor Feedback
+
+Every doctrine-bound agentic system needs real-world contact.
+
+Ask:
+
+* Which Actors touch the world this workflow affects?
+* How do they report contradiction?
+* Can they stop or flag the workflow?
+* Are their signals visible to Auteurs and doctrine stewards?
+
+If no Actor can stop the workflow, you do not have reality-contact. You have a dashboard.
+
+### X. Ritualize Doctrine Update
+
+When reality falsifies doctrine, do not merely patch the prompt.
+
+Run Ritual Time.
+
+The output should be:
+
+* What died?
+* What survived?
+* What changed?
+* What is now binding?
+* Where does it live in Run Time?
+* Which agents and workflows must be updated?
+
+Ritual Time that does not update Run Time becomes theater. Run Time that cannot receive the update becomes drift.
+
+The minimum viable coherence program has one purpose: raise the span of coherence so more agency across substrates can act without ceasing to be one organization.
+
+---
+
+\newpage
+
+## Appendix C: Archetypes in History
 
 The archetypes described in this essay are not abstract categories—they are patterns that recur across domains and eras. This appendix documents historical cases that exemplify each archetype, showing how the dynamics of the Epimetabolic Equation have played out in real organizations.
 

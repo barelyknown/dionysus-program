@@ -230,7 +230,7 @@ function buildIndexMarkdown(sections, keywords) {
   lines.push('');
   lines.push('\\newpage');
   lines.push('');
-  lines.push('## Appendix E: Index');
+  lines.push('## Appendix F: Index');
   lines.push('');
 
   groupKeys.forEach((key) => {
