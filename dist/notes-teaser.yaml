@@ -1,6 +1,13 @@
 notes_archive_url: notes/index.html
 recent_notes_empty: false
 recent_notes:
+  - title: When one person can do what ten used to do, trust stops being a byproduct
+      of work
+    display_date: May 28, 2026
+    url: notes/2026-05-28-when-one-person-can-do-what-ten-used-to-do-trust-stops-being-a-byproduct-of-work/index.html
+    excerpt: When one person can do what ten used to do, trust stops being a
+      byproduct of work.
+    pillar: Extracted Insights
   - title: The bar you have to clear is not standing still. It is rising while you
       debate
     display_date: May 27, 2026
@@ -12,11 +19,4 @@ recent_notes:
     display_date: May 26, 2026
     url: notes/2026-05-26-some-of-the-most-committed-looking-teams-are-just-trapped/index.html
     excerpt: Some of the most committed-looking teams are just trapped.
-    pillar: Extracted Insights
-  - title: If your foundation story makes factual claims, it will die on the next
-      frontier shift
-    display_date: May 25, 2026
-    url: notes/2026-05-25-if-your-foundation-story-makes-factual-claims-it-will-die-on-the-next-frontier-shift/index.html
-    excerpt: If your foundation story makes factual claims, it will die on the next
-      frontier shift.
     pillar: Extracted Insights
