@@ -302,30 +302,7 @@ The first six mini essays outline why this program exists, what it protects, and
 
 Between the acts you’ll find two interludes that work as gates: one checks whether you have the relational density to run the rites at all, the other checks whether the stewards can avoid turning those rites into a standing priesthood. Consider them a shared introduction you can return to before you attempt the more volatile practices.
 
-```{=latex}
-\iffalse
-```
-
----
-
-```{=latex}
-\fi
-\newpage
-```
-
-### The Second Bottleneck
-
-The first bottleneck this book names is epistemic: knowledge melts faster than organizations can re-bind it into roles, norms, stories, and commitments. That is why Ritual Time exists. It lets a group metabolize the loss of a map without burning the people who lived by it.
-
-AGI adds a second bottleneck. It does not merely make knowing cheaper; it makes action cheaper. The organization can now generate analyses, code, sales motions, support responses, forecasts, campaigns, and plans at a rate that used to require layers of labor. But the new capacity is not inert. Agency acts: it commits, publishes, promises, optimizes, opens obligations, and changes the state of the world.
-
-When competent labor was scarce, the organization was built to allocate people—managers divided work, mediated context, approved decisions, synchronized specialized hands. In post-AGI knowledge work the scarce factor moves, and the central question is no longer only "Can we do enough work?" but "Can we preserve low-loss intent as agency multiplies?"
-
-Call that constraint coherence.
-
-Coherence is not agreement, compliance, or everyone repeating the same words. It is low-loss intent across distributed agency: the ability of a group to let mixed human and machine agency act autonomously while still remaining one system. Run Time exists to maximize coherent agency under current doctrine. Ritual Time exists to change the doctrine when reality falsifies it and to repair the human substrate damaged by that change.
-
-The two pressures must stay distinct. Epistemic melt is about knowledge validity. Agentic abundance is about execution fidelity. A perfectly coherent organization can still be wrong; a brilliant organization can still act incoherently. The program needs both ledgers because AGI pressures both layers at once.
+Before the first essay, keep one distinction in view. This book follows two AGI pressures, not one. Ritual Time handles epistemic melt: knowledge changes faster than organizations can re-bind it into roles, norms, stories, and commitments. Run Time now has its own active discipline: action is getting cheaper, and cheap action still makes promises, opens obligations, and changes the world. The full coherence argument comes later, after *The One-Man Job* has shown what happens when AI collapses the division of labor.
 
 ```{=latex}
 \iffalse
@@ -733,7 +710,7 @@ And we will be outlearned by those who can.
 
 ## The Dynamo and the Agent
 
-The first mistake with a general-purpose technology is to install it inside the old organization and declare victory. The factory made this mistake with electricity.
+The first mistake with a general-purpose technology is to install it inside the old organization and declare victory. The factory made this mistake with electricity. *The One-Man Job* names why that matters for AGI: AI lowers the cost of competent work, but the new work unit cannot become one person plus private judgment multiplied across the firm. The first pressure in this book is epistemic: knowledge melts faster than organizations can re-bind it. The second is agentic: action scales faster than organizations can preserve intent through it. The factory story makes that second pressure visible.
 
 Before electrification, industrial power was physical, centralized, and stubborn. A water wheel or steam engine drove a central shaft; belts, pulleys, gears, and secondary shafts carried mechanical force across the building. The layout obeyed the geometry of power transmission—machines sat where the shaft could reach them, not where the work wanted to flow. The arrangement made sense because power was scarce and centralized. When power has to travel through belts, the factory organizes around belts, and the hidden architecture of the energy system becomes the visible architecture of the work.
 
@@ -767,6 +744,8 @@ An organization scales until its agency exceeds its coherence. Beyond that point
 ## The Coherence Ceiling
 
 The post-AGI danger is not insufficient intelligence. It is more intelligence than the organization can metabolize. Naming that danger takes a cleaner vocabulary.
+
+This is where the distinction becomes formal. Epistemic melt is about knowledge validity. Agentic abundance is about execution fidelity. A perfectly coherent organization can still be wrong; a brilliant organization can still act incoherently. The program needs both ledgers because AGI pressures both layers at once.
 
 **Agency:** the capacity to perceive, choose, act, and create commitments in the world.
 
@@ -2403,13 +2382,13 @@ It started with a bad quarter. Then the best engineer left. Then the budget got 
 
 \newpage
 
-## Appendix A: Minimum Viable Program
+## Appendix A: Minimum Viable Epimetabolic Program
 
 The full *Dionysus Program* is meant to scale—from one person to a city. But most of the practical benefit comes from a very small set of habits. You do not need a new org chart or a priesthood to start. You need a handful of containers that keep criticism, beauty, and belonging in the same room on a schedule.
 
 “Minimum viable” here means the smallest program that preserves the shape of the loop: critique → dissolution → reconstitution → renewal. It keeps the Run Time / Ritual Time split real, protects the standing right of criticism, and treats decay as fuel instead of waste. Everything else in this essay is elaboration.
 
-Appendix B is the companion minimum install for coherence: doctrine packets, context checksums, agent permissions, contradiction ledgers, agency WIP limits, decision memory, and doctrine update loops. Appendix A is the minimum Ritual Time program. Appendix B is the minimum Run Time coherence program.
+Appendix B is the companion minimum install for coherence: doctrine packets, context checksums, agent permissions, contradiction ledgers, agency WIP limits, decision memory, and doctrine update loops. Appendix A is the minimum epimetabolic program: Ritual Time practices for admitting error, metabolizing loss, and renewing the structure. Appendix B is the minimum Run Time coherence program.
 
 In practice: if the minimum install does not make it cheaper and faster for your group to admit error, change its mind in public, and update how it actually behaves, it has not raised your epimetabolic rate and it is not yet a *Dionysus Program*. Try again or cut forms until the loop runs.
 
