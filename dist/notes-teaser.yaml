@@ -1,6 +1,11 @@
 notes_archive_url: notes/
 recent_notes_empty: false
 recent_notes:
+  - title: The scariest organizations are the ones that still have all the meetings
+    display_date: May 29, 2026
+    url: notes/2026-05-29-the-scariest-organizations-are-the-ones-that-still-have-all-the-meetings/index.html
+    excerpt: The scariest organizations are the ones that still have all the meetings.
+    pillar: Extracted Insights
   - title: When one person can do what ten used to do, trust stops being a byproduct
       of work
     display_date: May 28, 2026
@@ -14,9 +19,4 @@ recent_notes:
     url: notes/2026-05-27-the-bar-you-have-to-clear-is-not-standing-still-it-is-rising-while-you-debate/index.html
     excerpt: The bar you have to clear is not standing still. It is rising while you
       debate.
-    pillar: Extracted Insights
-  - title: Some of the most committed-looking teams are just trapped
-    display_date: May 26, 2026
-    url: notes/2026-05-26-some-of-the-most-committed-looking-teams-are-just-trapped/index.html
-    excerpt: Some of the most committed-looking teams are just trapped.
     pillar: Extracted Insights
