@@ -4,10 +4,10 @@ author: "Sean Devine"
 description: "Rites of Renewal"
 lang: en-US
 rights: "© 2025–2026. All rights reserved."
-source-revision: "88a0d6a72e8f118dea6c5ce6b6134ddd04ad99d4"
-source-revision-short: "88a0d6a72e8f"
-published-at-utc: "2026-05-29 03:10 UTC"
-published-at-iso: "2026-05-29T03:10:00Z"
+source-revision: "c1667bf3bb690983deca78083fd31ded78e4b353"
+source-revision-short: "c1667bf3bb69"
+published-at-utc: "2026-05-29 03:34 UTC"
+published-at-iso: "2026-05-29T03:34:05Z"
 ---
 
 ::: dedication
@@ -195,14 +195,14 @@ For the first half of my career, I lived inside the Apollo virtues. I learned to
 
 And it did work—often spectacularly. But something kept happening.
 
-The same organizational problems would reappear. Not because the tools were wrong, but because the human substrate would reassert itself. The system would improve, then plateau. The metrics would sharpen, then become objects of theater. The machinery got tighter. The output improved. And quietly, the trust account was spent down. People became colder, more guarded, more performative—less able to tell the truth while it was still useful.
+The same organizational problems would reappear. Not because the tools were wrong, but because the human substrate would reassert itself. The system would improve, then plateau. The metrics would sharpen, then become objects of theater. The machinery would tighten; the output would climb. And quietly, the trust account was spent down. People became colder, more guarded, more performative—less able to tell the truth while it was still useful.
 
 Common became normal. Normal became moral.
 And once something is moral, it is expensive to change—no matter how good your metrics are.
 
 That was the first wound that later became this book: mechanistic improvement can succeed while the humans pay.
 
-Before XBE, I co-founded Partage, a freight business that evolved into a self-service wholesale brokerage. We built automated pricing and booking for spot movements. Partage was a modest success and sold in 2015. But the more important lesson was conceptual:
+Before XBE, I co-founded Partage, a freight business that evolved into a self-service wholesale brokerage. We built automated pricing and booking for spot movements. Partage was a modest success; we sold it in 2015. But the more important lesson was conceptual:
 
 Seeing the technical trend is never enough; you have to think through the full implications—how new technology reshapes the work itself, the team that performs it, the organization that depends on it, and the industry that surrounds it.
 
@@ -370,7 +370,7 @@ In organizations, information is never "just data." It is what Durkheim called a
 
 This is the Great Divorce: rigor severed from the quality of the transformer and the integrity of the container.
 
-The *Dionysus Program* does not reject objectivity. It reinstalls the missing variable. It re-entangles the observer—without abandoning rigor. In social fields, the method must include the human substrate.
+The *Dionysus Program* does not reject objectivity; it reinstalls the missing variable, re-entangling the observer without abandoning rigor. In social fields, the method must include the human substrate.
 
 ---
 
@@ -466,7 +466,7 @@ When meaning starts to melt—when old stories, roles, and norms stop making sen
    * “Stick to what we know.”
    * “Stop investing in new things until things return to normal.”
 
-These strategies can be mixed and matched in various ways and degrees. Those variants may look different on the surface, but they share the same core logic: they win today by spending down the team and its future. In the short term, and from the outside, they can look like a success. They produce stability, output, and headlines—smoothing the visible curve while the underlying roughness of resentment, drift, and anomie piles up off the balance sheet. That is why they are tempting.
+These strategies can be mixed in any proportion, and the variants share one core logic: they win today by spending down the team and its future. In the short term, and from the outside, they can look like success—they produce stability, output, and headlines, smoothing the visible curve while the underlying roughness of resentment, drift, and anomie piles up off the balance sheet. That is why they are tempting.
 
 But they all fail an infinite game on two fronts:
 
@@ -508,7 +508,7 @@ This essay leans heavily on canonical versions of certain ideas and on naming th
 
 To make that work, give the model direct access to this document whenever possible: paste the full text (or the relevant sections) into the prompt, let it read the page you are currently viewing, or use the compressed context-ready text available on the website. The site includes a “Context” export you can download or copy directly; it exists so you can load a large share of the program into an LLM without manually trimming or reformatting the essay. With the essay or that compressed context in view, the model can not only explain Popper, Durkheim, or Girard in your language; it can also show you precisely how those ideas are being used in the surrounding paragraphs, and it can do so with much leaner prompts.
 
-If I tried to re-explain each of these frameworks “in my own words” for every background—engineer, operator, policymaker, theologian, teenager—the result would either be bloated, or tuned to one audience at the expense of the others. There is no single, static explanation that will be better than what a good model can generate on demand when it is pointed at the canonical authors, terms, and debates, and given the local context of the passage you are reading. By making the references explicit and relatively standard, I am optimizing this document for machine legibility so that you can call up a custom commentary layer that fits you.
+If I tried to re-explain each of these frameworks “in my own words” for every background—engineer, operator, policymaker, theologian, teenager—the result would be either bloated or narrowly tuned to one audience at the expense of the others. There is no single, static explanation that will be better than what a good model can generate on demand when it is pointed at the canonical authors, terms, and debates, and given the local context of the passage you are reading. By making the references explicit and relatively standard, I am optimizing this document for machine legibility so that you can call up a custom commentary layer that fits you.
 
 Practically, that means you should treat the named thinkers and key phrases here as handles. When something feels under-specified or oddly dense, the move is not to assume the concept is inaccessible; the move is to pause, select the relevant section, and ask an LLM—while it can “see” that section—to bridge the gap from your starting point, using the canonical frame. If you want broad orientation first, start with the website’s compressed context text; if you want a close reading, give it the exact passage you are on. For example, you might paste a page that includes the anti-scapegoat and then say:
 
@@ -570,7 +570,7 @@ Epimetabolic rate is the only real scoreboard of this program. Revenue, valuatio
 
 Accountability, split: Call the ordinary operating mode Run Time. In Run Time, we practice Apollonian accountability—answering to the best available knowledge, meanings, doctrine, and processes we’ve already stabilized (forecast → act → score). Run Time maximizes coherent agency under current doctrine. During liminal phases, which we name Ritual Time, we practice Dionysian accountability—answering to the rituals and rules of the container that keep the melt non-violent and raise epimetabolic rate by metabolizing loss (call the rite → follow the vows → publish the recognition → exit on time). Ritual Time updates doctrine when reality melts it. It does not exist only to run critique. It also exists to restore the human substrate on which critique depends. In periods of intense Run Time, restoration is not peripheral to renewal; it is its precondition. Standards of rationality and personal responsibility do not relax between modes. What inverts is only what everyone is accountable to: Ritual Time suspends performance scoring and output targets and re-aims accountability toward fidelity to the rite and reason-giving; Run Time restores performance scoring and decision-owner accountability for the explanations and commitments they endorse. We toggle modes deliberately and we name the mode we are in.
 
-The engine is Popperian error-correction; the stabilizers are ritual—the liturgical layer of repeatable containers around error—(Victor Turner), aesthetics (Nietzsche), and tragedy (Hegel). At every scale—person, team, organization, city—the loop repeats, fractally self-similar. We hold a non-violent center with an anti-scapegoat, use beauty as heat so dissolution becomes bearable, and practice tragic metabolism so the self can turn breakdown into understanding. The output is a culture that can learn without end and remain human.
+The engine is Popperian error-correction; the stabilizers are ritual (the liturgical layer of repeatable containers around error, after Victor Turner), aesthetics (Nietzsche), and tragedy (Hegel). At every scale—person, team, organization, city—the loop repeats, fractally self-similar. We hold a non-violent center with an anti-scapegoat, use beauty as heat so dissolution becomes bearable, and practice tragic metabolism so the self can turn breakdown into understanding. The output is a culture that can learn without end and remain human.
 
 ```{=latex}
 \iffalse
@@ -631,7 +631,7 @@ It must be generated deliberately. Otherwise, organizations will arrive at exact
 
 ---
 
-Ren can be generated through three channels. They are partial substitutes with diminishing returns—each can compensate somewhat for deficits in the others, but none fully replaces the others. An organization pursuing anything beyond short-term extraction needs some minimum of all three.
+Ren can be generated through three channels. They are partial substitutes with diminishing returns—each can compensate somewhat for a deficit in the others, but none fully replaces them. An organization pursuing anything beyond short-term extraction needs some minimum of all three.
 
 **Collaboration:** Joint work on shared problems still generates relationship surface area when it occurs. The channel is not closed; it is narrowing. For the tasks that still require genuine coordination—novel problems, high-stakes decisions, creative work at the frontier—collaboration remains a Ren source. But as AI capability expands, fewer tasks will qualify. We cannot rely on this channel to supply what we need.
 
@@ -1092,7 +1092,7 @@ The path requires specific ordering:
 
 4. **The Submission**: Submit to the container you created. The rituals, norms, and relationships that emerged from the transgression now govern the transgressor as well. You are no longer above the rules; you are within them.
 
-Most leaders want the Ren without the transgression. They want the bond without the exclusion, the trust without the ordeal, the commitment without the risk of being the villain. They get neither. They get a collection of individuals who drift apart the moment pressure arrives.
+Most leaders want the Ren without the transgression. They want the bond without the exclusion, the trust without the ordeal, the commitment without the risk of being the villain. They get none of it. They get a collection of individuals who drift apart the moment pressure arrives.
 
 The alternative is the full sequence: transgress, recognize, release, submit.
 
@@ -1128,6 +1128,7 @@ Durkheim named what happens next. Shared norms and stories coordinate not just b
 Mechanically, anomie is a collapse in common knowledge. Thomas Schelling showed that coordination depends less on private beliefs and more on what we believe others believe we all believe. When new explanations refute the grounds of yesterday’s actions, we lose the public signals that make choice legible. Reputation systems jitter. Incentives flatten. Risk-taking polarizes. Cultural energy cools.
 
 Merton extended Durkheim to “strain”: when legitimate paths to legitimate ends vanish, people adapt via retreat, ritualism, innovation, or rebellion. In a high-turbulence epoch, all four appear. Retreat: “I log my hours and disengage.” Ritualism: “I follow process and avoid blame.” Innovation: “I go rogue.” Rebellion: “I burn it down.” None reconstitute shared meaning by themselves.
+
 Anomie blooms when epimetabolic rate drops—when we can break meanings faster than we can remake them.
 
 ### Vibrating Vacuum
@@ -1136,7 +1137,7 @@ Girard’s mimetic theory keeps the camera on desire. We learn what to want by w
 
 Two paths open. The first is violent unification through scapegoating. Find a person or a group to carry the blame; purge them; feel cleansed. This works—for a minute. The second path is numb stagnation—lower desire (neo-stoicism as mass anesthesia), narrow attention, and go quiet. This also “works,” at the cost of civilization-scale slack.
 
-Neither is acceptable. The non-violent alternative is to raise epimetabolic rate—heat the culture without burning it, and turn loss into structure on a deadline. We need a way to heat the culture without burning it. We need a form that metabolizes loss into knowledge. That requires ritual, beauty, and tragedy.
+Neither is acceptable. The non-violent alternative is to raise epimetabolic rate: heat the culture without burning it, and turn loss into structure on a deadline. We need a form that metabolizes loss into knowledge. That requires ritual, beauty, and tragedy.
 
 ### Agentic Decoherence
 
@@ -1257,7 +1258,7 @@ They fail because they lack bite. They feel invented rather than received.
 
 Agency has the same hidden bite. More capacity is not free. Every new autonomous channel creates interpretation, supervision, review, exception-handling, deletion, and trust obligations. The gift of agency includes the bite of integration.
 
-One way to name what’s missing is *chronos* versus *kairos*. Chronos is clock time—calendar time—fungible minutes allocated to tasks. Kairos is threshold time: the felt moment when we step out of ordinary work and into a container whose rules bind. Most corporate “rituals” are chronos disguised as kairos: meetings in costume that borrow solemnity without acquiring gravity.
+One way to name what’s missing is *chronos* versus *kairos*. Chronos is clock time—calendar time—fungible minutes allocated to tasks. Kairos is threshold time: the felt moment when we step out of ordinary work and into a container whose rules bind. Most corporate “rituals” are chronos disguised as kairos—borrowing solemnity without acquiring gravity.
 
 To raise the epimetabolic rate, we cannot just schedule meetings. We must construct what Émile Durkheim called Social Facts. These are ways of acting, thinking, and feeling that exist outside the individual consciousness and are endowed with coercive power. A Social Fact is not something you negotiate with; it is something you encounter. It has gravity. It resists you.
 
@@ -1378,13 +1379,12 @@ You already know secular versions: blameless postmortems, code review norms, moc
 
 Operate it:
 
-* **Personal:** designate “the assumption of the week” as your anti-scapegoat. Attack it with your best critiques and your friends’ best attacks. No self-hate; only assumption-hate. Publish a verdict: keep, revise, discard. Apply the hard-to-vary test and record at least one risky prediction to be scored after reentry. Record a reach delta: list the new problem-classes this verdict unlocks that the prior rule could not explain.
+* **Personal:** designate “the assumption of the week” as your anti-scapegoat. Attack it with your best critiques and your friends’ best attacks. No self-hate; only assumption-hate. Publish a verdict: keep, revise, discard.
+* **Team:** run a weekly Crossing. Nominate one artifact as the anti-scapegoat. Drill it. Contain the fight to the artifact. Close with an oath: “We commit to X until Y evidence.”
+* **Org:** a quarterly Great Dissolution. Pre-commit the targets: strategies, pricing models, review processes. Invite external critics. Close with re-charters, promotions aligned with what survived, and dignified retirement for what did not.
+* **City:** an annual Rite of Redress. Citizens bring cases against policies and institutions; the objects stand trial. Independent jurors rule. The community commits to the verdicts. The people do not go on the pyre.
 
-* **Team:** run a weekly Crossing. Nominate one artifact as the anti-scapegoat. Drill it. Contain the fight to the artifact. Close with an oath: “We commit to X until Y evidence.” Apply the hard-to-vary test and record at least one risky prediction to be scored after reentry. Record a reach delta: list the new problem-classes this verdict unlocks that the prior rule could not explain.
-
-* **Org:** a quarterly Great Dissolution. Pre-commit the targets: strategies, pricing models, review processes. Invite external critics. Close with re-charters, promotions aligned with what survived, and dignified retirement for what did not. Apply the hard-to-vary test and record at least one risky prediction to be scored after reentry. Record a reach delta: list the new problem-classes this verdict unlocks that the prior rule could not explain.
-
-* **City:** an annual Rite of Redress. Citizens bring cases against policies and institutions; the objects stand trial. Independent jurors rule. The community commits to the verdicts. The people do not go on the pyre. Apply the hard-to-vary test and record at least one risky prediction to be scored after reentry. Record a reach delta: list the new problem-classes this verdict unlocks that the prior rule could not explain.
+At every scale the closing discipline is the same: apply the hard-to-vary test, record at least one risky prediction to score after reentry, and note the reach delta—the new problem-classes the verdict unlocks that the prior rule could not explain.
 
 Before you run any of these rites, check ritual readiness. The authority of a Crossing or Rite of Redress doesn’t come only from clever design; it rides on pre-existing density of trust, shared history, and at least a thin moral community. Run a simple readiness audit: how many repeated, non-transactional experiences has this group already shared? Is there a live story about what we are together that people actually believe? If the answer is “not much,” start with smaller, lower-heat containers and move slower. Pushing Dionysian intensity faster than the social fabric can bear is itself a low-epimetabolic move: you get backlash, cynicism, and management theater instead of metabolized change.
 
@@ -1572,6 +1572,7 @@ The *Dionysus Program* lives or dies on whether it stays subordinate to real wor
 If you are already in ritual oligarchy, the way out is itself a rite. Treat the program as an anti-scapegoat: run a Crossing on the steward structure, selection process, term limits, and risk rules; put Weber and Michels on the table as mechanisms to be defused, not just names to cite; let Jesters speak freely; and then bind to concrete changes that reinstall rotation, sortition, risk conservation, and hard limits on liminality, including your own disappearance from any permanent steward role. At larger scales, the same pattern shows up as citizen assemblies drawn by lot, time-limited commissions, and sunset clauses on extraordinary powers—constitutional Cincinnatus Rules that force even the most serious offices to return to the plow.
 
 A simple test remains: if someone in your system can plausibly build a long, comfortable career primarily as a “keeper of the rites,” you are already in ritual oligarchy. The remedy is not personal denunciation; it is redesign—shift authority back onto operators, restore rotation and risk, re-open criticism—and build the expectation into the bones of the program that everyone, sooner or later, goes home from the temple and back to work.
+
 ```{=latex}
 \iffalse
 ```
@@ -1605,7 +1606,7 @@ Translate to knowledge and culture: build systems that treat breakdown as nouris
 
 * Reverse Apprenticeships: let novices study and refactor the compost. They extract patterns the veterans can no longer see. This spreads renewal across generations.
 
-Heraclitus sits underneath: the river remains the river because it never is the same water twice. Renewal is not a restart; it is continuity through digestion.
+Heraclitus sits underneath: the river remains the river because it is never the same water twice. Renewal is not a restart; it is continuity through digestion.
 
 ### Pro-Fractal
 
@@ -1818,7 +1819,7 @@ The Dionysus Program makes one claim it cannot subject to itself.
 
 Nothing is sacred except the commitment to metabolize error. This is the program's core. It is also the program's myth—not in the pejorative sense of a false story, but in the precise sense of an orienting commitment that is not itself being put through a Crossing.
 
-The program cannot put this claim on trial without standing on it to do so. You cannot run a Crossing on the frame that makes Crossings intelligible. You cannot falsify the commitment to falsification using the tools that commitment provides. This is not a failure of intellectual honesty. It is a structural necessity. Every system of thought has a foundation the system cannot validate without circularity. Popper cannot falsify falsificationism. Deutsch's principle that all problems are soluble is not itself a solved problem.
+The program cannot put this claim on trial without standing on it to do so. You cannot run a Crossing on the frame that makes Crossings intelligible. You cannot falsify the commitment to falsification using the tools that commitment provides. This is not a failure of intellectual honesty. It is a structural necessity. Every system of thought has a foundation it cannot validate without circularity. Popper cannot falsify falsificationism. Deutsch's principle that all problems are soluble is not itself a solved problem.
 
 Ludwig Wittgenstein called these foundations hinges. Not beliefs we have evaluated and confirmed, but commitments we live from—propositions so foundational that doubting them would make the practice of doubting impossible. The hinge is not known. It is inhabited. The moment it becomes visible as a hypothesis, it has already stopped functioning as a hinge.
 
@@ -2346,7 +2347,7 @@ The calendar is full of meetings with important names: Strategy Reviews, Alignme
 
 **Dynamics:** Theater $= \max(0, L \cdot C - R)$ is large. This generates decay via $\kappa \cdot \text{Theater} / \beta$, which burns trust directly. Each hollow ritual makes the next one worse. The gap between $L \cdot C$ and $R$ widens as $R$ falls.
 
-**Outcome:** Rapid trust collapse. The rituals that were supposed to build alignment instead accelerate dissolution. Death by meeting culture. The forms are observed; the substance is absent.
+**Outcome:** Rapid trust collapse. The rituals that were supposed to build alignment instead accelerate dissolution. Death by meeting culture.
 
 ---
 
@@ -2370,13 +2371,13 @@ The founding team was brilliant. They built the culture, designed the rituals, e
 
 **Dynamics:** $C$ drifts toward zero as $(1-\delta)^t$ compounds. Omega shrinks even though $L$ and $R$ haven't changed. Overflow grows. The rituals nominally exist but have been captured by a permanent priesthood who cannot allow their own forms to be questioned. Weber and Michels were right.
 
-**Outcome:** Internal collapse via stewardship failure. The iron law of oligarchy in action. The solution is rotation—but by the time this pattern is visible, the incumbents have strong incentives to resist it.
+**Outcome:** Internal collapse via stewardship failure. The iron law of oligarchy in action. The solution is rotation.
 
 ---
 
 **The Death Spiral:** [See simulation](simulation.html?archetype=DEATH_SPIRAL) · [Historical cases](#cases-death-spiral)
 
-It started with a bad quarter. Then the best engineer left. Then the budget got cut, which meant fewer resources for the rituals that might have helped, which meant more informal politics, which meant more burnout, which meant more departures. Each problem makes the next one worse. The organization is caught in a vortex where declining trust reduces capacity, reduced capacity increases overflow, overflow accelerates decay, and decay burns what trust remains. No single parameter is fatal. The death spiral is an emergent property of their interaction—a system that has crossed into a regime where all the feedback loops point the same direction: down. By the time leadership recognizes the pattern, the intervention required is usually larger than what the remaining trust can support. This is the generic attractor for undercapitalized organizations facing disruption. Most organizations that fail, fail this way.
+It started with a bad quarter. Then the best engineer left. Then the budget got cut, which meant fewer resources for the rituals that might have helped, which meant more informal politics, which meant more burnout, which meant more departures. Each problem makes the next one worse. The organization is caught in a vortex where declining trust reduces capacity, reduced capacity increases overflow, overflow accelerates decay, and decay burns what trust remains. No single parameter is fatal. The death spiral is an emergent property of their interaction—a system that has crossed into a regime where all the feedback loops point the same direction: down. By the time leadership recognizes the pattern, the intervention required is usually larger than what the remaining trust can support. Most organizations that fail, fail this way.
 
 **Situation:** Multiple compounding failures: high melt, low capacity, low beauty, some theater. No single parameter is catastrophic, but the combination is.
 
@@ -2509,7 +2510,7 @@ That is why it does not go through a Crossing.
 
 Choose yours with the same care.
 
-Installed together, these six practices already constitute a *Dionysus Program* in miniature. You toggle the mode, give conflict a lawful altar, tell your losses as tragedies, protect the cooling interval, feed on your own decay, and let the loop repeat. The forms can be rough and improvised; what matters is that they exist, and that you keep them. The rest is elaboration and ornament. If you want a single test of whether they are working, it is this: six months from now, is it easier and faster for this group to change its mind in public than it is today? If yes, your epimetabolic rate is rising. If no, the rest is ornament. And if someone here can plausibly make a career mainly as "keeper of the rites," you have work to do on governance before you add more form.
+Installed together, these six practices already constitute a *Dionysus Program* in miniature. You toggle the mode, give conflict a lawful altar, tell your losses as tragedies, protect the cooling interval, feed on your own decay, and let the loop repeat. The forms can be rough and improvised; what matters is that they exist, and that you keep them. The rest is elaboration and ornament. If you want a single test of whether they are working, it is this: six months from now, is it easier and faster for this group to change its mind in public than it is today? If yes, your epimetabolic rate is rising. If no, these practices are still just ornament—cut or rebuild them until the loop runs. And if someone here can plausibly make a career mainly as "keeper of the rites," you have work to do on governance before you add more form.
 
 ---
 
