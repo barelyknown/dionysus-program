@@ -1,0 +1,15 @@
+To the Editor of the Dionysus Program,
+
+You found the constraint and then you blinked.
+
+You say it plainly—coherence is the constraint—and then you flinch from the only sentence that matters: a system has one constraint at a time, and every hour spent improving anything else is waste dressed as progress. You wrote "subordinate agency to coherence" and I nearly stood up. Then you wrapped it in ritual and equations and I sat back down. Subordination is the step everyone skips, because it is the step that hurts. It means telling your most productive team to stop producing, because their output is piling up in front of the bottleneck. You called it agency WIP. That is the best phrase in your book. It is also the one your readers will ignore.
+
+Let me save you a chapter. Throughput is the rate at which the system turns intent into value at the boundary—your Actors know where that boundary is. Inventory is everything in process that has not yet reached it: every draft, every untested automation, every confident artifact your agents emit. Operating expense is what you spend turning the one into the other. More agency raises inventory and operating expense while throughput sits flat against the constraint. You do not have a productivity gain. You have a warehouse.
+
+And your real constraint is not capacity. It never is. After the first week, the constraint in every organization I have ever opened up was a policy: a measurement, a rule, a sacred assumption no one would touch. You already have a name for sacred assumptions that may not be questioned. You call it doctrine, and you propose to make more of it. Be careful. The thing that breaks your flow next year will be a doctrine that was true last year and is now merely old, defended by the person whose status depends on it.
+
+Tell me how you will measure your agents and I will tell you how they will behave. Measure them on output and they will bury you in output. Measure them on throughput at the constraint, and subordinate everything else to it, and you will not need most of your rituals.
+
+So: what is the goal? Not coherence. Coherence is a constraint. The goal is to make the organization produce more of whatever it exists to produce—now, and again next year. Everything standing between you and that is inertia.
+
+Not Eliyahu Goldratt

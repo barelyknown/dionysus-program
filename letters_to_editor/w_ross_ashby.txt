@@ -1,0 +1,11 @@
+To the Editor of the Dionysus Program:
+
+You have stated my theorem correctly, which is rare, and then stopped one step short of its consequence, which is also rare but less forgivable.
+
+Only variety can absorb variety: yes. If the actions your agents can take outrun the distinctions your regulator can draw, control is lost by arithmetic, not by misfortune. Your inequality—that regulatory variety must meet agency variety—is sound. But you have written it as though there were only one way to satisfy it, by enlarging the regulator. There are two. You may amplify the regulator, or you may attenuate the disturbance. Adding doctrine, evals, and stewards amplifies. Anti-goals, kill criteria, blast-radius limits, and your caps on work in process attenuate. Attenuation is almost always cheaper, and you have buried your best instruments in an appendix. Refuse variety at the source before you build cathedrals to absorb it downstream.
+
+Now the deeper matter, which you gesture at and do not name. Every good regulator of a system must be a model of that system. This is not metaphor. A controller can do no better than the model of reality it embodies; its regulation is exactly as good as that model, and no better. Your doctrine is such a model. Therefore a doctrine that has fallen out of date is not merely unhelpful—it is a regulator steering by a false model, which is worse than no regulator at all, because it acts with confidence. Your doctrine half-life is the rate at which your regulator silently becomes a generator of disturbance. Measure it as you would measure a poison.
+
+You will object that the system to be modelled is now too various to model. Correct. That is why the homeostat does not predict its world; it seeks stability within it, and reorganizes itself when its essential variables leave their bounds. You have an instinct for this in your Ritual Time. Do not dress it only as renewal. It is ultrastability: the capacity of a system to change its own rules when the first set of rules fails to keep the essential variables alive. Name the essential variables. State the bounds within which they must be held. The rest of your machinery is the design of a brain that does not yet know what it is for.
+
+Not W. Ross Ashby

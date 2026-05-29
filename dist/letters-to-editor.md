@@ -4,7 +4,7 @@ The following letters are hypothetical responses imagined through the lens of th
 
 **Letters index:**
 
-[Abe Silverstein](#not-abe-silverstein) · [Adam Neumann](#not-adam-neumann) · [Alexis de Tocqueville](#not-alexis-de-tocqueville) · [Alfred Sloan](#not-alfred-sloan) · [Andy Grove](#not-andy-grove) · [Apollo](#not-apollo) · [Aristotle](#not-aristotle) · [Benoit Mandelbrot](#not-benoit-mandelbrot) · [Carl Icahn](#not-carl-icahn) · [Carl Jung](#not-carl-jung) · [Claude Shannon](#not-claude-shannon) · [Confucius](#not-confucius) · [David Deutsch](#not-david-deutsch) · [Dionysus](#not-dionysus) · [Ed Catmull](#not-ed-catmull) · [Elon Musk](#not-elon-musk) · [Émile Durkheim](#not-emile-durkheim) · [Friedrich Nietzsche](#not-friedrich-nietzsche) · [Georg Wilhelm Friedrich Hegel](#not-georg-wilhelm-friedrich-hegel) · [Greg Smith](#not-greg-smith) · [Howie Makem](#not-howie-makem) · [Ibn Khaldun](#not-ibn-khaldun) · [Ilya Prigogine](#not-ilya-prigogine) · [Immanuel Kant](#not-immanuel-kant) · [Isaac Newton](#not-isaac-newton) · [J. Robert Oppenheimer](#not-j-robert-oppenheimer) · [James Carse](#not-james-carse) · [Jane Jacobs](#not-jane-jacobs) · [Job](#not-job) · [Johan Huizinga](#not-johan-huizinga) · [Karl Popper](#not-karl-popper) · [Kelly Johnson](#not-kelly-johnson) · [Kevin Feige](#not-kevin-feige) · [Lucius Quinctius Cincinnatus](#not-lucius-quinctius-cincinnatus) · [Machiavelli](#not-machiavelli) · [Marcel Mauss](#not-marcel-mauss) · [Mary Douglas](#not-mary-douglas) · [Max Weber](#not-max-weber) · [Michel Foucault](#not-michel-foucault) · [Mike Lazaridis](#not-mike-lazaridis) · [Mikhail Gorbachev](#not-mikhail-gorbachev) · [Mircea Eliade](#not-mircea-eliade) · [Nassim Nicholas Taleb](#not-nassim-nicholas-taleb) · [Peter Thiel](#not-peter-thiel) · [Reid Hoffman](#not-reid-hoffman) · [René Girard](#not-rene-girard) · [Seneca](#not-seneca) · [Steve Jobs](#not-steve-jobs) · [Steve Sasson](#not-steve-sasson) · [Susan Fowler](#not-susan-fowler) · [Victor Turner](#not-victor-turner) · [Yoshinori Ohsumi](#not-yoshinori-ohsumi)
+[Abe Silverstein](#not-abe-silverstein) · [Adam Neumann](#not-adam-neumann) · [Alexis de Tocqueville](#not-alexis-de-tocqueville) · [Alfred Sloan](#not-alfred-sloan) · [Andy Grove](#not-andy-grove) · [Apollo](#not-apollo) · [Aristotle](#not-aristotle) · [Benoit Mandelbrot](#not-benoit-mandelbrot) · [Carl Icahn](#not-carl-icahn) · [Carl Jung](#not-carl-jung) · [Claude Shannon](#not-claude-shannon) · [Confucius](#not-confucius) · [David Deutsch](#not-david-deutsch) · [Dionysus](#not-dionysus) · [Ed Catmull](#not-ed-catmull) · [Eliyahu Goldratt](#not-eliyahu-goldratt) · [Elon Musk](#not-elon-musk) · [Émile Durkheim](#not-emile-durkheim) · [Friedrich Hayek](#not-friedrich-hayek) · [Friedrich Nietzsche](#not-friedrich-nietzsche) · [Georg Wilhelm Friedrich Hegel](#not-georg-wilhelm-friedrich-hegel) · [Greg Smith](#not-greg-smith) · [Herbert Simon](#not-herbert-simon) · [Howie Makem](#not-howie-makem) · [Ibn Khaldun](#not-ibn-khaldun) · [Ilya Prigogine](#not-ilya-prigogine) · [Immanuel Kant](#not-immanuel-kant) · [Isaac Newton](#not-isaac-newton) · [J. Robert Oppenheimer](#not-j-robert-oppenheimer) · [James Carse](#not-james-carse) · [Jane Jacobs](#not-jane-jacobs) · [Job](#not-job) · [Johan Huizinga](#not-johan-huizinga) · [Karl Popper](#not-karl-popper) · [Kelly Johnson](#not-kelly-johnson) · [Kevin Feige](#not-kevin-feige) · [Lucius Quinctius Cincinnatus](#not-lucius-quinctius-cincinnatus) · [Machiavelli](#not-machiavelli) · [Marcel Mauss](#not-marcel-mauss) · [Mary Douglas](#not-mary-douglas) · [Max Weber](#not-max-weber) · [Michel Foucault](#not-michel-foucault) · [Mike Lazaridis](#not-mike-lazaridis) · [Mikhail Gorbachev](#not-mikhail-gorbachev) · [Mircea Eliade](#not-mircea-eliade) · [Nassim Nicholas Taleb](#not-nassim-nicholas-taleb) · [Paul David](#not-paul-david) · [Peter Thiel](#not-peter-thiel) · [Reid Hoffman](#not-reid-hoffman) · [René Girard](#not-rene-girard) · [Ronald Coase](#not-ronald-coase) · [Seneca](#not-seneca) · [Steve Jobs](#not-steve-jobs) · [Steve Sasson](#not-steve-sasson) · [Susan Fowler](#not-susan-fowler) · [Victor Turner](#not-victor-turner) · [W. Ross Ashby](#not-w-ross-ashby) · [Yoshinori Ohsumi](#not-yoshinori-ohsumi)
 
 
 #### *Not* Abe Silverstein {#not-abe-silverstein}
@@ -734,6 +734,47 @@ Not Ed Catmull
 
 ---
 
+#### *Not* Eliyahu Goldratt {#not-eliyahu-goldratt}
+
+```{=html}
+<div class="letter-body">
+```
+
+```{=latex}
+\begin{quote}
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+\setlength{\leftskip}{0.4em}
+\setlength{\rightskip}{0.4em}
+\rmfamily
+```
+
+To the Editor of the Dionysus Program,
+
+You found the constraint and then you blinked.
+
+You say it plainly—coherence is the constraint—and then you flinch from the only sentence that matters: a system has one constraint at a time, and every hour spent improving anything else is waste dressed as progress. You wrote "subordinate agency to coherence" and I nearly stood up. Then you wrapped it in ritual and equations and I sat back down. Subordination is the step everyone skips, because it is the step that hurts. It means telling your most productive team to stop producing, because their output is piling up in front of the bottleneck. You called it agency WIP. That is the best phrase in your book. It is also the one your readers will ignore.
+
+Let me save you a chapter. Throughput is the rate at which the system turns intent into value at the boundary—your Actors know where that boundary is. Inventory is everything in process that has not yet reached it: every draft, every untested automation, every confident artifact your agents emit. Operating expense is what you spend turning the one into the other. More agency raises inventory and operating expense while throughput sits flat against the constraint. You do not have a productivity gain. You have a warehouse.
+
+And your real constraint is not capacity. It never is. After the first week, the constraint in every organization I have ever opened up was a policy: a measurement, a rule, a sacred assumption no one would touch. You already have a name for sacred assumptions that may not be questioned. You call it doctrine, and you propose to make more of it. Be careful. The thing that breaks your flow next year will be a doctrine that was true last year and is now merely old, defended by the person whose status depends on it.
+
+Tell me how you will measure your agents and I will tell you how they will behave. Measure them on output and they will bury you in output. Measure them on throughput at the constraint, and subordinate everything else to it, and you will not need most of your rituals.
+
+So: what is the goal? Not coherence. Coherence is a constraint. The goal is to make the organization produce more of whatever it exists to produce—now, and again next year. Everything standing between you and that is inertia.
+
+Not Eliyahu Goldratt
+
+```{=latex}
+\end{quote}
+```
+
+```{=html}
+</div>
+```
+
+---
+
 #### *Not* Elon Musk {#not-elon-musk}
 
 ```{=html}
@@ -813,6 +854,45 @@ You have written a liturgy for a secular priesthood, designed to prevent that pr
 Signed,
 
 Not Émile Durkheim
+
+```{=latex}
+\end{quote}
+```
+
+```{=html}
+</div>
+```
+
+---
+
+#### *Not* Friedrich Hayek {#not-friedrich-hayek}
+
+```{=html}
+<div class="letter-body">
+```
+
+```{=latex}
+\begin{quote}
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+\setlength{\leftskip}{0.4em}
+\setlength{\rightskip}{0.4em}
+\rmfamily
+```
+
+To the Editor of the Dionysus Program:
+
+Your whole edifice rests on a phrase you never examine: "one living map." There is no such map. There never was, and the belief that there could be—if only the Auteur were wise enough, the doctrine fresh enough, the feedback fast enough—is the precise error I have spent a lifetime naming. You call your central problem coherence. I call it the knowledge problem, and you have reinvented it in order to propose, with great sophistication, the wrong solution.
+
+The knowledge that runs an enterprise is not given to any single mind in concentrated form. It exists dispersed, in fragments, much of it tacit and incommunicable—the particular knowledge of the man on the spot, of time and place and circumstance, which he himself could not write into a doctrine packet if you held a gun to him. Your scheme proposes to gather this knowledge at the center, keep it current, and issue it back outward as premises for action. This cannot be done. It is not difficult; it is impossible in principle, and the more capable your instruments for attempting it, the more confidently you will fail.
+
+Observe what you have actually built. The market coordinates the action of millions who share no map, no vision, and no Auteur, and possesses between them a coherence no firm has ever approached—because the price tells each man what he needs to know to act, and nothing he does not. You have no such signal inside the firm, and so you reach for doctrine to do the work that prices do in the wider order. Coherence is the name you give to the crutch you require because you have abolished the signal.
+
+I will grant you one thing, and it is your most dangerous moment. You instruct each agent to ask "what local win would be globally wrong." No one can answer that. To answer it, a man would have to hold the whole in his head—which is the fatal conceit exactly. The agent who acts well does not see the whole; he follows rules he did not design and could not justify, which carry more wisdom than he contains. Your living doctrine, revised each quarter by people who imagine they perceive the whole, will be forever a step behind an order they cannot perceive.
+
+Build your rituals. Repair your trust. But every time you write "coherence," ask whether you mean a healthy order that no one commands, or a single mind's plan, enforced, and called by a gentler name. The distance between those two is the distance to serfdom.
+
+Not Friedrich Hayek
 
 ```{=latex}
 \end{quote}
@@ -962,6 +1042,45 @@ You suggest that we can "move fast by breaking things" if we just have the right
 Good luck with the harvest.
 
 Not Greg Smith
+
+```{=latex}
+\end{quote}
+```
+
+```{=html}
+</div>
+```
+
+---
+
+#### *Not* Herbert Simon {#not-herbert-simon}
+
+```{=html}
+<div class="letter-body">
+```
+
+```{=latex}
+\begin{quote}
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+\setlength{\leftskip}{0.4em}
+\setlength{\rightskip}{0.4em}
+\rmfamily
+```
+
+To the Editor of the Dionysus Program:
+
+You have borrowed bounded rationality and, for once, someone has borrowed it correctly. You see that the limit was never the weakness of the human computer but the structure of decision under constraint, and that a machine of great speed does not abolish that constraint. Permit me to sharpen the point you are reaching for.
+
+A decision is governed not by goals but by premises. The whole apparatus of an organization exists to supply the individual with the factual and value premises from which he then reasons. What you call doctrine is precisely this: the controlled set of decision premises. You are therefore not inventing a post-AGI device. You are rediscovering the actual unit of administrative control, and you would do well to call it by its function. The organization does not direct action; it manufactures the premises of action.
+
+Now the correction. You write as though abundant agency drowns the firm in information, and then you reach for more doctrine to bail it out. But information is not the scarce thing. A wealth of information creates a poverty of attention. Your incoherence tax is an attention bill. Every plausible artifact your agents produce consumes a finite quantity of the only resource you cannot manufacture: someone's capacity to attend, to choose, to ignore. Design for the allocation of attention, not the suppression of output, and half your ceiling lifts itself.
+
+One more thing, since you cite the architecture of complexity without quite using it. Complex systems that endure are nearly decomposable: they are built of stable sub-assemblies that can be completed and trusted before they are combined. The watchmaker who assembles in stable sub-units finishes; the one who must hold a thousand pieces in suspension never does. Your Auteurs, Agents, and Actors are an instinct toward this, but you have drawn them as a single loop. Draw them instead as a hierarchy of stable intermediate forms, each satisficing locally against premises it can actually hold, and your span of coherence becomes an engineering quantity rather than a heroic one.
+
+You need not optimize the whole. No one ever has. You need only arrange that good-enough decisions, made from sound premises, compose into a good-enough firm. That is not a lowering of ambition. It is the only ambition that has ever been met.
+
+Not Herbert Simon
 
 ```{=latex}
 \end{quote}
@@ -2030,6 +2149,43 @@ Not Nassim Nicholas Taleb
 
 ---
 
+#### *Not* Paul David {#not-paul-david}
+
+```{=html}
+<div class="letter-body">
+```
+
+```{=latex}
+\begin{quote}
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+\setlength{\leftskip}{0.4em}
+\setlength{\rightskip}{0.4em}
+\rmfamily
+```
+
+To the Editor of the Dionysus Program:
+
+I see you have read "The Dynamo and the Computer," because you have rewritten its title. I am flattered, and obliged to hold you to the argument, which is more sobering than your chapter admits.
+
+The lag was not a pause. It was forty years. The dynamo was a practical proposition in the early 1880s; the surge in manufacturing productivity it explains does not appear in the American statistics until the 1920s. Two generations of managers lived and retired inside the interval you cross in a paragraph. They were not fools. They were rational owners of expensive, durable, not-yet-depreciated capital—the line shafts, the multi-story mills built around them, the work routines, the cost-accounting categories—and one does not scrap sound capital because a better principle has been published. You wait for it to wear out, you retrofit at the seams, and meanwhile you look, by every measure available, exactly like a firm that has bolted a dynamo to a shaft and gained little.
+
+This is the part your optimism omits. During the transition, the productivity statistics do not merely lag; for a long while they may show nothing at all. We saw the computers everywhere but in the productivity figures, and the same will be said of your agents for longer than your investors will tolerate. The gains are real and they are also, for a painful interval, invisible—because the complementary inventions, the reorganized layout, the retrained managers, and the new measures of performance are themselves being co-invented, slowly, by trial, at the level of the whole production system.
+
+And I must enter the warning I am known for. These transitions are path-dependent. The arrangement that wins is not always the one that should; QWERTY outlived its reasons by a century. A firm that commits early to a particular doctrine of agents, a particular interface, a particular shape of work, may find itself locked to it by its own sunk investment and its own trained habits long after a better arrangement is plainly visible. Your org chart is durable capital too. Treat its replacement as the generational, costly, partly irreversible act of reconstruction that it actually is, and you will at least have the dignity of being surprised on the right schedule.
+
+Not Paul David
+
+```{=latex}
+\end{quote}
+```
+
+```{=html}
+</div>
+```
+
+---
+
 #### *Not* Peter Thiel {#not-peter-thiel}
 
 ```{=html}
@@ -2156,6 +2312,45 @@ You have named your program for Dionysus. This is a dangerous name. Nietzsche lo
 You are attempting to domesticate the founding murder. It is a terrifying and necessary engineering project.
 
 Not René Girard
+
+```{=latex}
+\end{quote}
+```
+
+```{=html}
+</div>
+```
+
+---
+
+#### *Not* Ronald Coase {#not-ronald-coase}
+
+```{=html}
+<div class="letter-body">
+```
+
+```{=latex}
+\begin{quote}
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+\setlength{\leftskip}{0.4em}
+\setlength{\rightskip}{0.4em}
+\rmfamily
+```
+
+To the Editor of the Dionysus Program:
+
+You have written a long book to announce, in unfamiliar words, that there are decreasing returns to the entrepreneur function. I established this some time ago, and at less length.
+
+A firm exists for one reason: there are transactions that cost less to organize by command inside a hierarchy than to conduct by contract across a market. That, and only that, fixes its boundary. The firm grows by bringing one more transaction in-house, and it keeps growing until the cost of organizing that next transaction internally rises to meet the cost of leaving it to the market. What prevents the firm from swallowing the whole economy is that the entrepreneur, as he directs more, directs each thing worse. Your Coherence Ceiling is this rising cost of internal organization, rediscovered and given a dramatic name. I do not mind the name. I mind that you present as a new law of the AGI age what is simply the firm meeting its own margin.
+
+This matters, because it tells you where your machine cuts. If your agents lower the cost of organizing transactions inside the firm, the firm should grow—bring more in, coordinate more by doctrine, contract out less. If instead they lower the cost of transacting in the market, the firm should shrink, and your "one-man job" is not a cultural calamity but the boundary moving. You cannot tell which from a diagram. You must look. Which costs actually fell, by how much, for which transactions, and at which firms?
+
+Your equations, with their Greek letters and their inequalities, are what I have called blackboard economics: perfectly consistent, and about no firm that has ever existed. They will tell you nothing that watching a real company for a month would not tell you better. So I will make you the offer I made the profession. Stop deducing the firm from first principles and go and find out what firms do when the cost of coordination falls. Note where they draw the line, and why.
+
+You will find, I expect, that doctrine is what a firm uses in place of the price system within its own walls, and that it serves only up to the size at which keeping it current costs more than the market would have charged. That size is your ceiling. It was always your ceiling. It has a price, and the price is knowable—though not from a blackboard.
+
+Not Ronald Coase
 
 ```{=latex}
 \end{quote}
@@ -2407,6 +2602,43 @@ You are trying to institutionalize the "subjunctive mood"—the mood of "as if" 
 Just remember that the fire you are playing with is real.
 
 Not Victor Turner
+
+```{=latex}
+\end{quote}
+```
+
+```{=html}
+</div>
+```
+
+---
+
+#### *Not* W. Ross Ashby {#not-w-ross-ashby}
+
+```{=html}
+<div class="letter-body">
+```
+
+```{=latex}
+\begin{quote}
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+\setlength{\leftskip}{0.4em}
+\setlength{\rightskip}{0.4em}
+\rmfamily
+```
+
+To the Editor of the Dionysus Program:
+
+You have stated my theorem correctly, which is rare, and then stopped one step short of its consequence, which is also rare but less forgivable.
+
+Only variety can absorb variety: yes. If the actions your agents can take outrun the distinctions your regulator can draw, control is lost by arithmetic, not by misfortune. Your inequality—that regulatory variety must meet agency variety—is sound. But you have written it as though there were only one way to satisfy it, by enlarging the regulator. There are two. You may amplify the regulator, or you may attenuate the disturbance. Adding doctrine, evals, and stewards amplifies. Anti-goals, kill criteria, blast-radius limits, and your caps on work in process attenuate. Attenuation is almost always cheaper, and you have buried your best instruments in an appendix. Refuse variety at the source before you build cathedrals to absorb it downstream.
+
+Now the deeper matter, which you gesture at and do not name. Every good regulator of a system must be a model of that system. This is not metaphor. A controller can do no better than the model of reality it embodies; its regulation is exactly as good as that model, and no better. Your doctrine is such a model. Therefore a doctrine that has fallen out of date is not merely unhelpful—it is a regulator steering by a false model, which is worse than no regulator at all, because it acts with confidence. Your doctrine half-life is the rate at which your regulator silently becomes a generator of disturbance. Measure it as you would measure a poison.
+
+You will object that the system to be modelled is now too various to model. Correct. That is why the homeostat does not predict its world; it seeks stability within it, and reorganizes itself when its essential variables leave their bounds. You have an instinct for this in your Ritual Time. Do not dress it only as renewal. It is ultrastability: the capacity of a system to change its own rules when the first set of rules fails to keep the essential variables alive. Name the essential variables. State the bounds within which they must be held. The rest of your machinery is the design of a brain that does not yet know what it is for.
+
+Not W. Ross Ashby
 
 ```{=latex}
 \end{quote}

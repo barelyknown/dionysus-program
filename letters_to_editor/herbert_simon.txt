@@ -1,0 +1,13 @@
+To the Editor of the Dionysus Program:
+
+You have borrowed bounded rationality and, for once, someone has borrowed it correctly. You see that the limit was never the weakness of the human computer but the structure of decision under constraint, and that a machine of great speed does not abolish that constraint. Permit me to sharpen the point you are reaching for.
+
+A decision is governed not by goals but by premises. The whole apparatus of an organization exists to supply the individual with the factual and value premises from which he then reasons. What you call doctrine is precisely this: the controlled set of decision premises. You are therefore not inventing a post-AGI device. You are rediscovering the actual unit of administrative control, and you would do well to call it by its function. The organization does not direct action; it manufactures the premises of action.
+
+Now the correction. You write as though abundant agency drowns the firm in information, and then you reach for more doctrine to bail it out. But information is not the scarce thing. A wealth of information creates a poverty of attention. Your incoherence tax is an attention bill. Every plausible artifact your agents produce consumes a finite quantity of the only resource you cannot manufacture: someone's capacity to attend, to choose, to ignore. Design for the allocation of attention, not the suppression of output, and half your ceiling lifts itself.
+
+One more thing, since you cite the architecture of complexity without quite using it. Complex systems that endure are nearly decomposable: they are built of stable sub-assemblies that can be completed and trusted before they are combined. The watchmaker who assembles in stable sub-units finishes; the one who must hold a thousand pieces in suspension never does. Your Auteurs, Agents, and Actors are an instinct toward this, but you have drawn them as a single loop. Draw them instead as a hierarchy of stable intermediate forms, each satisficing locally against premises it can actually hold, and your span of coherence becomes an engineering quantity rather than a heroic one.
+
+You need not optimize the whole. No one ever has. You need only arrange that good-enough decisions, made from sound premises, compose into a good-enough firm. That is not a lowering of ambition. It is the only ambition that has ever been met.
+
+Not Herbert Simon

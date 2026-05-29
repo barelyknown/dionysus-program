@@ -1,0 +1,13 @@
+To the Editor of the Dionysus Program:
+
+You have written a long book to announce, in unfamiliar words, that there are decreasing returns to the entrepreneur function. I established this some time ago, and at less length.
+
+A firm exists for one reason: there are transactions that cost less to organize by command inside a hierarchy than to conduct by contract across a market. That, and only that, fixes its boundary. The firm grows by bringing one more transaction in-house, and it keeps growing until the cost of organizing that next transaction internally rises to meet the cost of leaving it to the market. What prevents the firm from swallowing the whole economy is that the entrepreneur, as he directs more, directs each thing worse. Your Coherence Ceiling is this rising cost of internal organization, rediscovered and given a dramatic name. I do not mind the name. I mind that you present as a new law of the AGI age what is simply the firm meeting its own margin.
+
+This matters, because it tells you where your machine cuts. If your agents lower the cost of organizing transactions inside the firm, the firm should grow—bring more in, coordinate more by doctrine, contract out less. If instead they lower the cost of transacting in the market, the firm should shrink, and your "one-man job" is not a cultural calamity but the boundary moving. You cannot tell which from a diagram. You must look. Which costs actually fell, by how much, for which transactions, and at which firms?
+
+Your equations, with their Greek letters and their inequalities, are what I have called blackboard economics: perfectly consistent, and about no firm that has ever existed. They will tell you nothing that watching a real company for a month would not tell you better. So I will make you the offer I made the profession. Stop deducing the firm from first principles and go and find out what firms do when the cost of coordination falls. Note where they draw the line, and why.
+
+You will find, I expect, that doctrine is what a firm uses in place of the price system within its own walls, and that it serves only up to the size at which keeping it current costs more than the market would have charged. That size is your ceiling. It was always your ceiling. It has a price, and the price is knowable—though not from a blackboard.
+
+Not Ronald Coase

@@ -1,0 +1,11 @@
+To the Editor of the Dionysus Program:
+
+I see you have read "The Dynamo and the Computer," because you have rewritten its title. I am flattered, and obliged to hold you to the argument, which is more sobering than your chapter admits.
+
+The lag was not a pause. It was forty years. The dynamo was a practical proposition in the early 1880s; the surge in manufacturing productivity it explains does not appear in the American statistics until the 1920s. Two generations of managers lived and retired inside the interval you cross in a paragraph. They were not fools. They were rational owners of expensive, durable, not-yet-depreciated capital—the line shafts, the multi-story mills built around them, the work routines, the cost-accounting categories—and one does not scrap sound capital because a better principle has been published. You wait for it to wear out, you retrofit at the seams, and meanwhile you look, by every measure available, exactly like a firm that has bolted a dynamo to a shaft and gained little.
+
+This is the part your optimism omits. During the transition, the productivity statistics do not merely lag; for a long while they may show nothing at all. We saw the computers everywhere but in the productivity figures, and the same will be said of your agents for longer than your investors will tolerate. The gains are real and they are also, for a painful interval, invisible—because the complementary inventions, the reorganized layout, the retrained managers, and the new measures of performance are themselves being co-invented, slowly, by trial, at the level of the whole production system.
+
+And I must enter the warning I am known for. These transitions are path-dependent. The arrangement that wins is not always the one that should; QWERTY outlived its reasons by a century. A firm that commits early to a particular doctrine of agents, a particular interface, a particular shape of work, may find itself locked to it by its own sunk investment and its own trained habits long after a better arrangement is plainly visible. Your org chart is durable capital too. Treat its replacement as the generational, costly, partly irreversible act of reconstruction that it actually is, and you will at least have the dignity of being surprised on the right schedule.
+
+Not Paul David
