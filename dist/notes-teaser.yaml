@@ -1,6 +1,13 @@
 notes_archive_url: notes/
 recent_notes_empty: false
 recent_notes:
+  - title: Beautiful Heat and the Fallow Interval are thermodynamic requirements for
+      renewal, not decorative extras
+    display_date: June 2, 2026
+    url: notes/2026-06-02-beautiful-heat-and-the-fallow-interval-are-thermodynamic-requirements-for-renewal-not-decorative-extras/index.html
+    excerpt: Most postmortems fail before anyone speaks. The team is already too
+      depleted to tell the truth without turning it into blame.
+    pillar: Extracted Insights
   - title: The Standing Right of Criticism makes rival explanations lawful without
       permission
     display_date: June 1, 2026
@@ -12,11 +19,4 @@ recent_notes:
     display_date: May 29, 2026
     url: notes/2026-05-29-the-scariest-organizations-are-the-ones-that-still-have-all-the-meetings/index.html
     excerpt: The scariest organizations are the ones that still have all the meetings.
-    pillar: Extracted Insights
-  - title: When one person can do what ten used to do, trust stops being a byproduct
-      of work
-    display_date: May 28, 2026
-    url: notes/2026-05-28-when-one-person-can-do-what-ten-used-to-do-trust-stops-being-a-byproduct-of-work/index.html
-    excerpt: When one person can do what ten used to do, trust stops being a
-      byproduct of work.
     pillar: Extracted Insights
