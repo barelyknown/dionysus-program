@@ -1,6 +1,13 @@
 notes_archive_url: notes/
 recent_notes_empty: false
 recent_notes:
+  - title: If people cannot challenge doctrine in public, they will route around it
+      in private
+    display_date: June 5, 2026
+    url: notes/2026-06-05-if-people-cannot-challenge-doctrine-in-public-they-will-route-around-it-in-private/index.html
+    excerpt: If people cannot challenge doctrine in public, they will route around
+      it in private.
+    pillar: Extracted Insights
   - title: If the room does not know what mode it is in, truth becomes a status gamble
     display_date: June 4, 2026
     url: notes/2026-06-04-if-the-room-does-not-know-what-mode-it-is-in-truth-becomes-a-status-gamble/index.html
@@ -13,11 +20,4 @@ recent_notes:
     url: notes/2026-06-03-lashon-hara-chillul-hashem-atimia-exile-and-victim-centered-reconciliation-make-the-law-of-repair-real/index.html
     excerpt: Repair becomes real when the victim, not the offender, defines whether
       standing has been restored.
-    pillar: Extracted Insights
-  - title: Beautiful Heat and the Fallow Interval are thermodynamic requirements for
-      renewal, not decorative extras
-    display_date: June 2, 2026
-    url: notes/2026-06-02-beautiful-heat-and-the-fallow-interval-are-thermodynamic-requirements-for-renewal-not-decorative-extras/index.html
-    excerpt: Most postmortems fail before anyone speaks. The team is already too
-      depleted to tell the truth without turning it into blame.
     pillar: Extracted Insights
