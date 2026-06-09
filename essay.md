@@ -26,13 +26,13 @@ Rites of Renewal
 ## About the Program
 
 ::: about-program
-Knowledge now melts faster than organizations can re-bind it into identity, norms, and operating systems—without depleting trust. AI compresses the half-life of expertise; what took decades now happens in quarters. Under that pressure, the primary obstacle to progress is no longer technical—it's cultural. Teams hit their limits not because they can't think, but because they can't digest disruptive reality into new roles, new norms, and new commitments without collapsing into numbness, scapegoating, or management theater.
+Knowledge now melts faster than organizations can re-bind it into identity, norms, and operating systems without depleting trust. AI compresses the half-life of expertise; what took decades now happens in quarters. Under that pressure, the primary obstacle to progress is no longer technical—it's cultural. Teams hit their limits not because they can't think, but because they can't digest disruptive reality into new roles, new norms, and new commitments without collapsing into numbness, scapegoating, or management theater.
 
 AI also opens a second bottleneck. As competent agency becomes cheap, organizations face not only more knowledge-change but more action: people, software workflows, and mixed human-machine units can now plan, commit, publish, promise, and revise faster than the organization can carry intent across them. The limiting factor becomes coherence—the capacity to keep distributed agency acting from one living map without freezing the map into dogma. Coherence is the Run Time state; epimetabolism is the renewal that restores and raises it when reality breaks the map.
 
 The *Dionysus Program* is a field manual for leaders facing those bottlenecks. Written by Sean Devine, founder and CEO of XBE.
 
-It argues for a new scoreboard: **epimetabolic rate**—the speed at which a person, team, or organization converts error into new structure without burning its social fabric. The method is a loop you can actually run: critique → dissolution → reconstitution → renewal. Not "more candor" stapled onto an unchanged culture, but an operating system where knowledge-updating becomes cheaper, safer, and more productive over time—so you can move fast, break things, and then mend what you break into something stronger.
+It argues for a new scoreboard: **epimetabolic rate**—the speed at which a person, team, or organization converts error into new structure without burning its social fabric. The method is a loop you can run: critique → dissolution → reconstitution → renewal. Not "more candor" stapled onto an unchanged culture, but an operating system where knowledge-updating becomes cheaper, safer, and more productive over time—so you can move fast, break things, and then mend what you break into something stronger.
 
 Underlying both modes is a distinction the program makes explicit: knowledge and myth are not the same thing, and they do not fail the same way. Knowledge explains the world and decays as the world changes—its half-life is the program's central problem. Myth explains you: your orientation toward action, your identity across time, your capacity to remain coherent while the knowledge layer turns over. Myth runs on a different clock entirely. The faster knowledge moves, the more an organization needs a stable myth layer beneath it. The program names both layers and shows how to maintain them.
 
@@ -43,7 +43,7 @@ The program is built around a deliberate toggle between two modes:
 
 This distinction is the heart of the book. Most organizations either stay in Run Time until reality forces a catastrophic break, or they perform Ritual Time and get theater. The *Dionysus Program* shows how to build Ritual Time that can hold real heat without harm: concentrating conflict onto shared objects instead of people, designing beauty and hospitality so disruptive knowledge is bearable, and practicing tragedy so losses teach instead of traumatize.
 
-What makes this unusually usable is that it isn't just an essay. It's a toolset with interlocking parts:
+What makes this unusually practical is that it isn't just an essay. It's a toolset with interlocking parts:
 
 * **The Epimetabolic Equation**: a mathematical model that turns culture into dynamics—linking trust, ritual capacity, stewardship integrity, beauty, and melt into explicit failure modes and a single diagnostic: how much structure you gain per unit of trust you burn.
 * **The One-Man Job**: a diagnosis of why trust is harder to accumulate when AI collapses the division of labor and distributed work eliminates proximity—and practical guidance on generating *Ren* (the density of trust and shared history that makes high-heat rituals safe) deliberately through play, mission commitment, and hiring for relational density.
@@ -238,7 +238,7 @@ In other words: the bottleneck is our capacity to let meaning melt and then re-b
 
 Later I saw the second side of the same transition. AI was not only melting expertise; it was multiplying agency. Work that once required a chain of specialists could be compressed into one person with tools, and then into one person directing many agents. The old question was whether the organization had enough competent hands. The new question is whether those hands, human and machine, still belong to one body.
 
-That is the lesson of factory electrification in a new domain. The first electric factories kept the old line shafts and merely changed the power source; the real productivity came later, when unit motors let the plant be redesigned around flow instead of power transmission. AGI inside the old org chart repeats the early mistake—it bolts the dynamo to the line shaft. The gains that matter wait on a redesign around the new bottleneck, which is no longer labor capacity but coherent agency.
+That is the lesson of factory electrification, replayed in a new domain. The first electric factories kept the old line shafts and merely changed the power source; the real productivity came later, when unit motors let the plant be redesigned around flow instead of power transmission. AGI inside the old org chart repeats the early mistake—it bolts the dynamo to the line shaft. The gains that matter wait on a redesign around the new bottleneck, which is no longer labor capacity but coherent agency.
 
 Earlier in my career I fell into a trap: stoicism plus optimization. I judged solutions by whether they eliminated waste and whether I could implement them myself in the short run. I undervalued social scale over time. I treated identities as liabilities to be reduced rather than assets to be cultivated. I treated redundancy as waste rather than as the buffer needed to live with uncertainty—and to make room for renewal.
 
@@ -275,7 +275,7 @@ By “vulnerability,” I mean the willingness to let your current explanations�
 
 The program is indivisible. If you take one piece—“more candor,” or “better postmortems,” or “aesthetic rituals”—and staple it onto a culture that won’t metabolize error, you will get theater. The parts reinforce each other because the problem is whole.
 
-If what you want is tactics that let you keep your current identity intact while the world changes around you, this won’t be satisfying. But if you do commit, success will not look like a perfect machine. Success will look humane. More connected. More joyful. More resilient. It will look like people who can face disruptive truth without needing scapegoats or numbness. It will look like leaders who can move fast by breaking things—and then mend what they break into something stronger.
+If what you want is tactics that let you keep your current identity intact while the world changes around you, this won’t be satisfying. But if you do commit, success will not look like a perfect machine. Success will look humane. More connected. More joyful. More resilient. It will look like people who can face disruptive truth without needing scapegoats or numbness. It will look like leaders who can move fast because they have learned to mend what they break.
 
 I am not offering this as a finished cathedral. I am offering it as working machinery—tested in bloodless but real arenas. Use it. Critique it. Kill what doesn’t work. Keep what does. The program should be subject to the same rule it imposes: nothing is sacred except the commitment to metabolize error without sacrifice.
 
@@ -298,9 +298,9 @@ So we will have to become the kind of people who can keep up—without becoming 
 
 ## Introduction
 
-The first six mini essays outline why this program exists, what it protects, and how to read the remaining acts.
+The first six short essays outline why this program exists, what it protects, and how to read the remaining acts.
 
-Between the acts you’ll find two interludes that work as gates: one checks whether you have the relational density to run the rites at all, the other checks whether the stewards can avoid turning those rites into a standing priesthood. Consider them a shared introduction you can return to before you attempt the more volatile practices.
+Between the acts you’ll find two interludes that work as gates: one checks whether you have the relational density to run the rites at all, the other checks whether the stewards can avoid turning those rites into a standing priesthood. Return to them before you attempt the more volatile practices.
 
 Before the first essay, keep one distinction in view. This book follows two AGI pressures, not one. Ritual Time handles epistemic melt: knowledge changes faster than organizations can re-bind it into roles, norms, stories, and commitments. Run Time now has its own active discipline: action is getting cheaper, and cheap action still makes promises, opens obligations, and changes the world. The full coherence argument comes later, after *The One-Man Job* has shown what happens when AI collapses the division of labor.
 
@@ -337,7 +337,7 @@ In the post-AGI organization, Apollo takes on a sharper job. Doctrine, evals, pe
 
 Apollo makes action legible. Dionysus makes correction survivable.
 
-To get to the Moon, Apollo was enough. To infinity and beyond, we have to run both programs together. Apollo gets us off the pad; Dionysus keeps us human while we keep going.
+To get to the Moon, Apollo was enough. For the open-ended journey, we have to run both programs together. Apollo gets us off the pad; Dionysus keeps us human while we keep going.
 
 ```{=latex}
 \iffalse
@@ -564,7 +564,9 @@ Call the speed at which a person, team, organization, or city digests error into
 
 Epimetabolic rate is the only real scoreboard of this program. Revenue, valuation, headcount, shipping velocity, even “engagement” are derivative statistics; they go up or down for many reasons. What the *Dionysus Program* is actually trying to maximize is how quickly a group can notice that its explanations are wrong, dissolve the structures built on top of them, and bind that loss back into better structure without burning people. If the forms in this essay do not raise your epimetabolic rate, they are theater and should be killed.
 
-Accountability, split: Call the ordinary operating mode Run Time. In Run Time, we practice Apollonian accountability—answering to the best available knowledge, meanings, doctrine, and processes we’ve already stabilized (forecast → act → score). Run Time maximizes coherent agency under current doctrine. During liminal phases, which we name Ritual Time, we practice Dionysian accountability—answering to the rituals and rules of the container that keep the melt non-violent and raise epimetabolic rate by metabolizing loss (call the rite → follow the vows → publish the recognition → exit on time). Ritual Time updates doctrine when reality melts it. It does not exist only to run critique. It also exists to restore the human substrate on which critique depends. In periods of intense Run Time, restoration is not peripheral to renewal; it is its precondition. Standards of rationality and personal responsibility do not relax between modes. What inverts is only what everyone is accountable to: Ritual Time suspends performance scoring and output targets and re-aims accountability toward fidelity to the rite and reason-giving; Run Time restores performance scoring and decision-owner accountability for the explanations and commitments they endorse. We toggle modes deliberately and we name the mode we are in.
+Accountability splits by mode. Call the ordinary operating mode Run Time. In Run Time, we practice Apollonian accountability—answering to the best available knowledge, meanings, doctrine, and processes we’ve already stabilized (forecast → act → score). Run Time maximizes coherent agency under current doctrine. During liminal phases, which we name Ritual Time, we practice Dionysian accountability—answering to the rituals and rules of the container that keep the melt non-violent and raise epimetabolic rate by metabolizing loss (call the rite → follow the vows → publish the recognition → exit on time). Ritual Time updates doctrine when reality melts it. It does not exist only to run critique. It also exists to restore the human substrate on which critique depends. In periods of intense Run Time, restoration is not peripheral to renewal; it is its precondition.
+
+Standards of rationality and personal responsibility do not relax between modes. What inverts is only what everyone is accountable to: Ritual Time suspends performance scoring and output targets and re-aims accountability toward fidelity to the rite and reason-giving; Run Time restores performance scoring and decision-owner accountability for the explanations and commitments they endorse. We toggle modes deliberately and we name the mode we are in.
 
 The engine is Popperian error-correction; the stabilizers are ritual (the liturgical layer of repeatable containers around error, after Victor Turner), aesthetics (Nietzsche), and tragedy (Hegel). At every scale—person, team, organization, city—the loop repeats, fractally self-similar. We hold a non-violent center with an anti-scapegoat, use beauty as heat so dissolution becomes bearable, and practice tragic metabolism so the self can turn breakdown into understanding. The output is a culture that can learn without end and remain human.
 
@@ -587,7 +589,7 @@ This is not a prediction; it is already happening. The tasks that once required 
 
 Call this the "one-man job": a task completed from inception to delivery by a single person, without needing to negotiate, share context, or wait for others.
 
-The one-man job is driven by AI independence. Large language models make explicit knowledge universally accessible on demand. The programmer can get legal guidance without a lawyer in the room. The strategist can get engineering constraints without an engineer in the meeting. The researcher can get domain expertise without the domain expert. Each query that once required a conversation now requires a prompt. Each conversation that once required a meeting now requires a search. The surface area for human collaboration shrinks—not incrementally, but categorically.
+The one-man job is driven by AI independence. Large language models make explicit knowledge universally accessible on demand. The programmer can get legal guidance without a lawyer in the room. The strategist can get engineering constraints without an engineer in the meeting. The researcher can get domain expertise without the domain expert. What once required a conversation now requires a prompt; what once required a meeting now requires a search. The surface area for human collaboration shrinks—not incrementally, but categorically.
 
 Durkheim hoped that increasing division of labor would create what he called *organic solidarity*—a binding force based on mutual dependence. The surgeon needs the anesthesiologist; the anesthesiologist needs the nurse; each role is incomplete without the others. From that interdependence, social cohesion would emerge. AI independence severs the interdependence. We become specialized and self-sufficient, which produces neither the old solidarity of sameness nor the new solidarity of mutual need. It produces atomization.
 
@@ -677,7 +679,7 @@ Leaders must also participate in play, not merely mandate it. If leadership trea
 
 Tocqueville observed that the health of a democratic society could be measured by the quality of functions performed through voluntary association—the "art of association" that Americans once practiced constantly. That art atrophies without practice. When work forces no association, when proximity provides no encounters, when community and workplace diverge, what remains?
 
-That capacity requires Ren. Ren requires deliberate investment—in play, in honest commitment to mission or quality, in people who bring others together. The organizations that make that investment will outcompete the organizations that optimize only for individual productivity. The organizations that play together will outlearn the organizations that only work.
+The capacity to compound knowledge requires Ren. Ren requires deliberate investment—in play, in honest commitment to mission or quality, in people who bring others together. The organizations that make that investment will outcompete the organizations that optimize only for individual productivity. The organizations that play together will outlearn the organizations that only work.
 
 ---
 
@@ -1036,7 +1038,7 @@ This is why the transgressions are a phase transition, not a steady state. They 
 
 The mechanism is not obvious. Transgression does not *create* Ren. It creates the conditions under which Ren can be *seen*.
 
-Confucius observed: "Only when the year grows cold do we see that the pine and cypress are the last to fade." The cold does not make the pine strong. It reveals what was always there—and conceals no longer.
+Confucius observed: "Only when the year grows cold do we see that the pine and cypress are the last to fade." The cold does not make the pine strong. It reveals what was always there.
 
 The three transgressions work the same way. The Boundary makes inclusion visible: those who remain chose to stay when staying was costly. The Stripping removes the insulation of role and title so that character becomes observable. The Complicity creates stakes that make conduct meaningful: when defection is costly, loyalty becomes information.
 
@@ -1186,7 +1188,7 @@ Asabiyyah is not "morale." It is the capacity of a group to survive a fight with
 
 If your organization is held together only by the monthly payroll, your Asabiyyah is near zero. If you introduce the heat of dissolution here, the group will simply dissolve. The atoms will scatter.
 
-This readiness is the responsibility of leadership. Confucius described the mechanic: "The virtue of the gentleman is like the wind; the virtue of the small man is like the grass. Let the wind blow over the grass and it is sure to bend."
+This readiness is the responsibility of leadership. Confucius described the mechanism: "The virtue of the gentleman is like the wind; the virtue of the small man is like the grass. Let the wind blow over the grass and it is sure to bend."
 
 If the leadership is transactional, the team will be transactional. If the leader cannot practice *Zhengming* (the "Rectification of Names")—calling a failure a failure, calling a loss a loss—then the rituals of truth-telling will be performed as farce.
 
@@ -1248,7 +1250,7 @@ The mercy is real. So is the danger. Submerged Ritual Time can become permanent 
 
 ### The Bite and The Gift
 
-Most modern corporate rituals are actually just meetings in costume. We give them fancy names but everyone knows the truth. They are assignments. They are authored by a manager, placed on a calendar by an algorithm, and performed by employees who are calculating the minimum viable participation required to stay employed.
+Most modern corporate rituals are meetings in costume. We give them solemn names, but everyone knows the truth. They are assignments. They are authored by a manager, placed on a calendar by an algorithm, and performed by employees who are calculating the minimum viable participation required to stay employed.
 
 They fail because they lack bite. They feel invented rather than received.
 
@@ -1302,7 +1304,7 @@ Because the organization has given you this expensive, protected, other space, a
 
 You are not speaking up because it is on your OKRs. You are speaking up because to stay silent would be to refuse the gift, which is an act of war against the bond.
 
-By combining Durkheim's receivedness with Mauss's gift, we ensure that rituals create reciprocal obligations of maximum effect instead of being experienced as obligations themselves.
+By combining Durkheim's receivedness with Mauss's gift, we ensure that rituals generate binding reciprocity instead of being experienced as obligations themselves.
 
 ```{=latex}
 \iffalse
@@ -1436,7 +1438,7 @@ Not merely longer. Thicker.
 
 More sleep. More unmeasured time. More hospitality. More intervals in which the body exits vigilance. More beauty that asks nothing. More contact unburdened by tasks. Then, when surplus begins to return, the higher rites of recognition and repair can do their work. Only then does the tragic machinery become medicinal instead of extractive.
 
-This also clarifies the relationship between rest and play. They are not the same. Play restores sociability by making shared attention non-instrumental. Rest restores capacity by lowering demand itself. A depleted team may be unable to play in the full sense. It can attend a game night and still remain armoured. It can perform informality while staying metabolically clenched. Do not ask play to do the work of sleep, silence, or simple human ease. The substitution fails.
+This also clarifies the relationship between rest and play. They are not the same. Play restores sociability by making shared attention non-instrumental. Rest restores capacity by lowering demand itself. A depleted team may be unable to play in the full sense. It can attend a game night and still remain armored. It can perform informality while staying metabolically clenched. Do not ask play to do the work of sleep, silence, or simple human ease. The substitution fails.
 
 Operationally, this means no steward should assume that because a group is morally willing, it is ritually ready. Ask a more primitive question first: is there enough surplus here to tell the truth without weaponizing it? If the answer is no, lower heat before raising depth. Feed people. End earlier. Remove the deck. Walk outside. Sleep. Delay the Great Dissolution by a week if that week returns the ability to survive it as humans rather than merely endure it as employees.
 
@@ -1618,7 +1620,7 @@ The loop—critique → dissolution → reconstitution → renewal—wins becaus
 
   * Yearly: civic Rite of Redress and city festival. Policy trials. Public retirements and renewals. Founding myths updated with care.
 
-* **The Renormalization Rule:** as you scale up, lengthen the liminal period, widen participation, and thicken symbols. Keep the verbs the same. Attack objects; not people. Bring heat; avoid harm. Bind commitments; publish them.
+* **The Renormalization Rule:** as you scale up, lengthen the liminal period, widen participation, and thicken symbols. Keep the verbs the same. Attack objects, not people. Bring heat; avoid harm. Bind commitments; publish them.
 
 Meta-fractal: the *Dionysus Program* does not stand outside its own loop. The small group stewarding these forms should periodically treat the program itself as an anti-scapegoat—especially its steward selection, term limits, and risk-sharing rules—and run a relatively private Crossing on its charters, vocabulary, and metrics. Score it on the same ledgers; let it shed and rename parts that no longer serve, aided by the protected internal criticism encoded in the Jester’s Privilege. That self-application keeps the program from hardening into the kind of frozen, over-explained orthodoxy it was designed to dissolve.
 
@@ -1648,7 +1650,7 @@ Taleb’s antifragility inverts here: we gain from uncertainty not primarily thr
 
 ### Touch Down
 
-The point is not an aestheticization of work or a romanticization of chaos. The point is a civilization that can accept the gift of infinite knowledge without disintegrating. We do not choose between freezing progress to protect meaning or sacrificing meaning to chase progress. We choreograph the loop that couples critique with repair.
+The point is not to aestheticize work or romanticize chaos. The point is a civilization that can accept the gift of infinite knowledge without disintegrating. We do not choose between freezing progress to protect meaning or sacrificing meaning to chase progress. We choreograph the loop that couples critique with repair.
 
 Practices to run tomorrow:
 
@@ -1732,9 +1734,9 @@ The Program and alchemy describe the same cycle from different angles. The Progr
 
 Neither vocabulary is complete alone. The operator who knows only the verbs may execute the motions without sensing when the process has gone wrong. The operator who knows only the states may sense the wrongness without knowing how to intervene.
 
-The materials correspond directly. What the alchemists called Lead—the *prima materia*, heavy and opaque—is unmetabolized error: the failed deployment, the wrong assumption, the strategy refuted by reality. Gold is explanatory reach: hard-to-vary structure that survives contact with the world. The Stone, the catalyst that enables transformation without being consumed, is Ren. The Vessel is Li—the ritual container whose integrity determines whether the process completes or explodes. Heat is melt; the solvent is critique; the flame that does not scorch is beauty.
+The materials correspond directly. What the alchemists called Lead—the *prima materia*, heavy and opaque—is unmetabolized error: the failed deployment, the wrong assumption, the strategy refuted by reality. Gold is explanatory reach: hard-to-vary structure that survives contact with the world. The Stone, the catalyst that enables transformation without being consumed, is Ren. The Vessel is Li—the ritual container whose integrity determines whether the process completes or explodes. Heat is melt; critique is the solvent; beauty is the flame that does not scorch.
 
-The stages correspond as well. The alchemists described four phases of the *Magnum Opus*, each named for a color observed as transformation proceeded. Albedo, the whitening, is the entry into Ritual Time—purification that lets truth be spoken without scapegoats. Nigredo, the blackening, is dissolution—the dark phase where the old structure dies and the material looks ruined. Citrinitas, the yellowing, is reconstitution—the dawn when new explanation coheres and recognition arrives. Rubedo, the reddening, is renewal—embodiment, when the work becomes flesh and structure re-enters the world.
+The stages correspond as well. The alchemists described four phases of the *Magnum Opus*, each named for a color observed as transformation proceeded. The classical sequence begins with nigredo; the program deliberately reorders the first two stages, because in social systems purification cannot follow the blackening—the protected container must exist before anything is allowed to dissolve inside it. Albedo, the whitening, is the entry into Ritual Time—purification that lets truth be spoken without scapegoats. Nigredo, the blackening, is dissolution—the dark phase where the old structure dies and the material looks ruined. Citrinitas, the yellowing, is reconstitution—the dawn when new explanation coheres and recognition arrives. Rubedo, the reddening, is renewal—embodiment, when the work becomes flesh and structure re-enters the world.
 
 This is not metaphor for decoration. It is a diagnostic lens.
 
@@ -1811,7 +1813,7 @@ This is how you know the alchemy is real.
 
 ## The Hinge
 
-The Dionysus Program makes one claim it cannot subject to itself.
+The *Dionysus Program* makes one claim it cannot subject to itself.
 
 Nothing is sacred except the commitment to metabolize error. This is the program's core. It is also the program's myth—not in the pejorative sense of a false story, but in the precise sense of an orienting commitment that is not itself being put through a Crossing.
 
@@ -2299,7 +2301,7 @@ A department that used to be central and is now a backwater. Nothing dramatic ha
 
 **Dynamics:** With low total melt, growth is modest. But decay, while also low, slightly exceeds growth—perhaps due to theater from underutilized ritual capacity, or stewardship drift in a low-rotation environment. The gap is small but persistent.
 
-**Outcome:** $S$ falls slowly relative to $\bar{S}$ (which rises slowly given low $\mu^{\text{env}}$). Survivable for a long time. The organization doesn't notice it's dying because quarterly changes are within noise. The frog in warming water.
+**Outcome:** $S$ falls slowly relative to $\bar{S}$ (which rises slowly given low $\mu^{\text{env}}$). Survivable for a long time. The organization doesn't notice it's dying because quarterly changes are within noise.
 
 ---
 
@@ -2444,7 +2446,7 @@ Run it in Ritual Time; close by naming the concrete change and where it will liv
 
 ### IV. Protect the Cooling Interval
 
-No Crossing should follow an extreme Run Time interval without some cooling interval unless immediate survival requires it. Exhaustion makes people less truthful, more brittle, and more mimetic. After sprints, losses, launches, or prolonged conflict, lower heat before demanding recognition. Sleep. Feed people. Remove scorekeeping. Walk outside. Let the organism return. Then reopen meaning.
+No Crossing should follow an extreme stretch of Run Time without a cooling interval unless immediate survival requires it. Exhaustion makes people less truthful, more brittle, and more mimetic. After sprints, losses, launches, or prolonged conflict, lower heat before demanding recognition. Sleep. Feed people. Remove scorekeeping. Walk outside. Let the organism return. Then reopen meaning.
 
 If public Ritual Time is unsafe, do not begin with a Crossing. Begin with a private anti-scapegoat: put the broken promise, role, bargain, or expectation on trial, not yourself. Preserve one witness: a journal, trusted friend, prayer, note, or private conversation. Bind one small act. Do not call it renewal yet. Renewal requires re-entry.
 
@@ -2484,7 +2486,7 @@ Knowledge fails gracefully. When a model is wrong, you update it. When an assump
 
 Myth fails catastrophically.
 
-A myth does not update when reality pushes back. It absorbs the pushback, reframes it, metabolizes it within its own logic. This is its power: it can hold tremendous stress without bending. But the same property that makes myth durable makes it dangerous under the right conditions. When the gap between what a myth promises and what its carriers actually experience becomes too wide to absorb, the myth does not gradually update. It walks. The forms persist, the calendar continues, the vocabulary remains in circulation—but the current is dead. Private disbelief accumulates invisibly, maintained by the social cost of naming the gap.
+A myth does not update when reality pushes back. It absorbs the pushback, reframes it, metabolizes it within its own logic. This is its power: it can hold tremendous stress without bending. But the same property that makes myth durable makes it dangerous under the right conditions. When the gap between what a myth promises and what its carriers actually experience becomes too wide to absorb, the myth does not update by degrees. Belief simply leaves. The forms persist, the calendar continues, the vocabulary remains in circulation—but the current is dead. Private disbelief accumulates invisibly, maintained by the social cost of naming the gap.
 
 Then the myth falls. Not gradually—suddenly. Decades of private disbelief become public in months. What made it resistant to small corrosions is precisely what makes it vulnerable to total collapse.
 
@@ -2692,7 +2694,7 @@ The Braintrust embodies anti-scapegoat dynamics perfectly. The film is the objec
 
 ##### Bell Labs (1925–1970s)
 
-Bell Telephone Laboratories during its golden era—roughly from its founding through the 1970s—represents the Dionysian Ideal applied to fundamental research. It produced the transistor, information theory, the laser, Unix, C programming language, and numerous Nobel Prizes while maintaining a culture where genuine intellectual combat coexisted with deep collegiality.
+Bell Telephone Laboratories during its golden era—roughly from its founding through the 1970s—represents the Dionysian Ideal applied to fundamental research. It produced the transistor, information theory, the laser, Unix, the C programming language, and numerous Nobel Prizes while maintaining a culture where genuine intellectual combat coexisted with deep collegiality.
 
 **Melt:** Bell Labs deliberately embraced high melt. Researchers were expected to pursue problems that might take years to solve, and many projects were abandoned after substantial investment. The Labs explicitly rejected the notion that research should be "safe." The environmental melt of rapidly advancing physics and mathematics was compounded by chosen melt—the Labs funded speculative work that most organizations would consider too risky.
 
@@ -3209,7 +3211,7 @@ RadioShack's decades-long decline from electronics leader to bankruptcy represen
 
 RadioShack attempted multiple pivots: focus on mobile phones, emphasize repair services, rebrand as "The Shack." None fundamentally addressed the strategic position because none were desperate enough. The company had just enough revenue, just enough cash flow, just enough brand equity to maintain the illusion that modest adjustments could restore health. They couldn't. RadioShack filed for bankruptcy in 2015 and again in 2017.
 
-**Lesson:** Slow Decline creates the illusion of time. RadioShack had decades to transform. Each year that transformation was deferred, the accumulated gap between current capabilities and required capabilities grew. But the urgency never materialized because each year's decline was modest. The frog-in-boiling-water metaphor exists precisely because this dynamic is so common and so lethal.
+**Lesson:** Slow Decline creates the illusion of time. RadioShack had decades to transform. Each year that transformation was deferred, the accumulated gap between current capabilities and required capabilities grew. But the urgency never materialized because each year's decline was modest.
 
 ---
 
@@ -3380,7 +3382,7 @@ Webvan represents the Overwhelmed archetype at startup scale: an organization th
 
 **Melt:** Webvan's chosen melt was staggering. The company attempted to build from scratch: automated warehouses, proprietary logistics software, consumer brand, delivery fleet, and same-day grocery delivery—simultaneously, across multiple metropolitan areas. Each capability alone would have been a significant organizational challenge.
 
-**Ritual Capacity:** Webvan invested heavily in building operational rituals. The automated warehouses were technically sophisticated. The logistics software was custom-built. But these rituals were being designed and implemented simultaneously with scaling the business—building the plane while flying it, at altitude.
+**Ritual Capacity:** Webvan invested heavily in building operational rituals. The automated warehouses were technically sophisticated. The logistics software was custom-built. But these rituals were being designed and implemented even as the business scaled on top of them.
 
 **Trust:** Internal trust was high initially—the founding team was credible, the investors were prestigious, the mission was ambitious. But the pace of execution left no time to build the organizational depth that trust requires. New hires couldn't be properly onboarded when everything was moving at crisis speed.
 
@@ -3563,13 +3565,13 @@ The common pattern: the Epimetabolic Equation predicts this when decay consisten
 
 The Communist Party of the Soviet Union in its final two decades—particularly the Brezhnev era (1964–1982) through dissolution in 1991—became the paradigmatic case of rituals exceeding trust. At its peak, the Party had 20 million members and an elaborate apparatus of congresses, committees, planning sessions, and ideological rituals designed to coordinate a superpower.
 
-The Party "founded the country when it had 200,000 people, defended it when it had 2 million people, but destroyed it when it had 20 million people." The apparatus grew even as the substance drained away.
+The Party founded the country with 200,000 members, defended it with 2 million, and destroyed it with 20 million. The apparatus grew even as the substance drained away.
 
 **Melt:** The Soviet system faced enormous environmental pressure—economic stagnation, technological lag behind the West, the Afghanistan war, nationalist pressures in the republics, and a population increasingly aware that the official ideology didn't match lived reality.
 
 **Ritual Capacity:** Massive. The Party had an elaborate system of congresses, plenums, five-year plans, self-criticism sessions, ideological education, and formal reporting structures. The nomenklatura system ensured that every significant position required Party approval.
 
-**Trust:** Collapsing. Officials at all levels were "boastful, unpragmatic, content with the status quo... good at praising the good deeds of their superiors and angling for undeserved fame, but unconcerned by real-world circumstances and people's voices from the grassroots."
+**Trust:** Collapsing. Officials at all levels were boastful, unpragmatic, and content with the status quo—skilled at praising their superiors and angling for undeserved credit, indifferent to real-world circumstances and to voices from the grassroots.
 
 The Theater term—rituals exceeding available trust—was enormous. Everyone attended the meetings, mouthed the formulas, filed the reports. Nobody believed them. Trotsky had identified this dynamic decades earlier as "glavkokratiia"—bureaucratic dysfunction where the forms of administration displaced their substance.
 
