@@ -1,6 +1,11 @@
 notes_archive_url: notes/
 recent_notes_empty: false
 recent_notes:
+  - title: Mission Theater destroys trust faster than silence
+    display_date: June 9, 2026
+    url: notes/2026-06-09-mission-theater-destroys-trust-faster-than-silence/index.html
+    excerpt: Mission Theater destroys trust faster than silence.
+    pillar: Extracted Insights
   - title: Most leadership teams confuse the storm outside with the fire they chose
       to start
     display_date: June 8, 2026
@@ -14,10 +19,4 @@ recent_notes:
     url: notes/2026-06-05-if-people-cannot-challenge-doctrine-in-public-they-will-route-around-it-in-private/index.html
     excerpt: If people cannot challenge doctrine in public, they will route around
       it in private.
-    pillar: Extracted Insights
-  - title: If the room does not know what mode it is in, truth becomes a status gamble
-    display_date: June 4, 2026
-    url: notes/2026-06-04-if-the-room-does-not-know-what-mode-it-is-in-truth-becomes-a-status-gamble/index.html
-    excerpt: If the room does not know what mode it is in, truth becomes a status
-      gamble.
     pillar: Extracted Insights
