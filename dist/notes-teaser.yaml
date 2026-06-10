@@ -1,6 +1,11 @@
 notes_archive_url: notes/
 recent_notes_empty: false
 recent_notes:
+  - title: “Let’s stay flexible” is often a polite way to keep bad explanations alive
+    display_date: June 10, 2026
+    url: notes/2026-06-10-let-s-stay-flexible-is-often-a-polite-way-to-keep-bad-explanations-alive/index.html
+    excerpt: “Let’s stay flexible” is often a polite way to keep bad explanations alive.
+    pillar: Extracted Insights
   - title: Mission Theater destroys trust faster than silence
     display_date: June 9, 2026
     url: notes/2026-06-09-mission-theater-destroys-trust-faster-than-silence/index.html
@@ -12,11 +17,4 @@ recent_notes:
     url: notes/2026-06-08-most-leadership-teams-confuse-the-storm-outside-with-the-fire-they-chose-to-start/index.html
     excerpt: Most leadership teams confuse the storm outside with the fire they
       chose to start.
-    pillar: Extracted Insights
-  - title: If people cannot challenge doctrine in public, they will route around it
-      in private
-    display_date: June 5, 2026
-    url: notes/2026-06-05-if-people-cannot-challenge-doctrine-in-public-they-will-route-around-it-in-private/index.html
-    excerpt: If people cannot challenge doctrine in public, they will route around
-      it in private.
     pillar: Extracted Insights
