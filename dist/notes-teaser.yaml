@@ -1,6 +1,13 @@
 notes_archive_url: notes/
 recent_notes_empty: false
 recent_notes:
+  - title: If your “Great Dissolution” fits neatly between two status meetings, it
+      isn’t one
+    display_date: June 11, 2026
+    url: notes/2026-06-11-if-your-great-dissolution-fits-neatly-between-two-status-meetings-it-isn-t-one/index.html
+    excerpt: If your “Great Dissolution” fits neatly between two status meetings, it
+      isn’t one.
+    pillar: Extracted Insights
   - title: “Let’s stay flexible” is often a polite way to keep bad explanations alive
     display_date: June 10, 2026
     url: notes/2026-06-10-let-s-stay-flexible-is-often-a-polite-way-to-keep-bad-explanations-alive/index.html
@@ -10,11 +17,4 @@ recent_notes:
     display_date: June 9, 2026
     url: notes/2026-06-09-mission-theater-destroys-trust-faster-than-silence/index.html
     excerpt: Mission Theater destroys trust faster than silence.
-    pillar: Extracted Insights
-  - title: Most leadership teams confuse the storm outside with the fire they chose
-      to start
-    display_date: June 8, 2026
-    url: notes/2026-06-08-most-leadership-teams-confuse-the-storm-outside-with-the-fire-they-chose-to-start/index.html
-    excerpt: Most leadership teams confuse the storm outside with the fire they
-      chose to start.
     pillar: Extracted Insights
