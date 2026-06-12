@@ -1,6 +1,13 @@
 notes_archive_url: notes/
 recent_notes_empty: false
 recent_notes:
+  - title: The Impatience of Jobs is the problem of compressing relational time
+      without building a cult
+    display_date: June 12, 2026
+    url: notes/2026-06-12-the-impatience-of-jobs-is-the-problem-of-compressing-relational-time-without-building-a-cult/index.html
+    excerpt: AI can compress work. It cannot compress the bushel of salt it takes
+      for people to trust each other.
+    pillar: Extracted Insights
   - title: If your “Great Dissolution” fits neatly between two status meetings, it
       isn’t one
     display_date: June 11, 2026
@@ -12,9 +19,4 @@ recent_notes:
     display_date: June 10, 2026
     url: notes/2026-06-10-let-s-stay-flexible-is-often-a-polite-way-to-keep-bad-explanations-alive/index.html
     excerpt: “Let’s stay flexible” is often a polite way to keep bad explanations alive.
-    pillar: Extracted Insights
-  - title: Mission Theater destroys trust faster than silence
-    display_date: June 9, 2026
-    url: notes/2026-06-09-mission-theater-destroys-trust-faster-than-silence/index.html
-    excerpt: Mission Theater destroys trust faster than silence.
     pillar: Extracted Insights
