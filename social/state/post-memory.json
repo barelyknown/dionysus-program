@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T13:47:05.619Z",
+  "generated_at": "2026-06-14T16:42:08.245Z",
   "published_count": 65,
   "rolling_window_days": 84,
   "typeCounts": {
@@ -13,71 +13,6 @@
     "short_story": 1
   },
   "recent_hooks": [
-    {
-      "post_id": "019dd439-c628-af80-48d5-7773d64edbb2",
-      "external_post_id": "019dd439-c628-af80-48d5-7773d64edbb2",
-      "published_at": "2026-04-28T13:14:09.328Z",
-      "linkedin_post_url": null,
-      "linkedin_activity_urn": null,
-      "content_type": "archetype_diagnosis",
-      "pillar": "Archetype Diagnosis",
-      "topic_thesis": "Planning tools are communication tools when they make uncertainty socially admissible before the fact.",
-      "angle": "Make the pattern recognizable fast and show what drives it. Keep the framing specific to this thesis: Planning tools are communication tools when they make uncertainty socially admissible before the fact.",
-      "hook": "If the trucks are backed up at 2 a.m., the mistake happened hours earlier.",
-      "summary": "If the trucks are backed up at 2 a.m., the mistake happened hours earlier.\n\nThe archetype is the culturally admissible over-order. You see it when surplus capacity shows up as “discipline,” when the planning meeting is full of false precision, when the dashboard gets more detaile",
-      "source_refs": [],
-      "framework_terms_used": [
-        "li"
-      ],
-      "subject_entities": [],
-      "timely_subject": null,
-      "research_bundle_id": null,
-      "winning_candidate_id": "c0b09ac542df",
-      "final_text_hash": "ea1f8e680bb09eb20b80c275a084d818dd727fa02ea86d4bb4b4c10c5353b985",
-      "note_slug": "2026-04-28-planning-tools-are-communication-tools-when-they-make-uncertainty-socially-admissible-before-the-fact",
-      "note_source_path": "content/notes/2026-04-28-planning-tools-are-communication-tools-when-they-make-uncertainty-socially-admissible-before-the-fact.md",
-      "x_status": "published",
-      "x_external_post_id": "2049115400877535549",
-      "x_published_at": "2026-04-28T13:15:57.048Z",
-      "x_winning_candidate_id": "63c52b3189a9",
-      "x_final_text_hash": "bd3434759e9264441c31d90587eeac6a1ba976308ba79110ad5ebf23499d21dc",
-      "x_summary": "Idle trucks at 2 a.m. are rarely a logistics problem.\n\nThey’re the receipt for uncertainty nobody felt safe to name at noon. When doubt is socially expensive, it gets hidden in padded orders, precise plans, and disciplined surplus.",
-      "x_skip_reason": null
-    },
-    {
-      "post_id": "019dd95d-fef6-908d-a73f-83ce029e37f8",
-      "external_post_id": "019dd95d-fef6-908d-a73f-83ce029e37f8",
-      "published_at": "2026-04-29T13:11:49.248Z",
-      "linkedin_post_url": null,
-      "linkedin_activity_urn": null,
-      "content_type": "extracted_insight",
-      "pillar": "Extracted Insights",
-      "topic_thesis": "Li can be designed, but Ren has to be generated.",
-      "angle": "Name the concept, explain it plainly, and show why it matters now. Keep the framing specific to this thesis: Li can be designed, but Ren has to be generated.",
-      "hook": "The fastest way to make candor unsafe is to formalize it too early.",
-      "summary": "The fastest way to make candor unsafe is to formalize it too early.\n\nConfucius drew the line cleanly. Li is ritual form: the meeting agenda, the rule set, the calendar invite, the “No-Blame Covenant.” Ren is the current: trust, benevolence, shared history between people. Li can b",
-      "source_refs": [],
-      "framework_terms_used": [
-        "trust",
-        "management theater",
-        "li",
-        "ren"
-      ],
-      "subject_entities": [],
-      "timely_subject": null,
-      "research_bundle_id": null,
-      "winning_candidate_id": "4d0180a02323",
-      "final_text_hash": "65a97397d932decf53480bd090f2ca493eded7309e624b1d9bc739d04d8f7858",
-      "note_slug": "2026-04-29-the-fastest-way-to-make-candor-unsafe-is-to-formalize-it-too-early",
-      "note_source_path": "content/notes/2026-04-29-the-fastest-way-to-make-candor-unsafe-is-to-formalize-it-too-early.md",
-      "x_status": "published",
-      "x_external_post_id": "2049477232679088585",
-      "x_published_at": "2026-04-29T13:13:44.489Z",
-      "x_winning_candidate_id": "0529ffe7166b",
-      "x_final_text_hash": "17fffa0fc38e9e5911d047ab4d0782c89fe2171c512bb7c3fb33bde9f82dc831",
-      "x_summary": "When trust is thin, every honesty ritual gets misread.\n\nThe calendar invite says blameless postmortem. The room hears evidence collection. Modern work keeps adding structure while stripping out the shared context that makes structure feel safe.",
-      "x_skip_reason": null
-    },
     {
       "post_id": "019dde82-2051-708e-58f1-4e5e8a6fb206",
       "external_post_id": "019dde82-2051-708e-58f1-4e5e8a6fb206",
@@ -1146,44 +1081,6 @@
     }
   ],
   "recent_angles": [
-    {
-      "post_id": "019d3edb-4b69-a084-7520-4c1dc07bacbe",
-      "external_post_id": "019d3edb-4b69-a084-7520-4c1dc07bacbe",
-      "published_at": "2026-03-30T13:07:32.349Z",
-      "linkedin_post_url": null,
-      "linkedin_activity_urn": null,
-      "content_type": "decoder_ring",
-      "pillar": "Decoder Ring",
-      "topic_thesis": "The Apollo Program is necessary but insufficient because optimization cannot metabolize meaning.",
-      "angle": "Open on Klarna CEO says company went too far in cutting customer service staff with AI in plain language, then show how it makes the deeper diagnosis legible.",
-      "hook": "Sebastian Siemiatkowski said Klarna went too far cutting customer service with AI, and quality suffered. That is not a customer support story. It is a management story.",
-      "summary": "Sebastian Siemiatkowski said Klarna went too far cutting customer service with AI, and quality suffered. That is not a customer support story. It is a management story.\n\nWhat people miss is the failure mode. The model did not simply “underperform.” Klarna made cost the dominant m",
-      "source_refs": [
-        "https://www.reuters.com/technology/artificial-intelligence/klarna-ceo-says-company-went-too-far-cutting-customer-service-staff-ai-2026-03-24/",
-        "https://www.reuters.com/legal/judge-blocks-us-ban-anthropic-ai-firm-after-pentagon-dispute-2026-03-26/",
-        "https://www.klarna.com/international/press/klarna-ai-assistant-handles-two-thirds-of-customer-service-chats-in-its-first-month/",
-        "https://www.anthropic.com/news/anthropic-partners-with-palantir-and-aws-to-provide-u-s-intelligence-and-defense-agencies-access-to-claude",
-        "https://openai.com/index/openai-and-anthropic-agree-to-work-with-us-ai-safety-institute-on-pre-release-testing/"
-      ],
-      "framework_terms_used": [
-        "trust",
-        "li",
-        "ren"
-      ],
-      "timely_subject": "Klarna CEO says company went too far in cutting customer service staff with AI",
-      "research_bundle_id": "fd50544be6d0",
-      "winning_candidate_id": "77db5e0b4123",
-      "final_text_hash": "820a5a15dca4ca52c0b69c1b812157e1cc00bde9ff776a6ef1c918c2d5966f2f",
-      "note_slug": "2026-03-30-the-apollo-program-is-necessary-but-insufficient-because-optimization-cannot-metabolize-meaning",
-      "note_source_path": "content/notes/2026-03-30-the-apollo-program-is-necessary-but-insufficient-because-optimization-cannot-metabolize-meaning.md",
-      "x_status": "published",
-      "x_external_post_id": "2038604454153314497",
-      "x_published_at": "2026-03-30T13:09:12.097Z",
-      "x_winning_candidate_id": "dd14e8645577",
-      "x_final_text_hash": "86b9435f1ebe997d0ffc1a54b44f2ee8af23a2207440aa9e7267ff0a330e258c",
-      "x_summary": "Klarna’s mistake wasn’t using AI in support. It was redefining support as answer retrieval.\n\nOnce cost becomes the dominant metric, the function shrinks. You don’t just lose warmth. You lose the place where a company absorbs fear, exceptions, and blame.",
-      "x_skip_reason": null
-    },
     {
       "post_id": "019d43fb-ee23-6ec5-a55d-6b1d90391b06",
       "external_post_id": "019d43fb-ee23-6ec5-a55d-6b1d90391b06",
@@ -5189,86 +5086,6 @@
   ],
   "recent_subjects": [
     {
-      "post_id": "019e218e-5e50-6ce9-4201-f16bb564efd2",
-      "external_post_id": "019e218e-5e50-6ce9-4201-f16bb564efd2",
-      "published_at": "2026-05-13T13:37:18.966Z",
-      "linkedin_post_url": null,
-      "linkedin_activity_urn": null,
-      "content_type": "decoder_ring",
-      "pillar": "Decoder Ring",
-      "topic_thesis": "The Apollo Program is necessary but insufficient because optimization cannot metabolize meaning.",
-      "angle": "Open on Klarna AI assistant handles two-thirds of customer service chats in its first month in plain language, then show how it makes the deeper diagnosis legible.",
-      "hook": "Klarna’s AI assistant handled 2.3 million customer service conversations in its first month—about two-thirds of the total. Impressive. It is also the cleanest expression of a category error.",
-      "summary": "Klarna’s AI assistant handled 2.3 million customer service conversations in its first month—about two-thirds of the total. Impressive. It is also the cleanest expression of a category error.\n\nThe win is real. Faster service, lower cost, less labor for the same queue. Apollo works",
-      "source_refs": [
-        "https://www.klarna.com/international/press/klarna-ai-assistant-handles-two-thirds-of-customer-service-chats-in-its-first-month/",
-        "https://www.cnbc.com/2026/05/11/klarna-ceo-says-company-went-too-far-using-ai-in-customer-service-and-will-hire-more-humans.html",
-        "https://www.reuters.com/world/uk/google-deepmind-workers-seek-union-recognition-over-military-ai-concerns-2026-05-07/",
-        "https://www.reuters.com/technology/microsoft-offers-some-employees-voluntary-buyouts-free-up-cash-ai-spending-bloomberg-news-reports-2026-04-23/",
-        "https://www.reuters.com/technology/openais-nonprofit-control-faces-fresh-scrutiny-musk-case-advances-2026-04-18/"
-      ],
-      "framework_terms_used": [
-        "trust",
-        "li"
-      ],
-      "subject_entities": [
-        "Klarna"
-      ],
-      "timely_subject": "Klarna AI assistant handles two-thirds of customer service chats in its first month",
-      "research_bundle_id": "af8c5a33ae94",
-      "winning_candidate_id": "6b0c115d24cb",
-      "final_text_hash": "cea508986f76ea621b436807abab8e31332b53f32367f82c1dd9736f617d17fa",
-      "note_slug": "2026-05-13-the-apollo-program-is-necessary-but-insufficient-because-optimization-cannot-metabolize-meaning",
-      "note_source_path": "content/notes/2026-05-13-the-apollo-program-is-necessary-but-insufficient-because-optimization-cannot-metabolize-meaning.md",
-      "x_status": "published",
-      "x_external_post_id": "2054557198190362776",
-      "x_published_at": "2026-05-13T13:39:42.633Z",
-      "x_winning_candidate_id": "da4405085417",
-      "x_final_text_hash": "2c40a5af258045726522bba17d61b210d1988b99147b14263e110f1748153aac",
-      "x_summary": "Ticket resolution is a process. Customer service is also a sensing system. Confusing the two is how automation wins become governance losses.\n\nKlarna’s 2.3 million AI chats show the upside clearly. They also show that meaning, exceptions, and mistrust don’t get automated away.",
-      "x_skip_reason": null
-    },
-    {
-      "post_id": "019e26a5-f87d-cd2a-201b-3fd76530f6d2",
-      "external_post_id": "019e26a5-f87d-cd2a-201b-3fd76530f6d2",
-      "published_at": "2026-05-14T13:21:11.812Z",
-      "linkedin_post_url": null,
-      "linkedin_activity_urn": null,
-      "content_type": "decoder_ring",
-      "pillar": "Decoder Ring",
-      "topic_thesis": "Planning tools are communication tools when they make uncertainty socially admissible before the fact.",
-      "angle": "Open on Microsoft Work Trend Index 2026 in plain language, then show how it makes the deeper diagnosis legible.",
-      "hook": "Microsoft’s 2026 Work Trend Index is a useful confession: the models moved first, and management didn’t. Read plainly, the technology is ready to act before many organizations are ready to hear, “We’re not sure.”",
-      "summary": "Microsoft’s 2026 Work Trend Index is a useful confession: the models moved first, and management didn’t. Read plainly, the technology is ready to act before many organizations are ready to hear, “We’re not sure.”\n\nThat’s the deeper diagnosis people miss. Planning tools are not ma",
-      "source_refs": [
-        "https://www.microsoft.com/en-us/worklab/work-trend-index/",
-        "https://www.reuters.com/world/uk/google-deepmind-workers-seek-union-recognition-over-military-ai-concerns-2026-05-07/",
-        "https://www.cnbc.com/2026/04/24/google-workers-urge-company-to-bar-pentagon-from-using-its-ai-for-classified-work.html",
-        "https://ai.google/responsibility/principles/"
-      ],
-      "framework_terms_used": [
-        "management theater",
-        "li",
-        "ren"
-      ],
-      "subject_entities": [
-        "Microsoft"
-      ],
-      "timely_subject": "Microsoft Work Trend Index 2026",
-      "research_bundle_id": "00283950f661",
-      "winning_candidate_id": "d7d912b0d1b7",
-      "final_text_hash": "7118a05f89c9dd33cfaf686b5998c3324c95e101eb3541c9b3f7ed006941ae74",
-      "note_slug": "2026-05-14-planning-tools-are-communication-tools-when-they-make-uncertainty-socially-admissible-before-the-fact",
-      "note_source_path": "content/notes/2026-05-14-planning-tools-are-communication-tools-when-they-make-uncertainty-socially-admissible-before-the-fact.md",
-      "x_status": "published",
-      "x_external_post_id": "2054915299724394658",
-      "x_published_at": "2026-05-14T13:22:40.694Z",
-      "x_winning_candidate_id": "845c0fb1bed8",
-      "x_final_text_hash": "1d5cd14c5ae7fc73e134db9daebcca2f77222ec322edd6e5bf1ea0dcf2693656",
-      "x_summary": "Planning tools don’t fail because forecasts are wrong. They fail because uncertainty can’t be spoken early.\n\nThen teams pad estimates, hide insurance, and wait for reality to make honesty permissible. That’s not planning. It’s management theater.",
-      "x_skip_reason": null
-    },
-    {
       "post_id": "019e2bc6-709e-eb78-0c56-e9cc2842dabf",
       "external_post_id": "019e2bc6-709e-eb78-0c56-e9cc2842dabf",
       "published_at": "2026-05-15T13:14:45.800Z",
@@ -5948,38 +5765,6 @@
   ],
   "recent_sources": [
     {
-      "post_id": "019e4fe1-a7d5-2b89-c974-07da36de991e",
-      "external_post_id": "019e4fe1-a7d5-2b89-c974-07da36de991e",
-      "published_at": "2026-05-22T13:30:49.214Z",
-      "linkedin_post_url": null,
-      "linkedin_activity_urn": null,
-      "content_type": "extracted_insight",
-      "pillar": "Extracted Insights",
-      "topic_thesis": "AI independence and distributed work shrink the surface area where trust used to form by accident.",
-      "angle": "Name the concept, explain it plainly, and show why it matters now. Keep the framing specific to this thesis: AI independence and distributed work shrink the surface area where trust used to form by accident.",
-      "hook": "AI is turning trust from a byproduct into a line item.",
-      "summary": "AI is turning trust from a byproduct into a line item.\n\nWhat used to build trust at work was relationship surface area: shared space, shared problems, shared outcomes. People didn’t need a program for it. Work itself forced contact, and some trust formed in the gaps.\n\nAI independ",
-      "source_refs": [],
-      "framework_terms_used": [
-        "trust",
-        "li"
-      ],
-      "subject_entities": [],
-      "timely_subject": null,
-      "research_bundle_id": null,
-      "winning_candidate_id": "52cebe19a140",
-      "final_text_hash": "f59c44b3017768f171dec43656981a419e87cf5c9d9b2ba15ef78a8dfd3f4232",
-      "note_slug": "2026-05-22-ai-is-turning-trust-from-a-byproduct-into-a-line-item",
-      "note_source_path": "content/notes/2026-05-22-ai-is-turning-trust-from-a-byproduct-into-a-line-item.md",
-      "x_status": "published",
-      "x_external_post_id": "2057816853968478584",
-      "x_published_at": "2026-05-22T13:32:25.137Z",
-      "x_winning_candidate_id": "0bbd75ea442f",
-      "x_final_text_hash": "7b48ecd1e6754fc128445d0e9772d82c5520441d2f294dd4555e4392483bd92f",
-      "x_summary": "Coordination is not trust.\n\nYou can have fast replies, crisp meetings, clean handoffs—and still have a company full of strangers. Shared work used to close that gap. AI and distributed work widen it, even as everything looks more organized.",
-      "x_skip_reason": null
-    },
-    {
       "post_id": "019e5f62-6615-16b2-057b-8566947fc736",
       "external_post_id": "019e5f62-6615-16b2-057b-8566947fc736",
       "published_at": "2026-05-25T13:45:44.757Z",
@@ -6466,86 +6251,5 @@
       "x_skip_reason": null
     }
   ],
-  "recent_entities": [
-    {
-      "post_id": "019e218e-5e50-6ce9-4201-f16bb564efd2",
-      "external_post_id": "019e218e-5e50-6ce9-4201-f16bb564efd2",
-      "published_at": "2026-05-13T13:37:18.966Z",
-      "linkedin_post_url": null,
-      "linkedin_activity_urn": null,
-      "content_type": "decoder_ring",
-      "pillar": "Decoder Ring",
-      "topic_thesis": "The Apollo Program is necessary but insufficient because optimization cannot metabolize meaning.",
-      "angle": "Open on Klarna AI assistant handles two-thirds of customer service chats in its first month in plain language, then show how it makes the deeper diagnosis legible.",
-      "hook": "Klarna’s AI assistant handled 2.3 million customer service conversations in its first month—about two-thirds of the total. Impressive. It is also the cleanest expression of a category error.",
-      "summary": "Klarna’s AI assistant handled 2.3 million customer service conversations in its first month—about two-thirds of the total. Impressive. It is also the cleanest expression of a category error.\n\nThe win is real. Faster service, lower cost, less labor for the same queue. Apollo works",
-      "source_refs": [
-        "https://www.klarna.com/international/press/klarna-ai-assistant-handles-two-thirds-of-customer-service-chats-in-its-first-month/",
-        "https://www.cnbc.com/2026/05/11/klarna-ceo-says-company-went-too-far-using-ai-in-customer-service-and-will-hire-more-humans.html",
-        "https://www.reuters.com/world/uk/google-deepmind-workers-seek-union-recognition-over-military-ai-concerns-2026-05-07/",
-        "https://www.reuters.com/technology/microsoft-offers-some-employees-voluntary-buyouts-free-up-cash-ai-spending-bloomberg-news-reports-2026-04-23/",
-        "https://www.reuters.com/technology/openais-nonprofit-control-faces-fresh-scrutiny-musk-case-advances-2026-04-18/"
-      ],
-      "framework_terms_used": [
-        "trust",
-        "li"
-      ],
-      "subject_entities": [
-        "Klarna"
-      ],
-      "timely_subject": "Klarna AI assistant handles two-thirds of customer service chats in its first month",
-      "research_bundle_id": "af8c5a33ae94",
-      "winning_candidate_id": "6b0c115d24cb",
-      "final_text_hash": "cea508986f76ea621b436807abab8e31332b53f32367f82c1dd9736f617d17fa",
-      "note_slug": "2026-05-13-the-apollo-program-is-necessary-but-insufficient-because-optimization-cannot-metabolize-meaning",
-      "note_source_path": "content/notes/2026-05-13-the-apollo-program-is-necessary-but-insufficient-because-optimization-cannot-metabolize-meaning.md",
-      "x_status": "published",
-      "x_external_post_id": "2054557198190362776",
-      "x_published_at": "2026-05-13T13:39:42.633Z",
-      "x_winning_candidate_id": "da4405085417",
-      "x_final_text_hash": "2c40a5af258045726522bba17d61b210d1988b99147b14263e110f1748153aac",
-      "x_summary": "Ticket resolution is a process. Customer service is also a sensing system. Confusing the two is how automation wins become governance losses.\n\nKlarna’s 2.3 million AI chats show the upside clearly. They also show that meaning, exceptions, and mistrust don’t get automated away.",
-      "x_skip_reason": null
-    },
-    {
-      "post_id": "019e26a5-f87d-cd2a-201b-3fd76530f6d2",
-      "external_post_id": "019e26a5-f87d-cd2a-201b-3fd76530f6d2",
-      "published_at": "2026-05-14T13:21:11.812Z",
-      "linkedin_post_url": null,
-      "linkedin_activity_urn": null,
-      "content_type": "decoder_ring",
-      "pillar": "Decoder Ring",
-      "topic_thesis": "Planning tools are communication tools when they make uncertainty socially admissible before the fact.",
-      "angle": "Open on Microsoft Work Trend Index 2026 in plain language, then show how it makes the deeper diagnosis legible.",
-      "hook": "Microsoft’s 2026 Work Trend Index is a useful confession: the models moved first, and management didn’t. Read plainly, the technology is ready to act before many organizations are ready to hear, “We’re not sure.”",
-      "summary": "Microsoft’s 2026 Work Trend Index is a useful confession: the models moved first, and management didn’t. Read plainly, the technology is ready to act before many organizations are ready to hear, “We’re not sure.”\n\nThat’s the deeper diagnosis people miss. Planning tools are not ma",
-      "source_refs": [
-        "https://www.microsoft.com/en-us/worklab/work-trend-index/",
-        "https://www.reuters.com/world/uk/google-deepmind-workers-seek-union-recognition-over-military-ai-concerns-2026-05-07/",
-        "https://www.cnbc.com/2026/04/24/google-workers-urge-company-to-bar-pentagon-from-using-its-ai-for-classified-work.html",
-        "https://ai.google/responsibility/principles/"
-      ],
-      "framework_terms_used": [
-        "management theater",
-        "li",
-        "ren"
-      ],
-      "subject_entities": [
-        "Microsoft"
-      ],
-      "timely_subject": "Microsoft Work Trend Index 2026",
-      "research_bundle_id": "00283950f661",
-      "winning_candidate_id": "d7d912b0d1b7",
-      "final_text_hash": "7118a05f89c9dd33cfaf686b5998c3324c95e101eb3541c9b3f7ed006941ae74",
-      "note_slug": "2026-05-14-planning-tools-are-communication-tools-when-they-make-uncertainty-socially-admissible-before-the-fact",
-      "note_source_path": "content/notes/2026-05-14-planning-tools-are-communication-tools-when-they-make-uncertainty-socially-admissible-before-the-fact.md",
-      "x_status": "published",
-      "x_external_post_id": "2054915299724394658",
-      "x_published_at": "2026-05-14T13:22:40.694Z",
-      "x_winning_candidate_id": "845c0fb1bed8",
-      "x_final_text_hash": "1d5cd14c5ae7fc73e134db9daebcca2f77222ec322edd6e5bf1ea0dcf2693656",
-      "x_summary": "Planning tools don’t fail because forecasts are wrong. They fail because uncertainty can’t be spoken early.\n\nThen teams pad estimates, hide insurance, and wait for reality to make honesty permissible. That’s not planning. It’s management theater.",
-      "x_skip_reason": null
-    }
-  ]
+  "recent_entities": []
 }
