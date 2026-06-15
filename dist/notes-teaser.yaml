@@ -1,6 +1,13 @@
 notes_archive_url: notes/
 recent_notes_empty: false
 recent_notes:
+  - title: The fastest way to make a team hate culture is to confuse play with
+      recovery
+    display_date: June 15, 2026
+    url: notes/2026-06-15-the-fastest-way-to-make-a-team-hate-culture-is-to-confuse-play-with-recovery/index.html
+    excerpt: The fastest way to make a team hate culture is to confuse play with
+      recovery.
+    pillar: Extracted Insights
   - title: The Impatience of Jobs is the problem of compressing relational time
       without building a cult
     display_date: June 12, 2026
@@ -14,9 +21,4 @@ recent_notes:
     url: notes/2026-06-11-if-your-great-dissolution-fits-neatly-between-two-status-meetings-it-isn-t-one/index.html
     excerpt: If your “Great Dissolution” fits neatly between two status meetings, it
       isn’t one.
-    pillar: Extracted Insights
-  - title: “Let’s stay flexible” is often a polite way to keep bad explanations alive
-    display_date: June 10, 2026
-    url: notes/2026-06-10-let-s-stay-flexible-is-often-a-polite-way-to-keep-bad-explanations-alive/index.html
-    excerpt: “Let’s stay flexible” is often a polite way to keep bad explanations alive.
     pillar: Extracted Insights
