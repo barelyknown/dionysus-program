@@ -1,6 +1,11 @@
 notes_archive_url: notes/
 recent_notes_empty: false
 recent_notes:
+  - title: Gate failure doesn’t stop melt. It relocates it
+    display_date: June 16, 2026
+    url: notes/2026-06-16-gate-failure-doesn-t-stop-melt-it-relocates-it/index.html
+    excerpt: Gate failure doesn’t stop melt. It relocates it.
+    pillar: Extracted Insights
   - title: The fastest way to make a team hate culture is to confuse play with
       recovery
     display_date: June 15, 2026
@@ -14,11 +19,4 @@ recent_notes:
     url: notes/2026-06-12-the-impatience-of-jobs-is-the-problem-of-compressing-relational-time-without-building-a-cult/index.html
     excerpt: AI can compress work. It cannot compress the bushel of salt it takes
       for people to trust each other.
-    pillar: Extracted Insights
-  - title: If your “Great Dissolution” fits neatly between two status meetings, it
-      isn’t one
-    display_date: June 11, 2026
-    url: notes/2026-06-11-if-your-great-dissolution-fits-neatly-between-two-status-meetings-it-isn-t-one/index.html
-    excerpt: If your “Great Dissolution” fits neatly between two status meetings, it
-      isn’t one.
     pillar: Extracted Insights
