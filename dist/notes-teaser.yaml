@@ -1,6 +1,11 @@
 notes_archive_url: notes/
 recent_notes_empty: false
 recent_notes:
+  - title: The moment a failure becomes a character trial, learning stops
+    display_date: June 17, 2026
+    url: notes/2026-06-17-the-moment-a-failure-becomes-a-character-trial-learning-stops/index.html
+    excerpt: The moment a failure becomes a character trial, learning stops.
+    pillar: Extracted Insights
   - title: Gate failure doesn’t stop melt. It relocates it
     display_date: June 16, 2026
     url: notes/2026-06-16-gate-failure-doesn-t-stop-melt-it-relocates-it/index.html
@@ -12,11 +17,4 @@ recent_notes:
     url: notes/2026-06-15-the-fastest-way-to-make-a-team-hate-culture-is-to-confuse-play-with-recovery/index.html
     excerpt: The fastest way to make a team hate culture is to confuse play with
       recovery.
-    pillar: Extracted Insights
-  - title: The Impatience of Jobs is the problem of compressing relational time
-      without building a cult
-    display_date: June 12, 2026
-    url: notes/2026-06-12-the-impatience-of-jobs-is-the-problem-of-compressing-relational-time-without-building-a-cult/index.html
-    excerpt: AI can compress work. It cannot compress the bushel of salt it takes
-      for people to trust each other.
     pillar: Extracted Insights
