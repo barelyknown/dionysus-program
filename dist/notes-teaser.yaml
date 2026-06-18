@@ -1,6 +1,11 @@
 notes_archive_url: notes/
 recent_notes_empty: false
 recent_notes:
+  - title: If your postmortem feels like just another meeting, it is
+    display_date: June 18, 2026
+    url: notes/2026-06-18-if-your-postmortem-feels-like-just-another-meeting-it-is/index.html
+    excerpt: If your postmortem feels like just another meeting, it is.
+    pillar: Extracted Insights
   - title: The moment a failure becomes a character trial, learning stops
     display_date: June 17, 2026
     url: notes/2026-06-17-the-moment-a-failure-becomes-a-character-trial-learning-stops/index.html
@@ -10,11 +15,4 @@ recent_notes:
     display_date: June 16, 2026
     url: notes/2026-06-16-gate-failure-doesn-t-stop-melt-it-relocates-it/index.html
     excerpt: Gate failure doesn’t stop melt. It relocates it.
-    pillar: Extracted Insights
-  - title: The fastest way to make a team hate culture is to confuse play with
-      recovery
-    display_date: June 15, 2026
-    url: notes/2026-06-15-the-fastest-way-to-make-a-team-hate-culture-is-to-confuse-play-with-recovery/index.html
-    excerpt: The fastest way to make a team hate culture is to confuse play with
-      recovery.
     pillar: Extracted Insights
