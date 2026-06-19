@@ -1,6 +1,13 @@
 notes_archive_url: notes/
 recent_notes_empty: false
 recent_notes:
+  - title: The most dangerous company is not the chaotic one. It is the one with
+      green dashboards
+    display_date: June 19, 2026
+    url: notes/2026-06-19-the-most-dangerous-company-is-not-the-chaotic-one-it-is-the-one-with-green-dashboards/index.html
+    excerpt: The most dangerous company is not the chaotic one. It is the one with
+      green dashboards.
+    pillar: Extracted Insights
   - title: If your postmortem feels like just another meeting, it is
     display_date: June 18, 2026
     url: notes/2026-06-18-if-your-postmortem-feels-like-just-another-meeting-it-is/index.html
@@ -10,9 +17,4 @@ recent_notes:
     display_date: June 17, 2026
     url: notes/2026-06-17-the-moment-a-failure-becomes-a-character-trial-learning-stops/index.html
     excerpt: The moment a failure becomes a character trial, learning stops.
-    pillar: Extracted Insights
-  - title: Gate failure doesn’t stop melt. It relocates it
-    display_date: June 16, 2026
-    url: notes/2026-06-16-gate-failure-doesn-t-stop-melt-it-relocates-it/index.html
-    excerpt: Gate failure doesn’t stop melt. It relocates it.
     pillar: Extracted Insights
