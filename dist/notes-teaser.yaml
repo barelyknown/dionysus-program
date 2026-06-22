@@ -1,6 +1,11 @@
 notes_archive_url: notes/
 recent_notes_empty: false
 recent_notes:
+  - title: The team doesn’t blow up. It just stops mattering
+    display_date: June 22, 2026
+    url: notes/2026-06-22-the-team-doesn-t-blow-up-it-just-stops-mattering/index.html
+    excerpt: The team doesn’t blow up. It just stops mattering.
+    pillar: Extracted Insights
   - title: The most dangerous company is not the chaotic one. It is the one with
       green dashboards
     display_date: June 19, 2026
@@ -12,9 +17,4 @@ recent_notes:
     display_date: June 18, 2026
     url: notes/2026-06-18-if-your-postmortem-feels-like-just-another-meeting-it-is/index.html
     excerpt: If your postmortem feels like just another meeting, it is.
-    pillar: Extracted Insights
-  - title: The moment a failure becomes a character trial, learning stops
-    display_date: June 17, 2026
-    url: notes/2026-06-17-the-moment-a-failure-becomes-a-character-trial-learning-stops/index.html
-    excerpt: The moment a failure becomes a character trial, learning stops.
     pillar: Extracted Insights
