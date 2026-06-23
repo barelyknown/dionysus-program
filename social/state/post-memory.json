@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-06-22T14:30:59.292Z",
-  "published_count": 71,
+  "generated_at": "2026-06-23T13:33:35.420Z",
+  "published_count": 72,
   "rolling_window_days": 84,
   "typeCounts": {
     "decoder_ring": 11,
     "ritual_recipe": 7,
-    "extracted_insight": 36,
+    "extracted_insight": 37,
     "archetype_diagnosis": 6,
     "high_lindy_source_tour": 4,
     "from_the_mailbag": 3,
@@ -13,38 +13,6 @@
     "short_story": 1
   },
   "recent_hooks": [
-    {
-      "post_id": "019e07ae-fc38-025a-7179-baf1e2698d52",
-      "external_post_id": "019e07ae-fc38-025a-7179-baf1e2698d52",
-      "published_at": "2026-05-08T13:02:48.914Z",
-      "linkedin_post_url": null,
-      "linkedin_activity_urn": null,
-      "content_type": "ritual_recipe",
-      "pillar": "Ritual Recipes",
-      "topic_thesis": "Ritual oligarchy and sacerdotal capture are predictable phase transitions, not surprise pathologies.",
-      "angle": "Start with a recurring problem and end with a usable move. Keep the framing specific to this thesis: Ritual oligarchy and sacerdotal capture are predictable phase transitions, not surprise pathologies.",
-      "hook": "The moment a “culture team” starts managing truth for the operators, the decay has already begun.",
-      "summary": "The moment a “culture team” starts managing truth for the operators, the decay has already begun.\n\nThis is not a surprise pathology. It is a predictable phase transition. First the organization builds useful rites to handle conflict and change. Then the rite gets a staff. Then th",
-      "source_refs": [],
-      "framework_terms_used": [
-        "li",
-        "ren"
-      ],
-      "subject_entities": [],
-      "timely_subject": null,
-      "research_bundle_id": null,
-      "winning_candidate_id": "15402f2ebaf6",
-      "final_text_hash": "cff795cb4a01dc0eaf146ba8986bcf4877f2aff1e0c7e7538650d11fe2d364e2",
-      "note_slug": "2026-05-08-ritual-oligarchy-and-sacerdotal-capture-are-predictable-phase-transitions-not-surprise-pathologies",
-      "note_source_path": "content/notes/2026-05-08-ritual-oligarchy-and-sacerdotal-capture-are-predictable-phase-transitions-not-surprise-pathologies.md",
-      "x_status": "published",
-      "x_external_post_id": "2052736366010589658",
-      "x_published_at": "2026-05-08T13:04:22.440Z",
-      "x_winning_candidate_id": "4804b47694b8",
-      "x_final_text_hash": "d18fc6465f05e56198f13e30867af135db4f7bea845a93d922b3a9905ba670ce",
-      "x_summary": "The failure mode isn’t bad culture. It’s ritual capture.\n\nA process built to surface conflict gets staffed, then defended, then insulated. By the time operators need the room most, the room belongs to people without operating downside.",
-      "x_skip_reason": null
-    },
     {
       "post_id": "019e174d-5d74-735c-3647-3fa68df6c998",
       "external_post_id": "019e174d-5d74-735c-3647-3fa68df6c998",
@@ -1067,41 +1035,40 @@
       "x_final_text_hash": "64cc653265cf638eb97b25830dbc20d363ed70d502317a76dceba60225a25085",
       "x_summary": "Teams rarely die in public. They become irrelevant in private.\n\nNo scandal, no layoff, no blowup. The best people drift, rituals go stale, problems get smaller. Quarter by quarter, decay stays inside the noise until nobody can say why the team exists.",
       "x_skip_reason": null
-    }
-  ],
-  "recent_angles": [
+    },
     {
-      "post_id": "019d6d2f-76d3-5dd1-64f4-33d1f545fc59",
-      "external_post_id": "019d6d2f-76d3-5dd1-64f4-33d1f545fc59",
-      "published_at": "2026-04-08T13:02:00.424Z",
+      "post_id": "019ef4ae-acf3-d1b6-4d8f-5b0c21062c05",
+      "external_post_id": "019ef4ae-acf3-d1b6-4d8f-5b0c21062c05",
+      "published_at": "2026-06-23T13:32:28.799Z",
       "linkedin_post_url": null,
       "linkedin_activity_urn": null,
       "content_type": "extracted_insight",
       "pillar": "Extracted Insights",
-      "topic_thesis": "Crimes Against Ren are real because truth can still be weaponized against the substrate that makes truth possible.",
+      "topic_thesis": "The Churn Machine.",
       "angle": "Name the mistake directly, then show why fast change turns it into negligence.",
-      "hook": "If you use a true statement to punish candor, you are not defending standards. You are committing a Crime Against Ren.",
-      "summary": "If you use a true statement to punish candor, you are not defending standards. You are committing a Crime Against Ren.\n\nThe mistake is thinking truth is automatically clean. In the book’s language, Lashon Hara matters here: accurate information revealed under protection, then use",
+      "hook": "If your org chart is a living document nobody bothers to memorize, you are not staying agile. You are running a Churn Machine.",
+      "summary": "If your org chart is a living document nobody bothers to memorize, you are not staying agile. You are running a Churn Machine.\n\nThe mistake is reorganization addiction. New leaders, new priorities, new structures every few quarters. It can look healthy because it prevents any one",
       "source_refs": [],
       "framework_terms_used": [
-        "li",
-        "ren"
+        "li"
       ],
       "subject_entities": [],
       "timely_subject": null,
       "research_bundle_id": null,
-      "winning_candidate_id": "f27c1290d1e2",
-      "final_text_hash": "37f37ee7209cb6623ae6348a5441565e4de4765a4f5132a605186057007c1e1e",
-      "note_slug": "2026-04-08-crimes-against-ren-are-real-because-truth-can-still-be-weaponized-against-the-substrate-that-makes-truth-possible",
-      "note_source_path": "content/notes/2026-04-08-crimes-against-ren-are-real-because-truth-can-still-be-weaponized-against-the-substrate-that-makes-truth-possible.md",
+      "winning_candidate_id": "912dfe5afc10",
+      "final_text_hash": "6836603b4019a3f289ef58e36690bc42d5d56e7b0b83210ce34c11cd886f083d",
+      "note_slug": "2026-06-23-the-churn-machine",
+      "note_source_path": "content/notes/2026-06-23-the-churn-machine.md",
       "x_status": "published",
-      "x_external_post_id": "2041864579399954779",
-      "x_published_at": "2026-04-08T13:03:46.503Z",
-      "x_winning_candidate_id": "850bf454bd31",
-      "x_final_text_hash": "1625bc3c43154a4c1012b613c1037f201dba8373fd5952831faea9b9fed0d92b",
-      "x_summary": "Standards and punishment are not the same system.\n\nA team can ask for honest postmortems, or it can recycle those admissions in performance reviews. Do both once, and the standard that survives is concealment.",
+      "x_external_post_id": "2069413560376045912",
+      "x_published_at": "2026-06-23T13:33:35.416Z",
+      "x_winning_candidate_id": "f601c8a8efc1",
+      "x_final_text_hash": "bbf9cc4ee2320d2b9a7c93a4d2e660219ab0f0d312eb37c5b759734d9ec7d6f2",
+      "x_summary": "An org chart nobody can remember is not agility. It’s a churn machine.\n\nReorgs can look healthy because nobody gets entrenched. But they also erase context. New leaders relearn old lessons, and the company moves a lot without ever starting to compound.",
       "x_skip_reason": null
-    },
+    }
+  ],
+  "recent_angles": [
     {
       "post_id": "019d7255-6577-e521-3f86-8a55caaec4a2",
       "external_post_id": "019d7255-6577-e521-3f86-8a55caaec4a2",
@@ -2862,6 +2829,37 @@
       "x_winning_candidate_id": "7950debdf83c",
       "x_final_text_hash": "64cc653265cf638eb97b25830dbc20d363ed70d502317a76dceba60225a25085",
       "x_summary": "Teams rarely die in public. They become irrelevant in private.\n\nNo scandal, no layoff, no blowup. The best people drift, rituals go stale, problems get smaller. Quarter by quarter, decay stays inside the noise until nobody can say why the team exists.",
+      "x_skip_reason": null
+    },
+    {
+      "post_id": "019ef4ae-acf3-d1b6-4d8f-5b0c21062c05",
+      "external_post_id": "019ef4ae-acf3-d1b6-4d8f-5b0c21062c05",
+      "published_at": "2026-06-23T13:32:28.799Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "extracted_insight",
+      "pillar": "Extracted Insights",
+      "topic_thesis": "The Churn Machine.",
+      "angle": "Name the mistake directly, then show why fast change turns it into negligence.",
+      "hook": "If your org chart is a living document nobody bothers to memorize, you are not staying agile. You are running a Churn Machine.",
+      "summary": "If your org chart is a living document nobody bothers to memorize, you are not staying agile. You are running a Churn Machine.\n\nThe mistake is reorganization addiction. New leaders, new priorities, new structures every few quarters. It can look healthy because it prevents any one",
+      "source_refs": [],
+      "framework_terms_used": [
+        "li"
+      ],
+      "subject_entities": [],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "912dfe5afc10",
+      "final_text_hash": "6836603b4019a3f289ef58e36690bc42d5d56e7b0b83210ce34c11cd886f083d",
+      "note_slug": "2026-06-23-the-churn-machine",
+      "note_source_path": "content/notes/2026-06-23-the-churn-machine.md",
+      "x_status": "published",
+      "x_external_post_id": "2069413560376045912",
+      "x_published_at": "2026-06-23T13:33:35.416Z",
+      "x_winning_candidate_id": "f601c8a8efc1",
+      "x_final_text_hash": "bbf9cc4ee2320d2b9a7c93a4d2e660219ab0f0d312eb37c5b759734d9ec7d6f2",
+      "x_summary": "An org chart nobody can remember is not agility. It’s a churn machine.\n\nReorgs can look healthy because nobody gets entrenched. But they also erase context. New leaders relearn old lessons, and the company moves a lot without ever starting to compound.",
       "x_skip_reason": null
     }
   ],
@@ -5252,6 +5250,37 @@
       "x_final_text_hash": "64cc653265cf638eb97b25830dbc20d363ed70d502317a76dceba60225a25085",
       "x_summary": "Teams rarely die in public. They become irrelevant in private.\n\nNo scandal, no layoff, no blowup. The best people drift, rituals go stale, problems get smaller. Quarter by quarter, decay stays inside the noise until nobody can say why the team exists.",
       "x_skip_reason": null
+    },
+    {
+      "post_id": "019ef4ae-acf3-d1b6-4d8f-5b0c21062c05",
+      "external_post_id": "019ef4ae-acf3-d1b6-4d8f-5b0c21062c05",
+      "published_at": "2026-06-23T13:32:28.799Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "extracted_insight",
+      "pillar": "Extracted Insights",
+      "topic_thesis": "The Churn Machine.",
+      "angle": "Name the mistake directly, then show why fast change turns it into negligence.",
+      "hook": "If your org chart is a living document nobody bothers to memorize, you are not staying agile. You are running a Churn Machine.",
+      "summary": "If your org chart is a living document nobody bothers to memorize, you are not staying agile. You are running a Churn Machine.\n\nThe mistake is reorganization addiction. New leaders, new priorities, new structures every few quarters. It can look healthy because it prevents any one",
+      "source_refs": [],
+      "framework_terms_used": [
+        "li"
+      ],
+      "subject_entities": [],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "912dfe5afc10",
+      "final_text_hash": "6836603b4019a3f289ef58e36690bc42d5d56e7b0b83210ce34c11cd886f083d",
+      "note_slug": "2026-06-23-the-churn-machine",
+      "note_source_path": "content/notes/2026-06-23-the-churn-machine.md",
+      "x_status": "published",
+      "x_external_post_id": "2069413560376045912",
+      "x_published_at": "2026-06-23T13:33:35.416Z",
+      "x_winning_candidate_id": "f601c8a8efc1",
+      "x_final_text_hash": "bbf9cc4ee2320d2b9a7c93a4d2e660219ab0f0d312eb37c5b759734d9ec7d6f2",
+      "x_summary": "An org chart nobody can remember is not agility. It’s a churn machine.\n\nReorgs can look healthy because nobody gets entrenched. But they also erase context. New leaders relearn old lessons, and the company moves a lot without ever starting to compound.",
+      "x_skip_reason": null
     }
   ],
   "recent_subjects": [
@@ -5932,6 +5961,37 @@
       "x_final_text_hash": "64cc653265cf638eb97b25830dbc20d363ed70d502317a76dceba60225a25085",
       "x_summary": "Teams rarely die in public. They become irrelevant in private.\n\nNo scandal, no layoff, no blowup. The best people drift, rituals go stale, problems get smaller. Quarter by quarter, decay stays inside the noise until nobody can say why the team exists.",
       "x_skip_reason": null
+    },
+    {
+      "post_id": "019ef4ae-acf3-d1b6-4d8f-5b0c21062c05",
+      "external_post_id": "019ef4ae-acf3-d1b6-4d8f-5b0c21062c05",
+      "published_at": "2026-06-23T13:32:28.799Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "extracted_insight",
+      "pillar": "Extracted Insights",
+      "topic_thesis": "The Churn Machine.",
+      "angle": "Name the mistake directly, then show why fast change turns it into negligence.",
+      "hook": "If your org chart is a living document nobody bothers to memorize, you are not staying agile. You are running a Churn Machine.",
+      "summary": "If your org chart is a living document nobody bothers to memorize, you are not staying agile. You are running a Churn Machine.\n\nThe mistake is reorganization addiction. New leaders, new priorities, new structures every few quarters. It can look healthy because it prevents any one",
+      "source_refs": [],
+      "framework_terms_used": [
+        "li"
+      ],
+      "subject_entities": [],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "912dfe5afc10",
+      "final_text_hash": "6836603b4019a3f289ef58e36690bc42d5d56e7b0b83210ce34c11cd886f083d",
+      "note_slug": "2026-06-23-the-churn-machine",
+      "note_source_path": "content/notes/2026-06-23-the-churn-machine.md",
+      "x_status": "published",
+      "x_external_post_id": "2069413560376045912",
+      "x_published_at": "2026-06-23T13:33:35.416Z",
+      "x_winning_candidate_id": "f601c8a8efc1",
+      "x_final_text_hash": "bbf9cc4ee2320d2b9a7c93a4d2e660219ab0f0d312eb37c5b759734d9ec7d6f2",
+      "x_summary": "An org chart nobody can remember is not agility. It’s a churn machine.\n\nReorgs can look healthy because nobody gets entrenched. But they also erase context. New leaders relearn old lessons, and the company moves a lot without ever starting to compound.",
+      "x_skip_reason": null
     }
   ],
   "recent_sources": [
@@ -6450,6 +6510,37 @@
       "x_winning_candidate_id": "7950debdf83c",
       "x_final_text_hash": "64cc653265cf638eb97b25830dbc20d363ed70d502317a76dceba60225a25085",
       "x_summary": "Teams rarely die in public. They become irrelevant in private.\n\nNo scandal, no layoff, no blowup. The best people drift, rituals go stale, problems get smaller. Quarter by quarter, decay stays inside the noise until nobody can say why the team exists.",
+      "x_skip_reason": null
+    },
+    {
+      "post_id": "019ef4ae-acf3-d1b6-4d8f-5b0c21062c05",
+      "external_post_id": "019ef4ae-acf3-d1b6-4d8f-5b0c21062c05",
+      "published_at": "2026-06-23T13:32:28.799Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "extracted_insight",
+      "pillar": "Extracted Insights",
+      "topic_thesis": "The Churn Machine.",
+      "angle": "Name the mistake directly, then show why fast change turns it into negligence.",
+      "hook": "If your org chart is a living document nobody bothers to memorize, you are not staying agile. You are running a Churn Machine.",
+      "summary": "If your org chart is a living document nobody bothers to memorize, you are not staying agile. You are running a Churn Machine.\n\nThe mistake is reorganization addiction. New leaders, new priorities, new structures every few quarters. It can look healthy because it prevents any one",
+      "source_refs": [],
+      "framework_terms_used": [
+        "li"
+      ],
+      "subject_entities": [],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "912dfe5afc10",
+      "final_text_hash": "6836603b4019a3f289ef58e36690bc42d5d56e7b0b83210ce34c11cd886f083d",
+      "note_slug": "2026-06-23-the-churn-machine",
+      "note_source_path": "content/notes/2026-06-23-the-churn-machine.md",
+      "x_status": "published",
+      "x_external_post_id": "2069413560376045912",
+      "x_published_at": "2026-06-23T13:33:35.416Z",
+      "x_winning_candidate_id": "f601c8a8efc1",
+      "x_final_text_hash": "bbf9cc4ee2320d2b9a7c93a4d2e660219ab0f0d312eb37c5b759734d9ec7d6f2",
+      "x_summary": "An org chart nobody can remember is not agility. It’s a churn machine.\n\nReorgs can look healthy because nobody gets entrenched. But they also erase context. New leaders relearn old lessons, and the company moves a lot without ever starting to compound.",
       "x_skip_reason": null
     }
   ],

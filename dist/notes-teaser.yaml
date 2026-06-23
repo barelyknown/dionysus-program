@@ -1,6 +1,12 @@
 notes_archive_url: notes/
 recent_notes_empty: false
 recent_notes:
+  - title: The Churn Machine
+    display_date: June 23, 2026
+    url: notes/2026-06-23-the-churn-machine/index.html
+    excerpt: If your org chart is a living document nobody bothers to memorize, you
+      are not staying agile. You are running a Churn Machine.
+    pillar: Extracted Insights
   - title: The team doesn’t blow up. It just stops mattering
     display_date: June 22, 2026
     url: notes/2026-06-22-the-team-doesn-t-blow-up-it-just-stops-mattering/index.html
@@ -12,9 +18,4 @@ recent_notes:
     url: notes/2026-06-19-the-most-dangerous-company-is-not-the-chaotic-one-it-is-the-one-with-green-dashboards/index.html
     excerpt: The most dangerous company is not the chaotic one. It is the one with
       green dashboards.
-    pillar: Extracted Insights
-  - title: If your postmortem feels like just another meeting, it is
-    display_date: June 18, 2026
-    url: notes/2026-06-18-if-your-postmortem-feels-like-just-another-meeting-it-is/index.html
-    excerpt: If your postmortem feels like just another meeting, it is.
     pillar: Extracted Insights
