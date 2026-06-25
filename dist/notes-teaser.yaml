@@ -1,6 +1,11 @@
 notes_archive_url: notes/
 recent_notes_empty: false
 recent_notes:
+  - title: Most teams do not break under pressure. They break under contradiction
+    display_date: June 25, 2026
+    url: notes/2026-06-25-most-teams-do-not-break-under-pressure-they-break-under-contradiction/index.html
+    excerpt: Most teams do not break under pressure. They break under contradiction.
+    pillar: Extracted Insights
   - title: Most teams wait for trust before they tell the truth. That’s backwards
     display_date: June 24, 2026
     url: notes/2026-06-24-most-teams-wait-for-trust-before-they-tell-the-truth-that-s-backwards/index.html
@@ -11,9 +16,4 @@ recent_notes:
     url: notes/2026-06-23-the-churn-machine/index.html
     excerpt: If your org chart is a living document nobody bothers to memorize, you
       are not staying agile. You are running a Churn Machine.
-    pillar: Extracted Insights
-  - title: The team doesn’t blow up. It just stops mattering
-    display_date: June 22, 2026
-    url: notes/2026-06-22-the-team-doesn-t-blow-up-it-just-stops-mattering/index.html
-    excerpt: The team doesn’t blow up. It just stops mattering.
     pillar: Extracted Insights
