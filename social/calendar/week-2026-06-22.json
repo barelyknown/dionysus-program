@@ -243,7 +243,7 @@
       "timezone": "America/Los_Angeles",
       "weekday": "friday",
       "slot_type": "baseline",
-      "status": "planned",
+      "status": "published",
       "content_type": "extracted_insight",
       "pillar": "Extracted Insights",
       "topic_thesis": "The Death Spiral.",
@@ -252,10 +252,46 @@
       "source_bundle_id": null,
       "timely_subject": null,
       "draft_ref": null,
-      "winner_id": null,
+      "winner_id": "cd739a9fa4bc",
       "risk_level": "low",
       "freshness_deadline": null,
-      "publish_payload": null
+      "publish_payload": {
+        "item_id": "0817b9a7bed4",
+        "scheduled_at": "2026-06-26T12:30:00.000Z",
+        "content_type": "extracted_insight",
+        "pillar": "Extracted Insights",
+        "topic_thesis": "The Death Spiral.",
+        "angle": "Name the concept, explain it plainly, and show why it matters now.",
+        "hook": "Most companies don’t fail from one big mistake. They enter a Death Spiral.",
+        "body_text": "Most companies don’t fail from one big mistake. They enter a Death Spiral.\n\nThe pattern is simple: a bad quarter leads to one key departure. That creates more load for everyone else. Capacity drops. Stress rises. Politics gets cheaper than truth. More people burn out, more people leave, and each problem makes the next one worse.\n\nIn the book, I describe it as a loop: declining trust reduces capacity, reduced capacity increases overflow, and that overflow burns what trust remains. By the time leadership recognizes the pattern, the intervention required is often larger than the remaining trust can support.\n\nThis matters more now because the environment is melting faster. AI increases speed, output, and disruption at the same time. If your organization cannot metabolize error under pressure, more agency just accelerates the spiral.\n\nSo when the quarter turns against you, don’t cut the very rituals, honesty, and recovery time that keep trust alive. That is how companies save cash on the way to collapse.",
+        "footer_text": "The Dionysus Program is a free book about what happens when knowledge moves faster than identity. It is not theory. It is survival equipment. dionysusprogram.com",
+        "footer_index": 13,
+        "footer_divider": "---",
+        "final_text": "Most companies don’t fail from one big mistake. They enter a Death Spiral.\n\nThe pattern is simple: a bad quarter leads to one key departure. That creates more load for everyone else. Capacity drops. Stress rises. Politics gets cheaper than truth. More people burn out, more people leave, and each problem makes the next one worse.\n\nIn the book, I describe it as a loop: declining trust reduces capacity, reduced capacity increases overflow, and that overflow burns what trust remains. By the time leadership recognizes the pattern, the intervention required is often larger than the remaining trust can support.\n\nThis matters more now because the environment is melting faster. AI increases speed, output, and disruption at the same time. If your organization cannot metabolize error under pressure, more agency just accelerates the spiral.\n\nSo when the quarter turns against you, don’t cut the very rituals, honesty, and recovery time that keep trust alive. That is how companies save cash on the way to collapse.\n\n---\n\nThe Dionysus Program is a free book about what happens when knowledge moves faster than identity. It is not theory. It is survival equipment. dionysusprogram.com",
+        "winning_candidate_id": "cd739a9fa4bc",
+        "winning_score": 6.6,
+        "source_refs": [],
+        "research_bundle_id": null,
+        "timely_subject": null
+      },
+      "skip_reason": null,
+      "published_at": "2026-06-26T13:21:00.499Z",
+      "external_post_id": "019f0417-4049-6dc2-bbcf-fcbf089261df",
+      "note_slug": "2026-06-26-most-companies-do-not-fail-from-one-big-mistake-they-enter-a-death-spiral",
+      "note_source_path": "content/notes/2026-06-26-most-companies-do-not-fail-from-one-big-mistake-they-enter-a-death-spiral.md",
+      "x_status": "published",
+      "x_external_post_id": "2070497903534088500",
+      "x_published_at": "2026-06-26T13:22:22.974Z",
+      "x_winning_candidate_id": "69f408f59a51",
+      "x_publish_payload": {
+        "source_channel": "linkedin",
+        "source_final_text_hash": "ea75c627c88ab780d909a76669012c2311047d45e06226f085e1f1b2ca4505ee",
+        "source_winning_candidate_id": "cd739a9fa4bc",
+        "text": "Companies rarely die from one bad decision. They die in a loop.\n\nOne bad quarter, one key exit, a little more load on everyone else. Capacity falls, stress rises, politics gets cheaper than truth, and every fix deepens the damage.",
+        "winning_candidate_id": "69f408f59a51",
+        "winning_score": 9.3
+      },
+      "x_skip_reason": null
     }
   ]
 }
