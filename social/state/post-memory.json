@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-06-28T16:35:35.791Z",
-  "published_count": 75,
+  "generated_at": "2026-06-29T14:01:24.762Z",
+  "published_count": 76,
   "rolling_window_days": 84,
   "typeCounts": {
     "decoder_ring": 11,
     "ritual_recipe": 7,
-    "extracted_insight": 40,
+    "extracted_insight": 41,
     "archetype_diagnosis": 6,
     "high_lindy_source_tour": 4,
     "from_the_mailbag": 3,
@@ -13,46 +13,6 @@
     "short_story": 1
   },
   "recent_hooks": [
-    {
-      "post_id": "019e26a5-f87d-cd2a-201b-3fd76530f6d2",
-      "external_post_id": "019e26a5-f87d-cd2a-201b-3fd76530f6d2",
-      "published_at": "2026-05-14T13:21:11.812Z",
-      "linkedin_post_url": null,
-      "linkedin_activity_urn": null,
-      "content_type": "decoder_ring",
-      "pillar": "Decoder Ring",
-      "topic_thesis": "Planning tools are communication tools when they make uncertainty socially admissible before the fact.",
-      "angle": "Open on Microsoft Work Trend Index 2026 in plain language, then show how it makes the deeper diagnosis legible.",
-      "hook": "Microsoft’s 2026 Work Trend Index is a useful confession: the models moved first, and management didn’t. Read plainly, the technology is ready to act before many organizations are ready to hear, “We’re not sure.”",
-      "summary": "Microsoft’s 2026 Work Trend Index is a useful confession: the models moved first, and management didn’t. Read plainly, the technology is ready to act before many organizations are ready to hear, “We’re not sure.”\n\nThat’s the deeper diagnosis people miss. Planning tools are not ma",
-      "source_refs": [
-        "https://www.microsoft.com/en-us/worklab/work-trend-index/",
-        "https://www.reuters.com/world/uk/google-deepmind-workers-seek-union-recognition-over-military-ai-concerns-2026-05-07/",
-        "https://www.cnbc.com/2026/04/24/google-workers-urge-company-to-bar-pentagon-from-using-its-ai-for-classified-work.html",
-        "https://ai.google/responsibility/principles/"
-      ],
-      "framework_terms_used": [
-        "management theater",
-        "li",
-        "ren"
-      ],
-      "subject_entities": [
-        "Microsoft"
-      ],
-      "timely_subject": "Microsoft Work Trend Index 2026",
-      "research_bundle_id": "00283950f661",
-      "winning_candidate_id": "d7d912b0d1b7",
-      "final_text_hash": "7118a05f89c9dd33cfaf686b5998c3324c95e101eb3541c9b3f7ed006941ae74",
-      "note_slug": "2026-05-14-planning-tools-are-communication-tools-when-they-make-uncertainty-socially-admissible-before-the-fact",
-      "note_source_path": "content/notes/2026-05-14-planning-tools-are-communication-tools-when-they-make-uncertainty-socially-admissible-before-the-fact.md",
-      "x_status": "published",
-      "x_external_post_id": "2054915299724394658",
-      "x_published_at": "2026-05-14T13:22:40.694Z",
-      "x_winning_candidate_id": "845c0fb1bed8",
-      "x_final_text_hash": "1d5cd14c5ae7fc73e134db9daebcca2f77222ec322edd6e5bf1ea0dcf2693656",
-      "x_summary": "Planning tools don’t fail because forecasts are wrong. They fail because uncertainty can’t be spoken early.\n\nThen teams pad estimates, hide insurance, and wait for reality to make honesty permissible. That’s not planning. It’s management theater.",
-      "x_skip_reason": null
-    },
     {
       "post_id": "019e2bc6-709e-eb78-0c56-e9cc2842dabf",
       "external_post_id": "019e2bc6-709e-eb78-0c56-e9cc2842dabf",
@@ -1048,43 +1008,42 @@
       "x_final_text_hash": "38dff5341ecbcd26e8545065fa77461415cd54ef86fca474f47d0467efda65a4",
       "x_summary": "Companies rarely die from one bad decision. They die in a loop.\n\nOne bad quarter, one key exit, a little more load on everyone else. Capacity falls, stress rises, politics gets cheaper than truth, and every fix deepens the damage.",
       "x_skip_reason": null
+    },
+    {
+      "post_id": "019f13ae-833b-4e22-3afa-e2e1db3ec1ef",
+      "external_post_id": "019f13ae-833b-4e22-3afa-e2e1db3ec1ef",
+      "published_at": "2026-06-29T14:00:31.812Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "extracted_insight",
+      "pillar": "Extracted Insights",
+      "topic_thesis": "The Fragile Survivor.",
+      "angle": "Name the concept, explain it plainly, and show why it matters now.",
+      "hook": "Survival can be the most dangerous false positive in business.",
+      "summary": "Survival can be the most dangerous false positive in business.\n\nThe Fragile Survivor is an organization that still looks alive, but only because the last shock arrived in the right sequence. It has enough capacity for normal variation, but no buffer for bad luck. As the book puts",
+      "source_refs": [],
+      "framework_terms_used": [
+        "li"
+      ],
+      "subject_entities": [
+        "Microsoft"
+      ],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "b56ddfa60b35",
+      "final_text_hash": "22623676ce9e2c8784540bbb0950af0fec392d3b559839b44d7b94c1a8220b96",
+      "note_slug": "2026-06-29-survival-can-be-the-most-dangerous-false-positive-in-business",
+      "note_source_path": "content/notes/2026-06-29-survival-can-be-the-most-dangerous-false-positive-in-business.md",
+      "x_status": "published",
+      "x_external_post_id": "2071594889184247865",
+      "x_published_at": "2026-06-29T14:01:24.758Z",
+      "x_winning_candidate_id": "16a2fe752425",
+      "x_final_text_hash": "29912b0613d56069445bee8bf7b46b4ca7659b562d62a3817f69e45c2bb97385",
+      "x_summary": "Resilience survives bad breaks. Fragility survives only if the breaks arrive in the right sequence.\n\nThat’s why a company can look recovered and still be structurally weak. Apple in 1997 is the clean example: same business, different timing, opposite fate.",
+      "x_skip_reason": null
     }
   ],
   "recent_angles": [
-    {
-      "post_id": "019d8c16-51a1-e84d-f8b6-4490a5054c0a",
-      "external_post_id": "019d8c16-51a1-e84d-f8b6-4490a5054c0a",
-      "published_at": "2026-04-14T13:02:46.216Z",
-      "linkedin_post_url": null,
-      "linkedin_activity_urn": null,
-      "content_type": "from_the_mailbag",
-      "pillar": "From the Mailbag",
-      "topic_thesis": "Living law has to submit itself to the same anti-scapegoat logic it imposes on everyone else.",
-      "angle": "Use the note as the entry point, then get to the pattern it reveals immediately.",
-      "hook": "A conduct code that cannot be put on trial will become a sacrifice machine.",
-      "summary": "A conduct code that cannot be put on trial will become a sacrifice machine.\n\nNot Carl Jung caught the tell: “turning your priests into tyrants.” That’s what happens when the people administering anti-scapegoat rules are exempt from the same discipline they impose on everyone else",
-      "source_refs": [
-        "letters_to_editor/carl_jung.txt"
-      ],
-      "framework_terms_used": [
-        "li",
-        "scapegoat"
-      ],
-      "subject_entities": [],
-      "timely_subject": null,
-      "research_bundle_id": null,
-      "winning_candidate_id": "1b140deb094b",
-      "final_text_hash": "ae2421c458968ff8922e95255627d19f67b7e6cb9bc9989221bf281bb9996783",
-      "note_slug": "2026-04-14-a-conduct-code-that-cannot-be-put-on-trial-becomes-a-sacrifice-machine",
-      "note_source_path": "content/notes/2026-04-14-a-conduct-code-that-cannot-be-put-on-trial-becomes-a-sacrifice-machine.md",
-      "x_status": "published",
-      "x_external_post_id": "2044039106641133843",
-      "x_published_at": "2026-04-14T13:04:34.247Z",
-      "x_winning_candidate_id": "e687fc9b17a8",
-      "x_final_text_hash": "46041cc244d73065ee6b9babc6378ccdcfa5eb80ea1a7d8924583736b58a7dce",
-      "x_summary": "When a conduct code cannot be put on trial, it stops correcting abuse and starts manufacturing it.\n\nThe enforcers become untouchable, categories harden, and punishment hides inside procedure. The law survives. Living judgment doesn’t.",
-      "x_skip_reason": null
-    },
     {
       "post_id": "019d913c-1ed2-e2c8-adb8-d66795ccf27f",
       "external_post_id": "019d913c-1ed2-e2c8-adb8-d66795ccf27f",
@@ -2835,6 +2794,39 @@
       "x_winning_candidate_id": "69f408f59a51",
       "x_final_text_hash": "38dff5341ecbcd26e8545065fa77461415cd54ef86fca474f47d0467efda65a4",
       "x_summary": "Companies rarely die from one bad decision. They die in a loop.\n\nOne bad quarter, one key exit, a little more load on everyone else. Capacity falls, stress rises, politics gets cheaper than truth, and every fix deepens the damage.",
+      "x_skip_reason": null
+    },
+    {
+      "post_id": "019f13ae-833b-4e22-3afa-e2e1db3ec1ef",
+      "external_post_id": "019f13ae-833b-4e22-3afa-e2e1db3ec1ef",
+      "published_at": "2026-06-29T14:00:31.812Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "extracted_insight",
+      "pillar": "Extracted Insights",
+      "topic_thesis": "The Fragile Survivor.",
+      "angle": "Name the concept, explain it plainly, and show why it matters now.",
+      "hook": "Survival can be the most dangerous false positive in business.",
+      "summary": "Survival can be the most dangerous false positive in business.\n\nThe Fragile Survivor is an organization that still looks alive, but only because the last shock arrived in the right sequence. It has enough capacity for normal variation, but no buffer for bad luck. As the book puts",
+      "source_refs": [],
+      "framework_terms_used": [
+        "li"
+      ],
+      "subject_entities": [
+        "Microsoft"
+      ],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "b56ddfa60b35",
+      "final_text_hash": "22623676ce9e2c8784540bbb0950af0fec392d3b559839b44d7b94c1a8220b96",
+      "note_slug": "2026-06-29-survival-can-be-the-most-dangerous-false-positive-in-business",
+      "note_source_path": "content/notes/2026-06-29-survival-can-be-the-most-dangerous-false-positive-in-business.md",
+      "x_status": "published",
+      "x_external_post_id": "2071594889184247865",
+      "x_published_at": "2026-06-29T14:01:24.758Z",
+      "x_winning_candidate_id": "16a2fe752425",
+      "x_final_text_hash": "29912b0613d56069445bee8bf7b46b4ca7659b562d62a3817f69e45c2bb97385",
+      "x_summary": "Resilience survives bad breaks. Fragility survives only if the breaks arrive in the right sequence.\n\nThat’s why a company can look recovered and still be structurally weak. Apple in 1997 is the clean example: same business, different timing, opposite fate.",
       "x_skip_reason": null
     }
   ],
@@ -5352,41 +5344,42 @@
       "x_final_text_hash": "38dff5341ecbcd26e8545065fa77461415cd54ef86fca474f47d0467efda65a4",
       "x_summary": "Companies rarely die from one bad decision. They die in a loop.\n\nOne bad quarter, one key exit, a little more load on everyone else. Capacity falls, stress rises, politics gets cheaper than truth, and every fix deepens the damage.",
       "x_skip_reason": null
-    }
-  ],
-  "recent_subjects": [
+    },
     {
-      "post_id": "019e73fa-b66d-4ba3-f867-2b70304c83e4",
-      "external_post_id": "019e73fa-b66d-4ba3-f867-2b70304c83e4",
-      "published_at": "2026-05-29T13:44:31.108Z",
+      "post_id": "019f13ae-833b-4e22-3afa-e2e1db3ec1ef",
+      "external_post_id": "019f13ae-833b-4e22-3afa-e2e1db3ec1ef",
+      "published_at": "2026-06-29T14:00:31.812Z",
       "linkedin_post_url": null,
       "linkedin_activity_urn": null,
       "content_type": "extracted_insight",
       "pillar": "Extracted Insights",
-      "topic_thesis": "Oligarchic Decay.",
-      "angle": "Name the concept, explain it plainly, and show why it matters now. Keep the framing specific to this thesis: Oligarchic Decay.",
-      "hook": "The scariest organizations are the ones that still have all the meetings.",
-      "summary": "The scariest organizations are the ones that still have all the meetings.\n\nThat’s Oligarchic Decay: the rituals remain, but they’ve been captured by a self-perpetuating leadership class. The same people run the same forums for so long that every new idea gets filtered through one",
+      "topic_thesis": "The Fragile Survivor.",
+      "angle": "Name the concept, explain it plainly, and show why it matters now.",
+      "hook": "Survival can be the most dangerous false positive in business.",
+      "summary": "Survival can be the most dangerous false positive in business.\n\nThe Fragile Survivor is an organization that still looks alive, but only because the last shock arrived in the right sequence. It has enough capacity for normal variation, but no buffer for bad luck. As the book puts",
       "source_refs": [],
       "framework_terms_used": [
-        "li",
-        "oligarchic decay"
+        "li"
       ],
-      "subject_entities": [],
+      "subject_entities": [
+        "Microsoft"
+      ],
       "timely_subject": null,
       "research_bundle_id": null,
-      "winning_candidate_id": "1408f85d5939",
-      "final_text_hash": "ee13b3699a7f4f2766624a2024ad5f6a13b99ed391535288d3a50716ebd846e8",
-      "note_slug": "2026-05-29-the-scariest-organizations-are-the-ones-that-still-have-all-the-meetings",
-      "note_source_path": "content/notes/2026-05-29-the-scariest-organizations-are-the-ones-that-still-have-all-the-meetings.md",
+      "winning_candidate_id": "b56ddfa60b35",
+      "final_text_hash": "22623676ce9e2c8784540bbb0950af0fec392d3b559839b44d7b94c1a8220b96",
+      "note_slug": "2026-06-29-survival-can-be-the-most-dangerous-false-positive-in-business",
+      "note_source_path": "content/notes/2026-06-29-survival-can-be-the-most-dangerous-false-positive-in-business.md",
       "x_status": "published",
-      "x_external_post_id": "2060357171791982959",
-      "x_published_at": "2026-05-29T13:46:44.120Z",
-      "x_winning_candidate_id": "1699d5791688",
-      "x_final_text_hash": "4b73dc8e28a739724b4cab8de393dc013e9e83319a29efc7c7a284b80247d8ac",
-      "x_summary": "A full calendar is not proof of institutional health. Sometimes it just means the court is still in session.\n\nIf every new idea has to survive an imagined conversation with the founders, the organization hasn’t built judgment. It has built deference.",
+      "x_external_post_id": "2071594889184247865",
+      "x_published_at": "2026-06-29T14:01:24.758Z",
+      "x_winning_candidate_id": "16a2fe752425",
+      "x_final_text_hash": "29912b0613d56069445bee8bf7b46b4ca7659b562d62a3817f69e45c2bb97385",
+      "x_summary": "Resilience survives bad breaks. Fragility survives only if the breaks arrive in the right sequence.\n\nThat’s why a company can look recovered and still be structurally weak. Apple in 1997 is the clean example: same business, different timing, opposite fate.",
       "x_skip_reason": null
-    },
+    }
+  ],
+  "recent_subjects": [
     {
       "post_id": "019e83a1-aefe-11c7-be40-7c7ea6943fa8",
       "external_post_id": "019e83a1-aefe-11c7-be40-7c7ea6943fa8",
@@ -6030,6 +6023,39 @@
       "x_final_text_hash": "38dff5341ecbcd26e8545065fa77461415cd54ef86fca474f47d0467efda65a4",
       "x_summary": "Companies rarely die from one bad decision. They die in a loop.\n\nOne bad quarter, one key exit, a little more load on everyone else. Capacity falls, stress rises, politics gets cheaper than truth, and every fix deepens the damage.",
       "x_skip_reason": null
+    },
+    {
+      "post_id": "019f13ae-833b-4e22-3afa-e2e1db3ec1ef",
+      "external_post_id": "019f13ae-833b-4e22-3afa-e2e1db3ec1ef",
+      "published_at": "2026-06-29T14:00:31.812Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "extracted_insight",
+      "pillar": "Extracted Insights",
+      "topic_thesis": "The Fragile Survivor.",
+      "angle": "Name the concept, explain it plainly, and show why it matters now.",
+      "hook": "Survival can be the most dangerous false positive in business.",
+      "summary": "Survival can be the most dangerous false positive in business.\n\nThe Fragile Survivor is an organization that still looks alive, but only because the last shock arrived in the right sequence. It has enough capacity for normal variation, but no buffer for bad luck. As the book puts",
+      "source_refs": [],
+      "framework_terms_used": [
+        "li"
+      ],
+      "subject_entities": [
+        "Microsoft"
+      ],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "b56ddfa60b35",
+      "final_text_hash": "22623676ce9e2c8784540bbb0950af0fec392d3b559839b44d7b94c1a8220b96",
+      "note_slug": "2026-06-29-survival-can-be-the-most-dangerous-false-positive-in-business",
+      "note_source_path": "content/notes/2026-06-29-survival-can-be-the-most-dangerous-false-positive-in-business.md",
+      "x_status": "published",
+      "x_external_post_id": "2071594889184247865",
+      "x_published_at": "2026-06-29T14:01:24.758Z",
+      "x_winning_candidate_id": "16a2fe752425",
+      "x_final_text_hash": "29912b0613d56069445bee8bf7b46b4ca7659b562d62a3817f69e45c2bb97385",
+      "x_summary": "Resilience survives bad breaks. Fragility survives only if the breaks arrive in the right sequence.\n\nThat’s why a company can look recovered and still be structurally weak. Apple in 1997 is the clean example: same business, different timing, opposite fate.",
+      "x_skip_reason": null
     }
   ],
   "recent_sources": [
@@ -6512,7 +6538,74 @@
       "x_final_text_hash": "38dff5341ecbcd26e8545065fa77461415cd54ef86fca474f47d0467efda65a4",
       "x_summary": "Companies rarely die from one bad decision. They die in a loop.\n\nOne bad quarter, one key exit, a little more load on everyone else. Capacity falls, stress rises, politics gets cheaper than truth, and every fix deepens the damage.",
       "x_skip_reason": null
+    },
+    {
+      "post_id": "019f13ae-833b-4e22-3afa-e2e1db3ec1ef",
+      "external_post_id": "019f13ae-833b-4e22-3afa-e2e1db3ec1ef",
+      "published_at": "2026-06-29T14:00:31.812Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "extracted_insight",
+      "pillar": "Extracted Insights",
+      "topic_thesis": "The Fragile Survivor.",
+      "angle": "Name the concept, explain it plainly, and show why it matters now.",
+      "hook": "Survival can be the most dangerous false positive in business.",
+      "summary": "Survival can be the most dangerous false positive in business.\n\nThe Fragile Survivor is an organization that still looks alive, but only because the last shock arrived in the right sequence. It has enough capacity for normal variation, but no buffer for bad luck. As the book puts",
+      "source_refs": [],
+      "framework_terms_used": [
+        "li"
+      ],
+      "subject_entities": [
+        "Microsoft"
+      ],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "b56ddfa60b35",
+      "final_text_hash": "22623676ce9e2c8784540bbb0950af0fec392d3b559839b44d7b94c1a8220b96",
+      "note_slug": "2026-06-29-survival-can-be-the-most-dangerous-false-positive-in-business",
+      "note_source_path": "content/notes/2026-06-29-survival-can-be-the-most-dangerous-false-positive-in-business.md",
+      "x_status": "published",
+      "x_external_post_id": "2071594889184247865",
+      "x_published_at": "2026-06-29T14:01:24.758Z",
+      "x_winning_candidate_id": "16a2fe752425",
+      "x_final_text_hash": "29912b0613d56069445bee8bf7b46b4ca7659b562d62a3817f69e45c2bb97385",
+      "x_summary": "Resilience survives bad breaks. Fragility survives only if the breaks arrive in the right sequence.\n\nThat’s why a company can look recovered and still be structurally weak. Apple in 1997 is the clean example: same business, different timing, opposite fate.",
+      "x_skip_reason": null
     }
   ],
-  "recent_entities": []
+  "recent_entities": [
+    {
+      "post_id": "019f13ae-833b-4e22-3afa-e2e1db3ec1ef",
+      "external_post_id": "019f13ae-833b-4e22-3afa-e2e1db3ec1ef",
+      "published_at": "2026-06-29T14:00:31.812Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "extracted_insight",
+      "pillar": "Extracted Insights",
+      "topic_thesis": "The Fragile Survivor.",
+      "angle": "Name the concept, explain it plainly, and show why it matters now.",
+      "hook": "Survival can be the most dangerous false positive in business.",
+      "summary": "Survival can be the most dangerous false positive in business.\n\nThe Fragile Survivor is an organization that still looks alive, but only because the last shock arrived in the right sequence. It has enough capacity for normal variation, but no buffer for bad luck. As the book puts",
+      "source_refs": [],
+      "framework_terms_used": [
+        "li"
+      ],
+      "subject_entities": [
+        "Microsoft"
+      ],
+      "timely_subject": null,
+      "research_bundle_id": null,
+      "winning_candidate_id": "b56ddfa60b35",
+      "final_text_hash": "22623676ce9e2c8784540bbb0950af0fec392d3b559839b44d7b94c1a8220b96",
+      "note_slug": "2026-06-29-survival-can-be-the-most-dangerous-false-positive-in-business",
+      "note_source_path": "content/notes/2026-06-29-survival-can-be-the-most-dangerous-false-positive-in-business.md",
+      "x_status": "published",
+      "x_external_post_id": "2071594889184247865",
+      "x_published_at": "2026-06-29T14:01:24.758Z",
+      "x_winning_candidate_id": "16a2fe752425",
+      "x_final_text_hash": "29912b0613d56069445bee8bf7b46b4ca7659b562d62a3817f69e45c2bb97385",
+      "x_summary": "Resilience survives bad breaks. Fragility survives only if the breaks arrive in the right sequence.\n\nThat’s why a company can look recovered and still be structurally weak. Apple in 1997 is the clean example: same business, different timing, opposite fate.",
+      "x_skip_reason": null
+    }
+  ]
 }

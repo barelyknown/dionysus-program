@@ -1,6 +1,11 @@
 notes_archive_url: notes/
 recent_notes_empty: false
 recent_notes:
+  - title: Survival can be the most dangerous false positive in business
+    display_date: June 29, 2026
+    url: notes/2026-06-29-survival-can-be-the-most-dangerous-false-positive-in-business/index.html
+    excerpt: Survival can be the most dangerous false positive in business.
+    pillar: Extracted Insights
   - title: Most companies do not fail from one big mistake. They enter a death spiral
     display_date: June 26, 2026
     url: notes/2026-06-26-most-companies-do-not-fail-from-one-big-mistake-they-enter-a-death-spiral/index.html
@@ -10,9 +15,4 @@ recent_notes:
     display_date: June 25, 2026
     url: notes/2026-06-25-most-teams-do-not-break-under-pressure-they-break-under-contradiction/index.html
     excerpt: Most teams do not break under pressure. They break under contradiction.
-    pillar: Extracted Insights
-  - title: Most teams wait for trust before they tell the truth. That’s backwards
-    display_date: June 24, 2026
-    url: notes/2026-06-24-most-teams-wait-for-trust-before-they-tell-the-truth-that-s-backwards/index.html
-    excerpt: Most teams wait for trust before they tell the truth. That’s backwards.
     pillar: Extracted Insights
