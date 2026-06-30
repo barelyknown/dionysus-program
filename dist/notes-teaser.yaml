@@ -1,6 +1,13 @@
 notes_archive_url: notes/
 recent_notes_empty: false
 recent_notes:
+  - title: Some companies do not move fast. They choose more chaos than reality
+      requires
+    display_date: June 30, 2026
+    url: notes/2026-06-30-some-companies-do-not-move-fast-they-choose-more-chaos-than-reality-requires/index.html
+    excerpt: Some companies do not move fast. They choose more chaos than reality
+      requires.
+    pillar: Extracted Insights
   - title: Survival can be the most dangerous false positive in business
     display_date: June 29, 2026
     url: notes/2026-06-29-survival-can-be-the-most-dangerous-false-positive-in-business/index.html
@@ -10,9 +17,4 @@ recent_notes:
     display_date: June 26, 2026
     url: notes/2026-06-26-most-companies-do-not-fail-from-one-big-mistake-they-enter-a-death-spiral/index.html
     excerpt: Most companies do not fail from one big mistake. They enter a death spiral.
-    pillar: Extracted Insights
-  - title: Most teams do not break under pressure. They break under contradiction
-    display_date: June 25, 2026
-    url: notes/2026-06-25-most-teams-do-not-break-under-pressure-they-break-under-contradiction/index.html
-    excerpt: Most teams do not break under pressure. They break under contradiction.
     pillar: Extracted Insights
