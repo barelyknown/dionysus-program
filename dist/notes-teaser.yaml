@@ -1,6 +1,13 @@
 notes_archive_url: notes/
 recent_notes_empty: false
 recent_notes:
+  - title: A company can have a good culture, loyal customers, and still die on
+      schedule
+    display_date: July 1, 2026
+    url: notes/2026-07-01-a-company-can-have-a-good-culture-loyal-customers-and-still-die-on-schedule/index.html
+    excerpt: A company can have a good culture, loyal customers, and still die on
+      schedule.
+    pillar: Extracted Insights
   - title: Some companies do not move fast. They choose more chaos than reality
       requires
     display_date: June 30, 2026
@@ -12,9 +19,4 @@ recent_notes:
     display_date: June 29, 2026
     url: notes/2026-06-29-survival-can-be-the-most-dangerous-false-positive-in-business/index.html
     excerpt: Survival can be the most dangerous false positive in business.
-    pillar: Extracted Insights
-  - title: Most companies do not fail from one big mistake. They enter a death spiral
-    display_date: June 26, 2026
-    url: notes/2026-06-26-most-companies-do-not-fail-from-one-big-mistake-they-enter-a-death-spiral/index.html
-    excerpt: Most companies do not fail from one big mistake. They enter a death spiral.
     pillar: Extracted Insights
