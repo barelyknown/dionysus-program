@@ -243,7 +243,7 @@
       "timezone": "America/Los_Angeles",
       "weekday": "friday",
       "slot_type": "baseline",
-      "status": "planned",
+      "status": "published",
       "content_type": "extracted_insight",
       "pillar": "Extracted Insights",
       "topic_thesis": "The Overwhelmed.",
@@ -252,10 +252,46 @@
       "source_bundle_id": null,
       "timely_subject": null,
       "draft_ref": null,
-      "winner_id": null,
+      "winner_id": "f838e8b672c1",
       "risk_level": "low",
       "freshness_deadline": null,
-      "publish_payload": null
+      "publish_payload": {
+        "item_id": "3f11692692a5",
+        "scheduled_at": "2026-07-03T12:30:00.000Z",
+        "content_type": "extracted_insight",
+        "pillar": "Extracted Insights",
+        "topic_thesis": "The Overwhelmed.",
+        "angle": "Name the concept, explain it plainly, and show why it matters now.",
+        "hook": "Some companies don’t fail because they were wrong. They fail because they were right too fast.",
+        "body_text": "Some companies don’t fail because they were wrong. They fail because they were right too fast.\n\nThat pattern has a name: The Overwhelmed.\n\nIt’s what happens when melt rate outruns capacity—when the team is doubling, the product is being rebuilt while customers are using it, and there’s no time to document, onboard, or even process the last pivot before the next one. From the inside, it feels like momentum. In reality, it’s overflow.\n\nAnd overflow is nonlinear. A little too much change is manageable. Sustained excess change burns trust, context, and judgment faster than the organization can replace them. Good people don’t suddenly get worse. The system stops being able to metabolize what it has already set in motion.\n\nThat matters now because our tools keep increasing the rate of change. If you can create more agency than your organization can absorb, speed stops being an advantage. It becomes a solvent.",
+        "footer_text": "This is from The Dionysus Program — a free field manual for leaders who need to metabolize disruption without burning their people. Read it at dionysusprogram.com.",
+        "footer_index": 0,
+        "footer_divider": "---",
+        "final_text": "Some companies don’t fail because they were wrong. They fail because they were right too fast.\n\nThat pattern has a name: The Overwhelmed.\n\nIt’s what happens when melt rate outruns capacity—when the team is doubling, the product is being rebuilt while customers are using it, and there’s no time to document, onboard, or even process the last pivot before the next one. From the inside, it feels like momentum. In reality, it’s overflow.\n\nAnd overflow is nonlinear. A little too much change is manageable. Sustained excess change burns trust, context, and judgment faster than the organization can replace them. Good people don’t suddenly get worse. The system stops being able to metabolize what it has already set in motion.\n\nThat matters now because our tools keep increasing the rate of change. If you can create more agency than your organization can absorb, speed stops being an advantage. It becomes a solvent.\n\n---\n\nThis is from The Dionysus Program — a free field manual for leaders who need to metabolize disruption without burning their people. Read it at dionysusprogram.com.",
+        "winning_candidate_id": "f838e8b672c1",
+        "winning_score": 4.5,
+        "source_refs": [],
+        "research_bundle_id": null,
+        "timely_subject": null
+      },
+      "skip_reason": null,
+      "published_at": "2026-07-03T14:57:00.159Z",
+      "external_post_id": "019f287b-a6f2-32c3-9c5b-7bd3e6409f0c",
+      "note_slug": "2026-07-03-the-overwhelmed",
+      "note_source_path": "content/notes/2026-07-03-the-overwhelmed.md",
+      "x_status": "published",
+      "x_external_post_id": "2073058647752487108",
+      "x_published_at": "2026-07-03T14:57:51.990Z",
+      "x_winning_candidate_id": "572a6c509a31",
+      "x_publish_payload": {
+        "source_channel": "linkedin",
+        "source_final_text_hash": "dde42a01b53b01aee3f98bb8727f73f2e402ff2c99b7c096f485715c27a8958c",
+        "source_winning_candidate_id": "f838e8b672c1",
+        "text": "When change outruns capacity, the damage arrives late and all at once.\n\nFirst documentation slips, then onboarding, then judgment. By the time customers feel it, the company has usually been calling it momentum for months.",
+        "winning_candidate_id": "572a6c509a31",
+        "winning_score": 9.2
+      },
+      "x_skip_reason": null
     }
   ]
 }

@@ -1,6 +1,12 @@
 notes_archive_url: notes/
 recent_notes_empty: false
 recent_notes:
+  - title: The Overwhelmed
+    display_date: July 3, 2026
+    url: notes/2026-07-03-the-overwhelmed/index.html
+    excerpt: Some companies don’t fail because they were wrong. They fail because
+      they were right too fast.
+    pillar: Extracted Insights
   - title: Some companies will not miss the future. They will see it clearly and
       still lose
     display_date: July 2, 2026
@@ -14,11 +20,4 @@ recent_notes:
     url: notes/2026-07-01-a-company-can-have-a-good-culture-loyal-customers-and-still-die-on-schedule/index.html
     excerpt: A company can have a good culture, loyal customers, and still die on
       schedule.
-    pillar: Extracted Insights
-  - title: Some companies do not move fast. They choose more chaos than reality
-      requires
-    display_date: June 30, 2026
-    url: notes/2026-06-30-some-companies-do-not-move-fast-they-choose-more-chaos-than-reality-requires/index.html
-    excerpt: Some companies do not move fast. They choose more chaos than reality
-      requires.
     pillar: Extracted Insights
