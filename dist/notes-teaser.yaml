@@ -1,6 +1,11 @@
 notes_archive_url: notes/
 recent_notes_empty: false
 recent_notes:
+  - title: Apollo gets you lift. It does not make uncertainty speakable
+    display_date: July 6, 2026
+    url: notes/2026-07-06-apollo-gets-you-lift-it-does-not-make-uncertainty-speakable/index.html
+    excerpt: Apollo gets you lift. It does not make uncertainty speakable.
+    pillar: Extracted Insights
   - title: The Overwhelmed
     display_date: July 3, 2026
     url: notes/2026-07-03-the-overwhelmed/index.html
@@ -13,11 +18,4 @@ recent_notes:
     url: notes/2026-07-02-some-companies-will-not-miss-the-future-they-will-see-it-clearly-and-still-lose/index.html
     excerpt: Some companies will not miss the future. They will see it clearly and
       still lose.
-    pillar: Extracted Insights
-  - title: A company can have a good culture, loyal customers, and still die on
-      schedule
-    display_date: July 1, 2026
-    url: notes/2026-07-01-a-company-can-have-a-good-culture-loyal-customers-and-still-die-on-schedule/index.html
-    excerpt: A company can have a good culture, loyal customers, and still die on
-      schedule.
     pillar: Extracted Insights
