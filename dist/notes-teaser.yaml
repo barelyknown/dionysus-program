@@ -1,6 +1,13 @@
 notes_archive_url: notes/
 recent_notes_empty: false
 recent_notes:
+  - title: The money was already burning in the dark before the dashboard could say
+      a word
+    display_date: July 8, 2026
+    url: notes/2026-07-08-the-money-was-already-burning-in-the-dark-before-the-dashboard-could-say-a-word/index.html
+    excerpt: The money was already burning in the dark before the dashboard could
+      say a word.
+    pillar: Extracted Insights
   - title: You can optimize a system straight into dishonesty
     display_date: July 7, 2026
     url: notes/2026-07-07-you-can-optimize-a-system-straight-into-dishonesty/index.html
@@ -10,10 +17,4 @@ recent_notes:
     display_date: July 6, 2026
     url: notes/2026-07-06-apollo-gets-you-lift-it-does-not-make-uncertainty-speakable/index.html
     excerpt: Apollo gets you lift. It does not make uncertainty speakable.
-    pillar: Extracted Insights
-  - title: The Overwhelmed
-    display_date: July 3, 2026
-    url: notes/2026-07-03-the-overwhelmed/index.html
-    excerpt: Some companies don’t fail because they were wrong. They fail because
-      they were right too fast.
     pillar: Extracted Insights
