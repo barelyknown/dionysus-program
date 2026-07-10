@@ -1,6 +1,11 @@
 notes_archive_url: notes/
 recent_notes_empty: false
 recent_notes:
+  - title: A company can become more efficient while becoming less truthful
+    display_date: July 10, 2026
+    url: notes/2026-07-10-a-company-can-become-more-efficient-while-becoming-less-truthful/index.html
+    excerpt: A company can become more efficient while becoming less truthful.
+    pillar: Extracted Insights
   - title: The Apollo Program is necessary but insufficient because optimization
       cannot metabolize meaning
     display_date: July 9, 2026
@@ -14,9 +19,4 @@ recent_notes:
     url: notes/2026-07-08-the-money-was-already-burning-in-the-dark-before-the-dashboard-could-say-a-word/index.html
     excerpt: The money was already burning in the dark before the dashboard could
       say a word.
-    pillar: Extracted Insights
-  - title: You can optimize a system straight into dishonesty
-    display_date: July 7, 2026
-    url: notes/2026-07-07-you-can-optimize-a-system-straight-into-dishonesty/index.html
-    excerpt: You can optimize a system straight into dishonesty.
     pillar: Extracted Insights

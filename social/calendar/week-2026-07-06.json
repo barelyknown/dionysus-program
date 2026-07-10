@@ -243,7 +243,7 @@
       "timezone": "America/Los_Angeles",
       "weekday": "friday",
       "slot_type": "baseline",
-      "status": "planned",
+      "status": "published",
       "content_type": "extracted_insight",
       "pillar": "Extracted Insights",
       "topic_thesis": "The Apollo Program is necessary but insufficient because optimization cannot metabolize meaning.",
@@ -252,10 +252,46 @@
       "source_bundle_id": null,
       "timely_subject": null,
       "draft_ref": null,
-      "winner_id": null,
+      "winner_id": "63074bb1cb44",
       "risk_level": "low",
       "freshness_deadline": null,
-      "publish_payload": null
+      "publish_payload": {
+        "item_id": "02727d5defde",
+        "scheduled_at": "2026-07-10T12:30:00.000Z",
+        "content_type": "extracted_insight",
+        "pillar": "Extracted Insights",
+        "topic_thesis": "The Apollo Program is necessary but insufficient because optimization cannot metabolize meaning.",
+        "angle": "Name the concept, explain it plainly, and show why it matters now.",
+        "hook": "A company can get more efficient while becoming less truthful.",
+        "body_text": "A company can get more efficient while becoming less truthful.\n\nThat is the limit of the Apollo Program: go to the floor, name constraints, measure flow, remove waste, repeat. Those tools work. I built a career on them. But they are necessary, not sufficient, because optimization cannot metabolize meaning. It can tighten the machinery while trust is spent down and people become colder, more guarded, more performative.\n\nI saw it clearly on a night paving job. The dashboard showed trucks backed up and dollars burning in the dark. But the real mistake wasn’t dispatch. It happened hours earlier, when uncertainty was high and over-ordering trucks was the only socially admissible move. In messy systems, waste is often insurance.\n\nRitual Time did what Run Time could not: it made uncertainty speakable before the fact and error discussable in public. That matters now because AI will reward optimization everywhere. The scarce advantage is building an organization that can metabolize error without burning its people.",
+        "footer_text": "Nothing in this post requires you to read The Dionysus Program. But if you want the operating system underneath it — the full loop, the diagnostics, the recipes — it is free. dionysusprogram.com",
+        "footer_index": 16,
+        "footer_divider": "---",
+        "final_text": "A company can get more efficient while becoming less truthful.\n\nThat is the limit of the Apollo Program: go to the floor, name constraints, measure flow, remove waste, repeat. Those tools work. I built a career on them. But they are necessary, not sufficient, because optimization cannot metabolize meaning. It can tighten the machinery while trust is spent down and people become colder, more guarded, more performative.\n\nI saw it clearly on a night paving job. The dashboard showed trucks backed up and dollars burning in the dark. But the real mistake wasn’t dispatch. It happened hours earlier, when uncertainty was high and over-ordering trucks was the only socially admissible move. In messy systems, waste is often insurance.\n\nRitual Time did what Run Time could not: it made uncertainty speakable before the fact and error discussable in public. That matters now because AI will reward optimization everywhere. The scarce advantage is building an organization that can metabolize error without burning its people.\n\n---\n\nNothing in this post requires you to read The Dionysus Program. But if you want the operating system underneath it — the full loop, the diagnostics, the recipes — it is free. dionysusprogram.com",
+        "winning_candidate_id": "63074bb1cb44",
+        "winning_score": 3.3,
+        "source_refs": [],
+        "research_bundle_id": null,
+        "timely_subject": null
+      },
+      "skip_reason": null,
+      "published_at": "2026-07-10T15:17:53.932Z",
+      "external_post_id": "019f4c9b-4c7f-d16e-a11d-5322d4263d42",
+      "note_slug": "2026-07-10-a-company-can-become-more-efficient-while-becoming-less-truthful",
+      "note_source_path": "content/notes/2026-07-10-a-company-can-become-more-efficient-while-becoming-less-truthful.md",
+      "x_status": "published",
+      "x_external_post_id": "2075601030624997720",
+      "x_published_at": "2026-07-10T15:20:23.359Z",
+      "x_winning_candidate_id": "35c462d786d3",
+      "x_publish_payload": {
+        "source_channel": "linkedin",
+        "source_final_text_hash": "a401a88e2c21fdf5ae5291c4462c0e8c1b8975385554f55b9de049ae8f690ed3",
+        "source_winning_candidate_id": "63074bb1cb44",
+        "text": "Optimization often cuts the wrong cost.\n\nOn a paving job, the visible waste was trucks idling in the dark. The hidden spend came earlier: people couldn't say \"we don't know,\" so they bought insurance with extra loads. Lean got tighter. Trust got thinner.",
+        "winning_candidate_id": "35c462d786d3",
+        "winning_score": 8.7
+      },
+      "x_skip_reason": null
     }
   ]
 }
