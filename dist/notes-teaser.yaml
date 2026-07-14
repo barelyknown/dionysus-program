@@ -1,6 +1,11 @@
 notes_archive_url: notes/
 recent_notes_empty: false
 recent_notes:
+  - title: The dashboard was right, and the job was still wrong
+    display_date: July 14, 2026
+    url: notes/2026-07-14-the-dashboard-was-right-and-the-job-was-still-wrong/index.html
+    excerpt: The dashboard was right, and the job was still wrong.
+    pillar: Extracted Insights
   - title: A system can get sharper while the people inside it get quieter
     display_date: July 13, 2026
     url: notes/2026-07-13-a-system-can-get-sharper-while-the-people-inside-it-get-quieter/index.html
@@ -10,11 +15,4 @@ recent_notes:
     display_date: July 10, 2026
     url: notes/2026-07-10-a-company-can-become-more-efficient-while-becoming-less-truthful/index.html
     excerpt: A company can become more efficient while becoming less truthful.
-    pillar: Extracted Insights
-  - title: The Apollo Program is necessary but insufficient because optimization
-      cannot metabolize meaning
-    display_date: July 9, 2026
-    url: notes/2026-07-09-the-apollo-program-is-necessary-but-insufficient-because-optimization-cannot-metabolize-meaning/index.html
-    excerpt: You can optimize a system and still make the people inside it less able
-      to tell the truth.
     pillar: Extracted Insights
