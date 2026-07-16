@@ -5,6 +5,23 @@ function isDue(item, currentTime) {
     && new Date(item.scheduled_at).getTime() <= currentTime.getTime();
 }
 
+function baselineCadenceSkipReason({ item, calendar, strategy }) {
+  if (item.slot_type !== 'baseline') return null;
+
+  const activeSlots = strategy.publishing?.baseline_slots || [];
+  if (activeSlots.length === 0) return null;
+
+  const activeWeekdays = new Set(activeSlots.map((slot) => slot.weekday));
+  if (!activeWeekdays.has(item.weekday)) return 'schedule_disabled';
+
+  const publishedBaselineCount = (calendar.items || []).filter((calendarItem) => (
+    calendarItem.slot_type === 'baseline' && calendarItem.status === 'published'
+  )).length;
+  if (publishedBaselineCount >= activeSlots.length) return 'weekly_cadence_limit';
+
+  return null;
+}
+
 function nextCalendarItemState(item, outcome) {
   if (outcome.status === 'published') {
     return {
@@ -47,5 +64,6 @@ function nextCalendarItemState(item, outcome) {
 
 module.exports = {
   isDue,
+  baselineCadenceSkipReason,
   nextCalendarItemState,
 };

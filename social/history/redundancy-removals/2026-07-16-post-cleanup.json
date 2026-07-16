@@ -1,0 +1,107 @@
+{
+  "ok": true,
+  "candidate_pair_count": 91,
+  "dry_run": true,
+  "destructive_actions_executed": 0,
+  "generated_at": "2026-07-16T21:29:16.507Z",
+  "source_ref": "working-tree",
+  "audit_model": "gpt-5.6-sol",
+  "method": "Strict semantic clustering: same central claim, causal mechanism, and practical implication. Shared theme alone is not redundant.",
+  "selection_rule": "Within a confirmed cluster, keep the newest post and propose removal of older posts.",
+  "removal_scope": "Local website notes only. Preserve LinkedIn and X publications and preserve full anti-duplication memory.",
+  "preserved_external_channels": [
+    "linkedin",
+    "x"
+  ],
+  "source_fingerprint": "cb4c79eb94be7e88a2f9e17f58c1708e0d9127c436a980148bb27c1c28a5646c",
+  "published_record_count": 71,
+  "confirmed_cluster_count": 1,
+  "proposed_record_removal_count": 1,
+  "proposed_action_count": 2,
+  "executable_action_count": 2,
+  "blocked_action_count": 0,
+  "clusters": [
+    {
+      "confidence": 0.95,
+      "central_argument": "Operational waste becomes visible only after the consequential decision because uncertainty was not socially safe to express earlier; a dedicated recurring review container makes doubt and public wrongness admissible while errors are still cheap.",
+      "overlap_explanation": "All three use the same night-paving example, the same causal chain—socially unsafe uncertainty leads to over-ordering and later truck backups—and substantially the same remedy: separate planning or review time from ordinary execution so the plan can be challenged before the loss hardens. “Weekly Crossing,” “Game Tape Review,” and “Ritual Time” function here as different labels or levels of detail for the same operator intervention.",
+      "selection_rule": "keep_newest_remove_older",
+      "keep": {
+        "post_id": "019f6b5b-7df6-a5e6-de7f-f91ea54c2a27",
+        "published_at": "2026-07-16T14:36:25.993Z",
+        "topic_thesis": "The Apollo Program is necessary but insufficient because optimization cannot metabolize meaning.",
+        "hook": "A dashboard can expose waste. It cannot make uncertainty speakable.",
+        "note_slug": "2026-07-16-a-dashboard-can-expose-waste-it-cannot-make-uncertainty-speakable",
+        "note_source_path": "content/notes/2026-07-16-a-dashboard-can-expose-waste-it-cannot-make-uncertainty-speakable.md",
+        "final_text_hash": "2572660474c500d6c6eae23a3fdcfbd4c368a73dda4cb1d6006a05b4bc6e8c03"
+      },
+      "remove": [
+        {
+          "record": {
+            "post_id": "019e407a-6595-eef2-27d0-b6ca3c68baae",
+            "published_at": "2026-05-19T13:43:43.804Z",
+            "topic_thesis": "Game Tape Review makes public wrongness safe while errors are still cheap.",
+            "hook": "The most expensive mistake is the one nobody can safely be wrong about until after the money is gone.",
+            "note_slug": "2026-05-19-game-tape-review-makes-public-wrongness-safe-while-errors-are-still-cheap",
+            "note_source_path": "content/notes/2026-05-19-game-tape-review-makes-public-wrongness-safe-while-errors-are-still-cheap.md",
+            "final_text_hash": "fc73f06b23df830c09eedff8994c79a300d699dd5f35802b9c8c75a0632538bb"
+          },
+          "proposed_actions": [
+            {
+              "system": "site",
+              "action": "delete_note_source",
+              "target": "content/notes/2026-05-19-game-tape-review-makes-public-wrongness-safe-while-errors-are-still-cheap.md",
+              "executable": true,
+              "blocker": null
+            },
+            {
+              "system": "history",
+              "action": "mark_site_removed_preserve_publication_memory",
+              "target": "019e407a-6595-eef2-27d0-b6ca3c68baae",
+              "executable": true,
+              "blocker": null
+            }
+          ],
+          "confirmation": {
+            "redundant": true,
+            "confidence": 0.94,
+            "justification": "Both posts use the same night-paving anecdote, identify the same causal mechanism—uncertainty was socially inadmissible, so over-ordering occurred before visible waste—and reach substantially the same practical implication: create a recurring, blame-safe planning/review container where people can surface uncertainty and be publicly wrong before errors become expensive. 'Game Tape Review' mainly relabels and elaborates the review component of the kept post's Ritual Time without materially changing the operator decision."
+          }
+        }
+      ]
+    }
+  ],
+  "confirmation_method": "Independent record-by-record full-text comparison after semantic clustering.",
+  "confirmation_minimum_confidence": 0.9,
+  "confirmation_decision_count": 2,
+  "rejected_removal_count": 1,
+  "rejected_removals": [
+    {
+      "remove": {
+        "post_id": "019d9b88-293d-6aea-8ae3-6f9f8622dd73",
+        "published_at": "2026-04-17T13:01:25.195Z",
+        "topic_thesis": "The Weekly Crossing is a practical recurring ritual for metabolizing drift before it hardens.",
+        "hook": "You can feel drift before the dashboard can prove it.",
+        "note_slug": "2026-04-17-you-can-feel-drift-before-the-dashboard-can-prove-it",
+        "note_source_path": "content/notes/2026-04-17-you-can-feel-drift-before-the-dashboard-can-prove-it.md",
+        "final_text_hash": "4e6815d6007f47b94a4ecc84de7f8303885cd97e2903fa2bb104f018a6073db9"
+      },
+      "keep": {
+        "post_id": "019f6b5b-7df6-a5e6-de7f-f91ea54c2a27",
+        "published_at": "2026-07-16T14:36:25.993Z",
+        "topic_thesis": "The Apollo Program is necessary but insufficient because optimization cannot metabolize meaning.",
+        "hook": "A dashboard can expose waste. It cannot make uncertainty speakable.",
+        "note_slug": "2026-07-16-a-dashboard-can-expose-waste-it-cannot-make-uncertainty-speakable",
+        "note_source_path": "content/notes/2026-07-16-a-dashboard-can-expose-waste-it-cannot-make-uncertainty-speakable.md",
+        "final_text_hash": "2572660474c500d6c6eae23a3fdcfbd4c368a73dda4cb1d6006a05b4bc6e8c03"
+      },
+      "decision": {
+        "remove_post_id": "019d9b88-293d-6aea-8ae3-6f9f8622dd73",
+        "keep_post_id": "019f6b5b-7df6-a5e6-de7f-f91ea54c2a27",
+        "redundant": false,
+        "confidence": 0.96,
+        "justification": "Although both use the night-paving anecdote to show that socially unsafe uncertainty causes waste before dashboards reveal it, the removed post adds a materially distinct operator decision: a detailed Weekly Crossing protocol, including artifact selection, speaking order, an overturning-evidence commitment, and a low-trust/exhaustion boundary. The kept post advocates Ritual Time broadly but does not provide those actionable mechanics or the warning about when not to run it."
+      }
+    }
+  ]
+}

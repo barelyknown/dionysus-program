@@ -19,7 +19,7 @@ function extractOpenAIText(payload) {
 class OpenAIWriterAdapter {
   constructor({
     mode = 'fixture',
-    model = 'gpt-5.4',
+    model = 'gpt-5.6-sol',
     reasoningEffort = 'medium',
     apiKey = process.env.OPENAI_API_KEY,
   } = {}) {

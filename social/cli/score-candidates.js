@@ -1,7 +1,16 @@
 #!/usr/bin/env node
 const { parseArgs, printJson, fail } = require('../lib/cli');
 const { findCalendarItem } = require('../lib/records');
-const { createAdapters, createRun, updateRun, loadStrategy, scoreCandidatesForItem, loadFreshMemory, ResearchPendingError } = require('../lib/pipeline');
+const {
+  createAdapters,
+  createRun,
+  updateRun,
+  loadStrategy,
+  scoreCandidatesForItem,
+  loadFreshMemory,
+  ResearchPendingError,
+  NovelIdeaUnavailableError,
+} = require('../lib/pipeline');
 
 async function main() {
   const args = parseArgs(process.argv.slice(2));
@@ -32,6 +41,10 @@ main().catch((error) => {
       reason: 'research_pending',
       ...error.details,
     });
+    return;
+  }
+  if (error instanceof NovelIdeaUnavailableError) {
+    printJson({ ok: true, skipped: true, reason: 'no_novel_idea', ...error.details });
     return;
   }
   fail(error.stack || error.message);

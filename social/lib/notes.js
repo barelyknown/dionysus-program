@@ -15,12 +15,30 @@ function toRepoRelative(filePath) {
   return path.relative(paths.repoRoot, filePath).replace(/\\/g, '/');
 }
 
+function canonicalBody(text) {
+  return String(text || '')
+    .replace(/\r\n?/g, '\n')
+    .replace(/[ \t]+\n/g, '\n')
+    .replace(/\n{3,}/g, '\n\n')
+    .trim();
+}
+
+function prepareCanonicalNote({ publishPayload }) {
+  const body = canonicalBody(publishPayload.body_text || publishPayload.final_text);
+  if (!body) throw new Error('Cannot prepare an empty canonical note.');
+  return {
+    body,
+    sourceMode: 'canonical_package',
+  };
+}
+
 async function materializePublishedNote({
   calendarItem,
   publishPayload,
   publishResult,
   writer,
   strategy,
+  preparedNote = null,
 }) {
   ensureDir(paths.notesContentDir);
 
@@ -34,24 +52,31 @@ async function materializePublishedNote({
     };
   }
 
-  const sourceText = publishPayload.body_text || publishPayload.final_text;
-  const fallbackBody = normalizeNoteBody(sourceText);
-  let rewrittenBody = fallbackBody;
-  let sourceMode = 'verbatim_fallback';
-
-  try {
-    const rewrite = await writer.rewriteForNotes({
-      postText: sourceText,
-      topicThesis: calendarItem.topic_thesis,
-      pillar: calendarItem.pillar,
-      voice: strategy.voice?.description || '',
-    });
-    if (rewrite && typeof rewrite.text === 'string' && rewrite.text.trim()) {
-      rewrittenBody = normalizeNoteBody(rewrite.text);
-      sourceMode = rewrite.source_mode || 'ai_rewrite';
-    }
-  } catch (error) {
+  let rewrittenBody;
+  let sourceMode;
+  if (preparedNote?.body) {
+    rewrittenBody = canonicalBody(preparedNote.body);
+    sourceMode = preparedNote.sourceMode || 'canonical_package';
+  } else {
+    const sourceText = publishPayload.body_text || publishPayload.final_text;
+    const fallbackBody = normalizeNoteBody(sourceText);
+    rewrittenBody = fallbackBody;
     sourceMode = 'verbatim_fallback';
+
+    try {
+      const rewrite = await writer.rewriteForNotes({
+        postText: sourceText,
+        topicThesis: calendarItem.topic_thesis,
+        pillar: calendarItem.pillar,
+        voice: strategy.voice?.description || '',
+      });
+      if (rewrite && typeof rewrite.text === 'string' && rewrite.text.trim()) {
+        rewrittenBody = normalizeNoteBody(rewrite.text);
+        sourceMode = rewrite.source_mode || 'ai_rewrite';
+      }
+    } catch (error) {
+      sourceMode = 'verbatim_fallback';
+    }
   }
 
   const title = deriveNoteTitle({
@@ -100,5 +125,6 @@ async function materializePublishedNote({
 }
 
 module.exports = {
+  prepareCanonicalNote,
   materializePublishedNote,
 };

@@ -6,13 +6,26 @@ const assert = require('node:assert/strict');
 const { setupTempSocialWorkspace } = require('./helpers');
 const { loadStrategy } = require('../lib/config');
 const { paths } = require('../lib/paths');
-const { materializePublishedNote } = require('../lib/notes');
+const { prepareCanonicalNote, materializePublishedNote } = require('../lib/notes');
 const { ClaudeWriterAdapter } = require('../providers/claude-writer');
 const { OpenAIWriterAdapter } = require('../providers/openai-writer');
 const { loadNoteFile, stringifyMarkdownWithFrontmatter } = require('../../lib/notes');
 const { buildNotesSite } = require('../../build-notes');
 
 const NOTES_TEMPLATE_PATH = path.join(__dirname, '..', '..', 'templates', 'notes-page.html');
+
+test('canonical note preparation preserves the exact scored body', () => {
+  const body = 'A scored opener.\nA deliberate single line break.\n\nA scored conclusion.';
+  const prepared = prepareCanonicalNote({
+    publishPayload: {
+      body_text: body,
+      final_text: `${body}\n\n---\n\nFooter copy.`,
+    },
+  });
+
+  assert.equal(prepared.body, body);
+  assert.equal(prepared.sourceMode, 'canonical_package');
+});
 
 test('materializePublishedNote creates an AI-rewritten note source file with deterministic metadata', async (t) => {
   const { tempRoot } = setupTempSocialWorkspace(t);

@@ -1,6 +1,6 @@
 timezone: America/Los_Angeles
 voice:
-  description: "Founder-level seriousness, operator clarity, intellectually rich but not academic, human, direct, unsentimental."
+  description: "Founder-level seriousness with operator clarity: human, direct, unsentimental, and alive. Earn attention with a concrete tell, real tension, or a surprising distinction. Vary cadence and structure; never recycle stock rhetoric or manufacture clickbait."
   disallowed_phrases:
     - "game changer"
     - "lean in"
@@ -15,7 +15,7 @@ provider_defaults:
   mode: fixture
   writer_provider: openai
   claude_model: claude-opus-4-6
-  openai_model: gpt-5.4
+  openai_model: gpt-5.6-sol
   openai_reasoning_effort: medium
   gemini_agent: deep-research-pro-preview-12-2025
 x:
@@ -25,10 +25,13 @@ x:
   single_post_only: true
   generate_from: linkedin_final_text
   skip_if_no_passing_candidate: true
-  writer_model: gpt-5.4
+  writer_model: gpt-5.6-sol
   writer_reasoning_effort: medium
-  scorer_model: gpt-5.4
+  scorer_model: gpt-5.6-sol
   scorer_reasoning_effort: high
+  history_limit: 1000
+  history_prompt_limit: 1000
+  near_duplicate_threshold: 0.72
   disallowed_patterns:
     - announcement_opener
     - pseudo_profound_opener
@@ -69,13 +72,7 @@ publishing:
     - weekday: monday
       time: "05:30"
       slot_type: baseline
-    - weekday: tuesday
-      time: "05:30"
-      slot_type: baseline
     - weekday: wednesday
-      time: "05:30"
-      slot_type: baseline
-    - weekday: thursday
       time: "05:30"
       slot_type: baseline
     - weekday: friday
@@ -84,6 +81,8 @@ publishing:
   timely_slots: []
 memory:
   rolling_window_days: 84
+  content_history_limit: 1000
+  content_similarity_threshold: 0.72
   hook_cooldown_days: 45
   angle_cooldown_days: 75
   topic_thesis_cooldown_days: 120
@@ -91,6 +90,13 @@ memory:
   source_reuse_cooldown_days: 21
   entity_cooldown_days: 30
 generation:
+  develop_novel_idea: true
+  minimum_idea_novelty_score: 8
+  minimum_draft_novelty_score: 8
+  minimum_draft_engagement_score: 7.5
+  idea_history_prompt_limit: 1000
+  idea_source_context_limit: 220000
+  idea_reasoning_effort: high
   best_of_n: 2
   prompt_variants:
     - hook_forward
@@ -111,7 +117,7 @@ content_types:
     target_weight: 0.25
     rolling_min: 1
     rolling_max: 10
-    weekdays: [monday, wednesday, thursday]
+    weekdays: [monday, wednesday]
     timely_eligible: true
     requires_research: true
     cooldown_days: 7
@@ -120,7 +126,7 @@ content_types:
     target_weight: 0.15
     rolling_min: 0
     rolling_max: 6
-    weekdays: [tuesday, friday]
+    weekdays: [wednesday, friday]
     timely_eligible: false
     cooldown_days: 21
   archetype_diagnosis:
@@ -128,7 +134,7 @@ content_types:
     target_weight: 0.15
     rolling_min: 0
     rolling_max: 6
-    weekdays: [tuesday, thursday]
+    weekdays: [monday, wednesday, friday]
     timely_eligible: false
     cooldown_days: 21
   high_lindy_source_tour:
@@ -136,7 +142,7 @@ content_types:
     target_weight: 0.10
     rolling_min: 0
     rolling_max: 4
-    weekdays: [thursday, friday]
+    weekdays: [monday, friday]
     timely_eligible: false
     cooldown_days: 28
   cautionary_tale:
@@ -144,7 +150,7 @@ content_types:
     target_weight: 0.05
     rolling_min: 0
     rolling_max: 3
-    weekdays: [thursday, friday]
+    weekdays: [wednesday, friday]
     timely_eligible: false
     cooldown_days: 28
   from_the_mailbag:
@@ -152,7 +158,7 @@ content_types:
     target_weight: 0.07
     rolling_min: 0
     rolling_max: 3
-    weekdays: [tuesday, thursday]
+    weekdays: [monday, wednesday, friday]
     timely_eligible: false
     cooldown_days: 28
   short_story:

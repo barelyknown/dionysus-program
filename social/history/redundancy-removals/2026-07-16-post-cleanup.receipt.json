@@ -1,0 +1,20 @@
+{
+  "ok": true,
+  "applied": true,
+  "already_applied": false,
+  "applied_at": "2026-07-16T21:29:37.313Z",
+  "manifest": "social/history/redundancy-removals/2026-07-16-post-cleanup.json",
+  "removed_record_count": 1,
+  "deleted_note_source_paths": [
+    "content/notes/2026-05-19-game-tape-review-makes-public-wrongness-safe-while-errors-are-still-cheap.md"
+  ],
+  "published_ledger_records_preserved": 89,
+  "publication_memory_records_preserved": 1,
+  "external_deletions_executed": {
+    "linkedin": 0,
+    "x": 0
+  },
+  "active_site_record_count_before": 71,
+  "active_site_record_count_after": 70,
+  "receipt_path": "social/history/redundancy-removals/2026-07-16-post-cleanup.receipt.json"
+}

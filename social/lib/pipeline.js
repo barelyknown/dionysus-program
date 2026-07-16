@@ -3,7 +3,14 @@ const { loadStrategy, loadWatchlists } = require('./config');
 const { loadSourceContext } = require('./context');
 const { readJson, writeJson } = require('./fs');
 const { paths } = require('./paths');
-const { rebuildMemory, loadPublishedRecords, getMemoryConflicts, deriveSubjectEntities } = require('./memory');
+const {
+  rebuildMemory,
+  loadPublishedRecords,
+  getMemoryConflicts,
+  deriveSubjectEntities,
+  buildArgumentHistory,
+  findContentDuplicate,
+} = require('./memory');
 const { loadMailbagItems } = require('./planner');
 const { buildBrief } = require('./briefs');
 const { getType } = require('../types');
@@ -84,12 +91,12 @@ function createAdapters({ args, strategy }) {
     zapier: new ZapierPublisherAdapter({ mode }),
     xWriter: new GPTXAdapter({
       mode,
-      model: strategy.x?.writer_model || strategy.provider_defaults?.openai_model || 'gpt-5.4',
+      model: strategy.x?.writer_model || strategy.provider_defaults?.openai_model || 'gpt-5.6-sol',
       reasoningEffort: strategy.x?.writer_reasoning_effort || 'medium',
     }),
     xScorer: new GPTXAdapter({
       mode,
-      model: strategy.x?.scorer_model || strategy.provider_defaults?.openai_model || 'gpt-5.4',
+      model: strategy.x?.scorer_model || strategy.provider_defaults?.openai_model || 'gpt-5.6-sol',
       reasoningEffort: strategy.x?.scorer_reasoning_effort || 'high',
     }),
     x: new XPublisherAdapter({ mode }),
@@ -106,6 +113,14 @@ class ResearchPendingError extends Error {
   constructor(message, details = {}) {
     super(message);
     this.name = 'ResearchPendingError';
+    this.details = details;
+  }
+}
+
+class NovelIdeaUnavailableError extends Error {
+  constructor(message, details = {}) {
+    super(message);
+    this.name = 'NovelIdeaUnavailableError';
     this.details = details;
   }
 }
@@ -215,6 +230,9 @@ function selectedResearchAngle(researchBundle) {
 }
 
 function applyResearchAngleToCalendarItem({ calendarItem, researchBundle }) {
+  if (calendarItem.idea_status === 'developed' && calendarItem.novel_idea?.pass) {
+    return calendarItem;
+  }
   const topAngle = selectedResearchAngle(researchBundle);
   const primarySource = researchBundle?.primary_source || researchBundle?.sources?.[0] || null;
   const seedTopicThesis = calendarItem.seed_topic_thesis || calendarItem.topic_thesis;
@@ -254,7 +272,10 @@ function recentResearchExclusions(memory = {}) {
 async function ensureResearchBundleForItem({ calendarItem, strategy, adapters, memory = null, options = {} }) {
   const waitForResearch = Boolean(options.waitForResearch);
   const watchlists = loadWatchlists();
-  const recencyPolicy = getResearchRecencyPolicy({ watchlists });
+  const recencyPolicy = getResearchRecencyPolicy({
+    watchlists,
+    referenceDate: options.referenceDate || now(),
+  });
   const discoveryMode = getResearchDiscoveryMode({ watchlists });
   const supportsArticleFirst = (adapters.mode === 'live' || adapters.mode === 'record')
     ? typeof adapters?.gemini?.submitDiscoveryJob === 'function'
@@ -448,10 +469,100 @@ function prepareBrief({ calendarItem, strategy, memory = null, researchBundle = 
   };
 }
 
+function noveltyHistoryFingerprint(history = []) {
+  return sha256(JSON.stringify(history.map((entry) => [
+    entry.post_id,
+    entry.published_at,
+    entry.topic_thesis,
+    entry.linkedin_text,
+    entry.x_text,
+  ])));
+}
+
+async function developNovelCalendarItem({ calendarItem, strategy, adapters, memory, researchBundle }) {
+  if (strategy.generation?.develop_novel_idea === false || typeof adapters?.scorer?.developNovelIdea !== 'function') {
+    return calendarItem;
+  }
+
+  const historyLimit = Math.max(1, Number(strategy.generation?.idea_history_prompt_limit || 1000));
+  const history = buildArgumentHistory(memory || {}, historyLimit);
+  const historyFingerprint = noveltyHistoryFingerprint(history);
+  if (
+    calendarItem.idea_status === 'developed'
+    && calendarItem.novel_idea?.pass
+    && calendarItem.novel_idea?.history_fingerprint === historyFingerprint
+  ) {
+    return calendarItem;
+  }
+
+  const prepared = prepareBrief({ calendarItem, strategy, memory, researchBundle });
+  const idea = await adapters.scorer.developNovelIdea({
+    calendarItem,
+    brief: prepared.brief,
+    history,
+    strategy,
+  });
+  const minimumNoveltyScore = Number(strategy.generation?.minimum_idea_novelty_score || 8);
+  const missingFields = ['topic_thesis', 'angle', 'hook', 'argument_summary']
+    .filter((field) => !String(idea?.[field] || '').trim());
+  const deterministicDuplicate = (adapters.mode === 'live' || adapters.mode === 'record')
+    ? [idea?.argument_summary, idea?.hook]
+      .filter(Boolean)
+      .map((text) => findContentDuplicate(
+        text,
+        memory?.recent_content || [],
+        Number(strategy.memory?.content_similarity_threshold || 0.72),
+      ))
+      .find(Boolean) || null
+    : null;
+  const pass = Boolean(idea?.pass)
+    && Number(idea?.novelty_score || 0) >= minimumNoveltyScore
+    && missingFields.length === 0
+    && !deterministicDuplicate;
+
+  if (!pass) {
+    throw new NovelIdeaUnavailableError('No genuinely novel, source-grounded argument passed the idea gate.', {
+      item_id: calendarItem.id,
+      seed_topic_thesis: calendarItem.seed_topic_thesis || calendarItem.topic_thesis,
+      history_count: history.length,
+      minimum_novelty_score: minimumNoveltyScore,
+      missing_fields: missingFields,
+      deterministic_duplicate_post_id: deterministicDuplicate?.candidate?.post_id || null,
+      idea,
+    });
+  }
+
+  const developedItem = {
+    ...calendarItem,
+    seed_topic_thesis: calendarItem.seed_topic_thesis || calendarItem.topic_thesis,
+    topic_thesis: idea.topic_thesis.trim(),
+    angle: idea.angle.trim(),
+    hook: idea.hook.trim(),
+    idea_status: 'developed',
+    novel_idea: {
+      ...idea,
+      pass: true,
+      model: adapters.scorer.model || strategy.provider_defaults?.openai_model || null,
+      history_count: history.length,
+      history_fingerprint: historyFingerprint,
+      developed_at: now().toISOString(),
+    },
+  };
+  if (adapters.mode === 'live' || adapters.mode === 'record') persistCalendarItem(developedItem);
+  return developedItem;
+}
+
 async function generateCandidatesForItem({ calendarItem, strategy, adapters, memory = null, options = {} }) {
   const ensured = await ensureResearchBundleForItem({ calendarItem, strategy, adapters, memory, options });
-  const prepared = prepareBrief({
+  const developedItem = await developNovelCalendarItem({
     calendarItem: ensured.calendarItem,
+    strategy,
+    adapters,
+    memory,
+    researchBundle: ensured.researchBundle,
+  });
+  const prepared = prepareBrief({
+    calendarItem: developedItem,
     strategy,
     memory,
     researchBundle: ensured.researchBundle,
@@ -460,7 +571,7 @@ async function generateCandidatesForItem({ calendarItem, strategy, adapters, mem
     brief: prepared.brief,
     promptVariants: selectedPromptVariants(strategy),
   });
-  return { ...prepared, calendarItem: ensured.calendarItem, candidates };
+  return { ...prepared, calendarItem: developedItem, candidates };
 }
 
 async function scoreCandidatesForItem({ calendarItem, strategy, adapters, memory, options = {} }) {
@@ -556,6 +667,7 @@ function createPublishedRecord({ publishPayload, publishResult, calendarItem, no
     research_bundle_id: publishPayload.research_bundle_id,
     winning_candidate_id: publishPayload.winning_candidate_id,
     final_text_hash: sha256(publishPayload.final_text),
+    site_status: 'published',
     note_slug: note?.slug || null,
     note_source_path: note?.sourcePath || null,
     x_status: x?.status || null,
@@ -622,9 +734,11 @@ module.exports = {
   selectedPromptVariants,
   ensureResearchBundleForItem,
   ResearchPendingError,
+  NovelIdeaUnavailableError,
   loadResearchBundle,
   saveResearchBundle,
   prepareBrief,
+  developNovelCalendarItem,
   generateCandidatesForItem,
   scoreCandidatesForItem,
   createPublishPayload,

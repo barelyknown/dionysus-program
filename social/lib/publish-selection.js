@@ -7,6 +7,11 @@ const HARD_FAILURE_REASONS = new Set([
   'link_disallowed',
 ]);
 const BLOCKING_MEMORY_CONFLICTS = new Set([
+  'hook_duplication',
+  'content_duplication',
+  'topic_duplication',
+  'timely_subject_duplication',
+  'source_overuse',
   'entity_duplication',
 ]);
 
@@ -90,6 +95,13 @@ function hasBlockingMemoryConflict(conflicts = []) {
   return (Array.isArray(conflicts) ? conflicts : []).some((conflict) => BLOCKING_MEMORY_CONFLICTS.has(conflict));
 }
 
+function meetsDraftQualityThresholds(scorecard, strategy) {
+  const minimumNoveltyScore = Number(strategy?.generation?.minimum_draft_novelty_score || 8);
+  const minimumEngagementScore = Number(strategy?.generation?.minimum_draft_engagement_score || 7.5);
+  return Number(scorecard?.novelty_score || 0) >= minimumNoveltyScore
+    && Number(scorecard?.engagement_score || 0) >= minimumEngagementScore;
+}
+
 function selectPublishCandidate({
   calendarItem,
   candidates,
@@ -113,30 +125,53 @@ function selectPublishCandidate({
       mailbagItem,
     }),
   }));
+  const eligibleCandidates = evaluatedCandidates.filter((entry) => (
+    entry.score.pass
+    && meetsDraftQualityThresholds(entry.score, strategy)
+    && !hasHardFailure(entry.score)
+    && !hasBlockingMemoryConflict(entry.memoryConflicts)
+  ));
 
-  const memorySafe = evaluatedCandidates.find((entry) => !hasHardFailure(entry.score) && entry.memoryConflicts.length === 0);
+  const memorySafe = evaluatedCandidates.find((entry) => (
+    entry.score.pass
+    && meetsDraftQualityThresholds(entry.score, strategy)
+    && !hasHardFailure(entry.score)
+    && entry.memoryConflicts.length === 0
+  ));
   if (memorySafe) {
     return {
       winnerCandidate: memorySafe.candidate,
       winnerScore: memorySafe.score,
       memoryConflicts: [],
-      selectionReason: memorySafe.score.pass ? 'memory_safe_top_choice' : 'memory_safe_best_effort',
+      selectionReason: 'memory_safe_top_choice',
       evaluatedCandidates,
+      eligibleCandidates,
     };
   }
 
-  const bestEffort = evaluatedCandidates.find((entry) => !hasHardFailure(entry.score) && !hasBlockingMemoryConflict(entry.memoryConflicts));
-  if (bestEffort) {
+  const publishableWithNonBlockingConflict = evaluatedCandidates.find((entry) => (
+    entry.score.pass
+    && meetsDraftQualityThresholds(entry.score, strategy)
+    && !hasHardFailure(entry.score)
+    && !hasBlockingMemoryConflict(entry.memoryConflicts)
+  ));
+  if (publishableWithNonBlockingConflict) {
     return {
-      winnerCandidate: bestEffort.candidate,
-      winnerScore: bestEffort.score,
-      memoryConflicts: bestEffort.memoryConflicts,
-      selectionReason: bestEffort.score.pass ? 'memory_override_top_choice' : 'memory_override_best_effort',
+      winnerCandidate: publishableWithNonBlockingConflict.candidate,
+      winnerScore: publishableWithNonBlockingConflict.score,
+      memoryConflicts: publishableWithNonBlockingConflict.memoryConflicts,
+      selectionReason: 'memory_override_top_choice',
       evaluatedCandidates,
+      eligibleCandidates,
     };
   }
 
-  const blockedByMemory = evaluatedCandidates.find((entry) => !hasHardFailure(entry.score) && hasBlockingMemoryConflict(entry.memoryConflicts));
+  const blockedByMemory = evaluatedCandidates.find((entry) => (
+    entry.score.pass
+    && meetsDraftQualityThresholds(entry.score, strategy)
+    && !hasHardFailure(entry.score)
+    && hasBlockingMemoryConflict(entry.memoryConflicts)
+  ));
   if (blockedByMemory) {
     return {
       winnerCandidate: null,
@@ -144,6 +179,7 @@ function selectPublishCandidate({
       memoryConflicts: blockedByMemory.memoryConflicts,
       selectionReason: 'blocked_by_memory_conflict',
       evaluatedCandidates,
+      eligibleCandidates,
     };
   }
 
@@ -153,6 +189,7 @@ function selectPublishCandidate({
     memoryConflicts: [],
     selectionReason: 'no_publishable_candidate',
     evaluatedCandidates,
+    eligibleCandidates,
   };
 }
 
@@ -162,4 +199,5 @@ module.exports = {
   rankScoredCandidates,
   selectPublishCandidate,
   hasHardFailure,
+  meetsDraftQualityThresholds,
 };

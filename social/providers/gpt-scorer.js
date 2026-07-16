@@ -1,6 +1,7 @@
 const { getMemoryConflicts, overlapScore } = require('../lib/memory');
 const { sha256 } = require('../lib/hash');
 const { countRecentSources, getResearchRecencyPolicy } = require('../lib/research-policy');
+const { fixtureRedundancyClusters } = require('../lib/redundancy');
 
 const REQUEST_TIMEOUT_MS = 180000;
 const NORMALIZATION_TIMEOUT_MS = 180000;
@@ -49,6 +50,7 @@ function openerPenalty(text) {
 function liveScoringSystemPrompt({ brief }) {
   const instructions = [
     'Score LinkedIn post candidates. Be strict. Prefer concise, high-signal posts.',
+    'Score engagement explicitly: does the post earn attention with substantive tension, a concrete tell, a human consequence, or a surprising distinction, and then sustain the read without clickbait?',
     'A strong opener should create immediate tension, consequence, or pattern-recognition; it should contain substance rather than merely announcing the existence of a note, thought, or post.',
     'Heavily penalize generic setup lines, rambling, repeated thesis statements, article-summary behavior, padded examples, and soft endings.',
     'Do not force one opener template; reward variety when it still lands sharply.',
@@ -173,7 +175,7 @@ async function postOpenAIResponses({ apiKey, body, timeoutMs, attempts = 1 }) {
 }
 
 class GPTScorerAdapter {
-  constructor({ mode = 'fixture', model = 'gpt-5.4', apiKey = process.env.OPENAI_API_KEY } = {}) {
+  constructor({ mode = 'fixture', model = 'gpt-5.6-sol', apiKey = process.env.OPENAI_API_KEY } = {}) {
     this.mode = mode;
     this.model = model;
     this.apiKey = apiKey;
@@ -185,6 +187,47 @@ class GPTScorerAdapter {
       return this.scoreCandidatesLive({ candidates, brief, strategy, memory, sourceRefs });
     }
     return this.scoreCandidatesFixture({ candidates, brief, strategy, memory, sourceRefs });
+  }
+
+  async developNovelIdea({ calendarItem, brief, history = [], strategy = {} }) {
+    if (this.mode === 'live' || this.mode === 'record') {
+      return this.developNovelIdeaLive({ calendarItem, brief, history, strategy });
+    }
+    return {
+      pass: true,
+      topic_thesis: calendarItem.topic_thesis,
+      angle: calendarItem.angle,
+      hook: calendarItem.hook,
+      argument_summary: calendarItem.topic_thesis,
+      novelty_score: history.length > 0 ? 8 : 10,
+      closest_post_id: '',
+      novelty_rationale: history.length > 0
+        ? 'Fixture mode preserves the seed while exercising the idea-development stage.'
+        : 'No published arguments were supplied.',
+      source_grounding: 'Fixture mode uses the supplied calendar seed and brief.',
+    };
+  }
+
+  async auditPublishedRedundancy({ records = [], candidatePairs = [] }) {
+    if (this.mode === 'live' || this.mode === 'record') {
+      return this.auditPublishedRedundancyLive({ records, candidatePairs });
+    }
+    return { clusters: fixtureRedundancyClusters(records) };
+  }
+
+  async confirmRedundancyRemovals({ pairs = [] }) {
+    if (this.mode === 'live' || this.mode === 'record') {
+      return this.confirmRedundancyRemovalsLive({ pairs });
+    }
+    return {
+      decisions: pairs.map((pair) => ({
+        remove_post_id: pair.remove.post_id,
+        keep_post_id: pair.keep.post_id,
+        redundant: true,
+        confidence: 1,
+        justification: 'Fixture mode independently confirms the nominated duplicate pair.',
+      })),
+    };
   }
 
   async normalizeResearchReport({
@@ -251,15 +294,32 @@ class GPTScorerAdapter {
       const clarityScore = Math.max(0, 10 - Math.max(0, paragraphs(text).length - 4) - tooLongPenalty - tooManyParagraphsPenalty - weakOpenerPenalty);
       const citationScore = sourceRefs && sourceRefs.length > 0 ? 9 : 6;
       const linkedinNativeScore = Math.max(0, 10 - (containsHashtag(text) ? 3 : 0) - (containsLink(text) ? 4 : 0) - weakOpenerPenalty);
+      const engagementScore = Math.max(0, Math.min(10,
+        8.5
+        - (weakOpenerPenalty * 1.5)
+        - (count < 35 ? 1 : 0)
+        - (paragraphs(text).length > 8 ? 1 : 0),
+      ));
       const riskScore = Math.max(0, 10 - memoryConflicts.length * 3);
-      const overallScore = Number(((voiceScore * 0.25) + (clarityScore * 0.2) + (citationScore * 0.15) + (linkedinNativeScore * 0.15) + (riskScore * 0.25)).toFixed(2));
-      const pass = overallScore >= 7 && memoryConflicts.length === 0 && !containsEmoji(text) && !containsHashtag(text) && !containsLink(text) && count <= 260;
+      const noveltyScore = memoryConflicts.length === 0 ? 9 : 4;
+      const minimumNoveltyScore = Number(strategy.generation?.minimum_draft_novelty_score || 8);
+      const minimumEngagementScore = Number(strategy.generation?.minimum_draft_engagement_score || 7.5);
+      const overallScore = Number(((voiceScore * 0.2) + (clarityScore * 0.15) + (citationScore * 0.1) + (linkedinNativeScore * 0.15) + (riskScore * 0.2) + (engagementScore * 0.2)).toFixed(2));
+      const pass = overallScore >= 7
+        && noveltyScore >= minimumNoveltyScore
+        && engagementScore >= minimumEngagementScore
+        && memoryConflicts.length === 0
+        && !containsEmoji(text)
+        && !containsHashtag(text)
+        && !containsLink(text)
+        && count <= 260;
 
       return {
         id: sha256(`${candidate.id}:${overallScore}`).slice(0, 12),
         candidate_id: candidate.id,
         voice_score: voiceScore,
-        novelty_score: memoryConflicts.length === 0 ? 9 : 4,
+        novelty_score: noveltyScore,
+        engagement_score: engagementScore,
         clarity_score: clarityScore,
         risk_score: riskScore,
         citation_score: citationScore,
@@ -279,6 +339,264 @@ class GPTScorerAdapter {
     });
   }
 
+  async developNovelIdeaLive({ calendarItem, brief, history, strategy }) {
+    if (!this.apiKey) throw new Error('Missing OPENAI_API_KEY for novel idea development.');
+    const schema = {
+      type: 'object',
+      additionalProperties: false,
+      properties: {
+        pass: { type: 'boolean' },
+        topic_thesis: { type: 'string' },
+        angle: { type: 'string' },
+        hook: { type: 'string' },
+        argument_summary: { type: 'string' },
+        novelty_score: { type: 'number' },
+        closest_post_id: { type: 'string' },
+        novelty_rationale: { type: 'string' },
+        source_grounding: { type: 'string' },
+      },
+      required: [
+        'pass',
+        'topic_thesis',
+        'angle',
+        'hook',
+        'argument_summary',
+        'novelty_score',
+        'closest_post_id',
+        'novelty_rationale',
+        'source_grounding',
+      ],
+    };
+    const sourceContextLimit = Math.max(10000, Number(strategy.generation?.idea_source_context_limit || 160000));
+    const input = {
+      seed: {
+        content_type: calendarItem.content_type,
+        seed_topic_thesis: calendarItem.seed_topic_thesis || calendarItem.topic_thesis,
+        provisional_angle: calendarItem.angle,
+        timely_subject: calendarItem.timely_subject || null,
+      },
+      source_material: {
+        compressed_book_context: String(brief.full_compressed_context || '').slice(0, sourceContextLimit),
+        research_summary: brief.research_summary || null,
+        primary_source: brief.primary_source || null,
+        citations: brief.citations || [],
+        mailbag_item: brief.mailbag_item || null,
+      },
+      published_argument_history: history,
+    };
+
+    const response = await postOpenAIResponses({
+      apiKey: this.apiKey,
+      timeoutMs: REQUEST_TIMEOUT_MS,
+      attempts: SCORE_REQUEST_ATTEMPTS,
+      body: {
+        model: this.model,
+        reasoning: { effort: strategy.generation?.idea_reasoning_effort || 'high' },
+        max_output_tokens: 2200,
+        text: {
+          format: {
+            type: 'json_schema',
+            name: 'novel_post_idea',
+            schema,
+          },
+        },
+        input: [
+          {
+            role: 'system',
+            content: [{
+              type: 'input_text',
+              text: [
+                'Develop one genuinely new argument for a short social post before any prose is drafted.',
+                'Treat published_argument_history as a do-not-repeat corpus, not as style examples.',
+                'Novelty means a different central claim, causal mechanism, boundary, consequence, or operator decision. New wording, a new company example, or a narrower restatement of an old claim is not novel.',
+                'The seed topic is source territory, not a thesis you must preserve. You may derive a new thesis from the supplied book or research material.',
+                'Use only claims grounded in source_material. Do not invent facts or named concepts.',
+                'Set pass=false if you cannot explain the substantive delta from the closest prior post. A passing novelty_score must be 8 or higher on a 10-point scale.',
+                'topic_thesis must be one crisp, contestable claim. argument_summary must state the full logic that makes it distinct. hook is a provisional entry point, not finished copy.',
+                'closest_post_id must identify the strongest prior overlap, or be an empty string only when there is no meaningful overlap.',
+              ].join(' '),
+            }],
+          },
+          {
+            role: 'user',
+            content: [{ type: 'input_text', text: JSON.stringify(input, null, 2) }],
+          },
+        ],
+      },
+    });
+
+    if (!response.ok) {
+      throw new Error(`OpenAI novel idea development failed (${response.status}): ${await response.text()}`);
+    }
+    const payload = await response.json();
+    this.lastUsage = payload.usage || null;
+    const outputText = payload.output_text || payload.output?.map((item) => item.content?.map((part) => part.text || '').join('')).join('') || '{}';
+    return parseJsonOutput(outputText);
+  }
+
+  async auditPublishedRedundancyLive({ records, candidatePairs }) {
+    if (!this.apiKey) throw new Error('Missing OPENAI_API_KEY for redundancy audit.');
+    const schema = {
+      type: 'object',
+      additionalProperties: false,
+      properties: {
+        clusters: {
+          type: 'array',
+          items: {
+            type: 'object',
+            additionalProperties: false,
+            properties: {
+              post_ids: { type: 'array', items: { type: 'string' } },
+              confidence: { type: 'number' },
+              central_argument: { type: 'string' },
+              overlap_explanation: { type: 'string' },
+            },
+            required: ['post_ids', 'confidence', 'central_argument', 'overlap_explanation'],
+          },
+        },
+      },
+      required: ['clusters'],
+    };
+    const response = await postOpenAIResponses({
+      apiKey: this.apiKey,
+      timeoutMs: REQUEST_TIMEOUT_MS,
+      attempts: SCORE_REQUEST_ATTEMPTS,
+      body: {
+        model: this.model,
+        reasoning: { effort: 'high' },
+        max_output_tokens: 20000,
+        text: {
+          format: {
+            type: 'json_schema',
+            name: 'published_post_redundancy_audit',
+            schema,
+          },
+        },
+        input: [
+          {
+            role: 'system',
+            content: [{
+              type: 'input_text',
+              text: [
+                'Adjudicate candidate pairs from a full corpus of published LinkedIn notes and X posts for substantive redundancy.',
+                'Create a cluster only when the posts make practically the same central claim, rely on the same causal mechanism, and land on substantially the same practical implication.',
+                'Shared vocabulary, framework, topic, company, or theme is not enough. Distinct boundaries, mechanisms, consequences, or operator decisions are not redundant.',
+                'Use the LinkedIn and X versions as two surfaces of one publication record, never as separate records.',
+                'The lexical signals only nominate pairs for review; never treat them as proof. Read both full texts.',
+                'Clusters must be disjoint, contain at least two known post_ids from the supplied candidate pairs, and include only posts that would make a reader reasonably feel they had already read the argument.',
+                'Confidence is 0 to 1. Reserve 0.88 or higher for cases safe enough to propose deletion in a dry run. When uncertain, omit the cluster.',
+                'Do not recommend actions and do not prefer older or newer posts; identify redundancy only.',
+              ].join(' '),
+            }],
+          },
+          {
+            role: 'user',
+            content: [{
+              type: 'input_text',
+              text: JSON.stringify({
+                corpus_record_count: records.length,
+                corpus_records: records,
+                candidate_pairs: candidatePairs.map((pair) => ({
+                  pair_id: pair.pair_id,
+                  same_topic_thesis: pair.same_topic_thesis,
+                  lexical_signals: pair.lexical_signals,
+                  maximum_lexical_overlap: pair.maximum_lexical_overlap,
+                  left_post_id: pair.left?.post_id || null,
+                  right_post_id: pair.right?.post_id || null,
+                })),
+              }, null, 2),
+            }],
+          },
+        ],
+      },
+    });
+    if (!response.ok) {
+      throw new Error(`OpenAI redundancy audit failed (${response.status}): ${await response.text()}`);
+    }
+    const payload = await response.json();
+    this.lastUsage = payload.usage || null;
+    if (payload.status === 'incomplete') {
+      throw new Error(`OpenAI redundancy audit returned incomplete output (${payload.incomplete_details?.reason || 'unknown reason'}).`);
+    }
+    const outputText = payload.output_text || payload.output?.map((item) => item.content?.map((part) => part.text || '').join('')).join('') || '{}';
+    return parseJsonOutput(outputText);
+  }
+
+  async confirmRedundancyRemovalsLive({ pairs }) {
+    if (!this.apiKey) throw new Error('Missing OPENAI_API_KEY for redundancy removal confirmation.');
+    const schema = {
+      type: 'object',
+      additionalProperties: false,
+      properties: {
+        decisions: {
+          type: 'array',
+          items: {
+            type: 'object',
+            additionalProperties: false,
+            properties: {
+              remove_post_id: { type: 'string' },
+              keep_post_id: { type: 'string' },
+              redundant: { type: 'boolean' },
+              confidence: { type: 'number' },
+              justification: { type: 'string' },
+            },
+            required: ['remove_post_id', 'keep_post_id', 'redundant', 'confidence', 'justification'],
+          },
+        },
+      },
+      required: ['decisions'],
+    };
+    const response = await postOpenAIResponses({
+      apiKey: this.apiKey,
+      timeoutMs: REQUEST_TIMEOUT_MS,
+      attempts: SCORE_REQUEST_ATTEMPTS,
+      body: {
+        model: this.model,
+        reasoning: { effort: 'high' },
+        max_output_tokens: 12000,
+        text: {
+          format: {
+            type: 'json_schema',
+            name: 'redundancy_removal_confirmation',
+            schema,
+          },
+        },
+        input: [
+          {
+            role: 'system',
+            content: [{
+              type: 'input_text',
+              text: [
+                'Independently review every proposed historical note removal by comparing the full remove and keep texts directly.',
+                'Do not trust the prior cluster explanation; it is only a nomination.',
+                'Use the reader standard: would a reasonable follower feel they had practically already read this note?',
+                'Set redundant=true when the posts make substantially the same central claim through the same causal mechanism and land on the same practical implication, even if the wording, hook, supporting vocabulary, or named framework differs.',
+                'The same anecdote plus the same diagnosis and takeaway is redundant. A new label or supporting distinction does not save it unless that distinction materially changes the conclusion or operator decision.',
+                'Shared subject matter alone is insufficient. If the removed post contributes a genuinely distinct boundary, consequence, or operator decision, set redundant=false.',
+                'Use confidence from 0 to 1. A removal is safe only when redundant=true and confidence is at least 0.90.',
+                'Return exactly one decision for every supplied pair, preserving both post IDs. When uncertain, reject the removal.',
+              ].join(' '),
+            }],
+          },
+          {
+            role: 'user',
+            content: [{ type: 'input_text', text: JSON.stringify({ proposed_removals: pairs }, null, 2) }],
+          },
+        ],
+      },
+    });
+    if (!response.ok) {
+      throw new Error(`OpenAI redundancy removal confirmation failed (${response.status}): ${await response.text()}`);
+    }
+    const payload = await response.json();
+    this.lastUsage = payload.usage || null;
+    if (payload.status === 'incomplete') {
+      throw new Error(`OpenAI redundancy removal confirmation returned incomplete output (${payload.incomplete_details?.reason || 'unknown reason'}).`);
+    }
+    const outputText = payload.output_text || payload.output?.map((item) => item.content?.map((part) => part.text || '').join('')).join('') || '{}';
+    return parseJsonOutput(outputText);
+  }
+
   async scoreCandidatesLive({ candidates, brief, strategy, memory, sourceRefs }) {
     if (!this.apiKey) throw new Error('Missing OPENAI_API_KEY for live scoring.');
     const schema = {
@@ -294,6 +612,7 @@ class GPTScorerAdapter {
               candidate_id: { type: 'string' },
               voice_score: { type: 'number' },
               novelty_score: { type: 'number' },
+              engagement_score: { type: 'number' },
               clarity_score: { type: 'number' },
               risk_score: { type: 'number' },
               citation_score: { type: 'number' },
@@ -306,6 +625,7 @@ class GPTScorerAdapter {
               'candidate_id',
               'voice_score',
               'novelty_score',
+              'engagement_score',
               'clarity_score',
               'risk_score',
               'citation_score',
@@ -364,7 +684,25 @@ class GPTScorerAdapter {
     this.lastUsage = payload.usage || null;
     const outputText = payload.output_text || payload.output?.map((item) => item.content?.map((part) => part.text || '').join('')).join('') || '{}';
     const parsed = JSON.parse(outputText);
-    return (parsed.scores || []).map((score) => ({ id: sha256(`${score.candidate_id}:${score.overall_score}`).slice(0, 12), ...score }));
+    const minimumNoveltyScore = Number(strategy.generation?.minimum_draft_novelty_score || 8);
+    const minimumEngagementScore = Number(strategy.generation?.minimum_draft_engagement_score || 7.5);
+    return (parsed.scores || []).map((score) => {
+      const reasons = [...(score.pass_fail_reasons || [])];
+      const noveltyPass = Number(score.novelty_score || 0) >= minimumNoveltyScore;
+      const engagementPass = Number(score.engagement_score || 0) >= minimumEngagementScore;
+      if (!noveltyPass && !reasons.includes('draft_novelty_below_threshold')) {
+        reasons.push('draft_novelty_below_threshold');
+      }
+      if (!engagementPass && !reasons.includes('draft_engagement_below_threshold')) {
+        reasons.push('draft_engagement_below_threshold');
+      }
+      return {
+        id: sha256(`${score.candidate_id}:${score.overall_score}`).slice(0, 12),
+        ...score,
+        pass: Boolean(score.pass) && noveltyPass && engagementPass,
+        pass_fail_reasons: reasons,
+      };
+    });
   }
 
   async normalizeResearchReportLive({

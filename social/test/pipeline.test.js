@@ -7,7 +7,17 @@ const { paths } = require('../lib/paths');
 const { writeJson } = require('../lib/fs');
 const { loadStrategy } = require('../lib/config');
 const { getResearchRecencyPolicy, researchBundleMeetsRecencyPolicy } = require('../lib/research-policy');
-const { createAdapters, scoreCandidatesForItem, createPublishPayload, createPublishedRecord, prepareBrief, ensureResearchBundleForItem, ResearchPendingError } = require('../lib/pipeline');
+const {
+  createAdapters,
+  scoreCandidatesForItem,
+  createPublishPayload,
+  createPublishedRecord,
+  prepareBrief,
+  ensureResearchBundleForItem,
+  developNovelCalendarItem,
+  ResearchPendingError,
+  NovelIdeaUnavailableError,
+} = require('../lib/pipeline');
 
 test('fixture generation and scoring produce a publishable winner', async (t) => {
   setupTempSocialWorkspace(t);
@@ -73,6 +83,7 @@ test('fixture generation and scoring produce a publishable winner', async (t) =>
   assert.equal(record.linkedin_post_url, 'https://www.linkedin.com/feed/update/urn:li:activity:123');
   assert.equal(record.linkedin_activity_urn, 'urn:li:activity:123');
   assert.equal(record.content_type, 'decoder_ring');
+  assert.equal(record.site_status, 'published');
   assert.ok(record.final_text_hash);
   assert.equal(payload.body_text, result.winnerCandidate.post_text);
   assert.match(payload.final_text, /\n\n---\n\n/);
@@ -336,7 +347,7 @@ test('live research can block for a newly submitted publish-time job', async (t)
     calendarItem: item,
     strategy,
     adapters,
-    options: { waitForResearch: true },
+    options: { waitForResearch: true, referenceDate: new Date('2026-03-23T13:00:00.000Z') },
   });
 
   assert.equal(pollCalls.length, 1);
@@ -423,7 +434,7 @@ test('live research uses scorer normalization when Gemini citations do not resol
     calendarItem: item,
     strategy,
     adapters,
-    options: { waitForResearch: true },
+    options: { waitForResearch: true, referenceDate: new Date('2026-03-23T13:00:00.000Z') },
   });
 
   assert.equal(result.researchBundle.id, 'gemini-bundle-1');
@@ -526,7 +537,7 @@ test('article-first live research remaps the planned thesis to the best-fit disc
     calendarItem: item,
     strategy,
     adapters,
-    options: { waitForResearch: true },
+    options: { waitForResearch: true, referenceDate: new Date('2026-03-23T13:00:00.000Z') },
   });
 
   assert.equal(result.researchBundle.id, 'bundle-article-first');
@@ -536,4 +547,106 @@ test('article-first live research remaps the planned thesis to the best-fit disc
   assert.equal(result.calendarItem.timely_subject, 'Klarna brings humans back after AI support cuts');
   assert.match(result.calendarItem.angle, /Klarna brings humans back after AI support cuts/);
   assert.equal(result.calendarItem.hook, 'The visible efficiency win came with a hidden coordination bill.');
+});
+
+test('idea development receives the full published argument history before drafting', async (t) => {
+  setupTempSocialWorkspace(t);
+  const strategy = loadStrategy();
+  const item = {
+    id: 'idea-item',
+    content_type: 'extracted_insight',
+    pillar: 'Extracted Insights',
+    slot_type: 'baseline',
+    topic_thesis: 'Stewardship rotation prevents capture.',
+    seed_topic_thesis: 'Stewardship rotation prevents capture.',
+    angle: 'Explain the concept.',
+    hook: 'Rotation matters.',
+  };
+  let receivedHistory = null;
+  const adapters = {
+    mode: 'live',
+    scorer: {
+      model: 'gpt-5.6-sol',
+      developNovelIdea: async ({ history }) => {
+        receivedHistory = history;
+        return {
+          pass: true,
+          topic_thesis: 'A rotation without a memory-bearing handoff prevents capture by destroying compounding.',
+          angle: 'Separate leadership turnover from institutional forgetting.',
+          hook: 'Some clean handoffs are institutional amnesia with better formatting.',
+          argument_summary: 'Rotation protects integrity only when the handoff transfers hard-won context; otherwise it trades capture risk for repeated error.',
+          novelty_score: 9,
+          closest_post_id: 'old-post',
+          novelty_rationale: 'The prior post addressed green dashboards, not memory loss during rotation.',
+          source_grounding: 'The book distinguishes stewardship reset from institutional capacity.',
+        };
+      },
+    },
+  };
+  const memory = {
+    recent_content: [{
+      post_id: 'old-post',
+      published_at: '2026-05-01T12:00:00Z',
+      topic_thesis: 'Healthy dashboards can conceal strategic drift.',
+      hook: 'The signals stayed green.',
+      text: 'A team can be operationally healthy while the world moves beyond it.',
+      x_summary: 'Green signals can hide strategic drift.',
+    }],
+    recent_x_posts: [],
+  };
+
+  const developed = await developNovelCalendarItem({
+    calendarItem: item,
+    strategy,
+    adapters,
+    memory,
+    researchBundle: null,
+  });
+
+  assert.equal(receivedHistory.length, 1);
+  assert.equal(receivedHistory[0].linkedin_text, memory.recent_content[0].text);
+  assert.equal(developed.idea_status, 'developed');
+  assert.equal(developed.novel_idea.history_count, 1);
+  assert.notEqual(developed.topic_thesis, item.topic_thesis);
+  assert.equal(developed.seed_topic_thesis, item.seed_topic_thesis);
+});
+
+test('idea development fails closed when the model cannot find a novel argument', async (t) => {
+  setupTempSocialWorkspace(t);
+  const strategy = loadStrategy();
+  const adapters = {
+    mode: 'live',
+    scorer: {
+      developNovelIdea: async () => ({
+        pass: false,
+        topic_thesis: 'Repeated claim.',
+        angle: 'Repeat it.',
+        hook: 'Same hook.',
+        argument_summary: 'Same argument.',
+        novelty_score: 4,
+        closest_post_id: 'old-post',
+        novelty_rationale: 'This repeats the old mechanism and implication.',
+        source_grounding: 'The source supports it, but it is not new.',
+      }),
+    },
+  };
+
+  await assert.rejects(
+    developNovelCalendarItem({
+      calendarItem: {
+        id: 'repeated-item',
+        content_type: 'extracted_insight',
+        pillar: 'Extracted Insights',
+        slot_type: 'baseline',
+        topic_thesis: 'Repeated claim.',
+        angle: 'Repeat it.',
+        hook: 'Same hook.',
+      },
+      strategy,
+      adapters,
+      memory: { recent_content: [], recent_x_posts: [] },
+      researchBundle: null,
+    }),
+    NovelIdeaUnavailableError,
+  );
 });

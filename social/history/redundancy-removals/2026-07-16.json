@@ -1,0 +1,759 @@
+{
+  "ok": true,
+  "candidate_pair_count": 198,
+  "dry_run": true,
+  "destructive_actions_executed": 0,
+  "generated_at": "2026-07-16T21:23:57.396Z",
+  "source_ref": "origin/main",
+  "audit_model": "gpt-5.6-sol",
+  "method": "Strict semantic clustering: same central claim, causal mechanism, and practical implication. Shared theme alone is not redundant.",
+  "selection_rule": "Within a confirmed cluster, keep the newest post and propose removal of older posts.",
+  "removal_scope": "Local website notes only. Preserve LinkedIn and X publications and preserve full anti-duplication memory.",
+  "preserved_external_channels": [
+    "linkedin",
+    "x"
+  ],
+  "source_fingerprint": "893ebbe9d14b0d410273c6e2ebe1d252f5f27ae4464862005a385f5c59ca7a2b",
+  "published_record_count": 89,
+  "confirmed_cluster_count": 9,
+  "proposed_record_removal_count": 18,
+  "proposed_action_count": 36,
+  "executable_action_count": 36,
+  "blocked_action_count": 0,
+  "clusters": [
+    {
+      "confidence": 0.98,
+      "central_argument": "Management Theater emerges when official rituals continue after trust has vanished, pushing real decisions and truth into private channels.",
+      "overlap_explanation": "Both describe polished reviews and alignment meetings where participants perform the expected script while consequential decisions happen in DMs, side conversations, or a leader’s head. They use the same trust-without-form mechanism and reach the same implication that repeated hollow ceremonies train people to keep reality out of official rooms.",
+      "selection_rule": "keep_newest_remove_older",
+      "keep": {
+        "post_id": "019d43fb-ee23-6ec5-a55d-6b1d90391b06",
+        "published_at": "2026-03-31T13:01:17.228Z",
+        "topic_thesis": "Management Theater.",
+        "hook": "If the real decision happens after the meeting, you’re in Management Theater.",
+        "note_slug": "2026-03-31-if-the-real-decision-happens-after-the-meeting-you-re-in-management-theater",
+        "note_source_path": "content/notes/2026-03-31-if-the-real-decision-happens-after-the-meeting-you-re-in-management-theater.md",
+        "final_text_hash": "e506ce3ac2b16623e7124bfc03bf84367acdcef85d7701ab18c4fd3a6d80418e"
+      },
+      "remove": [
+        {
+          "record": {
+            "post_id": "019d062f-0a28-1e87-cdb2-c014b644b7c1",
+            "published_at": "2026-03-19T13:00:39.369Z",
+            "topic_thesis": "The Alchemy of Error is the practical art of turning disruption into better structure.",
+            "hook": "When the meetings get sharper as the truth gets quieter, you are in Management Theater.",
+            "note_slug": "2026-03-19-when-meetings-get-sharper-as-the-truth-gets-quieter-you-are-in-management-theater",
+            "note_source_path": "content/notes/2026-03-19-when-meetings-get-sharper-as-the-truth-gets-quieter-you-are-in-management-theater.md",
+            "final_text_hash": "1b0b859ac1be73f0d49a19854543db7417316b754b84275db830c76178f1e130"
+          },
+          "proposed_actions": [
+            {
+              "system": "site",
+              "action": "delete_note_source",
+              "target": "content/notes/2026-03-19-when-meetings-get-sharper-as-the-truth-gets-quieter-you-are-in-management-theater.md",
+              "executable": true,
+              "blocker": null
+            },
+            {
+              "system": "history",
+              "action": "mark_site_removed_preserve_publication_memory",
+              "target": "019d062f-0a28-1e87-cdb2-c014b644b7c1",
+              "executable": true,
+              "blocker": null
+            }
+          ],
+          "confirmation": {
+            "redundant": true,
+            "confidence": 0.99,
+            "justification": "Both diagnose Management Theater through the same pattern: polished official rituals persist after trust has vanished, so truth and real decisions move into private channels. They reach the same implication that hollow ceremony trains concealment rather than alignment."
+          }
+        }
+      ]
+    },
+    {
+      "confidence": 0.94,
+      "central_argument": "Automating customer service as ticket resolution removes the human function that absorbs ambiguity, detects exceptions, and rebuilds trust.",
+      "overlap_explanation": "Both use Klarna to argue that support is a trust and sensing system rather than merely an answer-retrieval queue. The causal mechanism and operator implication are substantially identical: automate routine handling, but explicitly preserve responsibility for ambiguity, mistrust, exceptions, and signals that the business model is wrong.",
+      "selection_rule": "keep_newest_remove_older",
+      "keep": {
+        "post_id": "019e218e-5e50-6ce9-4201-f16bb564efd2",
+        "published_at": "2026-05-13T13:37:18.966Z",
+        "topic_thesis": "The Apollo Program is necessary but insufficient because optimization cannot metabolize meaning.",
+        "hook": "Klarna’s AI assistant handled 2.3 million customer service conversations in its first month—about two-thirds of the total. Impressive. It is also the cleanest expression of a category error.",
+        "note_slug": "2026-05-13-the-apollo-program-is-necessary-but-insufficient-because-optimization-cannot-metabolize-meaning",
+        "note_source_path": "content/notes/2026-05-13-the-apollo-program-is-necessary-but-insufficient-because-optimization-cannot-metabolize-meaning.md",
+        "final_text_hash": "cea508986f76ea621b436807abab8e31332b53f32367f82c1dd9736f617d17fa"
+      },
+      "remove": [
+        {
+          "record": {
+            "post_id": "019d3edb-4b69-a084-7520-4c1dc07bacbe",
+            "published_at": "2026-03-30T13:07:32.349Z",
+            "topic_thesis": "The Apollo Program is necessary but insufficient because optimization cannot metabolize meaning.",
+            "hook": "Sebastian Siemiatkowski said Klarna went too far cutting customer service with AI, and quality suffered. That is not a customer support story. It is a management story.",
+            "note_slug": "2026-03-30-the-apollo-program-is-necessary-but-insufficient-because-optimization-cannot-metabolize-meaning",
+            "note_source_path": "content/notes/2026-03-30-the-apollo-program-is-necessary-but-insufficient-because-optimization-cannot-metabolize-meaning.md",
+            "final_text_hash": "820a5a15dca4ca52c0b69c1b812157e1cc00bde9ff776a6ef1c918c2d5966f2f"
+          },
+          "proposed_actions": [
+            {
+              "system": "site",
+              "action": "delete_note_source",
+              "target": "content/notes/2026-03-30-the-apollo-program-is-necessary-but-insufficient-because-optimization-cannot-metabolize-meaning.md",
+              "executable": true,
+              "blocker": null
+            },
+            {
+              "system": "history",
+              "action": "mark_site_removed_preserve_publication_memory",
+              "target": "019d3edb-4b69-a084-7520-4c1dc07bacbe",
+              "executable": true,
+              "blocker": null
+            }
+          ],
+          "confirmation": {
+            "redundant": true,
+            "confidence": 0.97,
+            "justification": "Both use Klarna’s AI support automation to argue that optimizing ticket resolution erases customer service’s deeper role in absorbing ambiguity, exceptions, and mistrust. Both recommend automating routine work while deliberately preserving ownership of trust and judgment."
+          }
+        }
+      ]
+    },
+    {
+      "confidence": 0.97,
+      "central_argument": "When organizational change outruns the capacity to absorb it, overflow causes nonlinear damage to context, trust, coordination, and judgment.",
+      "overlap_explanation": "These are two versions of the Overwhelmed archetype. Both describe products being rebuilt during use, documentation and onboarding falling behind, and apparent momentum masking an organization that can no longer metabolize its own changes. They land on the same warning that speed becomes destructive once it exceeds absorptive capacity.",
+      "selection_rule": "keep_newest_remove_older",
+      "keep": {
+        "post_id": "019f287b-a6f2-32c3-9c5b-7bd3e6409f0c",
+        "published_at": "2026-07-03T14:57:00.159Z",
+        "topic_thesis": "The Overwhelmed.",
+        "hook": "Some companies don’t fail because they were wrong. They fail because they were right too fast.",
+        "note_slug": "2026-07-03-the-overwhelmed",
+        "note_source_path": "content/notes/2026-07-03-the-overwhelmed.md",
+        "final_text_hash": "dde42a01b53b01aee3f98bb8727f73f2e402ff2c99b7c096f485715c27a8958c"
+      },
+      "remove": [
+        {
+          "record": {
+            "post_id": "019d7255-6577-e521-3f86-8a55caaec4a2",
+            "published_at": "2026-04-09T13:01:32.421Z",
+            "topic_thesis": "Overflow does quadratic damage when melt outruns capacity.",
+            "hook": "If nobody can tell you which version of the plan is live, you’re not moving fast. You’re in The Overwhelmed.",
+            "note_slug": "2026-04-09-overflow-does-quadratic-damage-when-melt-outruns-capacity",
+            "note_source_path": "content/notes/2026-04-09-overflow-does-quadratic-damage-when-melt-outruns-capacity.md",
+            "final_text_hash": "21af273f9276716e63d980b85fb740d9e53277ae50b654f8e125831c592f1831"
+          },
+          "proposed_actions": [
+            {
+              "system": "site",
+              "action": "delete_note_source",
+              "target": "content/notes/2026-04-09-overflow-does-quadratic-damage-when-melt-outruns-capacity.md",
+              "executable": true,
+              "blocker": null
+            },
+            {
+              "system": "history",
+              "action": "mark_site_removed_preserve_publication_memory",
+              "target": "019d7255-6577-e521-3f86-8a55caaec4a2",
+              "executable": true,
+              "blocker": null
+            }
+          ],
+          "confirmation": {
+            "redundant": true,
+            "confidence": 0.98,
+            "justification": "Both define the Overwhelmed as change or melt outrunning organizational capacity, producing nonlinear damage to documentation, onboarding, context, trust, and judgment. Both warn that apparent momentum becomes destructive when the organization cannot absorb its own speed."
+          }
+        }
+      ]
+    },
+    {
+      "confidence": 0.96,
+      "central_argument": "Installing high-candor ritual forms before a team has sufficient trust turns the ritual into punishment or Management Theater.",
+      "overlap_explanation": "All three distinguish designed form from the human trust required to make it safe. Each uses the same evidence test—whether junior dissent has survived contact with power—and reaches the same practical boundary: do not stage public vulnerability or a high-heat Crossing until the group has demonstrated readiness through lived safety.",
+      "selection_rule": "keep_newest_remove_older",
+      "keep": {
+        "post_id": "019dfd6c-af35-9486-b684-e58c3b6cd7bc",
+        "published_at": "2026-05-06T13:14:11.651Z",
+        "topic_thesis": "The Readiness Gate is the difference between a real rite and a struggle session.",
+        "hook": "A Crossing in a low-trust team is not brave. It’s a struggle session.",
+        "note_slug": "2026-05-06-a-crossing-in-a-low-trust-team-is-not-brave-it-is-a-struggle-session",
+        "note_source_path": "content/notes/2026-05-06-a-crossing-in-a-low-trust-team-is-not-brave-it-is-a-struggle-session.md",
+        "final_text_hash": "cb1b4a699d52a17c152d1fb1dd589d6054cc8111a8b0e414c3cb016cabf3fb6c"
+      },
+      "remove": [
+        {
+          "record": {
+            "post_id": "019d777c-9c45-73db-8674-e502a85b4ae2",
+            "published_at": "2026-04-10T13:02:28.433Z",
+            "topic_thesis": "The catechumenate comes before the high-heat rite.",
+            "hook": "The fastest way to poison candor is to stage it before the group can bear it.",
+            "note_slug": "2026-04-10-the-fastest-way-to-poison-candor-is-to-stage-it-before-the-group-can-bear-it",
+            "note_source_path": "content/notes/2026-04-10-the-fastest-way-to-poison-candor-is-to-stage-it-before-the-group-can-bear-it.md",
+            "final_text_hash": "5af6ef87a0ca298e0885323976738d1e9a8cafbc5b98cba1f57612d0efe59651"
+          },
+          "proposed_actions": [
+            {
+              "system": "site",
+              "action": "delete_note_source",
+              "target": "content/notes/2026-04-10-the-fastest-way-to-poison-candor-is-to-stage-it-before-the-group-can-bear-it.md",
+              "executable": true,
+              "blocker": null
+            },
+            {
+              "system": "history",
+              "action": "mark_site_removed_preserve_publication_memory",
+              "target": "019d777c-9c45-73db-8674-e502a85b4ae2",
+              "executable": true,
+              "blocker": null
+            }
+          ],
+          "confirmation": {
+            "redundant": true,
+            "confidence": 0.99,
+            "justification": "Both argue that high-heat candor rituals imposed before trust exists become punishment or management theater. They use the same junior-versus-senior dissent test and reach the same operator decision: earn readiness through evidence of safe disagreement before requesting public vulnerability."
+          }
+        },
+        {
+          "record": {
+            "post_id": "019dd95d-fef6-908d-a73f-83ce029e37f8",
+            "published_at": "2026-04-29T13:11:49.248Z",
+            "topic_thesis": "Li can be designed, but Ren has to be generated.",
+            "hook": "The fastest way to make candor unsafe is to formalize it too early.",
+            "note_slug": "2026-04-29-the-fastest-way-to-make-candor-unsafe-is-to-formalize-it-too-early",
+            "note_source_path": "content/notes/2026-04-29-the-fastest-way-to-make-candor-unsafe-is-to-formalize-it-too-early.md",
+            "final_text_hash": "65a97397d932decf53480bd090f2ca493eded7309e624b1d9bc739d04d8f7858"
+          },
+          "proposed_actions": [
+            {
+              "system": "site",
+              "action": "delete_note_source",
+              "target": "content/notes/2026-04-29-the-fastest-way-to-make-candor-unsafe-is-to-formalize-it-too-early.md",
+              "executable": true,
+              "blocker": null
+            },
+            {
+              "system": "history",
+              "action": "mark_site_removed_preserve_publication_memory",
+              "target": "019dd95d-fef6-908d-a73f-83ce029e37f8",
+              "executable": true,
+              "blocker": null
+            }
+          ],
+          "confirmation": {
+            "redundant": true,
+            "confidence": 0.98,
+            "justification": "Both explain the same Li-versus-Ren mechanism: ritual form can be installed, but without generated trust and humaneness it becomes theater or punishment. Both give essentially the same rule not to build a ritual container larger than the shared humanity available to fill it."
+          }
+        }
+      ]
+    },
+    {
+      "confidence": 0.91,
+      "central_argument": "Because knowledge expires, organizational identity must rest on durable myths about how to act rather than factual claims or expertise.",
+      "overlap_explanation": "Both separate mortal knowledge from identity-bearing myth, argue that expertise-based identity turns updates into status threats, and conclude that organizations should anchor belonging in durable conduct rather than claims about what they know. The Cincinnatus example in the later post elaborates rather than changes the argument.",
+      "selection_rule": "keep_newest_remove_older",
+      "keep": {
+        "post_id": "019e5f62-6615-16b2-057b-8566947fc736",
+        "published_at": "2026-05-25T13:45:44.757Z",
+        "topic_thesis": "Good myths describe how to be, not what is true.",
+        "hook": "If your foundation story makes factual claims, it will die on the next frontier shift.",
+        "note_slug": "2026-05-25-if-your-foundation-story-makes-factual-claims-it-will-die-on-the-next-frontier-shift",
+        "note_source_path": "content/notes/2026-05-25-if-your-foundation-story-makes-factual-claims-it-will-die-on-the-next-frontier-shift.md",
+        "final_text_hash": "f4ae5164a1443df9142cb6084c8982798d64956b096ac1cfd309a7ddbeb53f99"
+      },
+      "remove": [
+        {
+          "record": {
+            "post_id": "019d913c-1ed2-e2c8-adb8-d66795ccf27f",
+            "published_at": "2026-04-15T13:02:09.644Z",
+            "topic_thesis": "The faster knowledge changes, the more an organization needs a stable myth layer.",
+            "hook": "The faster your knowledge expires, the more dangerous it is to build identity on expertise.",
+            "note_slug": "2026-04-15-the-faster-knowledge-changes-the-more-an-organization-needs-a-stable-myth-layer",
+            "note_source_path": "content/notes/2026-04-15-the-faster-knowledge-changes-the-more-an-organization-needs-a-stable-myth-layer.md",
+            "final_text_hash": "84f94703dd907408c0e85d56a338b18f4c68248ea315ed996041e9e1868418de"
+          },
+          "proposed_actions": [
+            {
+              "system": "site",
+              "action": "delete_note_source",
+              "target": "content/notes/2026-04-15-the-faster-knowledge-changes-the-more-an-organization-needs-a-stable-myth-layer.md",
+              "executable": true,
+              "blocker": null
+            },
+            {
+              "system": "history",
+              "action": "mark_site_removed_preserve_publication_memory",
+              "target": "019d913c-1ed2-e2c8-adb8-d66795ccf27f",
+              "executable": true,
+              "blocker": null
+            }
+          ],
+          "confirmation": {
+            "redundant": true,
+            "confidence": 0.99,
+            "justification": "Both distinguish falsifiable knowledge from identity-bearing myth, use Cincinnatus as the same example, and argue that shortening expertise half-lives make knowledge-based identity brittle. Both conclude that durable myths should orient conduct rather than impersonate factual claims."
+          }
+        }
+      ]
+    },
+    {
+      "confidence": 0.96,
+      "central_argument": "Planning tools primarily succeed by making uncertainty socially admissible early enough to alter the plan.",
+      "overlap_explanation": "Both argue that when doubt is socially expensive, teams hide it through padded orders, false precision, overcommitment, and implicit insurance. They reach the same operator test: a planning system is useful only if people can state uncertainty before reality makes honesty unavoidable.",
+      "selection_rule": "keep_newest_remove_older",
+      "keep": {
+        "post_id": "019e26a5-f87d-cd2a-201b-3fd76530f6d2",
+        "published_at": "2026-05-14T13:21:11.812Z",
+        "topic_thesis": "Planning tools are communication tools when they make uncertainty socially admissible before the fact.",
+        "hook": "Microsoft’s 2026 Work Trend Index is a useful confession: the models moved first, and management didn’t. Read plainly, the technology is ready to act before many organizations are ready to hear, “We’re not sure.”",
+        "note_slug": "2026-05-14-planning-tools-are-communication-tools-when-they-make-uncertainty-socially-admissible-before-the-fact",
+        "note_source_path": "content/notes/2026-05-14-planning-tools-are-communication-tools-when-they-make-uncertainty-socially-admissible-before-the-fact.md",
+        "final_text_hash": "7118a05f89c9dd33cfaf686b5998c3324c95e101eb3541c9b3f7ed006941ae74"
+      },
+      "remove": [
+        {
+          "record": {
+            "post_id": "019dd439-c628-af80-48d5-7773d64edbb2",
+            "published_at": "2026-04-28T13:14:09.328Z",
+            "topic_thesis": "Planning tools are communication tools when they make uncertainty socially admissible before the fact.",
+            "hook": "If the trucks are backed up at 2 a.m., the mistake happened hours earlier.",
+            "note_slug": "2026-04-28-planning-tools-are-communication-tools-when-they-make-uncertainty-socially-admissible-before-the-fact",
+            "note_source_path": "content/notes/2026-04-28-planning-tools-are-communication-tools-when-they-make-uncertainty-socially-admissible-before-the-fact.md",
+            "final_text_hash": "ea1f8e680bb09eb20b80c275a084d818dd727fa02ea86d4bb4b4c10c5353b985"
+          },
+          "proposed_actions": [
+            {
+              "system": "site",
+              "action": "delete_note_source",
+              "target": "content/notes/2026-04-28-planning-tools-are-communication-tools-when-they-make-uncertainty-socially-admissible-before-the-fact.md",
+              "executable": true,
+              "blocker": null
+            },
+            {
+              "system": "history",
+              "action": "mark_site_removed_preserve_publication_memory",
+              "target": "019dd439-c628-af80-48d5-7773d64edbb2",
+              "executable": true,
+              "blocker": null
+            }
+          ],
+          "confirmation": {
+            "redundant": true,
+            "confidence": 0.98,
+            "justification": "Both claim planning tools are communication systems whose real value is making uncertainty socially admissible early. They describe the same mechanism—unsafe doubt becomes padded estimates, hidden insurance, and operational waste—and prescribe testing whether the system lets people change plans before the miss."
+          }
+        }
+      ]
+    },
+    {
+      "confidence": 0.95,
+      "central_argument": "AI-enabled solo work reduces the shared contact through which workplace trust once formed accidentally, so trust must be generated deliberately.",
+      "overlap_explanation": "Both describe one-person jobs eliminating handoffs and shared problems while also eliminating the relational byproduct of collaboration. Each concludes that higher individual output can coexist with declining social coherence, leaving isolated individuals sharing payroll unless organizations intentionally rebuild human connection.",
+      "selection_rule": "keep_newest_remove_older",
+      "keep": {
+        "post_id": "019e4fe1-a7d5-2b89-c974-07da36de991e",
+        "published_at": "2026-05-22T13:30:49.214Z",
+        "topic_thesis": "AI independence and distributed work shrink the surface area where trust used to form by accident.",
+        "hook": "AI is turning trust from a byproduct into a line item.",
+        "note_slug": "2026-05-22-ai-is-turning-trust-from-a-byproduct-into-a-line-item",
+        "note_source_path": "content/notes/2026-05-22-ai-is-turning-trust-from-a-byproduct-into-a-line-item.md",
+        "final_text_hash": "f59c44b3017768f171dec43656981a419e87cf5c9d9b2ba15ef78a8dfd3f4232"
+      },
+      "remove": [
+        {
+          "record": {
+            "post_id": "019e4596-e700-64e5-160e-fd59961863ed",
+            "published_at": "2026-05-20T13:32:57.995Z",
+            "topic_thesis": "The One-Man Job makes organizations more efficient and less socially coherent at the same time.",
+            "hook": "Don’t confuse less coordination with better organization.",
+            "note_slug": "2026-05-20-don-t-confuse-less-coordination-with-better-organization",
+            "note_source_path": "content/notes/2026-05-20-don-t-confuse-less-coordination-with-better-organization.md",
+            "final_text_hash": "dad885ba8b3f5be2b45ccc372fab6ab31bedf31bdbb88393d363c68ad2ecb71d"
+          },
+          "proposed_actions": [
+            {
+              "system": "site",
+              "action": "delete_note_source",
+              "target": "content/notes/2026-05-20-don-t-confuse-less-coordination-with-better-organization.md",
+              "executable": true,
+              "blocker": null
+            },
+            {
+              "system": "history",
+              "action": "mark_site_removed_preserve_publication_memory",
+              "target": "019e4596-e700-64e5-160e-fd59961863ed",
+              "executable": true,
+              "blocker": null
+            }
+          ],
+          "confirmation": {
+            "redundant": true,
+            "confidence": 0.98,
+            "justification": "Both argue that AI-created one-person work reduces coordination while removing the incidental contact through which trust once formed. Both land on the same consequence and decision: output can rise while teams become isolated individuals sharing payroll unless human connection is rebuilt deliberately."
+          }
+        }
+      ]
+    },
+    {
+      "confidence": 0.97,
+      "central_argument": "A learning organization needs a standing, protected right to introduce rival explanations without permission or retaliation.",
+      "overlap_explanation": "The Standing Right of Criticism and the Jester’s Privilege are presented as the same institutional mechanism. Both make rival, falsifiable explanations lawful regardless of rank and warn that absent protection, disagreement moves into side chats, hidden tools, and shadow doctrine while stale explanations continue to scale.",
+      "selection_rule": "keep_newest_remove_older",
+      "keep": {
+        "post_id": "019e9803-db0b-f49d-91d7-94f2d51dac7e",
+        "published_at": "2026-06-05T13:40:50.088Z",
+        "topic_thesis": "The Jester's Privilege creates lawful protected speech against doctrinal drift.",
+        "hook": "If people can’t challenge doctrine in public, they will route around it in private.",
+        "note_slug": "2026-06-05-if-people-cannot-challenge-doctrine-in-public-they-will-route-around-it-in-private",
+        "note_source_path": "content/notes/2026-06-05-if-people-cannot-challenge-doctrine-in-public-they-will-route-around-it-in-private.md",
+        "final_text_hash": "11a038a271d9228c49c5ed30ba622e708b4d33c4c132c75022ae38108da95cbc"
+      },
+      "remove": [
+        {
+          "record": {
+            "post_id": "019e83a1-aefe-11c7-be40-7c7ea6943fa8",
+            "published_at": "2026-06-01T14:41:11.969Z",
+            "topic_thesis": "The Standing Right of Criticism makes rival explanations lawful without permission.",
+            "hook": "If a rival explanation needs permission, you do not have a learning system. You have a court.",
+            "note_slug": "2026-06-01-the-standing-right-of-criticism-makes-rival-explanations-lawful-without-permission",
+            "note_source_path": "content/notes/2026-06-01-the-standing-right-of-criticism-makes-rival-explanations-lawful-without-permission.md",
+            "final_text_hash": "1d8dac1ea6b330e9a1ffd9dabc13b6416d82364b5ca670b54c785481c087f289"
+          },
+          "proposed_actions": [
+            {
+              "system": "site",
+              "action": "delete_note_source",
+              "target": "content/notes/2026-06-01-the-standing-right-of-criticism-makes-rival-explanations-lawful-without-permission.md",
+              "executable": true,
+              "blocker": null
+            },
+            {
+              "system": "history",
+              "action": "mark_site_removed_preserve_publication_memory",
+              "target": "019e83a1-aefe-11c7-be40-7c7ea6943fa8",
+              "executable": true,
+              "blocker": null
+            }
+          ],
+          "confirmation": {
+            "redundant": true,
+            "confidence": 0.99,
+            "justification": "The Jester’s Privilege is presented as the same Standing Right of Criticism: anyone may introduce a falsifiable rival explanation without permission or retaliation. Both warn that otherwise disagreement moves into private workarounds and shadow doctrine, especially as AI scales bad explanations."
+          }
+        }
+      ]
+    },
+    {
+      "confidence": 0.99,
+      "central_argument": "Optimization can expose operational waste but cannot make uncertainty socially safe to admit; separate Ritual Time is required to address the human meaning producing the waste.",
+      "overlap_explanation": "Every post uses the same night-paving example: trucks idle because they were over-ordered hours earlier when uncertainty was high and protecting production was socially safer than admitting doubt. Each contrasts Apollo or Run Time measurement with Ritual Time, identifies waste as insurance against blame, and reaches the same implication that dashboards and optimization must be paired with a protected planning-and-review container where public wrongness is safe.",
+      "selection_rule": "keep_newest_remove_older",
+      "keep": {
+        "post_id": "019f6b5b-7df6-a5e6-de7f-f91ea54c2a27",
+        "published_at": "2026-07-16T14:36:25.993Z",
+        "topic_thesis": "The Apollo Program is necessary but insufficient because optimization cannot metabolize meaning.",
+        "hook": "A dashboard can expose waste. It cannot make uncertainty speakable.",
+        "note_slug": "2026-07-16-a-dashboard-can-expose-waste-it-cannot-make-uncertainty-speakable",
+        "note_source_path": "content/notes/2026-07-16-a-dashboard-can-expose-waste-it-cannot-make-uncertainty-speakable.md",
+        "final_text_hash": "2572660474c500d6c6eae23a3fdcfbd4c368a73dda4cb1d6006a05b4bc6e8c03"
+      },
+      "remove": [
+        {
+          "record": {
+            "post_id": "019d9663-f62b-227d-4c04-541640606324",
+            "published_at": "2026-04-16T13:03:46.763Z",
+            "topic_thesis": "Apollo and Dionysus are complements, not substitutes: one optimizes the known system, the other governs death and rebirth.",
+            "hook": "The social cost of missing this pattern is brutal: the dashboard gets sharper while the room gets colder.",
+            "note_slug": "2026-04-16-apollo-and-dionysus-are-complements-not-substitutes-one-optimizes-the-known-system-the-other-governs-death-and-rebirth",
+            "note_source_path": "content/notes/2026-04-16-apollo-and-dionysus-are-complements-not-substitutes-one-optimizes-the-known-system-the-other-governs-death-and-rebirth.md",
+            "final_text_hash": "dab4ecbde2cc6ad53bad88f15f26288a6962b61528980fcdc90ce940546b77f9"
+          },
+          "proposed_actions": [
+            {
+              "system": "site",
+              "action": "delete_note_source",
+              "target": "content/notes/2026-04-16-apollo-and-dionysus-are-complements-not-substitutes-one-optimizes-the-known-system-the-other-governs-death-and-rebirth.md",
+              "executable": true,
+              "blocker": null
+            },
+            {
+              "system": "history",
+              "action": "mark_site_removed_preserve_publication_memory",
+              "target": "019d9663-f62b-227d-4c04-541640606324",
+              "executable": true,
+              "blocker": null
+            }
+          ],
+          "confirmation": {
+            "redundant": true,
+            "confidence": 0.96,
+            "justification": "Both use the same night-paving anecdote to show that dashboards expose idle-truck waste only after socially unsafe uncertainty has caused over-ordering. Both conclude that Apollo-style optimization needs a complementary ritual container where bad assumptions can die and uncertainty can be spoken safely."
+          }
+        },
+        {
+          "record": {
+            "post_id": "019f382c-6414-9885-ed91-a56eb5ccb881",
+            "published_at": "2026-07-06T16:04:21.179Z",
+            "topic_thesis": "The Apollo Program is necessary but insufficient because optimization cannot metabolize meaning.",
+            "hook": "Apollo gets you lift. It does not make uncertainty speakable.",
+            "note_slug": "2026-07-06-apollo-gets-you-lift-it-does-not-make-uncertainty-speakable",
+            "note_source_path": "content/notes/2026-07-06-apollo-gets-you-lift-it-does-not-make-uncertainty-speakable.md",
+            "final_text_hash": "3269014d0a2f63c176ebe889dc5f80a676b6e13e5add27757b66e644a2628ffd"
+          },
+          "proposed_actions": [
+            {
+              "system": "site",
+              "action": "delete_note_source",
+              "target": "content/notes/2026-07-06-apollo-gets-you-lift-it-does-not-make-uncertainty-speakable.md",
+              "executable": true,
+              "blocker": null
+            },
+            {
+              "system": "history",
+              "action": "mark_site_removed_preserve_publication_memory",
+              "target": "019f382c-6414-9885-ed91-a56eb5ccb881",
+              "executable": true,
+              "blocker": null
+            }
+          ],
+          "confirmation": {
+            "redundant": true,
+            "confidence": 0.99,
+            "justification": "Both make the same Run Time versus Ritual Time argument through the identical paving anecdote: dashboards reveal idle trucks but cannot surface the unsafe uncertainty that caused over-ordering. Both prescribe protected planning and review that makes being wrong in public safe."
+          }
+        },
+        {
+          "record": {
+            "post_id": "019f3d36-2ab4-27c7-f136-421955342d31",
+            "published_at": "2026-07-07T15:33:07.905Z",
+            "topic_thesis": "The Apollo Program is necessary but insufficient because optimization cannot metabolize meaning.",
+            "hook": "You can optimize a system straight into dishonesty.",
+            "note_slug": "2026-07-07-you-can-optimize-a-system-straight-into-dishonesty",
+            "note_source_path": "content/notes/2026-07-07-you-can-optimize-a-system-straight-into-dishonesty.md",
+            "final_text_hash": "5dfb84a95ca04d8778672219a83b4327714c98582c6f1d1d1014bc41e9324b2e"
+          },
+          "proposed_actions": [
+            {
+              "system": "site",
+              "action": "delete_note_source",
+              "target": "content/notes/2026-07-07-you-can-optimize-a-system-straight-into-dishonesty.md",
+              "executable": true,
+              "blocker": null
+            },
+            {
+              "system": "history",
+              "action": "mark_site_removed_preserve_publication_memory",
+              "target": "019f3d36-2ab4-27c7-f136-421955342d31",
+              "executable": true,
+              "blocker": null
+            }
+          ],
+          "confirmation": {
+            "redundant": true,
+            "confidence": 0.99,
+            "justification": "Both say Apollo-style optimization can expose paving waste without addressing the status and blame dynamics that make over-ordering socially safer than admitting uncertainty. Both conclude that planning must function as a communication container where uncertainty and error are safe to discuss."
+          }
+        },
+        {
+          "record": {
+            "post_id": "019f423d-8ef5-c0e3-9565-3a85f6152410",
+            "published_at": "2026-07-08T14:59:18.412Z",
+            "topic_thesis": "The Apollo Program is necessary but insufficient because optimization cannot metabolize meaning.",
+            "hook": "The money was already burning in the dark before the dashboard could say a word.",
+            "note_slug": "2026-07-08-the-money-was-already-burning-in-the-dark-before-the-dashboard-could-say-a-word",
+            "note_source_path": "content/notes/2026-07-08-the-money-was-already-burning-in-the-dark-before-the-dashboard-could-say-a-word.md",
+            "final_text_hash": "d57cd77cbaed04f829e33ad3688aa70b7b3245c71cbc8d57218d7695fd5aebcd"
+          },
+          "proposed_actions": [
+            {
+              "system": "site",
+              "action": "delete_note_source",
+              "target": "content/notes/2026-07-08-the-money-was-already-burning-in-the-dark-before-the-dashboard-could-say-a-word.md",
+              "executable": true,
+              "blocker": null
+            },
+            {
+              "system": "history",
+              "action": "mark_site_removed_preserve_publication_memory",
+              "target": "019f423d-8ef5-c0e3-9565-3a85f6152410",
+              "executable": true,
+              "blocker": null
+            }
+          ],
+          "confirmation": {
+            "redundant": true,
+            "confidence": 0.98,
+            "justification": "Both use the same trucks-at-night story and identify the same cause: waste was insurance purchased because uncertainty could not be named earlier. Both conclude that dashboards and optimization are insufficient unless the organization makes uncertainty socially admissible before the decision."
+          }
+        },
+        {
+          "record": {
+            "post_id": "019f478d-9bed-1a35-f835-ba65a751b051",
+            "published_at": "2026-07-09T15:44:50.708Z",
+            "topic_thesis": "The Apollo Program is necessary but insufficient because optimization cannot metabolize meaning.",
+            "hook": "You can optimize a system and still make the people inside it less able to tell the truth.",
+            "note_slug": "2026-07-09-the-apollo-program-is-necessary-but-insufficient-because-optimization-cannot-metabolize-meaning",
+            "note_source_path": "content/notes/2026-07-09-the-apollo-program-is-necessary-but-insufficient-because-optimization-cannot-metabolize-meaning.md",
+            "final_text_hash": "845a25336d89ee45b48aa38ab99a66a0b5792c12c73f078bf0c8f595cfcf29d1"
+          },
+          "proposed_actions": [
+            {
+              "system": "site",
+              "action": "delete_note_source",
+              "target": "content/notes/2026-07-09-the-apollo-program-is-necessary-but-insufficient-because-optimization-cannot-metabolize-meaning.md",
+              "executable": true,
+              "blocker": null
+            },
+            {
+              "system": "history",
+              "action": "mark_site_removed_preserve_publication_memory",
+              "target": "019f478d-9bed-1a35-f835-ba65a751b051",
+              "executable": true,
+              "blocker": null
+            }
+          ],
+          "confirmation": {
+            "redundant": true,
+            "confidence": 0.99,
+            "justification": "Both contrast dashboards that reveal paving waste after the fact with Ritual Time that makes uncertainty speakable beforehand and error safe to examine afterward. The anecdote, diagnosis, AI consequence, and operator remedy are substantially identical."
+          }
+        },
+        {
+          "record": {
+            "post_id": "019f4c9b-4c7f-d16e-a11d-5322d4263d42",
+            "published_at": "2026-07-10T15:17:53.932Z",
+            "topic_thesis": "The Apollo Program is necessary but insufficient because optimization cannot metabolize meaning.",
+            "hook": "A company can get more efficient while becoming less truthful.",
+            "note_slug": "2026-07-10-a-company-can-become-more-efficient-while-becoming-less-truthful",
+            "note_source_path": "content/notes/2026-07-10-a-company-can-become-more-efficient-while-becoming-less-truthful.md",
+            "final_text_hash": "a401a88e2c21fdf5ae5291c4462c0e8c1b8975385554f55b9de049ae8f690ed3"
+          },
+          "proposed_actions": [
+            {
+              "system": "site",
+              "action": "delete_note_source",
+              "target": "content/notes/2026-07-10-a-company-can-become-more-efficient-while-becoming-less-truthful.md",
+              "executable": true,
+              "blocker": null
+            },
+            {
+              "system": "history",
+              "action": "mark_site_removed_preserve_publication_memory",
+              "target": "019f4c9b-4c7f-d16e-a11d-5322d4263d42",
+              "executable": true,
+              "blocker": null
+            }
+          ],
+          "confirmation": {
+            "redundant": true,
+            "confidence": 0.99,
+            "justification": "Both argue that optimization can improve efficiency while reducing truthfulness, using the same idle-truck and socially compelled over-ordering anecdote. Both prescribe Ritual Time to make uncertainty speakable before execution and error discussable afterward."
+          }
+        },
+        {
+          "record": {
+            "post_id": "019f5c1b-3718-fe80-99ba-714ab1eec9a3",
+            "published_at": "2026-07-13T15:31:55.309Z",
+            "topic_thesis": "The Apollo Program is necessary but insufficient because optimization cannot metabolize meaning.",
+            "hook": "A system can get sharper while the people inside it get quieter.",
+            "note_slug": "2026-07-13-a-system-can-get-sharper-while-the-people-inside-it-get-quieter",
+            "note_source_path": "content/notes/2026-07-13-a-system-can-get-sharper-while-the-people-inside-it-get-quieter.md",
+            "final_text_hash": "9f27a5bd0a46a487c5fd2ffa79e332ecb3fd1fab1ce66afb90d7c5cbbf683e86"
+          },
+          "proposed_actions": [
+            {
+              "system": "site",
+              "action": "delete_note_source",
+              "target": "content/notes/2026-07-13-a-system-can-get-sharper-while-the-people-inside-it-get-quieter.md",
+              "executable": true,
+              "blocker": null
+            },
+            {
+              "system": "history",
+              "action": "mark_site_removed_preserve_publication_memory",
+              "target": "019f5c1b-3718-fe80-99ba-714ab1eec9a3",
+              "executable": true,
+              "blocker": null
+            }
+          ],
+          "confirmation": {
+            "redundant": true,
+            "confidence": 0.99,
+            "justification": "Both state that Apollo can measure idle-truck waste but cannot make the earlier uncertainty behind over-ordering safe to express. Both identify Ritual Time as the missing protected space and warn that AI will amplify optimization without making truth easier to tell."
+          }
+        },
+        {
+          "record": {
+            "post_id": "019f6106-0225-4847-217a-215152feb764",
+            "published_at": "2026-07-14T14:26:51.598Z",
+            "topic_thesis": "The Apollo Program is necessary but insufficient because optimization cannot metabolize meaning.",
+            "hook": "The dashboard was right, and the job was still wrong.",
+            "note_slug": "2026-07-14-the-dashboard-was-right-and-the-job-was-still-wrong",
+            "note_source_path": "content/notes/2026-07-14-the-dashboard-was-right-and-the-job-was-still-wrong.md",
+            "final_text_hash": "e882da38dc8e266391d9a78f7fb5cfab0dd324249213ca9c9ffff68c015c26b5"
+          },
+          "proposed_actions": [
+            {
+              "system": "site",
+              "action": "delete_note_source",
+              "target": "content/notes/2026-07-14-the-dashboard-was-right-and-the-job-was-still-wrong.md",
+              "executable": true,
+              "blocker": null
+            },
+            {
+              "system": "history",
+              "action": "mark_site_removed_preserve_publication_memory",
+              "target": "019f6106-0225-4847-217a-215152feb764",
+              "executable": true,
+              "blocker": null
+            }
+          ],
+          "confirmation": {
+            "redundant": true,
+            "confidence": 0.99,
+            "justification": "Both use the identical paving example to explain that visible waste was socially protective insurance created before the dashboard could help. Both contrast Run Time with Ritual Time and prescribe planning and review that permit uncertainty and public error without blame."
+          }
+        },
+        {
+          "record": {
+            "post_id": "019f6629-e312-69cd-3402-844fa8ec2fb6",
+            "published_at": "2026-07-15T14:24:09.018Z",
+            "topic_thesis": "The Apollo Program is necessary but insufficient because optimization cannot metabolize meaning.",
+            "hook": "The Apollo virtues can improve a system while quietly hollowing out the humans inside it.",
+            "note_slug": "2026-07-15-the-apollo-virtues-can-improve-a-system-while-quietly-hollowing-out-the-humans-inside-it",
+            "note_source_path": "content/notes/2026-07-15-the-apollo-virtues-can-improve-a-system-while-quietly-hollowing-out-the-humans-inside-it.md",
+            "final_text_hash": "b4345f944fbb3262d21f9e969cfcd6c73511a467461220bf9fbb3a06b39b7134"
+          },
+          "proposed_actions": [
+            {
+              "system": "site",
+              "action": "delete_note_source",
+              "target": "content/notes/2026-07-15-the-apollo-virtues-can-improve-a-system-while-quietly-hollowing-out-the-humans-inside-it.md",
+              "executable": true,
+              "blocker": null
+            },
+            {
+              "system": "history",
+              "action": "mark_site_removed_preserve_publication_memory",
+              "target": "019f6629-e312-69cd-3402-844fa8ec2fb6",
+              "executable": true,
+              "blocker": null
+            }
+          ],
+          "confirmation": {
+            "redundant": true,
+            "confidence": 0.98,
+            "justification": "Both say Apollo’s optimization tools can improve output while trust and candor deteriorate, then use the same paving over-ordering story to show why. Both prescribe Ritual Time as the complementary capacity for making uncertainty admissible and metabolizing error, status, and meaning."
+          }
+        }
+      ]
+    }
+  ],
+  "confirmation_method": "Independent record-by-record full-text comparison after semantic clustering.",
+  "confirmation_minimum_confidence": 0.9,
+  "confirmation_decision_count": 18,
+  "rejected_removal_count": 0,
+  "rejected_removals": []
+}

@@ -1,13 +1,14 @@
 const { sha256 } = require('../lib/hash');
+const { findXDuplicate } = require('../lib/memory');
 
 const VARIANT_LABELS = [
+  'vivid_tell',
   'sharp_claim',
-  'cost_frame',
-  'diagnostic_naming',
-  'contrast_frame',
-  'paradox_frame',
-  'consequence_frame',
-  'operator_frame',
+  'concrete_consequence',
+  'surprising_contrast',
+  'miniature_scene',
+  'human_stakes',
+  'compressed_story',
   'clean_distinction',
 ];
 
@@ -134,6 +135,43 @@ function hasConcreteAnchor(text) {
   ].some((word) => lower.includes(word));
 }
 
+function hasVividSpecificity(text) {
+  const normalized = normalizeWhitespace(text);
+  return /\b\d+(?:\.\d+)?\b/.test(normalized)
+    || /[“”"]/.test(normalized)
+    || /\b(?:dashboard|calendar|hallway|meeting|handoff|spreadsheet|truck|customer|manager|founder|operator|engineer|review|postmortem)\b/i.test(normalized);
+}
+
+function openingTemplate(text) {
+  const opener = (paragraphs(text)[0] || '').toLowerCase();
+  if (/^most\b/.test(opener)) return 'most';
+  if (/^the (?:real|fastest|most|cost|difference|moment|more)\b/.test(opener)) return 'the_abstract_claim';
+  if (/^(?:if|when)\b/.test(opener)) return 'conditional';
+  if (/\bis not the same (?:thing )?as\b/.test(opener)) return 'not_the_same_as';
+  if (/\bisn['’]t .* it['’]s\b/.test(opener)) return 'not_it_is';
+  return null;
+}
+
+function compactRecentXPosts(recentPosts = [], strategy = {}) {
+  const limit = Math.max(1, Number(strategy?.x?.history_prompt_limit || 1000));
+  return (Array.isArray(recentPosts) ? recentPosts : [])
+    .slice(-limit)
+    .map((post) => ({
+      id: post.post_id || post.x_external_post_id || null,
+      published_at: post.x_published_at || post.published_at || null,
+      topic_thesis: post.topic_thesis || null,
+      text: post.x_summary || post.text || '',
+    }))
+    .filter((post) => post.text);
+}
+
+function repeatsRecentOpeningTemplate(text, recentPosts = []) {
+  const template = openingTemplate(text);
+  if (!template) return null;
+  const matches = recentPosts.filter((post) => openingTemplate(post.x_summary || post.text || '') === template);
+  return matches.length >= 2 ? template : null;
+}
+
 function cleanLinkedInParagraphs(linkedinText) {
   return paragraphs(linkedinText)
     .map((paragraph) => paragraph.replace(/https?:\/\/\S+/gi, '').trim())
@@ -150,33 +188,33 @@ function truncateToLength(text, maxLength) {
 
 function createFixtureCandidate({ variant, thesis, anchor, consequence, maxLength }) {
   const variantMap = {
+    vivid_tell: [
+      anchor,
+      consequence,
+    ],
     sharp_claim: [
+      `${thesis} ${consequence}`,
+    ],
+    concrete_consequence: [
+      consequence,
       thesis,
+    ],
+    surprising_contrast: [
+      `${anchor} can look like a process problem.`,
       consequence,
     ],
-    cost_frame: [
-      `${anchor} is not just a style problem.`,
+    miniature_scene: [
+      anchor,
+      'The room adjusts before the process does.',
       consequence,
     ],
-    diagnostic_naming: [
-      `Most trust failures start as naming failures.`,
+    human_stakes: [
+      anchor,
+      'The cost lands on people before it appears in the dashboard.',
       consequence,
     ],
-    contrast_frame: [
-      `${anchor} is not the same thing as trust.`,
-      consequence,
-    ],
-    paradox_frame: [
-      `A team can get more disciplined and less honest at the same time.`,
-      consequence,
-    ],
-    consequence_frame: [
-      thesis,
-      `After that, every new initiative looks like execution from the outside and extraction from the inside.`,
-    ],
-    operator_frame: [
-      `People avoid criticism when the social cost is still too high.`,
-      `Then distortion starts looking like professionalism.`,
+    compressed_story: [
+      `${anchor} ${consequence}`,
     ],
     clean_distinction: [
       `The difference between rigor and theater is whether reality is allowed to interrupt the script.`,
@@ -190,7 +228,7 @@ function createFixtureCandidate({ variant, thesis, anchor, consequence, maxLengt
 class GPTXAdapter {
   constructor({
     mode = 'fixture',
-    model = 'gpt-5.4',
+    model = 'gpt-5.6-sol',
     reasoningEffort = 'medium',
     apiKey = process.env.OPENAI_API_KEY,
   } = {}) {
@@ -200,18 +238,18 @@ class GPTXAdapter {
     this.apiKey = apiKey;
   }
 
-  async generateCandidates({ linkedinText, strategy, bestOfN = 8 }) {
+  async generateCandidates({ linkedinText, strategy, bestOfN = 8, recentPosts = [] }) {
     if (this.mode === 'live' || this.mode === 'record') {
-      return this.generateCandidatesLive({ linkedinText, strategy, bestOfN });
+      return this.generateCandidatesLive({ linkedinText, strategy, bestOfN, recentPosts });
     }
     return this.generateCandidatesFixture({ linkedinText, strategy, bestOfN });
   }
 
-  async scoreCandidates({ candidates, linkedinText, strategy }) {
+  async scoreCandidates({ candidates, linkedinText, strategy, recentPosts = [] }) {
     if (this.mode === 'live' || this.mode === 'record') {
-      return this.scoreCandidatesLive({ candidates, linkedinText, strategy });
+      return this.scoreCandidatesLive({ candidates, linkedinText, strategy, recentPosts });
     }
-    return this.scoreCandidatesFixture({ candidates, linkedinText, strategy });
+    return this.scoreCandidatesFixture({ candidates, linkedinText, strategy, recentPosts });
   }
 
   generateCandidatesFixture({ linkedinText, strategy, bestOfN }) {
@@ -234,7 +272,7 @@ class GPTXAdapter {
     });
   }
 
-  async generateCandidatesLive({ linkedinText, strategy, bestOfN }) {
+  async generateCandidatesLive({ linkedinText, strategy, bestOfN, recentPosts = [] }) {
     if (!this.apiKey) throw new Error('Missing OPENAI_API_KEY for live X generation.');
 
     const variantLabels = VARIANT_LABELS.slice(0, bestOfN);
@@ -284,14 +322,16 @@ class GPTXAdapter {
               {
                 type: 'input_text',
                 text: [
-                  'Rewrite a published LinkedIn post into a set of strong single-post X candidates.',
-                  'Produce concise, sharp prose in 2-3 short paragraphs.',
-                  'Open with a sharp claim, not an announcement, question, or staged setup.',
-                  'Favor distinction, contrast, paradox, and diagnostic framing.',
-                  'Keep the thesis somewhat elliptical rather than over-explained.',
-                  'Use one concrete anchor where possible.',
+                  'Rewrite a published LinkedIn post into genuinely different, memorable single-post X candidates.',
+                  'Each candidate must stand alone within the character limit and may use 1-3 short paragraphs.',
+                  'Make the writing engaging by creating earned tension, using a concrete tell or human consequence, and landing one fresh insight. Do not use clickbait or engagement bait.',
+                  'Vary the architecture: a vivid tell, sharp claim, concrete consequence, surprising contrast, miniature scene, human stakes, compressed story, or clean distinction.',
+                  'Do not make every draft a two-paragraph diagnosis. Vary cadence, sentence length, opener shape, and final beat.',
+                  'Open with substance, not an announcement, generic question, staged setup, or recycled “Most…” claim.',
+                  'Preserve one core claim from the source, but choose a specific angle rather than summarizing the whole LinkedIn post.',
+                  'Never reuse a recent post’s core claim, rhetorical frame, memorable phrase, or closing idea, even with synonyms.',
                   'Allow moderate framework language, but do not make the post insider-only.',
-                  'End cleanly, without a CTA or operator-advice close unless the source genuinely requires it.',
+                  'End cleanly, without a CTA, summary sentence, or generic operator-advice close.',
                   'Do not use hashtags, emojis, links, thread markers, bullets, or list numbering.',
                   'Do not make the book or free download the point of the post. A brief supporting aside is acceptable only if it is not central.',
                   'Avoid performative cleverness, pseudo-profound phrasing, announcement openers, and too-neat slogan reversals.',
@@ -308,8 +348,9 @@ class GPTXAdapter {
                   best_of_n: bestOfN,
                   variant_labels: variantLabels,
                   max_length: Number(strategy?.x?.max_length || 280),
-                  style_center: 'Closest family is direct, sharp, compact, concept-led, with one clear consequence. Avoid obtuse or promotional modes.',
+                  style_center: strategy?.voice?.description || 'Direct, sharp, compact, human, specific, and varied.',
                   linkedin_text: linkedinText,
+                  recent_x_posts_do_not_repeat: compactRecentXPosts(recentPosts, strategy),
                 }, null, 2),
               },
             ],
@@ -340,7 +381,7 @@ class GPTXAdapter {
     });
   }
 
-  scoreCandidatesFixture({ candidates, linkedinText, strategy }) {
+  scoreCandidatesFixture({ candidates, linkedinText, strategy, recentPosts = [] }) {
     const maxLength = Number(strategy?.x?.max_length || 280);
 
     return candidates.map((candidate) => {
@@ -349,6 +390,12 @@ class GPTXAdapter {
       const hardFail = [];
       const paragraphCount = paragraphs(text).length;
       const length = charCount(text);
+      const duplicate = findXDuplicate(
+        text,
+        recentPosts,
+        Number(strategy?.x?.near_duplicate_threshold || 0.72),
+      );
+      const repeatedTemplate = repeatsRecentOpeningTemplate(text, recentPosts);
 
       if (length > maxLength) hardFail.push(`too_long:${length}_chars`);
       if (containsHashtag(text)) hardFail.push('hashtag_disallowed');
@@ -356,6 +403,7 @@ class GPTXAdapter {
       if (containsLink(text)) hardFail.push('link_disallowed');
       if (containsThreadMarker(text)) hardFail.push('thread_marker_disallowed');
       if (isBookMentionPayload(text)) hardFail.push('book_promotion_payload');
+      if (duplicate) hardFail.push(duplicate.reason);
 
       if (isAnnouncementOpener(text)) reasons.push('announcement_opener');
       if (isPseudoProfoundOpener(text)) reasons.push('pseudo_profound_opener');
@@ -363,7 +411,8 @@ class GPTXAdapter {
       if (isAdviceHeavyEnding(text)) reasons.push('advice_heavy_ending');
       if (isObtuseCompression(text)) reasons.push('obtuse_compression');
       if (!hasConcreteAnchor(text)) reasons.push('missing_concrete_anchor');
-      if (paragraphCount < 2 || paragraphCount > 3) reasons.push('paragraph_shape_miss');
+      if (paragraphCount > 3) reasons.push('paragraph_shape_miss');
+      if (repeatedTemplate) reasons.push(`repeated_opening_template:${repeatedTemplate}`);
 
       const clarityScore = Math.max(0, 10 - (reasons.includes('obtuse_compression') ? 3 : 0) - (paragraphCount > 3 ? 1.5 : 0));
       const compressionScore = Math.max(0, 10 - (length > 250 ? 1.5 : 0) - (length < 90 ? 1.5 : 0));
@@ -375,16 +424,29 @@ class GPTXAdapter {
         - (reasons.includes('too_neat_reversal') ? 1.5 : 0)
         - (reasons.includes('advice_heavy_ending') ? 1 : 0));
       const xFitScore = Math.max(0, 10
-        - (paragraphCount < 2 || paragraphCount > 3 ? 1.5 : 0)
+        - (paragraphCount > 3 ? 1.5 : 0)
         - (hardFail.length > 0 ? 4 : 0));
+      const noveltyScore = duplicate ? 0 : (repeatedTemplate ? 6 : 9);
+      const engagementScore = Math.max(0, Math.min(10,
+        7
+        + (hasVividSpecificity(text) ? 1.5 : 0)
+        + (paragraphs(text)[0]?.split(/\s+/).length <= 16 ? 0.5 : 0)
+        - (isAnnouncementOpener(text) || isPseudoProfoundOpener(text) ? 2 : 0)
+        - (repeatedTemplate ? 1 : 0),
+      ));
 
-      const overallScore = Number(((clarityScore * 0.25)
-        + (compressionScore * 0.2)
-        + (diagnosticScore * 0.25)
-        + (antiCheeseScore * 0.2)
-        + (xFitScore * 0.1)).toFixed(2));
+      const overallScore = Number(((clarityScore * 0.2)
+        + (compressionScore * 0.15)
+        + (diagnosticScore * 0.15)
+        + (antiCheeseScore * 0.15)
+        + (xFitScore * 0.1)
+        + (noveltyScore * 0.15)
+        + (engagementScore * 0.1)).toFixed(2));
 
-      const pass = hardFail.length === 0 && overallScore >= 7.5 && !reasons.includes('obtuse_compression');
+      const pass = hardFail.length === 0
+        && overallScore >= 7.5
+        && engagementScore >= 7
+        && !reasons.includes('obtuse_compression');
 
       return {
         id: sha256(`${candidate.id}:${overallScore}`).slice(0, 12),
@@ -394,6 +456,8 @@ class GPTXAdapter {
         diagnostic_score: diagnosticScore,
         anti_cheese_score: antiCheeseScore,
         x_fit_score: xFitScore,
+        novelty_score: noveltyScore,
+        engagement_score: engagementScore,
         overall_score: overallScore,
         pass,
         pass_fail_reasons: [...hardFail, ...reasons],
@@ -401,7 +465,7 @@ class GPTXAdapter {
     });
   }
 
-  async scoreCandidatesLive({ candidates, linkedinText, strategy }) {
+  async scoreCandidatesLive({ candidates, linkedinText, strategy, recentPosts = [] }) {
     if (!this.apiKey) throw new Error('Missing OPENAI_API_KEY for live X scoring.');
 
     const schema = {
@@ -420,6 +484,8 @@ class GPTXAdapter {
               diagnostic_score: { type: 'number' },
               anti_cheese_score: { type: 'number' },
               x_fit_score: { type: 'number' },
+              novelty_score: { type: 'number' },
+              engagement_score: { type: 'number' },
               overall_score: { type: 'number' },
               pass: { type: 'boolean' },
               pass_fail_reasons: { type: 'array', items: { type: 'string' } },
@@ -431,6 +497,8 @@ class GPTXAdapter {
               'diagnostic_score',
               'anti_cheese_score',
               'x_fit_score',
+              'novelty_score',
+              'engagement_score',
               'overall_score',
               'pass',
               'pass_fail_reasons',
@@ -465,12 +533,15 @@ class GPTXAdapter {
                 type: 'input_text',
                 text: [
                   'Score single-post X candidates extremely strictly.',
-                  'Target style: direct, sharp, compact, concept-led, with one clear consequence. Prefer the family of posts that make a diagnosis quickly and land cleanly.',
-                  'Reward distinction, contrast, paradox, diagnostic framing, one concrete anchor, and clarity under compression.',
+                  'Target style: direct, sharp, compact, human, specific, and structurally varied.',
+                  'Reward earned tension, a concrete tell or human consequence, a fresh angle, a distinctive voice, and a clean landing.',
+                  'Do not reward one formula repeatedly. A strong one-paragraph post, miniature scene, compressed story, contrast, or diagnosis can all win.',
                   'Allow some opacity, but fail candidates that become merely obtuse.',
                   'Hard fail anything over 280 characters, anything with hashtags, emojis, links, thread markers, or any candidate that makes the book/free download the main payload.',
+                  'Hard fail any candidate that repeats a recent post’s core claim, example, rhetorical frame, memorable phrase, or conclusion—even if the wording has changed.',
                   'Strongly penalize performative cleverness, announcement openers, pseudo-profound openers, advice-heavy endings, and imprecise slogan-like reversals.',
-                  'In close calls, prefer the shorter/sharper candidate.',
+                  'Penalize recycled “Most…”, “X is not Y”, and identical two-paragraph diagnosis patterns when recent posts already lean on them.',
+                  'In close calls, prefer the candidate that feels most fresh and alive, then the shorter/sharper one.',
                 ].join('\n'),
               },
             ],
@@ -484,6 +555,7 @@ class GPTXAdapter {
                   max_length: Number(strategy?.x?.max_length || 280),
                   linkedin_text: linkedinText,
                   candidates,
+                  recent_x_posts_do_not_repeat: compactRecentXPosts(recentPosts, strategy),
                 }, null, 2),
               },
             ],
@@ -502,7 +574,24 @@ class GPTXAdapter {
       || '{}';
     const parsed = JSON.parse(outputText);
 
-    return (parsed.scores || []).map((score) => ({ id: sha256(`${score.candidate_id}:${score.overall_score}`).slice(0, 12), ...score }));
+    const candidatesById = new Map(candidates.map((candidate) => [candidate.id, candidate]));
+    return (parsed.scores || []).map((score) => {
+      const duplicate = findXDuplicate(
+        candidatesById.get(score.candidate_id)?.post_text || '',
+        recentPosts,
+        Number(strategy?.x?.near_duplicate_threshold || 0.72),
+      );
+      const reasons = [...(score.pass_fail_reasons || [])];
+      if (duplicate && !reasons.includes(duplicate.reason)) reasons.push(duplicate.reason);
+      return {
+        id: sha256(`${score.candidate_id}:${score.overall_score}`).slice(0, 12),
+        ...score,
+        novelty_score: duplicate ? 0 : score.novelty_score,
+        overall_score: duplicate ? Math.min(Number(score.overall_score || 0), 4) : score.overall_score,
+        pass: duplicate ? false : score.pass,
+        pass_fail_reasons: reasons,
+      };
+    });
   }
 }
 
@@ -521,4 +610,6 @@ module.exports = {
   isTooNeatReversal,
   isAdviceHeavyEnding,
   isObtuseCompression,
+  compactRecentXPosts,
+  openingTemplate,
 };

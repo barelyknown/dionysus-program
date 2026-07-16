@@ -1,7 +1,16 @@
 #!/usr/bin/env node
 const { parseArgs, printJson, fail } = require('../lib/cli');
 const { findCalendarItem } = require('../lib/records');
-const { createAdapters, createRun, updateRun, loadStrategy, generateCandidatesForItem, ResearchPendingError } = require('../lib/pipeline');
+const {
+  createAdapters,
+  createRun,
+  updateRun,
+  loadStrategy,
+  generateCandidatesForItem,
+  loadFreshMemory,
+  ResearchPendingError,
+  NovelIdeaUnavailableError,
+} = require('../lib/pipeline');
 
 async function main() {
   const args = parseArgs(process.argv.slice(2));
@@ -10,8 +19,9 @@ async function main() {
   if (!found) fail(`Calendar item not found: ${args.item}`);
   const strategy = loadStrategy();
   const adapters = createAdapters({ args, strategy });
+  const memory = loadFreshMemory(strategy);
   const run = createRun('generate-candidates', { args, item_id: found.item.id, mode: adapters.mode });
-  const result = await generateCandidatesForItem({ calendarItem: found.item, strategy, adapters });
+  const result = await generateCandidatesForItem({ calendarItem: found.item, strategy, adapters, memory });
   updateRun(run, { result });
   printJson({ ok: true, run_id: run.id, item_id: found.item.id, candidates: result.candidates });
 }
@@ -24,6 +34,10 @@ main().catch((error) => {
       reason: 'research_pending',
       ...error.details,
     });
+    return;
+  }
+  if (error instanceof NovelIdeaUnavailableError) {
+    printJson({ ok: true, skipped: true, reason: 'no_novel_idea', ...error.details });
     return;
   }
   fail(error.stack || error.message);

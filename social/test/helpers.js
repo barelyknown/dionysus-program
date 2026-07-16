@@ -62,6 +62,9 @@ function setupTempSocialWorkspace(t) {
   writeJson(paths.postMemoryFile, {
     generated_at: null,
     published_count: 0,
+    site_published_count: 0,
+    site_removed_count: 0,
+    rolling_published_count: 0,
     rolling_window_days: 84,
     typeCounts: {},
     recent_hooks: [],
@@ -70,6 +73,8 @@ function setupTempSocialWorkspace(t) {
     recent_subjects: [],
     recent_sources: [],
     recent_entities: [],
+    recent_content: [],
+    recent_x_posts: [],
   });
 
   t.after(() => {

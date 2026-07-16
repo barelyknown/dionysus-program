@@ -47,7 +47,7 @@ function loadMailbagItems() {
 
 function typeDeficitScore({ typeId, strategy, memory, plannedCounts = {}, plannedTotal = 0 }) {
   const targetWeight = strategy.content_types?.[typeId]?.target_weight || 0;
-  const baselineTotal = Math.max(memory.published_count + plannedTotal, 1);
+  const baselineTotal = Math.max((memory.rolling_published_count ?? memory.published_count) + plannedTotal, 1);
   const actualCount = (memory.typeCounts?.[typeId] || 0) + (plannedCounts[typeId] || 0);
   const expectedCount = baselineTotal * targetWeight;
   return expectedCount - actualCount;
@@ -123,10 +123,16 @@ function evidenceCoverageScore({ topicThesis, context, contentType }) {
 }
 
 function noveltyScore({ topicThesis, memory }) {
-  const recentTopics = memory.recent_topics || [];
-  if (recentTopics.length === 0) return 1;
-  const maxOverlap = recentTopics.reduce((best, record) => (
-    Math.max(best, overlapScore(topicThesis, record.topic_thesis || ''))
+  const publishedArguments = memory.recent_content || [];
+  const comparisonSet = publishedArguments.length > 0
+    ? publishedArguments
+    : (memory.recent_topics || []);
+  if (comparisonSet.length === 0) return 1;
+  const maxOverlap = comparisonSet.reduce((best, record) => Math.max(
+    best,
+    overlapScore(topicThesis, record.topic_thesis || ''),
+    overlapScore(topicThesis, record.hook || ''),
+    overlapScore(topicThesis, record.x_summary || ''),
   ), 0);
   return Math.max(0, 1 - maxOverlap);
 }
@@ -256,6 +262,8 @@ function buildCalendarItem({
     content_type: type.id,
     pillar: type.pillar,
     topic_thesis: topicThesis,
+    seed_topic_thesis: topicThesis,
+    idea_status: 'pending',
     angle,
     hook,
     source_bundle_id: researchBundleId,
