@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-16T21:29:37.317Z",
+  "generated_at": "2026-07-17T14:14:43.024Z",
   "published_count": 89,
   "site_published_count": 70,
   "site_removed_count": 19,
-  "rolling_published_count": 61,
+  "rolling_published_count": 60,
   "rolling_window_days": 84,
   "typeCounts": {
-    "high_lindy_source_tour": 2,
     "cautionary_tale": 1,
     "decoder_ring": 5,
     "archetype_diagnosis": 2,
     "extracted_insight": 48,
     "from_the_mailbag": 1,
+    "high_lindy_source_tour": 1,
     "ritual_recipe": 2
   },
   "recent_hooks": [
@@ -3078,40 +3078,6 @@
     }
   ],
   "recent_topics": [
-    {
-      "post_id": "019d0108-eba7-4727-dd2f-b9f9ceb07fb6",
-      "external_post_id": "019d0108-eba7-4727-dd2f-b9f9ceb07fb6",
-      "published_at": "2026-03-18T13:00:55.102Z",
-      "linkedin_post_url": null,
-      "linkedin_activity_urn": null,
-      "content_type": "extracted_insight",
-      "pillar": "Extracted Insights",
-      "topic_thesis": "Run Time and Ritual Time require different forms of accountability.",
-      "angle": "Name the concept, explain it plainly, and show why it matters now.",
-      "hook": "The fastest way to kill candor is to use Run Time accountability inside Ritual Time.",
-      "summary": "The fastest way to kill candor is to use Run Time accountability inside Ritual Time.\n\nRun Time and Ritual Time are different modes. In Run Time, people answer for forecasts, decisions, and results. It’s execution: act, score, own it.\n\nRitual Time is the protected interval for met",
-      "source_refs": [],
-      "framework_terms_used": [
-        "ritual time",
-        "run time",
-        "management theater",
-        "li",
-        "ren"
-      ],
-      "timely_subject": null,
-      "research_bundle_id": null,
-      "winning_candidate_id": "a3d886bf3878",
-      "final_text_hash": "47359edbafaedbbf5ce509ade81f10d2828e4f8a9b8ddf9633bf1013d17ed06b",
-      "note_slug": "2026-03-18-the-fastest-way-to-kill-candor-is-to-use-run-time-accountability-inside-ritual-time",
-      "note_source_path": "content/notes/2026-03-18-the-fastest-way-to-kill-candor-is-to-use-run-time-accountability-inside-ritual-time.md",
-      "x_status": "published",
-      "x_external_post_id": "2034254186217443348",
-      "x_published_at": "2026-03-18T13:02:47.402Z",
-      "x_winning_candidate_id": "fea2a6319c9d",
-      "x_final_text_hash": "a2c76752b1958c4a60ceea8eb5c7ae2fabd1561b99f7f8bf0811de9f45ae63c9",
-      "x_summary": "Most “lack of candor” is a design error, not a character flaw.\n\nTeams use Run Time accountability inside Ritual Time. In a postmortem, that means people are still being scored while trying to surface what broke. The artifact stops being the target. The self does.",
-      "x_skip_reason": null
-    },
     {
       "post_id": "019d062f-0a28-1e87-cdb2-c014b644b7c1",
       "external_post_id": "019d062f-0a28-1e87-cdb2-c014b644b7c1",
@@ -6950,38 +6916,6 @@
     }
   ],
   "recent_sources": [
-    {
-      "post_id": "019efef3-f2d0-4aef-b2fb-e5d313e2936e",
-      "external_post_id": "019efef3-f2d0-4aef-b2fb-e5d313e2936e",
-      "published_at": "2026-06-25T13:24:20.836Z",
-      "linkedin_post_url": null,
-      "linkedin_activity_urn": null,
-      "content_type": "extracted_insight",
-      "pillar": "Extracted Insights",
-      "topic_thesis": "The Dionysian Ideal.",
-      "angle": "Name the concept, explain it plainly, and show why it matters now.",
-      "hook": "Most teams do not break under pressure. They break under contradiction.",
-      "summary": "Most teams do not break under pressure. They break under contradiction.\n\nThat is the Dionysian Ideal: an organization that gets stronger when reality proves it wrong. Not because it enjoys chaos, but because it has enough trust and ritual capacity to let ideas die without turning",
-      "source_refs": [],
-      "framework_terms_used": [
-        "trust",
-        "li"
-      ],
-      "subject_entities": [],
-      "timely_subject": null,
-      "research_bundle_id": null,
-      "winning_candidate_id": "c7470d807a9d",
-      "final_text_hash": "0ad2d39c2c58507712a2ed4a2af52775801ee497975e18fbc9f8dc489e397efe",
-      "note_slug": "2026-06-25-most-teams-do-not-break-under-pressure-they-break-under-contradiction",
-      "note_source_path": "content/notes/2026-06-25-most-teams-do-not-break-under-pressure-they-break-under-contradiction.md",
-      "x_status": "published",
-      "x_external_post_id": "2070136223746629919",
-      "x_published_at": "2026-06-25T13:25:11.785Z",
-      "x_winning_candidate_id": "7b395bc167c0",
-      "x_final_text_hash": "e81b4488b5a77e69cb016c5ec9d49ffe8f038a9e6f0883b763ad387ba7999abd",
-      "x_summary": "Pressure doesn’t break most teams. Unresolved contradiction does.\n\nThere’s a difference between a culture that tolerates mistakes and one that can process them. The second has rituals for killing bad ideas before bad ideas start killing trust.",
-      "x_skip_reason": null
-    },
     {
       "post_id": "019f0417-4049-6dc2-bbcf-fcbf089261df",
       "external_post_id": "019f0417-4049-6dc2-bbcf-fcbf089261df",
