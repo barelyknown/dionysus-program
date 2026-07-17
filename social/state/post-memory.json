@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T14:14:43.024Z",
+  "generated_at": "2026-07-17T15:01:19.217Z",
   "published_count": 89,
   "site_published_count": 70,
   "site_removed_count": 19,
@@ -15,47 +15,6 @@
     "ritual_recipe": 2
   },
   "recent_hooks": [
-    {
-      "post_id": "019e83a1-aefe-11c7-be40-7c7ea6943fa8",
-      "external_post_id": "019e83a1-aefe-11c7-be40-7c7ea6943fa8",
-      "published_at": "2026-06-01T14:41:11.969Z",
-      "linkedin_post_url": null,
-      "linkedin_activity_urn": null,
-      "content_type": "extracted_insight",
-      "pillar": "Extracted Insights",
-      "topic_thesis": "The Standing Right of Criticism makes rival explanations lawful without permission.",
-      "angle": "Name the concept, explain it plainly, and show why it matters now. Keep the framing specific to this thesis: The Standing Right of Criticism makes rival explanations lawful without permission.",
-      "hook": "If a rival explanation needs permission, you do not have a learning system. You have a court.",
-      "summary": "If a rival explanation needs permission, you do not have a learning system. You have a court.\n\nThe Standing Right of Criticism is simple: any participant may introduce a rival explanation and a falsifiable test plan without asking first. The right is standing. It does not depend ",
-      "source_refs": [],
-      "framework_terms_used": [
-        "li",
-        "ren"
-      ],
-      "subject_entities": [],
-      "timely_subject": null,
-      "research_bundle_id": null,
-      "winning_candidate_id": "03e97211c5fb",
-      "final_text_hash": "1d8dac1ea6b330e9a1ffd9dabc13b6416d82364b5ca670b54c785481c087f289",
-      "note_slug": null,
-      "note_source_path": null,
-      "x_status": "skipped",
-      "x_external_post_id": null,
-      "x_published_at": null,
-      "x_winning_candidate_id": null,
-      "x_final_text_hash": null,
-      "x_summary": null,
-      "x_skip_reason": "no_passing_candidate",
-      "publication_memory_text": "If a rival explanation needs permission, you do not have a learning system. You have a court.\n\nThe Standing Right of Criticism is simple: any participant may introduce a rival explanation and a falsifiable test plan without asking first. The right is standing. It does not depend on rank, timing, or whether the current owner of the idea is comfortable. Retaliation for using it is itself a failure.\n\nPicture a junior operator saying, “I think our forecast is wrong, and here is the test.” If that move is socially costly, your official explanation is already becoming sacred. The real disagreement will move underground into side chats, private workarounds, and quiet noncompliance.\n\nThat matters more now because bad explanations can be scaled faster than ever. If rival explanations are not lawful without permission, error will not stay small. It will ship.",
-      "site_status": "removed_redundant",
-      "site_removed_at": "2026-07-16T21:25:00.231Z",
-      "site_removal_reason": "substantive_redundancy",
-      "site_removal_manifest": "social/history/redundancy-removals/2026-07-16.json",
-      "site_redundancy_keep_post_id": "019e9803-db0b-f49d-91d7-94f2d51dac7e",
-      "site_redundancy_confidence": 0.97,
-      "removed_note_slug": "2026-06-01-the-standing-right-of-criticism-makes-rival-explanations-lawful-without-permission",
-      "removed_note_source_path": "content/notes/2026-06-01-the-standing-right-of-criticism-makes-rival-explanations-lawful-without-permission.md"
-    },
     {
       "post_id": "019e88a3-5084-c98b-7fcc-2680eca5df1d",
       "external_post_id": "019e88a3-5084-c98b-7fcc-2680eca5df1d",
@@ -6097,38 +6056,6 @@
     }
   ],
   "recent_subjects": [
-    {
-      "post_id": "019ed0d1-f088-4215-b253-996260eb3b3a",
-      "external_post_id": "019ed0d1-f088-4215-b253-996260eb3b3a",
-      "published_at": "2026-06-16T14:24:40.085Z",
-      "linkedin_post_url": null,
-      "linkedin_activity_urn": null,
-      "content_type": "extracted_insight",
-      "pillar": "Extracted Insights",
-      "topic_thesis": "Melt is not the enemy; unmanaged melt is.",
-      "angle": "Draw the boundary between patience and avoidance, then show the failure mode.",
-      "hook": "Gate failure doesn’t stop melt. It relocates it.",
-      "summary": "Gate failure doesn’t stop melt. It relocates it.\n\nThat’s the boundary between patience and avoidance. Patience lowers the heat so truth can be borne: sleep, daylight, ordinary kindness, then the hard conversation. Avoidance keeps the schedule intact and calls that discipline.\n\nTh",
-      "source_refs": [],
-      "framework_terms_used": [
-        "ritual time",
-        "li"
-      ],
-      "subject_entities": [],
-      "timely_subject": null,
-      "research_bundle_id": null,
-      "winning_candidate_id": "34172b8b8195",
-      "final_text_hash": "ea3d849460db4ea011151f817485a35b614173db220c4c3cb89fa4cd761b85e7",
-      "note_slug": "2026-06-16-gate-failure-doesn-t-stop-melt-it-relocates-it",
-      "note_source_path": "content/notes/2026-06-16-gate-failure-doesn-t-stop-melt-it-relocates-it.md",
-      "x_status": "published",
-      "x_external_post_id": "2066889980211863632",
-      "x_published_at": "2026-06-16T14:25:47.013Z",
-      "x_winning_candidate_id": "1275e41b6818",
-      "x_final_text_hash": "159a736fe84812b728b2f7d4f3dad30bdc69c506b4cf6e4be201bea69259cdba",
-      "x_summary": "Suppressing melt doesn’t create stability. It creates a second organization.\n\nThe visible one keeps the meetings. The hidden one runs on workarounds, side files, and unspoken refusals. By the time it’s obvious, leadership is catching up.",
-      "x_skip_reason": null
-    },
     {
       "post_id": "019ed5dd-d611-f495-39f5-cbfbbfedbc96",
       "external_post_id": "019ed5dd-d611-f495-39f5-cbfbbfedbc96",
