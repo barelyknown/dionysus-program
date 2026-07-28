@@ -35,11 +35,12 @@ class ZapierPublisherAdapter {
     if (!response.ok) {
       throw new Error(`Zapier publish failed (${response.status}): ${await response.text()}`);
     }
+    const responseText = await response.text();
     let body = {};
     try {
-      body = await response.json();
+      body = JSON.parse(responseText);
     } catch (error) {
-      body = { raw: await response.text() };
+      body = { raw: responseText };
     }
     return {
       ok: true,

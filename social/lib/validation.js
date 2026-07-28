@@ -7,6 +7,12 @@ function validateCalendarItem(item) {
   assert(item.content_type, 'Calendar item missing content_type.');
   assert(item.topic_thesis, 'Calendar item missing topic_thesis.');
   assert(item.scheduled_at, 'Calendar item missing scheduled_at.');
+  if (item.preparation?.status === 'ready') {
+    assert(item.preparation.prepared_at, `Prepared calendar item ${item.id} missing prepared_at.`);
+    assert(item.preparation.history_fingerprint, `Prepared calendar item ${item.id} missing history_fingerprint.`);
+    assert(item.preparation.package?.package_gate?.pass === true, `Prepared calendar item ${item.id} has no passing package gate.`);
+    assert(item.preparation.package?.payload?.item_id === item.id, `Prepared calendar item ${item.id} has a mismatched package.`);
+  }
 }
 
 function validatePublishedRecord(record) {

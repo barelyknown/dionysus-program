@@ -103,6 +103,10 @@ generation:
     - diagnosis_forward
     - operator_forward
     - contrarian_forward
+preparation:
+  horizon_hours: 36
+  delivery_grace_hours: 8
+  fallback_attempts: 3
 content_types:
   extracted_insight:
     enabled: true

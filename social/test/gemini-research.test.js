@@ -1,9 +1,62 @@
 const test = require('node:test');
 const assert = require('node:assert/strict');
 
-const { GeminiResearchAdapter } = require('../providers/gemini-research');
+const {
+  GeminiResearchAdapter,
+  DEFAULT_DEEP_RESEARCH_AGENT,
+  interactionOutputText,
+  interactionUrlCitations,
+} = require('../providers/gemini-research');
 
-test('normalizeCompletedResearch extracts exact urls and dates from grounding annotations', async () => {
+test('current Interactions API steps expose report text and url citations', async () => {
+  const adapter = new GeminiResearchAdapter({ mode: 'live', apiKey: 'test-key' });
+  const originalFetch = global.fetch;
+  global.fetch = async () => ({ ok: false });
+  const latest = {
+    status: 'completed',
+    steps: [{
+      type: 'model_output',
+      content: [{
+        type: 'text',
+        text: 'On July 18, 2026, a company reversed its AI-only support policy after quality declined.',
+        annotations: [{
+          type: 'url_citation',
+          title: 'Company restores human support',
+          url: 'https://news.example.com/company-restores-human-support',
+          start_index: 3,
+          end_index: 86,
+        }],
+      }],
+    }],
+  };
+
+  try {
+    assert.match(interactionOutputText(latest), /July 18, 2026/);
+    assert.deepEqual(interactionUrlCitations(latest).map(({ url, title }) => ({ url, title })), [{
+      url: 'https://news.example.com/company-restores-human-support',
+      title: 'Company restores human support',
+    }]);
+    const result = await adapter.normalizeCompletedResearch({
+      job: {
+        interaction_id: 'interaction-current',
+        topic_thesis: 'Automation can hide the coordination work it still depends on.',
+        watchlist_inputs: {},
+      },
+      latest,
+    });
+    assert.equal(result.summary, latest.steps[0].content[0].text);
+    assert.equal(result.sources.length, 1);
+    assert.equal(result.sources[0].url, 'https://news.example.com/company-restores-human-support');
+    assert.equal(result.sources[0].published_at, '2026-07-18');
+    assert.match(result.sources[0].citation_context, /quality declined/);
+    assert.equal(adapter.agent, DEFAULT_DEEP_RESEARCH_AGENT);
+    assert.equal(DEFAULT_DEEP_RESEARCH_AGENT, 'deep-research-preview-04-2026');
+  } finally {
+    global.fetch = originalFetch;
+  }
+});
+
+test('legacy outputs remain compatible and resolve exact urls and dates', async () => {
   const adapter = new GeminiResearchAdapter({ mode: 'live', apiKey: 'test-key' });
   const originalFetch = global.fetch;
 
@@ -15,8 +68,8 @@ test('normalizeCompletedResearch extracts exact urls and dates from grounding an
         text: async () => `
           <html>
             <head>
-              <meta property="og:title" content="Meta plans layoffs amid AI spending" />
-              <meta property="article:published_time" content="2026-03-13T07:00:00Z" />
+              <meta content="Meta plans layoffs amid AI spending" property="og:title" />
+              <meta content="2026-03-13T07:00:00Z" property="article:published_time" />
             </head>
             <body>
               Meta is preparing layoffs after a wave of AI spending.

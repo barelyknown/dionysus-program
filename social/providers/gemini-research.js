@@ -5,10 +5,7 @@ const { getResearchRecencyPolicy } = require('../lib/research-policy');
 const SOURCE_FETCH_TIMEOUT_MS = 10000;
 const SOURCE_CONTENT_MAX_CHARS = 30000;
 const MAX_GROUNDED_SOURCES = 40;
-
-function unique(values) {
-  return [...new Set((values || []).filter(Boolean))];
-}
+const DEFAULT_DEEP_RESEARCH_AGENT = 'deep-research-preview-04-2026';
 
 function stripTags(value) {
   return String(value || '').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
@@ -21,6 +18,16 @@ function normalizePublishedDate(value) {
   const parsed = new Date(String(value));
   if (!Number.isNaN(parsed.getTime())) return parsed.toISOString().slice(0, 10);
   return null;
+}
+
+function extractPublishedDateFromText(value) {
+  const text = String(value || '');
+  const exact = normalizePublishedDate(text.match(/\b20\d{2}-\d{2}-\d{2}\b/)?.[0]);
+  if (exact) return exact;
+  const monthFirst = text.match(/\b(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:t(?:ember)?)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)\s+\d{1,2},?\s+20\d{2}\b/i)?.[0];
+  if (monthFirst) return normalizePublishedDate(monthFirst);
+  const dayFirst = text.match(/\b\d{1,2}\s+(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:t(?:ember)?)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)\s+20\d{2}\b/i)?.[0];
+  return dayFirst ? normalizePublishedDate(dayFirst) : null;
 }
 
 function extractPageText(html) {
@@ -100,19 +107,28 @@ async function fetchSourceMetadata(url) {
     const html = await response.text();
     const title = extractMetaContent(html, [
       /<meta[^>]+property=["']og:title["'][^>]+content=["']([^"]+)["']/i,
+      /<meta[^>]+content=["']([^"]+)["'][^>]+property=["']og:title["']/i,
       /<meta[^>]+name=["']twitter:title["'][^>]+content=["']([^"]+)["']/i,
+      /<meta[^>]+content=["']([^"]+)["'][^>]+name=["']twitter:title["']/i,
       /<title[^>]*>([^<]+)<\/title>/i,
     ]);
     const excerpt = extractMetaContent(html, [
       /<meta[^>]+property=["']og:description["'][^>]+content=["']([^"]+)["']/i,
+      /<meta[^>]+content=["']([^"]+)["'][^>]+property=["']og:description["']/i,
       /<meta[^>]+name=["']description["'][^>]+content=["']([^"]+)["']/i,
+      /<meta[^>]+content=["']([^"]+)["'][^>]+name=["']description["']/i,
       /<meta[^>]+name=["']twitter:description["'][^>]+content=["']([^"]+)["']/i,
+      /<meta[^>]+content=["']([^"]+)["'][^>]+name=["']twitter:description["']/i,
     ]);
     const publishedAt = normalizePublishedDate(extractMetaContent(html, [
       /<meta[^>]+property=["']article:published_time["'][^>]+content=["']([^"]+)["']/i,
+      /<meta[^>]+content=["']([^"]+)["'][^>]+property=["']article:published_time["']/i,
       /<meta[^>]+name=["']pubdate["'][^>]+content=["']([^"]+)["']/i,
+      /<meta[^>]+content=["']([^"]+)["'][^>]+name=["']pubdate["']/i,
       /<meta[^>]+name=["']publish-date["'][^>]+content=["']([^"]+)["']/i,
+      /<meta[^>]+content=["']([^"]+)["'][^>]+name=["']publish-date["']/i,
       /<meta[^>]+name=["']parsely-pub-date["'][^>]+content=["']([^"]+)["']/i,
+      /<meta[^>]+content=["']([^"]+)["'][^>]+name=["']parsely-pub-date["']/i,
       /"datePublished"\s*:\s*"([^"]+)"/i,
     ])) || extractDateFromUrl(finalUrl);
     return {
@@ -127,20 +143,62 @@ async function fetchSourceMetadata(url) {
   }
 }
 
+function interactionTextItems(latest) {
+  const currentItems = (latest?.steps || [])
+    .filter((step) => step?.type === 'model_output')
+    .flatMap((step) => step.content || [])
+    .filter((item) => item?.type === 'text' || typeof item?.text === 'string');
+  const legacyItems = (latest?.outputs || []).flatMap((entry) => {
+    if (typeof entry?.text === 'string') return [entry];
+    return (entry?.content || []).filter((item) => typeof item?.text === 'string');
+  });
+  return [...currentItems, ...legacyItems];
+}
+
+function interactionOutputText(latest) {
+  return interactionTextItems(latest).map((item) => item.text || '').filter(Boolean).join('\n\n');
+}
+
+function annotationContext(text, annotation) {
+  const start = Number(annotation?.start_index);
+  const end = Number(annotation?.end_index);
+  if (!Number.isFinite(start) || !Number.isFinite(end)) return String(text || '').slice(0, 800);
+  return String(text || '').slice(Math.max(0, start - 300), Math.min(String(text || '').length, end + 300));
+}
+
+function interactionUrlCitations(latest) {
+  const citations = [];
+  for (const item of interactionTextItems(latest)) {
+    for (const annotation of item.annotations || []) {
+      const url = annotation?.url || annotation?.source;
+      if (!/^https?:\/\//i.test(String(url || ''))) continue;
+      citations.push({
+        url,
+        title: annotation.title || null,
+        context: annotationContext(item.text, annotation),
+      });
+    }
+  }
+  const seen = new Set();
+  return citations.filter((citation) => {
+    if (seen.has(citation.url)) return false;
+    seen.add(citation.url);
+    return true;
+  });
+}
+
 async function extractGroundedSources({ latest, limit = MAX_GROUNDED_SOURCES }) {
-  const groundingUrls = unique(
-    (latest?.outputs || []).flatMap((entry) => (entry.annotations || []).map((annotation) => annotation.source)),
-  ).slice(0, limit);
+  const citations = interactionUrlCitations(latest).slice(0, limit);
   const sources = [];
-  for (const url of groundingUrls) {
-    const metadata = await fetchSourceMetadata(url);
-    if (!metadata?.url) continue;
+  for (const citation of citations) {
+    const metadata = await fetchSourceMetadata(citation.url);
     sources.push({
-      title: metadata.title,
-      url: metadata.url,
-      published_at: metadata.published_at || '',
-      excerpt: metadata.excerpt || '',
-      content_text: metadata.content_text || '',
+      title: metadata?.title || citation.title || citation.url,
+      url: metadata?.url || citation.url,
+      published_at: metadata?.published_at || extractPublishedDateFromText(citation.context) || '',
+      excerpt: metadata?.excerpt || citation.context || '',
+      content_text: metadata?.content_text || '',
+      citation_context: citation.context || '',
       relevance: 'Resolved from Gemini grounding annotations.',
       claim: 'Grounded source captured from the deep research report.',
     });
@@ -149,7 +207,7 @@ async function extractGroundedSources({ latest, limit = MAX_GROUNDED_SOURCES }) 
 }
 
 class GeminiResearchAdapter {
-  constructor({ mode = 'fixture', agent = 'deep-research-pro-preview-12-2025', apiKey = process.env.GEMINI_API_KEY } = {}) {
+  constructor({ mode = 'fixture', agent = DEFAULT_DEEP_RESEARCH_AGENT, apiKey = process.env.GEMINI_API_KEY } = {}) {
     this.mode = mode;
     this.agent = agent;
     this.apiKey = apiKey;
@@ -397,9 +455,7 @@ class GeminiResearchAdapter {
       throw new Error(`Gemini Deep Research did not complete successfully (status=${latest.status || 'unknown'} after ${this.pollAttempts} polls).`);
     }
 
-    const outputText = Array.isArray(latest.outputs)
-      ? latest.outputs.map((entry) => entry.text || '').filter(Boolean).join('\n\n')
-      : JSON.stringify(latest);
+    const outputText = interactionOutputText(latest) || JSON.stringify(latest);
     const sources = await extractGroundedSources({ latest });
     const bundleKey = job.job_key || job.topic_thesis || interactionId;
     return {
@@ -441,4 +497,7 @@ class GeminiResearchAdapter {
 
 module.exports = {
   GeminiResearchAdapter,
+  DEFAULT_DEEP_RESEARCH_AGENT,
+  interactionOutputText,
+  interactionUrlCitations,
 };

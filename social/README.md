@@ -2,11 +2,13 @@
 
 This subsystem manages one coordinated publication package: a canonical Note/LinkedIn body plus its short X adaptation. Every enabled channel must pass before any publisher is called.
 
-The baseline cadence is three posts per week: Monday, Wednesday, and Friday at 5:30 AM America/Los_Angeles. The GitHub publishing runner uses the same weekdays. A scheduled item may still be skipped when no genuinely novel, source-grounded idea passes the gate; cadence is a maximum, not permission to publish repetition.
+The baseline cadence is three posts per week: Monday, Wednesday, and Friday at 5:30 AM America/Los_Angeles. The GitHub publishing runner uses the same weekdays. Preparation runs twice before each slot and stores a complete approved package on the calendar item. The publication runner does not research, draft, or score inline; it validates the package against the current publication-history fingerprint and then performs delivery.
 
-Publication memory is used before, during, and after drafting. Before prose generation, the OpenAI idea developer receives the complete available Notes/LinkedIn and X corpus, turns the planned topic into a source seed, and must articulate a substantively distinct argument with a novelty score of at least 8/10. If it cannot, the item is skipped with `no_novel_idea`. The canonical Note/LinkedIn body must then score at least 8/10 for novelty and 7.5/10 for engagement, in addition to passing the existing voice, clarity, grounding, policy, and deterministic memory checks. The exact scored body becomes the website Note body; it is not rewritten after scoring.
+Publication memory is used before, during, and after drafting. Before prose generation, the OpenAI idea developer receives the complete available Notes/LinkedIn and X corpus, turns the planned topic into a source seed, and must articulate a substantively distinct argument with a novelty score of at least 8/10. Exact or near-duplicate historical thesis text fails deterministically even if a model labels it novel. The canonical Note/LinkedIn body must then score at least 8/10 for novelty and 7.5/10 for engagement, in addition to passing the existing voice, clarity, grounding, policy, and deterministic memory checks. The exact scored body becomes the website Note body; it is not rewritten after scoring.
 
-X generation and scoring happen during package preflight, before LinkedIn is sent. They receive up to 1,000 published X posts, reject semantic repeats during scoring, and run a final deterministic exact/near-duplicate check. X candidates deliberately vary between one and three short paragraphs instead of using one fixed cadence. If the canonical Note/LinkedIn body or every X candidate fails, the entire item is skipped with no Note, LinkedIn, or X publication. A delivery API can still fail after a package passes preflight; that is recorded as a delivery failure rather than silently replacing the approved content.
+X generation and scoring happen during advance package preparation, before LinkedIn is sent. They receive up to 1,000 published X posts, reject semantic repeats during scoring, and run a final deterministic exact/near-duplicate check. X candidates deliberately vary between one and three short paragraphs instead of using one fixed cadence. If research cannot produce a recent-source bundle, preparation tries configured non-research content types for the same slot. If no canonical Note/LinkedIn/X package passes after those bounded fallbacks, preparation records the failure and the workflow alerts before the publication window.
+
+One failed item never aborts the queue. Missing or stale packages are deferred within the delivery grace period and then expired explicitly; later prepared items are still processed. Scheduled preparation also fails visibly when the weekly planner supplied no upcoming item. A delivery API or downstream Note/X failure is recorded and alerts without silently generating replacement copy or retrying an uncertain external write.
 
 The memory rebuild reads the complete generated note body when it is available, rather than relying only on the 280-character ledger excerpt. Developed ideas persist their seed, argument summary, closest historical post, novelty rationale, model, and history fingerprint on the calendar item for auditability.
 
@@ -18,6 +20,7 @@ npm run social:scan-timely -- --dry-run --use-fixtures
 npm run social:build-brief -- --item <calendar-item-id>
 npm run social:generate-candidates -- --item <calendar-item-id> --use-fixtures
 npm run social:score-candidates -- --item <calendar-item-id> --use-fixtures
+npm run social:prepare-upcoming -- --dry-run --use-fixtures --now <iso-timestamp>
 npm run social:publish-due -- --dry-run --use-fixtures
 npm run social:x-oauth2-token -- --env-file /Users/seandevine/Code/dionysus-program/.env.social.local
 npm run social:import-linkedin-analytics -- --input /absolute/path/to/Content_YYYY-MM-DD_YYYY-MM-DD_SeanDevine.xlsx
@@ -41,13 +44,18 @@ The LinkedIn analytics importer writes one file, `social/state/linkedin-analytic
 
 Set `SOCIAL_PROVIDER_MODE=live` or pass `--mode live` once you are ready to validate against real APIs.
 
-## Gemini Deep Research behavior
+## Advance preparation and Gemini Deep Research
 
-In live mode, `scan-timely` is asynchronous:
+`social:prepare-upcoming` selects planned items inside the configured horizon, verifies any existing package against the complete publication history, and otherwise prepares a new package. Research, novel-idea development, Note/LinkedIn scoring, and X preflight all finish here. A compact research bundle is retained in the calendar package so delivery does not depend on an ignored runner cache.
+
+In live mode, Gemini research jobs are durable while pending:
 
 - the first run submits a Deep Research job and stores the interaction id in `social/state/research-jobs.json`
 - later runs poll the pending interaction
-- once Gemini completes, the report is normalized into a research bundle and can feed timely scheduling
+- once Gemini completes, the report is normalized into a recent-source bundle
+- current Interactions API `steps[].content[]` reports and `annotations[].url` citations are parsed directly, with legacy output compatibility retained
+- an invalid completed job is removed instead of poisoning every later slot
+- a research failure can trigger a non-research fallback during preparation
 
 ## Required live secrets
 

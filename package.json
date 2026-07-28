@@ -9,6 +9,7 @@
     "social:build-brief": "node social/cli/build-brief.js",
     "social:generate-candidates": "node social/cli/generate-candidates.js",
     "social:score-candidates": "node social/cli/score-candidates.js",
+    "social:prepare-upcoming": "node social/cli/prepare-upcoming.js",
     "social:publish-due": "node social/cli/publish-due.js",
     "social:x-oauth2-token": "node social/cli/x-oauth2-token.js",
     "social:cost-per-post-day": "node social/cli/cost-per-post-day.js",

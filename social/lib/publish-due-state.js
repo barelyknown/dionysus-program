@@ -24,6 +24,9 @@ function baselineCadenceSkipReason({ item, calendar, strategy }) {
 
 function nextCalendarItemState(item, outcome) {
   if (outcome.status === 'published') {
+    const downstreamFailure = outcome.note?.status === 'failed'
+      ? outcome.note.reason
+      : (outcome.x?.status === 'failed' ? `x_${outcome.x.reason || 'publish_failed'}` : null);
     return {
       ...(outcome.calendarItem || item),
       status: 'published',
@@ -40,6 +43,11 @@ function nextCalendarItemState(item, outcome) {
       x_winning_candidate_id: outcome.x?.winnerCandidate?.id || null,
       x_publish_payload: outcome.x?.payload || null,
       x_skip_reason: outcome.x && outcome.x.status !== 'published' ? outcome.x.reason || null : null,
+      delivery: {
+        status: downstreamFailure ? 'partial' : 'published',
+        attempted_at: outcome.publishResult.delivered_at,
+        reason: downstreamFailure,
+      },
     };
   }
 
@@ -48,6 +56,12 @@ function nextCalendarItemState(item, outcome) {
       ...(outcome.calendarItem || item),
       status: 'planned',
       skip_reason: null,
+      delivery: {
+        status: 'deferred',
+        attempted_at: outcome.attempted_at || null,
+        reason: outcome.reason || null,
+        details: outcome.details || null,
+      },
     };
   }
 
@@ -56,6 +70,12 @@ function nextCalendarItemState(item, outcome) {
       ...(outcome.calendarItem || item),
       status: 'skipped',
       skip_reason: outcome.reason,
+      delivery: {
+        status: 'skipped',
+        attempted_at: outcome.attempted_at || null,
+        reason: outcome.reason || null,
+        error: outcome.error || null,
+      },
     };
   }
 

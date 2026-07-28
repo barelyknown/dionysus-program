@@ -435,4 +435,5 @@ module.exports = {
   scoreTopicCandidate,
   selectTopicForType,
   selectResearchTopic,
+  candidateHook,
 };

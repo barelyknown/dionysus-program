@@ -4,228 +4,99 @@ const { loadCalendars, saveCalendar, replaceCalendarItem } = require('../lib/rec
 const { appendJsonl } = require('../lib/jsonl');
 const { paths } = require('../lib/paths');
 const { writeJson } = require('../lib/fs');
-const { prepareCanonicalNote, materializePublishedNote } = require('../lib/notes');
-const { attemptXPublish, publishPreparedX } = require('../lib/x');
 const {
   isDue,
   baselineCadenceSkipReason,
   nextCalendarItemState,
 } = require('../lib/publish-due-state');
-const { resolveCalendarItemAngle, selectPublishCandidate } = require('../lib/publish-selection');
 const {
   createAdapters,
   createRun,
   updateRun,
   loadStrategy,
-  scoreCandidatesForItem,
   loadFreshMemory,
-  finalMemoryCheck,
-  createPublishPayload,
   createPublishedRecord,
-  ResearchPendingError,
-  NovelIdeaUnavailableError,
 } = require('../lib/pipeline');
+const {
+  prepareItemPackage,
+  preparedPackageStatus,
+  deliverPreparedPackage,
+} = require('../lib/publication-package');
 const { rebuildMemory } = require('../lib/memory');
 const { now } = require('../lib/time');
 
 async function handleItem({ item, strategy, adapters, memory, dryRun }) {
-  let scored;
-  let resolvedItem = resolveCalendarItemAngle({ calendarItem: item, strategy, memory });
-  try {
-    scored = await scoreCandidatesForItem({
-      calendarItem: resolvedItem,
-      strategy,
-      adapters,
-      memory,
-      options: { waitForResearch: !dryRun },
-    });
-    resolvedItem = scored.calendarItem || resolvedItem;
-  } catch (error) {
-    if (error instanceof ResearchPendingError) {
-      return {
-        calendarItem: resolvedItem,
-        status: 'deferred',
-        reason: 'research_pending',
-        pending_job: error.details?.pending_job || null,
-      };
-    }
-    if (error instanceof NovelIdeaUnavailableError) {
-      return {
-        calendarItem: resolvedItem,
-        status: 'skipped',
-        reason: 'no_novel_idea',
-        conflicts: ['idea_duplication'],
-        idea_gate: error.details,
-      };
-    }
-    throw error;
+  const prepared = await prepareItemPackage({ item, strategy, adapters, memory });
+  if (prepared.status !== 'prepared') return prepared;
+  if (dryRun) {
+    return {
+      ...prepared,
+      status: 'dry_run',
+    };
   }
-
-  const selection = selectPublishCandidate({
-    calendarItem: resolvedItem,
-    candidates: scored.candidates,
-    scorecards: scored.scorecards,
+  return deliverPreparedPackage({
+    item: prepared.calendarItem,
+    preparedPackage: prepared.prepared_package,
     strategy,
-    memory,
-    researchBundle: scored.researchBundle,
-    mailbagItem: scored.brief.mailbag_item,
-    finalMemoryCheck,
+    adapters,
   });
+}
 
-  if (!selection.winnerCandidate || !selection.winnerScore) {
-    const duplicateEntityConflict = (selection.memoryConflicts || []).includes('entity_duplication');
-    const blockedByMemory = selection.selectionReason === 'blocked_by_memory_conflict';
+function scheduledItemAgeHours(item, currentTime) {
+  return (currentTime.getTime() - new Date(item.scheduled_at).getTime()) / (60 * 60 * 1000);
+}
+
+function requiresDeliveryAttention(result) {
+  return result.status === 'deferred'
+    || ['package_preparation_expired', 'delivery_failed', 'internal_preparation_error'].includes(result.reason)
+    || result.x?.status === 'failed'
+    || result.note?.status === 'failed';
+}
+
+async function handlePreparedScheduledItem({ item, strategy, adapters, memory, currentTime, dryRun = false }) {
+  const packageStatus = preparedPackageStatus({ item, strategy, memory });
+  if (!packageStatus.ready) {
+    const graceHours = Math.max(1, Number(strategy.preparation?.delivery_grace_hours || 8));
+    const expired = scheduledItemAgeHours(item, currentTime) > graceHours;
     return {
-      calendarItem: resolvedItem,
-      status: 'skipped',
-      reason: duplicateEntityConflict
-        ? 'entity_duplication'
-        : (blockedByMemory ? 'memory_conflict' : 'no_passing_candidate'),
-      scorecards: scored.scorecards,
-      conflicts: selection.memoryConflicts || [],
-      selection_reason: selection.selectionReason,
+      calendarItem: item,
+      status: expired ? 'skipped' : 'deferred',
+      reason: expired ? 'package_preparation_expired' : packageStatus.reason,
+      attempted_at: currentTime.toISOString(),
+      details: packageStatus,
+      conflicts: [],
     };
   }
-
-  const xRequired = strategy.x?.enabled !== false;
-  const packageAttempts = [];
-  let approvedPackage = null;
-  let lastAttemptedPackage = null;
-  const eligibleCandidates = selection.eligibleCandidates?.length > 0
-    ? selection.eligibleCandidates
-    : [{
-      candidate: selection.winnerCandidate,
-      score: selection.winnerScore,
-      memoryConflicts: selection.memoryConflicts || [],
-    }];
-
-  for (const eligible of eligibleCandidates) {
-    const candidatePayload = createPublishPayload({
-      calendarItem: resolvedItem,
-      winnerCandidate: eligible.candidate,
-      winnerScore: eligible.score,
-      researchBundle: scored.researchBundle,
-      mailbagItem: scored.brief.mailbag_item,
-      strategy,
-    });
-    const candidateNote = prepareCanonicalNote({ publishPayload: candidatePayload });
-    const candidateX = await attemptXPublish({
-      linkedinPayload: candidatePayload,
-      strategy,
-      adapters,
-      memory,
-      dryRun: true,
-    });
-    lastAttemptedPackage = {
-      winnerCandidate: eligible.candidate,
-      winnerScore: eligible.score,
-      payload: candidatePayload,
-      preparedNote: candidateNote,
-      xPreflight: candidateX,
-    };
-    const packagePass = !xRequired || candidateX.status === 'dry_run';
-    packageAttempts.push({
-      candidate_id: eligible.candidate.id,
-      pass: packagePass,
-      note_linkedin_novelty_score: eligible.score.novelty_score,
-      note_linkedin_engagement_score: eligible.score.engagement_score,
-      x_status: candidateX.status,
-      x_reason: candidateX.reason || null,
-    });
-    if (packagePass) {
-      approvedPackage = {
-        winnerCandidate: eligible.candidate,
-        winnerScore: eligible.score,
-        memoryConflicts: eligible.memoryConflicts,
-        payload: candidatePayload,
-        preparedNote: candidateNote,
-        xPreflight: candidateX,
-      };
-      break;
-    }
-  }
-
-  if (!approvedPackage) {
-    const finalAttempt = packageAttempts[packageAttempts.length - 1] || null;
-    return {
-      calendarItem: resolvedItem,
-      status: 'skipped',
-      reason: 'package_gate_failed',
-      failed_channel: 'x',
-      conflicts: finalAttempt?.x_reason ? [`x_${finalAttempt.x_reason}`] : [],
-      payload: lastAttemptedPackage?.payload || null,
-      note_preflight: lastAttemptedPackage?.preparedNote || null,
-      x: lastAttemptedPackage?.xPreflight || null,
-      winnerCandidate: lastAttemptedPackage?.winnerCandidate || null,
-      winnerScore: lastAttemptedPackage?.winnerScore || null,
-      package_attempts: packageAttempts,
-      package_gate: {
-        pass: false,
-        attempted_candidates: packageAttempts.length,
-        x_status: finalAttempt?.x_status || null,
-        x_reason: finalAttempt?.x_reason || null,
-      },
-      selection_reason: selection.selectionReason,
-    };
-  }
-
-  const {
-    winnerCandidate,
-    winnerScore,
-    memoryConflicts,
-    payload,
-    preparedNote,
-    xPreflight,
-  } = approvedPackage;
-
-  const packageGate = {
-    pass: true,
-    attempted_candidates: packageAttempts.length,
-    note_linkedin_novelty_score: winnerScore.novelty_score,
-    note_linkedin_engagement_score: winnerScore.engagement_score,
-    x_status: xPreflight.status,
-    x_novelty_score: xPreflight.winnerScore?.novelty_score || null,
-    x_engagement_score: xPreflight.winnerScore?.engagement_score || null,
-  };
 
   if (dryRun) {
     return {
-      calendarItem: resolvedItem,
+      calendarItem: item,
       status: 'dry_run',
-      payload,
-      note_preflight: preparedNote,
-      x: xPreflight,
-      package_gate: packageGate,
-      winnerCandidate,
-      winnerScore,
-      conflicts: memoryConflicts,
-      selection_reason: selection.selectionReason,
+      payload: packageStatus.preparedPackage.payload,
+      note_preflight: packageStatus.preparedPackage.prepared_note,
+      x: packageStatus.preparedPackage.x_preflight,
+      package_gate: packageStatus.preparedPackage.package_gate,
+      conflicts: [],
     };
   }
 
-  const publishResult = await adapters.zapier.publish({ payload });
-  const note = await materializePublishedNote({
-    calendarItem: resolvedItem,
-    publishPayload: payload,
-    publishResult,
-    writer: adapters.claude,
-    strategy,
-    preparedNote,
-  });
-  const x = await publishPreparedX({ preparedX: xPreflight, adapters });
-  return {
-    calendarItem: resolvedItem,
-    status: 'published',
-    payload,
-    publishResult,
-    note,
-    x,
-    package_gate: packageGate,
-    winnerCandidate,
-    winnerScore,
-    conflicts: memoryConflicts,
-    selection_reason: selection.selectionReason,
-  };
+  try {
+    return await deliverPreparedPackage({
+      item,
+      preparedPackage: packageStatus.preparedPackage,
+      strategy,
+      adapters,
+    });
+  } catch (error) {
+    return {
+      calendarItem: item,
+      status: 'skipped',
+      reason: 'delivery_failed',
+      attempted_at: currentTime.toISOString(),
+      error: error.message,
+      conflicts: [],
+    };
+  }
 }
 
 async function main() {
@@ -242,20 +113,35 @@ async function main() {
     for (const item of calendar.items || []) {
       if (!isDue(item, currentTime)) continue;
       const cadenceSkipReason = baselineCadenceSkipReason({ item, calendar, strategy });
-      const outcome = cadenceSkipReason
-        ? {
+      let outcome;
+      if (cadenceSkipReason) {
+        outcome = {
           calendarItem: item,
           status: 'skipped',
           reason: cadenceSkipReason,
           conflicts: [],
+        };
+      } else {
+        const memory = loadFreshMemory(strategy, { write: !dryRun });
+        try {
+          outcome = await handlePreparedScheduledItem({
+            item,
+            strategy,
+            adapters,
+            memory,
+            currentTime,
+            dryRun,
+          });
+        } catch (error) {
+          outcome = {
+            calendarItem: item,
+            status: 'skipped',
+            reason: 'internal_preparation_error',
+            error: error.message,
+            conflicts: [],
+          };
         }
-        : await handleItem({
-          item,
-          strategy,
-          adapters,
-          memory: loadFreshMemory(strategy, { write: !dryRun }),
-          dryRun,
-        });
+      }
       results.push({ item_id: item.id, ...outcome });
 
       if (outcome.status === 'published') {
@@ -293,10 +179,12 @@ async function main() {
     writeJson(xTokenRotationOutput, rotatedCredentials);
   }
 
-  if (!dryRun) rebuildMemory({ strategy });
+  if (!dryRun && results.some((result) => result.status === 'published')) rebuildMemory({ strategy });
 
-  updateRun(run, { results, dry_run: dryRun });
-  printJson({ ok: true, run_id: run.id, dry_run: dryRun, results });
+  const attentionRequired = results.filter(requiresDeliveryAttention);
+  const ok = attentionRequired.length === 0;
+  updateRun(run, { results, dry_run: dryRun, ok, attention_required: attentionRequired });
+  printJson({ ok, run_id: run.id, dry_run: dryRun, results, attention_required: attentionRequired });
 }
 
 if (require.main === module) {
@@ -308,5 +196,7 @@ module.exports = {
   baselineCadenceSkipReason,
   nextCalendarItemState,
   handleItem,
+  handlePreparedScheduledItem,
+  requiresDeliveryAttention,
   main,
 };

@@ -2,6 +2,8 @@ const { readJson, writeJson } = require('./fs');
 const { paths } = require('./paths');
 const { sha256 } = require('./hash');
 
+const DEFAULT_RESEARCH_JOB_MAX_AGE_HOURS = 48;
+
 function loadResearchJobs() {
   return readJson(paths.researchJobsFile, { jobs: [] }) || { jobs: [] };
 }
@@ -39,14 +41,27 @@ function buildResearchJob({ topicThesis = null, jobKey = null, submitted, mode }
   };
 }
 
-function findPendingJob(jobKey) {
-  if (!jobKey) return null;
-  const state = loadResearchJobs();
-  return (state.jobs || []).find((job) => (job.job_key || job.topic_thesis) === jobKey) || null;
+function isReusableResearchJob(job, {
+  referenceDate = new Date(),
+  maxAgeHours = DEFAULT_RESEARCH_JOB_MAX_AGE_HOURS,
+} = {}) {
+  const submittedAt = new Date(job?.submitted_at);
+  if (Number.isNaN(submittedAt.getTime())) return false;
+  const ageHours = (referenceDate.getTime() - submittedAt.getTime()) / (60 * 60 * 1000);
+  return ageHours >= 0 && ageHours <= maxAgeHours;
 }
 
-function findPendingJobForTopic(topicThesis) {
-  return findPendingJob(topicThesis);
+function findPendingJob(jobKey, options = {}) {
+  if (!jobKey) return null;
+  const state = loadResearchJobs();
+  return (state.jobs || []).find((job) => (
+    (job.job_key || job.topic_thesis) === jobKey
+    && isReusableResearchJob(job, options)
+  )) || null;
+}
+
+function findPendingJobForTopic(topicThesis, options = {}) {
+  return findPendingJob(topicThesis, options);
 }
 
 module.exports = {
@@ -55,6 +70,7 @@ module.exports = {
   upsertResearchJob,
   removeResearchJob,
   buildResearchJob,
+  isReusableResearchJob,
   findPendingJob,
   findPendingJobForTopic,
 };

@@ -1,0 +1,76 @@
+name: Social Prepare Upcoming
+
+on:
+  schedule:
+    # 00:15/06:15 UTC on Mon/Wed/Fri is the prior afternoon/evening in Pacific
+    # time. Both runs finish well before the 5:30 AM local publication slot.
+    - cron: "15 0,6 * * 1,3,5"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Prepare without writing calendar state"
+        required: false
+        default: "true"
+      mode:
+        description: "Provider mode: fixture or live"
+        required: false
+        default: "fixture"
+      now:
+        description: "Optional ISO timestamp override"
+        required: false
+        default: ""
+
+concurrency:
+  group: social-prepare-upcoming
+  cancel-in-progress: false
+
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version: "20"
+          cache: "npm"
+      - run: npm ci
+      - name: Prepare upcoming package
+        id: prepare
+        env:
+          SOCIAL_PROVIDER_MODE: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.mode || 'live' }}
+          GEMINI_PUBLISH_POLL_INTERVAL_MS: "5000"
+          GEMINI_PUBLISH_POLL_ATTEMPTS: "240"
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          set -o pipefail
+          RESULT_FILE="${RUNNER_TEMP}/prepare-upcoming.json"
+          EXTRA_ARGS=()
+          if [ "${{ github.event.inputs.dry_run || 'false' }}" = "true" ]; then
+            EXTRA_ARGS+=(--dry-run)
+          else
+            EXTRA_ARGS+=(--require-item)
+          fi
+          if [ -n "${{ github.event.inputs.now }}" ]; then
+            EXTRA_ARGS+=(--now "${{ github.event.inputs.now }}")
+          fi
+          node social/cli/prepare-upcoming.js "${EXTRA_ARGS[@]}" | tee "$RESULT_FILE"
+          echo "result_file=$RESULT_FILE" >> "$GITHUB_OUTPUT"
+      - name: Commit prepared package state
+        if: ${{ github.event_name != 'workflow_dispatch' || github.event.inputs.dry_run != 'true' }}
+        run: |
+          if git diff --quiet; then
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add social/calendar social/state
+          git commit -m "chore: prepare upcoming social package"
+          git push
+      - name: Require a ready package
+        if: ${{ github.event_name != 'workflow_dispatch' || github.event.inputs.dry_run != 'true' }}
+        run: |
+          node -e 'const fs=require("fs");const result=JSON.parse(fs.readFileSync(process.argv[1],"utf8"));if(!result.ok){console.error(JSON.stringify(result.failures,null,2));process.exit(1)}' "${{ steps.prepare.outputs.result_file }}"

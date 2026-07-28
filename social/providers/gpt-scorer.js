@@ -101,14 +101,17 @@ function mergeStructuredSources(primary = [], fallback = []) {
 }
 
 function compactSourcesForNormalization(sources = []) {
-  return normalizeStructuredSources(sources).map((source) => ({
-    title: source.title,
-    url: source.url,
-    published_at: source.published_at,
-    relevance: source.relevance || '',
-    claim: source.claim || '',
-    excerpt: source.excerpt || '',
-  }));
+  return (Array.isArray(sources) ? sources : [])
+    .filter((source) => source && isValidHttpUrl(source.url))
+    .map((source) => ({
+      title: source.title,
+      url: source.url,
+      published_at: isExactPublishedDate(source.published_at) ? source.published_at : '',
+      relevance: source.relevance || '',
+      claim: source.claim || '',
+      excerpt: source.excerpt || '',
+      citation_context: source.citation_context || '',
+    }));
 }
 
 function normalizeCandidateAngles(candidateAngles = [], { topicOptions = [], fallbackTopic = null } = {}) {

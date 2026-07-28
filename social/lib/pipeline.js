@@ -117,6 +117,14 @@ class ResearchPendingError extends Error {
   }
 }
 
+class ResearchUnavailableError extends Error {
+  constructor(message, details = {}) {
+    super(message);
+    this.name = 'ResearchUnavailableError';
+    this.details = details;
+  }
+}
+
 class NovelIdeaUnavailableError extends Error {
   constructor(message, details = {}) {
     super(message);
@@ -219,10 +227,18 @@ function fallbackNormalizedResearch({ calendarItem, rawResearch }) {
 }
 
 function researchReportText(rawResearch) {
+  const currentSteps = Array.isArray(rawResearch?.raw?.steps)
+    ? rawResearch.raw.steps
+      .filter((step) => step?.type === 'model_output')
+      .flatMap((step) => step.content || [])
+      .map((item) => item.text || '')
+      .filter(Boolean)
+      .join('\n\n')
+    : '';
   const rawOutputs = Array.isArray(rawResearch?.raw?.outputs)
     ? rawResearch.raw.outputs.map((entry) => entry.text || '').filter(Boolean).join('\n\n')
     : '';
-  return rawOutputs || String(rawResearch?.summary || '');
+  return currentSteps || rawOutputs || String(rawResearch?.summary || '');
 }
 
 function selectedResearchAngle(researchBundle) {
@@ -285,7 +301,7 @@ async function ensureResearchBundleForItem({ calendarItem, strategy, adapters, m
   const topicOptions = Array.isArray(strategy.topics) ? strategy.topics : [];
   const jobKey = useArticleFirst ? `item:${calendarItem.id}` : calendarItem.topic_thesis;
   const { excludedSourceUrls, excludedEntities } = recentResearchExclusions(memory || {});
-  const loadedExisting = loadResearchBundle(calendarItem.source_bundle_id);
+  const loadedExisting = options.researchBundle || loadResearchBundle(calendarItem.source_bundle_id);
   const existing = loadedExisting && researchBundleMeetsRecencyPolicy(loadedExisting, recencyPolicy)
     ? loadedExisting
     : null;
@@ -302,9 +318,11 @@ async function ensureResearchBundleForItem({ calendarItem, strategy, adapters, m
     throw new Error(`Content type ${calendarItem.content_type} requires research, but provider adapters are unavailable.`);
   }
   let rawResearch;
+  let activeResearchJob = null;
   if (adapters.mode === 'live' || adapters.mode === 'record') {
     const existingJob = useArticleFirst ? findPendingJob(jobKey) : findPendingJobForTopic(calendarItem.topic_thesis);
     if (existingJob) {
+      activeResearchJob = existingJob;
       const latest = await adapters.gemini.pollResearchJob({
         job: existingJob,
         pollAttempts: waitForResearch ? adapters.gemini.publishPollAttempts : adapters.gemini.pollAttempts,
@@ -347,6 +365,7 @@ async function ensureResearchBundleForItem({ calendarItem, strategy, adapters, m
         submitted,
         mode: adapters.mode,
       });
+      activeResearchJob = pendingJob;
       upsertResearchJob(pendingJob);
       if (!waitForResearch) {
         throw new ResearchPendingError('Submitted required decoder-ring research job.', {
@@ -392,17 +411,28 @@ async function ensureResearchBundleForItem({ calendarItem, strategy, adapters, m
         excludedEntities,
       });
   }
-  const normalized = adapters?.scorer?.normalizeResearchReport
-    ? await adapters.scorer.normalizeResearchReport({
-      topicThesis: useArticleFirst ? null : calendarItem.topic_thesis,
-      topicOptions: useArticleFirst ? topicOptions : [],
-      rawReport: researchReportText(rawResearch),
-      fallbackSources: rawResearch?.sources || [],
-      watchlists,
-      excludedSourceUrls,
-      excludedEntities,
-    })
-    : fallbackNormalizedResearch({ calendarItem, rawResearch });
+  let normalized;
+  try {
+    normalized = adapters?.scorer?.normalizeResearchReport
+      ? await adapters.scorer.normalizeResearchReport({
+        topicThesis: useArticleFirst ? null : calendarItem.topic_thesis,
+        topicOptions: useArticleFirst ? topicOptions : [],
+        rawReport: researchReportText(rawResearch),
+        fallbackSources: rawResearch?.sources || [],
+        watchlists,
+        excludedSourceUrls,
+        excludedEntities,
+      })
+      : fallbackNormalizedResearch({ calendarItem, rawResearch });
+  } catch (error) {
+    if (activeResearchJob) removeResearchJob(activeResearchJob.id);
+    throw new ResearchUnavailableError('Research completed but could not produce a publishable recent-source bundle.', {
+      item_id: calendarItem.id,
+      topic_thesis: calendarItem.topic_thesis,
+      reason: 'research_normalization_failed',
+      error: error.message,
+    });
+  }
   const researchBundle = {
     ...rawResearch,
     summary: normalized.summary,
@@ -411,7 +441,12 @@ async function ensureResearchBundleForItem({ calendarItem, strategy, adapters, m
     candidate_angles: normalized.candidate_angles,
   };
   if (!researchBundleMeetsRecencyPolicy(researchBundle, recencyPolicy)) {
-    throw new Error(`Required decoder-ring research did not yield enough recent sources for "${calendarItem.topic_thesis}".`);
+    if (activeResearchJob) removeResearchJob(activeResearchJob.id);
+    throw new ResearchUnavailableError(`Required decoder-ring research did not yield enough recent sources for "${calendarItem.topic_thesis}".`, {
+      item_id: calendarItem.id,
+      topic_thesis: calendarItem.topic_thesis,
+      reason: 'recent_sources_missing',
+    });
   }
   saveResearchBundle(researchBundle);
   if (adapters.mode === 'live' || adapters.mode === 'record') {
@@ -479,6 +514,10 @@ function noveltyHistoryFingerprint(history = []) {
   ])));
 }
 
+function memoryHistoryFingerprint(memory = {}, limit = 1000) {
+  return noveltyHistoryFingerprint(buildArgumentHistory(memory, limit));
+}
+
 async function developNovelCalendarItem({ calendarItem, strategy, adapters, memory, researchBundle }) {
   if (strategy.generation?.develop_novel_idea === false || typeof adapters?.scorer?.developNovelIdea !== 'function') {
     return calendarItem;
@@ -490,6 +529,7 @@ async function developNovelCalendarItem({ calendarItem, strategy, adapters, memo
   if (
     calendarItem.idea_status === 'developed'
     && calendarItem.novel_idea?.pass
+    && calendarItem.novel_idea?.gate_version === 2
     && calendarItem.novel_idea?.history_fingerprint === historyFingerprint
   ) {
     return calendarItem;
@@ -506,13 +546,20 @@ async function developNovelCalendarItem({ calendarItem, strategy, adapters, memo
   const missingFields = ['topic_thesis', 'angle', 'hook', 'argument_summary']
     .filter((field) => !String(idea?.[field] || '').trim());
   const deterministicDuplicate = (adapters.mode === 'live' || adapters.mode === 'record')
-    ? [idea?.argument_summary, idea?.hook]
-      .filter(Boolean)
-      .map((text) => findContentDuplicate(
-        text,
-        memory?.recent_content || [],
-        Number(strategy.memory?.content_similarity_threshold || 0.72),
-      ))
+    ? [
+      ['topic_thesis', idea?.topic_thesis],
+      ['argument_summary', idea?.argument_summary],
+      ['hook', idea?.hook],
+    ]
+      .filter(([, text]) => Boolean(text))
+      .map(([field, text]) => {
+        const match = findContentDuplicate(
+          text,
+          memory?.recent_content || [],
+          Number(strategy.memory?.content_similarity_threshold || 0.72),
+        );
+        return match ? { ...match, field } : null;
+      })
       .find(Boolean) || null
     : null;
   const pass = Boolean(idea?.pass)
@@ -528,6 +575,7 @@ async function developNovelCalendarItem({ calendarItem, strategy, adapters, memo
       minimum_novelty_score: minimumNoveltyScore,
       missing_fields: missingFields,
       deterministic_duplicate_post_id: deterministicDuplicate?.candidate?.post_id || null,
+      deterministic_duplicate_field: deterministicDuplicate?.field || null,
       idea,
     });
   }
@@ -542,6 +590,7 @@ async function developNovelCalendarItem({ calendarItem, strategy, adapters, memo
     novel_idea: {
       ...idea,
       pass: true,
+      gate_version: 2,
       model: adapters.scorer.model || strategy.provider_defaults?.openai_model || null,
       history_count: history.length,
       history_fingerprint: historyFingerprint,
@@ -734,11 +783,14 @@ module.exports = {
   selectedPromptVariants,
   ensureResearchBundleForItem,
   ResearchPendingError,
+  ResearchUnavailableError,
   NovelIdeaUnavailableError,
   loadResearchBundle,
   saveResearchBundle,
   prepareBrief,
   developNovelCalendarItem,
+  noveltyHistoryFingerprint,
+  memoryHistoryFingerprint,
   generateCandidatesForItem,
   scoreCandidatesForItem,
   createPublishPayload,
