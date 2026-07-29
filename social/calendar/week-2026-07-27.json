@@ -38,18 +38,155 @@
       "status": "planned",
       "content_type": "archetype_diagnosis",
       "pillar": "Archetype Diagnosis",
-      "topic_thesis": "Severability and reversibility make criticism cheaper and therefore more honest.",
+      "topic_thesis": "In an AI-native organization, people should author doctrine and confront reality—not serve as middleware carrying context between agents.",
       "seed_topic_thesis": "Severability and reversibility make criticism cheaper and therefore more honest.",
-      "idea_status": "pending",
-      "angle": "Make the pattern recognizable fast and show what drives it.",
-      "hook": "You can tell a team is drifting into theater when severability and reversibility make criticism cheaper and therefore more honest.",
+      "idea_status": "developed",
+      "angle": "Diagnose the human-middleware pattern through managers who spend their time translating strategy into prompts, approvals, summaries, and handoffs. Show that the underlying problem is architectural: the organization has added a new source of cognition without redesigning how intent reaches action.",
+      "hook": "If your managers spend all day copying strategy into prompts, approvals, and summaries, you did not redesign work for AI. You electrified the line shaft.",
       "source_bundle_id": null,
       "timely_subject": null,
       "draft_ref": null,
       "winner_id": null,
       "risk_level": "low",
       "freshness_deadline": null,
-      "publish_payload": null
+      "publish_payload": null,
+      "preparation": {
+        "status": "ready",
+        "prepared_at": "2026-07-29T03:46:07.757Z",
+        "history_fingerprint": "7a9c2229f564f92797f90541c12dd4f993069f5b41d6fda55dd6a0d4b65f4ccd",
+        "attempts": [
+          {
+            "content_type": "archetype_diagnosis",
+            "seed_topic_thesis": "Severability and reversibility make criticism cheaper and therefore more honest.",
+            "status": "prepared",
+            "reason": null,
+            "error": null,
+            "details": null
+          }
+        ],
+        "package": {
+          "version": 1,
+          "prepared_at": "2026-07-29T03:46:07.757Z",
+          "history_fingerprint": "7a9c2229f564f92797f90541c12dd4f993069f5b41d6fda55dd6a0d4b65f4ccd",
+          "payload": {
+            "item_id": "07c9d7581588",
+            "scheduled_at": "2026-07-29T12:30:00.000Z",
+            "content_type": "archetype_diagnosis",
+            "pillar": "Archetype Diagnosis",
+            "topic_thesis": "In an AI-native organization, people should author doctrine and confront reality—not serve as middleware carrying context between agents.",
+            "angle": "Diagnose the human-middleware pattern through managers who spend their time translating strategy into prompts, approvals, summaries, and handoffs. Show that the underlying problem is architectural: the organization has added a new source of cognition without redesigning how intent reaches action.",
+            "hook": "The clearest sign of a failed AI redesign is a manager spending all day copying context between machines.",
+            "body_text": "The clearest sign of a failed AI redesign is a manager spending all day copying context between machines.\n\nThis is the Human Middleware Manager. Strategy becomes their prompt. Agent output becomes their summary. Judgment becomes an approval queue. Their calendar fills with handoffs, but they rarely author doctrine or confront customers, operations, and consequences.\n\nThe problem is not the manager. It is the architecture. The organization added a new source of cognition without redesigning how intent reaches action. It bolted the dynamo to the line shaft, then kept people in place as belts and pulleys.\n\nPeople should author doctrine and expose it to reality. Doctrine should carry intent to agents.\n\nLeave the old architecture intact, and every new agent creates more translation, supervision, and contradiction—until your highest-paid people are moving context instead of moving the company.",
+            "footer_text": "The Dionysus Program is free. It covers the machinery behind posts like this — Run Time, Ritual Time, the anti-scapegoat, and how to make criticism cheaper than silence. dionysusprogram.com",
+            "footer_index": 3,
+            "footer_divider": "---",
+            "final_text": "The clearest sign of a failed AI redesign is a manager spending all day copying context between machines.\n\nThis is the Human Middleware Manager. Strategy becomes their prompt. Agent output becomes their summary. Judgment becomes an approval queue. Their calendar fills with handoffs, but they rarely author doctrine or confront customers, operations, and consequences.\n\nThe problem is not the manager. It is the architecture. The organization added a new source of cognition without redesigning how intent reaches action. It bolted the dynamo to the line shaft, then kept people in place as belts and pulleys.\n\nPeople should author doctrine and expose it to reality. Doctrine should carry intent to agents.\n\nLeave the old architecture intact, and every new agent creates more translation, supervision, and contradiction—until your highest-paid people are moving context instead of moving the company.\n\n---\n\nThe Dionysus Program is free. It covers the machinery behind posts like this — Run Time, Ritual Time, the anti-scapegoat, and how to make criticism cheaper than silence. dionysusprogram.com",
+            "winning_candidate_id": "f77233c9723c",
+            "winning_score": 9,
+            "source_refs": [],
+            "research_bundle_id": null,
+            "timely_subject": null
+          },
+          "prepared_note": {
+            "body": "The clearest sign of a failed AI redesign is a manager spending all day copying context between machines.\n\nThis is the Human Middleware Manager. Strategy becomes their prompt. Agent output becomes their summary. Judgment becomes an approval queue. Their calendar fills with handoffs, but they rarely author doctrine or confront customers, operations, and consequences.\n\nThe problem is not the manager. It is the architecture. The organization added a new source of cognition without redesigning how intent reaches action. It bolted the dynamo to the line shaft, then kept people in place as belts and pulleys.\n\nPeople should author doctrine and expose it to reality. Doctrine should carry intent to agents.\n\nLeave the old architecture intact, and every new agent creates more translation, supervision, and contradiction—until your highest-paid people are moving context instead of moving the company.",
+            "sourceMode": "canonical_package"
+          },
+          "x_preflight": {
+            "status": "dry_run",
+            "reason": null,
+            "payload": {
+              "source_channel": "linkedin",
+              "source_final_text_hash": "d9e18ae7c3807f93b2b42e2ade971f8b9649796023c8e274a9c43fe13a4a7d91",
+              "source_winning_candidate_id": "f77233c9723c",
+              "text": "9:10: paste the sales call into an agent. 10:30: paste its answer into the forecast. 1:00: explain the forecast to another agent. 4:00: approve the summary.\n\nNothing broke. That’s the problem. A manager can lose a day to a system working exactly as designed.",
+              "winning_candidate_id": "b346a7d4c82d",
+              "winning_score": 9.2
+            },
+            "winnerCandidate": {
+              "id": "b346a7d4c82d",
+              "writer_model": "gpt-5.6-sol",
+              "prompt_variant": "miniature_scene",
+              "post_text": "9:10: paste the sales call into an agent. 10:30: paste its answer into the forecast. 1:00: explain the forecast to another agent. 4:00: approve the summary.\n\nNothing broke. That’s the problem. A manager can lose a day to a system working exactly as designed.",
+              "self_notes": "Compresses the failure into one ordinary workday; the absence of a visible breakdown is the fresh insight."
+            },
+            "winnerScore": {
+              "id": "617aa13fd3e8",
+              "candidate_id": "b346a7d4c82d",
+              "clarity_score": 9.4,
+              "compression_score": 9.2,
+              "diagnostic_score": 8.9,
+              "anti_cheese_score": 9,
+              "x_fit_score": 9.5,
+              "novelty_score": 9.1,
+              "engagement_score": 9.4,
+              "overall_score": 9.2,
+              "pass": true,
+              "pass_fail_reasons": [
+                "Best miniature scene: the timestamps turn invisible middleware work into a recognizable lost day.",
+                "“Nothing broke” creates earned tension, and the final sentence explains why apparent normality is the failure.",
+                "Fresh structure, clean landing, and no prohibited elements."
+              ]
+            }
+          },
+          "winner_candidate": {
+            "id": "f77233c9723c",
+            "writer_model": "gpt-5.6-sol",
+            "prompt_variant": "diagnosis_forward",
+            "post_text": "The clearest sign of a failed AI redesign is a manager spending all day copying context between machines.\n\nThis is the Human Middleware Manager. Strategy becomes their prompt. Agent output becomes their summary. Judgment becomes an approval queue. Their calendar fills with handoffs, but they rarely author doctrine or confront customers, operations, and consequences.\n\nThe problem is not the manager. It is the architecture. The organization added a new source of cognition without redesigning how intent reaches action. It bolted the dynamo to the line shaft, then kept people in place as belts and pulleys.\n\nPeople should author doctrine and expose it to reality. Doctrine should carry intent to agents.\n\nLeave the old architecture intact, and every new agent creates more translation, supervision, and contradiction—until your highest-paid people are moving context instead of moving the company.",
+            "self_notes": "Live candidate in diagnosis_forward mode."
+          },
+          "winner_score": {
+            "id": "6dab09d92752",
+            "candidate_id": "f77233c9723c",
+            "voice_score": 9.1,
+            "novelty_score": 8.3,
+            "engagement_score": 8.8,
+            "clarity_score": 9.4,
+            "risk_score": 8.7,
+            "citation_score": 9.4,
+            "linkedin_native_score": 9.2,
+            "overall_score": 9,
+            "pass": true,
+            "pass_fail_reasons": [
+              "Names the recognizable pattern immediately and supports it with vivid operational signs.",
+              "The sequence from prompt to summary to approval queue gives the post a concrete, human tell.",
+              "Explains the architectural driver in one tight paragraph using the line-shaft analogy effectively.",
+              "Ends with a sharp business consequence rather than framework jargon or a soft call to action.",
+              "Concise, well-paced, source-grounded, and compliant with the no-link, no-hashtag, no-emoji, and word-count rules.",
+              "Minor risk: “Human Middleware Manager” extends the source phrase into a named archetype, but it is directly grounded in the brief and does not create an unnecessary taxonomy.",
+              "Best candidate overall."
+            ]
+          },
+          "package_gate": {
+            "pass": true,
+            "attempted_candidates": 1,
+            "note_linkedin_novelty_score": 8.3,
+            "note_linkedin_engagement_score": 8.8,
+            "x_status": "dry_run",
+            "x_novelty_score": 9.1,
+            "x_engagement_score": 9.4
+          },
+          "selection_reason": "memory_safe_top_choice",
+          "research_bundle": null
+        }
+      },
+      "novel_idea": {
+        "pass": true,
+        "topic_thesis": "In an AI-native organization, people should author doctrine and confront reality—not serve as middleware carrying context between agents.",
+        "angle": "Diagnose the human-middleware pattern through managers who spend their time translating strategy into prompts, approvals, summaries, and handoffs. Show that the underlying problem is architectural: the organization has added a new source of cognition without redesigning how intent reaches action.",
+        "hook": "If your managers spend all day copying strategy into prompts, approvals, and summaries, you did not redesign work for AI. You electrified the line shaft.",
+        "argument_summary": "Traditional organizations used managers, meetings, and specialists to distribute scarce cognition and context. AI makes much execution cheap, but many firms preserve the old architecture by keeping people as relay nodes between strategy and agents. That retains delay, adds transmission loss, and leaves every executing unit dependent on private interpretation. The alternative is not removing people. It is moving them into the functions the source says remain essential: authoring doctrine, exercising taste and moral accountability, confronting customers and other boundaries of consequence, and updating doctrine when reality contradicts it. Canonical, current, bounded doctrine should carry intent into execution; humans should govern the map and absorb reality rather than manually retransmit instructions.",
+        "novelty_score": 9.3,
+        "closest_post_id": "019e4596-e700-64e5-160e-fd59961863ed",
+        "novelty_rationale": "The closest prior post argued that the One-Man Job reduces coordination while eroding the social contact that once generated trust. This argument addresses a different mechanism and operator decision: firms preserve obsolete coordination architecture by using people as context relays after cognition becomes cheap. Its consequence is transmission loss and an Auteur bottleneck, not social atomization. Its prescription is to make doctrine the middleware while reserving people for authorship, reality-contact, accountability, and repair.",
+        "source_grounding": "The source explicitly states, “People should not be the middleware. Doctrine should be the middleware,” while preserving human roles in taste, legal and moral accountability, trust, grief, and repair. “Auteurs, Agents, Actors” assigns doctrine authorship to Auteurs, doctrine execution to Agents, and boundary-of-consequence reality contact to Actors. “The Dynamo and the Agent” grounds the line-shaft analogy: early adopters installed new power inside old layouts, while the deeper gains required redesign around the new bottleneck.",
+        "gate_version": 2,
+        "model": "gpt-5.6-sol",
+        "history_count": 89,
+        "history_fingerprint": "7a9c2229f564f92797f90541c12dd4f993069f5b41d6fda55dd6a0d4b65f4ccd",
+        "developed_at": "2026-07-29T03:43:41.257Z"
+      },
+      "skip_reason": null
     },
     {
       "id": "036a1a9814bc",
