@@ -11,7 +11,7 @@
       "timezone": "America/Los_Angeles",
       "weekday": "monday",
       "slot_type": "baseline",
-      "status": "planned",
+      "status": "skipped",
       "content_type": "decoder_ring",
       "pillar": "Decoder Ring",
       "topic_thesis": "Severability and reversibility make criticism cheaper and therefore more honest.",
@@ -25,7 +25,14 @@
       "winner_id": null,
       "risk_level": "low",
       "freshness_deadline": null,
-      "publish_payload": null
+      "publish_payload": null,
+      "skip_reason": "package_preparation_expired",
+      "delivery": {
+        "status": "skipped",
+        "attempted_at": "2026-07-29T14:55:40.497Z",
+        "reason": "package_preparation_expired",
+        "error": null
+      }
     },
     {
       "id": "cdb6733ce61f",
@@ -35,7 +42,7 @@
       "timezone": "America/Los_Angeles",
       "weekday": "wednesday",
       "slot_type": "baseline",
-      "status": "planned",
+      "status": "skipped",
       "content_type": "ritual_recipe",
       "pillar": "Ritual Recipes",
       "topic_thesis": "Rectification of Names matters because a leader who cannot call failure failure makes ritual truth-telling a farce.",
@@ -49,7 +56,14 @@
       "winner_id": null,
       "risk_level": "low",
       "freshness_deadline": null,
-      "publish_payload": null
+      "publish_payload": null,
+      "skip_reason": "package_preparation_expired",
+      "delivery": {
+        "status": "skipped",
+        "attempted_at": "2026-07-29T14:55:40.497Z",
+        "reason": "package_preparation_expired",
+        "error": null
+      }
     },
     {
       "id": "2cbbbe50fe7f",
@@ -59,7 +73,7 @@
       "timezone": "America/Los_Angeles",
       "weekday": "friday",
       "slot_type": "baseline",
-      "status": "planned",
+      "status": "skipped",
       "content_type": "archetype_diagnosis",
       "pillar": "Archetype Diagnosis",
       "topic_thesis": "Knowledge and myth solve different problems, and organizations fail when they confuse them.",
@@ -73,7 +87,14 @@
       "winner_id": null,
       "risk_level": "low",
       "freshness_deadline": null,
-      "publish_payload": null
+      "publish_payload": null,
+      "skip_reason": "package_preparation_expired",
+      "delivery": {
+        "status": "skipped",
+        "attempted_at": "2026-07-29T14:55:40.497Z",
+        "reason": "package_preparation_expired",
+        "error": null
+      }
     }
   ]
 }

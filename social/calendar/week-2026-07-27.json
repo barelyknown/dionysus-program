@@ -11,7 +11,7 @@
       "timezone": "America/Los_Angeles",
       "weekday": "monday",
       "slot_type": "baseline",
-      "status": "planned",
+      "status": "skipped",
       "content_type": "decoder_ring",
       "pillar": "Decoder Ring",
       "topic_thesis": "Epimetabolic Rate is the only scoreboard that really matters in periods of fast change.",
@@ -25,7 +25,14 @@
       "winner_id": null,
       "risk_level": "low",
       "freshness_deadline": null,
-      "publish_payload": null
+      "publish_payload": null,
+      "skip_reason": "package_preparation_expired",
+      "delivery": {
+        "status": "skipped",
+        "attempted_at": "2026-07-29T14:55:40.497Z",
+        "reason": "package_preparation_expired",
+        "error": null
+      }
     },
     {
       "id": "07c9d7581588",
@@ -35,7 +42,7 @@
       "timezone": "America/Los_Angeles",
       "weekday": "wednesday",
       "slot_type": "baseline",
-      "status": "planned",
+      "status": "published",
       "content_type": "archetype_diagnosis",
       "pillar": "Archetype Diagnosis",
       "topic_thesis": "In an AI-native organization, people should author doctrine and confront reality—not serve as middleware carrying context between agents.",
@@ -46,10 +53,28 @@
       "source_bundle_id": null,
       "timely_subject": null,
       "draft_ref": null,
-      "winner_id": null,
+      "winner_id": "f77233c9723c",
       "risk_level": "low",
       "freshness_deadline": null,
-      "publish_payload": null,
+      "publish_payload": {
+        "item_id": "07c9d7581588",
+        "scheduled_at": "2026-07-29T12:30:00.000Z",
+        "content_type": "archetype_diagnosis",
+        "pillar": "Archetype Diagnosis",
+        "topic_thesis": "In an AI-native organization, people should author doctrine and confront reality—not serve as middleware carrying context between agents.",
+        "angle": "Diagnose the human-middleware pattern through managers who spend their time translating strategy into prompts, approvals, summaries, and handoffs. Show that the underlying problem is architectural: the organization has added a new source of cognition without redesigning how intent reaches action.",
+        "hook": "The clearest sign of a failed AI redesign is a manager spending all day copying context between machines.",
+        "body_text": "The clearest sign of a failed AI redesign is a manager spending all day copying context between machines.\n\nThis is the Human Middleware Manager. Strategy becomes their prompt. Agent output becomes their summary. Judgment becomes an approval queue. Their calendar fills with handoffs, but they rarely author doctrine or confront customers, operations, and consequences.\n\nThe problem is not the manager. It is the architecture. The organization added a new source of cognition without redesigning how intent reaches action. It bolted the dynamo to the line shaft, then kept people in place as belts and pulleys.\n\nPeople should author doctrine and expose it to reality. Doctrine should carry intent to agents.\n\nLeave the old architecture intact, and every new agent creates more translation, supervision, and contradiction—until your highest-paid people are moving context instead of moving the company.",
+        "footer_text": "The Dionysus Program is free. It covers the machinery behind posts like this — Run Time, Ritual Time, the anti-scapegoat, and how to make criticism cheaper than silence. dionysusprogram.com",
+        "footer_index": 3,
+        "footer_divider": "---",
+        "final_text": "The clearest sign of a failed AI redesign is a manager spending all day copying context between machines.\n\nThis is the Human Middleware Manager. Strategy becomes their prompt. Agent output becomes their summary. Judgment becomes an approval queue. Their calendar fills with handoffs, but they rarely author doctrine or confront customers, operations, and consequences.\n\nThe problem is not the manager. It is the architecture. The organization added a new source of cognition without redesigning how intent reaches action. It bolted the dynamo to the line shaft, then kept people in place as belts and pulleys.\n\nPeople should author doctrine and expose it to reality. Doctrine should carry intent to agents.\n\nLeave the old architecture intact, and every new agent creates more translation, supervision, and contradiction—until your highest-paid people are moving context instead of moving the company.\n\n---\n\nThe Dionysus Program is free. It covers the machinery behind posts like this — Run Time, Ritual Time, the anti-scapegoat, and how to make criticism cheaper than silence. dionysusprogram.com",
+        "winning_candidate_id": "f77233c9723c",
+        "winning_score": 9,
+        "source_refs": [],
+        "research_bundle_id": null,
+        "timely_subject": null
+      },
       "preparation": {
         "status": "ready",
         "prepared_at": "2026-07-29T03:46:07.757Z",
@@ -186,7 +211,29 @@
         "history_fingerprint": "7a9c2229f564f92797f90541c12dd4f993069f5b41d6fda55dd6a0d4b65f4ccd",
         "developed_at": "2026-07-29T03:43:41.257Z"
       },
-      "skip_reason": null
+      "skip_reason": null,
+      "published_at": "2026-07-29T14:55:40.931Z",
+      "external_post_id": "019fae5f-c94c-be8f-7628-216e2ec120b9",
+      "note_slug": "2026-07-29-in-an-ai-native-organization-people-should-author-doctrine-and-confront-reality-not-serve-as-middleware-carrying-context-between-agents",
+      "note_source_path": "content/notes/2026-07-29-in-an-ai-native-organization-people-should-author-doctrine-and-confront-reality-not-serve-as-middleware-carrying-context-between-agents.md",
+      "x_status": "published",
+      "x_external_post_id": "2082480185941901314",
+      "x_published_at": "2026-07-29T14:55:41.805Z",
+      "x_winning_candidate_id": "b346a7d4c82d",
+      "x_publish_payload": {
+        "source_channel": "linkedin",
+        "source_final_text_hash": "d9e18ae7c3807f93b2b42e2ade971f8b9649796023c8e274a9c43fe13a4a7d91",
+        "source_winning_candidate_id": "f77233c9723c",
+        "text": "9:10: paste the sales call into an agent. 10:30: paste its answer into the forecast. 1:00: explain the forecast to another agent. 4:00: approve the summary.\n\nNothing broke. That’s the problem. A manager can lose a day to a system working exactly as designed.",
+        "winning_candidate_id": "b346a7d4c82d",
+        "winning_score": 9.2
+      },
+      "x_skip_reason": null,
+      "delivery": {
+        "status": "published",
+        "attempted_at": "2026-07-29T14:55:40.931Z",
+        "reason": null
+      }
     },
     {
       "id": "036a1a9814bc",
