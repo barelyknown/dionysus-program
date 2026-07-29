@@ -1,6 +1,13 @@
 notes_archive_url: notes/
 recent_notes_empty: false
 recent_notes:
+  - title: In an AI-native organization, people should author doctrine and confront
+      reality—not serve as middleware carrying context between agents
+    display_date: July 29, 2026
+    url: notes/2026-07-29-in-an-ai-native-organization-people-should-author-doctrine-and-confront-reality-not-serve-as-middleware-carrying-context-between-agents/index.html
+    excerpt: The clearest sign of a failed AI redesign is a manager spending all day
+      copying context between machines.
+    pillar: Archetype Diagnosis
   - title: A dashboard can expose waste. It cannot make uncertainty speakable
     display_date: July 16, 2026
     url: notes/2026-07-16-a-dashboard-can-expose-waste-it-cannot-make-uncertainty-speakable/index.html
@@ -11,11 +18,4 @@ recent_notes:
     url: notes/2026-07-03-the-overwhelmed/index.html
     excerpt: Some companies don’t fail because they were wrong. They fail because
       they were right too fast.
-    pillar: Extracted Insights
-  - title: Some companies will not miss the future. They will see it clearly and
-      still lose
-    display_date: July 2, 2026
-    url: notes/2026-07-02-some-companies-will-not-miss-the-future-they-will-see-it-clearly-and-still-lose/index.html
-    excerpt: Some companies will not miss the future. They will see it clearly and
-      still lose.
     pillar: Extracted Insights
