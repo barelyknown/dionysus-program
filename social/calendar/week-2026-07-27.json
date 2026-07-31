@@ -243,7 +243,7 @@
       "timezone": "America/Los_Angeles",
       "weekday": "friday",
       "slot_type": "baseline",
-      "status": "planned",
+      "status": "published",
       "content_type": "ritual_recipe",
       "pillar": "Ritual Recipes",
       "topic_thesis": "A Crossing should not close until its verdict has been encoded into doctrine and propagated to every affected human and machine workflow.",
@@ -254,10 +254,28 @@
       "source_bundle_id": null,
       "timely_subject": null,
       "draft_ref": null,
-      "winner_id": null,
+      "winner_id": "2ad2a7602237",
       "risk_level": "low",
       "freshness_deadline": null,
-      "publish_payload": null,
+      "publish_payload": {
+        "item_id": "036a1a9814bc",
+        "scheduled_at": "2026-07-31T12:30:00.000Z",
+        "content_type": "ritual_recipe",
+        "pillar": "Ritual Recipes",
+        "topic_thesis": "A Crossing should not close until its verdict has been encoded into doctrine and propagated to every affected human and machine workflow.",
+        "angle": "Start with the recurring Monday-morning failure: a team reaches an honest conclusion, but old prompts, permissions, dashboards, and commitments keep enforcing the rejected premise. End with a closing checklist that converts recognition into changed execution.",
+        "hook": "Monday morning is where honest conclusions go to die.",
+        "body_text": "Monday morning is where honest conclusions go to die.\n\nFriday’s Crossing rejects a core pricing premise. By 9 a.m. Monday, the sales prompt still makes the old promise, the dashboard rewards it, and the approval rules permit it. The team changed its mind. The operating system did not.\n\nA Crossing should not close at recognition. It closes when the verdict is encoded into doctrine and propagated to every affected human and machine workflow.\n\nDo not run this move when junior people cannot safely contradict senior people. Lower the stakes and build trust first.\n\nClosing checklist:\n\n1. Record the verdict, owner, effective date, and what evidence would reverse it.\n2. Update doctrine, prompts, permissions, evaluations, dashboards, and decision rules.\n3. Identify every affected person, agent, workflow, and external commitment; confirm receipt.\n4. Delete the rejected premise and test execution at the boundary where reality answers.\n\nIf the old premise can still execute on Monday, the Crossing is still open.",
+        "footer_text": "The Dionysus Program argues that the real scoreboard is epimetabolic rate: how fast you turn error into better structure without burning people. The book is free. dionysusprogram.com",
+        "footer_index": 8,
+        "footer_divider": "---",
+        "final_text": "Monday morning is where honest conclusions go to die.\n\nFriday’s Crossing rejects a core pricing premise. By 9 a.m. Monday, the sales prompt still makes the old promise, the dashboard rewards it, and the approval rules permit it. The team changed its mind. The operating system did not.\n\nA Crossing should not close at recognition. It closes when the verdict is encoded into doctrine and propagated to every affected human and machine workflow.\n\nDo not run this move when junior people cannot safely contradict senior people. Lower the stakes and build trust first.\n\nClosing checklist:\n\n1. Record the verdict, owner, effective date, and what evidence would reverse it.\n2. Update doctrine, prompts, permissions, evaluations, dashboards, and decision rules.\n3. Identify every affected person, agent, workflow, and external commitment; confirm receipt.\n4. Delete the rejected premise and test execution at the boundary where reality answers.\n\nIf the old premise can still execute on Monday, the Crossing is still open.\n\n---\n\nThe Dionysus Program argues that the real scoreboard is epimetabolic rate: how fast you turn error into better structure without burning people. The book is free. dionysusprogram.com",
+        "winning_candidate_id": "2ad2a7602237",
+        "winning_score": 9,
+        "source_refs": [],
+        "research_bundle_id": null,
+        "timely_subject": null
+      },
       "preparation": {
         "status": "ready",
         "prepared_at": "2026-07-31T03:55:14.395Z",
@@ -393,7 +411,29 @@
         "history_fingerprint": "4e602616e886ae264b6727c11f6ef7d93886980af1b3432c3b17bb9b8ee87f6e",
         "developed_at": "2026-07-31T03:53:03.126Z"
       },
-      "skip_reason": null
+      "skip_reason": null,
+      "published_at": "2026-07-31T15:04:30.766Z",
+      "external_post_id": "019fb8b4-9715-c3de-7bbe-c8fd57e3b192",
+      "note_slug": "2026-07-31-monday-morning-is-where-honest-conclusions-go-to-die",
+      "note_source_path": "content/notes/2026-07-31-monday-morning-is-where-honest-conclusions-go-to-die.md",
+      "x_status": "published",
+      "x_external_post_id": "2083207182393168063",
+      "x_published_at": "2026-07-31T15:04:31.205Z",
+      "x_winning_candidate_id": "18981d0bc9d2",
+      "x_publish_payload": {
+        "source_channel": "linkedin",
+        "source_final_text_hash": "c2cf69ed79910922ac770706fcd5cf7cab8ca025f700be60accc84beeb5aca07",
+        "source_winning_candidate_id": "2ad2a7602237",
+        "text": "Sales hears that the old pricing promise is dead. The dashboard still rewards it. A rep follows the metric, a manager approves the exception, and a customer gets a commitment leadership already rejected.\n\nContradictory systems turn good execution into institutional dishonesty.",
+        "winning_candidate_id": "18981d0bc9d2",
+        "winning_score": 9
+      },
+      "x_skip_reason": null,
+      "delivery": {
+        "status": "published",
+        "attempted_at": "2026-07-31T15:04:30.766Z",
+        "reason": null
+      }
     }
   ]
 }
