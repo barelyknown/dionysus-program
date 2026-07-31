@@ -246,18 +246,154 @@
       "status": "planned",
       "content_type": "ritual_recipe",
       "pillar": "Ritual Recipes",
-      "topic_thesis": "The Crossing is the protected threshold where truth can become common knowledge without social rupture.",
+      "topic_thesis": "A Crossing should not close until its verdict has been encoded into doctrine and propagated to every affected human and machine workflow.",
       "seed_topic_thesis": "The Crossing is the protected threshold where truth can become common knowledge without social rupture.",
-      "idea_status": "pending",
-      "angle": "Start with a recurring problem and end with a usable move.",
-      "hook": "If your team keeps repeating the same failure, stop adding process. the crossing is the protected threshold where truth can become common knowledge without social rupture.",
+      "idea_status": "developed",
+      "angle": "Start with the recurring Monday-morning failure: a team reaches an honest conclusion, but old prompts, permissions, dashboards, and commitments keep enforcing the rejected premise. End with a closing checklist that converts recognition into changed execution.",
+      "hook": "The most dangerous Crossing is the one everyone agrees with and no system obeys.",
       "source_bundle_id": null,
       "timely_subject": null,
       "draft_ref": null,
       "winner_id": null,
       "risk_level": "low",
       "freshness_deadline": null,
-      "publish_payload": null
+      "publish_payload": null,
+      "preparation": {
+        "status": "ready",
+        "prepared_at": "2026-07-31T03:55:14.395Z",
+        "history_fingerprint": "4e602616e886ae264b6727c11f6ef7d93886980af1b3432c3b17bb9b8ee87f6e",
+        "attempts": [
+          {
+            "content_type": "ritual_recipe",
+            "seed_topic_thesis": "The Crossing is the protected threshold where truth can become common knowledge without social rupture.",
+            "status": "prepared",
+            "reason": null,
+            "error": null,
+            "details": null
+          }
+        ],
+        "package": {
+          "version": 1,
+          "prepared_at": "2026-07-31T03:55:14.395Z",
+          "history_fingerprint": "4e602616e886ae264b6727c11f6ef7d93886980af1b3432c3b17bb9b8ee87f6e",
+          "payload": {
+            "item_id": "036a1a9814bc",
+            "scheduled_at": "2026-07-31T12:30:00.000Z",
+            "content_type": "ritual_recipe",
+            "pillar": "Ritual Recipes",
+            "topic_thesis": "A Crossing should not close until its verdict has been encoded into doctrine and propagated to every affected human and machine workflow.",
+            "angle": "Start with the recurring Monday-morning failure: a team reaches an honest conclusion, but old prompts, permissions, dashboards, and commitments keep enforcing the rejected premise. End with a closing checklist that converts recognition into changed execution.",
+            "hook": "Monday morning is where honest conclusions go to die.",
+            "body_text": "Monday morning is where honest conclusions go to die.\n\nFriday’s Crossing rejects a core pricing premise. By 9 a.m. Monday, the sales prompt still makes the old promise, the dashboard rewards it, and the approval rules permit it. The team changed its mind. The operating system did not.\n\nA Crossing should not close at recognition. It closes when the verdict is encoded into doctrine and propagated to every affected human and machine workflow.\n\nDo not run this move when junior people cannot safely contradict senior people. Lower the stakes and build trust first.\n\nClosing checklist:\n\n1. Record the verdict, owner, effective date, and what evidence would reverse it.\n2. Update doctrine, prompts, permissions, evaluations, dashboards, and decision rules.\n3. Identify every affected person, agent, workflow, and external commitment; confirm receipt.\n4. Delete the rejected premise and test execution at the boundary where reality answers.\n\nIf the old premise can still execute on Monday, the Crossing is still open.",
+            "footer_text": "The Dionysus Program argues that the real scoreboard is epimetabolic rate: how fast you turn error into better structure without burning people. The book is free. dionysusprogram.com",
+            "footer_index": 8,
+            "footer_divider": "---",
+            "final_text": "Monday morning is where honest conclusions go to die.\n\nFriday’s Crossing rejects a core pricing premise. By 9 a.m. Monday, the sales prompt still makes the old promise, the dashboard rewards it, and the approval rules permit it. The team changed its mind. The operating system did not.\n\nA Crossing should not close at recognition. It closes when the verdict is encoded into doctrine and propagated to every affected human and machine workflow.\n\nDo not run this move when junior people cannot safely contradict senior people. Lower the stakes and build trust first.\n\nClosing checklist:\n\n1. Record the verdict, owner, effective date, and what evidence would reverse it.\n2. Update doctrine, prompts, permissions, evaluations, dashboards, and decision rules.\n3. Identify every affected person, agent, workflow, and external commitment; confirm receipt.\n4. Delete the rejected premise and test execution at the boundary where reality answers.\n\nIf the old premise can still execute on Monday, the Crossing is still open.\n\n---\n\nThe Dionysus Program argues that the real scoreboard is epimetabolic rate: how fast you turn error into better structure without burning people. The book is free. dionysusprogram.com",
+            "winning_candidate_id": "2ad2a7602237",
+            "winning_score": 9,
+            "source_refs": [],
+            "research_bundle_id": null,
+            "timely_subject": null
+          },
+          "prepared_note": {
+            "body": "Monday morning is where honest conclusions go to die.\n\nFriday’s Crossing rejects a core pricing premise. By 9 a.m. Monday, the sales prompt still makes the old promise, the dashboard rewards it, and the approval rules permit it. The team changed its mind. The operating system did not.\n\nA Crossing should not close at recognition. It closes when the verdict is encoded into doctrine and propagated to every affected human and machine workflow.\n\nDo not run this move when junior people cannot safely contradict senior people. Lower the stakes and build trust first.\n\nClosing checklist:\n\n1. Record the verdict, owner, effective date, and what evidence would reverse it.\n2. Update doctrine, prompts, permissions, evaluations, dashboards, and decision rules.\n3. Identify every affected person, agent, workflow, and external commitment; confirm receipt.\n4. Delete the rejected premise and test execution at the boundary where reality answers.\n\nIf the old premise can still execute on Monday, the Crossing is still open.",
+            "sourceMode": "canonical_package"
+          },
+          "x_preflight": {
+            "status": "dry_run",
+            "reason": null,
+            "payload": {
+              "source_channel": "linkedin",
+              "source_final_text_hash": "c2cf69ed79910922ac770706fcd5cf7cab8ca025f700be60accc84beeb5aca07",
+              "source_winning_candidate_id": "2ad2a7602237",
+              "text": "Sales hears that the old pricing promise is dead. The dashboard still rewards it. A rep follows the metric, a manager approves the exception, and a customer gets a commitment leadership already rejected.\n\nContradictory systems turn good execution into institutional dishonesty.",
+              "winning_candidate_id": "18981d0bc9d2",
+              "winning_score": 9
+            },
+            "winnerCandidate": {
+              "id": "18981d0bc9d2",
+              "writer_model": "gpt-5.6-sol",
+              "prompt_variant": "concrete_consequence",
+              "post_text": "Sales hears that the old pricing promise is dead. The dashboard still rewards it. A rep follows the metric, a manager approves the exception, and a customer gets a commitment leadership already rejected.\n\nContradictory systems turn good execution into institutional dishonesty.",
+              "self_notes": "Shows how stale infrastructure makes conscientious employees produce a false commitment."
+            },
+            "winnerScore": {
+              "id": "7115770d1c69",
+              "candidate_id": "18981d0bc9d2",
+              "clarity_score": 9.3,
+              "compression_score": 8.5,
+              "diagnostic_score": 9.4,
+              "anti_cheese_score": 8.3,
+              "x_fit_score": 9,
+              "novelty_score": 8.8,
+              "engagement_score": 9.1,
+              "overall_score": 9,
+              "pass": true,
+              "pass_fail_reasons": [
+                "Best causal chain: stale metric, compliant rep, approved exception, customer consequence.",
+                "Turns an operating inconsistency into a human and commercial cost.",
+                "The final phrase is forceful but supported by the scene."
+              ]
+            }
+          },
+          "winner_candidate": {
+            "id": "2ad2a7602237",
+            "writer_model": "gpt-5.6-sol",
+            "prompt_variant": "hook_forward",
+            "post_text": "Monday morning is where honest conclusions go to die.\n\nFriday’s Crossing rejects a core pricing premise. By 9 a.m. Monday, the sales prompt still makes the old promise, the dashboard rewards it, and the approval rules permit it. The team changed its mind. The operating system did not.\n\nA Crossing should not close at recognition. It closes when the verdict is encoded into doctrine and propagated to every affected human and machine workflow.\n\nDo not run this move when junior people cannot safely contradict senior people. Lower the stakes and build trust first.\n\nClosing checklist:\n\n1. Record the verdict, owner, effective date, and what evidence would reverse it.\n2. Update doctrine, prompts, permissions, evaluations, dashboards, and decision rules.\n3. Identify every affected person, agent, workflow, and external commitment; confirm receipt.\n4. Delete the rejected premise and test execution at the boundary where reality answers.\n\nIf the old premise can still execute on Monday, the Crossing is still open.",
+            "self_notes": "Live candidate in hook_forward mode."
+          },
+          "winner_score": {
+            "id": "ca056b48d29a",
+            "candidate_id": "2ad2a7602237",
+            "voice_score": 8.8,
+            "novelty_score": 8.5,
+            "engagement_score": 9.1,
+            "clarity_score": 9.2,
+            "risk_score": 9.7,
+            "citation_score": 10,
+            "linkedin_native_score": 8.9,
+            "overall_score": 9,
+            "pass": true,
+            "pass_fail_reasons": [
+              "Strong, consequential opener with immediate pattern recognition.",
+              "Concrete Monday-morning failure sustains the hook without clickbait.",
+              "Checklist is justified, executable, and covers both human and machine propagation.",
+              "Includes the required low-trust boundary.",
+              "Sharp final line turns the thesis into an operational test.",
+              "Minor weakness: “operating system” is slightly abstract, and the pricing example could be more specific."
+            ]
+          },
+          "package_gate": {
+            "pass": true,
+            "attempted_candidates": 1,
+            "note_linkedin_novelty_score": 8.5,
+            "note_linkedin_engagement_score": 9.1,
+            "x_status": "dry_run",
+            "x_novelty_score": 8.8,
+            "x_engagement_score": 9.1
+          },
+          "selection_reason": "memory_safe_top_choice",
+          "research_bundle": null
+        }
+      },
+      "novel_idea": {
+        "pass": true,
+        "topic_thesis": "A Crossing should not close until its verdict has been encoded into doctrine and propagated to every affected human and machine workflow.",
+        "angle": "Start with the recurring Monday-morning failure: a team reaches an honest conclusion, but old prompts, permissions, dashboards, and commitments keep enforcing the rejected premise. End with a closing checklist that converts recognition into changed execution.",
+        "hook": "The most dangerous Crossing is the one everyone agrees with and no system obeys.",
+        "argument_summary": "A Crossing can successfully turn private recognition into common knowledge and still change nothing operationally. Once participants return to Run Time, existing doctrine, agent instructions, evaluations, permissions, workflows, metrics, and customer promises continue carrying the old map. AI makes this gap more dangerous because agents can faithfully execute stale doctrine at scale. Therefore, common knowledge is an intermediate result, not the completion criterion. Before closing the rite, the group must state what changed, identify where the revised doctrine will live, stop invalid workflows, update affected agents and commitments, and assign an owner for propagation. Otherwise Ritual Time produces insight while Run Time reproduces the error.",
+        "novelty_score": 9.3,
+        "closest_post_id": "019d1fee-b786-2ca1-17ab-2cf8c0418d59",
+        "novelty_rationale": "The closest prior post argues that a Crossing converts private truth into common knowledge without social rupture. This argument introduces a different endpoint and failure mechanism: common knowledge can exist while the organization continues executing the rejected premise through stale doctrine and automated workflows. The new operator decision is to withhold closure until the verdict has been propagated into the organization’s execution layer. That is not a narrower restatement of protected candor; it is a distinct bridge from Ritual Time to Run Time, made more consequential by machine agency.",
+        "source_grounding": "Grounded in the source material’s Doctrine Reconstitution section, which says recognition remains vapor unless it is encoded into doctrine, agent instructions, evaluations, decision memory, permissions, workflows, and promises. It also draws on the stated loop from Ritual Time to revised doctrine to Run Time, and the warning that a lesson not encoded into doctrine becomes future incoherence.",
+        "gate_version": 2,
+        "model": "gpt-5.6-sol",
+        "history_count": 90,
+        "history_fingerprint": "4e602616e886ae264b6727c11f6ef7d93886980af1b3432c3b17bb9b8ee87f6e",
+        "developed_at": "2026-07-31T03:53:03.126Z"
+      },
+      "skip_reason": null
     }
   ]
 }
