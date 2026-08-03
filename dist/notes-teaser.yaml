@@ -1,6 +1,16 @@
 notes_archive_url: notes/
 recent_notes_empty: false
 recent_notes:
+  - title: Once a product becomes public evidence infrastructure, adding native
+      generative editing is a change in institutional role—not an ordinary
+      feature launch—and must be governed before deployment rather than patched
+      afterward
+    display_date: August 3, 2026
+    url: notes/2026-08-03-once-a-product-becomes-public-evidence-infrastructure-adding-native-generative-editing-is-a-change-in-institutional-role-not-an-ordinary-feature-launch-and-must-be-governed-before-deployment-rather-than-patched-afterward/index.html
+    excerpt: Google treated Google Earth like a canvas. Journalists, human-rights
+      investigators, open-source researchers, and courts treated it like a
+      witness. When Google added native generative editing, then...
+    pillar: Decoder Ring
   - title: Monday morning is where honest conclusions go to die
     display_date: July 31, 2026
     url: notes/2026-07-31-monday-morning-is-where-honest-conclusions-go-to-die/index.html
@@ -13,8 +23,3 @@ recent_notes:
     excerpt: The clearest sign of a failed AI redesign is a manager spending all day
       copying context between machines.
     pillar: Archetype Diagnosis
-  - title: A dashboard can expose waste. It cannot make uncertainty speakable
-    display_date: July 16, 2026
-    url: notes/2026-07-16-a-dashboard-can-expose-waste-it-cannot-make-uncertainty-speakable/index.html
-    excerpt: A dashboard can expose waste. It cannot make uncertainty speakable.
-    pillar: Extracted Insights
