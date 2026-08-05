@@ -1,6 +1,11 @@
 notes_archive_url: notes/
 recent_notes_empty: false
 recent_notes:
+  - title: Bad coffee at a candor session is evidence
+    display_date: August 5, 2026
+    url: notes/2026-08-05-bad-coffee-at-a-candor-session-is-evidence/index.html
+    excerpt: Bad coffee at a candor session is evidence.
+    pillar: Ritual Recipes
   - title: Once a product becomes public evidence infrastructure, adding native
       generative editing is a change in institutional role—not an ordinary
       feature launch—and must be governed before deployment rather than patched
@@ -16,10 +21,3 @@ recent_notes:
     url: notes/2026-07-31-monday-morning-is-where-honest-conclusions-go-to-die/index.html
     excerpt: Monday morning is where honest conclusions go to die.
     pillar: Ritual Recipes
-  - title: In an AI-native organization, people should author doctrine and confront
-      reality—not serve as middleware carrying context between agents
-    display_date: July 29, 2026
-    url: notes/2026-07-29-in-an-ai-native-organization-people-should-author-doctrine-and-confront-reality-not-serve-as-middleware-carrying-context-between-agents/index.html
-    excerpt: The clearest sign of a failed AI redesign is a manager spending all day
-      copying context between machines.
-    pillar: Archetype Diagnosis
