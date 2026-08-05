@@ -545,7 +545,7 @@
       "timezone": "America/Los_Angeles",
       "weekday": "wednesday",
       "slot_type": "baseline",
-      "status": "planned",
+      "status": "published",
       "content_type": "ritual_recipe",
       "pillar": "Ritual Recipes",
       "topic_thesis": "A Crossing should be convened as an expensive gift of protection, not assigned as another meeting, because candor is the reciprocal return.",
@@ -556,10 +556,28 @@
       "source_bundle_id": null,
       "timely_subject": null,
       "draft_ref": null,
-      "winner_id": null,
+      "winner_id": "eee8dd8ce7e6",
       "risk_level": "low",
       "freshness_deadline": null,
-      "publish_payload": null,
+      "publish_payload": {
+        "item_id": "1e748ffe500a",
+        "scheduled_at": "2026-08-05T12:30:00.000Z",
+        "content_type": "ritual_recipe",
+        "pillar": "Ritual Recipes",
+        "topic_thesis": "A Crossing should be convened as an expensive gift of protection, not assigned as another meeting, because candor is the reciprocal return.",
+        "angle": "Turn hospitality from ritual decoration into an operating mechanism: name what the organization is spending, materially host the participants, and make entry into the protected container an explicit act of acceptance.",
+        "hook": "Bad coffee at a candor session is evidence.",
+        "body_text": "Bad coffee at a candor session is evidence.\n\nIt tells people the organization wants expensive truth on cheap terms. Put a Crossing between ordinary meetings, make attendance mandatory, and treat participants like calendar inventory—you’ll get the reciprocal return: minimum viable compliance.\n\nConvene it differently:\n\nName the spend: “We are suspending operations for four hours because your truth is worth that price.”\n\nHost materially: good food, a deliberate room, no operational interruptions.\n\nMark acceptance: ask each person to sign in or recite the preamble before entering the protected container. Attendance becomes acceptance, not capture.\n\nThen the return gift is candor.\n\nDo not use this when junior people still pay for contradicting senior people, or when the team is too depleted to carry social heat. Cool the system and rebuild trust first. Otherwise hospitality becomes decoration around coercion.\n\nIf you want unvarnished truth, make the price you’re paying to protect it impossible to miss.",
+        "footer_text": "Most of what I post here is extracted from The Dionysus Program — a free field manual for leaders whose knowledge is melting faster than their culture can re-bind it. dionysusprogram.com",
+        "footer_index": 9,
+        "footer_divider": "---",
+        "final_text": "Bad coffee at a candor session is evidence.\n\nIt tells people the organization wants expensive truth on cheap terms. Put a Crossing between ordinary meetings, make attendance mandatory, and treat participants like calendar inventory—you’ll get the reciprocal return: minimum viable compliance.\n\nConvene it differently:\n\nName the spend: “We are suspending operations for four hours because your truth is worth that price.”\n\nHost materially: good food, a deliberate room, no operational interruptions.\n\nMark acceptance: ask each person to sign in or recite the preamble before entering the protected container. Attendance becomes acceptance, not capture.\n\nThen the return gift is candor.\n\nDo not use this when junior people still pay for contradicting senior people, or when the team is too depleted to carry social heat. Cool the system and rebuild trust first. Otherwise hospitality becomes decoration around coercion.\n\nIf you want unvarnished truth, make the price you’re paying to protect it impossible to miss.\n\n---\n\nMost of what I post here is extracted from The Dionysus Program — a free field manual for leaders whose knowledge is melting faster than their culture can re-bind it. dionysusprogram.com",
+        "winning_candidate_id": "eee8dd8ce7e6",
+        "winning_score": 9,
+        "source_refs": [],
+        "research_bundle_id": null,
+        "timely_subject": null
+      },
       "preparation": {
         "status": "ready",
         "prepared_at": "2026-08-05T03:38:42.037Z",
@@ -693,7 +711,29 @@
         "history_fingerprint": "a5ba60f2c28ae677b0cdf9719d51f6a5bfd5739bd38419a60412802fc59e0731",
         "developed_at": "2026-08-05T03:35:21.257Z"
       },
-      "skip_reason": null
+      "skip_reason": null,
+      "published_at": "2026-08-05T14:59:01.185Z",
+      "external_post_id": "019fd26f-5b9e-d4e3-aa8a-eababa199da0",
+      "note_slug": "2026-08-05-bad-coffee-at-a-candor-session-is-evidence",
+      "note_source_path": "content/notes/2026-08-05-bad-coffee-at-a-candor-session-is-evidence.md",
+      "x_status": "published",
+      "x_external_post_id": "2085017739731591503",
+      "x_published_at": "2026-08-05T14:59:01.730Z",
+      "x_winning_candidate_id": "b9886378d057",
+      "x_publish_payload": {
+        "source_channel": "linkedin",
+        "source_final_text_hash": "7029e7777a911a53cab55f278fc55f384c4e33bf9baaf1bdc622e9c806417dc8",
+        "source_winning_candidate_id": "eee8dd8ce7e6",
+        "text": "The strongest signal in a candor session may be the coffee.\n\nStale urn, fluorescent room, leaders checking Slack: employees read the spend correctly. The company wants them to risk status and relationships while it risks almost nothing. So they contribute nothing dangerous.",
+        "winning_candidate_id": "b9886378d057",
+        "winning_score": 8.6
+      },
+      "x_skip_reason": null,
+      "delivery": {
+        "status": "published",
+        "attempted_at": "2026-08-05T14:59:01.185Z",
+        "reason": null
+      }
     },
     {
       "id": "ee0064931a9f",
