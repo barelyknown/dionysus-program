@@ -548,18 +548,152 @@
       "status": "planned",
       "content_type": "ritual_recipe",
       "pillar": "Ritual Recipes",
-      "topic_thesis": "The Crossing is the protected threshold where truth can become common knowledge without social rupture.",
+      "topic_thesis": "A Crossing should be convened as an expensive gift of protection, not assigned as another meeting, because candor is the reciprocal return.",
       "seed_topic_thesis": "The Crossing is the protected threshold where truth can become common knowledge without social rupture.",
-      "idea_status": "pending",
-      "angle": "Start with a recurring problem and end with a usable move.",
-      "hook": "If your team keeps repeating the same failure, stop adding process. the crossing is the protected threshold where truth can become common knowledge without social rupture.",
+      "idea_status": "developed",
+      "angle": "Turn hospitality from ritual decoration into an operating mechanism: name what the organization is spending, materially host the participants, and make entry into the protected container an explicit act of acceptance.",
+      "hook": "Never run a high-heat postmortem with bad coffee.",
       "source_bundle_id": null,
       "timely_subject": null,
       "draft_ref": null,
       "winner_id": null,
       "risk_level": "low",
       "freshness_deadline": null,
-      "publish_payload": null
+      "publish_payload": null,
+      "preparation": {
+        "status": "ready",
+        "prepared_at": "2026-08-05T03:38:42.037Z",
+        "history_fingerprint": "a5ba60f2c28ae677b0cdf9719d51f6a5bfd5739bd38419a60412802fc59e0731",
+        "attempts": [
+          {
+            "content_type": "ritual_recipe",
+            "seed_topic_thesis": "The Crossing is the protected threshold where truth can become common knowledge without social rupture.",
+            "status": "prepared",
+            "reason": null,
+            "error": null,
+            "details": null
+          }
+        ],
+        "package": {
+          "version": 1,
+          "prepared_at": "2026-08-05T03:38:42.037Z",
+          "history_fingerprint": "a5ba60f2c28ae677b0cdf9719d51f6a5bfd5739bd38419a60412802fc59e0731",
+          "payload": {
+            "item_id": "1e748ffe500a",
+            "scheduled_at": "2026-08-05T12:30:00.000Z",
+            "content_type": "ritual_recipe",
+            "pillar": "Ritual Recipes",
+            "topic_thesis": "A Crossing should be convened as an expensive gift of protection, not assigned as another meeting, because candor is the reciprocal return.",
+            "angle": "Turn hospitality from ritual decoration into an operating mechanism: name what the organization is spending, materially host the participants, and make entry into the protected container an explicit act of acceptance.",
+            "hook": "Bad coffee at a candor session is evidence.",
+            "body_text": "Bad coffee at a candor session is evidence.\n\nIt tells people the organization wants expensive truth on cheap terms. Put a Crossing between ordinary meetings, make attendance mandatory, and treat participants like calendar inventory—you’ll get the reciprocal return: minimum viable compliance.\n\nConvene it differently:\n\nName the spend: “We are suspending operations for four hours because your truth is worth that price.”\n\nHost materially: good food, a deliberate room, no operational interruptions.\n\nMark acceptance: ask each person to sign in or recite the preamble before entering the protected container. Attendance becomes acceptance, not capture.\n\nThen the return gift is candor.\n\nDo not use this when junior people still pay for contradicting senior people, or when the team is too depleted to carry social heat. Cool the system and rebuild trust first. Otherwise hospitality becomes decoration around coercion.\n\nIf you want unvarnished truth, make the price you’re paying to protect it impossible to miss.",
+            "footer_text": "Most of what I post here is extracted from The Dionysus Program — a free field manual for leaders whose knowledge is melting faster than their culture can re-bind it. dionysusprogram.com",
+            "footer_index": 9,
+            "footer_divider": "---",
+            "final_text": "Bad coffee at a candor session is evidence.\n\nIt tells people the organization wants expensive truth on cheap terms. Put a Crossing between ordinary meetings, make attendance mandatory, and treat participants like calendar inventory—you’ll get the reciprocal return: minimum viable compliance.\n\nConvene it differently:\n\nName the spend: “We are suspending operations for four hours because your truth is worth that price.”\n\nHost materially: good food, a deliberate room, no operational interruptions.\n\nMark acceptance: ask each person to sign in or recite the preamble before entering the protected container. Attendance becomes acceptance, not capture.\n\nThen the return gift is candor.\n\nDo not use this when junior people still pay for contradicting senior people, or when the team is too depleted to carry social heat. Cool the system and rebuild trust first. Otherwise hospitality becomes decoration around coercion.\n\nIf you want unvarnished truth, make the price you’re paying to protect it impossible to miss.\n\n---\n\nMost of what I post here is extracted from The Dionysus Program — a free field manual for leaders whose knowledge is melting faster than their culture can re-bind it. dionysusprogram.com",
+            "winning_candidate_id": "eee8dd8ce7e6",
+            "winning_score": 9,
+            "source_refs": [],
+            "research_bundle_id": null,
+            "timely_subject": null
+          },
+          "prepared_note": {
+            "body": "Bad coffee at a candor session is evidence.\n\nIt tells people the organization wants expensive truth on cheap terms. Put a Crossing between ordinary meetings, make attendance mandatory, and treat participants like calendar inventory—you’ll get the reciprocal return: minimum viable compliance.\n\nConvene it differently:\n\nName the spend: “We are suspending operations for four hours because your truth is worth that price.”\n\nHost materially: good food, a deliberate room, no operational interruptions.\n\nMark acceptance: ask each person to sign in or recite the preamble before entering the protected container. Attendance becomes acceptance, not capture.\n\nThen the return gift is candor.\n\nDo not use this when junior people still pay for contradicting senior people, or when the team is too depleted to carry social heat. Cool the system and rebuild trust first. Otherwise hospitality becomes decoration around coercion.\n\nIf you want unvarnished truth, make the price you’re paying to protect it impossible to miss.",
+            "sourceMode": "canonical_package"
+          },
+          "x_preflight": {
+            "status": "dry_run",
+            "reason": null,
+            "payload": {
+              "source_channel": "linkedin",
+              "source_final_text_hash": "7029e7777a911a53cab55f278fc55f384c4e33bf9baaf1bdc622e9c806417dc8",
+              "source_winning_candidate_id": "eee8dd8ce7e6",
+              "text": "The strongest signal in a candor session may be the coffee.\n\nStale urn, fluorescent room, leaders checking Slack: employees read the spend correctly. The company wants them to risk status and relationships while it risks almost nothing. So they contribute nothing dangerous.",
+              "winning_candidate_id": "b9886378d057",
+              "winning_score": 8.6
+            },
+            "winnerCandidate": {
+              "id": "b9886378d057",
+              "writer_model": "gpt-5.6-sol",
+              "prompt_variant": "vivid_tell",
+              "post_text": "The strongest signal in a candor session may be the coffee.\n\nStale urn, fluorescent room, leaders checking Slack: employees read the spend correctly. The company wants them to risk status and relationships while it risks almost nothing. So they contribute nothing dangerous.",
+              "self_notes": "Uses mundane room details as evidence of leadership’s real commitment."
+            },
+            "winnerScore": {
+              "id": "2f4fad9d09c1",
+              "candidate_id": "b9886378d057",
+              "clarity_score": 9.2,
+              "compression_score": 9,
+              "diagnostic_score": 8.8,
+              "anti_cheese_score": 8.8,
+              "x_fit_score": 9.2,
+              "novelty_score": 7.7,
+              "engagement_score": 8.9,
+              "overall_score": 8.6,
+              "pass": true,
+              "pass_fail_reasons": [
+                "The coffee, fluorescent room, and Slack checks provide a fresh, concrete tell.",
+                "The status-risk diagnosis overlaps familiar candor territory, but the asymmetric-spend frame is distinct enough to pass."
+              ]
+            }
+          },
+          "winner_candidate": {
+            "id": "eee8dd8ce7e6",
+            "writer_model": "gpt-5.6-sol",
+            "prompt_variant": "diagnosis_forward",
+            "post_text": "Bad coffee at a candor session is evidence.\n\nIt tells people the organization wants expensive truth on cheap terms. Put a Crossing between ordinary meetings, make attendance mandatory, and treat participants like calendar inventory—you’ll get the reciprocal return: minimum viable compliance.\n\nConvene it differently:\n\nName the spend: “We are suspending operations for four hours because your truth is worth that price.”\n\nHost materially: good food, a deliberate room, no operational interruptions.\n\nMark acceptance: ask each person to sign in or recite the preamble before entering the protected container. Attendance becomes acceptance, not capture.\n\nThen the return gift is candor.\n\nDo not use this when junior people still pay for contradicting senior people, or when the team is too depleted to carry social heat. Cool the system and rebuild trust first. Otherwise hospitality becomes decoration around coercion.\n\nIf you want unvarnished truth, make the price you’re paying to protect it impossible to miss.",
+            "self_notes": "Live candidate in diagnosis_forward mode."
+          },
+          "winner_score": {
+            "id": "91110d069987",
+            "candidate_id": "eee8dd8ce7e6",
+            "voice_score": 8.9,
+            "novelty_score": 8.5,
+            "engagement_score": 9,
+            "clarity_score": 9.1,
+            "risk_score": 8.7,
+            "citation_score": 9.5,
+            "linkedin_native_score": 9.1,
+            "overall_score": 9,
+            "pass": true,
+            "pass_fail_reasons": [
+              "The opener and “expensive truth on cheap terms” distinction create strong substantive tension immediately.",
+              "Sustains attention through a concrete organizational tell, a human consequence, and three usable operating moves.",
+              "The boundary is unusually strong: “hospitality becomes decoration around coercion” names the central misuse clearly.",
+              "The closing implication is specific and memorable without repeating the thesis verbatim.",
+              "Minor weakness: signing in or reciting a preamble cannot by itself turn mandatory attendance into genuine acceptance, so “acceptance, not capture” overclaims the mechanism."
+            ]
+          },
+          "package_gate": {
+            "pass": true,
+            "attempted_candidates": 1,
+            "note_linkedin_novelty_score": 8.5,
+            "note_linkedin_engagement_score": 9,
+            "x_status": "dry_run",
+            "x_novelty_score": 7.7,
+            "x_engagement_score": 8.9
+          },
+          "selection_reason": "memory_safe_top_choice",
+          "research_bundle": null
+        }
+      },
+      "novel_idea": {
+        "pass": true,
+        "topic_thesis": "A Crossing should be convened as an expensive gift of protection, not assigned as another meeting, because candor is the reciprocal return.",
+        "angle": "Turn hospitality from ritual decoration into an operating mechanism: name what the organization is spending, materially host the participants, and make entry into the protected container an explicit act of acceptance.",
+        "hook": "Never run a high-heat postmortem with bad coffee.",
+        "argument_summary": "Ordinary business time is transactional, so participants rationally minimize effort and personal exposure. A leader can change that exchange by suspending operations, naming the cost, providing material hospitality and credible protection, and asking participants to actively accept the container. Under the source’s Mauss Dynamic, an accepted gift creates an obligation to reciprocate; in a Crossing, the appropriate return is honest, unvarnished criticism. The operator decision is therefore to budget and visibly spend protection, attention, time, food, and setting—not merely write a stronger agenda. This cannot substitute for trust or ritual readiness in a punitive team; it changes the current only when the promised protection is real.",
+        "novelty_score": 9.2,
+        "closest_post_id": "019d4e48-3b93-65d7-7b03-45e7381bb575",
+        "novelty_rationale": "The closest prior post argues that ritual gains authority by feeling received rather than recently invented, using Durkheim’s mechanism of social facts and otherness. This argument uses a different causal mechanism: Maussian gift reciprocity. Its operator move is also different—make leadership’s expenditure of protection and hospitality visible so participants return the gift as candor, rather than primarily borrowing an older form or making rules capable of overruling leadership.",
+        "source_grounding": "The source’s “Mauss Dynamic: The Rite as Gift” says a Crossing should feel like an extravagant expenditure of protection, safety, and attention. It prescribes naming the cost, using hospitality such as food, setting, and aesthetics as material proof of the gift, and making acceptance explicit. It identifies candor as the reciprocal return while warning that a rite experienced as an assignment produces compliance instead.",
+        "gate_version": 2,
+        "model": "gpt-5.6-sol",
+        "history_count": 92,
+        "history_fingerprint": "a5ba60f2c28ae677b0cdf9719d51f6a5bfd5739bd38419a60412802fc59e0731",
+        "developed_at": "2026-08-05T03:35:21.257Z"
+      },
+      "skip_reason": null
     },
     {
       "id": "ee0064931a9f",
