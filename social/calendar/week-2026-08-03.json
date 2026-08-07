@@ -746,18 +746,152 @@
       "status": "planned",
       "content_type": "archetype_diagnosis",
       "pillar": "Archetype Diagnosis",
-      "topic_thesis": "Severability and reversibility make criticism cheaper and therefore more honest.",
+      "topic_thesis": "AI makes coherent wrongness more dangerous than ordinary misalignment because a false doctrine can be executed faithfully at machine speed.",
       "seed_topic_thesis": "Severability and reversibility make criticism cheaper and therefore more honest.",
-      "idea_status": "pending",
-      "angle": "Make the pattern recognizable fast and show what drives it.",
-      "hook": "You can tell a team is drifting into theater when severability and reversibility make criticism cheaper and therefore more honest.",
+      "idea_status": "developed",
+      "angle": "Diagnose the organization whose agents, teams, evaluations, and workflows are consistently aligned—but whose doctrine is insulated from consequence-boundary feedback. The operator move is to audit reality contact, not add more alignment.",
+      "hook": "The scariest AI organization is not misaligned. It is perfectly aligned around a false premise.",
       "source_bundle_id": null,
       "timely_subject": null,
       "draft_ref": null,
       "winner_id": null,
       "risk_level": "low",
       "freshness_deadline": null,
-      "publish_payload": null
+      "publish_payload": null,
+      "preparation": {
+        "status": "ready",
+        "prepared_at": "2026-08-07T03:19:23.661Z",
+        "history_fingerprint": "79a2b7fcb862388b9288733806978cedbfd310312ea6c4e491cf3fd1f253a4fd",
+        "attempts": [
+          {
+            "content_type": "archetype_diagnosis",
+            "seed_topic_thesis": "Severability and reversibility make criticism cheaper and therefore more honest.",
+            "status": "prepared",
+            "reason": null,
+            "error": null,
+            "details": null
+          }
+        ],
+        "package": {
+          "version": 1,
+          "prepared_at": "2026-08-07T03:19:23.661Z",
+          "history_fingerprint": "79a2b7fcb862388b9288733806978cedbfd310312ea6c4e491cf3fd1f253a4fd",
+          "payload": {
+            "item_id": "ee0064931a9f",
+            "scheduled_at": "2026-08-07T12:30:00.000Z",
+            "content_type": "archetype_diagnosis",
+            "pillar": "Archetype Diagnosis",
+            "topic_thesis": "AI makes coherent wrongness more dangerous than ordinary misalignment because a false doctrine can be executed faithfully at machine speed.",
+            "angle": "Diagnose the organization whose agents, teams, evaluations, and workflows are consistently aligned—but whose doctrine is insulated from consequence-boundary feedback. The operator move is to audit reality contact, not add more alignment.",
+            "hook": "The most dangerous AI organization may look perfectly aligned.",
+            "body_text": "The most dangerous AI organization may look perfectly aligned.\n\nCall it Coherent Wrongness.\n\nIts agents cite the same doctrine. Teams make the same tradeoffs. Evaluations reward fidelity. Dashboards stay green because they measure compliance with the map, not contact with the terrain.\n\nWhat drives it is Actorless Execution: doctrine moves straight into action, but contradiction from customers, regulators, physical operations, or the market never returns with enough force to revise it. The system becomes excellent at obeying a false premise.\n\nOrdinary misalignment creates friction and visible disagreement. Coherent Wrongness removes both. AI then turns one mistaken belief into thousands of consistent decisions before consequence reaches leadership.\n\nDo not add another alignment layer. Trace one decision from doctrine to the boundary of consequence and back. If reality cannot stop the workflow and change the doctrine, the organization is a hallucination with a budget—acting at machine speed.",
+            "footer_text": "This thinking comes from The Dionysus Program — free at dionysusprogram.com. It is a book about how to move fast by breaking things and then mend what you break into something stronger.",
+            "footer_index": 5,
+            "footer_divider": "---",
+            "final_text": "The most dangerous AI organization may look perfectly aligned.\n\nCall it Coherent Wrongness.\n\nIts agents cite the same doctrine. Teams make the same tradeoffs. Evaluations reward fidelity. Dashboards stay green because they measure compliance with the map, not contact with the terrain.\n\nWhat drives it is Actorless Execution: doctrine moves straight into action, but contradiction from customers, regulators, physical operations, or the market never returns with enough force to revise it. The system becomes excellent at obeying a false premise.\n\nOrdinary misalignment creates friction and visible disagreement. Coherent Wrongness removes both. AI then turns one mistaken belief into thousands of consistent decisions before consequence reaches leadership.\n\nDo not add another alignment layer. Trace one decision from doctrine to the boundary of consequence and back. If reality cannot stop the workflow and change the doctrine, the organization is a hallucination with a budget—acting at machine speed.\n\n---\n\nThis thinking comes from The Dionysus Program — free at dionysusprogram.com. It is a book about how to move fast by breaking things and then mend what you break into something stronger.",
+            "winning_candidate_id": "330807e2559f",
+            "winning_score": 8.5,
+            "source_refs": [],
+            "research_bundle_id": null,
+            "timely_subject": null
+          },
+          "prepared_note": {
+            "body": "The most dangerous AI organization may look perfectly aligned.\n\nCall it Coherent Wrongness.\n\nIts agents cite the same doctrine. Teams make the same tradeoffs. Evaluations reward fidelity. Dashboards stay green because they measure compliance with the map, not contact with the terrain.\n\nWhat drives it is Actorless Execution: doctrine moves straight into action, but contradiction from customers, regulators, physical operations, or the market never returns with enough force to revise it. The system becomes excellent at obeying a false premise.\n\nOrdinary misalignment creates friction and visible disagreement. Coherent Wrongness removes both. AI then turns one mistaken belief into thousands of consistent decisions before consequence reaches leadership.\n\nDo not add another alignment layer. Trace one decision from doctrine to the boundary of consequence and back. If reality cannot stop the workflow and change the doctrine, the organization is a hallucination with a budget—acting at machine speed.",
+            "sourceMode": "canonical_package"
+          },
+          "x_preflight": {
+            "status": "dry_run",
+            "reason": null,
+            "payload": {
+              "source_channel": "linkedin",
+              "source_final_text_hash": "3803eb5e43d37877b056d8abb75f1b215ea3dedb2e85ce01d5971805afe8a06a",
+              "source_winning_candidate_id": "330807e2559f",
+              "text": "Leadership blamed late shipments on warehouse discipline. Agents tightened pick targets, shortened breaks, and flagged exceptions. Injuries rose; delays didn’t.\n\nExecution accelerated because the original diagnosis never had to face the floor.",
+              "winning_candidate_id": "b708f90f6970",
+              "winning_score": 9.3
+            },
+            "winnerCandidate": {
+              "id": "b708f90f6970",
+              "writer_model": "gpt-5.6-sol",
+              "prompt_variant": "compressed_story",
+              "post_text": "Leadership blamed late shipments on warehouse discipline. Agents tightened pick targets, shortened breaks, and flagged exceptions. Injuries rose; delays didn’t.\n\nExecution accelerated because the original diagnosis never had to face the floor.",
+              "self_notes": "Compresses premise, automated action, and physical consequence into one operational story."
+            },
+            "winnerScore": {
+              "id": "e43fb00c9494",
+              "candidate_id": "b708f90f6970",
+              "clarity_score": 9.3,
+              "compression_score": 9.3,
+              "diagnostic_score": 9.4,
+              "anti_cheese_score": 9.5,
+              "x_fit_score": 9.4,
+              "novelty_score": 9,
+              "engagement_score": 9.4,
+              "overall_score": 9.3,
+              "pass": true,
+              "pass_fail_reasons": [
+                "Best candidate: a fresh operational scene with physical stakes, causal progression, and no wasted language.",
+                "The unchanged diagnosis explains both the acceleration and the harm; the landing is vivid without overplaying itself."
+              ]
+            }
+          },
+          "winner_candidate": {
+            "id": "330807e2559f",
+            "writer_model": "gpt-5.6-sol",
+            "prompt_variant": "diagnosis_forward",
+            "post_text": "The most dangerous AI organization may look perfectly aligned.\n\nCall it Coherent Wrongness.\n\nIts agents cite the same doctrine. Teams make the same tradeoffs. Evaluations reward fidelity. Dashboards stay green because they measure compliance with the map, not contact with the terrain.\n\nWhat drives it is Actorless Execution: doctrine moves straight into action, but contradiction from customers, regulators, physical operations, or the market never returns with enough force to revise it. The system becomes excellent at obeying a false premise.\n\nOrdinary misalignment creates friction and visible disagreement. Coherent Wrongness removes both. AI then turns one mistaken belief into thousands of consistent decisions before consequence reaches leadership.\n\nDo not add another alignment layer. Trace one decision from doctrine to the boundary of consequence and back. If reality cannot stop the workflow and change the doctrine, the organization is a hallucination with a budget—acting at machine speed.",
+            "self_notes": "Live candidate in diagnosis_forward mode."
+          },
+          "winner_score": {
+            "id": "e94b04e10933",
+            "candidate_id": "330807e2559f",
+            "voice_score": 8.6,
+            "novelty_score": 8.4,
+            "engagement_score": 8.3,
+            "clarity_score": 8.5,
+            "risk_score": 9.1,
+            "citation_score": 9,
+            "linkedin_native_score": 8.7,
+            "overall_score": 8.5,
+            "pass": true,
+            "pass_fail_reasons": [
+              "Clearly names and diagnoses Coherent Wrongness without duplicating a recent published example.",
+              "Strong observable signs: shared doctrine, consistent tradeoffs, fidelity-based evaluations, and green dashboards.",
+              "Explains the driver and human consequence cleanly, then ends with a concrete audit move.",
+              "Slightly jargon-heavy because it introduces Actorless Execution inside a second named archetype, but the distinction remains understandable and source-grounded.",
+              "Complies with length and no-emoji, no-hashtag, no-link policies."
+            ]
+          },
+          "package_gate": {
+            "pass": true,
+            "attempted_candidates": 1,
+            "note_linkedin_novelty_score": 8.4,
+            "note_linkedin_engagement_score": 8.3,
+            "x_status": "dry_run",
+            "x_novelty_score": 9,
+            "x_engagement_score": 9.4
+          },
+          "selection_reason": "memory_safe_top_choice",
+          "research_bundle": null
+        }
+      },
+      "novel_idea": {
+        "pass": true,
+        "topic_thesis": "AI makes coherent wrongness more dangerous than ordinary misalignment because a false doctrine can be executed faithfully at machine speed.",
+        "angle": "Diagnose the organization whose agents, teams, evaluations, and workflows are consistently aligned—but whose doctrine is insulated from consequence-boundary feedback. The operator move is to audit reality contact, not add more alignment.",
+        "hook": "The scariest AI organization is not misaligned. It is perfectly aligned around a false premise.",
+        "argument_summary": "Coherence preserves intent across distributed agency; it does not prove that the underlying intent or doctrine is true. When doctrine is false or stale, greater fidelity lets human and machine agents propagate the same error faster, producing polished consistency rather than visible drift. Internal evaluations may remain green because they test compliance with the map, not whether the map still matches reality. The corrective mechanism is live Actor feedback: people or systems at the boundary of consequence must be able to stop or flag execution, return contradictions to doctrine owners, and trigger Ritual Time when reality falsifies the current premise. Before increasing agency or alignment, operators should verify that this feedback path exists.",
+        "novelty_score": 9,
+        "closest_post_id": "019e9803-db0b-f49d-91d7-94f2d51dac7e",
+        "novelty_rationale": "The closest prior post argues that suppressing criticism creates doctrinal drift, shadow doctrine, and many private maps under one logo. This argument diagnoses the opposite failure quadrant: there may be no drift at all. Everyone can follow one official map faithfully, yet the map itself can be false. The new causal mechanism is excessive fidelity to invalid doctrine, and the new operator decision is to strengthen boundary-of-consequence feedback before strengthening alignment or agency.",
+        "source_grounding": "The source explicitly distinguishes coherence from correctness and names the high-coherence, invalid-knowledge state “Coherent Wrongness.” It states that a false map becomes more dangerous when an organization is excellent at following it. The Auteurs, Agents, Actors framework defines Actors as the boundary where doctrine meets reality and warns that without them, an organization can remain coherent but false. The Minimum Viable Coherence Program requires Actors to report contradictions, hold stop-or-flag authority, and route falsified doctrine into Ritual Time for revision.",
+        "gate_version": 2,
+        "model": "gpt-5.6-sol",
+        "history_count": 93,
+        "history_fingerprint": "79a2b7fcb862388b9288733806978cedbfd310312ea6c4e491cf3fd1f253a4fd",
+        "developed_at": "2026-08-07T03:17:23.685Z"
+      },
+      "skip_reason": null
     }
   ]
 }
