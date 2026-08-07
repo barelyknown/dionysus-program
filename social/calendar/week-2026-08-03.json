@@ -743,7 +743,7 @@
       "timezone": "America/Los_Angeles",
       "weekday": "friday",
       "slot_type": "baseline",
-      "status": "planned",
+      "status": "published",
       "content_type": "archetype_diagnosis",
       "pillar": "Archetype Diagnosis",
       "topic_thesis": "AI makes coherent wrongness more dangerous than ordinary misalignment because a false doctrine can be executed faithfully at machine speed.",
@@ -754,10 +754,28 @@
       "source_bundle_id": null,
       "timely_subject": null,
       "draft_ref": null,
-      "winner_id": null,
+      "winner_id": "330807e2559f",
       "risk_level": "low",
       "freshness_deadline": null,
-      "publish_payload": null,
+      "publish_payload": {
+        "item_id": "ee0064931a9f",
+        "scheduled_at": "2026-08-07T12:30:00.000Z",
+        "content_type": "archetype_diagnosis",
+        "pillar": "Archetype Diagnosis",
+        "topic_thesis": "AI makes coherent wrongness more dangerous than ordinary misalignment because a false doctrine can be executed faithfully at machine speed.",
+        "angle": "Diagnose the organization whose agents, teams, evaluations, and workflows are consistently aligned—but whose doctrine is insulated from consequence-boundary feedback. The operator move is to audit reality contact, not add more alignment.",
+        "hook": "The most dangerous AI organization may look perfectly aligned.",
+        "body_text": "The most dangerous AI organization may look perfectly aligned.\n\nCall it Coherent Wrongness.\n\nIts agents cite the same doctrine. Teams make the same tradeoffs. Evaluations reward fidelity. Dashboards stay green because they measure compliance with the map, not contact with the terrain.\n\nWhat drives it is Actorless Execution: doctrine moves straight into action, but contradiction from customers, regulators, physical operations, or the market never returns with enough force to revise it. The system becomes excellent at obeying a false premise.\n\nOrdinary misalignment creates friction and visible disagreement. Coherent Wrongness removes both. AI then turns one mistaken belief into thousands of consistent decisions before consequence reaches leadership.\n\nDo not add another alignment layer. Trace one decision from doctrine to the boundary of consequence and back. If reality cannot stop the workflow and change the doctrine, the organization is a hallucination with a budget—acting at machine speed.",
+        "footer_text": "This thinking comes from The Dionysus Program — free at dionysusprogram.com. It is a book about how to move fast by breaking things and then mend what you break into something stronger.",
+        "footer_index": 5,
+        "footer_divider": "---",
+        "final_text": "The most dangerous AI organization may look perfectly aligned.\n\nCall it Coherent Wrongness.\n\nIts agents cite the same doctrine. Teams make the same tradeoffs. Evaluations reward fidelity. Dashboards stay green because they measure compliance with the map, not contact with the terrain.\n\nWhat drives it is Actorless Execution: doctrine moves straight into action, but contradiction from customers, regulators, physical operations, or the market never returns with enough force to revise it. The system becomes excellent at obeying a false premise.\n\nOrdinary misalignment creates friction and visible disagreement. Coherent Wrongness removes both. AI then turns one mistaken belief into thousands of consistent decisions before consequence reaches leadership.\n\nDo not add another alignment layer. Trace one decision from doctrine to the boundary of consequence and back. If reality cannot stop the workflow and change the doctrine, the organization is a hallucination with a budget—acting at machine speed.\n\n---\n\nThis thinking comes from The Dionysus Program — free at dionysusprogram.com. It is a book about how to move fast by breaking things and then mend what you break into something stronger.",
+        "winning_candidate_id": "330807e2559f",
+        "winning_score": 8.5,
+        "source_refs": [],
+        "research_bundle_id": null,
+        "timely_subject": null
+      },
       "preparation": {
         "status": "ready",
         "prepared_at": "2026-08-07T03:19:23.661Z",
@@ -891,7 +909,29 @@
         "history_fingerprint": "79a2b7fcb862388b9288733806978cedbfd310312ea6c4e491cf3fd1f253a4fd",
         "developed_at": "2026-08-07T03:17:23.685Z"
       },
-      "skip_reason": null
+      "skip_reason": null,
+      "published_at": "2026-08-07T13:54:23.760Z",
+      "external_post_id": "019fdc80-e965-6767-99db-1cc01935d3ab",
+      "note_slug": "2026-08-07-the-most-dangerous-ai-organization-may-look-perfectly-aligned",
+      "note_source_path": "content/notes/2026-08-07-the-most-dangerous-ai-organization-may-look-perfectly-aligned.md",
+      "x_status": "published",
+      "x_external_post_id": "2085726252334481432",
+      "x_published_at": "2026-08-07T13:54:24.274Z",
+      "x_winning_candidate_id": "b708f90f6970",
+      "x_publish_payload": {
+        "source_channel": "linkedin",
+        "source_final_text_hash": "3803eb5e43d37877b056d8abb75f1b215ea3dedb2e85ce01d5971805afe8a06a",
+        "source_winning_candidate_id": "330807e2559f",
+        "text": "Leadership blamed late shipments on warehouse discipline. Agents tightened pick targets, shortened breaks, and flagged exceptions. Injuries rose; delays didn’t.\n\nExecution accelerated because the original diagnosis never had to face the floor.",
+        "winning_candidate_id": "b708f90f6970",
+        "winning_score": 9.3
+      },
+      "x_skip_reason": null,
+      "delivery": {
+        "status": "published",
+        "attempted_at": "2026-08-07T13:54:23.760Z",
+        "reason": null
+      }
     }
   ]
 }
