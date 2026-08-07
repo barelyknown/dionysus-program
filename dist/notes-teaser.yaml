@@ -1,6 +1,11 @@
 notes_archive_url: notes/
 recent_notes_empty: false
 recent_notes:
+  - title: The most dangerous AI organization may look perfectly aligned
+    display_date: August 7, 2026
+    url: notes/2026-08-07-the-most-dangerous-ai-organization-may-look-perfectly-aligned/index.html
+    excerpt: The most dangerous AI organization may look perfectly aligned.
+    pillar: Archetype Diagnosis
   - title: Bad coffee at a candor session is evidence
     display_date: August 5, 2026
     url: notes/2026-08-05-bad-coffee-at-a-candor-session-is-evidence/index.html
@@ -16,8 +21,3 @@ recent_notes:
       investigators, open-source researchers, and courts treated it like a
       witness. When Google added native generative editing, then...
     pillar: Decoder Ring
-  - title: Monday morning is where honest conclusions go to die
-    display_date: July 31, 2026
-    url: notes/2026-07-31-monday-morning-is-where-honest-conclusions-go-to-die/index.html
-    excerpt: Monday morning is where honest conclusions go to die.
-    pillar: Ritual Recipes
