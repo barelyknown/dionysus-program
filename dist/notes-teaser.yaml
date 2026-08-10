@@ -1,6 +1,13 @@
 notes_archive_url: notes/
 recent_notes_empty: false
 recent_notes:
+  - title: Agentic Slop begins when organizations count plausible AI artifacts as
+      throughput before those artifacts reach a boundary of consequence
+    display_date: August 10, 2026
+    url: notes/2026-08-10-agentic-slop-begins-when-organizations-count-plausible-ai-artifacts-as-throughput-before-those-artifacts-reach-a-boundary-of-consequence/index.html
+    excerpt: The pull request queue triples. Review capacity does not. Someone calls
+      this productivity.
+    pillar: Archetype Diagnosis
   - title: The most dangerous AI organization may look perfectly aligned
     display_date: August 7, 2026
     url: notes/2026-08-07-the-most-dangerous-ai-organization-may-look-perfectly-aligned/index.html
@@ -11,13 +18,3 @@ recent_notes:
     url: notes/2026-08-05-bad-coffee-at-a-candor-session-is-evidence/index.html
     excerpt: Bad coffee at a candor session is evidence.
     pillar: Ritual Recipes
-  - title: Once a product becomes public evidence infrastructure, adding native
-      generative editing is a change in institutional role—not an ordinary
-      feature launch—and must be governed before deployment rather than patched
-      afterward
-    display_date: August 3, 2026
-    url: notes/2026-08-03-once-a-product-becomes-public-evidence-infrastructure-adding-native-generative-editing-is-a-change-in-institutional-role-not-an-ordinary-feature-launch-and-must-be-governed-before-deployment-rather-than-patched-afterward/index.html
-    excerpt: Google treated Google Earth like a canvas. Journalists, human-rights
-      investigators, open-source researchers, and courts treated it like a
-      witness. When Google added native generative editing, then...
-    pillar: Decoder Ring
