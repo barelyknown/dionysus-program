@@ -11,7 +11,7 @@
       "timezone": "America/Los_Angeles",
       "weekday": "monday",
       "slot_type": "baseline",
-      "status": "planned",
+      "status": "published",
       "content_type": "archetype_diagnosis",
       "pillar": "Archetype Diagnosis",
       "topic_thesis": "Agentic Slop begins when organizations count plausible AI artifacts as throughput before those artifacts reach a boundary of consequence.",
@@ -22,10 +22,28 @@
       "source_bundle_id": null,
       "timely_subject": null,
       "draft_ref": null,
-      "winner_id": null,
+      "winner_id": "07a16f1e1e2b",
       "risk_level": "low",
       "freshness_deadline": null,
-      "publish_payload": null,
+      "publish_payload": {
+        "item_id": "33b4cc1cc950",
+        "scheduled_at": "2026-08-10T12:30:00.000Z",
+        "content_type": "archetype_diagnosis",
+        "pillar": "Archetype Diagnosis",
+        "topic_thesis": "Agentic Slop begins when organizations count plausible AI artifacts as throughput before those artifacts reach a boundary of consequence.",
+        "angle": "Diagnose the organization where agents generate drafts, analyses, tickets, campaigns, and code faster than anyone can test, own, reject, or delete them. The failure is not poor model quality; it is mistaking work in process for value. The operator move is to cap agency work in process and require doctrine, ownership, kill criteria, and reality feedback before increasing generation.",
+        "hook": "The pull request queue triples. Review capacity does not. Someone calls this productivity.",
+        "body_text": "The pull request queue triples. Review capacity does not. Someone calls this productivity.\n\nThis is Agentic Slop: agents generate plausible work faster than the organization can test, own, reject, or delete it. The backlog looks like momentum. In reality, it is inventory piling up before a boundary of consequence.\n\nThe models are not the problem. The measurement is. Drafts, analyses, tickets, campaigns, and code are counted as throughput before they change a customer outcome, a production system, or a real decision.\n\nCap agency work in process. Require current doctrine, a named owner, kill criteria, and reality feedback before increasing generation.\n\nOtherwise the company becomes a warehouse for plausible artifacts—and its best operators become full-time janitors.",
+        "footer_text": "These posts are slices. The full program — the math, the rituals, the failure modes, the archetypes — is free at dionysusprogram.com.",
+        "footer_index": 14,
+        "footer_divider": "---",
+        "final_text": "The pull request queue triples. Review capacity does not. Someone calls this productivity.\n\nThis is Agentic Slop: agents generate plausible work faster than the organization can test, own, reject, or delete it. The backlog looks like momentum. In reality, it is inventory piling up before a boundary of consequence.\n\nThe models are not the problem. The measurement is. Drafts, analyses, tickets, campaigns, and code are counted as throughput before they change a customer outcome, a production system, or a real decision.\n\nCap agency work in process. Require current doctrine, a named owner, kill criteria, and reality feedback before increasing generation.\n\nOtherwise the company becomes a warehouse for plausible artifacts—and its best operators become full-time janitors.\n\n---\n\nThese posts are slices. The full program — the math, the rituals, the failure modes, the archetypes — is free at dionysusprogram.com.",
+        "winning_candidate_id": "07a16f1e1e2b",
+        "winning_score": 9.2,
+        "source_refs": [],
+        "research_bundle_id": null,
+        "timely_subject": null
+      },
       "novel_idea": {
         "pass": true,
         "topic_thesis": "Agentic Slop begins when organizations count plausible AI artifacts as throughput before those artifacts reach a boundary of consequence.",
@@ -177,7 +195,29 @@
         "from_content_type": "decoder_ring",
         "from_seed_topic_thesis": "Epimetabolic Rate is the only scoreboard that really matters in periods of fast change."
       },
-      "skip_reason": null
+      "skip_reason": null,
+      "published_at": "2026-08-10T14:01:09.407Z",
+      "external_post_id": "019febfa-2ded-9f44-e426-007c121abddb",
+      "note_slug": "2026-08-10-agentic-slop-begins-when-organizations-count-plausible-ai-artifacts-as-throughput-before-those-artifacts-reach-a-boundary-of-consequence",
+      "note_source_path": "content/notes/2026-08-10-agentic-slop-begins-when-organizations-count-plausible-ai-artifacts-as-throughput-before-those-artifacts-reach-a-boundary-of-consequence.md",
+      "x_status": "published",
+      "x_external_post_id": "2086815116671193306",
+      "x_published_at": "2026-08-10T14:01:09.758Z",
+      "x_winning_candidate_id": "85ab99fa018d",
+      "x_publish_payload": {
+        "source_channel": "linkedin",
+        "source_final_text_hash": "7a69c59e64df1e50a7fc42ff9cfd477d40518a7184ccd71806f68f427f81dd54",
+        "source_winning_candidate_id": "07a16f1e1e2b",
+        "text": "“Who owns this?”\n\nSilence. The campaign brief is polished, the analysis is plausible, and both were generated overnight. By noon, four people are checking assumptions no one chose.\n\nThe missing input was accountable judgment.",
+        "winning_candidate_id": "85ab99fa018d",
+        "winning_score": 8.4
+      },
+      "x_skip_reason": null,
+      "delivery": {
+        "status": "published",
+        "attempted_at": "2026-08-10T14:01:09.407Z",
+        "reason": null
+      }
     },
     {
       "id": "a63c2fb8ddaf",
