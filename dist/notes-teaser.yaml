@@ -1,6 +1,13 @@
 notes_archive_url: notes/
 recent_notes_empty: false
 recent_notes:
+  - title: Autonomous agency should not receive broader permissions until humans and
+      machines independently pass the same Context Checksum
+    display_date: August 12, 2026
+    url: notes/2026-08-12-autonomous-agency-should-not-receive-broader-permissions-until-humans-and-machines-independently-pass-the-same-context-checksum/index.html
+    excerpt: The most dangerous agent is one that passes every task test while
+      acting from a different strategy.
+    pillar: Ritual Recipes
   - title: Agentic Slop begins when organizations count plausible AI artifacts as
       throughput before those artifacts reach a boundary of consequence
     display_date: August 10, 2026
@@ -13,8 +20,3 @@ recent_notes:
     url: notes/2026-08-07-the-most-dangerous-ai-organization-may-look-perfectly-aligned/index.html
     excerpt: The most dangerous AI organization may look perfectly aligned.
     pillar: Archetype Diagnosis
-  - title: Bad coffee at a candor session is evidence
-    display_date: August 5, 2026
-    url: notes/2026-08-05-bad-coffee-at-a-candor-session-is-evidence/index.html
-    excerpt: Bad coffee at a candor session is evidence.
-    pillar: Ritual Recipes
