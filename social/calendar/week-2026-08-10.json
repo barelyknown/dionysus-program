@@ -228,20 +228,178 @@
       "weekday": "wednesday",
       "slot_type": "baseline",
       "status": "planned",
-      "content_type": "decoder_ring",
-      "pillar": "Decoder Ring",
-      "topic_thesis": "Epimetabolic Rate is the only scoreboard that really matters in periods of fast change.",
-      "seed_topic_thesis": "Epimetabolic Rate is the only scoreboard that really matters in periods of fast change.",
-      "idea_status": "pending",
-      "angle": "Do not summarize the news; diagnose the pattern underneath it.",
-      "hook": "Most people are misreading what this story is actually about. epimetabolic rate is the only scoreboard that really matters in periods of fast change.",
+      "content_type": "ritual_recipe",
+      "pillar": "Ritual Recipes",
+      "topic_thesis": "Autonomous agency should not receive broader permissions until humans and machines independently pass the same Context Checksum.",
+      "seed_topic_thesis": "Rectification of Names matters because a leader who cannot call failure failure makes ritual truth-telling a farce.",
+      "idea_status": "developed",
+      "angle": "Turn recurring alignment drift into a deployment gate: collect independent answers to five strategic questions, compare them, and block permission increases when the answers diverge.",
+      "hook": "Everyone leaves the strategy meeting aligned. The agent still optimizes the exact outcome leadership meant to refuse.",
       "source_bundle_id": null,
       "timely_subject": null,
       "draft_ref": null,
       "winner_id": null,
       "risk_level": "low",
       "freshness_deadline": null,
-      "publish_payload": null
+      "publish_payload": null,
+      "novel_idea": {
+        "pass": true,
+        "topic_thesis": "Autonomous agency should not receive broader permissions until humans and machines independently pass the same Context Checksum.",
+        "angle": "Turn recurring alignment drift into a deployment gate: collect independent answers to five strategic questions, compare them, and block permission increases when the answers diverge.",
+        "hook": "Everyone leaves the strategy meeting aligned. The agent still optimizes the exact outcome leadership meant to refuse.",
+        "argument_summary": "Meeting agreement does not prove that executable intent survived across people and agents; hierarchy and shared phrasing can conceal different underlying premises. Before expanding an agentic workflow’s permissions, ask each affected human and machine independently: What are we doing? Why now? What are we refusing? What would change our mind? What local win would be globally wrong? Divergent answers reveal context debt: doctrine is stale, ambiguous, contested, or unread. Resolve that divergence before increasing autonomy or blast radius. This is distinct from prior posts about propagating a Crossing verdict or diagnosing coherent wrongness: it introduces an ex ante permission gate that tests whether intent has actually traveled. The boundary is important: the checksum tests coherence, not whether the shared doctrine is true, so boundary-of-consequence feedback is still required.",
+        "novelty_score": 9,
+        "closest_post_id": "019fdc80-e965-6767-99db-1cc01935d3ab",
+        "novelty_rationale": "The closest post diagnoses Coherent Wrongness and prescribes tracing decisions to reality. This argument addresses a different failure and operator decision: hidden divergence among humans and machines before autonomy is expanded. Its mechanism is independent premise comparison, and its consequence is a hard block on permission increases. It also explicitly distinguishes coherent agreement from doctrinal validity.",
+        "source_grounding": "Appendix B defines the weekly Context Checksum using the five questions and says divergence indicates context debt: doctrine may be stale, ambiguous, contested, or unread. The Readiness Gate and Minimum Viable Coherence Program require current doctrine, clear permissions, explicit blast radius, and risk-proportional autonomy. The Coherence Ceiling chapter states that distributed agency becomes harmful when shared intent and context cannot keep pace, while the Auteurs, Agents, Actors chapter requires permissions to rise only as doctrine, evaluations, and reality feedback mature.",
+        "gate_version": 2,
+        "model": "gpt-5.6-sol",
+        "history_count": 95,
+        "history_fingerprint": "6a36b17adf174b1a7745aeb00edf70ee87ef2de635570a7d688cd6bb43a8983b",
+        "developed_at": "2026-08-12T02:54:22.984Z"
+      },
+      "preparation": {
+        "status": "ready",
+        "prepared_at": "2026-08-12T02:56:39.069Z",
+        "history_fingerprint": "6a36b17adf174b1a7745aeb00edf70ee87ef2de635570a7d688cd6bb43a8983b",
+        "attempts": [
+          {
+            "content_type": "decoder_ring",
+            "seed_topic_thesis": "Epimetabolic Rate is the only scoreboard that really matters in periods of fast change.",
+            "status": "failed",
+            "reason": "unexpected_error",
+            "error": "Unterminated string in JSON at position 1083",
+            "details": null
+          },
+          {
+            "content_type": "ritual_recipe",
+            "seed_topic_thesis": "The Crossing is the protected threshold where truth can become common knowledge without social rupture.",
+            "status": "skipped",
+            "reason": "no_passing_candidate",
+            "error": null,
+            "details": null
+          },
+          {
+            "content_type": "ritual_recipe",
+            "seed_topic_thesis": "Rectification of Names matters because a leader who cannot call failure failure makes ritual truth-telling a farce.",
+            "status": "prepared",
+            "reason": null,
+            "error": null,
+            "details": null
+          }
+        ],
+        "package": {
+          "version": 1,
+          "prepared_at": "2026-08-12T02:56:39.069Z",
+          "history_fingerprint": "6a36b17adf174b1a7745aeb00edf70ee87ef2de635570a7d688cd6bb43a8983b",
+          "payload": {
+            "item_id": "a63c2fb8ddaf",
+            "scheduled_at": "2026-08-12T12:30:00.000Z",
+            "content_type": "ritual_recipe",
+            "pillar": "Ritual Recipes",
+            "topic_thesis": "Autonomous agency should not receive broader permissions until humans and machines independently pass the same Context Checksum.",
+            "angle": "Turn recurring alignment drift into a deployment gate: collect independent answers to five strategic questions, compare them, and block permission increases when the answers diverge.",
+            "hook": "The most dangerous agent is one that passes every task test while acting from a different strategy.",
+            "body_text": "The most dangerous agent is one that passes every task test while acting from a different strategy.\n\nThe common mistake is to expand permissions because outputs look accurate. But local accuracy can hide strategic drift—especially when teams are already routing around stale doctrine with private prompts and shadow workflows.\n\nBefore any permission increase, run a Context Checksum. Have the responsible humans and the machine answer independently:\n\nWhat are we doing?  \nWhy now?  \nWhat are we refusing?  \nWhat would change our mind?  \nWhat local win would be globally wrong?\n\nCompare substance, not wording. If the answers diverge, stop. Update the doctrine or the machine’s context, then run the check again. No matching checksum, no access to customers, money, production code, or irreversible commitments.\n\nDon’t use this to force consensus during exploration or replace technical evaluations. Use it when autonomy is about to create real consequences.\n\nCapability earns attention. Shared context earns permission.",
+            "footer_text": "The Dionysus Program is a free book about raising epimetabolic rate — the speed at which a person, team, or organization converts error into new structure without consuming trust. dionysusprogram.com",
+            "footer_index": 1,
+            "footer_divider": "---",
+            "final_text": "The most dangerous agent is one that passes every task test while acting from a different strategy.\n\nThe common mistake is to expand permissions because outputs look accurate. But local accuracy can hide strategic drift—especially when teams are already routing around stale doctrine with private prompts and shadow workflows.\n\nBefore any permission increase, run a Context Checksum. Have the responsible humans and the machine answer independently:\n\nWhat are we doing?  \nWhy now?  \nWhat are we refusing?  \nWhat would change our mind?  \nWhat local win would be globally wrong?\n\nCompare substance, not wording. If the answers diverge, stop. Update the doctrine or the machine’s context, then run the check again. No matching checksum, no access to customers, money, production code, or irreversible commitments.\n\nDon’t use this to force consensus during exploration or replace technical evaluations. Use it when autonomy is about to create real consequences.\n\nCapability earns attention. Shared context earns permission.\n\n---\n\nThe Dionysus Program is a free book about raising epimetabolic rate — the speed at which a person, team, or organization converts error into new structure without consuming trust. dionysusprogram.com",
+            "winning_candidate_id": "3a2d5671830d",
+            "winning_score": 8.7,
+            "source_refs": [],
+            "research_bundle_id": null,
+            "timely_subject": null
+          },
+          "prepared_note": {
+            "body": "The most dangerous agent is one that passes every task test while acting from a different strategy.\n\nThe common mistake is to expand permissions because outputs look accurate. But local accuracy can hide strategic drift—especially when teams are already routing around stale doctrine with private prompts and shadow workflows.\n\nBefore any permission increase, run a Context Checksum. Have the responsible humans and the machine answer independently:\n\nWhat are we doing?\nWhy now?\nWhat are we refusing?\nWhat would change our mind?\nWhat local win would be globally wrong?\n\nCompare substance, not wording. If the answers diverge, stop. Update the doctrine or the machine’s context, then run the check again. No matching checksum, no access to customers, money, production code, or irreversible commitments.\n\nDon’t use this to force consensus during exploration or replace technical evaluations. Use it when autonomy is about to create real consequences.\n\nCapability earns attention. Shared context earns permission.",
+            "sourceMode": "canonical_package"
+          },
+          "x_preflight": {
+            "status": "dry_run",
+            "reason": null,
+            "payload": {
+              "source_channel": "linkedin",
+              "source_final_text_hash": "9fc3d71d1fc928ed0bca2c5639129f7a431213814f119117817b138be23f3628",
+              "source_winning_candidate_id": "3a2d5671830d",
+              "text": "Agreement is cheap when the agent sees the human answer first.\n\nHave each side state the mission, refusals, and change conditions independently. Similar wording is irrelevant; compatible strategy is what matters.\n\nThis is not a consensus test. It is an authority test.",
+              "winning_candidate_id": "4cbf5e9139fb",
+              "winning_score": 8.3
+            },
+            "winnerCandidate": {
+              "id": "4cbf5e9139fb",
+              "writer_model": "gpt-5.6-sol",
+              "prompt_variant": "clean_distinction",
+              "post_text": "Agreement is cheap when the agent sees the human answer first.\n\nHave each side state the mission, refusals, and change conditions independently. Similar wording is irrelevant; compatible strategy is what matters.\n\nThis is not a consensus test. It is an authority test.",
+              "self_notes": "Distinguishes superficial agreement from independently demonstrated strategic compatibility."
+            },
+            "winnerScore": {
+              "id": "dc77c273d92a",
+              "candidate_id": "4cbf5e9139fb",
+              "clarity_score": 9.1,
+              "compression_score": 8.8,
+              "diagnostic_score": 9.1,
+              "anti_cheese_score": 7.6,
+              "x_fit_score": 8.9,
+              "novelty_score": 8.2,
+              "engagement_score": 7.8,
+              "overall_score": 8.3,
+              "pass": true,
+              "pass_fail_reasons": [
+                "Fresh operational angle: independent answers prevent agreement by imitation.",
+                "Specific enough to be useful without making the procedure feel like a checklist post.",
+                "The final “not X, but Y” construction is familiar, but the distinction is precise and earned."
+              ]
+            }
+          },
+          "winner_candidate": {
+            "id": "3a2d5671830d",
+            "writer_model": "gpt-5.6-sol",
+            "prompt_variant": "hook_forward",
+            "post_text": "The most dangerous agent is one that passes every task test while acting from a different strategy.\n\nThe common mistake is to expand permissions because outputs look accurate. But local accuracy can hide strategic drift—especially when teams are already routing around stale doctrine with private prompts and shadow workflows.\n\nBefore any permission increase, run a Context Checksum. Have the responsible humans and the machine answer independently:\n\nWhat are we doing?  \nWhy now?  \nWhat are we refusing?  \nWhat would change our mind?  \nWhat local win would be globally wrong?\n\nCompare substance, not wording. If the answers diverge, stop. Update the doctrine or the machine’s context, then run the check again. No matching checksum, no access to customers, money, production code, or irreversible commitments.\n\nDon’t use this to force consensus during exploration or replace technical evaluations. Use it when autonomy is about to create real consequences.\n\nCapability earns attention. Shared context earns permission.",
+            "self_notes": "Live candidate in hook_forward mode."
+          },
+          "winner_score": {
+            "id": "4cac44c98a2f",
+            "candidate_id": "3a2d5671830d",
+            "voice_score": 8.8,
+            "novelty_score": 8.1,
+            "engagement_score": 8.6,
+            "clarity_score": 9.1,
+            "risk_score": 9.5,
+            "citation_score": 9.2,
+            "linkedin_native_score": 8.8,
+            "overall_score": 8.7,
+            "pass": true,
+            "pass_fail_reasons": [
+              "Strong, substantive opener creates immediate strategic tension.",
+              "Distinct from recent posts because it turns alignment drift into a specific permission gate rather than another diagnosis of coherent wrongness.",
+              "Concrete five-question checksum and explicit blocking rule make the move executable.",
+              "Clear boundary prevents misuse during exploration and low-consequence work.",
+              "Concise, well structured, under the word limit, and compliant with the no-emoji/no-hashtag/no-link policy.",
+              "Minor weakness: the stale-doctrine and shadow-workflow setup adds framework density that could be trimmed."
+            ]
+          },
+          "package_gate": {
+            "pass": true,
+            "attempted_candidates": 1,
+            "note_linkedin_novelty_score": 8.1,
+            "note_linkedin_engagement_score": 8.6,
+            "x_status": "dry_run",
+            "x_novelty_score": 8.2,
+            "x_engagement_score": 7.8
+          },
+          "selection_reason": "memory_safe_top_choice",
+          "research_bundle": null
+        }
+      },
+      "fallback": {
+        "attempt": 2,
+        "selected_at": "2026-08-12T02:46:38.998Z",
+        "from_content_type": "decoder_ring",
+        "from_seed_topic_thesis": "Epimetabolic Rate is the only scoreboard that really matters in periods of fast change."
+      },
+      "skip_reason": null
     },
     {
       "id": "36d505efaf99",
