@@ -227,7 +227,7 @@
       "timezone": "America/Los_Angeles",
       "weekday": "wednesday",
       "slot_type": "baseline",
-      "status": "planned",
+      "status": "published",
       "content_type": "ritual_recipe",
       "pillar": "Ritual Recipes",
       "topic_thesis": "Autonomous agency should not receive broader permissions until humans and machines independently pass the same Context Checksum.",
@@ -238,10 +238,28 @@
       "source_bundle_id": null,
       "timely_subject": null,
       "draft_ref": null,
-      "winner_id": null,
+      "winner_id": "3a2d5671830d",
       "risk_level": "low",
       "freshness_deadline": null,
-      "publish_payload": null,
+      "publish_payload": {
+        "item_id": "a63c2fb8ddaf",
+        "scheduled_at": "2026-08-12T12:30:00.000Z",
+        "content_type": "ritual_recipe",
+        "pillar": "Ritual Recipes",
+        "topic_thesis": "Autonomous agency should not receive broader permissions until humans and machines independently pass the same Context Checksum.",
+        "angle": "Turn recurring alignment drift into a deployment gate: collect independent answers to five strategic questions, compare them, and block permission increases when the answers diverge.",
+        "hook": "The most dangerous agent is one that passes every task test while acting from a different strategy.",
+        "body_text": "The most dangerous agent is one that passes every task test while acting from a different strategy.\n\nThe common mistake is to expand permissions because outputs look accurate. But local accuracy can hide strategic drift—especially when teams are already routing around stale doctrine with private prompts and shadow workflows.\n\nBefore any permission increase, run a Context Checksum. Have the responsible humans and the machine answer independently:\n\nWhat are we doing?  \nWhy now?  \nWhat are we refusing?  \nWhat would change our mind?  \nWhat local win would be globally wrong?\n\nCompare substance, not wording. If the answers diverge, stop. Update the doctrine or the machine’s context, then run the check again. No matching checksum, no access to customers, money, production code, or irreversible commitments.\n\nDon’t use this to force consensus during exploration or replace technical evaluations. Use it when autonomy is about to create real consequences.\n\nCapability earns attention. Shared context earns permission.",
+        "footer_text": "The Dionysus Program is a free book about raising epimetabolic rate — the speed at which a person, team, or organization converts error into new structure without consuming trust. dionysusprogram.com",
+        "footer_index": 1,
+        "footer_divider": "---",
+        "final_text": "The most dangerous agent is one that passes every task test while acting from a different strategy.\n\nThe common mistake is to expand permissions because outputs look accurate. But local accuracy can hide strategic drift—especially when teams are already routing around stale doctrine with private prompts and shadow workflows.\n\nBefore any permission increase, run a Context Checksum. Have the responsible humans and the machine answer independently:\n\nWhat are we doing?  \nWhy now?  \nWhat are we refusing?  \nWhat would change our mind?  \nWhat local win would be globally wrong?\n\nCompare substance, not wording. If the answers diverge, stop. Update the doctrine or the machine’s context, then run the check again. No matching checksum, no access to customers, money, production code, or irreversible commitments.\n\nDon’t use this to force consensus during exploration or replace technical evaluations. Use it when autonomy is about to create real consequences.\n\nCapability earns attention. Shared context earns permission.\n\n---\n\nThe Dionysus Program is a free book about raising epimetabolic rate — the speed at which a person, team, or organization converts error into new structure without consuming trust. dionysusprogram.com",
+        "winning_candidate_id": "3a2d5671830d",
+        "winning_score": 8.7,
+        "source_refs": [],
+        "research_bundle_id": null,
+        "timely_subject": null
+      },
       "novel_idea": {
         "pass": true,
         "topic_thesis": "Autonomous agency should not receive broader permissions until humans and machines independently pass the same Context Checksum.",
@@ -399,7 +417,29 @@
         "from_content_type": "decoder_ring",
         "from_seed_topic_thesis": "Epimetabolic Rate is the only scoreboard that really matters in periods of fast change."
       },
-      "skip_reason": null
+      "skip_reason": null,
+      "published_at": "2026-08-12T14:02:28.353Z",
+      "external_post_id": "019ff648-1a52-a05b-2c6a-0622be944bdc",
+      "note_slug": "2026-08-12-autonomous-agency-should-not-receive-broader-permissions-until-humans-and-machines-independently-pass-the-same-context-checksum",
+      "note_source_path": "content/notes/2026-08-12-autonomous-agency-should-not-receive-broader-permissions-until-humans-and-machines-independently-pass-the-same-context-checksum.md",
+      "x_status": "published",
+      "x_external_post_id": "2087540224159347077",
+      "x_published_at": "2026-08-12T14:02:28.856Z",
+      "x_winning_candidate_id": "4cbf5e9139fb",
+      "x_publish_payload": {
+        "source_channel": "linkedin",
+        "source_final_text_hash": "9fc3d71d1fc928ed0bca2c5639129f7a431213814f119117817b138be23f3628",
+        "source_winning_candidate_id": "3a2d5671830d",
+        "text": "Agreement is cheap when the agent sees the human answer first.\n\nHave each side state the mission, refusals, and change conditions independently. Similar wording is irrelevant; compatible strategy is what matters.\n\nThis is not a consensus test. It is an authority test.",
+        "winning_candidate_id": "4cbf5e9139fb",
+        "winning_score": 8.3
+      },
+      "x_skip_reason": null,
+      "delivery": {
+        "status": "published",
+        "attempted_at": "2026-08-12T14:02:28.353Z",
+        "reason": null
+      }
     },
     {
       "id": "36d505efaf99",
