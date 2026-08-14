@@ -449,7 +449,7 @@
       "timezone": "America/Los_Angeles",
       "weekday": "friday",
       "slot_type": "baseline",
-      "status": "planned",
+      "status": "published",
       "content_type": "high_lindy_source_tour",
       "pillar": "High-Lindy Source Tour Guide",
       "topic_thesis": "The real unit of transparency is not the conclusion but the reproducible, patchable method behind it.",
@@ -460,10 +460,28 @@
       "source_bundle_id": null,
       "timely_subject": null,
       "draft_ref": null,
-      "winner_id": null,
+      "winner_id": "0ec5d3b2cb92",
       "risk_level": "low",
       "freshness_deadline": null,
-      "publish_payload": null,
+      "publish_payload": {
+        "item_id": "36d505efaf99",
+        "scheduled_at": "2026-08-14T12:30:00.000Z",
+        "content_type": "high_lindy_source_tour",
+        "pillar": "High-Lindy Source Tour Guide",
+        "topic_thesis": "The real unit of transparency is not the conclusion but the reproducible, patchable method behind it.",
+        "angle": "Use the transition from alchemy to chemistry to show why modern organizations should expose how knowledge was produced, tested, and corrected—especially now that AI can generate polished conclusions cheaply.",
+        "hook": "AI has made polished conclusions cheap. A confident memo is no longer evidence that anyone understands the problem.",
+        "body_text": "AI has made polished conclusions cheap. A confident memo is no longer evidence that anyone understands the problem.\n\nAlchemy became chemistry through a change in protocol, not a leap in intelligence. Alchemists hid methods in metaphor, so discoveries often died with them. The Royal Society imposed a harder standard: publish the method, let others reproduce it, and allow public correction.\n\nMost organizations still practice epistemic alchemy. They circulate the answer while hiding the inputs, assumptions, tests, rejected alternatives, and revision history. AI makes this failure harder to detect because the output can look finished before the thinking has started.\n\nThe real unit of transparency is not the conclusion. It is the reproducible, patchable method behind it.\n\nIf another person cannot rerun the work, locate the error, and improve the method, you do not have organizational knowledge. You have an artifact.",
+        "footer_text": "The Dionysus Program is free at dionysusprogram.com. It was written for anyone whose head is out of the sand about what is coming next.",
+        "footer_index": 15,
+        "footer_divider": "---",
+        "final_text": "AI has made polished conclusions cheap. A confident memo is no longer evidence that anyone understands the problem.\n\nAlchemy became chemistry through a change in protocol, not a leap in intelligence. Alchemists hid methods in metaphor, so discoveries often died with them. The Royal Society imposed a harder standard: publish the method, let others reproduce it, and allow public correction.\n\nMost organizations still practice epistemic alchemy. They circulate the answer while hiding the inputs, assumptions, tests, rejected alternatives, and revision history. AI makes this failure harder to detect because the output can look finished before the thinking has started.\n\nThe real unit of transparency is not the conclusion. It is the reproducible, patchable method behind it.\n\nIf another person cannot rerun the work, locate the error, and improve the method, you do not have organizational knowledge. You have an artifact.\n\n---\n\nThe Dionysus Program is free at dionysusprogram.com. It was written for anyone whose head is out of the sand about what is coming next.",
+        "winning_candidate_id": "0ec5d3b2cb92",
+        "winning_score": 8.8,
+        "source_refs": [],
+        "research_bundle_id": null,
+        "timely_subject": null
+      },
       "novel_idea": {
         "pass": true,
         "topic_thesis": "The real unit of transparency is not the conclusion but the reproducible, patchable method behind it.",
@@ -627,7 +645,29 @@
         "from_content_type": "ritual_recipe",
         "from_seed_topic_thesis": "The Crossing is the protected threshold where truth can become common knowledge without social rupture."
       },
-      "skip_reason": null
+      "skip_reason": null,
+      "published_at": "2026-08-14T13:58:38.299Z",
+      "external_post_id": "01a00091-4fbd-b25d-2a14-eff62b80fa4d",
+      "note_slug": "2026-08-14-the-real-unit-of-transparency-is-not-the-conclusion-but-the-reproducible-patchable-method-behind-it",
+      "note_source_path": "content/notes/2026-08-14-the-real-unit-of-transparency-is-not-the-conclusion-but-the-reproducible-patchable-method-behind-it.md",
+      "x_status": "published",
+      "x_external_post_id": "2088264034948632607",
+      "x_published_at": "2026-08-14T13:58:38.966Z",
+      "x_winning_candidate_id": "2e838a746f97",
+      "x_publish_payload": {
+        "source_channel": "linkedin",
+        "source_final_text_hash": "bceaaed1753157b19b2f80fae618d3fd716f3a930545a708f6a87504a1bf479e",
+        "source_winning_candidate_id": "0ec5d3b2cb92",
+        "text": "Six months after the analyst leaves, the model still drives pricing. No one can explain one exclusion, so nobody dares remove it.\n\nThat is the cost of undocumented reasoning: decisions persist longer than understanding. AI gives the orphaned logic a more convincing voice.",
+        "winning_candidate_id": "2e838a746f97",
+        "winning_score": 8.8
+      },
+      "x_skip_reason": null,
+      "delivery": {
+        "status": "published",
+        "attempted_at": "2026-08-14T13:58:38.299Z",
+        "reason": null
+      }
     }
   ]
 }
