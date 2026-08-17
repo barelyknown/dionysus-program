@@ -1,6 +1,15 @@
 notes_archive_url: notes/
 recent_notes_empty: false
 recent_notes:
+  - title: Open weights democratize agency, not control; unless regulatory capacity
+      spreads with capability, a “balance of power” release can widen the gap
+      between who can act and who can correct the consequences
+    display_date: August 17, 2026
+    url: notes/2026-08-17-open-weights-democratize-agency-not-control-unless-regulatory-capacity-spreads-with-capability-a-balance-of-power-release-can-widen-the-gap-between-who-can-act-and-who-can-correct-the-consequences/index.html
+    excerpt: Meta released its open-weight Muse Glimmer model while Mark Zuckerberg
+      argued for “superintelligence for all.” The release distributes
+      capability. The essay treats that as distributed control.
+    pillar: Decoder Ring
   - title: The real unit of transparency is not the conclusion but the reproducible,
       patchable method behind it
     display_date: August 14, 2026
@@ -15,10 +24,3 @@ recent_notes:
     excerpt: The most dangerous agent is one that passes every task test while
       acting from a different strategy.
     pillar: Ritual Recipes
-  - title: Agentic Slop begins when organizations count plausible AI artifacts as
-      throughput before those artifacts reach a boundary of consequence
-    display_date: August 10, 2026
-    url: notes/2026-08-10-agentic-slop-begins-when-organizations-count-plausible-ai-artifacts-as-throughput-before-those-artifacts-reach-a-boundary-of-consequence/index.html
-    excerpt: The pull request queue triples. Review capacity does not. Someone calls
-      this productivity.
-    pillar: Archetype Diagnosis
