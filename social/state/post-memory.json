@@ -1,49 +1,18 @@
 {
-  "generated_at": "2026-08-16T16:36:05.456Z",
-  "published_count": 97,
-  "site_published_count": 78,
+  "generated_at": "2026-08-17T13:23:28.483Z",
+  "published_count": 98,
+  "site_published_count": 79,
   "site_removed_count": 19,
-  "rolling_published_count": 47,
+  "rolling_published_count": 48,
   "rolling_window_days": 84,
   "typeCounts": {
     "extracted_insight": 39,
     "archetype_diagnosis": 3,
     "ritual_recipe": 3,
-    "decoder_ring": 1,
+    "decoder_ring": 2,
     "high_lindy_source_tour": 1
   },
   "recent_hooks": [
-    {
-      "post_id": "019f22f8-2abd-f0df-a4fd-eb9c9270ac4e",
-      "external_post_id": "019f22f8-2abd-f0df-a4fd-eb9c9270ac4e",
-      "published_at": "2026-07-02T13:15:17.067Z",
-      "linkedin_post_url": null,
-      "linkedin_activity_urn": null,
-      "content_type": "extracted_insight",
-      "pillar": "Extracted Insights",
-      "topic_thesis": "The Outpaced.",
-      "angle": "Name the concept, explain it plainly, and show why it matters now.",
-      "hook": "Some companies won’t miss the future. They’ll see it clearly and still lose.",
-      "summary": "Some companies won’t miss the future. They’ll see it clearly and still lose.\n\nThe Outpaced is a specific failure mode: an organization recognizes disruption, tries to respond, and cannot metabolize change fast enough to keep up. It launches initiatives. It hires help. It runs pil",
-      "source_refs": [],
-      "framework_terms_used": [
-        "li"
-      ],
-      "subject_entities": [],
-      "timely_subject": null,
-      "research_bundle_id": null,
-      "winning_candidate_id": "d188d44b5d53",
-      "final_text_hash": "458a13968942bb05f4324f0bf7684e85d23a25d1288cdb281302cfbf0511f80d",
-      "note_slug": "2026-07-02-some-companies-will-not-miss-the-future-they-will-see-it-clearly-and-still-lose",
-      "note_source_path": "content/notes/2026-07-02-some-companies-will-not-miss-the-future-they-will-see-it-clearly-and-still-lose.md",
-      "x_status": "published",
-      "x_external_post_id": "2072670744681623789",
-      "x_published_at": "2026-07-02T13:16:28.813Z",
-      "x_winning_candidate_id": "718f506f1fd9",
-      "x_final_text_hash": "4b22c5192aafd89cf27aa78185dc9276a7fb2356ef9afbd8f711c81f2641e86b",
-      "x_summary": "Most companies won’t miss the future. They’ll read it correctly and still get beaten.\n\nThe failure mode is simple: the market changes faster than the org can. Good teams launch pilots, hire help, make real progress. The pace is still wrong.",
-      "x_skip_reason": null
-    },
     {
       "post_id": "019f287b-a6f2-32c3-9c5b-7bd3e6409f0c",
       "external_post_id": "019f287b-a6f2-32c3-9c5b-7bd3e6409f0c",
@@ -732,6 +701,56 @@
       "x_winning_candidate_id": "2e838a746f97",
       "x_final_text_hash": "984b007cb3eb9d4d80d4d7f5e0817f8487a8ed60b69ff820d90576f27d2af87a",
       "x_summary": "Six months after the analyst leaves, the model still drives pricing. No one can explain one exclusion, so nobody dares remove it.\n\nThat is the cost of undocumented reasoning: decisions persist longer than understanding. AI gives the orphaned logic a more convincing voice.",
+      "x_skip_reason": null
+    },
+    {
+      "post_id": "01a00fe4-30b5-284a-4bec-bc7290bb4d07",
+      "external_post_id": "01a00fe4-30b5-284a-4bec-bc7290bb4d07",
+      "published_at": "2026-08-17T13:23:28.082Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "decoder_ring",
+      "pillar": "Decoder Ring",
+      "topic_thesis": "Open weights democratize agency, not control; unless regulatory capacity spreads with capability, a “balance of power” release can widen the gap between who can act and who can correct the consequences.",
+      "angle": "Decode Meta’s “superintelligence for all” argument as a category error: distributing model access is not the same as distributing the doctrine, evaluations, permissions, feedback paths, and accountability required to govern its use.",
+      "hook": "Meta released its open-weight Muse Glimmer model while Mark Zuckerberg argued for “superintelligence for all.” The release distributes capability. The essay treats that as distributed control.",
+      "summary": "Meta released its open-weight Muse Glimmer model while Mark Zuckerberg argued for “superintelligence for all.” The release distributes capability. The essay treats that as distributed control.\n\nThat is the category error.\n\nOpen weights give more people agency. They do not give th",
+      "source_refs": [
+        "https://www.theguardian.com/technology/2026/aug/10/mark-zuckerberg-superintelligent-ai-essay-meta",
+        "https://www.livemint.com/companies/news/tech-layoffs-2026-ai-drives-mass-job-cuts-1-25-000-tech-majors-like-meta-microsoft-take-lead-11786700857349.html",
+        "https://news.outsourceaccelerator.com/ai-layoffs-205000/",
+        "https://www.thecooldown.com/green-business/amazon-ai-spending-target-2026-data-center/",
+        "https://www.matrixconsulting.ai/blog/microsoft-copilot-updates-aug-2026",
+        "https://microsoft.ai/news/microsoft-build-2026-mai-keynote-transcript/",
+        "https://learn.microsoft.com/en-us/partner-center/announcements/2026-august",
+        "https://www.theguardian.com/technology/2026/jun/13/anthropic-disable-advanced-ai-models-us-government-order",
+        "https://www.digitalapplied.com/blog/microsoft-ads-august-2026-pmax-preview-ai-visibility",
+        "https://americanbazaaronline.com/2026/08/09/major-layoffs-of-2026-amazon-meta-oracle-microsoft-and-more/",
+        "https://viton13.com/journal/global-sam-altman-in-2026-why-openai-leadership-now-sits-at-the-center-of-ai-search-demand",
+        "https://www.tradingview.com/news/zacks:09b050d2a094b:0-amazon-raises-2026-ai-spending-to-220b-smart-bet-or-riskier-trap/",
+        "https://www.siliconrepublic.com/business/openai-co-founder-john-schulman-anthropic-greg-brockman-leave-musk-lawsuit",
+        "https://www.scmp.com/tech/big-tech/article/3273374/openai-co-founders-step-back-schulman-leaves-rival-anthropic",
+        "https://en.wikipedia.org/wiki/Muse_Spark"
+      ],
+      "framework_terms_used": [
+        "li"
+      ],
+      "subject_entities": [
+        "Meta"
+      ],
+      "timely_subject": "Zuckerberg pushes ‘superintelligent’ AI for all as Meta releases open-weight model",
+      "research_bundle_id": "d53a257fa6fe",
+      "winning_candidate_id": "6c2ab31d64b8",
+      "final_text_hash": "eb2e32db8e0b9f66aa809da9827ab71be84733e19dbb59e4b32251a35b4720fb",
+      "site_status": "published",
+      "note_slug": "2026-08-17-open-weights-democratize-agency-not-control-unless-regulatory-capacity-spreads-with-capability-a-balance-of-power-release-can-widen-the-gap-between-who-can-act-and-who-can-correct-the-consequences",
+      "note_source_path": "content/notes/2026-08-17-open-weights-democratize-agency-not-control-unless-regulatory-capacity-spreads-with-capability-a-balance-of-power-release-can-widen-the-gap-between-who-can-act-and-who-can-correct-the-consequences.md",
+      "x_status": "published",
+      "x_external_post_id": "2089342347209252970",
+      "x_published_at": "2026-08-17T13:23:28.478Z",
+      "x_winning_candidate_id": "b2a98ac68c30",
+      "x_final_text_hash": "59b340c9de63df1b5d395a83c244e5a54d7ee758b6723efd94b493fd08b1cf61",
+      "x_summary": "“Open” feels different to the person building with the model and the person trying to contest its decision.\n\nOne gets weights and documentation. The other needs notice, evidence, an appeal, and someone empowered to make them whole.",
       "x_skip_reason": null
     }
   ],
@@ -2165,6 +2184,56 @@
       "x_winning_candidate_id": "2e838a746f97",
       "x_final_text_hash": "984b007cb3eb9d4d80d4d7f5e0817f8487a8ed60b69ff820d90576f27d2af87a",
       "x_summary": "Six months after the analyst leaves, the model still drives pricing. No one can explain one exclusion, so nobody dares remove it.\n\nThat is the cost of undocumented reasoning: decisions persist longer than understanding. AI gives the orphaned logic a more convincing voice.",
+      "x_skip_reason": null
+    },
+    {
+      "post_id": "01a00fe4-30b5-284a-4bec-bc7290bb4d07",
+      "external_post_id": "01a00fe4-30b5-284a-4bec-bc7290bb4d07",
+      "published_at": "2026-08-17T13:23:28.082Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "decoder_ring",
+      "pillar": "Decoder Ring",
+      "topic_thesis": "Open weights democratize agency, not control; unless regulatory capacity spreads with capability, a “balance of power” release can widen the gap between who can act and who can correct the consequences.",
+      "angle": "Decode Meta’s “superintelligence for all” argument as a category error: distributing model access is not the same as distributing the doctrine, evaluations, permissions, feedback paths, and accountability required to govern its use.",
+      "hook": "Meta released its open-weight Muse Glimmer model while Mark Zuckerberg argued for “superintelligence for all.” The release distributes capability. The essay treats that as distributed control.",
+      "summary": "Meta released its open-weight Muse Glimmer model while Mark Zuckerberg argued for “superintelligence for all.” The release distributes capability. The essay treats that as distributed control.\n\nThat is the category error.\n\nOpen weights give more people agency. They do not give th",
+      "source_refs": [
+        "https://www.theguardian.com/technology/2026/aug/10/mark-zuckerberg-superintelligent-ai-essay-meta",
+        "https://www.livemint.com/companies/news/tech-layoffs-2026-ai-drives-mass-job-cuts-1-25-000-tech-majors-like-meta-microsoft-take-lead-11786700857349.html",
+        "https://news.outsourceaccelerator.com/ai-layoffs-205000/",
+        "https://www.thecooldown.com/green-business/amazon-ai-spending-target-2026-data-center/",
+        "https://www.matrixconsulting.ai/blog/microsoft-copilot-updates-aug-2026",
+        "https://microsoft.ai/news/microsoft-build-2026-mai-keynote-transcript/",
+        "https://learn.microsoft.com/en-us/partner-center/announcements/2026-august",
+        "https://www.theguardian.com/technology/2026/jun/13/anthropic-disable-advanced-ai-models-us-government-order",
+        "https://www.digitalapplied.com/blog/microsoft-ads-august-2026-pmax-preview-ai-visibility",
+        "https://americanbazaaronline.com/2026/08/09/major-layoffs-of-2026-amazon-meta-oracle-microsoft-and-more/",
+        "https://viton13.com/journal/global-sam-altman-in-2026-why-openai-leadership-now-sits-at-the-center-of-ai-search-demand",
+        "https://www.tradingview.com/news/zacks:09b050d2a094b:0-amazon-raises-2026-ai-spending-to-220b-smart-bet-or-riskier-trap/",
+        "https://www.siliconrepublic.com/business/openai-co-founder-john-schulman-anthropic-greg-brockman-leave-musk-lawsuit",
+        "https://www.scmp.com/tech/big-tech/article/3273374/openai-co-founders-step-back-schulman-leaves-rival-anthropic",
+        "https://en.wikipedia.org/wiki/Muse_Spark"
+      ],
+      "framework_terms_used": [
+        "li"
+      ],
+      "subject_entities": [
+        "Meta"
+      ],
+      "timely_subject": "Zuckerberg pushes ‘superintelligent’ AI for all as Meta releases open-weight model",
+      "research_bundle_id": "d53a257fa6fe",
+      "winning_candidate_id": "6c2ab31d64b8",
+      "final_text_hash": "eb2e32db8e0b9f66aa809da9827ab71be84733e19dbb59e4b32251a35b4720fb",
+      "site_status": "published",
+      "note_slug": "2026-08-17-open-weights-democratize-agency-not-control-unless-regulatory-capacity-spreads-with-capability-a-balance-of-power-release-can-widen-the-gap-between-who-can-act-and-who-can-correct-the-consequences",
+      "note_source_path": "content/notes/2026-08-17-open-weights-democratize-agency-not-control-unless-regulatory-capacity-spreads-with-capability-a-balance-of-power-release-can-widen-the-gap-between-who-can-act-and-who-can-correct-the-consequences.md",
+      "x_status": "published",
+      "x_external_post_id": "2089342347209252970",
+      "x_published_at": "2026-08-17T13:23:28.478Z",
+      "x_winning_candidate_id": "b2a98ac68c30",
+      "x_final_text_hash": "59b340c9de63df1b5d395a83c244e5a54d7ee758b6723efd94b493fd08b1cf61",
+      "x_summary": "“Open” feels different to the person building with the model and the person trying to contest its decision.\n\nOne gets weights and documentation. The other needs notice, evidence, an appeal, and someone empowered to make them whole.",
       "x_skip_reason": null
     }
   ],
@@ -4689,6 +4758,56 @@
       "x_final_text_hash": "984b007cb3eb9d4d80d4d7f5e0817f8487a8ed60b69ff820d90576f27d2af87a",
       "x_summary": "Six months after the analyst leaves, the model still drives pricing. No one can explain one exclusion, so nobody dares remove it.\n\nThat is the cost of undocumented reasoning: decisions persist longer than understanding. AI gives the orphaned logic a more convincing voice.",
       "x_skip_reason": null
+    },
+    {
+      "post_id": "01a00fe4-30b5-284a-4bec-bc7290bb4d07",
+      "external_post_id": "01a00fe4-30b5-284a-4bec-bc7290bb4d07",
+      "published_at": "2026-08-17T13:23:28.082Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "decoder_ring",
+      "pillar": "Decoder Ring",
+      "topic_thesis": "Open weights democratize agency, not control; unless regulatory capacity spreads with capability, a “balance of power” release can widen the gap between who can act and who can correct the consequences.",
+      "angle": "Decode Meta’s “superintelligence for all” argument as a category error: distributing model access is not the same as distributing the doctrine, evaluations, permissions, feedback paths, and accountability required to govern its use.",
+      "hook": "Meta released its open-weight Muse Glimmer model while Mark Zuckerberg argued for “superintelligence for all.” The release distributes capability. The essay treats that as distributed control.",
+      "summary": "Meta released its open-weight Muse Glimmer model while Mark Zuckerberg argued for “superintelligence for all.” The release distributes capability. The essay treats that as distributed control.\n\nThat is the category error.\n\nOpen weights give more people agency. They do not give th",
+      "source_refs": [
+        "https://www.theguardian.com/technology/2026/aug/10/mark-zuckerberg-superintelligent-ai-essay-meta",
+        "https://www.livemint.com/companies/news/tech-layoffs-2026-ai-drives-mass-job-cuts-1-25-000-tech-majors-like-meta-microsoft-take-lead-11786700857349.html",
+        "https://news.outsourceaccelerator.com/ai-layoffs-205000/",
+        "https://www.thecooldown.com/green-business/amazon-ai-spending-target-2026-data-center/",
+        "https://www.matrixconsulting.ai/blog/microsoft-copilot-updates-aug-2026",
+        "https://microsoft.ai/news/microsoft-build-2026-mai-keynote-transcript/",
+        "https://learn.microsoft.com/en-us/partner-center/announcements/2026-august",
+        "https://www.theguardian.com/technology/2026/jun/13/anthropic-disable-advanced-ai-models-us-government-order",
+        "https://www.digitalapplied.com/blog/microsoft-ads-august-2026-pmax-preview-ai-visibility",
+        "https://americanbazaaronline.com/2026/08/09/major-layoffs-of-2026-amazon-meta-oracle-microsoft-and-more/",
+        "https://viton13.com/journal/global-sam-altman-in-2026-why-openai-leadership-now-sits-at-the-center-of-ai-search-demand",
+        "https://www.tradingview.com/news/zacks:09b050d2a094b:0-amazon-raises-2026-ai-spending-to-220b-smart-bet-or-riskier-trap/",
+        "https://www.siliconrepublic.com/business/openai-co-founder-john-schulman-anthropic-greg-brockman-leave-musk-lawsuit",
+        "https://www.scmp.com/tech/big-tech/article/3273374/openai-co-founders-step-back-schulman-leaves-rival-anthropic",
+        "https://en.wikipedia.org/wiki/Muse_Spark"
+      ],
+      "framework_terms_used": [
+        "li"
+      ],
+      "subject_entities": [
+        "Meta"
+      ],
+      "timely_subject": "Zuckerberg pushes ‘superintelligent’ AI for all as Meta releases open-weight model",
+      "research_bundle_id": "d53a257fa6fe",
+      "winning_candidate_id": "6c2ab31d64b8",
+      "final_text_hash": "eb2e32db8e0b9f66aa809da9827ab71be84733e19dbb59e4b32251a35b4720fb",
+      "site_status": "published",
+      "note_slug": "2026-08-17-open-weights-democratize-agency-not-control-unless-regulatory-capacity-spreads-with-capability-a-balance-of-power-release-can-widen-the-gap-between-who-can-act-and-who-can-correct-the-consequences",
+      "note_source_path": "content/notes/2026-08-17-open-weights-democratize-agency-not-control-unless-regulatory-capacity-spreads-with-capability-a-balance-of-power-release-can-widen-the-gap-between-who-can-act-and-who-can-correct-the-consequences.md",
+      "x_status": "published",
+      "x_external_post_id": "2089342347209252970",
+      "x_published_at": "2026-08-17T13:23:28.478Z",
+      "x_winning_candidate_id": "b2a98ac68c30",
+      "x_final_text_hash": "59b340c9de63df1b5d395a83c244e5a54d7ee758b6723efd94b493fd08b1cf61",
+      "x_summary": "“Open” feels different to the person building with the model and the person trying to contest its decision.\n\nOne gets weights and documentation. The other needs notice, evidence, an appeal, and someone empowered to make them whole.",
+      "x_skip_reason": null
     }
   ],
   "recent_subjects": [
@@ -4979,6 +5098,56 @@
       "x_winning_candidate_id": "2e838a746f97",
       "x_final_text_hash": "984b007cb3eb9d4d80d4d7f5e0817f8487a8ed60b69ff820d90576f27d2af87a",
       "x_summary": "Six months after the analyst leaves, the model still drives pricing. No one can explain one exclusion, so nobody dares remove it.\n\nThat is the cost of undocumented reasoning: decisions persist longer than understanding. AI gives the orphaned logic a more convincing voice.",
+      "x_skip_reason": null
+    },
+    {
+      "post_id": "01a00fe4-30b5-284a-4bec-bc7290bb4d07",
+      "external_post_id": "01a00fe4-30b5-284a-4bec-bc7290bb4d07",
+      "published_at": "2026-08-17T13:23:28.082Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "decoder_ring",
+      "pillar": "Decoder Ring",
+      "topic_thesis": "Open weights democratize agency, not control; unless regulatory capacity spreads with capability, a “balance of power” release can widen the gap between who can act and who can correct the consequences.",
+      "angle": "Decode Meta’s “superintelligence for all” argument as a category error: distributing model access is not the same as distributing the doctrine, evaluations, permissions, feedback paths, and accountability required to govern its use.",
+      "hook": "Meta released its open-weight Muse Glimmer model while Mark Zuckerberg argued for “superintelligence for all.” The release distributes capability. The essay treats that as distributed control.",
+      "summary": "Meta released its open-weight Muse Glimmer model while Mark Zuckerberg argued for “superintelligence for all.” The release distributes capability. The essay treats that as distributed control.\n\nThat is the category error.\n\nOpen weights give more people agency. They do not give th",
+      "source_refs": [
+        "https://www.theguardian.com/technology/2026/aug/10/mark-zuckerberg-superintelligent-ai-essay-meta",
+        "https://www.livemint.com/companies/news/tech-layoffs-2026-ai-drives-mass-job-cuts-1-25-000-tech-majors-like-meta-microsoft-take-lead-11786700857349.html",
+        "https://news.outsourceaccelerator.com/ai-layoffs-205000/",
+        "https://www.thecooldown.com/green-business/amazon-ai-spending-target-2026-data-center/",
+        "https://www.matrixconsulting.ai/blog/microsoft-copilot-updates-aug-2026",
+        "https://microsoft.ai/news/microsoft-build-2026-mai-keynote-transcript/",
+        "https://learn.microsoft.com/en-us/partner-center/announcements/2026-august",
+        "https://www.theguardian.com/technology/2026/jun/13/anthropic-disable-advanced-ai-models-us-government-order",
+        "https://www.digitalapplied.com/blog/microsoft-ads-august-2026-pmax-preview-ai-visibility",
+        "https://americanbazaaronline.com/2026/08/09/major-layoffs-of-2026-amazon-meta-oracle-microsoft-and-more/",
+        "https://viton13.com/journal/global-sam-altman-in-2026-why-openai-leadership-now-sits-at-the-center-of-ai-search-demand",
+        "https://www.tradingview.com/news/zacks:09b050d2a094b:0-amazon-raises-2026-ai-spending-to-220b-smart-bet-or-riskier-trap/",
+        "https://www.siliconrepublic.com/business/openai-co-founder-john-schulman-anthropic-greg-brockman-leave-musk-lawsuit",
+        "https://www.scmp.com/tech/big-tech/article/3273374/openai-co-founders-step-back-schulman-leaves-rival-anthropic",
+        "https://en.wikipedia.org/wiki/Muse_Spark"
+      ],
+      "framework_terms_used": [
+        "li"
+      ],
+      "subject_entities": [
+        "Meta"
+      ],
+      "timely_subject": "Zuckerberg pushes ‘superintelligent’ AI for all as Meta releases open-weight model",
+      "research_bundle_id": "d53a257fa6fe",
+      "winning_candidate_id": "6c2ab31d64b8",
+      "final_text_hash": "eb2e32db8e0b9f66aa809da9827ab71be84733e19dbb59e4b32251a35b4720fb",
+      "site_status": "published",
+      "note_slug": "2026-08-17-open-weights-democratize-agency-not-control-unless-regulatory-capacity-spreads-with-capability-a-balance-of-power-release-can-widen-the-gap-between-who-can-act-and-who-can-correct-the-consequences",
+      "note_source_path": "content/notes/2026-08-17-open-weights-democratize-agency-not-control-unless-regulatory-capacity-spreads-with-capability-a-balance-of-power-release-can-widen-the-gap-between-who-can-act-and-who-can-correct-the-consequences.md",
+      "x_status": "published",
+      "x_external_post_id": "2089342347209252970",
+      "x_published_at": "2026-08-17T13:23:28.478Z",
+      "x_winning_candidate_id": "b2a98ac68c30",
+      "x_final_text_hash": "59b340c9de63df1b5d395a83c244e5a54d7ee758b6723efd94b493fd08b1cf61",
+      "x_summary": "“Open” feels different to the person building with the model and the person trying to contest its decision.\n\nOne gets weights and documentation. The other needs notice, evidence, an appeal, and someone empowered to make them whole.",
       "x_skip_reason": null
     }
   ],
@@ -5271,6 +5440,56 @@
       "x_final_text_hash": "984b007cb3eb9d4d80d4d7f5e0817f8487a8ed60b69ff820d90576f27d2af87a",
       "x_summary": "Six months after the analyst leaves, the model still drives pricing. No one can explain one exclusion, so nobody dares remove it.\n\nThat is the cost of undocumented reasoning: decisions persist longer than understanding. AI gives the orphaned logic a more convincing voice.",
       "x_skip_reason": null
+    },
+    {
+      "post_id": "01a00fe4-30b5-284a-4bec-bc7290bb4d07",
+      "external_post_id": "01a00fe4-30b5-284a-4bec-bc7290bb4d07",
+      "published_at": "2026-08-17T13:23:28.082Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "decoder_ring",
+      "pillar": "Decoder Ring",
+      "topic_thesis": "Open weights democratize agency, not control; unless regulatory capacity spreads with capability, a “balance of power” release can widen the gap between who can act and who can correct the consequences.",
+      "angle": "Decode Meta’s “superintelligence for all” argument as a category error: distributing model access is not the same as distributing the doctrine, evaluations, permissions, feedback paths, and accountability required to govern its use.",
+      "hook": "Meta released its open-weight Muse Glimmer model while Mark Zuckerberg argued for “superintelligence for all.” The release distributes capability. The essay treats that as distributed control.",
+      "summary": "Meta released its open-weight Muse Glimmer model while Mark Zuckerberg argued for “superintelligence for all.” The release distributes capability. The essay treats that as distributed control.\n\nThat is the category error.\n\nOpen weights give more people agency. They do not give th",
+      "source_refs": [
+        "https://www.theguardian.com/technology/2026/aug/10/mark-zuckerberg-superintelligent-ai-essay-meta",
+        "https://www.livemint.com/companies/news/tech-layoffs-2026-ai-drives-mass-job-cuts-1-25-000-tech-majors-like-meta-microsoft-take-lead-11786700857349.html",
+        "https://news.outsourceaccelerator.com/ai-layoffs-205000/",
+        "https://www.thecooldown.com/green-business/amazon-ai-spending-target-2026-data-center/",
+        "https://www.matrixconsulting.ai/blog/microsoft-copilot-updates-aug-2026",
+        "https://microsoft.ai/news/microsoft-build-2026-mai-keynote-transcript/",
+        "https://learn.microsoft.com/en-us/partner-center/announcements/2026-august",
+        "https://www.theguardian.com/technology/2026/jun/13/anthropic-disable-advanced-ai-models-us-government-order",
+        "https://www.digitalapplied.com/blog/microsoft-ads-august-2026-pmax-preview-ai-visibility",
+        "https://americanbazaaronline.com/2026/08/09/major-layoffs-of-2026-amazon-meta-oracle-microsoft-and-more/",
+        "https://viton13.com/journal/global-sam-altman-in-2026-why-openai-leadership-now-sits-at-the-center-of-ai-search-demand",
+        "https://www.tradingview.com/news/zacks:09b050d2a094b:0-amazon-raises-2026-ai-spending-to-220b-smart-bet-or-riskier-trap/",
+        "https://www.siliconrepublic.com/business/openai-co-founder-john-schulman-anthropic-greg-brockman-leave-musk-lawsuit",
+        "https://www.scmp.com/tech/big-tech/article/3273374/openai-co-founders-step-back-schulman-leaves-rival-anthropic",
+        "https://en.wikipedia.org/wiki/Muse_Spark"
+      ],
+      "framework_terms_used": [
+        "li"
+      ],
+      "subject_entities": [
+        "Meta"
+      ],
+      "timely_subject": "Zuckerberg pushes ‘superintelligent’ AI for all as Meta releases open-weight model",
+      "research_bundle_id": "d53a257fa6fe",
+      "winning_candidate_id": "6c2ab31d64b8",
+      "final_text_hash": "eb2e32db8e0b9f66aa809da9827ab71be84733e19dbb59e4b32251a35b4720fb",
+      "site_status": "published",
+      "note_slug": "2026-08-17-open-weights-democratize-agency-not-control-unless-regulatory-capacity-spreads-with-capability-a-balance-of-power-release-can-widen-the-gap-between-who-can-act-and-who-can-correct-the-consequences",
+      "note_source_path": "content/notes/2026-08-17-open-weights-democratize-agency-not-control-unless-regulatory-capacity-spreads-with-capability-a-balance-of-power-release-can-widen-the-gap-between-who-can-act-and-who-can-correct-the-consequences.md",
+      "x_status": "published",
+      "x_external_post_id": "2089342347209252970",
+      "x_published_at": "2026-08-17T13:23:28.478Z",
+      "x_winning_candidate_id": "b2a98ac68c30",
+      "x_final_text_hash": "59b340c9de63df1b5d395a83c244e5a54d7ee758b6723efd94b493fd08b1cf61",
+      "x_summary": "“Open” feels different to the person building with the model and the person trying to contest its decision.\n\nOne gets weights and documentation. The other needs notice, evidence, an appeal, and someone empowered to make them whole.",
+      "x_skip_reason": null
     }
   ],
   "recent_entities": [
@@ -5330,6 +5549,56 @@
       "x_winning_candidate_id": "cfd2529264d3",
       "x_final_text_hash": "8489612231a650aaf8712f14e37a4e811a1556eba514a79b57f2bf6299772748",
       "x_summary": "A human-rights investigator cites a satellite image. Opposing counsel asks whether it was generated, cropped, or altered. The platform’s watermark is gone.\n\nThe feature saved someone minutes. It handed the investigator a new burden of proof.",
+      "x_skip_reason": null
+    },
+    {
+      "post_id": "01a00fe4-30b5-284a-4bec-bc7290bb4d07",
+      "external_post_id": "01a00fe4-30b5-284a-4bec-bc7290bb4d07",
+      "published_at": "2026-08-17T13:23:28.082Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "decoder_ring",
+      "pillar": "Decoder Ring",
+      "topic_thesis": "Open weights democratize agency, not control; unless regulatory capacity spreads with capability, a “balance of power” release can widen the gap between who can act and who can correct the consequences.",
+      "angle": "Decode Meta’s “superintelligence for all” argument as a category error: distributing model access is not the same as distributing the doctrine, evaluations, permissions, feedback paths, and accountability required to govern its use.",
+      "hook": "Meta released its open-weight Muse Glimmer model while Mark Zuckerberg argued for “superintelligence for all.” The release distributes capability. The essay treats that as distributed control.",
+      "summary": "Meta released its open-weight Muse Glimmer model while Mark Zuckerberg argued for “superintelligence for all.” The release distributes capability. The essay treats that as distributed control.\n\nThat is the category error.\n\nOpen weights give more people agency. They do not give th",
+      "source_refs": [
+        "https://www.theguardian.com/technology/2026/aug/10/mark-zuckerberg-superintelligent-ai-essay-meta",
+        "https://www.livemint.com/companies/news/tech-layoffs-2026-ai-drives-mass-job-cuts-1-25-000-tech-majors-like-meta-microsoft-take-lead-11786700857349.html",
+        "https://news.outsourceaccelerator.com/ai-layoffs-205000/",
+        "https://www.thecooldown.com/green-business/amazon-ai-spending-target-2026-data-center/",
+        "https://www.matrixconsulting.ai/blog/microsoft-copilot-updates-aug-2026",
+        "https://microsoft.ai/news/microsoft-build-2026-mai-keynote-transcript/",
+        "https://learn.microsoft.com/en-us/partner-center/announcements/2026-august",
+        "https://www.theguardian.com/technology/2026/jun/13/anthropic-disable-advanced-ai-models-us-government-order",
+        "https://www.digitalapplied.com/blog/microsoft-ads-august-2026-pmax-preview-ai-visibility",
+        "https://americanbazaaronline.com/2026/08/09/major-layoffs-of-2026-amazon-meta-oracle-microsoft-and-more/",
+        "https://viton13.com/journal/global-sam-altman-in-2026-why-openai-leadership-now-sits-at-the-center-of-ai-search-demand",
+        "https://www.tradingview.com/news/zacks:09b050d2a094b:0-amazon-raises-2026-ai-spending-to-220b-smart-bet-or-riskier-trap/",
+        "https://www.siliconrepublic.com/business/openai-co-founder-john-schulman-anthropic-greg-brockman-leave-musk-lawsuit",
+        "https://www.scmp.com/tech/big-tech/article/3273374/openai-co-founders-step-back-schulman-leaves-rival-anthropic",
+        "https://en.wikipedia.org/wiki/Muse_Spark"
+      ],
+      "framework_terms_used": [
+        "li"
+      ],
+      "subject_entities": [
+        "Meta"
+      ],
+      "timely_subject": "Zuckerberg pushes ‘superintelligent’ AI for all as Meta releases open-weight model",
+      "research_bundle_id": "d53a257fa6fe",
+      "winning_candidate_id": "6c2ab31d64b8",
+      "final_text_hash": "eb2e32db8e0b9f66aa809da9827ab71be84733e19dbb59e4b32251a35b4720fb",
+      "site_status": "published",
+      "note_slug": "2026-08-17-open-weights-democratize-agency-not-control-unless-regulatory-capacity-spreads-with-capability-a-balance-of-power-release-can-widen-the-gap-between-who-can-act-and-who-can-correct-the-consequences",
+      "note_source_path": "content/notes/2026-08-17-open-weights-democratize-agency-not-control-unless-regulatory-capacity-spreads-with-capability-a-balance-of-power-release-can-widen-the-gap-between-who-can-act-and-who-can-correct-the-consequences.md",
+      "x_status": "published",
+      "x_external_post_id": "2089342347209252970",
+      "x_published_at": "2026-08-17T13:23:28.478Z",
+      "x_winning_candidate_id": "b2a98ac68c30",
+      "x_final_text_hash": "59b340c9de63df1b5d395a83c244e5a54d7ee758b6723efd94b493fd08b1cf61",
+      "x_summary": "“Open” feels different to the person building with the model and the person trying to contest its decision.\n\nOne gets weights and documentation. The other needs notice, evidence, an appeal, and someone empowered to make them whole.",
       "x_skip_reason": null
     }
   ],
@@ -6303,6 +6572,16 @@
       "summary": "AI has made polished conclusions cheap. A confident memo is no longer evidence that anyone understands the problem.\n\nAlchemy became chemistry through a change in protocol, not a leap in intelligence. Alchemists hid methods in metaphor, so discoveries often died with them. The Roy",
       "text": "AI has made polished conclusions cheap. A confident memo is no longer evidence that anyone understands the problem.\n\nAlchemy became chemistry through a change in protocol, not a leap in intelligence. Alchemists hid methods in metaphor, so discoveries often died with them. The Royal Society imposed a harder standard: publish the method, let others reproduce it, and allow public correction.\n\nMost organizations still practice epistemic alchemy. They circulate the answer while hiding the inputs, assumptions, tests, rejected alternatives, and revision history. AI makes this failure harder to detect because the output can look finished before the thinking has started.\n\nThe real unit of transparency is not the conclusion. It is the reproducible, patchable method behind it.\n\nIf another person cannot rerun the work, locate the error, and improve the method, you do not have organizational knowledge. You have an artifact.",
       "x_summary": "Six months after the analyst leaves, the model still drives pricing. No one can explain one exclusion, so nobody dares remove it.\n\nThat is the cost of undocumented reasoning: decisions persist longer than understanding. AI gives the orphaned logic a more convincing voice."
+    },
+    {
+      "post_id": "01a00fe4-30b5-284a-4bec-bc7290bb4d07",
+      "published_at": "2026-08-17T13:23:28.082Z",
+      "content_type": "decoder_ring",
+      "topic_thesis": "Open weights democratize agency, not control; unless regulatory capacity spreads with capability, a “balance of power” release can widen the gap between who can act and who can correct the consequences.",
+      "hook": "Meta released its open-weight Muse Glimmer model while Mark Zuckerberg argued for “superintelligence for all.” The release distributes capability. The essay treats that as distributed control.",
+      "summary": "Meta released its open-weight Muse Glimmer model while Mark Zuckerberg argued for “superintelligence for all.” The release distributes capability. The essay treats that as distributed control.\n\nThat is the category error.\n\nOpen weights give more people agency. They do not give th",
+      "text": "Meta released its open-weight Muse Glimmer model while Mark Zuckerberg argued for “superintelligence for all.” The release distributes capability. The essay treats that as distributed control.\n\nThat is the category error.\n\nOpen weights give more people agency. They do not give them the doctrine, evaluations, permissions, feedback paths, or accountability needed to govern what that agency does. You can put more pilots in the air without building more air traffic control.\n\nA real balance of power requires regulatory capacity to spread with capability. Otherwise the gap widens between who can act and who can detect, stop, and repair the consequences.\n\nSerious operators should judge an open model by the correction architecture around it—not by how many people can download it.",
+      "x_summary": "“Open” feels different to the person building with the model and the person trying to contest its decision.\n\nOne gets weights and documentation. The other needs notice, evidence, an appeal, and someone empowered to make them whole."
     }
   ],
   "recent_x_posts": [
@@ -9695,6 +9974,56 @@
       "x_winning_candidate_id": "2e838a746f97",
       "x_final_text_hash": "984b007cb3eb9d4d80d4d7f5e0817f8487a8ed60b69ff820d90576f27d2af87a",
       "x_summary": "Six months after the analyst leaves, the model still drives pricing. No one can explain one exclusion, so nobody dares remove it.\n\nThat is the cost of undocumented reasoning: decisions persist longer than understanding. AI gives the orphaned logic a more convincing voice.",
+      "x_skip_reason": null
+    },
+    {
+      "post_id": "01a00fe4-30b5-284a-4bec-bc7290bb4d07",
+      "external_post_id": "01a00fe4-30b5-284a-4bec-bc7290bb4d07",
+      "published_at": "2026-08-17T13:23:28.082Z",
+      "linkedin_post_url": null,
+      "linkedin_activity_urn": null,
+      "content_type": "decoder_ring",
+      "pillar": "Decoder Ring",
+      "topic_thesis": "Open weights democratize agency, not control; unless regulatory capacity spreads with capability, a “balance of power” release can widen the gap between who can act and who can correct the consequences.",
+      "angle": "Decode Meta’s “superintelligence for all” argument as a category error: distributing model access is not the same as distributing the doctrine, evaluations, permissions, feedback paths, and accountability required to govern its use.",
+      "hook": "Meta released its open-weight Muse Glimmer model while Mark Zuckerberg argued for “superintelligence for all.” The release distributes capability. The essay treats that as distributed control.",
+      "summary": "Meta released its open-weight Muse Glimmer model while Mark Zuckerberg argued for “superintelligence for all.” The release distributes capability. The essay treats that as distributed control.\n\nThat is the category error.\n\nOpen weights give more people agency. They do not give th",
+      "source_refs": [
+        "https://www.theguardian.com/technology/2026/aug/10/mark-zuckerberg-superintelligent-ai-essay-meta",
+        "https://www.livemint.com/companies/news/tech-layoffs-2026-ai-drives-mass-job-cuts-1-25-000-tech-majors-like-meta-microsoft-take-lead-11786700857349.html",
+        "https://news.outsourceaccelerator.com/ai-layoffs-205000/",
+        "https://www.thecooldown.com/green-business/amazon-ai-spending-target-2026-data-center/",
+        "https://www.matrixconsulting.ai/blog/microsoft-copilot-updates-aug-2026",
+        "https://microsoft.ai/news/microsoft-build-2026-mai-keynote-transcript/",
+        "https://learn.microsoft.com/en-us/partner-center/announcements/2026-august",
+        "https://www.theguardian.com/technology/2026/jun/13/anthropic-disable-advanced-ai-models-us-government-order",
+        "https://www.digitalapplied.com/blog/microsoft-ads-august-2026-pmax-preview-ai-visibility",
+        "https://americanbazaaronline.com/2026/08/09/major-layoffs-of-2026-amazon-meta-oracle-microsoft-and-more/",
+        "https://viton13.com/journal/global-sam-altman-in-2026-why-openai-leadership-now-sits-at-the-center-of-ai-search-demand",
+        "https://www.tradingview.com/news/zacks:09b050d2a094b:0-amazon-raises-2026-ai-spending-to-220b-smart-bet-or-riskier-trap/",
+        "https://www.siliconrepublic.com/business/openai-co-founder-john-schulman-anthropic-greg-brockman-leave-musk-lawsuit",
+        "https://www.scmp.com/tech/big-tech/article/3273374/openai-co-founders-step-back-schulman-leaves-rival-anthropic",
+        "https://en.wikipedia.org/wiki/Muse_Spark"
+      ],
+      "framework_terms_used": [
+        "li"
+      ],
+      "subject_entities": [
+        "Meta"
+      ],
+      "timely_subject": "Zuckerberg pushes ‘superintelligent’ AI for all as Meta releases open-weight model",
+      "research_bundle_id": "d53a257fa6fe",
+      "winning_candidate_id": "6c2ab31d64b8",
+      "final_text_hash": "eb2e32db8e0b9f66aa809da9827ab71be84733e19dbb59e4b32251a35b4720fb",
+      "site_status": "published",
+      "note_slug": "2026-08-17-open-weights-democratize-agency-not-control-unless-regulatory-capacity-spreads-with-capability-a-balance-of-power-release-can-widen-the-gap-between-who-can-act-and-who-can-correct-the-consequences",
+      "note_source_path": "content/notes/2026-08-17-open-weights-democratize-agency-not-control-unless-regulatory-capacity-spreads-with-capability-a-balance-of-power-release-can-widen-the-gap-between-who-can-act-and-who-can-correct-the-consequences.md",
+      "x_status": "published",
+      "x_external_post_id": "2089342347209252970",
+      "x_published_at": "2026-08-17T13:23:28.478Z",
+      "x_winning_candidate_id": "b2a98ac68c30",
+      "x_final_text_hash": "59b340c9de63df1b5d395a83c244e5a54d7ee758b6723efd94b493fd08b1cf61",
+      "x_summary": "“Open” feels different to the person building with the model and the person trying to contest its decision.\n\nOne gets weights and documentation. The other needs notice, evidence, an appeal, and someone empowered to make them whole.",
       "x_skip_reason": null
     }
   ]
