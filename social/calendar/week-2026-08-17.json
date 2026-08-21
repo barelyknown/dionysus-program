@@ -814,59 +814,31 @@
       "publish_payload": null,
       "preparation": {
         "status": "failed",
-        "attempted_at": "2026-08-21T01:58:41.629Z",
-        "retry_count": 1,
+        "attempted_at": "2026-08-21T07:08:58.800Z",
+        "retry_count": 2,
         "attempts": [
           {
             "content_type": "ritual_recipe",
             "seed_topic_thesis": "The Weekly Crossing is a practical recurring ritual for metabolizing drift before it hardens.",
             "status": "skipped",
-            "reason": "no_novel_idea",
+            "reason": "no_passing_candidate",
             "error": null,
-            "details": {
-              "item_id": "353e96c40265",
-              "seed_topic_thesis": "The Weekly Crossing is a practical recurring ritual for metabolizing drift before it hardens.",
-              "history_count": 98,
-              "minimum_novelty_score": 8,
-              "missing_fields": [
-                "topic_thesis",
-                "angle",
-                "hook",
-                "argument_summary"
-              ],
-              "deterministic_duplicate_post_id": null,
-              "deterministic_duplicate_field": null,
-              "idea": {}
-            }
+            "details": null
           },
           {
             "content_type": "ritual_recipe",
             "seed_topic_thesis": "The Crossing is the protected threshold where truth can become common knowledge without social rupture.",
             "status": "skipped",
-            "reason": "no_novel_idea",
+            "reason": "package_gate_failed",
             "error": null,
-            "details": {
-              "item_id": "353e96c40265",
-              "seed_topic_thesis": "The Crossing is the protected threshold where truth can become common knowledge without social rupture.",
-              "history_count": 98,
-              "minimum_novelty_score": 8,
-              "missing_fields": [
-                "topic_thesis",
-                "angle",
-                "hook",
-                "argument_summary"
-              ],
-              "deterministic_duplicate_post_id": null,
-              "deterministic_duplicate_field": null,
-              "idea": {}
-            }
+            "details": null
           },
           {
             "content_type": "ritual_recipe",
             "seed_topic_thesis": "Rectification of Names matters because a leader who cannot call failure failure makes ritual truth-telling a farce.",
-            "status": "skipped",
-            "reason": "package_gate_failed",
-            "error": null,
+            "status": "failed",
+            "reason": "unexpected_error",
+            "error": "Unterminated string in JSON at position 1119",
             "details": null
           },
           {
