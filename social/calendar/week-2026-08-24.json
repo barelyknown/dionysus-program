@@ -658,18 +658,154 @@
       "status": "planned",
       "content_type": "ritual_recipe",
       "pillar": "Ritual Recipes",
-      "topic_thesis": "The Weekly Crossing is a practical recurring ritual for metabolizing drift before it hardens.",
+      "topic_thesis": "A Weekly Crossing should be fed by contradiction triage, not by the loudest complaint, because execution defects and falsified doctrine require different modes of correction.",
       "seed_topic_thesis": "The Weekly Crossing is a practical recurring ritual for metabolizing drift before it hardens.",
-      "idea_status": "pending",
-      "angle": "Start with a recurring problem and end with a usable move.",
-      "hook": "If your team keeps repeating the same failure, stop adding process. the weekly crossing is a practical recurring ritual for metabolizing drift before it hardens.",
+      "idea_status": "developed",
+      "angle": "Start with a familiar failure: every inconsistency gets escalated into a philosophical debate, while genuinely obsolete doctrine gets patched as an execution problem. Offer a short weekly triage that routes each contradiction to Run Time, Ritual Time, or a reality test.",
+      "hook": "Not every contradiction deserves a Crossing. Some need an owner. Some need a test. Only a few need the map put on trial.",
       "source_bundle_id": null,
       "timely_subject": null,
       "draft_ref": null,
       "winner_id": null,
       "risk_level": "low",
       "freshness_deadline": null,
-      "publish_payload": null
+      "publish_payload": null,
+      "preparation": {
+        "status": "ready",
+        "prepared_at": "2026-08-28T11:30:43.257Z",
+        "history_fingerprint": "d02c4080f9fb0855ba21cc5bab0fcb7e0dd48b4b0a813562c532f840f8d18e20",
+        "attempts": [
+          {
+            "content_type": "ritual_recipe",
+            "seed_topic_thesis": "The Weekly Crossing is a practical recurring ritual for metabolizing drift before it hardens.",
+            "status": "prepared",
+            "reason": null,
+            "error": null,
+            "details": null
+          }
+        ],
+        "package": {
+          "version": 1,
+          "prepared_at": "2026-08-28T11:30:43.257Z",
+          "history_fingerprint": "d02c4080f9fb0855ba21cc5bab0fcb7e0dd48b4b0a813562c532f840f8d18e20",
+          "payload": {
+            "item_id": "45ba22c9f84a",
+            "scheduled_at": "2026-08-28T12:30:00.000Z",
+            "content_type": "ritual_recipe",
+            "pillar": "Ritual Recipes",
+            "topic_thesis": "A Weekly Crossing should be fed by contradiction triage, not by the loudest complaint, because execution defects and falsified doctrine require different modes of correction.",
+            "angle": "Start with a familiar failure: every inconsistency gets escalated into a philosophical debate, while genuinely obsolete doctrine gets patched as an execution problem. Offer a short weekly triage that routes each contradiction to Run Time, Ritual Time, or a reality test.",
+            "hook": "A missed customer promise can trigger the wrong meeting twice.",
+            "body_text": "A missed customer promise can trigger the wrong meeting twice.\n\nFirst, someone ignores a sound policy and the team launches a philosophical debate. Then the policy itself becomes obsolete, everyone follows it perfectly, and leadership responds with more coaching.\n\nBefore the Weekly Crossing, triage each contradiction:\n\n1. Did execution depart from current doctrine? Keep it in Run Time. Correct the action.\n2. Did faithful execution still produce the wrong result? Move it to Ritual Time. Put the doctrine—not the person—on trial.\n3. Is the cause unclear? Define a reality test: one disputed premise, one risky prediction, one owner, one deadline.\n\nDo this in fifteen minutes from a visible contradiction ledger. The Crossing gets only the contradictions that may falsify the map.\n\nDo not run this when junior people cannot contradict senior people safely, or when the team is too depleted to disagree without turning cruel. Cool the system and build trust first.\n\nExecution defects need correction. Falsified doctrine needs reconstitution. Confuse them, and you either debate everything or learn nothing.",
+            "footer_text": "The world is not going to slow down for us. The Dionysus Program is a free set of rites for becoming the kind of people who can keep up — without becoming less human. dionysusprogram.com",
+            "footer_index": 19,
+            "footer_divider": "---",
+            "final_text": "A missed customer promise can trigger the wrong meeting twice.\n\nFirst, someone ignores a sound policy and the team launches a philosophical debate. Then the policy itself becomes obsolete, everyone follows it perfectly, and leadership responds with more coaching.\n\nBefore the Weekly Crossing, triage each contradiction:\n\n1. Did execution depart from current doctrine? Keep it in Run Time. Correct the action.\n2. Did faithful execution still produce the wrong result? Move it to Ritual Time. Put the doctrine—not the person—on trial.\n3. Is the cause unclear? Define a reality test: one disputed premise, one risky prediction, one owner, one deadline.\n\nDo this in fifteen minutes from a visible contradiction ledger. The Crossing gets only the contradictions that may falsify the map.\n\nDo not run this when junior people cannot contradict senior people safely, or when the team is too depleted to disagree without turning cruel. Cool the system and build trust first.\n\nExecution defects need correction. Falsified doctrine needs reconstitution. Confuse them, and you either debate everything or learn nothing.\n\n---\n\nThe world is not going to slow down for us. The Dionysus Program is a free set of rites for becoming the kind of people who can keep up — without becoming less human. dionysusprogram.com",
+            "winning_candidate_id": "61f3f942b273",
+            "winning_score": 8.4,
+            "source_refs": [],
+            "research_bundle_id": null,
+            "timely_subject": null
+          },
+          "prepared_note": {
+            "body": "A missed customer promise can trigger the wrong meeting twice.\n\nFirst, someone ignores a sound policy and the team launches a philosophical debate. Then the policy itself becomes obsolete, everyone follows it perfectly, and leadership responds with more coaching.\n\nBefore the Weekly Crossing, triage each contradiction:\n\n1. Did execution depart from current doctrine? Keep it in Run Time. Correct the action.\n2. Did faithful execution still produce the wrong result? Move it to Ritual Time. Put the doctrine—not the person—on trial.\n3. Is the cause unclear? Define a reality test: one disputed premise, one risky prediction, one owner, one deadline.\n\nDo this in fifteen minutes from a visible contradiction ledger. The Crossing gets only the contradictions that may falsify the map.\n\nDo not run this when junior people cannot contradict senior people safely, or when the team is too depleted to disagree without turning cruel. Cool the system and build trust first.\n\nExecution defects need correction. Falsified doctrine needs reconstitution. Confuse them, and you either debate everything or learn nothing.",
+            "sourceMode": "canonical_package"
+          },
+          "x_preflight": {
+            "status": "dry_run",
+            "reason": null,
+            "payload": {
+              "source_channel": "linkedin",
+              "source_final_text_hash": "95926c4dcaed40e4d8cec3cdbf5659b3ff1676d16ec24daf7ba176bc114f6f39",
+              "source_winning_candidate_id": "61f3f942b273",
+              "text": "An issue tracker asks what remains to be done. A contradiction ledger records what current policy failed to explain.\n\nMix them, and strategic review fills with cleanup. Separate them, and the rare anomaly gets enough attention to challenge the rule.",
+              "winning_candidate_id": "6742b2ee5a0c",
+              "winning_score": 7.8
+            },
+            "winnerCandidate": {
+              "id": "6742b2ee5a0c",
+              "writer_model": "gpt-5.6-sol",
+              "prompt_variant": "clean_distinction",
+              "post_text": "An issue tracker asks what remains to be done. A contradiction ledger records what current policy failed to explain.\n\nMix them, and strategic review fills with cleanup. Separate them, and the rare anomaly gets enough attention to challenge the rule.",
+              "self_notes": "Distinguishes two operational artifacts and shows why meeting admission criteria affect organizational learning."
+            },
+            "winnerScore": {
+              "id": "f21cef931b74",
+              "candidate_id": "6742b2ee5a0c",
+              "clarity_score": 8.8,
+              "compression_score": 8.6,
+              "diagnostic_score": 8.9,
+              "anti_cheese_score": 8,
+              "x_fit_score": 8.3,
+              "novelty_score": 8.1,
+              "engagement_score": 6.9,
+              "overall_score": 7.8,
+              "pass": true,
+              "pass_fail_reasons": [
+                "Pass: introduces a fresh, concrete operational distinction between an issue tracker and a contradiction ledger.",
+                "Avoids repeating the recent person-versus-artifact and Run Time versus Ritual Time formulations.",
+                "The mix/separate construction is slightly schematic, and the post lacks human stakes, but the diagnosis is specific and the landing is clean.",
+                "Within 280 characters and contains no prohibited elements."
+              ]
+            }
+          },
+          "winner_candidate": {
+            "id": "61f3f942b273",
+            "writer_model": "gpt-5.6-sol",
+            "prompt_variant": "hook_forward",
+            "post_text": "A missed customer promise can trigger the wrong meeting twice.\n\nFirst, someone ignores a sound policy and the team launches a philosophical debate. Then the policy itself becomes obsolete, everyone follows it perfectly, and leadership responds with more coaching.\n\nBefore the Weekly Crossing, triage each contradiction:\n\n1. Did execution depart from current doctrine? Keep it in Run Time. Correct the action.\n2. Did faithful execution still produce the wrong result? Move it to Ritual Time. Put the doctrine—not the person—on trial.\n3. Is the cause unclear? Define a reality test: one disputed premise, one risky prediction, one owner, one deadline.\n\nDo this in fifteen minutes from a visible contradiction ledger. The Crossing gets only the contradictions that may falsify the map.\n\nDo not run this when junior people cannot contradict senior people safely, or when the team is too depleted to disagree without turning cruel. Cool the system and build trust first.\n\nExecution defects need correction. Falsified doctrine needs reconstitution. Confuse them, and you either debate everything or learn nothing.",
+            "self_notes": "Live candidate in hook_forward mode."
+          },
+          "winner_score": {
+            "id": "439d46347ce0",
+            "candidate_id": "61f3f942b273",
+            "voice_score": 8.5,
+            "novelty_score": 8,
+            "engagement_score": 8.2,
+            "clarity_score": 8.6,
+            "risk_score": 9.4,
+            "citation_score": 9,
+            "linkedin_native_score": 8.2,
+            "overall_score": 8.4,
+            "pass": true,
+            "pass_fail_reasons": [
+              "Concrete opener establishes an operational consequence immediately.",
+              "The three-way routing rule is distinct, executable, and faithful to the thesis.",
+              "Strong boundary for low-trust or depleted teams.",
+              "No policy violations; comfortably under the word limit.",
+              "Minor weakness: “trigger the wrong meeting twice” is slightly strained, and the ending restates the distinction already made."
+            ]
+          },
+          "package_gate": {
+            "pass": true,
+            "attempted_candidates": 2,
+            "note_linkedin_novelty_score": 8,
+            "note_linkedin_engagement_score": 8.2,
+            "x_status": "dry_run",
+            "x_novelty_score": 8.1,
+            "x_engagement_score": 6.9
+          },
+          "selection_reason": "memory_safe_top_choice",
+          "research_bundle": null
+        }
+      },
+      "novel_idea": {
+        "pass": true,
+        "topic_thesis": "A Weekly Crossing should be fed by contradiction triage, not by the loudest complaint, because execution defects and falsified doctrine require different modes of correction.",
+        "angle": "Start with a familiar failure: every inconsistency gets escalated into a philosophical debate, while genuinely obsolete doctrine gets patched as an execution problem. Offer a short weekly triage that routes each contradiction to Run Time, Ritual Time, or a reality test.",
+        "hook": "Not every contradiction deserves a Crossing. Some need an owner. Some need a test. Only a few need the map put on trial.",
+        "argument_summary": "Run Time preserves fidelity to the current map; Ritual Time changes the map when reality falsifies it. Without a routing step, teams make two costly errors: they send ordinary execution defects into Ritual Time, inflating ceremony and slowing correction, or they treat evidence against doctrine as an execution miss, preserving drift. Keep a visible contradiction ledger and triage it weekly. If doctrine is current and action diverged, assign a Run Time owner. If reality challenges the doctrine or exposes an unresolved tradeoff, nominate the relevant artifact for a Crossing. If evidence is insufficient, define a boundary-of-consequence test and the result that would change the map. Cap the Crossing queue so ritual capacity is reserved for contradictions that actually require reconstitution.",
+        "novelty_score": 9,
+        "closest_post_id": "019d9b88-293d-6aea-8ae3-6f9f8622dd73",
+        "novelty_rationale": "The closest post explains how to run a Weekly Crossing on one artifact to catch drift early. This argument concerns the upstream operator decision the prior post does not address: which contradictions should enter a Crossing at all. Its central mechanism is routing by error type—execution deviation, doctrinal falsification, or unresolved evidence—rather than recurring ritual itself. The consequence is also distinct: preventing both ritual inflation and the preservation of false doctrine through ordinary execution fixes.",
+        "source_grounding": "The source distinguishes Run Time, which converts current doctrine into coherent action, from Ritual Time, which updates doctrine after reality falsifies it. Appendix B specifies a visible contradiction ledger and states that some contradictions belong in Run Time while others belong in Ritual Time. It also requires Actor feedback where consequences meet reality and says that reality falsifying doctrine should trigger Ritual Time rather than a prompt patch. The Minimum Viable Epimetabolic Program limits a Weekly Crossing to one named artifact, supporting a triage step that protects scarce ritual capacity.",
+        "gate_version": 2,
+        "model": "gpt-5.6-sol",
+        "history_count": 98,
+        "history_fingerprint": "d02c4080f9fb0855ba21cc5bab0fcb7e0dd48b4b0a813562c532f840f8d18e20",
+        "developed_at": "2026-08-28T11:27:03.113Z"
+      },
+      "skip_reason": null
     }
   ]
 }
