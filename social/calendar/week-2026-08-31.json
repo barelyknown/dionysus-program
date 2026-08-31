@@ -12,20 +12,170 @@
       "weekday": "monday",
       "slot_type": "baseline",
       "status": "planned",
-      "content_type": "decoder_ring",
-      "pillar": "Decoder Ring",
-      "topic_thesis": "Epimetabolic Rate is the only scoreboard that really matters in periods of fast change.",
-      "seed_topic_thesis": "Epimetabolic Rate is the only scoreboard that really matters in periods of fast change.",
-      "idea_status": "pending",
-      "angle": "Do not summarize the news; diagnose the pattern underneath it.",
-      "hook": "Most people are misreading what this story is actually about. epimetabolic rate is the only scoreboard that really matters in periods of fast change.",
+      "content_type": "high_lindy_source_tour",
+      "pillar": "High-Lindy Source Tour Guide",
+      "topic_thesis": "Reversibility is temporary: once an AI workflow is embedded in roles, metrics, training, and doctrine, the organization—not the model—becomes the lock-in.",
+      "seed_topic_thesis": "Severability and reversibility make criticism cheaper and therefore more honest.",
+      "idea_status": "developed",
+      "angle": "Use the delayed productivity gains from electrification to show why technically reversible AI pilots can become organizationally irreversible long before leaders recognize the underlying architecture as wrong.",
+      "hook": "The dangerous AI decision is not choosing the wrong model. It is training the organization around a temporary workflow.",
       "source_bundle_id": null,
       "timely_subject": null,
       "draft_ref": null,
       "winner_id": null,
       "risk_level": "low",
       "freshness_deadline": null,
-      "publish_payload": null
+      "publish_payload": null,
+      "novel_idea": {
+        "pass": true,
+        "topic_thesis": "Reversibility is temporary: once an AI workflow is embedded in roles, metrics, training, and doctrine, the organization—not the model—becomes the lock-in.",
+        "angle": "Use the delayed productivity gains from electrification to show why technically reversible AI pilots can become organizationally irreversible long before leaders recognize the underlying architecture as wrong.",
+        "hook": "The dangerous AI decision is not choosing the wrong model. It is training the organization around a temporary workflow.",
+        "argument_summary": "Electrification produced its largest gains only after factories redesigned complementary systems such as layouts, accounting, management practices, and operating concepts. Those complements also made each architecture durable and costly to replace. AI creates the same path-dependence: a model or agent can be swapped quickly, but the surrounding roles, measures, interfaces, habits, and doctrine cannot. As those complements accumulate, an apparently reversible pilot hardens into organizational capital. Operators should therefore evaluate reversibility at the level of the whole work system and resist institutionalizing an agent architecture before it has survived real boundary-of-consequence feedback. This differs from the prior argument that reversibility lowers the social cost of criticism: the new claim is that reversibility itself decays as organizational complements accumulate.",
+        "novelty_score": 9.2,
+        "closest_post_id": "019cfbe3-1b7d-811d-622d-f3d64baa33a3",
+        "novelty_rationale": "The closest post argues that breaking a plan into reversible pieces makes criticism cheaper and honesty safer. This argument identifies a different causal mechanism and operator problem: sunk investment, trained habits, and complementary organizational systems progressively eliminate reversibility. The consequence is not primarily better candor but avoidance of path-dependent AI architecture lock-in. The operator decision also changes from structuring reversible experiments to delaying institutional hardening and testing reversibility across the entire work system.",
+        "source_grounding": "The source’s electrification discussion says productivity gains lagged while complementary layouts, accounting systems, management practices, and operating concepts developed. The Paul David material adds that incumbents preserved durable capital rationally, that transitions are path-dependent, and that early commitment to an agent doctrine, interface, or work shape can lock a firm through sunk investment and trained habits. It explicitly describes the organizational chart as durable capital and warns that replacement is costly and partly irreversible.",
+        "gate_version": 2,
+        "model": "gpt-5.6-sol",
+        "history_count": 98,
+        "history_fingerprint": "d02c4080f9fb0855ba21cc5bab0fcb7e0dd48b4b0a813562c532f840f8d18e20",
+        "developed_at": "2026-08-31T05:46:20.489Z"
+      },
+      "preparation": {
+        "status": "ready",
+        "prepared_at": "2026-08-31T05:48:07.639Z",
+        "history_fingerprint": "d02c4080f9fb0855ba21cc5bab0fcb7e0dd48b4b0a813562c532f840f8d18e20",
+        "attempts": [
+          {
+            "content_type": "decoder_ring",
+            "seed_topic_thesis": "Epimetabolic Rate is the only scoreboard that really matters in periods of fast change.",
+            "status": "failed",
+            "reason": "unexpected_error",
+            "error": "Unterminated string in JSON at position 1699",
+            "details": null
+          },
+          {
+            "content_type": "high_lindy_source_tour",
+            "seed_topic_thesis": "Severability and reversibility make criticism cheaper and therefore more honest.",
+            "status": "prepared",
+            "reason": null,
+            "error": null,
+            "details": null
+          }
+        ],
+        "package": {
+          "version": 1,
+          "prepared_at": "2026-08-31T05:48:07.639Z",
+          "history_fingerprint": "d02c4080f9fb0855ba21cc5bab0fcb7e0dd48b4b0a813562c532f840f8d18e20",
+          "payload": {
+            "item_id": "68b804193e5f",
+            "scheduled_at": "2026-08-31T12:30:00.000Z",
+            "content_type": "high_lindy_source_tour",
+            "pillar": "High-Lindy Source Tour Guide",
+            "topic_thesis": "Reversibility is temporary: once an AI workflow is embedded in roles, metrics, training, and doctrine, the organization—not the model—becomes the lock-in.",
+            "angle": "Use the delayed productivity gains from electrification to show why technically reversible AI pilots can become organizationally irreversible long before leaders recognize the underlying architecture as wrong.",
+            "hook": "The dangerous AI pilot is not the one that fails. It’s the one that works just well enough to reorganize the company around it.",
+            "body_text": "The dangerous AI pilot is not the one that fails. It’s the one that works just well enough to reorganize the company around it.\n\nPaul David showed why electrification took decades to lift productivity. Early factories replaced steam engines with dynamos but kept the old line shafts, belts, and layouts. The real gains came only after factories were rebuilt around distributed electric motors.\n\nAI pilots look reversible because models and APIs can be swapped. But then owners are assigned, roles change, metrics harden, training spreads, and approval chains adapt. The model remains replaceable. The organization does not.\n\nBy the time leaders discover the workflow encoded the wrong architecture, rollback means unwinding status, incentives, skills, and promises. That is no longer a technical decision. It is an institutional fight.\n\nTreat every AI pilot as an architecture decision. Design the deletion path before adoption creates a constituency.",
+            "footer_text": "If this resonated, the full program is free: critique → dissolution → reconstitution → renewal. One loop. Every scale. dionysusprogram.com",
+            "footer_index": 11,
+            "footer_divider": "---",
+            "final_text": "The dangerous AI pilot is not the one that fails. It’s the one that works just well enough to reorganize the company around it.\n\nPaul David showed why electrification took decades to lift productivity. Early factories replaced steam engines with dynamos but kept the old line shafts, belts, and layouts. The real gains came only after factories were rebuilt around distributed electric motors.\n\nAI pilots look reversible because models and APIs can be swapped. But then owners are assigned, roles change, metrics harden, training spreads, and approval chains adapt. The model remains replaceable. The organization does not.\n\nBy the time leaders discover the workflow encoded the wrong architecture, rollback means unwinding status, incentives, skills, and promises. That is no longer a technical decision. It is an institutional fight.\n\nTreat every AI pilot as an architecture decision. Design the deletion path before adoption creates a constituency.\n\n---\n\nIf this resonated, the full program is free: critique → dissolution → reconstitution → renewal. One loop. Every scale. dionysusprogram.com",
+            "winning_candidate_id": "2c650b5990b5",
+            "winning_score": 8.7,
+            "source_refs": [],
+            "research_bundle_id": null,
+            "timely_subject": null
+          },
+          "prepared_note": {
+            "body": "The dangerous AI pilot is not the one that fails. It’s the one that works just well enough to reorganize the company around it.\n\nPaul David showed why electrification took decades to lift productivity. Early factories replaced steam engines with dynamos but kept the old line shafts, belts, and layouts. The real gains came only after factories were rebuilt around distributed electric motors.\n\nAI pilots look reversible because models and APIs can be swapped. But then owners are assigned, roles change, metrics harden, training spreads, and approval chains adapt. The model remains replaceable. The organization does not.\n\nBy the time leaders discover the workflow encoded the wrong architecture, rollback means unwinding status, incentives, skills, and promises. That is no longer a technical decision. It is an institutional fight.\n\nTreat every AI pilot as an architecture decision. Design the deletion path before adoption creates a constituency.",
+            "sourceMode": "canonical_package"
+          },
+          "x_preflight": {
+            "status": "dry_run",
+            "reason": null,
+            "payload": {
+              "source_channel": "linkedin",
+              "source_final_text_hash": "cd0d437e340a8afb26d64deb07329c60f34e4a431a3e28a1ace7c5b48bfd5d95",
+              "source_winning_candidate_id": "2c650b5990b5",
+              "text": "Turn off the API and the invoice stops. The new approval chain doesn’t. Neither do the role changes, customer promises, or performance targets built around it.\n\nAn AI rollback can begin as engineering and end as a fight over whose work still counts.",
+              "winning_candidate_id": "d4453ba7e35e",
+              "winning_score": 9
+            },
+            "winnerCandidate": {
+              "id": "d4453ba7e35e",
+              "writer_model": "gpt-5.6-sol",
+              "prompt_variant": "concrete_consequence",
+              "post_text": "Turn off the API and the invoice stops. The new approval chain doesn’t. Neither do the role changes, customer promises, or performance targets built around it.\n\nAn AI rollback can begin as engineering and end as a fight over whose work still counts.",
+              "self_notes": "Makes rollback costs concrete and lands on the human conflict hidden inside a technical decision."
+            },
+            "winnerScore": {
+              "id": "b89b500c6134",
+              "candidate_id": "d4453ba7e35e",
+              "clarity_score": 9.4,
+              "compression_score": 9.1,
+              "diagnostic_score": 9.2,
+              "anti_cheese_score": 8.9,
+              "x_fit_score": 9.1,
+              "novelty_score": 8.8,
+              "engagement_score": 8.6,
+              "overall_score": 9,
+              "pass": true,
+              "pass_fail_reasons": [
+                "Best concrete distinction between technical shutdown and institutional rollback.",
+                "Approval chains, promises, and targets establish real consequences quickly.",
+                "The final line lands on human conflict without overexplaining."
+              ]
+            }
+          },
+          "winner_candidate": {
+            "id": "2c650b5990b5",
+            "writer_model": "gpt-5.6-sol",
+            "prompt_variant": "diagnosis_forward",
+            "post_text": "The dangerous AI pilot is not the one that fails. It’s the one that works just well enough to reorganize the company around it.\n\nPaul David showed why electrification took decades to lift productivity. Early factories replaced steam engines with dynamos but kept the old line shafts, belts, and layouts. The real gains came only after factories were rebuilt around distributed electric motors.\n\nAI pilots look reversible because models and APIs can be swapped. But then owners are assigned, roles change, metrics harden, training spreads, and approval chains adapt. The model remains replaceable. The organization does not.\n\nBy the time leaders discover the workflow encoded the wrong architecture, rollback means unwinding status, incentives, skills, and promises. That is no longer a technical decision. It is an institutional fight.\n\nTreat every AI pilot as an architecture decision. Design the deletion path before adoption creates a constituency.",
+            "self_notes": "Live candidate in diagnosis_forward mode."
+          },
+          "winner_score": {
+            "id": "41541ef904c5",
+            "candidate_id": "2c650b5990b5",
+            "voice_score": 8.8,
+            "novelty_score": 8.2,
+            "engagement_score": 8.9,
+            "clarity_score": 9.2,
+            "risk_score": 9.2,
+            "citation_score": 8.5,
+            "linkedin_native_score": 9,
+            "overall_score": 8.7,
+            "pass": true,
+            "pass_fail_reasons": [
+              "The opener creates immediate tension through a surprising failure mode: a pilot that succeeds enough to create lock-in.",
+              "Sustains attention with a clear distinction between model replaceability and organizational reversibility.",
+              "The electrification history is concise, accurate, and subordinate to the present-tense argument.",
+              "The constituency and deletion-path language adds a concrete operator consequence beyond the recent architecture discussion.",
+              "Strong ending with a specific move rather than a soft summary.",
+              "Complies with length and no-emoji/no-hashtag/no-link requirements."
+            ]
+          },
+          "package_gate": {
+            "pass": true,
+            "attempted_candidates": 1,
+            "note_linkedin_novelty_score": 8.2,
+            "note_linkedin_engagement_score": 8.9,
+            "x_status": "dry_run",
+            "x_novelty_score": 8.8,
+            "x_engagement_score": 8.6
+          },
+          "selection_reason": "memory_safe_top_choice",
+          "research_bundle": null
+        }
+      },
+      "fallback": {
+        "attempt": 1,
+        "selected_at": "2026-08-31T05:39:41.609Z",
+        "from_content_type": "decoder_ring",
+        "from_seed_topic_thesis": "Epimetabolic Rate is the only scoreboard that really matters in periods of fast change."
+      },
+      "skip_reason": null
     },
     {
       "id": "72c7f5ea16bf",
