@@ -45,7 +45,7 @@ This distinction is the heart of the book. Most organizations either stay in Run
 
 What makes this unusually practical is that it isn't just an essay. It's a toolset with interlocking parts:
 
-* **The Epimetabolic Equation**: a mathematical model that turns culture into dynamics—linking trust, ritual capacity, stewardship integrity, beauty, and melt into explicit failure modes and a single diagnostic: how much structure you gain per unit of trust you burn.
+* **The Epimetabolic Equation**: a mathematical thought experiment that imagines how trust, ritual capacity, stewardship integrity, beauty, and melt might interact. Its equations and interactive simulation make the book's assumptions explorable; they do not establish a proven calculus of organizational life.
 * **The One-Man Job**: a diagnosis of why trust is harder to accumulate when AI collapses the division of labor and distributed work eliminates proximity—and practical guidance on generating *Ren* (the density of trust and shared history that makes high-heat rituals safe) deliberately through play, mission commitment, and hiring for relational density.
 * **The Coherence sequence**: three chapters that explain the post-AGI scaling constraint—why agency abundance creates a coherence ceiling, why doctrine must become executable, and why post-AGI organizations need Auteurs, Agents, and Actors rather than people acting as middleware for everything.
 * **The Impatience of Jobs**: the hard case—how to compress relational time through boundary, ordeal, and complicity when Ren must form in quarters rather than decades, without turning necessity into cult.
@@ -1980,9 +1980,13 @@ The law that lives is the law that can die and be reborn.
 
 ## The Epimetabolic Equation
 
-### A Mathematical Model of The Dionysus Program
+### A Mathematical Thought Experiment
 
-This model quantifies the central thesis of the program: that an organization's ability to improve is not determined by its raw intelligence or resources, but by its Epimetabolic Rate—the speed at which it can digest error into new structure without destroying its social fabric.
+What would the book's concepts look like if we imagined them as a mathematical system? The equations below are one possible answer. They give formal shape to the program's central intuition: an organization's ability to improve depends on how readily it can digest error into new structure without destroying its social fabric.
+
+This is a thought experiment, not an empirically validated theory or a proven calculus of organizational life. Trust, beauty, and stewardship do not arrive in standardized units. The numerical values are illustrative choices, and the equations encode judgments about how these concepts might interact. A result can follow correctly from those choices without establishing that a real organization behaves that way.
+
+The value of the exercise is to make the assumptions visible. Making trust a bottleneck, letting unprocessed error compound, and allowing stewardship to decay lets us explore the consequences of those premises together. You can question the relationships as well as the numbers. The mathematics gives the argument something explicit to be wrong about.
 
 The coherence addition does not replace the model. It adds a Run Time load condition. Epimetabolic rate governs how well the organization updates the map and repairs the substrate. Coherence capacity governs how much distributed agency can act from the current map before marginal agency turns negative.
 
@@ -1995,7 +1999,7 @@ In this model, Structure ($S$) is defined as Explanatory Reach: the range of pro
 
 ### Variables: Inputs and Environment
 
-These inputs define the state of your organization at cycle $t$. Some you control; some you don't.
+These inputs and state variables describe an imagined organization at cycle $t$. Their scales belong to the model; assigning a number to Ren or Beauty does not constitute a measurement of an actual team. Some represent deliberate choices; others represent accumulated conditions or environmental pressures.
 
 #### Melt Rate ($\mu_t$)
 
@@ -2025,15 +2029,15 @@ A system with low public availability of Ritual Time may appear stable because m
 
 * $\tau_t$ — Tau: The toxicity penalty for unprocessed error at time $t$. Defaults to high ($\approx 1.5$).
 
-### Constants: Fixed Parameters
+### Parameters: Illustrative Assumptions
 
-These are the structural parameters of social systems.
+These parameters are held fixed within a simulation run. They express the story this version of the model is designed to explore; they are not established constants of social systems.
 
-Note on Calibration: The values listed below are relative to the chosen time unit for $t$.
+The values below have not been empirically calibrated. Their meaning depends on the chosen scales and the time unit for $t$; a cycle has no established correspondence to a week, quarter, or year.
 
 * $\alpha$ — The Earn Rate ($\approx 0.02$): Trust builds slowly. Successful metabolism of error yields only a tiny increase in social capital per cycle.
 
-* $\gamma$ — The Burn Rate ($\approx 0.10$): Trust burns fast. Toxic overflow destroys social capital $5\times$ faster than success builds it.
+* $\gamma$ — The Burn Rate ($\approx 0.10$): To represent trust burning faster than it builds, we choose a burn coefficient $5\times$ the earn coefficient. That ratio is an assumption, not a measured fact; actual changes within the model also depend on Growth, Decay, and Beauty.
 
 * $\delta$ — The Oligarchic Drift ($\approx 0.05$): Power naturally freezes. Stewardship ($C$) decays over time as leaders protect their continuity.
 
@@ -2043,7 +2047,7 @@ Note on Calibration: The values listed below are relative to the chosen time uni
 
 ### Equations: System Dynamics
 
-The system evolves from $t$ to $t+1$ through the following sequence.
+Under these assumptions, the system evolves from $t$ to $t+1$ through the following sequence. The weakest-link minimum, quadratic overflow damage, and full stewardship reset are modeling choices. Other plausible formulations could produce different trajectories.
 
 #### Step 1: Calculate Intermediate States
 
@@ -2104,7 +2108,7 @@ We update the core stocks of the system based on the flows calculated above.
    $C_{t+1} = C_t (1-\delta)$ with probability $1-\rho$ (Drift).
 
    **Analytical Expectation:**
-   To predict the long-term integrity of the system ($C^*$) based on a given rotation rate ($\rho$) and drift ($\delta$), we solve for the steady state:
+   To derive the model's steady-state expected integrity ($C^*$) for a given rotation rate ($\rho$) and drift ($\delta$), we solve:
 
    $$\mathbb{E}[C_{t+1} \mid C_t] = \rho \cdot 1 + (1-\rho) \cdot C_t (1-\delta)$$
 
@@ -2119,7 +2123,7 @@ We update the core stocks of the system based on the flows calculated above.
 
 ### Failure Conditions
 
-The system can fail in two distinct ways:
+We define two failure conditions within this imagined system. These thresholds let us explore different kinds of breakdown; they are not validated cutoffs for real organizations:
 
 1. **Internal Collapse:** Trust Death Spiral. $R_t \leq 0$
 
@@ -2149,7 +2153,7 @@ AGI adds a second operating constraint to the model: agency load.
 
 * $V^r_t$ — Regulatory Variety: the variety of doctrine, evals, permissions, feedback paths, rituals, and human judgment available to regulate action.
 
-The practical diagnostic is:
+The proposed relationship can be sketched as:
 
 $$A_t \cdot V^a_t > Coh_t \Rightarrow \text{marginal agency turns negative}$$
 
@@ -2157,19 +2161,27 @@ The Ashby-compatible version is:
 
 $$V^r_t \geq V^a_t \quad \text{for action that must remain within shared essential variables}$$
 
-This is not a full replacement equation. It is a load warning. When agency and agency-variety exceed coherence capacity and regulatory variety, the organization enters agency inversion: new agents add rework, contradiction, supervision, deletion, and trust repair faster than they add useful throughput.
+These inequalities are conceptual shorthand, not calibrated tests. No common measurement scale or numerical tipping point is established here. They express the book's proposed load warning: when agency and agency-variety exceed the capacity to maintain coherence and regulate action, additional agents may add rework, contradiction, supervision, deletion, and trust repair faster than useful throughput.
 
 Epimetabolic rate raises the coherence ceiling by updating doctrine, restoring Ren, and improving the organization's ability to regulate distributed agency. A successful Ritual Time cycle should therefore show up in two ways: better explanations and a higher span of coherence.
 
 ### Diagnostic: Epimetabolic Rate ($\Phi$)
 
-Finally, we define the scalar diagnostic for the system. This metric answers: "How much structure did we gain per unit of trust we burned?"
+Finally, we define a diagnostic within the model: "How much structure did we gain per unit of net trust lost?" It gives numerical form to a question the book asks readers to consider; it is not a validated score for comparing organizations.
 
 $$\Phi_t = \mathrm{max}(0, \Delta S_t) / \mathrm{max}(\epsilon, R_t - R_{t+1})$$
+
+Here $\epsilon$ is a small positive floor that prevents division by zero. When trust stays flat or grows, the score depends directly on that chosen floor. Its magnitude should therefore be read within the simulation, not treated as an independently meaningful measure of organizational health.
 
 * High $\Phi$ (The Dionysian): You are gaining massive Reach while Trust stays flat or grows. Efficiency is high.
 * Medium $\Phi$ (The Pyrrhic Victory): You are gaining structure, but you are spending down social capital to do it. You are winning the quarter but losing the team.
 * Low $\Phi$ (The Pyre): You are buying small improvements at the cost of massive social damage. You are burning the furniture to heat the house.
+
+### Using the Calculator
+
+The interactive simulation is a calculator for this thought experiment. It calculates what follows from the selected inputs and rules. It cannot establish whether those rules describe your organization, and its precision should not be mistaken for evidence.
+
+Start with an archetype, change one input, and watch how the imagined trajectory changes. What happens when disruption rises while ritual capacity stays fixed? What happens when stewardship rotates more often? Use the curves to examine feedback loops and tradeoffs, then ask which assumptions fit your experience and what evidence would challenge them. A simulated collapse is a consequence of the setup, not a forecast; a thriving curve is an invitation to investigate, not proof that an intervention will work.
 
 ```{=html}
 <p class="sim-link"><a href="simulation.html">Explore the interactive simulation →</a></p>
@@ -2185,9 +2197,9 @@ $$\Phi_t = \mathrm{max}(0, \Delta S_t) / \mathrm{max}(\epsilon, R_t - R_{t+1})$$
 
 ## Archetypes: The Space of Organizational Fates
 
-The Epimetabolic Equation generates a finite taxonomy of qualitatively distinct trajectories. These are not personality types or value judgments—they are dynamical attractors. Given a configuration of parameters, your organization will tend toward one of these fates. Understanding which attractor you're approaching is the first step toward changing course.
+The archetypes below give names to selected patterns we can explore through the Epimetabolic Equation. They are illustrative scenarios, not an exhaustive taxonomy or empirically established organizational fates. Each pairs a configuration of assumptions with a story about the dynamics it is meant to illuminate. Recognizing a familiar pattern can help you ask better questions without making the simulated outcome a prediction.
 
-Each archetype below describes three things: the situation (what parameters look like), the dynamics (what happens mechanically), and the outcome (where you end up). Links let you watch each pattern unfold in the simulator.
+Each archetype below describes three things: the situation (what parameters look like), the dynamics (how the model represents their interaction), and the outcome (the trajectory the scenario illustrates). Links let you explore each setup in the simulator. Historical parallels are interpretive examples, not calibration data or tests of predictive accuracy.
 
 ### Thriving Archetypes
 

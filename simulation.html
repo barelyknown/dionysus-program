@@ -4,18 +4,23 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Epimetabolic Simulation — The Dionysus Program</title>
-  <meta name="description" content="Interactive simulation of the Epimetabolic Equation from The Dionysus Program.">
+  <meta name="description" content="Explore The Dionysus Program as a mathematical thought experiment, with illustrative assumptions and simulated outcomes.">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <main>
     <header class="page-header">
       <h1>The Dionysus Program</h1>
-      <p class="page-subtitle">An Epimetabolic Simulation</p>
+      <p class="page-subtitle">An Epimetabolic Thought Experiment</p>
       <p class="page-download">
         <a href="index.html">← Back</a>
       </p>
     </header>
+
+    <section aria-label="About this simulation">
+      <p>This calculator imagines the book's concepts as a mathematical system. Its equations and default values are illustrative assumptions, not an empirically validated calculus of organizational life. The charts show what follows from those assumptions; they do not predict your organization's future.</p>
+      <p>Choose an archetype, change one input, and explore the feedback loops. Treat the results as questions to investigate: which relationships fit your experience, and what evidence would challenge them? Trust, beauty, and stewardship have no standardized units here, and a simulated cycle has no established duration in real life.</p>
+    </section>
 
     <div id="epimetabolic-simulation-root" class="simulation-container">
       <div class="sim-loading" aria-live="polite">
@@ -28,9 +33,16 @@
     </div>
 
     <footer class="page-footer">
-      <p class="page-rights">© 2025 Sean Devine. All rights reserved.</p>
+      <p class="page-rights">© <span id="copyright-years" data-start-year="2025">2025–2026</span> Sean Devine. All rights reserved.</p>
     </footer>
   </main>
+
+<script>
+  const copyrightYears = document.getElementById('copyright-years');
+  const startYear = Number(copyrightYears.dataset.startYear);
+  const currentYear = Math.max(startYear, new Date().getFullYear());
+  copyrightYears.textContent = currentYear === startYear ? String(startYear) : `${startYear}–${currentYear}`;
+</script>
 
 <script type="importmap">
 {
@@ -502,7 +514,7 @@ function EpimetabolicSimulation() {
         h(SliderControl, { label: 'Toxicity', symbol: 'τ', value: inputs.tau, min: 0.5, max: 5, step: 0.1, desc: 'Penalty for unprocessed error.', onChange: function(v) { updateInput('tau', v); } })
       ),
       h('div', { className: 'sim-controls-col' },
-        h('h4', { className: 'sim-section-title' }, 'Constants'),
+        h('h4', { className: 'sim-section-title' }, 'Illustrative Parameters'),
         h(SliderControl, { label: 'Earn Rate', symbol: 'α', value: inputs.alpha, min: 0.01, max: 0.1, step: 0.01, desc: 'Trust gained per unit of metabolized error.', onChange: function(v) { updateInput('alpha', v); } }),
         h(SliderControl, { label: 'Burn Rate', symbol: 'γ', value: inputs.gamma, min: 0.01, max: 0.5, step: 0.01, desc: 'Trust destroyed per unit of toxic overflow.', onChange: function(v) { updateInput('gamma', v); } }),
         h(SliderControl, { label: 'Oligarchic Drift', symbol: 'δ', value: inputs.delta, min: 0.01, max: 0.2, step: 0.01, desc: 'Rate of stewardship decay per cycle.', onChange: function(v) { updateInput('delta', v); } }),

@@ -20,7 +20,7 @@ This distinction is the heart of the book. Most organizations either stay in Run
 
 What makes this unusually practical is that it isn't just an essay. It's a toolset with interlocking parts:
 
-* **The Epimetabolic Equation**: a mathematical model that turns culture into dynamics—linking trust, ritual capacity, stewardship integrity, beauty, and melt into explicit failure modes and a single diagnostic: how much structure you gain per unit of trust you burn.
+* **The Epimetabolic Equation**: a mathematical thought experiment that imagines how trust, ritual capacity, stewardship integrity, beauty, and melt might interact. Its equations and interactive simulation make the book's assumptions explorable; they do not establish a proven calculus of organizational life.
 * **The One-Man Job**: a diagnosis of why trust is harder to accumulate when AI collapses the division of labor and distributed work eliminates proximity—and practical guidance on generating *Ren* (the density of trust and shared history that makes high-heat rituals safe) deliberately through play, mission commitment, and hiring for relational density.
 * **The Coherence sequence**: three chapters that explain the post-AGI scaling constraint—why agency abundance creates a coherence ceiling, why doctrine must become executable, and why post-AGI organizations need Auteurs, Agents, and Actors rather than people acting as middleware for everything.
 * **The Impatience of Jobs**: the hard case—how to compress relational time through boundary, ordeal, and complicity when Ren must form in quarters rather than decades, without turning necessity into cult.
