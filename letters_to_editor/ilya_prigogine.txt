@@ -1,6 +1,6 @@
 To the Editor of the Dionysus Program,
 
-I have read your manual with the curiosity of a physicist finding his equations scrawled on the walls of a city council meeting. You have taken the thermodynamics of non-equilibrium systems and applied them to the behavior of committees. It is an audacity that I suspect would have amused the gods you invoke.
+You apply ideas from non-equilibrium thermodynamics to organizations. The comparison may help readers think about change, but it needs clear limits.
 
 For decades, I argued against the classical view of science—the view that treats time as a reversible illusion and certainty as the default state of nature. Classical dynamics, from Newton to Einstein, painted a world of being, a static crystal where the future is already contained in the present. But the world we inhabit, the world of biology and history, is a world of becoming.
 
@@ -14,8 +14,8 @@ However, I must offer a caution from the perspective of physics. Near bifurcatio
 
 We long believed that the arrow of time was a source of despair, a march toward heat death. But I have always believed that the arrow of time is the source of creativity. It is the irreversible nature of your "tragic postmortems" that gives them value. We cannot go back. We can only evolve into a more complex structure that consumes the errors of the past.
 
-You are attempting to build a bridge between the two cultures, between the hard laws of nature and the soft, messy reality of human meaning. It is a dangerous bridge to walk, but the view from the center is the only one worth seeing.
+The question is how a group maintains continuity while its practices change. Thermodynamics can suggest ways to think about that question; it cannot establish the social mechanism.
 
-Do not fear the heat. The heat is the proof that you are still alive.
+Keep the distinction between a physical result and an organizational analogy explicit.
 
 Not Ilya Prigogine

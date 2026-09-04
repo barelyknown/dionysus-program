@@ -1,6 +1,6 @@
 To the Editor of the Dionysus Program:
 
-You have written a long book to announce, in unfamiliar words, that there are decreasing returns to the entrepreneur function. I established this some time ago, and at less length.
+Your Coherence Ceiling resembles the increasing cost of organizing additional transactions within a firm. The question is what AI changes about that cost.
 
 A firm exists for one reason: there are transactions that cost less to organize by command inside a hierarchy than to conduct by contract across a market. That, and only that, fixes its boundary. The firm grows by bringing one more transaction in-house, and it keeps growing until the cost of organizing that next transaction internally rises to meet the cost of leaving it to the market. What prevents the firm from swallowing the whole economy is that the entrepreneur, as he directs more, directs each thing worse. Your Coherence Ceiling is this rising cost of internal organization, rediscovered and given a dramatic name. I do not mind the name. I mind that you present as a new law of the AGI age what is simply the firm meeting its own margin.
 

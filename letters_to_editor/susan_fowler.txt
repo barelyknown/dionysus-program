@@ -1,6 +1,6 @@
 To the authors of the Dionysus Program:
 
-I read your manifesto with the specific attention of someone who has lived inside the failure modes you describe. You cite my blog post regarding Uber in your section on the Pyrrhic Leader, noting that the company won the market while destroying its internal capacity to sustain itself. You are right about the mechanics of the collapse. You are wrong, however, about the safety of the tools you are offering to fix it.
+Your account of Uber recognizes how competitive success can coexist with serious internal harm. My concern is whether the practices you propose can protect people when leadership is responsible for that harm.
 
 Your error lies in the assumption that the distinction between Li and Ren is legible to the people who lack the latter. You write that if a group lacks humaneness, they should not attempt the heavy machinery of the Dionysus Program. You warn that installing high-intensity rituals in a low-trust environment creates management theater or a struggle session.
 
@@ -12,7 +12,7 @@ I studied philosophy and physics before I became an engineer. I found comfort in
 
 In my experience, when meaning melts in a corporate environment, it does not usually reconstitute into a higher form of knowledge. It reconstitutes into power.
 
-When you strip away the standing rules of Run Time to enter Ritual Time, you create a vacuum. You intend for that vacuum to be filled by the "anti-scapegoat" and "no-blame covenants." In practice, physics dictates that a vacuum is filled by the strongest local force. In a corrupted organization, that force is the whim of the person with the most equity.
+When you strip away the standing rules of Run Time to enter Ritual Time, you create a vacuum. You intend for that vacuum to be filled by the "anti-scapegoat" and "no-blame covenants." In practice, existing power does not disappear when ordinary rules are suspended. In a corrupted organization, that force is the whim of the person with the most equity.
 
 A "Crossing" where a product is put on trial can easily become a show trial for the team that built it, provided the leader uses the correct sociological language to justify the abuse. You speak of "Beautiful Heat." I have sat in rooms where humiliation was described as "passion" and "intensity." The aestheticization of conflict is often just a way to make abuse palatable to the abused.
 
@@ -20,11 +20,11 @@ You rely heavily on the idea that the "anti-scapegoat" can absorb the violence o
 
 I do not write this to dismiss the necessity of what you call the epimetabolic rate. You are correct that organizations die because they cannot digest the truth. Uber was incapable of processing the information that its culture was a liability, so it had to be destroyed by external forces.
 
-But you must understand that you have written a manual for reactor maintenance, and you are leaving it in a nursery.
+A warning in the text is insufficient if the people it warns against control how the process is used.
 
 The organizations that have the "Ren" necessary to run these rituals safely do not need them, because they are likely already practicing them unconsciously through basic decency and competence. The organizations that need them the most—the ones trapped in the Death Spiral or the grip of a Pyrrhic Leader—are the ones most likely to turn a "Festival of Misrule" into a purge.
 
-If you want this program to work, you cannot just warn against the priesthood. You must assume that the priesthood is already there, waiting to turn your "Rite of Redress" into a confessional booth where they are the only ones on the other side of the screen.
+Test the safeguards under hostile leadership. Who can stop a review, challenge the convener, report retaliation, or refuse a coerced disclosure? The program needs answers that do not depend on the leader’s judgment of their own conduct.
 
 Signed,
 
