@@ -1,24 +1,24 @@
 ## About the Program
 
 ::: about-program
-Knowledge now melts faster than organizations can re-bind it into identity, norms, and operating systems without depleting trust. AI compresses the half-life of expertise; what took decades now happens in quarters. Under that pressure, the primary obstacle to progress is no longer technical—it's cultural. Teams hit their limits not because they can't think, but because they can't digest disruptive reality into new roles, new norms, and new commitments without collapsing into numbness, scapegoating, or management theater.
+Knowledge changes faster than organizations can adapt their roles, norms, and working methods. AI accelerates that change by making established expertise less scarce. Teams struggle not only to learn new tools, but to change how they work without losing trust or turning to blame.
 
-AI also opens a second bottleneck. As competent agency becomes cheap, organizations face not only more knowledge-change but more action: people, software workflows, and mixed human-machine units can now plan, commit, publish, promise, and revise faster than the organization can carry intent across them. The limiting factor becomes coherence—the capacity to keep distributed agency acting from one living map without freezing the map into dogma. Coherence is the Run Time state; epimetabolism is the renewal that restores and raises it when reality breaks the map.
+AI creates a second bottleneck: more capacity to act. People and software can plan, publish, make commitments, and revise them faster than an organization can keep those actions consistent. The limiting factor becomes coherence—the ability to preserve shared intent across independent decisions. Run Time maintains that coherence; epimetabolism renews it when the organization’s assumptions fail.
 
 The *Dionysus Program* is a field manual for leaders facing those bottlenecks. Written by Sean Devine, founder and CEO of XBE.
 
-It argues for a new scoreboard: **epimetabolic rate**—the speed at which a person, team, or organization converts error into new structure without burning its social fabric. The method is a loop you can run: critique → dissolution → reconstitution → renewal. Not "more candor" stapled onto an unchanged culture, but an operating system where knowledge-updating becomes cheaper, safer, and more productive over time—so you can move fast, break things, and then mend what you break into something stronger.
+The program’s central measure is **epimetabolic rate**: how quickly a person, team, or organization turns error into better structure without destroying trust. Its method follows a repeatable sequence: critique → dissolution → reconstitution → renewal. Each cycle should make it easier to question an assumption, replace it, and act on what was learned.
 
-Underlying both modes is a distinction the program makes explicit: knowledge and myth are not the same thing, and they do not fail the same way. Knowledge explains the world and decays as the world changes—its half-life is the program's central problem. Myth explains you: your orientation toward action, your identity across time, your capacity to remain coherent while the knowledge layer turns over. Myth runs on a different clock entirely. The faster knowledge moves, the more an organization needs a stable myth layer beneath it. The program names both layers and shows how to maintain them.
+The program also distinguishes knowledge from myth. Knowledge explains the world and is revised as explanations fail. Myth describes who we are and how we intend to act. As expertise changes, a shared myth can provide continuity without requiring us to preserve obsolete knowledge. The book examines how these layers support each other and how they can be confused.
 
 The program is built around a deliberate toggle between two modes:
 
 * **Run Time**: ordinary operations—execution, decisions, outcomes, accountability to plans, and the conversion of current doctrine into coherent agency.
 * **Ritual Time**: protected containers where the work is metabolizing loss—where performance scoring pauses, doctrine can be updated, and the group becomes accountable to the rite: non-violent rules, reason-giving, and the standing right of criticism.
 
-This distinction is the heart of the book. Most organizations either stay in Run Time until reality forces a catastrophic break, or they perform Ritual Time and get theater. The *Dionysus Program* shows how to build Ritual Time that can hold real heat without harm: concentrating conflict onto shared objects instead of people, designing beauty and hospitality so disruptive knowledge is bearable, and practicing tragedy so losses teach instead of traumatize.
+This distinction is the heart of the book. Organizations often stay in Run Time until a crisis forces change, or conduct reviews whose conclusions never affect the work. The program describes how to make Ritual Time effective: direct criticism at shared objects, protect the people doing the criticizing, and turn recognition of a failure into a specific change.
 
-What makes this unusually practical is that it isn't just an essay. It's a toolset with interlocking parts:
+The book includes several tools for doing this:
 
 * **The Epimetabolic Equation**: a mathematical thought experiment that imagines how trust, ritual capacity, stewardship integrity, beauty, and melt might interact. Its equations and interactive simulation make the book's assumptions explorable; they do not establish a proven calculus of organizational life.
 * **The One-Man Job**: a diagnosis of why trust is harder to accumulate when AI collapses the division of labor and distributed work eliminates proximity—and practical guidance on generating *Ren* (the density of trust and shared history that makes high-heat rituals safe) deliberately through play, mission commitment, and hiring for relational density.
@@ -27,11 +27,9 @@ What makes this unusually practical is that it isn't just an essay. It's a tools
 * **The Alchemy of Error**: why organizational truth requires both public rigor and a protected human container.
 * **The Alchemist's Assay**: a diagnostic lens that distinguishes true transformation from false alchemy.
 * **Crimes Against Ren**: a penal code for breaches of the container—atimia, exile, and restoration—so enforcement protects the rites without scapegoating.
-* **Archetypes of Organizational Fate**: a taxonomy of recognizable end-states (thriving, pyrrhic victories, declines, collapses) you can name early, diagnose accurately, and intervene on while change is still possible.
-* **The Interactive Simulation**: a web-based companion that lets you manipulate the model and watch trajectories unfold—so small parameter changes become legible before they harden into fate.
+* **Archetypes of Organizational Fate**: illustrative patterns of growth, decline, and collapse that help you examine your organization’s choices.
+* **The Interactive Simulation**: a web-based companion that lets you change the inputs and explore the consequences of the model’s assumptions.
 * **Letters to the Editor**: dramatized critiques from rival traditions and "ghost advisors," stress-testing the program the way the program demands: by standing in public under intelligent opposition.
 
-If you're looking for tactics that preserve your current identity while the world changes around you, this won't satisfy. But if you want a rigorous way to face disruptive knowledge—and come out stronger on the other side—the *Dionysus Program* is a set of rites for renewal you can actually run.
-
-The world is not going to slow down for us. So we will have to become the kind of people who can keep up—without becoming less human.
+The program asks leaders to put their own explanations and practices through the same scrutiny they expect of others.
 :::

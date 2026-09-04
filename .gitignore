@@ -1,4 +1,5 @@
 .DS_Store
+/editorial/
 node_modules/
 playwright-artifacts/
 agent/artifacts/
