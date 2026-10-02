@@ -672,18 +672,154 @@
       "status": "planned",
       "content_type": "high_lindy_source_tour",
       "pillar": "High-Lindy Source Tour Guide",
-      "topic_thesis": "Knowledge and myth solve different problems, and organizations fail when they confuse them.",
+      "topic_thesis": "AI will not cure information overload: by making plans, variants, and analyses cheap, it can increase coordination demand faster than it increases organizational attention.",
       "seed_topic_thesis": "Knowledge and myth solve different problems, and organizations fail when they confuse them.",
-      "idea_status": "pending",
-      "angle": "The old source is not the point; present relevance is.",
-      "hook": "An old idea becomes useful again when the present gets confusing. knowledge and myth solve different problems, and organizations fail when they confuse them.",
+      "idea_status": "developed",
+      "angle": "Use Herbert Simon, Jay Galbraith, and James D. Thompson to reframe AI overload as an organization-design problem. The operator decision is not merely whether to add better summarization, but whether to remove dependencies and match each kind of work to the right coordination mechanism.",
+      "hook": "Herbert Simon’s old warning gets sharper under AI: a wealth of generated answers can create a poverty of organizational attention.",
       "source_bundle_id": null,
       "timely_subject": null,
       "draft_ref": null,
       "winner_id": null,
       "risk_level": "low",
       "freshness_deadline": null,
-      "publish_payload": null
+      "publish_payload": null,
+      "preparation": {
+        "status": "ready",
+        "prepared_at": "2026-10-02T05:44:33.271Z",
+        "history_fingerprint": "d02c4080f9fb0855ba21cc5bab0fcb7e0dd48b4b0a813562c532f840f8d18e20",
+        "attempts": [
+          {
+            "content_type": "high_lindy_source_tour",
+            "seed_topic_thesis": "Knowledge and myth solve different problems, and organizations fail when they confuse them.",
+            "status": "prepared",
+            "reason": null,
+            "error": null,
+            "details": null
+          }
+        ],
+        "package": {
+          "version": 1,
+          "prepared_at": "2026-10-02T05:44:33.271Z",
+          "history_fingerprint": "d02c4080f9fb0855ba21cc5bab0fcb7e0dd48b4b0a813562c532f840f8d18e20",
+          "payload": {
+            "item_id": "b1cf168e0783",
+            "scheduled_at": "2026-10-02T12:30:00.000Z",
+            "content_type": "high_lindy_source_tour",
+            "pillar": "High-Lindy Source Tour Guide",
+            "topic_thesis": "AI will not cure information overload: by making plans, variants, and analyses cheap, it can increase coordination demand faster than it increases organizational attention.",
+            "angle": "Use Herbert Simon, Jay Galbraith, and James D. Thompson to reframe AI overload as an organization-design problem. The operator decision is not merely whether to add better summarization, but whether to remove dependencies and match each kind of work to the right coordination mechanism.",
+            "hook": "AI can make a company less informed by producing more information.",
+            "body_text": "AI can make a company less informed by producing more information.\n\nIn 1974, Jay Galbraith framed organization design as an information-processing problem. Under uncertainty, a firm can increase its processing capacity—or reduce how much coordination the work requires.\n\nAI does both sides of that equation unevenly. It can summarize ten pricing plans in seconds. It can also generate fifty more plans, each with assumptions, exceptions, and downstream commitments someone must reconcile.\n\nThe executive meeting remains two hours. Organizational attention does not scale with token output.\n\nSo the operator question is not merely, “How do we summarize this better?” It is, “Why do these decisions depend on one another at all?”\n\nMake work more modular. Clarify interfaces and decision rights. Reserve shared attention for the few problems that truly require mutual adjustment.\n\nIf every AI output still needs the same room to make sense of it, you have not increased intelligence. You have increased the queue.",
+            "footer_text": "The Dionysus Program is free at dionysusprogram.com. It exists because the Apollo virtues — predict, control, optimize — are necessary but no longer sufficient.",
+            "footer_index": 10,
+            "footer_divider": "---",
+            "final_text": "AI can make a company less informed by producing more information.\n\nIn 1974, Jay Galbraith framed organization design as an information-processing problem. Under uncertainty, a firm can increase its processing capacity—or reduce how much coordination the work requires.\n\nAI does both sides of that equation unevenly. It can summarize ten pricing plans in seconds. It can also generate fifty more plans, each with assumptions, exceptions, and downstream commitments someone must reconcile.\n\nThe executive meeting remains two hours. Organizational attention does not scale with token output.\n\nSo the operator question is not merely, “How do we summarize this better?” It is, “Why do these decisions depend on one another at all?”\n\nMake work more modular. Clarify interfaces and decision rights. Reserve shared attention for the few problems that truly require mutual adjustment.\n\nIf every AI output still needs the same room to make sense of it, you have not increased intelligence. You have increased the queue.\n\n---\n\nThe Dionysus Program is free at dionysusprogram.com. It exists because the Apollo virtues — predict, control, optimize — are necessary but no longer sufficient.",
+            "winning_candidate_id": "19b0f93676b9",
+            "winning_score": 8.7,
+            "source_refs": [],
+            "research_bundle_id": null,
+            "timely_subject": null
+          },
+          "prepared_note": {
+            "body": "AI can make a company less informed by producing more information.\n\nIn 1974, Jay Galbraith framed organization design as an information-processing problem. Under uncertainty, a firm can increase its processing capacity—or reduce how much coordination the work requires.\n\nAI does both sides of that equation unevenly. It can summarize ten pricing plans in seconds. It can also generate fifty more plans, each with assumptions, exceptions, and downstream commitments someone must reconcile.\n\nThe executive meeting remains two hours. Organizational attention does not scale with token output.\n\nSo the operator question is not merely, “How do we summarize this better?” It is, “Why do these decisions depend on one another at all?”\n\nMake work more modular. Clarify interfaces and decision rights. Reserve shared attention for the few problems that truly require mutual adjustment.\n\nIf every AI output still needs the same room to make sense of it, you have not increased intelligence. You have increased the queue.",
+            "sourceMode": "canonical_package"
+          },
+          "x_preflight": {
+            "status": "dry_run",
+            "reason": null,
+            "payload": {
+              "source_channel": "linkedin",
+              "source_final_text_hash": "46a7b0e16a2c79bb94c5e28932b1a94def3cc088fc47bb9a6c2d4620afa08209",
+              "source_winning_candidate_id": "19b0f93676b9",
+              "text": "Summarization reduces what people must read. Modularity reduces what they must decide together.\n\nAI is excellent at the first. Companies need more of the second. A shorter memo still consumes the same room if every choice changes everyone else’s work.",
+              "winning_candidate_id": "01de85f28821",
+              "winning_score": 8.5
+            },
+            "winnerCandidate": {
+              "id": "01de85f28821",
+              "writer_model": "gpt-5.6-sol",
+              "prompt_variant": "clean_distinction",
+              "post_text": "Summarization reduces what people must read. Modularity reduces what they must decide together.\n\nAI is excellent at the first. Companies need more of the second. A shorter memo still consumes the same room if every choice changes everyone else’s work.",
+              "self_notes": "Draws a crisp distinction between compressing information and reducing coordination demand."
+            },
+            "winnerScore": {
+              "id": "d35dc7cfe04c",
+              "candidate_id": "01de85f28821",
+              "clarity_score": 9.3,
+              "compression_score": 9.1,
+              "diagnostic_score": 9.2,
+              "anti_cheese_score": 8.7,
+              "x_fit_score": 8.8,
+              "novelty_score": 7.9,
+              "engagement_score": 7.7,
+              "overall_score": 8.5,
+              "pass": true,
+              "pass_fail_reasons": [
+                "Freshly distinguishes reducing reading load from reducing joint-decision load.",
+                "Compact, clear, and lands on a concrete organizational consequence without repeating the recent pricing or artifact-review frames."
+              ]
+            }
+          },
+          "winner_candidate": {
+            "id": "19b0f93676b9",
+            "writer_model": "gpt-5.6-sol",
+            "prompt_variant": "hook_forward",
+            "post_text": "AI can make a company less informed by producing more information.\n\nIn 1974, Jay Galbraith framed organization design as an information-processing problem. Under uncertainty, a firm can increase its processing capacity—or reduce how much coordination the work requires.\n\nAI does both sides of that equation unevenly. It can summarize ten pricing plans in seconds. It can also generate fifty more plans, each with assumptions, exceptions, and downstream commitments someone must reconcile.\n\nThe executive meeting remains two hours. Organizational attention does not scale with token output.\n\nSo the operator question is not merely, “How do we summarize this better?” It is, “Why do these decisions depend on one another at all?”\n\nMake work more modular. Clarify interfaces and decision rights. Reserve shared attention for the few problems that truly require mutual adjustment.\n\nIf every AI output still needs the same room to make sense of it, you have not increased intelligence. You have increased the queue.",
+            "self_notes": "Live candidate in hook_forward mode."
+          },
+          "winner_score": {
+            "id": "18a538c06aa7",
+            "candidate_id": "19b0f93676b9",
+            "voice_score": 8.8,
+            "novelty_score": 8.2,
+            "engagement_score": 8.7,
+            "clarity_score": 9.1,
+            "risk_score": 1.1,
+            "citation_score": 9,
+            "linkedin_native_score": 8.9,
+            "overall_score": 8.7,
+            "pass": true,
+            "pass_fail_reasons": [
+              "Strong substantive opener creates an immediate paradox without clickbait.",
+              "The pricing-plan example makes the coordination burden concrete.",
+              "Jay Galbraith is the sole named source and is paraphrased accurately.",
+              "Clear operator move: remove dependencies, modularize work, and reserve shared attention for reciprocal coordination.",
+              "The final queue distinction lands sharply.",
+              "Some thematic proximity to the recent Agentic Slop post, but the organization-design and dependency angle is sufficiently distinct.",
+              "Complies with length and no-emoji/no-hashtag/no-link requirements."
+            ]
+          },
+          "package_gate": {
+            "pass": true,
+            "attempted_candidates": 1,
+            "note_linkedin_novelty_score": 8.2,
+            "note_linkedin_engagement_score": 8.7,
+            "x_status": "dry_run",
+            "x_novelty_score": 7.9,
+            "x_engagement_score": 7.7
+          },
+          "selection_reason": "memory_safe_top_choice",
+          "research_bundle": null
+        }
+      },
+      "novel_idea": {
+        "pass": true,
+        "topic_thesis": "AI will not cure information overload: by making plans, variants, and analyses cheap, it can increase coordination demand faster than it increases organizational attention.",
+        "angle": "Use Herbert Simon, Jay Galbraith, and James D. Thompson to reframe AI overload as an organization-design problem. The operator decision is not merely whether to add better summarization, but whether to remove dependencies and match each kind of work to the right coordination mechanism.",
+        "hook": "Herbert Simon’s old warning gets sharper under AI: a wealth of generated answers can create a poverty of organizational attention.",
+        "argument_summary": "AI dramatically increases the capacity to read, summarize, generate, compare, and route information. But those same capabilities multiply the plans, objections, forecasts, workflows, and decisions that an organization must reconcile. Human attention remains finite, and reciprocal work still requires mutual adjustment across dependencies. Adding more summarization can therefore make an overloaded organization more articulate without making it more coordinated. The operator response is structural: reduce avoidable dependencies, route modular work through current doctrine and bounded agents, and reserve human mutual adjustment for ambiguous, reciprocal, or high-stakes work. Even high-quality AI output becomes a burden when the organization has not redesigned how much coordination the work requires.",
+        "novelty_score": 8.8,
+        "closest_post_id": "019febfa-2ded-9f44-e426-007c121abddb",
+        "novelty_rationale": "The closest prior post argues that plausible AI artifacts are inventory rather than throughput and recommends work-in-process limits, ownership, kill criteria, and reality feedback. This argument makes a different central claim: even useful, accurate artifacts can overwhelm an organization when reciprocal dependencies create more information-processing demand than finite attention can absorb. The causal mechanism is interdependence, not low-quality output, and the primary operator decision is to redesign work to require less coordination rather than merely filtering or limiting generated artifacts.",
+        "source_grounding": "The source applies Herbert Simon’s bounded rationality to organizations: AI expands local search and reasoning but does not remove limits on attention or the need to choose shared premises. It uses Jay Galbraith’s view of organization design as information processing under uncertainty, noting that AI increases processing capacity while also exploding demand through more plans, variants, analyses, workflows, and rival interpretations. It also draws on James D. Thompson’s distinction among pooled, sequential, and reciprocal interdependence to recommend doctrine-guided agents for modular work and mutual adjustment for ambiguous, reciprocal, high-stakes work.",
+        "gate_version": 2,
+        "model": "gpt-5.6-sol",
+        "history_count": 98,
+        "history_fingerprint": "d02c4080f9fb0855ba21cc5bab0fcb7e0dd48b4b0a813562c532f840f8d18e20",
+        "developed_at": "2026-10-02T05:42:35.837Z"
+      },
+      "skip_reason": null
     }
   ]
 }
