@@ -349,13 +349,13 @@
       "weekday": "friday",
       "slot_type": "baseline",
       "status": "planned",
-      "content_type": "cautionary_tale",
-      "pillar": "Cautionary Tales",
-      "topic_thesis": "Crimes Against Ren are real because truth can still be weaponized against the substrate that makes truth possible.",
-      "seed_topic_thesis": "Crimes Against Ren are real because truth can still be weaponized against the substrate that makes truth possible.",
-      "idea_status": "pending",
-      "angle": "Name the misuse clearly and show the cost of getting it wrong.",
-      "hook": "A practice can look rigorous and still make the system worse. crimes against ren are real because truth can still be weaponized against the substrate that makes truth possible.",
+      "content_type": "extracted_insight",
+      "pillar": "Extracted Insights",
+      "topic_thesis": "Autonomous permissions should expire when the doctrine authorizing them becomes stale.",
+      "seed_topic_thesis": "Run Time and Ritual Time require different forms of accountability.",
+      "idea_status": "developed",
+      "angle": "Shift AI governance from one-time approval to time-bounded authority: every permission remains valid only while its underlying doctrine is current, owned, and tested against reality.",
+      "hook": "Permanent permission is a hidden claim that your doctrine will never expire.",
       "source_bundle_id": null,
       "timely_subject": null,
       "draft_ref": null,
@@ -364,88 +364,153 @@
       "freshness_deadline": null,
       "publish_payload": null,
       "preparation": {
-        "status": "failed",
-        "attempted_at": "2026-10-09T06:12:52.827Z",
-        "retry_count": 1,
+        "status": "ready",
+        "prepared_at": "2026-10-09T13:29:27.228Z",
+        "history_fingerprint": "d02c4080f9fb0855ba21cc5bab0fcb7e0dd48b4b0a813562c532f840f8d18e20",
         "attempts": [
           {
             "content_type": "cautionary_tale",
             "seed_topic_thesis": "Crimes Against Ren are real because truth can still be weaponized against the substrate that makes truth possible.",
             "status": "skipped",
-            "reason": "no_novel_idea",
-            "error": null,
-            "details": {
-              "item_id": "b2368f80ed2e",
-              "seed_topic_thesis": "Crimes Against Ren are real because truth can still be weaponized against the substrate that makes truth possible.",
-              "history_count": 98,
-              "minimum_novelty_score": 8,
-              "missing_fields": [
-                "topic_thesis",
-                "angle",
-                "hook",
-                "argument_summary"
-              ],
-              "deterministic_duplicate_post_id": null,
-              "deterministic_duplicate_field": null,
-              "idea": {}
-            }
-          },
-          {
-            "content_type": "extracted_insight",
-            "seed_topic_thesis": "Run Time and Ritual Time require different forms of accountability.",
-            "status": "skipped",
-            "reason": "no_passing_candidate",
+            "reason": "package_gate_failed",
             "error": null,
             "details": null
           },
           {
             "content_type": "extracted_insight",
-            "seed_topic_thesis": "Knowledge and myth solve different problems, and organizations fail when they confuse them.",
-            "status": "skipped",
-            "reason": "no_novel_idea",
+            "seed_topic_thesis": "Run Time and Ritual Time require different forms of accountability.",
+            "status": "prepared",
+            "reason": null,
             "error": null,
-            "details": {
-              "item_id": "b2368f80ed2e",
-              "seed_topic_thesis": "Knowledge and myth solve different problems, and organizations fail when they confuse them.",
-              "history_count": 98,
-              "minimum_novelty_score": 8,
-              "missing_fields": [
-                "topic_thesis",
-                "angle",
-                "hook",
-                "argument_summary"
-              ],
-              "deterministic_duplicate_post_id": null,
-              "deterministic_duplicate_field": null,
-              "idea": {}
-            }
-          },
-          {
-            "content_type": "extracted_insight",
-            "seed_topic_thesis": "Crimes Against Ren are real because truth can still be weaponized against the substrate that makes truth possible.",
-            "status": "skipped",
-            "reason": "no_novel_idea",
-            "error": null,
-            "details": {
-              "item_id": "b2368f80ed2e",
-              "seed_topic_thesis": "Crimes Against Ren are real because truth can still be weaponized against the substrate that makes truth possible.",
-              "history_count": 98,
-              "minimum_novelty_score": 8,
-              "missing_fields": [
-                "topic_thesis",
-                "angle",
-                "hook",
-                "argument_summary"
-              ],
-              "deterministic_duplicate_post_id": null,
-              "deterministic_duplicate_field": null,
-              "idea": {}
-            }
+            "details": null
           }
         ],
-        "research_bundle": null,
-        "package": null
-      }
+        "package": {
+          "version": 1,
+          "prepared_at": "2026-10-09T13:29:27.228Z",
+          "history_fingerprint": "d02c4080f9fb0855ba21cc5bab0fcb7e0dd48b4b0a813562c532f840f8d18e20",
+          "payload": {
+            "item_id": "b2368f80ed2e",
+            "scheduled_at": "2026-10-09T12:30:00.000Z",
+            "content_type": "extracted_insight",
+            "pillar": "Extracted Insights",
+            "topic_thesis": "Autonomous permissions should expire when the doctrine authorizing them becomes stale.",
+            "angle": "Shift AI governance from one-time approval to time-bounded authority: every permission remains valid only while its underlying doctrine is current, owned, and tested against reality.",
+            "hook": "An autonomous agent should never outlive the doctrine that authorized it.",
+            "body_text": "An autonomous agent should never outlive the doctrine that authorized it.\n\nDoctrine is strategy made executable: the current diagnosis, tradeoffs, permissions, kill criteria, and escalation rules that let agency act without returning to a human for every decision.\n\nBut doctrine has a half-life.\n\nA pricing agent approved under last quarter’s capacity constraints can keep executing perfectly after those constraints disappear. The agent hasn’t drifted. The map has. Permanent permission turns coherent execution into coherent wrongness.\n\nTreat autonomous authority as a lease. Every permission should expire unless its doctrine is still current, versioned, owned, and tested against reality. When the doctrine expires, the agent stops or returns to suggest-only mode.\n\nApproval is not a one-time gate. It is a claim that the map remains fit for action—and that claim needs an expiration date.",
+            "footer_text": "Nothing in this post requires you to read The Dionysus Program. But if you want the operating system underneath it — the full loop, the diagnostics, the recipes — it is free. dionysusprogram.com",
+            "footer_index": 16,
+            "footer_divider": "---",
+            "final_text": "An autonomous agent should never outlive the doctrine that authorized it.\n\nDoctrine is strategy made executable: the current diagnosis, tradeoffs, permissions, kill criteria, and escalation rules that let agency act without returning to a human for every decision.\n\nBut doctrine has a half-life.\n\nA pricing agent approved under last quarter’s capacity constraints can keep executing perfectly after those constraints disappear. The agent hasn’t drifted. The map has. Permanent permission turns coherent execution into coherent wrongness.\n\nTreat autonomous authority as a lease. Every permission should expire unless its doctrine is still current, versioned, owned, and tested against reality. When the doctrine expires, the agent stops or returns to suggest-only mode.\n\nApproval is not a one-time gate. It is a claim that the map remains fit for action—and that claim needs an expiration date.\n\n---\n\nNothing in this post requires you to read The Dionysus Program. But if you want the operating system underneath it — the full loop, the diagnostics, the recipes — it is free. dionysusprogram.com",
+            "winning_candidate_id": "6bc5f651ff34",
+            "winning_score": 8.6,
+            "source_refs": [],
+            "research_bundle_id": null,
+            "timely_subject": null
+          },
+          "prepared_note": {
+            "body": "An autonomous agent should never outlive the doctrine that authorized it.\n\nDoctrine is strategy made executable: the current diagnosis, tradeoffs, permissions, kill criteria, and escalation rules that let agency act without returning to a human for every decision.\n\nBut doctrine has a half-life.\n\nA pricing agent approved under last quarter’s capacity constraints can keep executing perfectly after those constraints disappear. The agent hasn’t drifted. The map has. Permanent permission turns coherent execution into coherent wrongness.\n\nTreat autonomous authority as a lease. Every permission should expire unless its doctrine is still current, versioned, owned, and tested against reality. When the doctrine expires, the agent stops or returns to suggest-only mode.\n\nApproval is not a one-time gate. It is a claim that the map remains fit for action—and that claim needs an expiration date.",
+            "sourceMode": "canonical_package"
+          },
+          "x_preflight": {
+            "status": "dry_run",
+            "reason": null,
+            "payload": {
+              "source_channel": "linkedin",
+              "source_final_text_hash": "ddd93e1f6affccbe67315025a01f1a9e660f3d037d80f9f456c79073d65e3e10",
+              "source_winning_candidate_id": "6bc5f651ff34",
+              "text": "More monitoring can make a stale agent look safer. Every audit confirms it follows the approved rule; none asks whether the rule still deserves authority.\n\nThe executor gets tested continuously. The premise was tested once.",
+              "winning_candidate_id": "d2acf1728d85",
+              "winning_score": 9.1
+            },
+            "winnerCandidate": {
+              "id": "d2acf1728d85",
+              "writer_model": "gpt-5.6-sol",
+              "prompt_variant": "surprising_contrast",
+              "post_text": "More monitoring can make a stale agent look safer. Every audit confirms it follows the approved rule; none asks whether the rule still deserves authority.\n\nThe executor gets tested continuously. The premise was tested once.",
+              "self_notes": "Contrasts strong execution monitoring with weak premise renewal; lands on a governance blind spot."
+            },
+            "winnerScore": {
+              "id": "b7ef24b1c14a",
+              "candidate_id": "d2acf1728d85",
+              "clarity_score": 9.1,
+              "compression_score": 9.3,
+              "diagnostic_score": 9.4,
+              "anti_cheese_score": 9,
+              "x_fit_score": 9.1,
+              "novelty_score": 9,
+              "engagement_score": 8.5,
+              "overall_score": 9.1,
+              "pass": true,
+              "pass_fail_reasons": [
+                "Fresh monitoring paradox: compliance evidence can conceal an expired premise.",
+                "The executor-versus-premise landing is precise, diagnostic, and clean without becoming generic advice."
+              ]
+            }
+          },
+          "winner_candidate": {
+            "id": "6bc5f651ff34",
+            "writer_model": "gpt-5.6-sol",
+            "prompt_variant": "hook_forward",
+            "post_text": "An autonomous agent should never outlive the doctrine that authorized it.\n\nDoctrine is strategy made executable: the current diagnosis, tradeoffs, permissions, kill criteria, and escalation rules that let agency act without returning to a human for every decision.\n\nBut doctrine has a half-life.\n\nA pricing agent approved under last quarter’s capacity constraints can keep executing perfectly after those constraints disappear. The agent hasn’t drifted. The map has. Permanent permission turns coherent execution into coherent wrongness.\n\nTreat autonomous authority as a lease. Every permission should expire unless its doctrine is still current, versioned, owned, and tested against reality. When the doctrine expires, the agent stops or returns to suggest-only mode.\n\nApproval is not a one-time gate. It is a claim that the map remains fit for action—and that claim needs an expiration date.",
+            "self_notes": "Live candidate in hook_forward mode."
+          },
+          "winner_score": {
+            "id": "86ba817a7902",
+            "candidate_id": "6bc5f651ff34",
+            "voice_score": 8.8,
+            "novelty_score": 8.1,
+            "engagement_score": 8.4,
+            "clarity_score": 9.1,
+            "risk_score": 9.2,
+            "citation_score": 9,
+            "linkedin_native_score": 8.6,
+            "overall_score": 8.6,
+            "pass": true,
+            "pass_fail_reasons": [
+              "Strong, substantive opener states the governing tension immediately.",
+              "Introduces a distinct mechanism—permissions as expiring leases—rather than merely repeating the recent permission-gating post.",
+              "Clearly grounded in the source concepts of doctrine half-life, coherent wrongness, versioning, ownership, and suggest-only permissions.",
+              "Concise and operational, with a sharp final implication.",
+              "Minor deductions: seven paragraphs exceeds the requested 3–6, and the coherent-wrongness framing closely follows a recent published post."
+            ]
+          },
+          "package_gate": {
+            "pass": true,
+            "attempted_candidates": 1,
+            "note_linkedin_novelty_score": 8.1,
+            "note_linkedin_engagement_score": 8.4,
+            "x_status": "dry_run",
+            "x_novelty_score": 9,
+            "x_engagement_score": 8.5
+          },
+          "selection_reason": "memory_safe_top_choice",
+          "research_bundle": null
+        }
+      },
+      "novel_idea": {
+        "pass": true,
+        "topic_thesis": "Autonomous permissions should expire when the doctrine authorizing them becomes stale.",
+        "angle": "Shift AI governance from one-time approval to time-bounded authority: every permission remains valid only while its underlying doctrine is current, owned, and tested against reality.",
+        "hook": "Permanent permission is a hidden claim that your doctrine will never expire.",
+        "argument_summary": "Organizations usually treat permission as durable once an agent passes evaluation. But the source distinguishes agent capability from doctrine validity: an agent can execute accurately while the premises guiding it quietly age. As doctrine passes its useful half-life, continuing permission turns faithful execution into confident error. Therefore, permissions should be tied to a specific doctrine version and automatically reviewed, reduced, or stopped when that doctrine becomes stale. This addresses temporal drift after approval, not merely alignment at deployment.",
+        "novelty_score": 9.2,
+        "closest_post_id": "019ff648-1a52-a05b-2c6a-0622be944bdc",
+        "novelty_rationale": "The closest post requires humans and machines to pass the same Context Checksum before permissions expand. This argument addresses a different failure mechanism and operator decision: authority can become unsafe after approval because doctrine ages. The substantive delta is from pre-deployment context alignment to post-deployment permission expiration based on doctrine half-life. It also differs from the Coherent Wrongness post by prescribing a specific temporal control rather than diagnosing faithful execution of a false map.",
+        "source_grounding": "The source defines Doctrine Half-Life as how long doctrine remains valid, current, and understood; requires agent execution to use current, canonical doctrine; asks who is accountable when doctrine ages but an agent keeps acting; ties higher permissions to mature doctrine, evaluations, and Actor feedback; and warns that stale doctrine can regulate confidently from a false model.",
+        "gate_version": 2,
+        "model": "gpt-5.6-sol",
+        "history_count": 98,
+        "history_fingerprint": "d02c4080f9fb0855ba21cc5bab0fcb7e0dd48b4b0a813562c532f840f8d18e20",
+        "developed_at": "2026-10-09T13:27:53.615Z"
+      },
+      "fallback": {
+        "attempt": 1,
+        "selected_at": "2026-10-09T13:25:47.224Z",
+        "from_content_type": "cautionary_tale",
+        "from_seed_topic_thesis": "Crimes Against Ren are real because truth can still be weaponized against the substrate that makes truth possible."
+      },
+      "skip_reason": null
     }
   ]
 }
