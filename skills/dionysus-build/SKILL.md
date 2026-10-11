@@ -12,13 +12,13 @@ Run the repo build pipeline and validate the generated artifacts without editing
 ## Workflow
 
 1. Confirm you are at the repo root.
-2. Run `./build.sh`.
-3. If the build fails, note missing requirements (pandoc and ideally xelatex).
+2. Run `./build.sh` (strict full publication; use `./build.sh --check` for preflight).
+3. If the build fails, read the retained staging diagnostics; run `./scripts/setup-build-tools.sh` for pinned Pandoc 3.6.4 and verify XeLaTeX, Poppler, Playwright, and Kindle Previewer.
 4. Verify artifacts:
    - `index.html`
    - `dist/essay.md`
    - `dist/dionysus-program.pdf`
    - `dist/dionysus-program.epub`
-   - `dist/dionysus-program.kpf` (when Kindle Previewer 3 is installed)
+   - `dist/dionysus-program.kpf` (required unless explicitly excluded with `--skip-kpf`)
 5. Avoid manual edits to generated files (`index.html`, `dist/*`); edit `essay.md` or templates instead.
 6. Offer optional previews (`open index.html`, `open dist/dionysus-program.pdf`) but do not run them unless asked.

@@ -16,7 +16,7 @@ Publish in two commits so the book artifacts record the source commit they were 
    - Include content, template, filter, script, or style changes.
    - Do not hand-edit generated files in `dist/` or `index.html`.
    - Use a Conventional Commit message when possible.
-3. Run `./build.sh`.
+3. Run `./build.sh` (strict full publication; use `./build.sh --check` for preflight).
    - The build stamps the current `HEAD` commit and a UTC publish timestamp into the published outputs.
    - Because the source commit already exists, the stamped revision reflects the content commit, not an in-progress worktree.
 4. Verify the generated artifacts:
@@ -24,7 +24,7 @@ Publish in two commits so the book artifacts record the source commit they were 
    - `dist/essay.md`
    - `dist/dionysus-program.pdf`
    - `dist/dionysus-program.epub`
-   - `dist/dionysus-program.kpf` (when Kindle Previewer 3 is installed)
+   - `dist/dionysus-program.kpf` (required unless explicitly excluded with `--skip-kpf`)
 5. Stage the generated outputs and commit them separately.
    - Prefer a message like `chore: publish <shortsha>`.
    - This publish commit ships artifacts built from the previous source commit.
@@ -34,4 +34,5 @@ Publish in two commits so the book artifacts record the source commit they were 
 
 - The published outputs show `Revision: <shortsha> — <UTC timestamp>`.
 - `dist/source-revision.txt` records the full commit SHA plus timestamp for tooling or spot checks.
-- If `./build.sh` updates `essay.md` rights metadata, review and include that change in the source commit before publishing.
+- Update `essay.md` rights metadata before the source commit if the year changes. The build checks it without modifying source.
+- Review `dist/build-manifest.json`; a complete release must have no excluded artifacts. A skipped KPF is removed rather than retained stale.

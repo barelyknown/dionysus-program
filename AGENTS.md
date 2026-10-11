@@ -9,7 +9,7 @@
 - `skills/` holds repo-specific Codex skills for build/publish/proofing workflows.
 
 ## Build, Test, and Development Commands
-- `./build.sh` — Regenerates `index.html`, copies `dist/essay.md`, and rebuilds `dist/dionysus-program.pdf`. Requires `pandoc` and ideally `xelatex` for PDFs.
+- `./build.sh` — Regenerates `index.html`, copies `dist/essay.md`, and rebuilds `dist/dionysus-program.pdf`. Requires pinned Pandoc 3.6.4 (`./scripts/setup-build-tools.sh`), XeLaTeX, Poppler, Playwright, and Kindle Previewer. Run `./build.sh --check` to exercise the toolchain before publication.
 - `open index.html` — Quick local preview in a browser (macOS). Use any static file server if preferred.
 - `open dist/dionysus-program.pdf` — Spot-check the PDF output after a build.
 
@@ -20,7 +20,8 @@
 - Lua filters follow concise naming (`remove-title.lua`, `pdf.lua`); continue dispatching logic by Pandoc element type.
 
 ## Testing Guidelines
-- No automated test suite exists.
+- `node --test scripts/build-safeguards.test.js` checks tool rejection, KPF failure handling, and publication rollback.
+- `./build.sh --check` runs real PDF, EPUB-to-KPF, and browser probes without changing published artifacts.
 
 ## Commit & Pull Request Guidelines
 - Prefer Conventional Commit prefixes (e.g., `feat: add Markdown download link`, `fix: correct PDF title page`) while staying concise.
