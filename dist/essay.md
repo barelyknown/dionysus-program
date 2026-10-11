@@ -4,10 +4,10 @@ author: "Sean Devine"
 description: "Rites of Renewal"
 lang: en-US
 rights: "© 2025–2026. All rights reserved."
-source-revision: "4ecd23a8bdcdd796ca3bf5bfbaa6e0714e45eb38"
-source-revision-short: "4ecd23a8bdcd"
-published-at-utc: "2026-10-11 19:12 UTC"
-published-at-iso: "2026-10-11T19:12:29Z"
+source-revision: "0ff3b9c42a464900806e943c30897c1e20bb2d67"
+source-revision-short: "0ff3b9c42a46"
+published-at-utc: "2026-10-11 23:24 UTC"
+published-at-iso: "2026-10-11T23:24:01Z"
 ---
 
 ::: dedication
@@ -1941,7 +1941,7 @@ These are violations that harm specific individuals within the container. Weapon
 
 **Third Order: Crimes Against Common Knowledge**
 
-These are violations that corrode shared understanding. Gaslighting about commitments; falsely claiming that others have agreed; using professions of loyalty to conceal retaliation or suppress protected criticism. These make the public signals of commitment unreliable. Criticism of the program, or doubt about whether it is living up to its profession, is not itself a breach.
+These violations corrode the common knowledge on which coherence depends: what we have committed to, what others have agreed to, and whether criticism is actually protected. Gaslighting about commitments; falsely claiming that others have agreed; using professions of loyalty to conceal retaliation or suppress protected criticism. These make the public signals of commitment unreliable. Criticism of the program, or doubt about whether it is living up to its profession, is not itself a breach.
 
 #### 3. The Modifiers
 
