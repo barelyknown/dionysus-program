@@ -4,10 +4,10 @@ author: "Sean Devine"
 description: "Rites of Renewal"
 lang: en-US
 rights: "© 2025–2026. All rights reserved."
-source-revision: "e0af10441c6c0c75fd81a8faa7d9fba98f952d02"
-source-revision-short: "e0af10441c6c"
-published-at-utc: "2026-09-04 21:41 UTC"
-published-at-iso: "2026-09-04T21:41:07Z"
+source-revision: "5d80537ae8e765a7873785d40be9f1b1f233e602"
+source-revision-short: "5d80537ae8e7"
+published-at-utc: "2026-10-11 16:45 UTC"
+published-at-iso: "2026-10-11T16:45:43Z"
 ---
 
 ::: dedication
@@ -1352,6 +1352,12 @@ Key elements:
 * **Common-knowledge signals:** Clear start and stop flags (“The Crossing begins now,” “The Crossing is closed”). Everyone knows that everyone knows whether we are in Ritual Time or Run Time, so people can match their level of agreeability or disagreeability to the moment.
 
 * **Standing right of criticism:** During Ritual Time, any participant may introduce a rival explanation and a falsifiable test plan without permission; retaliation or chilling is a breach of the container and itself subject to remedy.
+
+* **Responsibility for Speech:** Criticism may come from your own experience, another person, or a machine. Say what you know, what you believe, and what you are bringing for examination. You need not agree with every criticism you introduce, but you must help the room question and test it. “Someone else said it” does not end your responsibility.
+
+  Speaking on someone's behalf is a narrow accommodation for a concrete barrier to participation: an access need, unavoidable absence, or a credible risk of retaliation. Permission alone is not enough. The person represented controls what may be said, and the role is limited to the concern and occasion. Do not turn private remarks into public positions or make an unnamed source sound like a consensus. A steward can carry confidential reports while protecting the source and making clear what remains unverified.
+
+  The steward asks: “What is the criticism, and how can we examine it?” Return attention to the claim and the artifact. Help the speaker clarify their contribution without putting them on trial.
 
 * **Severability and reversibility:** Like Popper’s “piecemeal engineering,” we structure experiments to fail safely. That makes criticism cheaper and more honest.
 
