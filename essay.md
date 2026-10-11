@@ -1937,7 +1937,7 @@ These are violations that harm specific individuals within the container. Weapon
 
 **Third Order: Crimes Against Common Knowledge**
 
-These are violations that corrode shared understanding. Gaslighting about commitments; falsely claiming that others have agreed; using professions of loyalty to conceal retaliation or suppress protected criticism. These make the public signals of commitment unreliable. Criticism of the program, or doubt about whether it is living up to its profession, is not itself a breach.
+These violations corrode the common knowledge on which coherence depends: what we have committed to, what others have agreed to, and whether criticism is actually protected. Gaslighting about commitments; falsely claiming that others have agreed; using professions of loyalty to conceal retaliation or suppress protected criticism. These make the public signals of commitment unreliable. Criticism of the program, or doubt about whether it is living up to its profession, is not itself a breach.
 
 #### 3. The Modifiers
 
