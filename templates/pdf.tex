@@ -1,4 +1,4 @@
-\documentclass[10.5pt,twoside]{article}
+\documentclass[10pt,twoside]{article}
 \usepackage[
   paperwidth=6in,
   paperheight=9in,
@@ -60,6 +60,9 @@ $endif$
 \begin{titlepage}
   \centering
   \vspace*{5cm}
+$if(title-anchor)$
+  \hypertarget{$title-anchor$}{}\label{$title-anchor$}
+$endif$
   {\Huge\bfseries $title$ \par}
   \vspace{1.5cm}
   $if(description)$

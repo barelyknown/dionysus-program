@@ -29,7 +29,7 @@
   <main>
     <header class="page-header">
       <img class="page-cover" src="dist/dionysus-program-cover.jpg" alt="The Dionysus Program cover" width="1024" height="1536" fetchpriority="high">
-      <h1 class="sr-only">$title$</h1>
+      <h1$if(title-anchor)$ id="$title-anchor$"$endif$ class="sr-only">$title$</h1>
       $if(description)$<p class="page-subtitle sr-only">$description$</p>$endif$
       $if(author)$<p class="page-author sr-only">$for(author)$$author$$sep$, $endfor$</p>$endif$
       <p class="page-download">
