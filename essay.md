@@ -1825,27 +1825,65 @@ When the work is complete, the group must still be able to trust one another.
 
 ## The Hinge
 
-The *Dionysus Program* makes one claim it cannot subject to itself.
+The *Dionysus Program* begins with a commitment:
 
-Nothing is sacred except the commitment to metabolize error. This is the program's core. It is also the program's myth—not in the pejorative sense of a false story, but in the precise sense of an orienting commitment that is not itself being put through a Crossing.
+> We commit to discovering and correcting error, holding no explanation or practice exempt, and sustaining the conditions for doing so.
 
-The program cannot put this claim on trial without standing on it to do so. You cannot run a Crossing on the frame that makes Crossings intelligible. You cannot falsify the commitment to falsification using the tools that commitment provides. This is not a failure of intellectual honesty. It is a structural necessity. Every system of thought has a foundation it cannot validate without circularity. Popper cannot falsify falsificationism. Deutsch's principle that all problems are soluble is not itself a solved problem.
+Sustaining the conditions includes remaining viable. As the half-life of knowledge falls, we must consume our own error—or be consumed as error by the market. We must learn and change fast enough to retain the ability to learn and change again.
 
-Ludwig Wittgenstein called these foundations hinges. Not beliefs we have evaluated and confirmed, but commitments we live from—propositions so foundational that doubting them would make the practice of doubting impossible. A hinge functions as a commitment rather than an established conclusion. The moment it becomes visible as a hypothesis, it has already stopped functioning as a hinge.
+This is the program's hinge. It is also its myth: an orienting commitment that describes how to be. It promises no final answers or inevitable progress. We choose to act from it even when our present explanations fail.
 
-The program's hinge: nothing is sacred except the commitment to metabolize error.
+Wittgenstein's image of a hinge is useful here: inquiry proceeds from commitments that the inquiry itself does not first establish. The program's methods already depend on a willingness to discover and correct error. They cannot establish that willingness without relying on it.
 
-State it plainly. This is a myth in the full sense. It describes how to be, not what is true. It makes no falsifiable claims about the world. It orients the perceiver—toward error as gift, toward dissolution as precondition of renewal, toward the painful exposure of wrong explanations as the most honest form of respect for the people who held them.
+The commitment can be discussed, its wording improved, and its demands questioned. Its expression is not immune to correction. But abandoning the commitment would mean leaving the practice it defines. We hold it as a commitment we make, rather than a conclusion the program has proved.
 
-Recognizing this does not weaken the program. It makes the program more honest about what it is. Every functioning system has a myth layer. The question is never whether you have one. The question is whether you chose it well, and whether you know what you chose.
+Each part has work to do. Discovering error requires contact with reality and an opening for contradiction. Correcting error requires that what we learn can change our explanations and conduct. Holding no explanation or practice exempt includes those of founders, stewards, and the program itself. Priorities and timing remain necessary; permanent immunity does not.
 
-I chose this commitment because it says little about which particular explanations are true and much about how to respond when they fail. It promises no specific outcome and does not depend on a technology or market position. Its usefulness rests on whether people can continue to act from it as their circumstances change.
+Sustaining the conditions means keeping discovery and correction possible over time. Those conditions can change. We may retire a ritual, replace a technology, reorganize a team, or reduce human involvement in a cycle. We may need to rest, rebuild trust, repair feedback, or limit action that outruns our ability to learn from it. Continuity belongs to the capacity for correction. No particular arrangement is entitled to survive.
+
+A local cycle cannot claim success by destroying conditions on which the wider system depends. Nor can protecting the conditions become an excuse to postpone correction forever. Both obligations remain live.
+
+I chose this commitment because it says little about which particular explanations are true and much about how to respond when they fail. It does not depend on a technology, market position, or human participation in every cycle. It can orient human, automated, and mixed systems as their circumstances change.
 
 Doctrine must not be smuggled into the myth layer. Myth is the stable tier and doctrine the updateable one: myth explains who we are, doctrine how we currently act. Make doctrine sacred and the organization cannot update; revise myth every quarter and it cannot orient. Confusing the two is among the cleanest ways to turn coherence into frozen meaning.
 
-But it must be named as myth. Treating it as a knowledge claim—as something the program derived through rigorous analysis and would update if new evidence arrived—would be dishonest. It is prior to analysis. It is what makes analysis possible. Hold it accordingly: not as a conclusion you reached, but as a commitment you made, knowing that it will guide the rest of the program.
+### The Human Application
 
-Everything else in this program is subject to the program. This is not.
+Human participation brings obligations to people. In the human application of this program, we protect honest criticism, refuse humiliation and scapegoating, honor the protections under which people speak, and take responsibility for harm. People have claims on us even when disregarding those claims would make a process more efficient. These are commitments of the human application; the hinge alone does not establish a complete human ethic.
+
+Ren makes correction possible among people who must continue to live and work together. Rest, hospitality, beauty, and the acknowledgment of loss help sustain it. Protection does not remove accountability: people remain responsible for their conduct, their use of authority, and the commitments they make. Reducing human involvement in a cycle does not erase obligations to the people affected by it.
+
+### The Profession of Faith
+
+A shared commitment needs a public expression. Participants need to know what they can ask of one another when correction becomes costly. The profession gives that commitment words they can return to together:
+
+> We commit to discovering and correcting error, holding no explanation or practice exempt, and sustaining the conditions for doing so.
+>
+> In our work together:
+>
+> We learn and change to remain viable, so we can keep learning and changing.
+>
+> We welcome criticism, protect those who offer it, and honor their trust.
+>
+> We make our shared intent clear, carry it faithfully into action, and let reality change our minds.
+>
+> We keep our power to act within our capacity to guide and correct it.
+>
+> We respect each person's worth and refuse humiliation, retaliation, and scapegoating.
+>
+> We make room for rest, loss, and repair.
+>
+> We honor our obligations to everyone our work affects.
+>
+> We admit failure, answer for harm, and undertake repair.
+>
+> We hold ourselves and our leaders to these commitments.
+
+Leaders are responsible for making the commitment clear, helping participants understand its demands, and keeping it present in the culture. They must also make their own submission visible: receive unwelcome criticism, correct their own decisions, and accept the limits on their authority. The profession belongs to everyone, and everyone may appeal to it, including against a leader.
+
+Return to it when people join, when a consequential Crossing begins, and when a difficult correction has tested the culture. Speak it together, then connect it to the conduct the occasion requires. Recitation acquires credibility through what follows it.
+
+Faith here is a willingness to honor the commitment through uncertainty. Doubt about a particular rite, leader, or explanation is permitted; so is doubt about whether the culture is living up to its profession. Such doubt calls for examination. Demanding a performance of certainty would close the very opening the profession promises to keep.
 
 ---
 
@@ -1899,7 +1937,7 @@ These are violations that harm specific individuals within the container. Weapon
 
 **Third Order: Crimes Against Common Knowledge**
 
-These are violations that corrode shared understanding. Gaslighting about commitments; performing sincerity without possessing it; spreading cynicism about the program’s legitimacy. These poison the well, making it impossible for anyone to trust the signals the system relies on.
+These are violations that corrode shared understanding. Gaslighting about commitments; falsely claiming that others have agreed; using professions of loyalty to conceal retaliation or suppress protected criticism. These make the public signals of commitment unreliable. Criticism of the program, or doubt about whether it is living up to its profession, is not itself a breach.
 
 #### 3. The Modifiers
 
@@ -1982,7 +2020,7 @@ The penal code must periodically be treated as an anti-scapegoat. Put it on tria
 
 If the code stops protecting the container and starts protecting the powerful, it must be rewritten. The stewards of the law are subject to it; a tribunal member who betrays deliberation commits a First Order violation.
 
-Nothing is sacred except the commitment to metabolize error without sacrifice. The law protects the container. The container protects the people.
+The hinge holds no explanation or practice exempt, including this law. In the human application, the law protects the container and the people who entrust themselves to it.
 
 The code must remain open to revision.
 
@@ -2525,7 +2563,11 @@ Does it absorb failure as well as success? The Cincinnatus myth works after a ba
 
 Will it still orient people whose circumstances are nothing like ours? A story tied to a particular technology, market position, or cultural moment is not a myth. It is a knowledge claim with ceremonial weight. Myths travel across time because they describe something recurrent in human experience, not something specific to a moment.
 
-The program's own myth—nothing is sacred except the commitment to metabolize error—was chosen to pass all three tests. It describes how to be. It remains useful when an explanation fails. It will remain useful when everything it currently touches has changed.
+The program's own myth was chosen to pass all three tests:
+
+> We commit to discovering and correcting error, holding no explanation or practice exempt, and sustaining the conditions for doing so.
+
+It describes how to be. It remains useful when an explanation fails. It can continue to orient the practice as its explanations, tools, and participants change.
 
 
 Together, these six practices constitute a small Dionysus Program: name the mode, direct criticism at an object, examine failures, allow recovery, learn from retired work, and repeat. The forms can be simple. After six months, ask whether it is easier and faster for the group to change its mind in public. If not, revise or remove practices until they help. If stewardship has become a career rather than a temporary duty, address that before adding more ritual.
