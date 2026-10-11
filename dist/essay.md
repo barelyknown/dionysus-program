@@ -4,10 +4,10 @@ author: "Sean Devine"
 description: "Rites of Renewal"
 lang: en-US
 rights: "© 2025–2026. All rights reserved."
-source-revision: "5d80537ae8e765a7873785d40be9f1b1f233e602"
-source-revision-short: "5d80537ae8e7"
-published-at-utc: "2026-10-11 16:45 UTC"
-published-at-iso: "2026-10-11T16:45:43Z"
+source-revision: "42356ef30f178818630f0cd920d76de2128c2917"
+source-revision-short: "42356ef30f17"
+published-at-utc: "2026-10-11 17:20 UTC"
+published-at-iso: "2026-10-11T17:20:09Z"
 ---
 
 ::: dedication
@@ -1345,6 +1345,22 @@ Victor Turner names the choreography: separation → limen → reincorporation. 
 
 * Reincorporation: We declare verdicts and new commitments in public. We bind them with oaths or signatures. We redistribute roles. We retire old symbols with honors (and without shame).
 
+Every Crossing names two roles:
+
+**Owner:** The person with the greatest stake in the object under criticism. The Owner receives criticism with warmth, grace, and humor when it helps. They thank people for difficult truths and show that disagreement leaves the relationship intact. Speaking last is not enough; the room watches how they listen. Welcoming a criticism does not require agreeing with it. The Owner remains accountable for the verdict and the commitments that follow.
+
+```{=latex}
+\begin{samepage}
+```
+
+**Host:** The person entrusted with the room's warmth, beauty, pacing, and protection throughout the rite. The Host notices when candor becomes prosecution, laughter becomes ridicule, or someone withdraws. They keep criticism on the object and have authority to slow, interrupt, or pause the rite when care fails. An aesthetic opening cannot carry a cold encounter. Hospitality must survive the hardest criticism. Warmth can hold silence, seriousness, and grief; nobody owes the room a joke.
+
+```{=latex}
+\end{samepage}
+```
+
+One person may carry both roles, but a separate Host can tend the room while the Owner absorbs difficult criticism. Both remain subject to the covenant and the stewardship rules below.
+
 Key elements:
 
 * **No-person blame covenant:** During liminal phases, critique targets artifacts, assumptions, and rules—not persons. Personal responsibility is constant but re-aimed: in Ritual Time, individuals are accountable for reason-giving, openness to refutation, and fidelity to the container; at reentry, they are accountable for the decisions and commitments they endorse.
@@ -2434,12 +2450,13 @@ Once per week, for a fixed short block:
 
 * Declare Ritual Time and restate the covenant: “No person is the problem; the problem is the problem.”
 * Name a single anti-scapegoat: a roadmap, charter, metric, policy, design. All heat goes there.
-* Open with a small aesthetic artifact—a diagram, story, demo—that makes the stakes felt.
-* Red-team the object under rule. Anyone may table a rival explanation and test plan. The builder speaks last. Retaliation is out of bounds.
+* Name the Owner, who has the greatest stake and welcomes criticism with warmth and grace, and the Host, who tends the room throughout the rite.
+* Open with a small aesthetic artifact—a diagram, story, demo—that makes the stakes felt. The Host sustains warmth and beauty through the criticism and the close.
+* Red-team the object under rule. Anyone may table a rival explanation and test plan. The builder speaks last. Retaliation is out of bounds. The Host interrupts ridicule or personal attack and slows or pauses the rite when care fails.
 * Apply a hard-to-vary test: note the facts this proposal actually explains, the parts that cannot move without breaking that fit, and one risky prediction to be scored later.
 * Close with binding speech: “We commit to X until Y,” and log it where everyone can see it.
 
-Skin-in-the-game is mandatory: the leader with the most downside in the Crossing’s scope sits inside the container and owns the verdict. Facilitation can be delegated; accountability cannot.
+Skin-in-the-game is mandatory: the Owner sits inside the container and owns the verdict and resulting commitments. Hosting can be delegated; accountability cannot. One person may carry both roles if they can receive criticism while caring for the room.
 
 A single honest Crossing per week is enough to change how a group experiences criticism. It gives conflict a home and keeps mimetic pressure aimed at artifacts instead of people. Treat facilitation and stewardship here as a rotating duty drawn from active operators, not as a standing role; whoever stewards a Crossing returns to ordinary work once it closes.
 
