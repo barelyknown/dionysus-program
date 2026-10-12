@@ -4,10 +4,10 @@ author: "Sean Devine"
 description: "Rites of Renewal"
 lang: en-US
 rights: "© 2025–2026. All rights reserved."
-source-revision: "0ff3b9c42a464900806e943c30897c1e20bb2d67"
-source-revision-short: "0ff3b9c42a46"
-published-at-utc: "2026-10-11 23:24 UTC"
-published-at-iso: "2026-10-11T23:24:01Z"
+source-revision: "c967f4022ada1cf694d25710aa2f0e72d9bf4623"
+source-revision-short: "c967f4022ada"
+published-at-utc: "2026-10-12 14:58 UTC"
+published-at-iso: "2026-10-12T14:58:14Z"
 ---
 
 ::: dedication
