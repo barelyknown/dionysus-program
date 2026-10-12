@@ -84,6 +84,25 @@ A lock prevents concurrent publication builds. After a forcibly killed process, 
 
 You can open `index.html` directly in a browser (double-click in Finder or `open index.html`) to preview the page without running any server.
 
+To review the two-sided reading experience from current source without replacing
+published artifacts, run:
+
+```bash
+./build.sh --preview
+python3 -m http.server 4173 --bind 127.0.0.1 --directory .cache/site-preview
+```
+
+Open `http://localhost:4173/` and choose **Flip to Side B**. The letters also have
+a direct address at `/plan-of-attack/`, with anchors `#letter-i` through `#letter-vi`.
+The preview rebuilds HTML with pinned Pandoc and reuses existing book downloads;
+it does not regenerate PDF, EPUB, or KPF editions. The complete publication build
+also generates Side B and includes it in staged validation and promotion.
+
+`content/plan-of-attack.md` is the canonical letter text. Its presentation comes
+from `build-plan-of-attack.js`, `templates/plan-of-attack.html`, `edition.css`, and
+`edition.js`. The flip is progressive enhancement: links and complete letter
+text work without JavaScript, and reduced-motion preferences disable the turn.
+
 ## LinkedIn automation
 
 The repo now includes a CLI-first social automation subsystem under [social/README.md](social/README.md). Start in fixture mode and validate locally before enabling live provider secrets or scheduled workflows.

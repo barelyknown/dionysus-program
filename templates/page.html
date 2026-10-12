@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"$if(two-sided)$ data-side="a"$endif$>
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -22,13 +22,19 @@
   <link rel="apple-touch-icon" sizes="180x180" href="dist/dionysus-program-favicon-180.png">
   <link rel="preload" as="image" href="dist/dionysus-program-cover.jpg">
   <link rel="stylesheet" href="styles.css">
+  $if(two-sided)$<link rel="stylesheet" href="edition.css">
+  <script src="edition.js"></script>$endif$
   $if(praise)$<script defer src="praise-rotator.js"></script>$endif$
   <script id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
 </head>
 <body>
+  $if(two-sided)$<a class="edition-skip" href="#toc">Skip to contents</a>
+  $edition-bar$$endif$
   <main>
     <header class="page-header">
+      $if(two-sided)$$side-a-cover$$else$
       <img class="page-cover" src="dist/dionysus-program-cover.jpg" alt="The Dionysus Program cover" width="1024" height="1536" fetchpriority="high">
+      $endif$
       <h1$if(title-anchor)$ id="$title-anchor$"$endif$ class="sr-only">$title$</h1>
       $if(description)$<p class="page-subtitle sr-only">$description$</p>$endif$
       $if(author)$<p class="page-author sr-only">$for(author)$$author$$sep$, $endfor$</p>$endif$

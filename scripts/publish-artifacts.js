@@ -12,7 +12,7 @@ function requireFile(file) {
 function validate(stage, root, skipKpf) {
   const revision = execFileSync('git', ['-C', root, 'rev-parse', 'HEAD'], { encoding: 'utf8' }).trim();
   const short = revision.slice(0, 12);
-  const required = ['index.html', 'praise.html', 'pull-quotes.html', 'notes/index.html',
+  const required = ['index.html', 'plan-of-attack/index.html', 'praise.html', 'pull-quotes.html', 'notes/index.html',
     'dist/essay.md', 'dist/source-revision.txt', 'dist/dionysus-program.epub',
     'dist/dionysus-program.pdf', 'dist/dionysus-program-print.pdf'];
   if (!skipKpf) required.push('dist/dionysus-program.kpf');
@@ -53,7 +53,7 @@ function validate(stage, root, skipKpf) {
 // Same-filesystem renames replace each unit; rollback restores prior units if an
 // ordinary I/O error interrupts promotion. Git publishes the resulting set together.
 function promote(stage, root, skipKpf) {
-  const units = ['index.html', 'praise.html', 'pull-quotes.html', 'notes',
+  const units = ['index.html', 'plan-of-attack', 'praise.html', 'pull-quotes.html', 'notes',
     ...fs.readdirSync(path.join(stage, 'dist')).sort().map(name => `dist/${name}`)];
   if (skipKpf) units.push('dist/dionysus-program.kpf');
   const backup = path.join(path.dirname(stage), 'backup');

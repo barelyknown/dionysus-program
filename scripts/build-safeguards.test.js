@@ -14,7 +14,7 @@ function fixture(t) {
   const stage = path.join(base, 'stage');
   for (const dir of [root, stage]) {
     fs.mkdirSync(path.join(dir, 'dist'), { recursive: true });
-    for (const name of ['index.html', 'praise.html', 'pull-quotes.html', 'notes/index.html', 'dist/book.pdf']) {
+    for (const name of ['index.html', 'plan-of-attack/index.html', 'praise.html', 'pull-quotes.html', 'notes/index.html', 'dist/book.pdf']) {
       fs.mkdirSync(path.dirname(path.join(dir, name)), { recursive: true });
       fs.writeFileSync(path.join(dir, name), `${dir === root ? 'old' : 'new'} ${name}`);
     }
@@ -37,6 +37,7 @@ test('promotion replaces generated notes but preserves unrelated dist inputs', t
   fs.writeFileSync(path.join(root, 'dist/context.txt'), 'independent input');
   promote(stage, root, false);
   assert.equal(fs.readFileSync(path.join(root, 'index.html'), 'utf8'), 'new index.html');
+  assert.equal(fs.readFileSync(path.join(root, 'plan-of-attack/index.html'), 'utf8'), 'new plan-of-attack/index.html');
   assert.equal(fs.existsSync(path.join(root, 'notes/retired.html')), false);
   assert.equal(fs.readFileSync(path.join(root, 'dist/context.txt'), 'utf8'), 'independent input');
 });

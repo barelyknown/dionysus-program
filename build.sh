@@ -5,15 +5,21 @@ ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$ROOT_DIR"
 CHECK_ONLY=0
 SKIP_KPF=0
+PREVIEW=0
 while [[ $# -gt 0 ]]; do
   case "$1" in
     --check) CHECK_ONLY=1 ;;
     --skip-kpf) SKIP_KPF=1 ;;
-    --help) echo "Usage: ./build.sh [--check] [--skip-kpf]"; exit 0 ;;
+    --preview) PREVIEW=1 ;;
+    --help) echo "Usage: ./build.sh [--check] [--skip-kpf] [--preview]"; exit 0 ;;
     *) echo "Unknown option: $1" >&2; exit 1 ;;
   esac
   shift
 done
+if [[ $PREVIEW == 1 ]]; then
+  [[ $CHECK_ONLY == 0 && $SKIP_KPF == 0 ]] || { echo "Use --preview on its own." >&2; exit 1; }
+  exec bash "$ROOT_DIR/build-site.sh" --preview
+fi
 source "$ROOT_DIR/scripts/build-tools.sh"
 mkdir -p "$ROOT_DIR/.cache"
 LOCK_DIR="$ROOT_DIR/.cache/publication.lock"
@@ -233,6 +239,8 @@ if [[ -s "$PUBLISH_META" ]]; then
   BOOK_METADATA_ARGS+=("--metadata-file=$PUBLISH_META")
 fi
 
+node "$ROOT_DIR/build-plan-of-attack.js" "$OUTPUT_DIR"
+
 pandoc "${BOOK_INPUTS[@]}" \
   --from=markdown \
   --toc \
@@ -240,6 +248,9 @@ pandoc "${BOOK_INPUTS[@]}" \
   --metadata=toc-title:"Contents" \
   --metadata-file="$PRAISE_META" \
   --metadata-file="$NOTES_TEASER_META" \
+  --metadata=two-sided:true \
+  --variable=side-a-cover:"$(cat "$DIST_DIR/side-a-cover.html")" \
+  --variable=edition-bar:"$(cat "$DIST_DIR/side-a-bar.html")" \
   "${BOOK_METADATA_ARGS[@]}" \
   --to=html5 \
   --template="$TEMPLATE" \
