@@ -14,18 +14,154 @@
       "status": "planned",
       "content_type": "extracted_insight",
       "pillar": "Extracted Insights",
-      "topic_thesis": "Run Time and Ritual Time require different forms of accountability.",
+      "topic_thesis": "Every autonomous permission should expire no later than the doctrine that justified it.",
       "seed_topic_thesis": "Run Time and Ritual Time require different forms of accountability.",
-      "idea_status": "pending",
-      "angle": "Name the concept, explain it plainly, and show why it matters now.",
-      "hook": "The mistake leaders keep making is thinking run time and ritual time require different forms of accountability.",
+      "idea_status": "developed",
+      "angle": "Introduce Doctrine Half-Life as the missing clock in agent governance: permissions should be time-bounded by how long their governing premises are expected to remain valid, not granted indefinitely because an agent once passed evaluation.",
+      "hook": "An agent can pass every alignment test on Monday and become dangerous by Friday without changing at all.",
       "source_bundle_id": null,
       "timely_subject": null,
       "draft_ref": null,
       "winner_id": null,
       "risk_level": "low",
       "freshness_deadline": null,
-      "publish_payload": null
+      "publish_payload": null,
+      "preparation": {
+        "status": "ready",
+        "prepared_at": "2026-10-12T06:04:18.323Z",
+        "history_fingerprint": "d02c4080f9fb0855ba21cc5bab0fcb7e0dd48b4b0a813562c532f840f8d18e20",
+        "attempts": [
+          {
+            "content_type": "extracted_insight",
+            "seed_topic_thesis": "Run Time and Ritual Time require different forms of accountability.",
+            "status": "prepared",
+            "reason": null,
+            "error": null,
+            "details": null
+          }
+        ],
+        "package": {
+          "version": 1,
+          "prepared_at": "2026-10-12T06:04:18.323Z",
+          "history_fingerprint": "d02c4080f9fb0855ba21cc5bab0fcb7e0dd48b4b0a813562c532f840f8d18e20",
+          "payload": {
+            "item_id": "7e534778d3ed",
+            "scheduled_at": "2026-10-12T12:30:00.000Z",
+            "content_type": "extracted_insight",
+            "pillar": "Extracted Insights",
+            "topic_thesis": "Every autonomous permission should expire no later than the doctrine that justified it.",
+            "angle": "Introduce Doctrine Half-Life as the missing clock in agent governance: permissions should be time-bounded by how long their governing premises are expected to remain valid, not granted indefinitely because an agent once passed evaluation.",
+            "hook": "An agent can pass every evaluation and still become unsafe on Tuesday.",
+            "body_text": "An agent can pass every evaluation and still become unsafe on Tuesday.\n\nDoctrine Half-Life is how long the premises governing its actions remain valid, current, and understood before the world—or the organization—moves on.\n\nThat clock should bound permission.\n\nIf a customer-facing agent was authorized under a pricing doctrine expected to hold for 30 days, its permission should not survive for 90. The agent may still execute perfectly. That is the danger: it can faithfully apply a stale map at machine speed.\n\nPassing an evaluation proves performance under a set of premises. It does not make those premises permanent. Every autonomous permission should expire no later than the doctrine that justified it.",
+            "footer_text": "The Dionysus Program argues that the real scoreboard is epimetabolic rate: how fast you turn error into better structure without burning people. The book is free. dionysusprogram.com",
+            "footer_index": 8,
+            "footer_divider": "---",
+            "final_text": "An agent can pass every evaluation and still become unsafe on Tuesday.\n\nDoctrine Half-Life is how long the premises governing its actions remain valid, current, and understood before the world—or the organization—moves on.\n\nThat clock should bound permission.\n\nIf a customer-facing agent was authorized under a pricing doctrine expected to hold for 30 days, its permission should not survive for 90. The agent may still execute perfectly. That is the danger: it can faithfully apply a stale map at machine speed.\n\nPassing an evaluation proves performance under a set of premises. It does not make those premises permanent. Every autonomous permission should expire no later than the doctrine that justified it.\n\n---\n\nThe Dionysus Program argues that the real scoreboard is epimetabolic rate: how fast you turn error into better structure without burning people. The book is free. dionysusprogram.com",
+            "winning_candidate_id": "ca0247386771",
+            "winning_score": 9.2,
+            "source_refs": [],
+            "research_bundle_id": null,
+            "timely_subject": null
+          },
+          "prepared_note": {
+            "body": "An agent can pass every evaluation and still become unsafe on Tuesday.\n\nDoctrine Half-Life is how long the premises governing its actions remain valid, current, and understood before the world—or the organization—moves on.\n\nThat clock should bound permission.\n\nIf a customer-facing agent was authorized under a pricing doctrine expected to hold for 30 days, its permission should not survive for 90. The agent may still execute perfectly. That is the danger: it can faithfully apply a stale map at machine speed.\n\nPassing an evaluation proves performance under a set of premises. It does not make those premises permanent. Every autonomous permission should expire no later than the doctrine that justified it.",
+            "sourceMode": "canonical_package"
+          },
+          "x_preflight": {
+            "status": "dry_run",
+            "reason": null,
+            "payload": {
+              "source_channel": "linkedin",
+              "source_final_text_hash": "995d869ea9c0b4337ba932627bd10e604f8685a685380be1afe8ec86ab0fd584",
+              "source_winning_candidate_id": "ca0247386771",
+              "text": "A support agent denies a refund under last month’s policy. The customer leaves. A frontline rep spends an hour apologizing for a decision nobody currently believes.\n\nThe agent did its job. Its permission had outlived the rule behind it.",
+              "winning_candidate_id": "fc15c8e85a75",
+              "winning_score": 8.2
+            },
+            "winnerCandidate": {
+              "id": "fc15c8e85a75",
+              "writer_model": "gpt-5.6-sol",
+              "prompt_variant": "human_stakes",
+              "post_text": "A support agent denies a refund under last month’s policy. The customer leaves. A frontline rep spends an hour apologizing for a decision nobody currently believes.\n\nThe agent did its job. Its permission had outlived the rule behind it.",
+              "self_notes": "Makes stale authorization tangible through customer loss and cleanup work for a frontline employee."
+            },
+            "winnerScore": {
+              "id": "d9715d3a9b45",
+              "candidate_id": "fc15c8e85a75",
+              "clarity_score": 9.2,
+              "compression_score": 8.8,
+              "diagnostic_score": 8.4,
+              "anti_cheese_score": 8.7,
+              "x_fit_score": 8.7,
+              "novelty_score": 7.1,
+              "engagement_score": 8.7,
+              "overall_score": 8.2,
+              "pass": true,
+              "pass_fail_reasons": [
+                "The refund denial, lost customer, and rep cleanup make the institutional error human and specific.",
+                "The example is distinct from the recent pricing scenario, while the ending advances the new permission-expiry claim.",
+                "Clean landing without turning into advice or abstraction."
+              ]
+            }
+          },
+          "winner_candidate": {
+            "id": "ca0247386771",
+            "writer_model": "gpt-5.6-sol",
+            "prompt_variant": "hook_forward",
+            "post_text": "An agent can pass every evaluation and still become unsafe on Tuesday.\n\nDoctrine Half-Life is how long the premises governing its actions remain valid, current, and understood before the world—or the organization—moves on.\n\nThat clock should bound permission.\n\nIf a customer-facing agent was authorized under a pricing doctrine expected to hold for 30 days, its permission should not survive for 90. The agent may still execute perfectly. That is the danger: it can faithfully apply a stale map at machine speed.\n\nPassing an evaluation proves performance under a set of premises. It does not make those premises permanent. Every autonomous permission should expire no later than the doctrine that justified it.",
+            "self_notes": "Live candidate in hook_forward mode."
+          },
+          "winner_score": {
+            "id": "e22dde68fd7d",
+            "candidate_id": "ca0247386771",
+            "voice_score": 9.2,
+            "novelty_score": 8.8,
+            "engagement_score": 9.1,
+            "clarity_score": 9.4,
+            "risk_score": 9.5,
+            "citation_score": 9.4,
+            "linkedin_native_score": 9.2,
+            "overall_score": 9.2,
+            "pass": true,
+            "pass_fail_reasons": [
+              "Strong substantive opener creates immediate tension without clickbait.",
+              "Defines Doctrine Half-Life plainly and ties it to a concrete permission boundary.",
+              "The pricing example makes the governance failure legible without padding.",
+              "Concise, well-paced, and ends on the exact operating implication.",
+              "Distinct from recent posts about permission increases and Context Checksums: this addresses permission expiration after doctrine ages.",
+              "No emojis, hashtags, links, unsupported market claims, or policy violations."
+            ]
+          },
+          "package_gate": {
+            "pass": true,
+            "attempted_candidates": 1,
+            "note_linkedin_novelty_score": 8.8,
+            "note_linkedin_engagement_score": 9.1,
+            "x_status": "dry_run",
+            "x_novelty_score": 7.1,
+            "x_engagement_score": 8.7
+          },
+          "selection_reason": "memory_safe_top_choice",
+          "research_bundle": null
+        }
+      },
+      "novel_idea": {
+        "pass": true,
+        "topic_thesis": "Every autonomous permission should expire no later than the doctrine that justified it.",
+        "angle": "Introduce Doctrine Half-Life as the missing clock in agent governance: permissions should be time-bounded by how long their governing premises are expected to remain valid, not granted indefinitely because an agent once passed evaluation.",
+        "hook": "An agent can pass every alignment test on Monday and become dangerous by Friday without changing at all.",
+        "argument_summary": "Autonomous permissions are usually treated as durable once an agent demonstrates capability and contextual alignment. But the source distinguishes agent fidelity from doctrine validity: an agent can remain perfectly faithful while the organization’s diagnosis, tradeoffs, or commitments become stale. As doctrine ages, persistent permissions turn yesterday’s correct instructions into today’s confidently executed error. Therefore the duration of autonomy should be bounded by Doctrine Half-Life, with reauthorization requiring current doctrine, evaluations, and reality feedback. The operator decision is temporal: do not merely decide how much an agent may do; decide how long that authority remains valid before it must be renewed or reduced.",
+        "novelty_score": 9.3,
+        "closest_post_id": "019fdc80-e965-6767-99db-1cc01935d3ab",
+        "novelty_rationale": "The closest prior post argues that false doctrine can produce Coherent Wrongness when agents execute it faithfully without sufficient reality feedback. This argument identifies a different causal mechanism and operator decision: doctrine can begin valid and become dangerous through ordinary aging, even when the agent, evaluations, and execution remain unchanged. The substantive addition is to bind permission duration to Doctrine Half-Life, making expiration and reauthorization part of autonomy design rather than relying only on initial alignment or eventual contradiction.",
+        "source_grounding": "The source defines Doctrine Half-Life as how long doctrine remains valid, current, and understood before drift or world change makes it stale. It states that bounded agents require current doctrine, permissions, evaluations, stop conditions, and feedback paths; asks who is accountable when doctrine ages but an agent keeps acting; and warns that stale doctrine can regulate confidently from a false model. The Minimum Viable Coherence Program also ties higher permission levels to mature doctrine, evaluations, and Actor feedback.",
+        "gate_version": 2,
+        "model": "gpt-5.6-sol",
+        "history_count": 98,
+        "history_fingerprint": "d02c4080f9fb0855ba21cc5bab0fcb7e0dd48b4b0a813562c532f840f8d18e20",
+        "developed_at": "2026-10-12T06:02:40.146Z"
+      },
+      "skip_reason": null
     },
     {
       "id": "5781891b271f",
