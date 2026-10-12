@@ -39,6 +39,8 @@ AI agents—software permitted to take actions—can check inventory and issue w
 
 Let corrected mistakes change the instructions and tests. Give the investigator the next unsolved problem, rather than a permanent desk between you and the software. None of the old firm's careers exists in your company yet. Be economical about creating them.
 
+Every person you place permanently between a decision and its execution is a piece of the incumbent you have begun building inside your own company.
+
 At renewal, make the customer ask why the service her supplier validated is available from you. Expect a discount, a new tier, or an independent operation. If the rival routinely matches your result at a comparable cost, its partners' unhappiness is no longer your business model.
 
 Let the incumbent keep the distinction of having seen the future first. Send the renewal proposal.
