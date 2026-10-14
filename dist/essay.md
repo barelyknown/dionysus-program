@@ -4,10 +4,10 @@ author: "Sean Devine"
 description: "Rites of Renewal"
 lang: en-US
 rights: "© 2025–2026. All rights reserved."
-source-revision: "c967f4022ada1cf694d25710aa2f0e72d9bf4623"
-source-revision-short: "c967f4022ada"
-published-at-utc: "2026-10-12 14:58 UTC"
-published-at-iso: "2026-10-12T14:58:14Z"
+source-revision: "e1026d5b5a2d22ba5857ab287297e4ceabf854b3"
+source-revision-short: "e1026d5b5a2d"
+published-at-utc: "2026-10-14 00:19 UTC"
+published-at-iso: "2026-10-14T00:19:26Z"
 ---
 
 ::: dedication
@@ -200,7 +200,7 @@ And once something is moral, it is expensive to change—no matter how good your
 
 That experience raised the question behind this book: how can a system improve without making the people in it less able to work together?
 
-Before XBE, I co-founded Partage, a freight business that evolved into a self-service wholesale brokerage. We built automated pricing and booking for spot movements. Partage was a modest success; we sold it in 2015. But the more important lesson was conceptual:
+Before XBE, I co-founded Partage, a freight business that evolved into a self-service wholesale brokerage. We built automated pricing and booking for spot movements. Partage was a modest success; we sold it in 2015. The experience taught me:
 
 Seeing the technical trend is never enough; you have to think through the full implications—how new technology reshapes the work itself, the team that performs it, the organization that depends on it, and the industry that surrounds it.
 
@@ -238,7 +238,7 @@ Technical progress was outpacing the ability of people and organizations to adap
 
 Later I saw the second side of the same transition. AI was not only melting expertise; it was multiplying agency. Work that once required a chain of specialists could be compressed into one person with tools, and then into one person directing many agents. The old question was whether the organization had enough competent hands. The new question is whether their decisions remain consistent with a shared purpose.
 
-That is the lesson of factory electrification, replayed in a new domain. The first electric factories kept the old line shafts and merely changed the power source; the real productivity came later, when unit motors let the plant be redesigned around flow instead of power transmission. AGI inside the old org chart repeats the early mistake—it bolts the dynamo to the line shaft. The gains that matter wait on a redesign around the new bottleneck, which is no longer labor capacity but coherent agency.
+That is the lesson of factory electrification, replayed in a new domain. The first electric factories kept the old line shafts and merely changed the power source; the real productivity came later, when unit motors let the plant be redesigned around flow instead of power transmission. AGI inside the old org chart repeats the early mistake—it bolts the dynamo to the line shaft. The larger gains wait on a redesign around the new bottleneck, which is no longer labor capacity but coherent agency.
 
 Earlier in my career I fell into a trap: stoicism plus optimization. I judged solutions by whether they eliminated waste and whether I could implement them myself in the short run. I undervalued social scale over time. I treated identities as liabilities to be reduced rather than assets to be cultivated. I treated redundancy as waste rather than as the buffer needed to live with uncertainty—and to make room for renewal.
 
@@ -256,7 +256,7 @@ The program grew out of that work.
 
 —
 
-I wrote this first for myself. I had a clear vision of what artificial intelligence could do, and I wanted to lean into it. I also saw how adoption would remake my identity and my role in the world. I needed a framework that could hold both facts at once: that automation of our existing capabilities is a given, and that what remains—what matters—will be cultural, moral, and relational.
+I wrote this first for myself. I had a clear vision of what artificial intelligence could do, and I wanted to lean into it. I also saw how adoption would remake my identity and my role in the world. I needed a framework that could hold both facts at once: that automation of our existing capabilities is a given, and that what remains will be cultural, moral, and relational.
 
 Second, I wrote it for my teammates, family, and friends. I wanted to give them practices they could use.
 
@@ -367,7 +367,15 @@ In social systems, those conditions belong within the method.
 
 The standard story—superstition replaced by reason—misses the point. Alchemy was not merely wrong chemistry waiting to be corrected. It was a method of transformation *that included the transformer*.
 
-The alchemist's purity mattered to the work. Not because impurity affected the reaction in the flask, but because impurity affected the alchemist's capacity to observe, interpret, and persist. The vessel's integrity mattered—not because cracks let in demons, but because cracks let in contamination that obscured what was actually happening. The timing and ritual mattered—not because the stars governed chemistry, but because the discipline of attention governed the quality of observation.
+```{=latex}
+\begin{samepage}
+```
+
+Impurity affected the alchemist's capacity to observe, interpret, and persist, not the reaction in the flask. Cracks in the vessel let in contamination that obscured what was actually happening, not demons. Timing and ritual disciplined the attention on which good observation depended; the stars did not govern chemistry.
+
+```{=latex}
+\end{samepage}
+```
 
 These were not mystical add-ons. They were acknowledgments that in transformative work, the operator and the operation are not fully separable.
 
@@ -532,9 +540,7 @@ Karl Popper described knowledge as conjectures exposed to criticism. David Deuts
 
 Knowledge changes when a better explanation replaces an earlier one. The pace varies by field, but in some areas the interval is shortening.
 
-Myth runs on a different clock—what Mircea Eliade called sacred time. Not a slower clock: no clock at all. The Cincinnatus story is not 2,500 years old in any sense that matters. It is equally present every time someone serves and returns to the plow. It does not age because it is not making claims about the world. It is making a claim about you.
-
-The distinction that matters most:
+Myth runs on a different clock—what Mircea Eliade called sacred time. Not a slower clock: no clock at all. The Cincinnatus story has not aged in 2,500 years. It is equally present every time someone serves and returns to the plow. It does not age because it is not making claims about the world. It is making a claim about you.
 
 Knowledge explains phenomena. Its claims can be tested against the world and corrected when they fail.
 
@@ -565,7 +571,7 @@ Call the speed at which a person, team, organization, or city digests error into
 
 Epimetabolic rate is the program’s central test. Revenue, valuation, headcount, shipping speed, and engagement can change for many reasons. Here the question is more specific: how quickly can the group recognize a mistaken explanation, revise what depends on it, and act on the revision without damaging trust? Practices that do not improve that capacity should be revised or retired.
 
-Accountability splits by mode. Call the ordinary operating mode Run Time. In Run Time, we practice Apollonian accountability—answering to the best available knowledge, meanings, doctrine, and processes we’ve already stabilized (forecast → act → score). Run Time maximizes coherent agency under current doctrine. During liminal phases, which we name Ritual Time, we practice Dionysian accountability—answering to the rituals and rules of the container that keep the melt non-violent and raise epimetabolic rate by metabolizing loss (call the rite → follow the vows → publish the recognition → exit on time). Ritual Time updates doctrine when reality melts it. It does not exist only to run critique. It also exists to restore the human substrate on which critique depends. In periods of intense Run Time, restoration is not peripheral to renewal; it is its precondition.
+Accountability splits by mode. Call the ordinary operating mode Run Time. In Run Time, we practice Apollonian accountability—answering to the best available knowledge, meanings, doctrine, and processes we’ve already stabilized (forecast → act → score). Run Time maximizes coherent agency under current doctrine. During liminal phases, which we name Ritual Time, we practice Dionysian accountability—answering to the rituals and rules of the container that keep the melt non-violent and raise epimetabolic rate by metabolizing loss (call the rite → follow the vows → publish the recognition → exit on time). Ritual Time updates doctrine when reality melts it. It does not exist only to run critique. It also exists to restore people's capacity to give and receive criticism. In periods of intense Run Time, restoration is not peripheral to renewal; it is its precondition.
 
 Standards of rationality and personal responsibility do not relax between modes. What inverts is only what everyone is accountable to: Ritual Time suspends performance scoring and output targets and re-aims accountability toward fidelity to the rite and reason-giving; Run Time restores performance scoring and decision-owner accountability for the explanations and commitments they endorse. We toggle modes deliberately and we name the mode we are in.
 
@@ -692,7 +698,7 @@ Organizations pursuing work that requires collective learning need Ren. Individu
 
 As more tasks become one-person jobs, organizations should preserve the gains and deliberately replace what collaboration used to provide: time together, trust, and shared context.
 
-It also means giving solitary agency a shared map. The new work unit cannot be "one person plus private judgment" multiplied across the firm. It has to become a bounded unit acting from living doctrine—with enough reality-contact and feedback that autonomy does not decay into drift.
+It also means giving solitary agency a shared map. The new work unit cannot be "one person plus private judgment" multiplied across the firm. People and their agents need to act from living doctrine, within clear limits—with enough reality-contact and feedback that autonomy does not decay into drift.
 
 Play, commitment to quality, and people who bring colleagues together are practical ways to do that.
 
@@ -710,7 +716,7 @@ Play, commitment to quality, and people who bring colleagues together are practi
 
 ## The Dynamo and the Agent
 
-The first mistake with a general-purpose technology is to install it inside the old organization and declare victory. The factory made this mistake with electricity. *The One-Man Job* names why that matters for AGI: AI lowers the cost of competent work, but the new work unit cannot become one person plus private judgment multiplied across the firm. The first pressure in this book is epistemic: knowledge melts faster than organizations can re-bind it. The second is agentic: action scales faster than organizations can preserve intent through it. The factory story makes that second pressure visible.
+The first mistake with a general-purpose technology is to install it inside the old organization and declare victory. The factory made this mistake with electricity. *The One-Man Job* describes the risk for AGI: AI lowers the cost of competent work, but the new work unit cannot become one person plus private judgment multiplied across the firm. The first pressure in this book is epistemic: knowledge melts faster than organizations can re-bind it. The second is agentic: action scales faster than organizations can preserve intent through it. The factory story makes that second pressure visible.
 
 Before electrification, industrial power was centralized and transmitted mechanically. A water wheel or steam engine drove a central shaft; belts, pulleys, gears, and secondary shafts carried mechanical force across the building. The layout obeyed the geometry of power transmission—machines sat where the shaft could reach them, not where the work wanted to flow. The arrangement made sense because power was scarce and centralized. When power has to travel through belts, the factory organizes around belts, and the hidden architecture of the energy system becomes the visible architecture of the work.
 
@@ -718,7 +724,7 @@ Then the electric motor arrived, and at first the factories did the obvious thin
 
 That is the first stage of AGI adoption. The firm keeps its job descriptions, approval chains, meeting cadences, handoff rituals, managerial spans, and departmental boundaries, then gives each person a model, adds a few copilots, routes some summaries into Slack, and calls itself transformed. The tools have changed more than the organization.
 
-The deeper gains came later, when the motor stopped being a better way to turn the old shaft and became a reason to redesign the plant. Unit drive put a motor on each machine. Once power no longer had to be dragged mechanically across the building, machines could be placed by process flow: material moved in cleaner lines, backtracking fell, single-story layouts became practical, downtime grew modular, buildings got lighter, capital worked harder. The new power source mattered less than the new layout it made possible.
+The deeper gains came later, when the motor stopped being a better way to turn the old shaft and became a reason to redesign the plant. Unit drive put a motor on each machine. Once power no longer had to be dragged mechanically across the building, machines could be placed by process flow: material moved in cleaner lines, backtracking fell, single-story layouts became practical, downtime grew modular, buildings got lighter, capital worked harder. The gains came less from the new power source than from the layout it made possible.
 
 Paul David and Gavin Wright describe the lag precisely: the productivity surge did not arrive with the dynamo. There was a long pause while the complementary practices—layouts, accounting, management, operating concepts—caught up. Warren Devine's history of the shift from shafts to wires makes the same physical point. Electricity did not merely lower the cost of energy; it changed what the factory could be organized around. The bottleneck moved. Once power was abundant, the binding constraints became material flow, scheduling, information, downtime, coordination, and managerial imagination. The factory did not merely become stronger. It became reorganizable.
 
@@ -777,7 +783,7 @@ Doctrine is how an organization bounds rationality without merely throttling int
 
 Jay Galbraith frames organization design as information processing under uncertainty: as tasks grow more uncertain, the organization must either reduce the need to process information, increase its capacity to process it, or restructure the work so coordination costs less. AGI obviously increases capacity—it can read, summarize, generate, route, and compare quickly. But it can also explode demand. Every agent can spawn plans, variants, objections, analyses, workflows, code, forecasts, customer messages, memos, and rival interpretations. The resulting information can exceed the firm’s capacity to interpret it and decide what to do.
 
-This is why the design question matters more than the tool question. Should the organization add processing capacity, cut processing demand, or redesign the work so less coordination is needed? Direct doctrine-to-agent execution is powerful because it removes avoidable mediation—but only where the work is modular enough and the doctrine current enough. Otherwise it just moves ambiguity faster.
+Should the organization add processing capacity, cut processing demand, or redesign the work so less coordination is needed? Direct doctrine-to-agent execution is powerful because it removes avoidable mediation—but only where the work is modular enough and the doctrine current enough. Otherwise it just moves ambiguity faster.
 
 James D. Thompson marks where the boundary belongs. Different kinds of interdependence demand different coordination: pooled interdependence can be standardized; sequential interdependence needs plans and interfaces, because one output becomes the next input; reciprocal interdependence needs mutual adjustment, because the parts continuously shape one another. The post-AGI translation: route modular work through doctrine-guided agents, and route reciprocal, ambiguous, high-stakes work through Actor clusters with agent support. Do not mediate all work through people, and do not treat every executing unit as a boundary-of-consequence Actor where reality is ambiguous, trust-laden, regulated, embodied, or irreversible. The coordination mechanism should match the kind of interdependence.
 
@@ -795,7 +801,7 @@ In a coherence-constrained organization, the five focusing steps become concrete
 
 Do not add agency to a coherence-constrained system. First exploit and elevate coherence.
 
-Now return to the central split of this book. Run Time converts current doctrine into coherent agency; Ritual Time updates doctrine after reality falsifies it and repairs the social substrate that knowledge-change damages. Run Time preserves fidelity to the current map; Ritual Time changes the map. The distinction matters because a group can fail in four ways:
+Now return to the central split of this book. Run Time converts current doctrine into coherent agency; Ritual Time updates doctrine after reality falsifies it and repairs the trust and relationships that knowledge-change damages. Run Time preserves fidelity to the current map; Ritual Time changes the map. A group can fail in four ways:
 
 |  | High coherence | Low coherence |
 | --- | --- | --- |
@@ -833,7 +839,7 @@ The model is substrate-neutral. It applies to any coherence system spanning mixe
 
 The Auteur function generates, preserves, and revises the organization's source of intent: vision, taste, doctrine, identity, and essential variables. It answers the questions the executing layer cannot answer for itself: What is this organization? What is it trying to become? What must not be violated? What counts as excellence, and what counts as betrayal? What local success would be globally wrong?
 
-The Auteur need not be one person, or even one substrate. It may be a founder, executive group, creative lead, board, council, model, constitution, governance process, or some combination. What matters is the function: some part of the system must author the premises that make action meaningfully "ours."
+The Auteur need not be one person, or even one substrate. It may be a founder, executive group, creative lead, board, council, model, constitution, governance process, or some combination. Whatever the form, some part of the system must author the premises that make action meaningfully "ours."
 
 Auteurship gives the organization standards for accepting and rejecting work. Plausible output is not enough; the output must fit the organization’s purpose and taste. But the Auteur should not have to interpret every decision. If every significant action returns to the center, doctrine has not made independent action possible.
 
@@ -867,7 +873,7 @@ Doctrine is living Li: it gives form to action. It does not replace Ren, and it 
 
 **Agents**
 
-The Agent function converts doctrine into action. Agents do not merely "do tasks"; they act from some premise set, and the only question that matters is whether that set is canonical, fresh, and bounded. A generic agent produces plausible output; a doctrine-bound agent produces organizationally coherent output.
+The Agent function converts doctrine into action. Agents do not merely "do tasks"; they act from some premise set, which must be canonical, fresh, and bounded. A generic agent produces plausible output; a doctrine-bound agent produces organizationally coherent output.
 
 Agents need current doctrine, retrieval from canonical sources, permissions, evals, stop conditions, escalation triggers, blast-radius limits, output review proportional to risk, and feedback paths back into doctrine. Without those, the organization is not deploying agency. It is launching private interpretations at scale. Permissions should rise only as doctrine, evals, and Actor feedback mature: a suggest-only workflow can tolerate ambiguity; an agent that touches customers, money, compliance, code deployment, or irreversible promises cannot.
 
@@ -928,7 +934,7 @@ What happens when the need for Ren outpaces its organic accumulation?
 
 The coherence problem adds another pressure. A group needs enough trust to question its assumptions, and enough doctrine, permissions, and feedback to keep independent actions consistent.
 
-The **Impatience of Jobs** names an attempt to shorten that interval through shared commitments and difficult work. Its methods can also produce coercion, which is why the distinction between trust and lock-in matters.
+The **Impatience of Jobs** names an attempt to shorten that interval through shared commitments and difficult work. Its methods can also produce coercion; trust must not be confused with lock-in.
 
 ---
 
@@ -1054,7 +1060,7 @@ Without submission, Ren runs *through* the leader rather than *between* members.
 
 With submission, the institution can outlast its founder.
 
-This is why the full sequence matters—transgress, recognize, release, submit—and why partial completion produces lock-in or cult rather than trust. Each step addresses a different problem: shared stakes, recognition of conduct, independence from the leader, and limits on authority.
+The full sequence—transgress, recognize, release, submit—builds trust; partial completion produces lock-in or cult. Each step addresses a different problem: shared stakes, recognition of conduct, independence from the leader, and limits on authority.
 
 Skip one, and you trap people together or bond them to a person. Complete the sequence, and you bond them to each other.
 
@@ -1197,7 +1203,7 @@ Before entering Act II, audit your readiness.
 1. **The Truth Test:** When was the last time a junior person contradicted a senior person without consequence? If the answer is "never," you are not ready for a Crossing.
 2. **The Mercy Test:** When a project failed, was the team protected or purged? If they were purged, you are not ready for a Tragic Postmortem.
 3. **The Naming Test:** Do you use language to reveal reality or obscure it? If you use euphemisms for pain, you are not ready for the Rite of Redress.
-4. **The Substrate Test:** Is this group merely afraid, or is it also depleted? If people are exhausted, overstimulated, or coming directly out of prolonged Run Time, you are not ready for a high-heat rite. Lower the heat first. Sleep, food, daylight, silence, ordinary kindness, and a temporary reduction in demands are not luxuries here; they are prerequisites.
+4. **The Recovery Test:** Is this group merely afraid, or is it also depleted? If people are exhausted, overstimulated, or coming directly out of prolonged Run Time, you are not ready for a high-heat rite. Lower the heat first. Sleep, food, daylight, silence, ordinary kindness, and a temporary reduction in demands are not luxuries here; they are prerequisites.
 
 Add a Coherence Gate before deploying high-agency workflows. Do not ask only whether the team can tolerate truth. Ask whether the organization can preserve intent through action.
 
@@ -1222,7 +1228,7 @@ Then run a Coherence Audit.
 
 If you fail these tests, begin with lower-stakes coordination, shared meals, and small promises kept. Build enough trust for disagreement before attempting the more demanding rites.
 
-Some groups fail the gate morally; others fail it metabolically. Both failures matter. A team too depleted to metabolize truth will turn even a good rite into punishment, theater, or collapse. No ritual technology, however elegant, can metabolize loss on a fully exhausted substrate.
+Some groups fail the gate morally; others fail it metabolically. A team too depleted to metabolize truth will turn even a good rite into punishment, theater, or collapse. No ritual technology, however elegant, can metabolize loss when the participants are exhausted.
 
 The practices in *The One-Man Job*—play, commitment to quality, hiring for Ren-generation—are where to begin building Ren before attempting the heavier rituals.
 
@@ -1353,7 +1359,7 @@ Every Crossing names two roles:
 \begin{samepage}
 ```
 
-**Host:** The person entrusted with the room's warmth, beauty, pacing, and protection throughout the rite. The Host notices when candor becomes prosecution, laughter becomes ridicule, or someone withdraws. They keep criticism on the object and have authority to slow, interrupt, or pause the rite when care fails. An aesthetic opening cannot carry a cold encounter. Hospitality must survive the hardest criticism. Warmth can hold silence, seriousness, and grief; nobody owes the room a joke.
+**Host:** The person entrusted with the room's warmth, beauty, pacing, and protection throughout the rite. The Host notices when candor becomes prosecution, laughter becomes ridicule, or someone withdraws. They keep criticism on the object and have authority to slow, interrupt, or pause the rite when care fails. The Host must remain welcoming during difficult criticism and allow silence, seriousness, and grief. Humor is optional.
 
 ```{=latex}
 \end{samepage}
@@ -1416,11 +1422,11 @@ Make that operational:
 
 * Loss exhibits: turn deprecations, failed models, and retired rituals into public artifacts—posters, stories, performances. Name the thing. Honor its service. Tell the truth about why it died. Place it in a “Scrapbook” or “Graveyard” everyone can visit. Memory is a stabilizer.
 
-* Aesthetic reviews: open product and research reviews with a three-minute artifact—renderings, a poem, a demo with music—not to manipulate but to make the stakes felt. Then go to hard critique. The opening should help people attend to the stakes of the critique.
+* Aesthetic reviews: open product and research reviews with a three-minute artifact—renderings, a poem, a demo with music—not to manipulate but to show what people stand to gain or lose. Then go to hard critique.
 
 * Festivals of misrule: schedule licensed inversions. Carnival works. Use it. Let junior staff roast leadership. Let support write the keynote. Let people challenge the usual presentation of a failure. Then restore order. The inversion resets.
 
-* Naming: rename phases and projects with symbolic precision. Names matter; they anchor attention. “Crossing,” “Touch Down,” “Rite of Redress,” “The Great Dissolution,” “The Rubedo.” Language carries ritual.
+* Naming: rename phases and projects with symbolic precision. Names anchor attention. “Crossing,” “Touch Down,” “Rite of Redress,” “The Great Dissolution,” “The Rubedo.” Language carries ritual.
 
 At home: memorize a poem about a loss that taught you. Read it aloud before you begin a hard change. In class: set a “Gallery of Attempts” with student failures honored as stepping stones. In law: publish dissenting opinions as civic art, not just legal text.
 
@@ -1434,11 +1440,11 @@ Run Time does not only consume hours. It consumes slack.
 
 Intense work reduces patience, curiosity, generosity, and the ability to hear criticism without treating it as an attack. People may still meet their obligations while having little capacity left for a difficult conversation.
 
-This is why Ritual Time cannot consist only of active renewal. It cannot be only critique, postmortem, reckoning, and recommitment. Those are necessary. But they are not enough. A system that attempts to metabolize loss on an exhausted substrate does not get transformation. It gets theater, compliance, numbness, or cruelty with elevated language.
+This is why Ritual Time cannot consist only of active renewal. It cannot be only critique, postmortem, reckoning, and recommitment. Those are necessary. But they are not enough. A group that attempts to metabolize loss while its members are exhausted does not get transformation. It gets theater, compliance, numbness, or cruelty with elevated language.
 
 Fallow time in agriculture offers a useful comparison. A field is left unharvested to restore its capacity for future crops. In an organization, continuous demands can likewise damage the capacity on which future work depends.
 
-Sabbath traditions make rest an obligation rather than a reward for finishing the work. That distinction matters in organizations, where there is always more work to do. A stopping rule prevents urgency from becoming permanent.
+Sabbath traditions make rest an obligation rather than a reward for finishing the work. Organizations always have more work to do. A stopping rule prevents urgency from becoming permanent.
 
 So Ritual Time has two forms.
 
@@ -1446,7 +1452,7 @@ The first is passive renewal: sleep, silence, meals without agenda, walks, beaut
 
 The second is active renewal: lament, critique, postmortem, confession, recognition, the explicit naming of what has ended, the deliberate rebinding of commitments. Active renewal is where meaning is metabolized. But active renewal only works when passive renewal has restored enough capacity for the truth to be borne without violence.
 
-The order matters. Cool first. Metabolize second.
+Cool first. Metabolize second.
 
 A crisis may require immediate discussion. But leaders should generally assume that exhaustion makes interpretation less reliable. People become more susceptible to the strongest voice, more likely to mistake agitation for insight, and more inclined to accept a scapegoat or slogan instead of an explanation.
 
@@ -1518,7 +1524,7 @@ Coherent wrongness is one of the hardest tragedies to metabolize. Sometimes frag
 
 The Romans told a story that should sit behind any attempt to build a ritual layer.
 
-Cincinnatus was a farmer. In the legend, envoys from the Senate find him at the plow and offer him absolute power—dictator of Rome—for a limited crisis. He wipes the mud from his hands, accepts the mandate, raises an army, breaks the siege, and then does the part that matters for us: sixteen days later, with the danger passed, he resigns and goes back to his field.
+Cincinnatus was a farmer. In the legend, envoys from the Senate find him at the plow and offer him absolute power—dictator of Rome—for a limited crisis. He wipes the mud from his hands, accepts the mandate, raises an army, breaks the siege, and sixteen days later, with the danger passed, he resigns and goes back to his field.
 
 Three moves, mechanically: he is called up from ordinary work, not down from a permanent office; his authority is extraordinary but tightly scoped to a specific emergency; and when the scope closes, he lays the authority down and returns to the plow. Call this pattern the **Cincinnatus Rule:** anyone given liminal authority must be drawn from real operators, empowered to act decisively on a bounded mission, and then required—by form, not just by personal virtue—to rejoin ordinary work. Stewardship cannot become a permanent office.
 
@@ -1538,7 +1544,7 @@ Doctrine capture has recognizable symptoms: agents are forced to reproduce leade
 
 ### Symptoms of Ritual Oligarchy
 
-Ritual oligarchy is easiest to see in its downstream effects. Five symptoms matter most for the *Dionysus Program*.
+Ritual oligarchy is easiest to see in its downstream effects. Look for five symptoms.
 
 #### 1. Agenda Control
 
@@ -1911,7 +1917,7 @@ There are also crimes against coherence, but they remain subordinate to Ren. The
 
 Doctrine laundering uses official language to smuggle local interests into agentic execution. Shadow doctrine maintains private operating premises while pretending to follow shared doctrine. Stale-agent negligence knowingly allows agents to execute obsolete doctrine. False coherence suppresses valid contradiction in the name of alignment. Mode fraud uses Ritual Time language to win Run Time power, or Run Time authority to prevent necessary Ritual Time.
 
-These are serious because they damage the machinery by which intent survives distribution. But they become crimes against Ren when they weaponize trust, suppress reality-contact, punish protected contradiction, or make people unsafe inside the container. Coherence law must never outrank the social substrate that makes correction possible.
+These are serious because they damage the machinery by which intent survives distribution. But they become crimes against Ren when they weaponize trust, suppress reality-contact, punish protected contradiction, or make people unsafe inside the container. Coherence law must never outrank the trust and relationships that make correction possible.
 
 The stakes run in both directions. Without enforcement, the container is theater. With enforcement that cannot be questioned, the penal code becomes an instrument of scapegoating. What follows names the crimes, the judgment, and the penalty.
 
@@ -2042,7 +2048,7 @@ This is a thought experiment, not an empirically validated theory or a proven ca
 
 The value of the exercise is to make the assumptions visible. Making trust a bottleneck, letting unprocessed error compound, and allowing stewardship to decay lets us explore the consequences of those premises together. You can question the relationships as well as the numbers. The mathematics gives the argument something explicit to be wrong about.
 
-The coherence addition does not replace the model. It adds a Run Time load condition. Epimetabolic rate governs how well the organization updates the map and repairs the substrate. Coherence capacity governs how much distributed agency can act from the current map before marginal agency turns negative.
+The coherence addition does not replace the model. It adds a Run Time load condition. Epimetabolic rate governs how well the organization updates the map and repairs trust and relationships. Coherence capacity governs how much distributed agency can act from the current map before marginal agency turns negative.
 
 ### Objective: Explanatory Reach ($S$)
 
@@ -2313,7 +2319,7 @@ A team operating right at the edge—enough capacity to handle normal variation,
 
 **Situation:** Parameters are tuned such that outcomes depend heavily on stochastic factors—particularly the timing of stewardship resets. Rotation rate is moderate, and the system is operating near its limits.
 
-**Dynamics:** In good runs, $C$ resets at fortuitous moments, keeping Omega high when it matters. In bad runs, $C$ drifts low during high-melt periods, causing overflow and decay spikes. The margin between growth and decay is thin.
+**Dynamics:** In good runs, $C$ resets at fortuitous moments, keeping Omega high during high-melt periods. In bad runs, $C$ drifts low during high-melt periods, causing overflow and decay spikes. The margin between growth and decay is thin.
 
 **Outcome:** Sometimes survives, sometimes collapses—depending on luck. No margin for error. A poorly timed setback can cause collapse.
 
@@ -2489,7 +2495,7 @@ Once per week, for a fixed short block:
 * Declare Ritual Time and restate the covenant: “No person is the problem; the problem is the problem.”
 * Name a single anti-scapegoat: a roadmap, charter, metric, policy, design. All heat goes there.
 * Name the Owner, who has the greatest stake and welcomes criticism with warmth and grace, and the Host, who tends the room throughout the rite.
-* Open with a small aesthetic artifact—a diagram, story, demo—that makes the stakes felt. The Host sustains warmth and beauty through the criticism and the close.
+* Open with a small aesthetic artifact—a diagram, story, demo—that shows what people stand to gain or lose. The Host sustains warmth and beauty through the criticism and the close.
 * Red-team the object under rule. Anyone may table a rival explanation and test plan. The builder speaks last. Retaliation is out of bounds. The Host interrupts ridicule or personal attack and slows or pauses the rite when care fails.
 * Apply a hard-to-vary test: note the facts this proposal actually explains, the parts that cannot move without breaking that fit, and one risky prediction to be scored later.
 * Close with binding speech: “We commit to X until Y,” and log it where everyone can see it.
@@ -2502,7 +2508,7 @@ A single honest Crossing per week is enough to change how a group experiences cr
 
 The third move is to narrate real failures as tragedies that teach, not as whodunits or PR.
 
-Once per cycle that matters for you—monthly for a team, quarterly for an organization—you pick one consequential miss and run a Tragic Postmortem:
+Once per cycle—monthly for a team, quarterly for an organization—you pick one consequential miss and run a Tragic Postmortem:
 
 * Hamartia: “Our decisive mistake was…” (an internal error, not pure bad luck).
 * Peripeteia: “The reversal was triggered by…” (the moment reality inverted your expectation).
@@ -2524,7 +2530,7 @@ The fifth move is to make decomposition visible and useful.
 At minimum:
 
 * Keep a simple Scrap Heap Library: a shared folder or board where dead code, retired policies, rejected designs, and decommissioned rituals go with a one-line note on which assumption was rejected or which test changed the decision. New people start there.
-* Hold brief deprecation ceremonies for anything that mattered: name what is ending, thank it for what it enabled, state clearly why it no longer serves, and release people from its grip.
+* Hold brief deprecation ceremonies for anything people valued: name what is ending, thank it for what it enabled, state clearly why it no longer serves, and release people from its grip.
 * Reserve a small sunset budget each cycle—some time and attention explicitly set aside for unshipping, deleting, unbundling, simplifying.
 
 The archive should make useful knowledge available and make clear which old rules no longer apply.
@@ -2574,7 +2580,7 @@ The program's own myth was chosen to pass all three tests:
 It describes how to be. It remains useful when an explanation fails. It can continue to orient the practice as its explanations, tools, and participants change.
 
 
-Together, these six practices constitute a small Dionysus Program: name the mode, direct criticism at an object, examine failures, allow recovery, learn from retired work, and repeat. The forms can be simple. After six months, ask whether it is easier and faster for the group to change its mind in public. If not, revise or remove practices until they help. If stewardship has become a career rather than a temporary duty, address that before adding more ritual.
+Together, these six practices make up a small Dionysus Program: name the mode, direct criticism at an object, examine failures, allow recovery, learn from retired work, and repeat. The forms can be simple. After six months, ask whether it is easier and faster for the group to change its mind in public. If not, revise or remove practices until they help. If stewardship has become a career rather than a temporary duty, address that before adding more ritual.
 
 ---
 
