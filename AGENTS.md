@@ -19,6 +19,19 @@
 - CSS sticks to semantic class names (`.page-header`, `.page-download`) and prefers serif typography; maintain indentation at two spaces.
 - Lua filters follow concise naming (`remove-title.lua`, `pdf.lua`); continue dispatching logic by Pandoc element type.
 
+## Writing & Editing
+Apply these author-calibrated preferences (2026-10-13) when drafting or editing the manuscript, letters, Side B, and book-facing copy:
+
+- Keep everything essential and nothing extra. Make surgical edits that preserve the claim, qualifications, speaker, and rhythm.
+- State the effect or instruction directly. Avoid importance announcements such as “The ___ matters,” “mattered to the work,” and “the central lesson.” Prefer “Names anchor attention” to “Names matter; they anchor attention.”
+- Describe care through conduct. Replace flourishes such as “hospitality must survive,” “warmth can hold,” and “nobody owes the room” with what the Host does and what participants may do. Preserve warmth, protection, silence, seriousness, grief, and optional humor.
+- Name people and their actions directly. Avoid “fully exhausted substrate” and “bounded unit” for people doing work. Keep technical distinctions such as substrate-neutral systems, bounded rationality, and bounded agency where they serve the argument.
+- Match the speaker's register. In conversational or satirical prose, prefer “Three fluent answers won’t get the order delivered” to “Three fluent answers do not constitute a delivery.” Review formal scientific uses separately.
+- Replace vague emotional instructions such as “make the stakes felt” with the particular consequences or intended effect. Do not substitute another vague phrase.
+- Preserve effective abstraction, metaphor, contrast, fragments, and aphorisms. Author-approved examples include “Common became normal. Normal became moral.”; “In messy systems, waste is often not an error. It is an insurance policy.”; and “Anomie is not a mood; it is a vacuum of valuation.” These devices are not defects by themselves.
+- Author feedback takes precedence over generic writing heuristics. Preserve approved wording by default, read edited passages in context, and keep factual or theoretical revisions separate from style edits.
+- Keep raw ratings, research, review apps, backups, and edit ledgers local under the ignored `editorial/` directory. Maintain the distilled writing guidance here so future checkouts do not depend on those local files.
+
 ## Testing Guidelines
 - `node --test scripts/build-safeguards.test.js` checks tool rejection, KPF failure handling, and publication rollback.
 - `./build.sh --check` runs real PDF, EPUB-to-KPF, and browser probes without changing published artifacts.

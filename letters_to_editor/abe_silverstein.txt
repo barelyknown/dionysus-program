@@ -14,7 +14,7 @@ But you are right about the drift. I watched it happen. We built the checklists 
 
 Scheduled reviews are useful only if they can change the work. Otherwise the organization keeps its procedures and waits for an accident to expose what they missed.
 
-Your Cincinnatus Rule matters for the same reason. I was an engineer before I was a manager, and I went back to Cleveland when I was done. People who set procedures need to keep doing work that tests those procedures.
+Your Cincinnatus Rule follows the same principle. I was an engineer before I was a manager, and I went back to Cleveland when I was done. People who set procedures need to keep doing work that tests those procedures.
 
 Keep the purpose of the procedure in view.
 

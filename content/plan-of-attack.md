@@ -103,7 +103,7 @@ Suppose instead that every repair ends at a conflict nobody can settle. Sales re
 
 There is your offer: a date, scope, and price the customer can rely on, confirmed soon enough to be useful. Your advantage lasts only while the rival cannot match the whole service at a comparable cost. Its embarrassment alone pays poorly.
 
-Take the same order through your own operation. A date cannot be offered until the required stock and transport are reserved. Support can change the commitment only by changing those reservations too. If the customer wants something those rules cannot resolve, someone must judge the consequences and take responsibility. Three fluent answers do not constitute a delivery.
+Take the same order through your own operation. A date cannot be offered until the required stock and transport are reserved. Support can change the commitment only by changing those reservations too. If the customer wants something those rules cannot resolve, someone must judge the consequences and take responsibility. Three fluent answers won’t get the order delivered.
 
 When you change the rules, withdraw the obsolete permissions everywhere they could still make a promise. Try to provoke the old behavior. A correction is unfinished while some agent can sell the previous promise.
 

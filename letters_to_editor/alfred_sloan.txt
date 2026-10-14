@@ -12,7 +12,7 @@ The structure worked. Its success made it harder to recognize when the condition
 
 I see now that I solved for space, but I did not solve for time. I designed an organization that could manage immense complexity across geography and product lines, but I did not design an organization that could digest its own success. We made Run Time so efficient, so comfortable, and so profitable that we convinced ourselves it was the only time that existed. We mistook the stability of the organization for the stability of the world.
 
-Your central insight is that efficiency is brittle. You argue that unless a system has a dedicated mechanism for metabolizing its own errors—your Epimetabolic Rate—it will inevitably succumb to entropy. You suggest that we must ritually dissolve our structures so that they do not ossify into prisons.
+You argue that efficiency is brittle: unless a system has a dedicated mechanism for metabolizing its own errors—your Epimetabolic Rate—it will inevitably succumb to entropy. You suggest that we must ritually dissolve our structures so that they do not ossify into prisons.
 
 This is a hard lesson for a man of my generation. We believed that if we could only get the facts right, the structure would stand forever. We viewed conflict as a defect in the machine, something to be smoothed away by better administration. You view conflict as the fuel. You argue that we must invite the heat inside the walls to avoid being burned by the fire outside.
 

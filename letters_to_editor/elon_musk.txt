@@ -6,7 +6,7 @@ The practical question is how quickly you can find and remove an error.
 
 Organizations accumulate processes, approvals, and assumptions. Unless someone keeps testing whether they are needed, those additions slow the work and conceal mistakes.
 
-The core insight on "Epimetabolic Rate" is actually very important, though the name is terrible. Just call it the Error Kill Rate. How fast can you realize you were wrong and delete the part? The best part is no part. The best process is no process. If your culture protects the process instead of the outcome, you are already dead. The process will outlast the reason for having it.
+"Epimetabolic Rate" is a terrible name. Just call it the Error Kill Rate. How fast can you realize you were wrong and delete the part? The best part is no part. The best process is no process. If your culture protects the process instead of the outcome, you are already dead. The process will outlast the reason for having it.
 
 You are right about Apollo vs. Dionysus. Apollo was a local maximum. It worked once, then they stopped. They were terrified of breaking anything, so they stopped building. To get to Mars, we have to be Dionysian. We have to blow up the rocket to learn why it blew up. Rapid unscheduled disassembly is just data. If you aren't breaking things, you aren't moving fast enough.
 
