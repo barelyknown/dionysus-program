@@ -334,20 +334,170 @@
       "weekday": "friday",
       "slot_type": "baseline",
       "status": "planned",
-      "content_type": "cautionary_tale",
-      "pillar": "Cautionary Tales",
-      "topic_thesis": "Crimes Against Ren are real because truth can still be weaponized against the substrate that makes truth possible.",
-      "seed_topic_thesis": "Crimes Against Ren are real because truth can still be weaponized against the substrate that makes truth possible.",
-      "idea_status": "pending",
-      "angle": "Name the misuse clearly and show the cost of getting it wrong.",
-      "hook": "A practice can look rigorous and still make the system worse. crimes against ren are real because truth can still be weaponized against the substrate that makes truth possible.",
+      "content_type": "extracted_insight",
+      "pillar": "Extracted Insights",
+      "topic_thesis": "Autonomous agent permissions should expire with the doctrine that justified them; otherwise bounded agency becomes unbounded as its premises age.",
+      "seed_topic_thesis": "Run Time and Ritual Time require different forms of accountability.",
+      "idea_status": "developed",
+      "angle": "Shift agent governance from one-time permissioning to expiring authority tied to doctrine half-life: renewal requires confirming that the governing premises, evaluations, escalation rules, and boundary feedback remain current.",
+      "hook": "Your AI agent’s permissions may still be valid even though every reason for granting them has expired.",
       "source_bundle_id": null,
       "timely_subject": null,
       "draft_ref": null,
       "winner_id": null,
       "risk_level": "low",
       "freshness_deadline": null,
-      "publish_payload": null
+      "publish_payload": null,
+      "novel_idea": {
+        "pass": true,
+        "topic_thesis": "Autonomous agent permissions should expire with the doctrine that justified them; otherwise bounded agency becomes unbounded as its premises age.",
+        "angle": "Shift agent governance from one-time permissioning to expiring authority tied to doctrine half-life: renewal requires confirming that the governing premises, evaluations, escalation rules, and boundary feedback remain current.",
+        "hook": "Your AI agent’s permissions may still be valid even though every reason for granting them has expired.",
+        "argument_summary": "Bounded agency depends on more than a permission setting. It requires current doctrine, evaluations, stop conditions, escalation paths, and feedback from reality. But doctrine has a half-life: its premises become stale as the world and organization change. If permissions persist while doctrine decays, an agent can continue acting faithfully from an obsolete map, turning a formerly bounded workflow into a source of confident incoherence. Authority should therefore be version-bound or time-bound to the doctrine that supports it, with expiration triggering revalidation or a permission downgrade. This is distinct from testing alignment before increasing autonomy; it governs how autonomy is withdrawn after its original justification ages.",
+        "novelty_score": 9.1,
+        "closest_post_id": "019ff648-1a52-a05b-2c6a-0622be944bdc",
+        "novelty_rationale": "The closest post argues that humans and machines should pass a Context Checksum before an agent receives broader permissions. This argument addresses a different lifecycle failure: what happens after permission has already been granted. Its central mechanism is temporal decay—doctrine ages while authority persists—and its operator decision is to expire, renew, or downgrade permissions as doctrine reaches the end of its useful life. That is not a narrower restatement of pre-deployment alignment.",
+        "source_grounding": "The source defines doctrine half-life as how long doctrine remains valid, current, and understood; defines bounded agency as action governed by current doctrine, permissions, evaluations, stop conditions, and feedback paths; warns that stale doctrine can regulate confidently from a false model; asks who is accountable when doctrine ages but an agent keeps acting; and states that permissions should rise only as doctrine, evaluations, and boundary feedback mature. Appendix B also provides graduated permission levels and requires doctrine version, owner, escalation conditions, blast radius, evaluation, and feedback return.",
+        "gate_version": 2,
+        "model": "gpt-5.6-sol",
+        "history_count": 98,
+        "history_fingerprint": "d02c4080f9fb0855ba21cc5bab0fcb7e0dd48b4b0a813562c532f840f8d18e20",
+        "developed_at": "2026-10-16T04:37:22.684Z"
+      },
+      "preparation": {
+        "status": "ready",
+        "prepared_at": "2026-10-16T04:39:14.312Z",
+        "history_fingerprint": "d02c4080f9fb0855ba21cc5bab0fcb7e0dd48b4b0a813562c532f840f8d18e20",
+        "attempts": [
+          {
+            "content_type": "cautionary_tale",
+            "seed_topic_thesis": "Crimes Against Ren are real because truth can still be weaponized against the substrate that makes truth possible.",
+            "status": "skipped",
+            "reason": "no_passing_candidate",
+            "error": null,
+            "details": null
+          },
+          {
+            "content_type": "extracted_insight",
+            "seed_topic_thesis": "Run Time and Ritual Time require different forms of accountability.",
+            "status": "prepared",
+            "reason": null,
+            "error": null,
+            "details": null
+          }
+        ],
+        "package": {
+          "version": 1,
+          "prepared_at": "2026-10-16T04:39:14.312Z",
+          "history_fingerprint": "d02c4080f9fb0855ba21cc5bab0fcb7e0dd48b4b0a813562c532f840f8d18e20",
+          "payload": {
+            "item_id": "31fa6bfba622",
+            "scheduled_at": "2026-10-16T12:30:00.000Z",
+            "content_type": "extracted_insight",
+            "pillar": "Extracted Insights",
+            "topic_thesis": "Autonomous agent permissions should expire with the doctrine that justified them; otherwise bounded agency becomes unbounded as its premises age.",
+            "angle": "Shift agent governance from one-time permissioning to expiring authority tied to doctrine half-life: renewal requires confirming that the governing premises, evaluations, escalation rules, and boundary feedback remain current.",
+            "hook": "An agent can stay inside its permissions and still become unbounded.",
+            "body_text": "An agent can stay inside its permissions and still become unbounded.\n\nA customer-facing pricing agent is approved under a specific doctrine: current promises, tradeoffs, evaluations, escalation rules, and blast radius. Six months later, its access may be unchanged while the premises beneath it have expired. It is now acting faithfully from a false map.\n\nDoctrine Half-Life is how long doctrine remains valid, current, and understood before drift or world change makes it stale. Stale doctrine can be worse than none because it regulates confidently.\n\nAuthority should expire with the doctrine that justified it. Renewal means confirming the premises, evaluations, escalation rules, and boundary feedback are still current.\n\nIf the map has aged, the authority to act from it has aged too.",
+            "footer_text": "This is from The Dionysus Program — a free field manual for leaders who need to metabolize disruption without burning their people. Read it at dionysusprogram.com.",
+            "footer_index": 0,
+            "footer_divider": "---",
+            "final_text": "An agent can stay inside its permissions and still become unbounded.\n\nA customer-facing pricing agent is approved under a specific doctrine: current promises, tradeoffs, evaluations, escalation rules, and blast radius. Six months later, its access may be unchanged while the premises beneath it have expired. It is now acting faithfully from a false map.\n\nDoctrine Half-Life is how long doctrine remains valid, current, and understood before drift or world change makes it stale. Stale doctrine can be worse than none because it regulates confidently.\n\nAuthority should expire with the doctrine that justified it. Renewal means confirming the premises, evaluations, escalation rules, and boundary feedback are still current.\n\nIf the map has aged, the authority to act from it has aged too.\n\n---\n\nThis is from The Dionysus Program — a free field manual for leaders who need to metabolize disruption without burning their people. Read it at dionysusprogram.com.",
+            "winning_candidate_id": "eec2973b77a0",
+            "winning_score": 8.7,
+            "source_refs": [],
+            "research_bundle_id": null,
+            "timely_subject": null
+          },
+          "prepared_note": {
+            "body": "An agent can stay inside its permissions and still become unbounded.\n\nA customer-facing pricing agent is approved under a specific doctrine: current promises, tradeoffs, evaluations, escalation rules, and blast radius. Six months later, its access may be unchanged while the premises beneath it have expired. It is now acting faithfully from a false map.\n\nDoctrine Half-Life is how long doctrine remains valid, current, and understood before drift or world change makes it stale. Stale doctrine can be worse than none because it regulates confidently.\n\nAuthority should expire with the doctrine that justified it. Renewal means confirming the premises, evaluations, escalation rules, and boundary feedback are still current.\n\nIf the map has aged, the authority to act from it has aged too.",
+            "sourceMode": "canonical_package"
+          },
+          "x_preflight": {
+            "status": "dry_run",
+            "reason": null,
+            "payload": {
+              "source_channel": "linkedin",
+              "source_final_text_hash": "7e1ba6052e979b5c98a7af5dde53e7ab2202388efec32fa910924b6d8593a9f1",
+              "source_winning_candidate_id": "eec2973b77a0",
+              "text": "Permissions are a weak proxy for legitimate authority.\n\nThey show where an agent may act, not whether the reasons for acting remain true. If the pricing logic, tradeoffs, or escalation rules expire, the mandate should expire with them.",
+              "winning_candidate_id": "0a2a81a7c7c6",
+              "winning_score": 7.5
+            },
+            "winnerCandidate": {
+              "id": "0a2a81a7c7c6",
+              "writer_model": "gpt-5.6-sol",
+              "prompt_variant": "sharp_claim",
+              "post_text": "Permissions are a weak proxy for legitimate authority.\n\nThey show where an agent may act, not whether the reasons for acting remain true. If the pricing logic, tradeoffs, or escalation rules expire, the mandate should expire with them.",
+              "self_notes": "Leads with the core claim and cleanly separates technical access from legitimate authority. 219 characters."
+            },
+            "winnerScore": {
+              "id": "992850f927f2",
+              "candidate_id": "0a2a81a7c7c6",
+              "clarity_score": 9.1,
+              "compression_score": 8.6,
+              "diagnostic_score": 8.7,
+              "anti_cheese_score": 8.3,
+              "x_fit_score": 8.4,
+              "novelty_score": 6.7,
+              "engagement_score": 6.5,
+              "overall_score": 7.5,
+              "pass": true,
+              "pass_fail_reasons": [
+                "Makes the permissions-versus-legitimacy distinction cleanly without repeating the recent pricing-promise scene.",
+                "Compact and diagnostically useful.",
+                "Somewhat abstract, and the prescriptive final sentence is less alive than a concrete consequence."
+              ]
+            }
+          },
+          "winner_candidate": {
+            "id": "eec2973b77a0",
+            "writer_model": "gpt-5.6-sol",
+            "prompt_variant": "diagnosis_forward",
+            "post_text": "An agent can stay inside its permissions and still become unbounded.\n\nA customer-facing pricing agent is approved under a specific doctrine: current promises, tradeoffs, evaluations, escalation rules, and blast radius. Six months later, its access may be unchanged while the premises beneath it have expired. It is now acting faithfully from a false map.\n\nDoctrine Half-Life is how long doctrine remains valid, current, and understood before drift or world change makes it stale. Stale doctrine can be worse than none because it regulates confidently.\n\nAuthority should expire with the doctrine that justified it. Renewal means confirming the premises, evaluations, escalation rules, and boundary feedback are still current.\n\nIf the map has aged, the authority to act from it has aged too.",
+            "self_notes": "Live candidate in diagnosis_forward mode."
+          },
+          "winner_score": {
+            "id": "81dd38dc5426",
+            "candidate_id": "eec2973b77a0",
+            "voice_score": 8.7,
+            "novelty_score": 8.3,
+            "engagement_score": 8,
+            "clarity_score": 9.2,
+            "risk_score": 9.3,
+            "citation_score": 9.2,
+            "linkedin_native_score": 8.8,
+            "overall_score": 8.7,
+            "pass": true,
+            "pass_fail_reasons": [
+              "Opens with a substantive distinction: permission compliance can still become unbounded agency.",
+              "Concise, high-signal, and focused on one concept without padding or repeated thesis statements.",
+              "Uses the source-grounded term “Doctrine Half-Life” accurately and explains it plainly.",
+              "The pricing-agent example gives the abstract governance issue a concrete consequence.",
+              "The closing implication is sharp and follows directly from the argument.",
+              "Distinct enough from the recent Context Checksum post because it addresses permission expiration over time rather than permission expansion at deployment."
+            ]
+          },
+          "package_gate": {
+            "pass": true,
+            "attempted_candidates": 1,
+            "note_linkedin_novelty_score": 8.3,
+            "note_linkedin_engagement_score": 8,
+            "x_status": "dry_run",
+            "x_novelty_score": 6.7,
+            "x_engagement_score": 6.5
+          },
+          "selection_reason": "memory_safe_top_choice",
+          "research_bundle": null
+        }
+      },
+      "fallback": {
+        "attempt": 1,
+        "selected_at": "2026-10-16T04:35:43.288Z",
+        "from_content_type": "cautionary_tale",
+        "from_seed_topic_thesis": "Crimes Against Ren are real because truth can still be weaponized against the substrate that makes truth possible."
+      },
+      "skip_reason": null
     }
   ]
 }
