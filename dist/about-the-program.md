@@ -3,7 +3,7 @@
 ::: about-program
 Knowledge changes faster than organizations can adapt their roles, norms, and working methods. AI accelerates that change by making established expertise less scarce. Teams struggle not only to learn new tools, but to change how they work without losing trust or turning to blame.
 
-AI creates a second bottleneck: more capacity to act. People and software can plan, publish, make commitments, and revise them faster than an organization can keep those actions consistent. The limiting factor becomes coherence—the ability to preserve shared intent across independent decisions. Run Time maintains that coherence; epimetabolism renews it when the organization’s assumptions fail.
+AI creates a second bottleneck: more capacity to act. People and software can plan, publish, make commitments, and revise them faster than an organization can keep those actions consistent. The limiting factor becomes coherence—the ability to preserve shared intent across independent decisions and keep obligations covered. Run Time maintains that coherence; epimetabolism renews it when the organization’s assumptions fail.
 
 The *Dionysus Program* is a field manual for leaders facing those bottlenecks. Written by Sean Devine, founder and CEO of XBE.
 
