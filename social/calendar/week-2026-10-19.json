@@ -14,18 +14,168 @@
       "status": "planned",
       "content_type": "extracted_insight",
       "pillar": "Extracted Insights",
-      "topic_thesis": "Run Time and Ritual Time require different forms of accountability.",
-      "seed_topic_thesis": "Run Time and Ritual Time require different forms of accountability.",
-      "idea_status": "pending",
-      "angle": "Name the concept, explain it plainly, and show why it matters now.",
-      "hook": "The mistake leaders keep making is thinking run time and ritual time require different forms of accountability.",
+      "topic_thesis": "Agent permissions should expire when the doctrine supporting them exceeds its half-life, because stale doctrine turns faithful execution into confident error.",
+      "seed_topic_thesis": "Knowledge and myth solve different problems, and organizations fail when they confuse them.",
+      "idea_status": "developed",
+      "angle": "Treat autonomous authority as conditional on doctrine freshness, not as a permanent reward for passing capability evaluations. Bind permissions to a doctrine version and reduce them when that doctrine is no longer current.",
+      "hook": "Your AI agent’s permission should expire before its doctrine becomes history.",
       "source_bundle_id": null,
       "timely_subject": null,
       "draft_ref": null,
       "winner_id": null,
       "risk_level": "low",
       "freshness_deadline": null,
-      "publish_payload": null
+      "publish_payload": null,
+      "novel_idea": {
+        "pass": true,
+        "topic_thesis": "Agent permissions should expire when the doctrine supporting them exceeds its half-life, because stale doctrine turns faithful execution into confident error.",
+        "angle": "Treat autonomous authority as conditional on doctrine freshness, not as a permanent reward for passing capability evaluations. Bind permissions to a doctrine version and reduce them when that doctrine is no longer current.",
+        "hook": "Your AI agent’s permission should expire before its doctrine becomes history.",
+        "argument_summary": "Autonomous agents act from organizational doctrine, but doctrine ages as markets, obligations, and operating reality change. An agent can continue passing task-level evaluations while executing premises that are no longer valid. Because agents apply those premises quickly and consistently, stale doctrine can produce coherent wrongness at scale. The operator decision is to make permissions version-bound and time-limited: when the supporting doctrine reaches the end of its declared half-life, authority falls to a lower permission level until an owner revalidates the doctrine against current reality feedback and evaluations.",
+        "novelty_score": 9,
+        "closest_post_id": "019fdc80-e965-6767-99db-1cc01935d3ab",
+        "novelty_rationale": "The closest prior post argues that reality feedback must be able to revise false doctrine before AI scales coherent wrongness. This argument adds a different control mechanism and operator decision: autonomous permission should decay automatically with doctrine age, even before a visible failure arrives. It treats doctrine freshness as a continuing condition of authority rather than relying only on downstream contradiction to trigger correction.",
+        "source_grounding": "The source defines doctrine half-life as how long doctrine remains valid, current, and understood before drift or world change makes it stale. It requires current, versioned, owned doctrine; risk-proportional permissions; update cadence; and accountability when doctrine ages but an agent keeps acting. It also states that stale doctrine can be worse than no doctrine because a false model regulates confidently, and that permissions should rise only as doctrine, evaluations, and reality feedback mature.",
+        "gate_version": 2,
+        "model": "gpt-5.6-sol",
+        "history_count": 98,
+        "history_fingerprint": "d02c4080f9fb0855ba21cc5bab0fcb7e0dd48b4b0a813562c532f840f8d18e20",
+        "developed_at": "2026-10-19T04:46:18.294Z"
+      },
+      "preparation": {
+        "status": "ready",
+        "prepared_at": "2026-10-19T04:47:58.806Z",
+        "history_fingerprint": "d02c4080f9fb0855ba21cc5bab0fcb7e0dd48b4b0a813562c532f840f8d18e20",
+        "attempts": [
+          {
+            "content_type": "extracted_insight",
+            "seed_topic_thesis": "Run Time and Ritual Time require different forms of accountability.",
+            "status": "skipped",
+            "reason": "no_passing_candidate",
+            "error": null,
+            "details": null
+          },
+          {
+            "content_type": "extracted_insight",
+            "seed_topic_thesis": "Knowledge and myth solve different problems, and organizations fail when they confuse them.",
+            "status": "prepared",
+            "reason": null,
+            "error": null,
+            "details": null
+          }
+        ],
+        "package": {
+          "version": 1,
+          "prepared_at": "2026-10-19T04:47:58.806Z",
+          "history_fingerprint": "d02c4080f9fb0855ba21cc5bab0fcb7e0dd48b4b0a813562c532f840f8d18e20",
+          "payload": {
+            "item_id": "b70e37634984",
+            "scheduled_at": "2026-10-19T12:30:00.000Z",
+            "content_type": "extracted_insight",
+            "pillar": "Extracted Insights",
+            "topic_thesis": "Agent permissions should expire when the doctrine supporting them exceeds its half-life, because stale doctrine turns faithful execution into confident error.",
+            "angle": "Treat autonomous authority as conditional on doctrine freshness, not as a permanent reward for passing capability evaluations. Bind permissions to a doctrine version and reduce them when that doctrine is no longer current.",
+            "hook": "An agent can pass every evaluation and still become unsafe without changing at all.",
+            "body_text": "An agent can pass every evaluation and still become unsafe without changing at all.\n\nDoctrine has a half-life: the period it remains valid, current, and understood before reality or organizational drift makes it stale.\n\nThat matters because stale doctrine can be worse than none. A false model regulates confidently. The agent follows instructions faithfully while customers, constraints, or strategy have already moved.\n\nPermissions should therefore attach to a doctrine version, not permanently to the agent. When that version exceeds its half-life, authority should step down automatically—from acting to drafting, or from drafting to suggesting—until the doctrine is reconstituted and tested.\n\nIf doctrine expires but authority does not, you have automated yesterday’s judgment.",
+            "footer_text": "Knowledge explains the world. Myth explains you. The Dionysus Program is about maintaining both layers while everything accelerates. It is free at dionysusprogram.com.",
+            "footer_index": 18,
+            "footer_divider": "---",
+            "final_text": "An agent can pass every evaluation and still become unsafe without changing at all.\n\nDoctrine has a half-life: the period it remains valid, current, and understood before reality or organizational drift makes it stale.\n\nThat matters because stale doctrine can be worse than none. A false model regulates confidently. The agent follows instructions faithfully while customers, constraints, or strategy have already moved.\n\nPermissions should therefore attach to a doctrine version, not permanently to the agent. When that version exceeds its half-life, authority should step down automatically—from acting to drafting, or from drafting to suggesting—until the doctrine is reconstituted and tested.\n\nIf doctrine expires but authority does not, you have automated yesterday’s judgment.\n\n---\n\nKnowledge explains the world. Myth explains you. The Dionysus Program is about maintaining both layers while everything accelerates. It is free at dionysusprogram.com.",
+            "winning_candidate_id": "9a29374fed80",
+            "winning_score": 9.1,
+            "source_refs": [],
+            "research_bundle_id": null,
+            "timely_subject": null
+          },
+          "prepared_note": {
+            "body": "An agent can pass every evaluation and still become unsafe without changing at all.\n\nDoctrine has a half-life: the period it remains valid, current, and understood before reality or organizational drift makes it stale.\n\nThat matters because stale doctrine can be worse than none. A false model regulates confidently. The agent follows instructions faithfully while customers, constraints, or strategy have already moved.\n\nPermissions should therefore attach to a doctrine version, not permanently to the agent. When that version exceeds its half-life, authority should step down automatically—from acting to drafting, or from drafting to suggesting—until the doctrine is reconstituted and tested.\n\nIf doctrine expires but authority does not, you have automated yesterday’s judgment.",
+            "sourceMode": "canonical_package"
+          },
+          "x_preflight": {
+            "status": "dry_run",
+            "reason": null,
+            "payload": {
+              "source_channel": "linkedin",
+              "source_final_text_hash": "cdb85c4753df6c9f4a517a274c2b2c6b6cbc2d2e9b017c3d868845894ea58712",
+              "source_winning_candidate_id": "9a29374fed80",
+              "text": "Security credentials expire. Agent judgment often doesn’t.\n\nThat is backwards. A credential controls where the system may go; doctrine controls what it may do there. If the doctrine is stale, continued access is the smaller risk.",
+              "winning_candidate_id": "d078ad30d4a7",
+              "winning_score": 8.7
+            },
+            "winnerCandidate": {
+              "id": "d078ad30d4a7",
+              "writer_model": "gpt-5.6-sol",
+              "prompt_variant": "surprising_contrast",
+              "post_text": "Security credentials expire. Agent judgment often doesn’t.\n\nThat is backwards. A credential controls where the system may go; doctrine controls what it may do there. If the doctrine is stale, continued access is the smaller risk.",
+              "self_notes": "Builds tension through the contrast between credential expiry and judgment expiry."
+            },
+            "winnerScore": {
+              "id": "db30385e2860",
+              "candidate_id": "d078ad30d4a7",
+              "clarity_score": 8.8,
+              "compression_score": 9.2,
+              "diagnostic_score": 8.9,
+              "anti_cheese_score": 8.6,
+              "x_fit_score": 9.1,
+              "novelty_score": 9.1,
+              "engagement_score": 8.6,
+              "overall_score": 8.7,
+              "pass": true,
+              "pass_fail_reasons": [
+                "Fresh credential-versus-judgment contrast creates immediate tension without recycling the recent examples.",
+                "Clearly distinguishes access risk from doctrine risk and lands compactly.",
+                "The final comparison is slightly implicit, but remains understandable."
+              ]
+            }
+          },
+          "winner_candidate": {
+            "id": "9a29374fed80",
+            "writer_model": "gpt-5.6-sol",
+            "prompt_variant": "diagnosis_forward",
+            "post_text": "An agent can pass every evaluation and still become unsafe without changing at all.\n\nDoctrine has a half-life: the period it remains valid, current, and understood before reality or organizational drift makes it stale.\n\nThat matters because stale doctrine can be worse than none. A false model regulates confidently. The agent follows instructions faithfully while customers, constraints, or strategy have already moved.\n\nPermissions should therefore attach to a doctrine version, not permanently to the agent. When that version exceeds its half-life, authority should step down automatically—from acting to drafting, or from drafting to suggesting—until the doctrine is reconstituted and tested.\n\nIf doctrine expires but authority does not, you have automated yesterday’s judgment.",
+            "self_notes": "Live candidate in diagnosis_forward mode."
+          },
+          "winner_score": {
+            "id": "43811103f481",
+            "candidate_id": "9a29374fed80",
+            "voice_score": 9.1,
+            "novelty_score": 8.4,
+            "engagement_score": 8.7,
+            "clarity_score": 9.3,
+            "risk_score": 9.6,
+            "citation_score": 9.2,
+            "linkedin_native_score": 9.1,
+            "overall_score": 9.1,
+            "pass": true,
+            "pass_fail_reasons": [
+              "Concise, high-signal treatment of one idea with no unnecessary example or repeated thesis.",
+              "The opener earns attention through a sharp distinction: the agent can become unsafe while remaining unchanged.",
+              "Clearly defines doctrine half-life, explains the failure, and gives a precise operating response.",
+              "The closing line—“you have automated yesterday’s judgment”—is sharp, memorable, and stops cleanly.",
+              "Adjacent to recent posts about coherent wrongness and permission gates, but adds a genuinely distinct mechanism: permissions expire with the doctrine version.",
+              "Complies with length and no-emoji, no-hashtag, no-link requirements."
+            ]
+          },
+          "package_gate": {
+            "pass": true,
+            "attempted_candidates": 1,
+            "note_linkedin_novelty_score": 8.4,
+            "note_linkedin_engagement_score": 8.7,
+            "x_status": "dry_run",
+            "x_novelty_score": 9.1,
+            "x_engagement_score": 8.6
+          },
+          "selection_reason": "memory_safe_top_choice",
+          "research_bundle": null
+        }
+      },
+      "fallback": {
+        "attempt": 1,
+        "selected_at": "2026-10-19T04:45:04.122Z",
+        "from_content_type": "extracted_insight",
+        "from_seed_topic_thesis": "Run Time and Ritual Time require different forms of accountability."
+      },
+      "skip_reason": null
     },
     {
       "id": "5ad2688698d2",
