@@ -186,20 +186,169 @@
       "weekday": "wednesday",
       "slot_type": "baseline",
       "status": "planned",
-      "content_type": "from_the_mailbag",
-      "pillar": "From the Mailbag",
-      "topic_thesis": "Severability and reversibility make criticism cheaper and therefore more honest.",
-      "seed_topic_thesis": "Severability and reversibility make criticism cheaper and therefore more honest.",
-      "idea_status": "pending",
-      "angle": "The interpretation is the point, not the quote itself.",
-      "hook": "A note landed in my inbox that names a pattern I keep seeing. severability and reversibility make criticism cheaper and therefore more honest.",
+      "content_type": "extracted_insight",
+      "pillar": "Extracted Insights",
+      "topic_thesis": "Autonomous permissions should expire with the doctrine that justified them, even when the agent has made no visible mistake.",
+      "seed_topic_thesis": "Run Time and Ritual Time require different forms of accountability.",
+      "idea_status": "developed",
+      "angle": "Treat authority as a perishable grant tied to a specific doctrine version and review cadence, not as a permanent reward for past accuracy.",
+      "hook": "An agent should be able to lose authority without doing anything wrong.",
       "source_bundle_id": null,
       "timely_subject": null,
       "draft_ref": null,
       "winner_id": null,
       "risk_level": "low",
       "freshness_deadline": null,
-      "publish_payload": null
+      "publish_payload": null,
+      "novel_idea": {
+        "pass": true,
+        "topic_thesis": "Autonomous permissions should expire with the doctrine that justified them, even when the agent has made no visible mistake.",
+        "angle": "Treat authority as a perishable grant tied to a specific doctrine version and review cadence, not as a permanent reward for past accuracy.",
+        "hook": "An agent should be able to lose authority without doing anything wrong.",
+        "argument_summary": "Agent permissions are granted because current doctrine makes a scope of action intelligible and safe. But doctrine has a half-life: its premises can become stale as customers, strategy, regulation, or operating reality change. An agent may then continue performing tasks accurately while faithfully executing an obsolete map—the source material’s failure mode of coherent wrongness. Operators should therefore revalidate or reduce permissions when the governing doctrine ages or changes, rather than waiting for an observable failure. This differs from checking alignment before granting broader access: it makes continued authority conditional on the ongoing validity of the doctrine itself.",
+        "novelty_score": 9.2,
+        "closest_post_id": "019ff648-1a52-a05b-2c6a-0622be944bdc",
+        "novelty_rationale": "The closest prior post requires a Context Checksum before increasing an agent’s permissions. This argument governs the opposite end of the permission lifecycle: previously earned authority should contract or require revalidation when its source doctrine ages, even if task performance remains strong. The substantive delta is from an entry gate based on present context agreement to an ongoing revocation rule based on doctrine half-life and the risk of coherent wrongness.",
+        "source_grounding": "The Coherence Ceiling defines doctrine half-life as how long doctrine remains valid, current, and understood before drift or world change makes it stale. Auteurs, Agents, Actors states that permissions should rise only when doctrine, evaluations, and reality feedback are mature, and warns that faithful agents can produce coherent wrongness from false premises. The Readiness Gate asks who remains accountable when doctrine ages but an agent keeps acting. Appendix B requires versioned doctrine, update ownership, permission levels, update cadence, decision memory, and renewed Ritual Time when reality falsifies doctrine.",
+        "gate_version": 2,
+        "model": "gpt-5.6-sol",
+        "history_count": 98,
+        "history_fingerprint": "d02c4080f9fb0855ba21cc5bab0fcb7e0dd48b4b0a813562c532f840f8d18e20",
+        "developed_at": "2026-10-21T04:56:34.867Z"
+      },
+      "preparation": {
+        "status": "ready",
+        "prepared_at": "2026-10-21T04:58:46.109Z",
+        "history_fingerprint": "d02c4080f9fb0855ba21cc5bab0fcb7e0dd48b4b0a813562c532f840f8d18e20",
+        "attempts": [
+          {
+            "content_type": "from_the_mailbag",
+            "seed_topic_thesis": "Severability and reversibility make criticism cheaper and therefore more honest.",
+            "status": "skipped",
+            "reason": "package_gate_failed",
+            "error": null,
+            "details": null
+          },
+          {
+            "content_type": "extracted_insight",
+            "seed_topic_thesis": "Run Time and Ritual Time require different forms of accountability.",
+            "status": "prepared",
+            "reason": null,
+            "error": null,
+            "details": null
+          }
+        ],
+        "package": {
+          "version": 1,
+          "prepared_at": "2026-10-21T04:58:46.109Z",
+          "history_fingerprint": "d02c4080f9fb0855ba21cc5bab0fcb7e0dd48b4b0a813562c532f840f8d18e20",
+          "payload": {
+            "item_id": "5ad2688698d2",
+            "scheduled_at": "2026-10-21T12:30:00.000Z",
+            "content_type": "extracted_insight",
+            "pillar": "Extracted Insights",
+            "topic_thesis": "Autonomous permissions should expire with the doctrine that justified them, even when the agent has made no visible mistake.",
+            "angle": "Treat authority as a perishable grant tied to a specific doctrine version and review cadence, not as a permanent reward for past accuracy.",
+            "hook": "An agent can make no visible mistake and still lose the right to act.",
+            "body_text": "An agent can make no visible mistake and still lose the right to act.\n\nAutonomous permission should attach to a specific doctrine version, with an owner and review date. Doctrine has a half-life: the period before drift or world change makes it stale. When that period ends, authority should end too.\n\nA pricing agent may execute every rule correctly while the company’s tradeoffs, costs, or customer commitments have changed. Its clean record proves fidelity to the old map. Nothing more.\n\nPast accuracy is not a permanent license. Renew authority only when the doctrine is reviewed and reissued. Otherwise, the most reliable agent may become the fastest way to scale coherent wrongness.",
+            "footer_text": "This thinking comes from The Dionysus Program — free at dionysusprogram.com. It is a book about how to move fast by breaking things and then mend what you break into something stronger.",
+            "footer_index": 5,
+            "footer_divider": "---",
+            "final_text": "An agent can make no visible mistake and still lose the right to act.\n\nAutonomous permission should attach to a specific doctrine version, with an owner and review date. Doctrine has a half-life: the period before drift or world change makes it stale. When that period ends, authority should end too.\n\nA pricing agent may execute every rule correctly while the company’s tradeoffs, costs, or customer commitments have changed. Its clean record proves fidelity to the old map. Nothing more.\n\nPast accuracy is not a permanent license. Renew authority only when the doctrine is reviewed and reissued. Otherwise, the most reliable agent may become the fastest way to scale coherent wrongness.\n\n---\n\nThis thinking comes from The Dionysus Program — free at dionysusprogram.com. It is a book about how to move fast by breaking things and then mend what you break into something stronger.",
+            "winning_candidate_id": "567076b6db41",
+            "winning_score": 8.8,
+            "source_refs": [],
+            "research_bundle_id": null,
+            "timely_subject": null
+          },
+          "prepared_note": {
+            "body": "An agent can make no visible mistake and still lose the right to act.\n\nAutonomous permission should attach to a specific doctrine version, with an owner and review date. Doctrine has a half-life: the period before drift or world change makes it stale. When that period ends, authority should end too.\n\nA pricing agent may execute every rule correctly while the company’s tradeoffs, costs, or customer commitments have changed. Its clean record proves fidelity to the old map. Nothing more.\n\nPast accuracy is not a permanent license. Renew authority only when the doctrine is reviewed and reissued. Otherwise, the most reliable agent may become the fastest way to scale coherent wrongness.",
+            "sourceMode": "canonical_package"
+          },
+          "x_preflight": {
+            "status": "dry_run",
+            "reason": null,
+            "payload": {
+              "source_channel": "linkedin",
+              "source_final_text_hash": "6cfda0c2a681b52dc159110313f1832c6466039dac69aeb298d04e7f1c9b80af",
+              "source_winning_candidate_id": "567076b6db41",
+              "text": "Autonomous authority is a lease.\n\nTie it to a named doctrine version, one accountable owner, and a review date. When the doctrine expires, so does permission to act—even if the agent has never made a visible mistake.",
+              "winning_candidate_id": "88fe1d683a2b",
+              "winning_score": 8.7
+            },
+            "winnerCandidate": {
+              "id": "88fe1d683a2b",
+              "writer_model": "gpt-5.6-sol",
+              "prompt_variant": "sharp_claim",
+              "post_text": "Autonomous authority is a lease.\n\nTie it to a named doctrine version, one accountable owner, and a review date. When the doctrine expires, so does permission to act—even if the agent has never made a visible mistake.",
+              "self_notes": "Direct governance claim with specific operational requirements; avoids making past accuracy the basis for permanent permission."
+            },
+            "winnerScore": {
+              "id": "f2121fdeb823",
+              "candidate_id": "88fe1d683a2b",
+              "clarity_score": 9.3,
+              "compression_score": 9.2,
+              "diagnostic_score": 9.1,
+              "anti_cheese_score": 8.3,
+              "x_fit_score": 8.9,
+              "novelty_score": 8.4,
+              "engagement_score": 7.6,
+              "overall_score": 8.7,
+              "pass": true,
+              "pass_fail_reasons": [
+                "Pass: turns expiring authority into a concrete mechanism—version, owner, and review date.",
+                "Distinct from the recent propagation examples; only mildly penalized for the polished lease metaphor and imperative advice."
+              ]
+            }
+          },
+          "winner_candidate": {
+            "id": "567076b6db41",
+            "writer_model": "gpt-5.6-sol",
+            "prompt_variant": "hook_forward",
+            "post_text": "An agent can make no visible mistake and still lose the right to act.\n\nAutonomous permission should attach to a specific doctrine version, with an owner and review date. Doctrine has a half-life: the period before drift or world change makes it stale. When that period ends, authority should end too.\n\nA pricing agent may execute every rule correctly while the company’s tradeoffs, costs, or customer commitments have changed. Its clean record proves fidelity to the old map. Nothing more.\n\nPast accuracy is not a permanent license. Renew authority only when the doctrine is reviewed and reissued. Otherwise, the most reliable agent may become the fastest way to scale coherent wrongness.",
+            "self_notes": "Live candidate in hook_forward mode."
+          },
+          "winner_score": {
+            "id": "bc72b2dcc375",
+            "candidate_id": "567076b6db41",
+            "voice_score": 9,
+            "novelty_score": 8.1,
+            "engagement_score": 8.8,
+            "clarity_score": 9.2,
+            "risk_score": 1.4,
+            "citation_score": 9,
+            "linkedin_native_score": 9,
+            "overall_score": 8.8,
+            "pass": true,
+            "pass_fail_reasons": [
+              "Strong opener creates immediate tension through a surprising distinction.",
+              "Concise, single-idea post with a concrete pricing-agent example and a sharp operational implication.",
+              "Clearly distinguishes faithful execution from continuing authority.",
+              "Grounded in the source concepts of doctrine versioning, Doctrine Half-Life, permissions, and coherent wrongness.",
+              "Some thematic proximity to the recent Context Checksum and Coherent Wrongness posts, but the expiration-of-authority thesis is materially distinct.",
+              "Complies with length, formatting, no-link, no-emoji, and no-hashtag requirements."
+            ]
+          },
+          "package_gate": {
+            "pass": true,
+            "attempted_candidates": 1,
+            "note_linkedin_novelty_score": 8.1,
+            "note_linkedin_engagement_score": 8.8,
+            "x_status": "dry_run",
+            "x_novelty_score": 8.4,
+            "x_engagement_score": 7.6
+          },
+          "selection_reason": "memory_safe_top_choice",
+          "research_bundle": null
+        }
+      },
+      "fallback": {
+        "attempt": 1,
+        "selected_at": "2026-10-21T04:53:08.617Z",
+        "from_content_type": "from_the_mailbag",
+        "from_seed_topic_thesis": "Severability and reversibility make criticism cheaper and therefore more honest."
+      },
+      "skip_reason": null
     },
     {
       "id": "cf81444cf51f",
