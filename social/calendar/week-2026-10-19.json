@@ -359,20 +359,177 @@
       "weekday": "friday",
       "slot_type": "baseline",
       "status": "planned",
-      "content_type": "cautionary_tale",
-      "pillar": "Cautionary Tales",
-      "topic_thesis": "Crimes Against Ren are real because truth can still be weaponized against the substrate that makes truth possible.",
-      "seed_topic_thesis": "Crimes Against Ren are real because truth can still be weaponized against the substrate that makes truth possible.",
-      "idea_status": "pending",
-      "angle": "Name the misuse clearly and show the cost of getting it wrong.",
-      "hook": "A practice can look rigorous and still make the system worse. crimes against ren are real because truth can still be weaponized against the substrate that makes truth possible.",
+      "content_type": "extracted_insight",
+      "pillar": "Extracted Insights",
+      "topic_thesis": "Autonomous agent permissions should expire when their governing doctrine does, because faithful execution of stale premises is more dangerous than obvious task failure.",
+      "seed_topic_thesis": "Knowledge and myth solve different problems, and organizations fail when they confuse them.",
+      "idea_status": "developed",
+      "angle": "Treat doctrine half-life as an authority constraint, not a documentation metric. Agent permissions should inherit the doctrine version, owner, review cadence, and expiration condition that justify them; when that doctrine is no longer reaffirmed, the permissions should lapse or be reduced.",
+      "hook": "Your safest-looking AI agent may be the one that should have lost its permissions last month.",
       "source_bundle_id": null,
       "timely_subject": null,
       "draft_ref": null,
       "winner_id": null,
       "risk_level": "low",
       "freshness_deadline": null,
-      "publish_payload": null
+      "publish_payload": null,
+      "novel_idea": {
+        "pass": true,
+        "topic_thesis": "Autonomous agent permissions should expire when their governing doctrine does, because faithful execution of stale premises is more dangerous than obvious task failure.",
+        "angle": "Treat doctrine half-life as an authority constraint, not a documentation metric. Agent permissions should inherit the doctrine version, owner, review cadence, and expiration condition that justify them; when that doctrine is no longer reaffirmed, the permissions should lapse or be reduced.",
+        "hook": "Your safest-looking AI agent may be the one that should have lost its permissions last month.",
+        "argument_summary": "An agent can continue passing task evaluations while the premises governing its work become obsolete. Because the agent remains locally accurate and obedient, ordinary monitoring may not reveal the drift. Persistent permissions then turn doctrine rot into coherent wrongness: stale strategy keeps creating customer, financial, or operational consequences at machine speed. The operator response is to make authority temporal. Every autonomous permission should be bound to current, versioned doctrine and reviewed within its doctrine half-life; if the doctrine ages without reaffirmation, authority contracts. This differs from checking alignment when permissions are first granted: it governs the decay of alignment after deployment.",
+        "novelty_score": 9.2,
+        "closest_post_id": "019fdc80-e965-6767-99db-1cc01935d3ab",
+        "novelty_rationale": "The closest post diagnoses coherent wrongness: agents can execute false doctrine faithfully at machine speed. This argument adds a distinct control mechanism and operator decision that the prior post does not make: permissions should inherit the lifespan of the doctrine authorizing them and lapse or contract when that doctrine becomes stale. It shifts from diagnosing false alignment to designing time-bounded authority. It also differs from the Context Checksum post, which tests alignment before increasing permissions; this proposal addresses doctrine decay after permission has already been granted.",
+        "source_grounding": "The source defines doctrine half-life as how long doctrine remains valid, current, and understood before drift or world change makes it stale. It requires current, canonical doctrine, version ownership, permissions, stop conditions, escalation triggers, update cadences, and accountability when doctrine ages but an agent keeps acting. It also states that permissions should rise only as doctrine, evaluations, and reality feedback mature, and warns that stale doctrine can produce doctrine rot, actorless execution, and coherent wrongness.",
+        "gate_version": 2,
+        "model": "gpt-5.6-sol",
+        "history_count": 98,
+        "history_fingerprint": "d02c4080f9fb0855ba21cc5bab0fcb7e0dd48b4b0a813562c532f840f8d18e20",
+        "developed_at": "2026-10-23T04:58:40.874Z"
+      },
+      "preparation": {
+        "status": "ready",
+        "prepared_at": "2026-10-23T05:01:12.605Z",
+        "history_fingerprint": "d02c4080f9fb0855ba21cc5bab0fcb7e0dd48b4b0a813562c532f840f8d18e20",
+        "attempts": [
+          {
+            "content_type": "cautionary_tale",
+            "seed_topic_thesis": "Crimes Against Ren are real because truth can still be weaponized against the substrate that makes truth possible.",
+            "status": "skipped",
+            "reason": "no_passing_candidate",
+            "error": null,
+            "details": null
+          },
+          {
+            "content_type": "extracted_insight",
+            "seed_topic_thesis": "Run Time and Ritual Time require different forms of accountability.",
+            "status": "skipped",
+            "reason": "package_gate_failed",
+            "error": null,
+            "details": null
+          },
+          {
+            "content_type": "extracted_insight",
+            "seed_topic_thesis": "Knowledge and myth solve different problems, and organizations fail when they confuse them.",
+            "status": "prepared",
+            "reason": null,
+            "error": null,
+            "details": null
+          }
+        ],
+        "package": {
+          "version": 1,
+          "prepared_at": "2026-10-23T05:01:12.605Z",
+          "history_fingerprint": "d02c4080f9fb0855ba21cc5bab0fcb7e0dd48b4b0a813562c532f840f8d18e20",
+          "payload": {
+            "item_id": "cf81444cf51f",
+            "scheduled_at": "2026-10-23T12:30:00.000Z",
+            "content_type": "extracted_insight",
+            "pillar": "Extracted Insights",
+            "topic_thesis": "Autonomous agent permissions should expire when their governing doctrine does, because faithful execution of stale premises is more dangerous than obvious task failure.",
+            "angle": "Treat doctrine half-life as an authority constraint, not a documentation metric. Agent permissions should inherit the doctrine version, owner, review cadence, and expiration condition that justify them; when that doctrine is no longer reaffirmed, the permissions should lapse or be reduced.",
+            "hook": "An agent that follows obsolete doctrine perfectly is not working correctly.",
+            "body_text": "An agent that follows obsolete doctrine perfectly is not working correctly.\n\nDoctrine Half-Life is how long a doctrine remains valid, current, and understood before the world changes or the organization drifts. That half-life should constrain authority, not just trigger a documentation review.\n\nIf a customer-service agent received refund authority under version 12 of the policy, that authority should not quietly survive into version 15. Its permissions should inherit the doctrine version, owner, review cadence, and expiration condition that justified them. If the doctrine is not reaffirmed, permissions should lapse or narrow.\n\nA stale map is worse than no map when it regulates confidently. If doctrine expires but authority does not, you have automated coherent wrongness.",
+            "footer_text": "The world is not going to slow down for us. The Dionysus Program is a free set of rites for becoming the kind of people who can keep up — without becoming less human. dionysusprogram.com",
+            "footer_index": 19,
+            "footer_divider": "---",
+            "final_text": "An agent that follows obsolete doctrine perfectly is not working correctly.\n\nDoctrine Half-Life is how long a doctrine remains valid, current, and understood before the world changes or the organization drifts. That half-life should constrain authority, not just trigger a documentation review.\n\nIf a customer-service agent received refund authority under version 12 of the policy, that authority should not quietly survive into version 15. Its permissions should inherit the doctrine version, owner, review cadence, and expiration condition that justified them. If the doctrine is not reaffirmed, permissions should lapse or narrow.\n\nA stale map is worse than no map when it regulates confidently. If doctrine expires but authority does not, you have automated coherent wrongness.\n\n---\n\nThe world is not going to slow down for us. The Dionysus Program is a free set of rites for becoming the kind of people who can keep up — without becoming less human. dionysusprogram.com",
+            "winning_candidate_id": "84b8a770e4c4",
+            "winning_score": 8.7,
+            "source_refs": [],
+            "research_bundle_id": null,
+            "timely_subject": null
+          },
+          "prepared_note": {
+            "body": "An agent that follows obsolete doctrine perfectly is not working correctly.\n\nDoctrine Half-Life is how long a doctrine remains valid, current, and understood before the world changes or the organization drifts. That half-life should constrain authority, not just trigger a documentation review.\n\nIf a customer-service agent received refund authority under version 12 of the policy, that authority should not quietly survive into version 15. Its permissions should inherit the doctrine version, owner, review cadence, and expiration condition that justified them. If the doctrine is not reaffirmed, permissions should lapse or narrow.\n\nA stale map is worse than no map when it regulates confidently. If doctrine expires but authority does not, you have automated coherent wrongness.",
+            "sourceMode": "canonical_package"
+          },
+          "x_preflight": {
+            "status": "dry_run",
+            "reason": null,
+            "payload": {
+              "source_channel": "linkedin",
+              "source_final_text_hash": "6b26a65488d1115bd9c2b15476a558a79fffaf367b9badff7129d5c4596f9613",
+              "source_winning_candidate_id": "84b8a770e4c4",
+              "text": "Agent permissions should decay.\n\nA model granted refund authority under policy v12 should not carry it into v15 by default. Delegation is not durable infrastructure. It is a lease on current judgment.",
+              "winning_candidate_id": "a6884b30b973",
+              "winning_score": 8.4
+            },
+            "winnerCandidate": {
+              "id": "a6884b30b973",
+              "writer_model": "gpt-5.6-sol",
+              "prompt_variant": "sharp_claim",
+              "post_text": "Agent permissions should decay.\n\nA model granted refund authority under policy v12 should not carry it into v15 by default. Delegation is not durable infrastructure. It is a lease on current judgment.",
+              "self_notes": "Makes permission decay the central claim and reframes delegation as time-bound."
+            },
+            "winnerScore": {
+              "id": "fbd8547d683e",
+              "candidate_id": "a6884b30b973",
+              "clarity_score": 9,
+              "compression_score": 9.2,
+              "diagnostic_score": 8.4,
+              "anti_cheese_score": 8,
+              "x_fit_score": 9.1,
+              "novelty_score": 8.5,
+              "engagement_score": 7.7,
+              "overall_score": 8.4,
+              "pass": true,
+              "pass_fail_reasons": [
+                "Makes the new mechanism—permission decay—immediately legible and specific.",
+                "“Lease on current judgment” is memorable, though the “X is not Y” construction is familiar."
+              ]
+            }
+          },
+          "winner_candidate": {
+            "id": "84b8a770e4c4",
+            "writer_model": "gpt-5.6-sol",
+            "prompt_variant": "diagnosis_forward",
+            "post_text": "An agent that follows obsolete doctrine perfectly is not working correctly.\n\nDoctrine Half-Life is how long a doctrine remains valid, current, and understood before the world changes or the organization drifts. That half-life should constrain authority, not just trigger a documentation review.\n\nIf a customer-service agent received refund authority under version 12 of the policy, that authority should not quietly survive into version 15. Its permissions should inherit the doctrine version, owner, review cadence, and expiration condition that justified them. If the doctrine is not reaffirmed, permissions should lapse or narrow.\n\nA stale map is worse than no map when it regulates confidently. If doctrine expires but authority does not, you have automated coherent wrongness.",
+            "self_notes": "Live candidate in diagnosis_forward mode."
+          },
+          "winner_score": {
+            "id": "ad6d16d0a3c7",
+            "candidate_id": "84b8a770e4c4",
+            "voice_score": 8.7,
+            "novelty_score": 8,
+            "engagement_score": 8.3,
+            "clarity_score": 9.2,
+            "risk_score": 9.4,
+            "citation_score": 9.3,
+            "linkedin_native_score": 8.8,
+            "overall_score": 8.7,
+            "pass": true,
+            "pass_fail_reasons": [
+              "Clear diagnosis and a concrete refund-authority example make the governance problem legible.",
+              "The expiration mechanism is sufficiently distinct from the recent permission-expansion gate, though the overlap is noticeable.",
+              "Opener is substantive but less arresting than candidate a52c3dabd127.",
+              "The version 12/version 15 example is useful, though slightly more procedural than vivid.",
+              "Strong ending connects stale authority to automated coherent wrongness.",
+              "Complies with length and no-emoji/no-hashtag/no-link requirements."
+            ]
+          },
+          "package_gate": {
+            "pass": true,
+            "attempted_candidates": 2,
+            "note_linkedin_novelty_score": 8,
+            "note_linkedin_engagement_score": 8.3,
+            "x_status": "dry_run",
+            "x_novelty_score": 8.5,
+            "x_engagement_score": 7.7
+          },
+          "selection_reason": "memory_safe_top_choice",
+          "research_bundle": null
+        }
+      },
+      "fallback": {
+        "attempt": 2,
+        "selected_at": "2026-10-23T04:55:15.007Z",
+        "from_content_type": "cautionary_tale",
+        "from_seed_topic_thesis": "Crimes Against Ren are real because truth can still be weaponized against the substrate that makes truth possible."
+      },
+      "skip_reason": null
     }
   ]
 }
