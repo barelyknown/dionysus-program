@@ -1417,6 +1417,10 @@ At every scale the closing discipline is the same: apply the hard-to-vary test, 
 
 Before you run any of these rites, check ritual readiness. The authority of a Crossing or Rite of Redress doesn’t come only from clever design; it rides on pre-existing density of trust, shared history, and at least a thin moral community. Run a simple readiness audit: how many repeated, non-transactional experiences has this group already shared? Is there a live story about what we are together that people actually believe? If the answer is “not much,” start with smaller, lower-heat containers and move slower. Pushing Dionysian intensity faster than the social fabric can bear is itself a low-epimetabolic move: you get backlash, cynicism, and management theater instead of metabolized change.
 
+```{=html}
+<p>To host a playful version of this ritual, use <a href="https://itssodumb.com/">It’s So Dumb</a>, with a step-by-step guide, host scripts, prompts, and a session timer.</p>
+```
+
 ### Beautiful Heat
 
 Losing a familiar explanation can leave people unable or unwilling to engage with what replaces it. Nietzsche’s account of Greek tragedy suggests a role for aesthetic form: music, story, and performance can help people face an experience they cannot yet explain. The program uses beauty in that sense, as part of the conditions for learning.
