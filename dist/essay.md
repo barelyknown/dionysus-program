@@ -4,10 +4,10 @@ author: "Sean Devine"
 description: "Rites of Renewal"
 lang: en-US
 rights: "© 2025–2026. All rights reserved."
-source-revision: "42152762eea667e6f12f3f5beb127e97efb9914f"
-source-revision-short: "42152762eea6"
-published-at-utc: "2026-10-16 00:58 UTC"
-published-at-iso: "2026-10-16T00:58:44Z"
+source-revision: "3c89e00b9f91d6f951f82be6924b00546cff1f9f"
+source-revision-short: "3c89e00b9f91"
+published-at-utc: "2026-10-24 15:37 UTC"
+published-at-iso: "2026-10-24T15:37:36Z"
 ---
 
 ::: dedication
@@ -1420,6 +1420,10 @@ Operate it:
 At every scale the closing discipline is the same: apply the hard-to-vary test, record at least one risky prediction to score after reentry, and note the reach delta—the new problem-classes the verdict unlocks that the prior rule could not explain.
 
 Before you run any of these rites, check ritual readiness. The authority of a Crossing or Rite of Redress doesn’t come only from clever design; it rides on pre-existing density of trust, shared history, and at least a thin moral community. Run a simple readiness audit: how many repeated, non-transactional experiences has this group already shared? Is there a live story about what we are together that people actually believe? If the answer is “not much,” start with smaller, lower-heat containers and move slower. Pushing Dionysian intensity faster than the social fabric can bear is itself a low-epimetabolic move: you get backlash, cynicism, and management theater instead of metabolized change.
+
+```{=html}
+<p>To host a playful version of this ritual, use <a href="https://itssodumb.com/">It’s So Dumb</a>, with a step-by-step guide, host scripts, prompts, and a session timer.</p>
+```
 
 ### Beautiful Heat
 
