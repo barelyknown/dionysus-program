@@ -14,11 +14,11 @@
       "status": "planned",
       "content_type": "extracted_insight",
       "pillar": "Extracted Insights",
-      "topic_thesis": "Run Time and Ritual Time require different forms of accountability.",
-      "seed_topic_thesis": "Run Time and Ritual Time require different forms of accountability.",
-      "idea_status": "pending",
-      "angle": "Name the concept, explain it plainly, and show why it matters now.",
-      "hook": "The mistake leaders keep making is thinking run time and ritual time require different forms of accountability.",
+      "topic_thesis": "Autonomous permissions should expire with the doctrine version that justified them.",
+      "seed_topic_thesis": "Crimes Against Ren are real because truth can still be weaponized against the substrate that makes truth possible.",
+      "idea_status": "developed",
+      "angle": "Treat doctrine freshness as a condition of authority, not as documentation hygiene: when the map ages, the agent’s permission to act from it should decay too.",
+      "hook": "The most dangerous agent may be the one that keeps obeying after its doctrine has expired.",
       "source_bundle_id": null,
       "timely_subject": null,
       "draft_ref": null,
@@ -27,9 +27,9 @@
       "freshness_deadline": null,
       "publish_payload": null,
       "preparation": {
-        "status": "failed",
-        "attempted_at": "2026-10-26T04:51:18.968Z",
-        "retry_count": 1,
+        "status": "ready",
+        "prepared_at": "2026-10-26T13:12:46.064Z",
+        "history_fingerprint": "d02c4080f9fb0855ba21cc5bab0fcb7e0dd48b4b0a813562c532f840f8d18e20",
         "attempts": [
           {
             "content_type": "extracted_insight",
@@ -43,58 +43,146 @@
             "content_type": "extracted_insight",
             "seed_topic_thesis": "Knowledge and myth solve different problems, and organizations fail when they confuse them.",
             "status": "skipped",
-            "reason": "no_novel_idea",
-            "error": null,
-            "details": {
-              "item_id": "1b1779b4685b",
-              "seed_topic_thesis": "Knowledge and myth solve different problems, and organizations fail when they confuse them.",
-              "history_count": 98,
-              "minimum_novelty_score": 8,
-              "missing_fields": [
-                "topic_thesis",
-                "angle",
-                "hook",
-                "argument_summary"
-              ],
-              "deterministic_duplicate_post_id": null,
-              "deterministic_duplicate_field": null,
-              "idea": {}
-            }
-          },
-          {
-            "content_type": "extracted_insight",
-            "seed_topic_thesis": "Crimes Against Ren are real because truth can still be weaponized against the substrate that makes truth possible.",
-            "status": "skipped",
             "reason": "no_passing_candidate",
             "error": null,
             "details": null
           },
           {
             "content_type": "extracted_insight",
-            "seed_topic_thesis": "Epimetabolic Rate is the only scoreboard that really matters in periods of fast change.",
-            "status": "skipped",
-            "reason": "no_novel_idea",
+            "seed_topic_thesis": "Crimes Against Ren are real because truth can still be weaponized against the substrate that makes truth possible.",
+            "status": "prepared",
+            "reason": null,
             "error": null,
-            "details": {
-              "item_id": "1b1779b4685b",
-              "seed_topic_thesis": "Epimetabolic Rate is the only scoreboard that really matters in periods of fast change.",
-              "history_count": 98,
-              "minimum_novelty_score": 8,
-              "missing_fields": [
-                "topic_thesis",
-                "angle",
-                "hook",
-                "argument_summary"
-              ],
-              "deterministic_duplicate_post_id": null,
-              "deterministic_duplicate_field": null,
-              "idea": {}
-            }
+            "details": null
           }
         ],
-        "research_bundle": null,
-        "package": null
-      }
+        "package": {
+          "version": 1,
+          "prepared_at": "2026-10-26T13:12:46.064Z",
+          "history_fingerprint": "d02c4080f9fb0855ba21cc5bab0fcb7e0dd48b4b0a813562c532f840f8d18e20",
+          "payload": {
+            "item_id": "1b1779b4685b",
+            "scheduled_at": "2026-10-26T12:30:00.000Z",
+            "content_type": "extracted_insight",
+            "pillar": "Extracted Insights",
+            "topic_thesis": "Autonomous permissions should expire with the doctrine version that justified them.",
+            "angle": "Treat doctrine freshness as a condition of authority, not as documentation hygiene: when the map ages, the agent’s permission to act from it should decay too.",
+            "hook": "An agent should not keep its authority when the doctrine that earned it has expired.",
+            "body_text": "An agent should not keep its authority when the doctrine that earned it has expired.\n\nDoctrine is strategy made executable: the current diagnosis, tradeoffs, anti-goals, kill criteria, and escalation conditions. It has a half-life because those premises change.\n\nSuppose a support agent can issue account credits without review under doctrine version 12. Pricing policy changes in version 13, but the permission survives. The agent can now execute obsolete judgment perfectly—and at customer speed. That is coherent wrongness, not model failure.\n\nPermissions should be bound to a doctrine version, an owner, and a freshness window. When that doctrine ages or is superseded, authority should fall back from autonomous action to draft, approval, or stop.\n\nWhen the map expires, permission to act from it should expire too.",
+            "footer_text": "The Dionysus Program argues that the real scoreboard is epimetabolic rate: how fast you turn error into better structure without burning people. The book is free. dionysusprogram.com",
+            "footer_index": 8,
+            "footer_divider": "---",
+            "final_text": "An agent should not keep its authority when the doctrine that earned it has expired.\n\nDoctrine is strategy made executable: the current diagnosis, tradeoffs, anti-goals, kill criteria, and escalation conditions. It has a half-life because those premises change.\n\nSuppose a support agent can issue account credits without review under doctrine version 12. Pricing policy changes in version 13, but the permission survives. The agent can now execute obsolete judgment perfectly—and at customer speed. That is coherent wrongness, not model failure.\n\nPermissions should be bound to a doctrine version, an owner, and a freshness window. When that doctrine ages or is superseded, authority should fall back from autonomous action to draft, approval, or stop.\n\nWhen the map expires, permission to act from it should expire too.\n\n---\n\nThe Dionysus Program argues that the real scoreboard is epimetabolic rate: how fast you turn error into better structure without burning people. The book is free. dionysusprogram.com",
+            "winning_candidate_id": "5fcb2c9495ca",
+            "winning_score": 8.8,
+            "source_refs": [],
+            "research_bundle_id": null,
+            "timely_subject": null
+          },
+          "prepared_note": {
+            "body": "An agent should not keep its authority when the doctrine that earned it has expired.\n\nDoctrine is strategy made executable: the current diagnosis, tradeoffs, anti-goals, kill criteria, and escalation conditions. It has a half-life because those premises change.\n\nSuppose a support agent can issue account credits without review under doctrine version 12. Pricing policy changes in version 13, but the permission survives. The agent can now execute obsolete judgment perfectly—and at customer speed. That is coherent wrongness, not model failure.\n\nPermissions should be bound to a doctrine version, an owner, and a freshness window. When that doctrine ages or is superseded, authority should fall back from autonomous action to draft, approval, or stop.\n\nWhen the map expires, permission to act from it should expire too.",
+            "sourceMode": "canonical_package"
+          },
+          "x_preflight": {
+            "status": "dry_run",
+            "reason": null,
+            "payload": {
+              "source_channel": "linkedin",
+              "source_final_text_hash": "53c828647272c80012ac4fadef5c7a3aa603c9777d92ce5514e542cac0b56e56",
+              "source_winning_candidate_id": "5fcb2c9495ca",
+              "text": "A fraud rule is softened after too many false positives. The agent’s freeze authority remains unchanged. A traveler lands abroad and finds her card blocked by a policy the company no longer believes.\n\nGovernance debt is paid by whoever meets the obsolete rule first.",
+              "winning_candidate_id": "c3138de75f1c",
+              "winning_score": 8.8
+            },
+            "winnerCandidate": {
+              "id": "c3138de75f1c",
+              "writer_model": "gpt-5.6-sol",
+              "prompt_variant": "human_stakes",
+              "post_text": "A fraud rule is softened after too many false positives. The agent’s freeze authority remains unchanged. A traveler lands abroad and finds her card blocked by a policy the company no longer believes.\n\nGovernance debt is paid by whoever meets the obsolete rule first.",
+              "self_notes": "Makes doctrine drift tangible through a person stranded by obsolete policy. Under 280 characters."
+            },
+            "winnerScore": {
+              "id": "d18e72026983",
+              "candidate_id": "c3138de75f1c",
+              "clarity_score": 8.8,
+              "compression_score": 8.8,
+              "diagnostic_score": 8.2,
+              "anti_cheese_score": 8.4,
+              "x_fit_score": 9,
+              "novelty_score": 9.1,
+              "engagement_score": 9.2,
+              "overall_score": 8.8,
+              "pass": true,
+              "pass_fail_reasons": [
+                "Fresh example with an immediate human consequence rather than an abstract governance warning.",
+                "The traveler detail makes obsolete authority tangible, and the final line lands cleanly.",
+                "Slight diagnostic blur: unchanged freeze authority and an unchanged fraud rule are not necessarily the same failure."
+              ]
+            }
+          },
+          "winner_candidate": {
+            "id": "5fcb2c9495ca",
+            "writer_model": "gpt-5.6-sol",
+            "prompt_variant": "hook_forward",
+            "post_text": "An agent should not keep its authority when the doctrine that earned it has expired.\n\nDoctrine is strategy made executable: the current diagnosis, tradeoffs, anti-goals, kill criteria, and escalation conditions. It has a half-life because those premises change.\n\nSuppose a support agent can issue account credits without review under doctrine version 12. Pricing policy changes in version 13, but the permission survives. The agent can now execute obsolete judgment perfectly—and at customer speed. That is coherent wrongness, not model failure.\n\nPermissions should be bound to a doctrine version, an owner, and a freshness window. When that doctrine ages or is superseded, authority should fall back from autonomous action to draft, approval, or stop.\n\nWhen the map expires, permission to act from it should expire too.",
+            "self_notes": "Live candidate in hook_forward mode."
+          },
+          "winner_score": {
+            "id": "2d65519d64bc",
+            "candidate_id": "5fcb2c9495ca",
+            "voice_score": 9.1,
+            "novelty_score": 8.3,
+            "engagement_score": 8.8,
+            "clarity_score": 9.4,
+            "risk_score": 1,
+            "citation_score": 9.2,
+            "linkedin_native_score": 9.1,
+            "overall_score": 8.8,
+            "pass": true,
+            "pass_fail_reasons": [
+              "Strong substantive opener immediately connects authority to doctrine freshness.",
+              "The account-credit example makes the failure concrete and distinguishes coherent wrongness from model failure.",
+              "Introduces a meaningfully different permission mechanism from the recent Context Checksum post: automatic decay when doctrine expires, rather than a gate before permission expansion.",
+              "Concise, well structured, source-grounded, and compliant with the length and formatting policies.",
+              "The ending lands cleanly without restating the entire post."
+            ]
+          },
+          "package_gate": {
+            "pass": true,
+            "attempted_candidates": 1,
+            "note_linkedin_novelty_score": 8.3,
+            "note_linkedin_engagement_score": 8.8,
+            "x_status": "dry_run",
+            "x_novelty_score": 9.1,
+            "x_engagement_score": 9.2
+          },
+          "selection_reason": "memory_safe_top_choice",
+          "research_bundle": null
+        }
+      },
+      "novel_idea": {
+        "pass": true,
+        "topic_thesis": "Autonomous permissions should expire with the doctrine version that justified them.",
+        "angle": "Treat doctrine freshness as a condition of authority, not as documentation hygiene: when the map ages, the agent’s permission to act from it should decay too.",
+        "hook": "The most dangerous agent may be the one that keeps obeying after its doctrine has expired.",
+        "argument_summary": "Agent permissions are usually granted based on capability and reviewed only after failure. But autonomous action is authorized by a particular set of premises, tradeoffs, and boundaries. As that doctrine ages, faithful execution can become coherent wrongness: the agent remains aligned while the organization’s map stops matching reality. Operators should therefore bind permissions to a named doctrine version and its expected half-life, then require revalidation or automatically reduce authority when that doctrine becomes stale. This differs from the prior Context Checksum argument, which gates permission increases on initial strategic agreement. The new claim governs authority after deployment: permission must decay over time even when outputs remain accurate and no visible disagreement has appeared.",
+        "novelty_score": 9.2,
+        "closest_post_id": "019ff648-1a52-a05b-2c6a-0622be944bdc",
+        "novelty_rationale": "The closest post argues that humans and machines must pass the same Context Checksum before permissions expand. This argument introduces a different mechanism and operator decision: doctrine has a half-life, so previously justified permissions can become unsafe without any checksum divergence or capability failure. It replaces one-time authorization with version-bound, expiring authority.",
+        "source_grounding": "The source defines Doctrine Half-Life as how long doctrine remains valid and understood; warns that stale doctrine can regulate confidently from a false model; identifies coherent wrongness as faithful action from false premises; asks who is accountable when doctrine ages but an agent keeps acting; and states that permissions should rise only as doctrine, evaluations, and boundary feedback mature.",
+        "gate_version": 2,
+        "model": "gpt-5.6-sol",
+        "history_count": 98,
+        "history_fingerprint": "d02c4080f9fb0855ba21cc5bab0fcb7e0dd48b4b0a813562c532f840f8d18e20",
+        "developed_at": "2026-10-26T13:10:45.523Z"
+      },
+      "fallback": {
+        "attempt": 2,
+        "selected_at": "2026-10-26T13:08:38.797Z",
+        "from_content_type": "extracted_insight",
+        "from_seed_topic_thesis": "Run Time and Ritual Time require different forms of accountability."
+      },
+      "skip_reason": null
     },
     {
       "id": "c61072bc52b6",
