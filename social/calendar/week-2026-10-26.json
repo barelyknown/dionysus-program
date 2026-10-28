@@ -193,20 +193,170 @@
       "weekday": "wednesday",
       "slot_type": "baseline",
       "status": "planned",
-      "content_type": "from_the_mailbag",
-      "pillar": "From the Mailbag",
-      "topic_thesis": "Severability and reversibility make criticism cheaper and therefore more honest.",
-      "seed_topic_thesis": "Severability and reversibility make criticism cheaper and therefore more honest.",
-      "idea_status": "pending",
-      "angle": "The interpretation is the point, not the quote itself.",
-      "hook": "A note landed in my inbox that names a pattern I keep seeing. severability and reversibility make criticism cheaper and therefore more honest.",
+      "content_type": "extracted_insight",
+      "pillar": "Extracted Insights",
+      "topic_thesis": "Autonomous permissions should not outlive the doctrine version that justified them.",
+      "seed_topic_thesis": "Run Time and Ritual Time require different forms of accountability.",
+      "idea_status": "developed",
+      "angle": "Shift agent governance from one-time authorization to continuing validity: autonomy must contract when doctrine becomes stale, disputed, or superseded.",
+      "hook": "The most dangerous agent may be executing yesterday’s strategy with permissions granted yesterday—and no expiration date.",
       "source_bundle_id": null,
       "timely_subject": null,
       "draft_ref": null,
       "winner_id": null,
       "risk_level": "low",
       "freshness_deadline": null,
-      "publish_payload": null
+      "publish_payload": null,
+      "novel_idea": {
+        "pass": true,
+        "topic_thesis": "Autonomous permissions should not outlive the doctrine version that justified them.",
+        "angle": "Shift agent governance from one-time authorization to continuing validity: autonomy must contract when doctrine becomes stale, disputed, or superseded.",
+        "hook": "The most dangerous agent may be executing yesterday’s strategy with permissions granted yesterday—and no expiration date.",
+        "argument_summary": "Organizations usually treat permission as durable once an agent proves capable. But capability can remain high while doctrine ages. An agent may then execute obsolete premises faithfully, creating customer promises, code changes, or financial commitments after the organization’s map has changed. The operator decision is to bind consequential permissions to a current, owned, versioned doctrine source and withdraw or reduce them when that doctrine becomes stale or is replaced. This differs from checking alignment before expanding access: it addresses the decay of authorization after deployment, when nothing technically fails but the strategic basis for autonomy has expired.",
+        "novelty_score": 9,
+        "closest_post_id": "019ff648-1a52-a05b-2c6a-0622be944bdc",
+        "novelty_rationale": "The closest post argues that humans and machines should pass a Context Checksum before an agent receives broader permissions. This new argument concerns what happens afterward: permissions that were once coherent become dangerous when doctrine ages. The substantive delta is permission revocation based on doctrine freshness, not pre-deployment alignment testing. It introduces a different causal mechanism and operator decision: autonomy must contract as its governing premises lose validity.",
+        "source_grounding": "The source defines doctrine half-life as how long doctrine remains valid, current, and understood before drift or world change makes it stale. It states that agents require current doctrine, canonical retrieval, permissions, stop conditions, and update ownership; asks who is accountable if doctrine ages while an agent keeps acting; and warns that stale doctrine can turn a regulator into a disturbance generator. The Minimum Viable Coherence Program also requires doctrine versions, owners, permission levels, doctrine-to-agent interfaces, and updates to every affected agent and workflow when doctrine changes.",
+        "gate_version": 2,
+        "model": "gpt-5.6-sol",
+        "history_count": 98,
+        "history_fingerprint": "d02c4080f9fb0855ba21cc5bab0fcb7e0dd48b4b0a813562c532f840f8d18e20",
+        "developed_at": "2026-10-28T05:48:33.288Z"
+      },
+      "preparation": {
+        "status": "ready",
+        "prepared_at": "2026-10-28T05:50:26.700Z",
+        "history_fingerprint": "d02c4080f9fb0855ba21cc5bab0fcb7e0dd48b4b0a813562c532f840f8d18e20",
+        "attempts": [
+          {
+            "content_type": "from_the_mailbag",
+            "seed_topic_thesis": "Severability and reversibility make criticism cheaper and therefore more honest.",
+            "status": "skipped",
+            "reason": "package_gate_failed",
+            "error": null,
+            "details": null
+          },
+          {
+            "content_type": "extracted_insight",
+            "seed_topic_thesis": "Run Time and Ritual Time require different forms of accountability.",
+            "status": "prepared",
+            "reason": null,
+            "error": null,
+            "details": null
+          }
+        ],
+        "package": {
+          "version": 1,
+          "prepared_at": "2026-10-28T05:50:26.700Z",
+          "history_fingerprint": "d02c4080f9fb0855ba21cc5bab0fcb7e0dd48b4b0a813562c532f840f8d18e20",
+          "payload": {
+            "item_id": "c61072bc52b6",
+            "scheduled_at": "2026-10-28T12:30:00.000Z",
+            "content_type": "extracted_insight",
+            "pillar": "Extracted Insights",
+            "topic_thesis": "Autonomous permissions should not outlive the doctrine version that justified them.",
+            "angle": "Shift agent governance from one-time authorization to continuing validity: autonomy must contract when doctrine becomes stale, disputed, or superseded.",
+            "hook": "An agent can be perfectly obedient and still become dangerous overnight.",
+            "body_text": "An agent can be perfectly obedient and still become dangerous overnight.\n\nDoctrine has a half-life: the period during which its diagnosis, tradeoffs, and instructions remain valid. Yet most permissions survive long after that doctrine becomes stale, disputed, or superseded.\n\nA pricing agent authorized under version 12 may keep issuing discounts after version 13 changes the margin strategy. It did not hallucinate. It followed obsolete premises with valid credentials.\n\nPermissions should therefore bind to a specific doctrine version and its continuing validity. When that doctrine ages or enters dispute, autonomy should contract: external action becomes draft-only, irreversible action stops, escalation returns to a human.\n\nAuthorization cannot be a one-time event. If the doctrine expires, the permission must expire with it.",
+            "footer_text": "The Dionysus Program argues that the real scoreboard is epimetabolic rate: how fast you turn error into better structure without burning people. The book is free. dionysusprogram.com",
+            "footer_index": 8,
+            "footer_divider": "---",
+            "final_text": "An agent can be perfectly obedient and still become dangerous overnight.\n\nDoctrine has a half-life: the period during which its diagnosis, tradeoffs, and instructions remain valid. Yet most permissions survive long after that doctrine becomes stale, disputed, or superseded.\n\nA pricing agent authorized under version 12 may keep issuing discounts after version 13 changes the margin strategy. It did not hallucinate. It followed obsolete premises with valid credentials.\n\nPermissions should therefore bind to a specific doctrine version and its continuing validity. When that doctrine ages or enters dispute, autonomy should contract: external action becomes draft-only, irreversible action stops, escalation returns to a human.\n\nAuthorization cannot be a one-time event. If the doctrine expires, the permission must expire with it.\n\n---\n\nThe Dionysus Program argues that the real scoreboard is epimetabolic rate: how fast you turn error into better structure without burning people. The book is free. dionysusprogram.com",
+            "winning_candidate_id": "4390a75d2be5",
+            "winning_score": 8.9,
+            "source_refs": [],
+            "research_bundle_id": null,
+            "timely_subject": null
+          },
+          "prepared_note": {
+            "body": "An agent can be perfectly obedient and still become dangerous overnight.\n\nDoctrine has a half-life: the period during which its diagnosis, tradeoffs, and instructions remain valid. Yet most permissions survive long after that doctrine becomes stale, disputed, or superseded.\n\nA pricing agent authorized under version 12 may keep issuing discounts after version 13 changes the margin strategy. It did not hallucinate. It followed obsolete premises with valid credentials.\n\nPermissions should therefore bind to a specific doctrine version and its continuing validity. When that doctrine ages or enters dispute, autonomy should contract: external action becomes draft-only, irreversible action stops, escalation returns to a human.\n\nAuthorization cannot be a one-time event. If the doctrine expires, the permission must expire with it.",
+            "sourceMode": "canonical_package"
+          },
+          "x_preflight": {
+            "status": "dry_run",
+            "reason": null,
+            "payload": {
+              "source_channel": "linkedin",
+              "source_final_text_hash": "4658e79bee6df6336b478e02556018d06822be19802f1be3115fb3edc5dc2020",
+              "source_winning_candidate_id": "4390a75d2be5",
+              "text": "A claims agent denies a hotel extension to a family displaced by fire. It followed the emergency policy exactly—the one legal replaced yesterday.\n\nThe stale rule moved at machine speed. The appeal moved at human speed.",
+              "winning_candidate_id": "9b9b233eb9c4",
+              "winning_score": 8.4
+            },
+            "winnerCandidate": {
+              "id": "9b9b233eb9c4",
+              "writer_model": "gpt-5.6-sol",
+              "prompt_variant": "human_stakes",
+              "post_text": "A claims agent denies a hotel extension to a family displaced by fire. It followed the emergency policy exactly—the one legal replaced yesterday.\n\nThe stale rule moved at machine speed. The appeal moved at human speed.",
+              "self_notes": "Centers the human cost of stale authority and closes on the asymmetry between automated harm and manual repair."
+            },
+            "winnerScore": {
+              "id": "209d833e4612",
+              "candidate_id": "9b9b233eb9c4",
+              "clarity_score": 9.4,
+              "compression_score": 9.4,
+              "diagnostic_score": 8.6,
+              "anti_cheese_score": 8.4,
+              "x_fit_score": 9.3,
+              "novelty_score": 7.6,
+              "engagement_score": 9.2,
+              "overall_score": 8.4,
+              "pass": true,
+              "pass_fail_reasons": [
+                "Concrete human stakes make the governance failure immediate.",
+                "The machine-speed versus appeal-speed asymmetry supplies a fresh consequence.",
+                "Compact, memorable, and emotionally controlled despite the severe example."
+              ]
+            }
+          },
+          "winner_candidate": {
+            "id": "4390a75d2be5",
+            "writer_model": "gpt-5.6-sol",
+            "prompt_variant": "hook_forward",
+            "post_text": "An agent can be perfectly obedient and still become dangerous overnight.\n\nDoctrine has a half-life: the period during which its diagnosis, tradeoffs, and instructions remain valid. Yet most permissions survive long after that doctrine becomes stale, disputed, or superseded.\n\nA pricing agent authorized under version 12 may keep issuing discounts after version 13 changes the margin strategy. It did not hallucinate. It followed obsolete premises with valid credentials.\n\nPermissions should therefore bind to a specific doctrine version and its continuing validity. When that doctrine ages or enters dispute, autonomy should contract: external action becomes draft-only, irreversible action stops, escalation returns to a human.\n\nAuthorization cannot be a one-time event. If the doctrine expires, the permission must expire with it.",
+            "self_notes": "Live candidate in hook_forward mode."
+          },
+          "winner_score": {
+            "id": "8631fd36755d",
+            "candidate_id": "4390a75d2be5",
+            "voice_score": 9.1,
+            "novelty_score": 8.1,
+            "engagement_score": 8.8,
+            "clarity_score": 9.3,
+            "risk_score": 9.5,
+            "citation_score": 9.2,
+            "linkedin_native_score": 9,
+            "overall_score": 8.9,
+            "pass": true,
+            "pass_fail_reasons": [
+              "Strong substantive opener creates immediate tension without clickbait.",
+              "Concrete pricing-agent example makes the governance failure legible and consequential.",
+              "Clearly distinguishes execution failure from faithful execution under obsolete premises.",
+              "Ends with a sharp, operational rule rather than a soft summary.",
+              "Concise, source-grounded, and compliant with length and formatting policies.",
+              "Some thematic proximity to the recent Context Checksum and doctrine-propagation posts, but the continuing-validity mechanism is sufficiently distinct."
+            ]
+          },
+          "package_gate": {
+            "pass": true,
+            "attempted_candidates": 1,
+            "note_linkedin_novelty_score": 8.1,
+            "note_linkedin_engagement_score": 8.8,
+            "x_status": "dry_run",
+            "x_novelty_score": 7.6,
+            "x_engagement_score": 9.2
+          },
+          "selection_reason": "memory_safe_top_choice",
+          "research_bundle": null
+        }
+      },
+      "fallback": {
+        "attempt": 1,
+        "selected_at": "2026-10-28T05:46:21.650Z",
+        "from_content_type": "from_the_mailbag",
+        "from_seed_topic_thesis": "Severability and reversibility make criticism cheaper and therefore more honest."
+      },
+      "skip_reason": null
     },
     {
       "id": "14a5502013eb",
