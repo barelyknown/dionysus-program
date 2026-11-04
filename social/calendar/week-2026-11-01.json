@@ -199,18 +199,154 @@
       "status": "planned",
       "content_type": "cautionary_tale",
       "pillar": "Cautionary Tales",
-      "topic_thesis": "Crimes Against Ren are real because truth can still be weaponized against the substrate that makes truth possible.",
+      "topic_thesis": "Model capability is the wrong criterion for automation: reciprocal, ambiguous work should not be decomposed into independent agent execution because each action changes the context for the next.",
       "seed_topic_thesis": "Crimes Against Ren are real because truth can still be weaponized against the substrate that makes truth possible.",
-      "idea_status": "pending",
-      "angle": "Name the misuse clearly and show the cost of getting it wrong.",
-      "hook": "A practice can look rigorous and still make the system worse. crimes against ren are real because truth can still be weaponized against the substrate that makes truth possible.",
+      "idea_status": "developed",
+      "angle": "Tell the cautionary tale of a workflow where every agent passes its individual evaluation while the overall system fails, then show that the mistake was automating by task capability instead of coordination type.",
+      "hook": "Every agent passed its evaluation. The workflow still produced incompatible decisions.",
       "source_bundle_id": null,
       "timely_subject": null,
       "draft_ref": null,
       "winner_id": null,
       "risk_level": "low",
       "freshness_deadline": null,
-      "publish_payload": null
+      "publish_payload": null,
+      "preparation": {
+        "status": "ready",
+        "prepared_at": "2026-11-04T06:31:34.719Z",
+        "history_fingerprint": "d02c4080f9fb0855ba21cc5bab0fcb7e0dd48b4b0a813562c532f840f8d18e20",
+        "attempts": [
+          {
+            "content_type": "cautionary_tale",
+            "seed_topic_thesis": "Crimes Against Ren are real because truth can still be weaponized against the substrate that makes truth possible.",
+            "status": "prepared",
+            "reason": null,
+            "error": null,
+            "details": null
+          }
+        ],
+        "package": {
+          "version": 1,
+          "prepared_at": "2026-11-04T06:31:34.719Z",
+          "history_fingerprint": "d02c4080f9fb0855ba21cc5bab0fcb7e0dd48b4b0a813562c532f840f8d18e20",
+          "payload": {
+            "item_id": "fbba5ee06332",
+            "scheduled_at": "2026-11-05T13:30:00.000Z",
+            "content_type": "cautionary_tale",
+            "pillar": "Cautionary Tales",
+            "topic_thesis": "Model capability is the wrong criterion for automation: reciprocal, ambiguous work should not be decomposed into independent agent execution because each action changes the context for the next.",
+            "angle": "Tell the cautionary tale of a workflow where every agent passes its individual evaluation while the overall system fails, then show that the mistake was automating by task capability instead of coordination type.",
+            "hook": "Every agent passed. The customer still left.",
+            "body_text": "Every agent passed. The customer still left.\n\nThe sales agent approved a retention discount. The billing agent enforced the existing contract. The support agent sent an apology based on the latest ticket. Each action was accurate, policy-compliant, and independently well evaluated.\n\nTogether, they were incoherent.\n\nThe discount changed the meaning of the contract response. The contract response changed how the apology landed. By the time the workflow finished, the customer had received three defensible messages from what felt like three different companies.\n\nThe mistake was not model capability. It was automating by task capability instead of coordination type.\n\nReciprocal, ambiguous work cannot be cleanly decomposed because each action changes the context for the next. Use agents to support the cluster, not replace the mutual adjustment inside it.\n\nBefore automating a workflow, ask: can each step remain correct after the previous step changes the situation?",
+            "footer_text": "The Dionysus Program is a free book about raising epimetabolic rate — the speed at which a person, team, or organization converts error into new structure without consuming trust. dionysusprogram.com",
+            "footer_index": 1,
+            "footer_divider": "---",
+            "final_text": "Every agent passed. The customer still left.\n\nThe sales agent approved a retention discount. The billing agent enforced the existing contract. The support agent sent an apology based on the latest ticket. Each action was accurate, policy-compliant, and independently well evaluated.\n\nTogether, they were incoherent.\n\nThe discount changed the meaning of the contract response. The contract response changed how the apology landed. By the time the workflow finished, the customer had received three defensible messages from what felt like three different companies.\n\nThe mistake was not model capability. It was automating by task capability instead of coordination type.\n\nReciprocal, ambiguous work cannot be cleanly decomposed because each action changes the context for the next. Use agents to support the cluster, not replace the mutual adjustment inside it.\n\nBefore automating a workflow, ask: can each step remain correct after the previous step changes the situation?\n\n---\n\nThe Dionysus Program is a free book about raising epimetabolic rate — the speed at which a person, team, or organization converts error into new structure without consuming trust. dionysusprogram.com",
+            "winning_candidate_id": "3f7cf0272d85",
+            "winning_score": 8.9,
+            "source_refs": [],
+            "research_bundle_id": null,
+            "timely_subject": null
+          },
+          "prepared_note": {
+            "body": "Every agent passed. The customer still left.\n\nThe sales agent approved a retention discount. The billing agent enforced the existing contract. The support agent sent an apology based on the latest ticket. Each action was accurate, policy-compliant, and independently well evaluated.\n\nTogether, they were incoherent.\n\nThe discount changed the meaning of the contract response. The contract response changed how the apology landed. By the time the workflow finished, the customer had received three defensible messages from what felt like three different companies.\n\nThe mistake was not model capability. It was automating by task capability instead of coordination type.\n\nReciprocal, ambiguous work cannot be cleanly decomposed because each action changes the context for the next. Use agents to support the cluster, not replace the mutual adjustment inside it.\n\nBefore automating a workflow, ask: can each step remain correct after the previous step changes the situation?",
+            "sourceMode": "canonical_package"
+          },
+          "x_preflight": {
+            "status": "dry_run",
+            "reason": null,
+            "payload": {
+              "source_channel": "linkedin",
+              "source_final_text_hash": "7614f242c704c22c4593a5fb6c3bf3479201861de0056857c22eb0fb9f0bcf17",
+              "source_winning_candidate_id": "3f7cf0272d85",
+              "text": "“Thanks for the discount,” the customer replies.\n\nTwo minutes later, billing cites the contract. Support follows with an apology written as if neither message happened.\n\nThree green checks inside the company. One exit outside it.",
+              "winning_candidate_id": "6d52088a392d",
+              "winning_score": 9
+            },
+            "winnerCandidate": {
+              "id": "6d52088a392d",
+              "writer_model": "gpt-5.6-sol",
+              "prompt_variant": "miniature_scene",
+              "post_text": "“Thanks for the discount,” the customer replies.\n\nTwo minutes later, billing cites the contract. Support follows with an apology written as if neither message happened.\n\nThree green checks inside the company. One exit outside it.",
+              "self_notes": "Uses a compact customer scene and lets the conflicting messages reveal the coordination failure."
+            },
+            "winnerScore": {
+              "id": "aec58e976b87",
+              "candidate_id": "6d52088a392d",
+              "clarity_score": 9.5,
+              "compression_score": 9.5,
+              "diagnostic_score": 8.7,
+              "anti_cheese_score": 8.5,
+              "x_fit_score": 9.4,
+              "novelty_score": 8.3,
+              "engagement_score": 9.4,
+              "overall_score": 9,
+              "pass": true,
+              "pass_fail_reasons": [
+                "Pass: the miniature scene makes the coordination failure visible without explaining it to death.",
+                "The final contrast is sharp, earned, and tied to a human consequence."
+              ]
+            }
+          },
+          "winner_candidate": {
+            "id": "3f7cf0272d85",
+            "writer_model": "gpt-5.6-sol",
+            "prompt_variant": "diagnosis_forward",
+            "post_text": "Every agent passed. The customer still left.\n\nThe sales agent approved a retention discount. The billing agent enforced the existing contract. The support agent sent an apology based on the latest ticket. Each action was accurate, policy-compliant, and independently well evaluated.\n\nTogether, they were incoherent.\n\nThe discount changed the meaning of the contract response. The contract response changed how the apology landed. By the time the workflow finished, the customer had received three defensible messages from what felt like three different companies.\n\nThe mistake was not model capability. It was automating by task capability instead of coordination type.\n\nReciprocal, ambiguous work cannot be cleanly decomposed because each action changes the context for the next. Use agents to support the cluster, not replace the mutual adjustment inside it.\n\nBefore automating a workflow, ask: can each step remain correct after the previous step changes the situation?",
+            "self_notes": "Live candidate in diagnosis_forward mode."
+          },
+          "winner_score": {
+            "id": "b7bf3ef376f0",
+            "candidate_id": "3f7cf0272d85",
+            "voice_score": 9,
+            "novelty_score": 8.3,
+            "engagement_score": 9.1,
+            "clarity_score": 9.3,
+            "risk_score": 8.8,
+            "citation_score": 7.8,
+            "linkedin_native_score": 9.2,
+            "overall_score": 8.9,
+            "pass": true,
+            "pass_fail_reasons": [
+              "Best opener of the set: immediate human consequence, substantive tension, and no throat-clearing.",
+              "The three conflicting customer messages make reciprocal interdependence concrete and sustain attention.",
+              "The distinction between task capability and coordination type is stated cleanly and only once.",
+              "Ends with a sharp deployment test rather than a soft summary.",
+              "The customer scenario appears illustrative rather than documented, which slightly weakens source grounding.",
+              "Some thematic proximity to recent posts about agents passing local tests, but the coordination failure mechanism and customer consequence are distinct.",
+              "Complies with length, no-emoji, no-hashtag, and no-link requirements."
+            ]
+          },
+          "package_gate": {
+            "pass": true,
+            "attempted_candidates": 1,
+            "note_linkedin_novelty_score": 8.3,
+            "note_linkedin_engagement_score": 9.1,
+            "x_status": "dry_run",
+            "x_novelty_score": 8.3,
+            "x_engagement_score": 9.4
+          },
+          "selection_reason": "memory_safe_top_choice",
+          "research_bundle": null
+        }
+      },
+      "novel_idea": {
+        "pass": true,
+        "topic_thesis": "Model capability is the wrong criterion for automation: reciprocal, ambiguous work should not be decomposed into independent agent execution because each action changes the context for the next.",
+        "angle": "Tell the cautionary tale of a workflow where every agent passes its individual evaluation while the overall system fails, then show that the mistake was automating by task capability instead of coordination type.",
+        "hook": "Every agent passed its evaluation. The workflow still produced incompatible decisions.",
+        "argument_summary": "Agent evaluations can establish that individual tasks are performed competently, but they cannot make tightly coupled work modular. In reciprocal work, each action changes the premises, constraints, or consequences facing the other participants, so coordination requires ongoing mutual adjustment. Decomposing that work into independent agents can scale locally correct actions into system-level contradiction. Operators should classify work by interdependence before automating it: pooled work can be standardized, sequential work needs explicit plans and interfaces, and reciprocal, ambiguous, high-stakes work should remain inside Actor clusters with agent support and live reality feedback.",
+        "novelty_score": 9.3,
+        "closest_post_id": "019fae5f-c94c-be8f-7628-216e2ec120b9",
+        "novelty_rationale": "The closest post argues that people should not serve as middleware carrying context between agents; doctrine should carry intent instead. This argument establishes the missing boundary on that redesign: some context exchange is not obsolete mediation but constitutive mutual adjustment. The central claim, causal mechanism, and operator decision are new—automation should be governed by interdependence type, not merely agent capability or the desire to remove human handoffs.",
+        "source_grounding": "The Coherence Ceiling section applies James D. Thompson’s distinction among pooled, sequential, and reciprocal interdependence: pooled work can be standardized, sequential work needs plans and interfaces, and reciprocal work needs mutual adjustment. It explicitly recommends doctrine-guided agents for modular work and Actor clusters with agent support for reciprocal, ambiguous, high-stakes work where reality is trust-laden, regulated, embodied, or irreversible.",
+        "gate_version": 2,
+        "model": "gpt-5.6-sol",
+        "history_count": 98,
+        "history_fingerprint": "d02c4080f9fb0855ba21cc5bab0fcb7e0dd48b4b0a813562c532f840f8d18e20",
+        "developed_at": "2026-11-04T06:29:56.418Z"
+      },
+      "skip_reason": null
     }
   ]
 }
