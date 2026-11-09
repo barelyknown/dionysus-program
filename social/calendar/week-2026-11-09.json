@@ -14,18 +14,154 @@
       "status": "planned",
       "content_type": "extracted_insight",
       "pillar": "Extracted Insights",
-      "topic_thesis": "Run Time and Ritual Time require different forms of accountability.",
+      "topic_thesis": "Autonomous permissions should expire with the doctrine’s half-life, because an agent still acting after its governing map goes stale becomes a confident source of incoherence.",
       "seed_topic_thesis": "Run Time and Ritual Time require different forms of accountability.",
-      "idea_status": "pending",
-      "angle": "Name the concept, explain it plainly, and show why it matters now.",
-      "hook": "The mistake leaders keep making is thinking run time and ritual time require different forms of accountability.",
+      "idea_status": "developed",
+      "angle": "Shift permissioning from a one-time capability approval to recurring review of whether the doctrine authorizing that capability is still current.",
+      "hook": "The dangerous agent isn’t the one that fails its launch review. It’s the one that passed—and kept acting after the strategy changed.",
       "source_bundle_id": null,
       "timely_subject": null,
       "draft_ref": null,
       "winner_id": null,
       "risk_level": "low",
       "freshness_deadline": null,
-      "publish_payload": null
+      "publish_payload": null,
+      "preparation": {
+        "status": "ready",
+        "prepared_at": "2026-11-09T06:41:10.900Z",
+        "history_fingerprint": "d02c4080f9fb0855ba21cc5bab0fcb7e0dd48b4b0a813562c532f840f8d18e20",
+        "attempts": [
+          {
+            "content_type": "extracted_insight",
+            "seed_topic_thesis": "Run Time and Ritual Time require different forms of accountability.",
+            "status": "prepared",
+            "reason": null,
+            "error": null,
+            "details": null
+          }
+        ],
+        "package": {
+          "version": 1,
+          "prepared_at": "2026-11-09T06:41:10.900Z",
+          "history_fingerprint": "d02c4080f9fb0855ba21cc5bab0fcb7e0dd48b4b0a813562c532f840f8d18e20",
+          "payload": {
+            "item_id": "fa69a2925b66",
+            "scheduled_at": "2026-11-09T13:30:00.000Z",
+            "content_type": "extracted_insight",
+            "pillar": "Extracted Insights",
+            "topic_thesis": "Autonomous permissions should expire with the doctrine’s half-life, because an agent still acting after its governing map goes stale becomes a confident source of incoherence.",
+            "angle": "Shift permissioning from a one-time capability approval to recurring review of whether the doctrine authorizing that capability is still current.",
+            "hook": "An agent can follow its instructions perfectly and still become dangerous overnight.",
+            "body_text": "An agent can follow its instructions perfectly and still become dangerous overnight.\n\nDoctrine has a half-life: the period in which the organization’s diagnosis, tradeoffs, and rules remain valid. When that map goes stale, an agent does not become less confident. It keeps acting coherently from premises the organization no longer holds.\n\nImagine a pricing agent authorized to issue quotes under a growth strategy. The strategy changes. Its permission does not. Now it is making valid decisions for a company that no longer exists.\n\nPermissioning cannot be a one-time capability approval. It must include recurring review of the doctrine authorizing that capability—and a named owner accountable when doctrine ages but the agent keeps acting.\n\nAutonomous permissions should inherit the doctrine’s expiration date. If the map expires, the authority expires with it.",
+            "footer_text": "Most of what I post here is extracted from The Dionysus Program — a free field manual for leaders whose knowledge is melting faster than their culture can re-bind it. dionysusprogram.com",
+            "footer_index": 9,
+            "footer_divider": "---",
+            "final_text": "An agent can follow its instructions perfectly and still become dangerous overnight.\n\nDoctrine has a half-life: the period in which the organization’s diagnosis, tradeoffs, and rules remain valid. When that map goes stale, an agent does not become less confident. It keeps acting coherently from premises the organization no longer holds.\n\nImagine a pricing agent authorized to issue quotes under a growth strategy. The strategy changes. Its permission does not. Now it is making valid decisions for a company that no longer exists.\n\nPermissioning cannot be a one-time capability approval. It must include recurring review of the doctrine authorizing that capability—and a named owner accountable when doctrine ages but the agent keeps acting.\n\nAutonomous permissions should inherit the doctrine’s expiration date. If the map expires, the authority expires with it.\n\n---\n\nMost of what I post here is extracted from The Dionysus Program — a free field manual for leaders whose knowledge is melting faster than their culture can re-bind it. dionysusprogram.com",
+            "winning_candidate_id": "ca0ef714afaa",
+            "winning_score": 8.8,
+            "source_refs": [],
+            "research_bundle_id": null,
+            "timely_subject": null
+          },
+          "prepared_note": {
+            "body": "An agent can follow its instructions perfectly and still become dangerous overnight.\n\nDoctrine has a half-life: the period in which the organization’s diagnosis, tradeoffs, and rules remain valid. When that map goes stale, an agent does not become less confident. It keeps acting coherently from premises the organization no longer holds.\n\nImagine a pricing agent authorized to issue quotes under a growth strategy. The strategy changes. Its permission does not. Now it is making valid decisions for a company that no longer exists.\n\nPermissioning cannot be a one-time capability approval. It must include recurring review of the doctrine authorizing that capability—and a named owner accountable when doctrine ages but the agent keeps acting.\n\nAutonomous permissions should inherit the doctrine’s expiration date. If the map expires, the authority expires with it.",
+            "sourceMode": "canonical_package"
+          },
+          "x_preflight": {
+            "status": "dry_run",
+            "reason": null,
+            "payload": {
+              "source_channel": "linkedin",
+              "source_final_text_hash": "bb0081114eda922e7ed8523d72f871cd885bb2454ea996cb30649ae874f93674",
+              "source_winning_candidate_id": "ca0ef714afaa",
+              "text": "Monday: leadership ends blanket refunds after fraud spikes.\nTuesday: the support agent approves another one.\nWednesday: finance asks who authorized it.\n\nLeadership did, months ago—and never gave the permission an end date.",
+              "winning_candidate_id": "3376820df158",
+              "winning_score": 9.2
+            },
+            "winnerCandidate": {
+              "id": "3376820df158",
+              "writer_model": "gpt-5.6-sol",
+              "prompt_variant": "miniature_scene",
+              "post_text": "Monday: leadership ends blanket refunds after fraud spikes.\nTuesday: the support agent approves another one.\nWednesday: finance asks who authorized it.\n\nLeadership did, months ago—and never gave the permission an end date.",
+              "self_notes": "A three-day scene makes the lag between strategic change and machine authority tangible."
+            },
+            "winnerScore": {
+              "id": "1cebad5fb927",
+              "candidate_id": "3376820df158",
+              "clarity_score": 9.5,
+              "compression_score": 9.3,
+              "diagnostic_score": 8.9,
+              "anti_cheese_score": 9,
+              "x_fit_score": 9.4,
+              "novelty_score": 8.8,
+              "engagement_score": 9.1,
+              "overall_score": 9.2,
+              "pass": true,
+              "pass_fail_reasons": [
+                "The miniature chronology creates tension without explanation-heavy setup.",
+                "The finance question supplies a concrete human consequence, and the missing end date provides a clean landing."
+              ]
+            }
+          },
+          "winner_candidate": {
+            "id": "ca0ef714afaa",
+            "writer_model": "gpt-5.6-sol",
+            "prompt_variant": "hook_forward",
+            "post_text": "An agent can follow its instructions perfectly and still become dangerous overnight.\n\nDoctrine has a half-life: the period in which the organization’s diagnosis, tradeoffs, and rules remain valid. When that map goes stale, an agent does not become less confident. It keeps acting coherently from premises the organization no longer holds.\n\nImagine a pricing agent authorized to issue quotes under a growth strategy. The strategy changes. Its permission does not. Now it is making valid decisions for a company that no longer exists.\n\nPermissioning cannot be a one-time capability approval. It must include recurring review of the doctrine authorizing that capability—and a named owner accountable when doctrine ages but the agent keeps acting.\n\nAutonomous permissions should inherit the doctrine’s expiration date. If the map expires, the authority expires with it.",
+            "self_notes": "Live candidate in hook_forward mode."
+          },
+          "winner_score": {
+            "id": "99f4d3917159",
+            "candidate_id": "ca0ef714afaa",
+            "voice_score": 8.8,
+            "novelty_score": 8.2,
+            "engagement_score": 8.6,
+            "clarity_score": 9.2,
+            "risk_score": 1.2,
+            "citation_score": 9,
+            "linkedin_native_score": 9.1,
+            "overall_score": 8.8,
+            "pass": true,
+            "pass_fail_reasons": [
+              "Strong, substantive opener creates immediate tension without clickbait.",
+              "The pricing-agent example makes the consequence concrete and sustains attention.",
+              "Clearly distinguishes recurring doctrine review from one-time capability approval.",
+              "Sharp final implication lands without repeating the entire thesis.",
+              "Grounded in the source concepts of doctrine half-life, stale doctrine, permissions, and accountable ownership.",
+              "Adjacent to recent posts on Context Checksum and Coherent Wrongness, but the expiration mechanism is sufficiently distinct.",
+              "Within length and policy limits; no emojis, hashtags, links, or unsupported external claims."
+            ]
+          },
+          "package_gate": {
+            "pass": true,
+            "attempted_candidates": 1,
+            "note_linkedin_novelty_score": 8.2,
+            "note_linkedin_engagement_score": 8.6,
+            "x_status": "dry_run",
+            "x_novelty_score": 8.8,
+            "x_engagement_score": 9.1
+          },
+          "selection_reason": "memory_safe_top_choice",
+          "research_bundle": null
+        }
+      },
+      "novel_idea": {
+        "pass": true,
+        "topic_thesis": "Autonomous permissions should expire with the doctrine’s half-life, because an agent still acting after its governing map goes stale becomes a confident source of incoherence.",
+        "angle": "Shift permissioning from a one-time capability approval to recurring review of whether the doctrine authorizing that capability is still current.",
+        "hook": "The dangerous agent isn’t the one that fails its launch review. It’s the one that passed—and kept acting after the strategy changed.",
+        "argument_summary": "An agent can remain technically capable, compliant, and internally consistent even after the doctrine governing it has stopped matching reality. Because doctrine has a half-life, initial alignment cannot justify permanent authority. Once the map expires, faithful execution becomes coherent wrongness: obsolete premises are converted into customer messages, code, spending, or commitments at machine speed. Permissions therefore need stop conditions and recurring revalidation tied to doctrine version, freshness, and ownership—especially where actions touch customers, money, compliance, production systems, or irreversible promises.",
+        "novelty_score": 9,
+        "closest_post_id": "019ff648-1a52-a05b-2c6a-0622be944bdc",
+        "novelty_rationale": "The closest prior post establishes a Context Checksum as an entry gate before permissions increase. This argument addresses a different failure mechanism and operator decision: authority that was correctly granted can become dangerous later because doctrine expires while permissions persist. The substantive delta is from one-time alignment testing to time-bounded, doctrine-dependent authority with mandatory revalidation.",
+        "source_grounding": "The Coherence Ceiling defines doctrine half-life as the period before doctrine becomes stale through drift or world change. Auteurs, Agents, Actors states that agents require current doctrine, permissions, evaluations, stop conditions, escalation triggers, and feedback paths, and warns that stale doctrine can produce coherent wrongness. Appendix B requires doctrine versioning, permission levels, deletion of stale workflows, and doctrine updates when reality falsifies the map. The Ashby discussion adds that a stale model can turn the regulator itself into a disturbance generator.",
+        "gate_version": 2,
+        "model": "gpt-5.6-sol",
+        "history_count": 98,
+        "history_fingerprint": "d02c4080f9fb0855ba21cc5bab0fcb7e0dd48b4b0a813562c532f840f8d18e20",
+        "developed_at": "2026-11-09T06:39:18.311Z"
+      },
+      "skip_reason": null
     },
     {
       "id": "a417ab817e93",
