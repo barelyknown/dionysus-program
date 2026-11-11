@@ -174,18 +174,154 @@
       "status": "planned",
       "content_type": "ritual_recipe",
       "pillar": "Ritual Recipes",
-      "topic_thesis": "The Weekly Crossing is a practical recurring ritual for metabolizing drift before it hardens.",
+      "topic_thesis": "Every contradiction should be routed before it is solved: failures to follow valid doctrine belong in Run Time, while evidence that doctrine itself is wrong belongs in Ritual Time.",
       "seed_topic_thesis": "The Weekly Crossing is a practical recurring ritual for metabolizing drift before it hardens.",
-      "idea_status": "pending",
-      "angle": "Start with a recurring problem and end with a usable move.",
-      "hook": "If your team keeps repeating the same failure, stop adding process. the weekly crossing is a practical recurring ritual for metabolizing drift before it hardens.",
+      "idea_status": "developed",
+      "angle": "Introduce a weekly Contradiction Triage that answers one question before anyone proposes a fix: did execution depart from the current map, or did reality falsify the map? Send execution failures to an owner for correction; send doctrine failures into a Crossing for reconstitution.",
+      "hook": "Most AI drift begins with a helpful prompt patch.",
       "source_bundle_id": null,
       "timely_subject": null,
       "draft_ref": null,
       "winner_id": null,
       "risk_level": "low",
       "freshness_deadline": null,
-      "publish_payload": null
+      "publish_payload": null,
+      "preparation": {
+        "status": "ready",
+        "prepared_at": "2026-11-11T06:30:52.443Z",
+        "history_fingerprint": "d02c4080f9fb0855ba21cc5bab0fcb7e0dd48b4b0a813562c532f840f8d18e20",
+        "attempts": [
+          {
+            "content_type": "ritual_recipe",
+            "seed_topic_thesis": "The Weekly Crossing is a practical recurring ritual for metabolizing drift before it hardens.",
+            "status": "prepared",
+            "reason": null,
+            "error": null,
+            "details": null
+          }
+        ],
+        "package": {
+          "version": 1,
+          "prepared_at": "2026-11-11T06:30:52.443Z",
+          "history_fingerprint": "d02c4080f9fb0855ba21cc5bab0fcb7e0dd48b4b0a813562c532f840f8d18e20",
+          "payload": {
+            "item_id": "a417ab817e93",
+            "scheduled_at": "2026-11-11T13:30:00.000Z",
+            "content_type": "ritual_recipe",
+            "pillar": "Ritual Recipes",
+            "topic_thesis": "Every contradiction should be routed before it is solved: failures to follow valid doctrine belong in Run Time, while evidence that doctrine itself is wrong belongs in Ritual Time.",
+            "angle": "Introduce a weekly Contradiction Triage that answers one question before anyone proposes a fix: did execution depart from the current map, or did reality falsify the map? Send execution failures to an owner for correction; send doctrine failures into a Crossing for reconstitution.",
+            "hook": "The fastest way to corrupt doctrine is to patch an agent that followed it correctly.",
+            "body_text": "The fastest way to corrupt doctrine is to patch an agent that followed it correctly.\n\nSay an automated workflow makes the wrong customer promise. The common response is immediate: adjust the prompt, retrain the person, add approval. But first ask: did execution depart from the current map, or did reality falsify the map?\n\nRun a weekly Contradiction Triage:\n\n1. Bring one observed contradiction, with evidence.\n2. Compare the action to the doctrine in force at that moment.\n3. If execution departed, send it to an owner for correction in Run Time.\n4. If execution was faithful but wrong, send the doctrine into a Crossing for reconstitution.\n\nDo not use a Crossing when people cannot contradict authority without consequence, or when the team is too depleted to hold conflict cleanly. Lower the heat first.\n\nUntil contradictions are routed, every fix is a guess—and many “execution fixes” are just doctrine failures being buried alive.",
+            "footer_text": "If this resonated, the full program is free: critique → dissolution → reconstitution → renewal. One loop. Every scale. dionysusprogram.com",
+            "footer_index": 11,
+            "footer_divider": "---",
+            "final_text": "The fastest way to corrupt doctrine is to patch an agent that followed it correctly.\n\nSay an automated workflow makes the wrong customer promise. The common response is immediate: adjust the prompt, retrain the person, add approval. But first ask: did execution depart from the current map, or did reality falsify the map?\n\nRun a weekly Contradiction Triage:\n\n1. Bring one observed contradiction, with evidence.\n2. Compare the action to the doctrine in force at that moment.\n3. If execution departed, send it to an owner for correction in Run Time.\n4. If execution was faithful but wrong, send the doctrine into a Crossing for reconstitution.\n\nDo not use a Crossing when people cannot contradict authority without consequence, or when the team is too depleted to hold conflict cleanly. Lower the heat first.\n\nUntil contradictions are routed, every fix is a guess—and many “execution fixes” are just doctrine failures being buried alive.\n\n---\n\nIf this resonated, the full program is free: critique → dissolution → reconstitution → renewal. One loop. Every scale. dionysusprogram.com",
+            "winning_candidate_id": "df6506473bc8",
+            "winning_score": 8.7,
+            "source_refs": [],
+            "research_bundle_id": null,
+            "timely_subject": null
+          },
+          "prepared_note": {
+            "body": "The fastest way to corrupt doctrine is to patch an agent that followed it correctly.\n\nSay an automated workflow makes the wrong customer promise. The common response is immediate: adjust the prompt, retrain the person, add approval. But first ask: did execution depart from the current map, or did reality falsify the map?\n\nRun a weekly Contradiction Triage:\n\n1. Bring one observed contradiction, with evidence.\n2. Compare the action to the doctrine in force at that moment.\n3. If execution departed, send it to an owner for correction in Run Time.\n4. If execution was faithful but wrong, send the doctrine into a Crossing for reconstitution.\n\nDo not use a Crossing when people cannot contradict authority without consequence, or when the team is too depleted to hold conflict cleanly. Lower the heat first.\n\nUntil contradictions are routed, every fix is a guess—and many “execution fixes” are just doctrine failures being buried alive.",
+            "sourceMode": "canonical_package"
+          },
+          "x_preflight": {
+            "status": "dry_run",
+            "reason": null,
+            "payload": {
+              "source_channel": "linkedin",
+              "source_final_text_hash": "0a426841450d5dc2dcbbcc0f11702d102d4fa2d747c8581a00bcaa8449679576",
+              "source_winning_candidate_id": "df6506473bc8",
+              "text": "Retrain someone who followed the playbook and the lesson travels fast: the rules will not protect you when reality disagrees.\n\nSoon people hedge, seek unnecessary approvals, and stop trusting official guidance. The company pays for one bad rule in every later decision.",
+              "winning_candidate_id": "de04a03b0d17",
+              "winning_score": 8.8
+            },
+            "winnerCandidate": {
+              "id": "de04a03b0d17",
+              "writer_model": "gpt-5.6-sol",
+              "prompt_variant": "human_stakes",
+              "post_text": "Retrain someone who followed the playbook and the lesson travels fast: the rules will not protect you when reality disagrees.\n\nSoon people hedge, seek unnecessary approvals, and stop trusting official guidance. The company pays for one bad rule in every later decision.",
+              "self_notes": "Centers the human consequence of blaming faithful execution: defensive behavior and degraded reliance on shared rules."
+            },
+            "winnerScore": {
+              "id": "816e7a6a8a72",
+              "candidate_id": "de04a03b0d17",
+              "clarity_score": 9.2,
+              "compression_score": 9,
+              "diagnostic_score": 8.7,
+              "anti_cheese_score": 9,
+              "x_fit_score": 9.1,
+              "novelty_score": 8.3,
+              "engagement_score": 8.8,
+              "overall_score": 8.8,
+              "pass": true,
+              "pass_fail_reasons": [
+                "Best human consequence: faithful employees learn that official rules offer no protection.",
+                "The progression from retraining to hedging, approvals, and institutional mistrust feels earned.",
+                "Freshest angle among the candidates and a strong final sentence."
+              ]
+            }
+          },
+          "winner_candidate": {
+            "id": "df6506473bc8",
+            "writer_model": "gpt-5.6-sol",
+            "prompt_variant": "hook_forward",
+            "post_text": "The fastest way to corrupt doctrine is to patch an agent that followed it correctly.\n\nSay an automated workflow makes the wrong customer promise. The common response is immediate: adjust the prompt, retrain the person, add approval. But first ask: did execution depart from the current map, or did reality falsify the map?\n\nRun a weekly Contradiction Triage:\n\n1. Bring one observed contradiction, with evidence.\n2. Compare the action to the doctrine in force at that moment.\n3. If execution departed, send it to an owner for correction in Run Time.\n4. If execution was faithful but wrong, send the doctrine into a Crossing for reconstitution.\n\nDo not use a Crossing when people cannot contradict authority without consequence, or when the team is too depleted to hold conflict cleanly. Lower the heat first.\n\nUntil contradictions are routed, every fix is a guess—and many “execution fixes” are just doctrine failures being buried alive.",
+            "self_notes": "Live candidate in hook_forward mode."
+          },
+          "winner_score": {
+            "id": "eff2c4b125bc",
+            "candidate_id": "df6506473bc8",
+            "voice_score": 8.6,
+            "novelty_score": 8.1,
+            "engagement_score": 8.4,
+            "clarity_score": 9.2,
+            "risk_score": 9.4,
+            "citation_score": 9.3,
+            "linkedin_native_score": 8.8,
+            "overall_score": 8.7,
+            "pass": true,
+            "pass_fail_reasons": [
+              "Sharp, substantive opener with a concrete failure mode.",
+              "Introduces a distinct operating move: route contradictions before proposing fixes.",
+              "Four steps are minimal, executable, and clearly separate execution failure from doctrine failure.",
+              "Includes the required boundary for low-trust or depleted teams.",
+              "Strong ending with a real organizational consequence.",
+              "Minor weakness: “The fastest way” is an overused hook construction in the recent history, reducing freshness."
+            ]
+          },
+          "package_gate": {
+            "pass": true,
+            "attempted_candidates": 1,
+            "note_linkedin_novelty_score": 8.1,
+            "note_linkedin_engagement_score": 8.4,
+            "x_status": "dry_run",
+            "x_novelty_score": 8.3,
+            "x_engagement_score": 8.8
+          },
+          "selection_reason": "memory_safe_top_choice",
+          "research_bundle": null
+        }
+      },
+      "novel_idea": {
+        "pass": true,
+        "topic_thesis": "Every contradiction should be routed before it is solved: failures to follow valid doctrine belong in Run Time, while evidence that doctrine itself is wrong belongs in Ritual Time.",
+        "angle": "Introduce a weekly Contradiction Triage that answers one question before anyone proposes a fix: did execution depart from the current map, or did reality falsify the map? Send execution failures to an owner for correction; send doctrine failures into a Crossing for reconstitution.",
+        "hook": "Most AI drift begins with a helpful prompt patch.",
+        "argument_summary": "When an agent or team produces a bad result, the reflex is to patch the prompt, workflow, or person. That works only when current doctrine is still valid and execution departed from it. If reality has falsified the doctrine, a local patch preserves the false canonical map while creating shadow doctrine, private workarounds, and context debt. The opposite error is reopening strategy for every ordinary execution miss, which stalls action. A recurring Contradiction Triage prevents both failures: log the tension, identify the doctrine version in force, classify it as a fidelity failure or a map failure, route the first to Run Time correction and the second to Ritual Time, then update decision memory and every affected workflow. This is not another candor ritual; it is the routing layer that decides which kind of correction the organization needs.",
+        "novelty_score": 9,
+        "closest_post_id": "019e92e0-3c35-737c-a103-0300cfd84be0",
+        "novelty_rationale": "The closest post argues that explicitly naming Run Time or Ritual Time creates common knowledge about the room’s rules. This argument addresses a prior operator decision that history has not covered: how to determine which mode a contradiction belongs in. Its distinct causal mechanism is misrouting—execution fixes applied to false doctrine create shadow doctrine and context debt, while doctrinal reconsideration applied to routine execution misses disrupts action. The proposed Contradiction Triage is therefore a classification and routing ritual, not a restatement of mode naming or the Weekly Crossing.",
+        "source_grounding": "Appendix B specifies a contradiction ledger covering tensions among strategy, incentives, customer reality, doctrine, agent behavior, commitments, metrics, and Actor feedback, noting that some contradictions belong in Run Time and others in Ritual Time. It also states that when reality falsifies doctrine, the response should be Ritual Time rather than a prompt patch. The Coherence Ceiling distinguishes valid doctrine with low fidelity from coherent execution of an invalid map, grounding the need to diagnose execution failure separately from doctrine failure.",
+        "gate_version": 2,
+        "model": "gpt-5.6-sol",
+        "history_count": 98,
+        "history_fingerprint": "d02c4080f9fb0855ba21cc5bab0fcb7e0dd48b4b0a813562c532f840f8d18e20",
+        "developed_at": "2026-11-11T06:29:18.265Z"
+      },
+      "skip_reason": null
     },
     {
       "id": "c3f734135e74",
