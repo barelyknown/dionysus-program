@@ -103,6 +103,12 @@ from `build-plan-of-attack.js`, `templates/plan-of-attack.html`, `edition.css`, 
 `edition.js`. The flip is progressive enhancement: links and complete letter
 text work without JavaScript, and reduced-motion preferences disable the turn.
 
+## Audiobook
+
+The audiobook player lives at `/audiobook/` and is linked from the book’s free formats. Its source is `templates/audiobook.html`, `audiobook.js`, `audiobook.css`, and `content/audiobook.json`. `build-site.sh` and the full build generate its HTML. The long audio files are separate release assets; only the compact cover and short preview live in Git.
+
+See [the audiobook skill](skills/dionysus-audiobook/SKILL.md) and [complete production instructions](skills/dionysus-audiobook/references/production.md) for voice identity, pronunciation, source preparation, resumable ElevenLabs generation, review, mastering, packaging, credentials, and hosting. Raw production material remains in ignored `editorial/audiobook/`; back it up privately if needed. No new API key is configured.
+
 ## LinkedIn automation
 
 The repo now includes a CLI-first social automation subsystem under [social/README.md](social/README.md). Start in fixture mode and validate locally before enabling live provider secrets or scheduled workflows.

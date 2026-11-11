@@ -1,0 +1,17 @@
+{
+  "Esthergen": {
+    "spoken_alias": "Esther Jen",
+    "source": "Explicit author instruction in conversation",
+    "confirmed": true
+  },
+  "limen": {
+    "ipa": "ˈlaɪmən",
+    "source": "https://dictionary.cambridge.org/pronunciation/english/limen",
+    "checked": true
+  },
+  "Michels": {
+    "ipa": "ˈmɪçəls",
+    "source": "https://onlinebooks.library.upenn.edu/webbin/who/Michels%2C%20Robert%2C%201876-1936",
+    "checked": true
+  }
+}

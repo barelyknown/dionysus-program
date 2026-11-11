@@ -240,6 +240,7 @@ if [[ -s "$PUBLISH_META" ]]; then
 fi
 
 node "$ROOT_DIR/build-plan-of-attack.js" "$OUTPUT_DIR"
+node "$ROOT_DIR/build-audiobook.js" "$OUTPUT_DIR"
 
 pandoc "${BOOK_INPUTS[@]}" \
   --from=markdown \

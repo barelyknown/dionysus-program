@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Dionysus Program — Audiobook</title>
+<style>
+:root{color-scheme:light;--ink:#252b23;--paper:#f3f0e8;--muted:#62695d;--line:#d5d8c9}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.6 Georgia,serif}
+main{max-width:940px;margin:6vh auto;padding:24px}header{display:grid;grid-template-columns:280px 1fr;gap:42px;align-items:center}
+img{width:100%;box-shadow:0 12px 36px #29321d26;border-radius:3px}h1{font-size:42px;line-height:1.1;font-weight:400;margin:14px 0}p{margin:10px 0}.eyebrow{font:12px/1.4 system-ui,sans-serif;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}.subtitle{font-style:italic;font-size:24px}
+.player{margin:42px 0 30px;padding:28px;border:1px solid var(--line);background:#fff9;border-radius:8px}audio{width:100%;margin:12px 0}label{display:block;font:13px/1.5 system-ui,sans-serif;color:var(--muted)}select,button{font:16px/1.3 system-ui,sans-serif;padding:12px;border:1px solid var(--line);border-radius:4px;background:#fff;color:var(--ink)}select{width:100%}.controls{display:flex;gap:12px;align-items:center;flex-wrap:wrap}button{cursor:pointer}button:hover{background:#e9eddf}button:disabled{opacity:.4;cursor:default}a{color:#3a4f31;text-underline-offset:4px}footer{font:14px/1.6 system-ui,sans-serif;color:var(--muted)}.downloads{display:flex;gap:24px;flex-wrap:wrap;margin:24px 0}.sr{position:absolute;clip:rect(0,0,0,0);width:1px;height:1px;overflow:hidden}
+@media(max-width:650px){main{margin:0 auto;padding:24px}header{grid-template-columns:1fr;gap:24px}img{max-width:280px}h1{font-size:36px}.player{padding:18px}}
+</style>
+<main>
+<header><img src="cover.jpg" alt="The Dionysus Program cover: a limestone tablet with ivy and a carved Phi symbol">
+<div><p class="eyebrow">The complete audiobook</p><h1>The Dionysus Program</h1><p class="subtitle">Rites of Renewal</p><p>Written by Sean Devine</p><p id="runtime" class="eyebrow"></p><p>Read in the author’s digitally generated voice.</p></div></header>
+<section class="player" aria-label="Audiobook player"><label for="chapters">Chapter</label><select id="chapters"></select>
+<audio id="audio" controls preload="metadata" src="The%20Dionysus%20Program.m4b"></audio>
+<div class="controls"><button id="previous">Previous chapter</button><button id="next">Next chapter</button><label for="speed">Playback speed</label><select id="speed" style="width:auto"><option value="0.85">0.85×</option><option value="1" selected>1×</option><option value="1.15">1.15×</option><option value="1.25">1.25×</option><option value="1.5">1.5×</option></select></div>
+<p id="status" class="eyebrow"></p></section>
+<div class="downloads"><a href="The%20Dionysus%20Program.m4b" download>Download audiobook</a><a href="The%20Dionysus%20Program%20-%20MP3%20Chapters.zip" download>Download MP3 chapters</a><a href="Read%20me.txt">Listening and distribution guide</a></div>
+<footer><p>The text, sources, and interactive simulation are at <a href="https://www.dionysusprogram.com/">dionysusprogram.com</a>.</p><p>This local player saves your position in this browser when supported. You can also open the M4B in your preferred audiobook app.</p></footer>
+</main>
+<script>
+const book=__BOOK_METADATA__;
+const audio=document.querySelector('#audio'),menu=document.querySelector('#chapters');
+const previous=document.querySelector('#previous'),next=document.querySelector('#next'),status=document.querySelector('#status');
+const time=s=>`${Math.floor(s/3600)}:${String(Math.floor(s%3600/60)).padStart(2,'0')}:${String(Math.floor(s%60)).padStart(2,'0')}`;
+document.querySelector('#runtime').textContent=`${time(book.duration_seconds)} · ${book.chapters.length} indexed sections`;
+book.chapters.forEach((c,i)=>menu.add(new Option(`${String(c.number).padStart(2,'0')} · ${c.title}`,i)));
+function sync(){let i=0;book.chapters.forEach((c,n)=>{if(audio.currentTime>=c.start_seconds)i=n});menu.value=i;previous.disabled=i===0;next.disabled=i===book.chapters.length-1;status.textContent=`${time(audio.currentTime)} / ${time(book.duration_seconds)}`;}
+function choose(i){const seek=()=>{audio.currentTime=book.chapters[i].start_seconds;sync()};if(audio.readyState===0)audio.addEventListener('loadedmetadata',seek,{once:true});else seek();}
+menu.addEventListener('change',()=>choose(Number(menu.value)));previous.addEventListener('click',()=>choose(Math.max(0,Number(menu.value)-1)));next.addEventListener('click',()=>choose(Math.min(book.chapters.length-1,Number(menu.value)+1)));
+document.querySelector('#speed').addEventListener('change',e=>audio.playbackRate=Number(e.target.value));
+audio.addEventListener('timeupdate',()=>{sync();try{localStorage.setItem('dionysus-audiobook-position',audio.currentTime)}catch(e){}});
+audio.addEventListener('loadedmetadata',()=>{try{let saved=Number(localStorage.getItem('dionysus-audiobook-position'));if(saved>0&&saved<audio.duration)audio.currentTime=saved}catch(e){}sync()});
+audio.addEventListener('error',()=>status.textContent='This browser cannot open the audiobook. Use the M4B in an audiobook app, or download the MP3 chapters below.');
+sync();
+</script>
+</html>

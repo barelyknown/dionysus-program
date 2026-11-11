@@ -14,3 +14,6 @@ yarn-debug.log*
 yarn-error.log*
 
 .tools/
+
+# Python audiobook tooling
+__pycache__/

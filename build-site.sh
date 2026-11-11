@@ -9,9 +9,11 @@ if [[ "${1:-}" == --preview && $# == 1 ]]; then
   mkdir -p "$SITE_OUT/dist"
   # Existing book downloads are available in the preview; only HTML is rebuilt.
   cp -R "$ROOT_DIR/dist/." "$SITE_OUT/dist/"
-  for asset in styles.css edition.css edition.js praise-rotator.js simulation.html pull-quotes.html archetypes.json; do
+  for asset in styles.css edition.css edition.js praise-rotator.js audiobook.css audiobook.js simulation.html pull-quotes.html archetypes.json; do
     cp "$ROOT_DIR/$asset" "$SITE_OUT/"
   done
+  mkdir -p "$SITE_OUT/assets"
+  cp -R "$ROOT_DIR/assets/audiobook" "$SITE_OUT/assets/"
 elif [[ $# != 0 ]]; then
   echo "Usage: ./build-site.sh [--preview]" >&2
   exit 1
@@ -61,6 +63,18 @@ BOOK_INPUTS=(
 )
 
 node "$ROOT_DIR/build-plan-of-attack.js" "$SITE_OUT"
+node "$ROOT_DIR/build-audiobook.js" "$SITE_OUT"
+
+# Keep the published book revision when this is an HTML-only change.
+# A changed manuscript must not inherit the prior edition's stamp.
+mkdir -p "$ROOT_DIR/.cache"
+SITE_METADATA_ARGS=()
+SITE_METADATA="$(mktemp "$ROOT_DIR/.cache/site-metadata.XXXXXX")"
+trap 'rm -f "$SITE_METADATA"' EXIT
+if [[ -f "$ROOT_DIR/dist/essay.md" ]] && cmp -s "$ESSAY_MD" <(sed -E '/^(source-revision|source-revision-short|published-at-utc|published-at-iso):/d' "$ROOT_DIR/dist/essay.md"); then
+  sed -n -E '/^(source-revision|source-revision-short|published-at-utc|published-at-iso):/p' "$ROOT_DIR/dist/essay.md" > "$SITE_METADATA"
+  if [[ -s "$SITE_METADATA" ]]; then SITE_METADATA_ARGS+=("--metadata-file=$SITE_METADATA"); fi
+fi
 
 pandoc "${BOOK_INPUTS[@]}" \
   --from=markdown \
@@ -70,6 +84,7 @@ pandoc "${BOOK_INPUTS[@]}" \
   --metadata-file="$PRAISE_META" \
   --metadata-file="$NOTES_TEASER_META" \
   --metadata=two-sided:true \
+  "${SITE_METADATA_ARGS[@]}" \
   --variable=side-a-cover:"$(cat "$DIST_DIR/side-a-cover.html")" \
   --variable=edition-bar:"$(cat "$DIST_DIR/side-a-bar.html")" \
   --to=html5 \

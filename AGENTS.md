@@ -47,6 +47,7 @@ Apply these author-calibrated preferences (2026-10-13) when drafting or editing 
 - Do not commit or push unless directed to do so.
 
 ## Skills
+- dionysus-audiobook: Generate, revise, review, master, package, and publish the audiobook website using Sean Devine’s newer ElevenLabs voice. (file: skills/dionysus-audiobook/SKILL.md)
 - dionysus-build: Build or rebuild the Dionysus Program site outputs (HTML/PDF/Markdown) using `./build.sh`. Use when asked to build, rebuild, regenerate outputs, update the PDF/HTML, or verify generated artifacts in this repo. (file: skills/dionysus-build/SKILL.md)
 - dionysus-dense-text: Build the LLM-compressed context text used by the site, and optionally the legacy dense plaintext artifact. Use when asked to rebuild `dist/dionysus-program-context.txt`, refresh the context download, or regenerate compressed plain-text context outputs. (file: skills/dionysus-dense-text/SKILL.md)
 - dionysus-publish: Publish The Dionysus Program from a committed source revision so the stamped SHA and UTC publish time match the source commit that produced the book artifacts. Use when asked to publish the site/book, cut a release build, or generate stamped artifacts from a clean commit. (file: skills/dionysus-publish/SKILL.md)
