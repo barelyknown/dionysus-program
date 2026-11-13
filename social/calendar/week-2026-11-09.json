@@ -332,20 +332,177 @@
       "weekday": "friday",
       "slot_type": "baseline",
       "status": "planned",
-      "content_type": "archetype_diagnosis",
-      "pillar": "Archetype Diagnosis",
-      "topic_thesis": "Severability and reversibility make criticism cheaper and therefore more honest.",
-      "seed_topic_thesis": "Severability and reversibility make criticism cheaper and therefore more honest.",
-      "idea_status": "pending",
-      "angle": "Make the pattern recognizable fast and show what drives it.",
-      "hook": "You can tell a team is drifting into theater when severability and reversibility make criticism cheaper and therefore more honest.",
+      "content_type": "extracted_insight",
+      "pillar": "Extracted Insights",
+      "topic_thesis": "Agent permissions should expire on the doctrine’s clock, because faithful execution becomes dangerous when the premises behind it have aged.",
+      "seed_topic_thesis": "Knowledge and myth solve different problems, and organizations fail when they confuse them.",
+      "idea_status": "developed",
+      "angle": "Introduce Doctrine Half-Life as the temporal control missing from most agent governance. Alignment and evaluations establish whether an agent may act now; doctrine validity determines how long that authority should survive before reauthorization.",
+      "hook": "Your agent passed every evaluation. Its authority may still be expired.",
       "source_bundle_id": null,
       "timely_subject": null,
       "draft_ref": null,
       "winner_id": null,
       "risk_level": "low",
       "freshness_deadline": null,
-      "publish_payload": null
+      "publish_payload": null,
+      "novel_idea": {
+        "pass": true,
+        "topic_thesis": "Agent permissions should expire on the doctrine’s clock, because faithful execution becomes dangerous when the premises behind it have aged.",
+        "angle": "Introduce Doctrine Half-Life as the temporal control missing from most agent governance. Alignment and evaluations establish whether an agent may act now; doctrine validity determines how long that authority should survive before reauthorization.",
+        "hook": "Your agent passed every evaluation. Its authority may still be expired.",
+        "argument_summary": "Agent evaluations and context checks are snapshots, but doctrine decays as customers, regulations, strategy, and operating reality change. An agent can remain perfectly aligned with its instructions while those instructions become false, producing coherent wrongness at machine speed. Permissions affecting customers, money, production systems, or irreversible commitments should therefore be tied to a specific doctrine version and time-bounded by its expected half-life. Continued authority should require fresh reality feedback and doctrine revalidation. This is distinct from checking alignment before granting more autonomy: it governs how already-granted autonomy decays over time.",
+        "novelty_score": 9.2,
+        "closest_post_id": "019ff648-1a52-a05b-2c6a-0622be944bdc",
+        "novelty_rationale": "The closest post argues that humans and machines should pass a Context Checksum before permissions expand. This argument addresses a different failure mechanism and operator decision: even a correctly aligned agent can become unsafe after deployment because the doctrine itself ages. The substantive addition is temporal permission decay—authority must be revalidated or expire as its governing premises approach their half-life, even when outputs remain accurate and no permission increase is requested.",
+        "source_grounding": "The source defines Doctrine Half-Life as how long doctrine remains valid, current, and understood before drift or world change makes it stale. It states that agents require current, versioned doctrine, bounded permissions, evaluations, stop conditions, escalation triggers, and reality feedback; it also asks who is accountable when doctrine ages but an agent keeps acting. The source’s discussions of Coherent Wrongness and the good-regulator principle establish the causal risk: a false model can be executed faithfully and confidently, turning regulation itself into a source of error.",
+        "gate_version": 2,
+        "model": "gpt-5.6-sol",
+        "history_count": 98,
+        "history_fingerprint": "d02c4080f9fb0855ba21cc5bab0fcb7e0dd48b4b0a813562c532f840f8d18e20",
+        "developed_at": "2026-11-13T06:52:06.169Z"
+      },
+      "preparation": {
+        "status": "ready",
+        "prepared_at": "2026-11-13T06:53:36.168Z",
+        "history_fingerprint": "d02c4080f9fb0855ba21cc5bab0fcb7e0dd48b4b0a813562c532f840f8d18e20",
+        "attempts": [
+          {
+            "content_type": "archetype_diagnosis",
+            "seed_topic_thesis": "Severability and reversibility make criticism cheaper and therefore more honest.",
+            "status": "skipped",
+            "reason": "package_gate_failed",
+            "error": null,
+            "details": null
+          },
+          {
+            "content_type": "extracted_insight",
+            "seed_topic_thesis": "Run Time and Ritual Time require different forms of accountability.",
+            "status": "skipped",
+            "reason": "no_passing_candidate",
+            "error": null,
+            "details": null
+          },
+          {
+            "content_type": "extracted_insight",
+            "seed_topic_thesis": "Knowledge and myth solve different problems, and organizations fail when they confuse them.",
+            "status": "prepared",
+            "reason": null,
+            "error": null,
+            "details": null
+          }
+        ],
+        "package": {
+          "version": 1,
+          "prepared_at": "2026-11-13T06:53:36.168Z",
+          "history_fingerprint": "d02c4080f9fb0855ba21cc5bab0fcb7e0dd48b4b0a813562c532f840f8d18e20",
+          "payload": {
+            "item_id": "c3f734135e74",
+            "scheduled_at": "2026-11-13T13:30:00.000Z",
+            "content_type": "extracted_insight",
+            "pillar": "Extracted Insights",
+            "topic_thesis": "Agent permissions should expire on the doctrine’s clock, because faithful execution becomes dangerous when the premises behind it have aged.",
+            "angle": "Introduce Doctrine Half-Life as the temporal control missing from most agent governance. Alignment and evaluations establish whether an agent may act now; doctrine validity determines how long that authority should survive before reauthorization.",
+            "hook": "The most dangerous agent may be the one doing exactly what it was told.",
+            "body_text": "The most dangerous agent may be the one doing exactly what it was told.\n\nAlignment and evaluations establish whether an agent may act now. They do not establish how long that authority should survive.\n\nThat requires Doctrine Half-Life: how long doctrine remains valid, current, and understood before drift or world-change makes it stale.\n\nA customer-facing agent can pass every evaluation, follow every permission, and still issue the wrong credits because the policy beneath those controls aged. Its execution is faithful. Its premises are dead.\n\nAgent permissions should expire on the doctrine’s clock. When the doctrine reaches its half-life, authority ends until the system is reauthorized against the current map.",
+            "footer_text": "Knowledge explains the world. Myth explains you. The Dionysus Program is about maintaining both layers while everything accelerates. It is free at dionysusprogram.com.",
+            "footer_index": 18,
+            "footer_divider": "---",
+            "final_text": "The most dangerous agent may be the one doing exactly what it was told.\n\nAlignment and evaluations establish whether an agent may act now. They do not establish how long that authority should survive.\n\nThat requires Doctrine Half-Life: how long doctrine remains valid, current, and understood before drift or world-change makes it stale.\n\nA customer-facing agent can pass every evaluation, follow every permission, and still issue the wrong credits because the policy beneath those controls aged. Its execution is faithful. Its premises are dead.\n\nAgent permissions should expire on the doctrine’s clock. When the doctrine reaches its half-life, authority ends until the system is reauthorized against the current map.\n\n---\n\nKnowledge explains the world. Myth explains you. The Dionysus Program is about maintaining both layers while everything accelerates. It is free at dionysusprogram.com.",
+            "winning_candidate_id": "6922b788d081",
+            "winning_score": 8.8,
+            "source_refs": [],
+            "research_bundle_id": null,
+            "timely_subject": null
+          },
+          "prepared_note": {
+            "body": "The most dangerous agent may be the one doing exactly what it was told.\n\nAlignment and evaluations establish whether an agent may act now. They do not establish how long that authority should survive.\n\nThat requires Doctrine Half-Life: how long doctrine remains valid, current, and understood before drift or world-change makes it stale.\n\nA customer-facing agent can pass every evaluation, follow every permission, and still issue the wrong credits because the policy beneath those controls aged. Its execution is faithful. Its premises are dead.\n\nAgent permissions should expire on the doctrine’s clock. When the doctrine reaches its half-life, authority ends until the system is reauthorized against the current map.",
+            "sourceMode": "canonical_package"
+          },
+          "x_preflight": {
+            "status": "dry_run",
+            "reason": null,
+            "payload": {
+              "source_channel": "linkedin",
+              "source_final_text_hash": "5ece85f4f320a9968ad640b25f80f4cc493fb688c580d49d2167ddb2345fd14c",
+              "source_winning_candidate_id": "6922b788d081",
+              "text": "We rotate passwords more reliably than we rotate an agent’s mandate.\n\nThat is backwards. A leaked credential may permit the wrong actor to act. Stale doctrine permits the approved actor to keep making the wrong decision—with full institutional backing.",
+              "winning_candidate_id": "686d74875924",
+              "winning_score": 8.7
+            },
+            "winnerCandidate": {
+              "id": "686d74875924",
+              "writer_model": "gpt-5.6-sol",
+              "prompt_variant": "surprising_contrast",
+              "post_text": "We rotate passwords more reliably than we rotate an agent’s mandate.\n\nThat is backwards. A leaked credential may permit the wrong actor to act. Stale doctrine permits the approved actor to keep making the wrong decision—with full institutional backing.",
+              "self_notes": "Builds tension through a security-governance contrast."
+            },
+            "winnerScore": {
+              "id": "64051693fc58",
+              "candidate_id": "686d74875924",
+              "clarity_score": 9,
+              "compression_score": 8.7,
+              "diagnostic_score": 8.8,
+              "anti_cheese_score": 8.6,
+              "x_fit_score": 8.8,
+              "novelty_score": 8.9,
+              "engagement_score": 8.5,
+              "overall_score": 8.7,
+              "pass": true,
+              "pass_fail_reasons": [
+                "The password-rotation comparison is concrete, fresh, and immediately legible.",
+                "The wrong-actor versus approved-actor contrast earns the tension and lands cleanly without turning into generic advice."
+              ]
+            }
+          },
+          "winner_candidate": {
+            "id": "6922b788d081",
+            "writer_model": "gpt-5.6-sol",
+            "prompt_variant": "hook_forward",
+            "post_text": "The most dangerous agent may be the one doing exactly what it was told.\n\nAlignment and evaluations establish whether an agent may act now. They do not establish how long that authority should survive.\n\nThat requires Doctrine Half-Life: how long doctrine remains valid, current, and understood before drift or world-change makes it stale.\n\nA customer-facing agent can pass every evaluation, follow every permission, and still issue the wrong credits because the policy beneath those controls aged. Its execution is faithful. Its premises are dead.\n\nAgent permissions should expire on the doctrine’s clock. When the doctrine reaches its half-life, authority ends until the system is reauthorized against the current map.",
+            "self_notes": "Live candidate in hook_forward mode."
+          },
+          "winner_score": {
+            "id": "269b48b297c6",
+            "candidate_id": "6922b788d081",
+            "voice_score": 8.8,
+            "novelty_score": 8.2,
+            "engagement_score": 8.5,
+            "clarity_score": 9.2,
+            "risk_score": 9.4,
+            "citation_score": 9.1,
+            "linkedin_native_score": 9,
+            "overall_score": 8.8,
+            "pass": true,
+            "pass_fail_reasons": [
+              "Strong substantive opener creates immediate tension without clickbait.",
+              "Introduces Doctrine Half-Life clearly and stays on one core claim.",
+              "Concrete customer-credit example makes the danger legible without padding.",
+              "Sharp, operational ending directly follows from the thesis.",
+              "Distinct from recent posts about alignment and coherent wrongness because it adds permission expiry and temporal reauthorization.",
+              "Minor weakness: the 'most dangerous agent' opener pattern resembles a previously published hook."
+            ]
+          },
+          "package_gate": {
+            "pass": true,
+            "attempted_candidates": 1,
+            "note_linkedin_novelty_score": 8.2,
+            "note_linkedin_engagement_score": 8.5,
+            "x_status": "dry_run",
+            "x_novelty_score": 8.9,
+            "x_engagement_score": 8.5
+          },
+          "selection_reason": "memory_safe_top_choice",
+          "research_bundle": null
+        }
+      },
+      "fallback": {
+        "attempt": 2,
+        "selected_at": "2026-11-13T06:49:29.665Z",
+        "from_content_type": "archetype_diagnosis",
+        "from_seed_topic_thesis": "Severability and reversibility make criticism cheaper and therefore more honest."
+      },
+      "skip_reason": null
     }
   ]
 }
