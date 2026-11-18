@@ -392,18 +392,152 @@
       "status": "planned",
       "content_type": "extracted_insight",
       "pillar": "Extracted Insights",
-      "topic_thesis": "Run Time and Ritual Time require different forms of accountability.",
+      "topic_thesis": "Autonomous permissions should expire with the doctrine that justified them; otherwise agents will keep executing stale assumptions after the organization’s map has changed.",
       "seed_topic_thesis": "Run Time and Ritual Time require different forms of accountability.",
-      "idea_status": "pending",
-      "angle": "Name the concept, explain it plainly, and show why it matters now.",
-      "hook": "The mistake leaders keep making is thinking run time and ritual time require different forms of accountability.",
+      "idea_status": "developed",
+      "angle": "Shift permissioning from a one-time capability decision to a time-bound governance decision tied to doctrine freshness. An agent can remain perfectly aligned with its instructions while becoming increasingly dangerous because those instructions have aged.",
+      "hook": "Most companies put expiration dates on credentials, but not on the assumptions those credentials authorize.",
       "source_bundle_id": null,
       "timely_subject": null,
       "draft_ref": null,
       "winner_id": null,
       "risk_level": "low",
       "freshness_deadline": null,
-      "publish_payload": null
+      "publish_payload": null,
+      "preparation": {
+        "status": "ready",
+        "prepared_at": "2026-11-18T07:35:05.158Z",
+        "history_fingerprint": "d02c4080f9fb0855ba21cc5bab0fcb7e0dd48b4b0a813562c532f840f8d18e20",
+        "attempts": [
+          {
+            "content_type": "extracted_insight",
+            "seed_topic_thesis": "Run Time and Ritual Time require different forms of accountability.",
+            "status": "prepared",
+            "reason": null,
+            "error": null,
+            "details": null
+          }
+        ],
+        "package": {
+          "version": 1,
+          "prepared_at": "2026-11-18T07:35:05.158Z",
+          "history_fingerprint": "d02c4080f9fb0855ba21cc5bab0fcb7e0dd48b4b0a813562c532f840f8d18e20",
+          "payload": {
+            "item_id": "d3d0db755c2d",
+            "scheduled_at": "2026-11-18T13:30:00.000Z",
+            "content_type": "extracted_insight",
+            "pillar": "Extracted Insights",
+            "topic_thesis": "Autonomous permissions should expire with the doctrine that justified them; otherwise agents will keep executing stale assumptions after the organization’s map has changed.",
+            "angle": "Shift permissioning from a one-time capability decision to a time-bound governance decision tied to doctrine freshness. An agent can remain perfectly aligned with its instructions while becoming increasingly dangerous because those instructions have aged.",
+            "hook": "The most dangerous agent may be the one doing exactly what it was told.",
+            "body_text": "The most dangerous agent may be the one doing exactly what it was told.\n\nDoctrine has a half-life: the period before world-change or organizational drift makes it stale. An agent can remain perfectly aligned with its instructions while the assumptions beneath those instructions quietly expire.\n\nImagine a customer-facing agent authorized to make commitments under last quarter’s diagnosis. The strategy changes. The workflow does not. Nothing “breaks.” It keeps executing the old map with speed and precision.\n\nThat makes permissioning a time-bound governance decision, not a one-time capability decision. Autonomy should be tied to a doctrine version, an update owner, and a revalidation date.\n\nWhen doctrine expires, permission should expire with it.",
+            "footer_text": "The Dionysus Program argues that the real scoreboard is epimetabolic rate: how fast you turn error into better structure without burning people. The book is free. dionysusprogram.com",
+            "footer_index": 8,
+            "footer_divider": "---",
+            "final_text": "The most dangerous agent may be the one doing exactly what it was told.\n\nDoctrine has a half-life: the period before world-change or organizational drift makes it stale. An agent can remain perfectly aligned with its instructions while the assumptions beneath those instructions quietly expire.\n\nImagine a customer-facing agent authorized to make commitments under last quarter’s diagnosis. The strategy changes. The workflow does not. Nothing “breaks.” It keeps executing the old map with speed and precision.\n\nThat makes permissioning a time-bound governance decision, not a one-time capability decision. Autonomy should be tied to a doctrine version, an update owner, and a revalidation date.\n\nWhen doctrine expires, permission should expire with it.\n\n---\n\nThe Dionysus Program argues that the real scoreboard is epimetabolic rate: how fast you turn error into better structure without burning people. The book is free. dionysusprogram.com",
+            "winning_candidate_id": "5ed0f0023d88",
+            "winning_score": 9,
+            "source_refs": [],
+            "research_bundle_id": null,
+            "timely_subject": null
+          },
+          "prepared_note": {
+            "body": "The most dangerous agent may be the one doing exactly what it was told.\n\nDoctrine has a half-life: the period before world-change or organizational drift makes it stale. An agent can remain perfectly aligned with its instructions while the assumptions beneath those instructions quietly expire.\n\nImagine a customer-facing agent authorized to make commitments under last quarter’s diagnosis. The strategy changes. The workflow does not. Nothing “breaks.” It keeps executing the old map with speed and precision.\n\nThat makes permissioning a time-bound governance decision, not a one-time capability decision. Autonomy should be tied to a doctrine version, an update owner, and a revalidation date.\n\nWhen doctrine expires, permission should expire with it.",
+            "sourceMode": "canonical_package"
+          },
+          "x_preflight": {
+            "status": "dry_run",
+            "reason": null,
+            "payload": {
+              "source_channel": "linkedin",
+              "source_final_text_hash": "c72d7a2606a861d5f427783298f2884eac4834c3177d9b43dbf266e2d272e3b1",
+              "source_winning_candidate_id": "5ed0f0023d88",
+              "text": "We rotate credentials when secrets may be compromised. We leave agent authority untouched when its governing strategy changes.\n\nA leaked key looks dangerous. A valid key attached to expired judgment can keep acting for months without raising an alert.",
+              "winning_candidate_id": "160f64180b63",
+              "winning_score": 8.9
+            },
+            "winnerCandidate": {
+              "id": "160f64180b63",
+              "writer_model": "gpt-5.6-sol",
+              "prompt_variant": "surprising_contrast",
+              "post_text": "We rotate credentials when secrets may be compromised. We leave agent authority untouched when its governing strategy changes.\n\nA leaked key looks dangerous. A valid key attached to expired judgment can keep acting for months without raising an alert.",
+              "self_notes": "Contrasts mature credential hygiene with neglected authority hygiene."
+            },
+            "winnerScore": {
+              "id": "8e87a093079a",
+              "candidate_id": "160f64180b63",
+              "clarity_score": 9.2,
+              "compression_score": 9,
+              "diagnostic_score": 9.3,
+              "anti_cheese_score": 8.9,
+              "x_fit_score": 9.1,
+              "novelty_score": 9,
+              "engagement_score": 8.5,
+              "overall_score": 8.9,
+              "pass": true,
+              "pass_fail_reasons": [
+                "The contrast with credential rotation is fresh, concrete, and immediately legible.",
+                "“A valid key attached to expired judgment” lands cleanly without turning into generic advice."
+              ]
+            }
+          },
+          "winner_candidate": {
+            "id": "5ed0f0023d88",
+            "writer_model": "gpt-5.6-sol",
+            "prompt_variant": "hook_forward",
+            "post_text": "The most dangerous agent may be the one doing exactly what it was told.\n\nDoctrine has a half-life: the period before world-change or organizational drift makes it stale. An agent can remain perfectly aligned with its instructions while the assumptions beneath those instructions quietly expire.\n\nImagine a customer-facing agent authorized to make commitments under last quarter’s diagnosis. The strategy changes. The workflow does not. Nothing “breaks.” It keeps executing the old map with speed and precision.\n\nThat makes permissioning a time-bound governance decision, not a one-time capability decision. Autonomy should be tied to a doctrine version, an update owner, and a revalidation date.\n\nWhen doctrine expires, permission should expire with it.",
+            "self_notes": "Live candidate in hook_forward mode."
+          },
+          "winner_score": {
+            "id": "f60a8cbcd8fa",
+            "candidate_id": "5ed0f0023d88",
+            "voice_score": 9.2,
+            "novelty_score": 8.2,
+            "engagement_score": 9,
+            "clarity_score": 9.4,
+            "risk_score": 9.5,
+            "citation_score": 9.1,
+            "linkedin_native_score": 9.3,
+            "overall_score": 9,
+            "pass": true,
+            "pass_fail_reasons": [
+              "Sharp opener creates immediate tension without clickbait.",
+              "Concrete customer-facing example makes the governance failure legible.",
+              "Explains one concept cleanly and ends with a strong, actionable implication.",
+              "Closely related to recent posts about stale doctrine and permission gates, but adds a distinct lifecycle rule: permissions expire with doctrine.",
+              "Concise, source-grounded, and compliant with length and formatting policies."
+            ]
+          },
+          "package_gate": {
+            "pass": true,
+            "attempted_candidates": 1,
+            "note_linkedin_novelty_score": 8.2,
+            "note_linkedin_engagement_score": 9,
+            "x_status": "dry_run",
+            "x_novelty_score": 9,
+            "x_engagement_score": 8.5
+          },
+          "selection_reason": "memory_safe_top_choice",
+          "research_bundle": null
+        }
+      },
+      "novel_idea": {
+        "pass": true,
+        "topic_thesis": "Autonomous permissions should expire with the doctrine that justified them; otherwise agents will keep executing stale assumptions after the organization’s map has changed.",
+        "angle": "Shift permissioning from a one-time capability decision to a time-bound governance decision tied to doctrine freshness. An agent can remain perfectly aligned with its instructions while becoming increasingly dangerous because those instructions have aged.",
+        "hook": "Most companies put expiration dates on credentials, but not on the assumptions those credentials authorize.",
+        "argument_summary": "Doctrine converts current strategy into executable premises, but it has a half-life: markets move, contradictions accumulate, and yesterday’s tradeoffs become stale. Agents can continue following that doctrine faithfully without any obvious technical failure. If their permissions persist unchanged, organizational coherence amplifies obsolete judgment into customer promises, code changes, spending, or other real consequences. Therefore autonomous authority should be coupled to a specific doctrine version, owner, and update cadence, then renewed, reduced, or revoked when that doctrine ages. Initial alignment is insufficient; permission must remain conditional on the continuing validity of the map.",
+        "novelty_score": 9.1,
+        "closest_post_id": "019ff648-1a52-a05b-2c6a-0622be944bdc",
+        "novelty_rationale": "The closest prior post argues that broader permissions should not be granted until humans and machines pass the same Context Checksum. That governs the initial expansion of authority by testing shared context. This argument governs the persistence of authority over time: even a perfectly aligned agent can become unsafe without changing its behavior because the doctrine it follows has expired. The substantive delta is a temporal control mechanism and a different operator decision—tie permission renewal to doctrine half-life rather than treating alignment at deployment as durable.",
+        "source_grounding": "The source defines Doctrine Half-Life as how long doctrine remains valid, current, and understood before drift or world change makes it stale. It states that agents require current doctrine, canonical retrieval, permissions, evaluations, stop conditions, escalation triggers, and feedback into doctrine. The Readiness Gate explicitly asks who is accountable if doctrine ages while an agent keeps acting. The Minimum Viable Coherence Program also requires a doctrine version and owner, permission levels, update loops, deletion of stale prompts and automations, and escalation from reality feedback. Together these support making autonomous authority conditional on doctrine freshness.",
+        "gate_version": 2,
+        "model": "gpt-5.6-sol",
+        "history_count": 98,
+        "history_fingerprint": "d02c4080f9fb0855ba21cc5bab0fcb7e0dd48b4b0a813562c532f840f8d18e20",
+        "developed_at": "2026-11-18T07:33:22.330Z"
+      },
+      "skip_reason": null
     },
     {
       "id": "4fc517934bef",
