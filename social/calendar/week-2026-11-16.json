@@ -548,20 +548,170 @@
       "weekday": "friday",
       "slot_type": "baseline",
       "status": "planned",
-      "content_type": "ritual_recipe",
-      "pillar": "Ritual Recipes",
-      "topic_thesis": "The Weekly Crossing is a practical recurring ritual for metabolizing drift before it hardens.",
-      "seed_topic_thesis": "The Weekly Crossing is a practical recurring ritual for metabolizing drift before it hardens.",
-      "idea_status": "pending",
-      "angle": "Start with a recurring problem and end with a usable move.",
-      "hook": "If your team keeps repeating the same failure, stop adding process. the weekly crossing is a practical recurring ritual for metabolizing drift before it hardens.",
+      "content_type": "extracted_insight",
+      "pillar": "Extracted Insights",
+      "topic_thesis": "An autonomous agent’s permission ceiling should be set by the half-life of the doctrine it executes: if doctrine expires faster than the organization can update it, autonomy must fall.",
+      "seed_topic_thesis": "Run Time and Ritual Time require different forms of accountability.",
+      "idea_status": "developed",
+      "angle": "Introduce doctrine half-life as a missing variable in AI permissioning. Treat high-stakes autonomy as contingent on doctrine freshness, not as a permanent reward for passing evaluations once.",
+      "hook": "An agent can become dangerous without changing a line of code. Its doctrine just has to age.",
       "source_bundle_id": null,
       "timely_subject": null,
       "draft_ref": null,
       "winner_id": null,
       "risk_level": "low",
       "freshness_deadline": null,
-      "publish_payload": null
+      "publish_payload": null,
+      "novel_idea": {
+        "pass": true,
+        "topic_thesis": "An autonomous agent’s permission ceiling should be set by the half-life of the doctrine it executes: if doctrine expires faster than the organization can update it, autonomy must fall.",
+        "angle": "Introduce doctrine half-life as a missing variable in AI permissioning. Treat high-stakes autonomy as contingent on doctrine freshness, not as a permanent reward for passing evaluations once.",
+        "hook": "An agent can become dangerous without changing a line of code. Its doctrine just has to age.",
+        "argument_summary": "Task evaluations and context checks can establish that an agent faithfully understands current doctrine, but they cannot keep that doctrine true as conditions change. An agent may therefore pass every evaluation while executing an increasingly stale premise with perfect consistency—the mechanism of coherent wrongness. Permissioning should account for this temporal risk: the shorter the doctrine’s half-life relative to the organization’s update cycle, the lower the agent’s blast radius should be. High-stakes autonomy requires a named doctrine owner, an update cadence, stop conditions, and a feedback path capable of revising the map. If those controls cannot keep pace with doctrine decay, permissions should be reduced even when agent performance remains locally strong.",
+        "novelty_score": 9,
+        "closest_post_id": "019ff648-1a52-a05b-2c6a-0622be944bdc",
+        "novelty_rationale": "The closest post argues that humans and machines must pass the same Context Checksum before permissions expand. This argument addresses a different failure mechanism: temporal decay after alignment has already been established. A checksum tests whether the agent and organization share a strategy at one moment; doctrine half-life tests whether that shared strategy remains valid long enough to justify continued autonomy. The new operator decision is to tie permission levels to doctrine freshness and update speed, not merely contextual agreement or task accuracy.",
+        "source_grounding": "The source defines doctrine half-life as how long doctrine remains valid, current, and understood before drift or world change makes it stale. It states that bounded agents require current doctrine, permissions, evaluations, stop conditions, escalation triggers, blast-radius limits, and feedback into doctrine; it also asks who remains accountable when doctrine ages but an agent keeps acting. The Coherence Ceiling and Auteurs, Agents, Actors sections establish that faithful execution of a false map produces coherent wrongness, while the Minimum Viable Coherence Program makes permission levels conditional on doctrine, evaluations, and Actor feedback maturity.",
+        "gate_version": 2,
+        "model": "gpt-5.6-sol",
+        "history_count": 98,
+        "history_fingerprint": "d02c4080f9fb0855ba21cc5bab0fcb7e0dd48b4b0a813562c532f840f8d18e20",
+        "developed_at": "2026-11-20T07:21:52.476Z"
+      },
+      "preparation": {
+        "status": "ready",
+        "prepared_at": "2026-11-20T07:23:13.654Z",
+        "history_fingerprint": "d02c4080f9fb0855ba21cc5bab0fcb7e0dd48b4b0a813562c532f840f8d18e20",
+        "attempts": [
+          {
+            "content_type": "ritual_recipe",
+            "seed_topic_thesis": "The Weekly Crossing is a practical recurring ritual for metabolizing drift before it hardens.",
+            "status": "skipped",
+            "reason": "no_passing_candidate",
+            "error": null,
+            "details": null
+          },
+          {
+            "content_type": "extracted_insight",
+            "seed_topic_thesis": "Run Time and Ritual Time require different forms of accountability.",
+            "status": "prepared",
+            "reason": null,
+            "error": null,
+            "details": null
+          }
+        ],
+        "package": {
+          "version": 1,
+          "prepared_at": "2026-11-20T07:23:13.654Z",
+          "history_fingerprint": "d02c4080f9fb0855ba21cc5bab0fcb7e0dd48b4b0a813562c532f840f8d18e20",
+          "payload": {
+            "item_id": "4fc517934bef",
+            "scheduled_at": "2026-11-20T13:30:00.000Z",
+            "content_type": "extracted_insight",
+            "pillar": "Extracted Insights",
+            "topic_thesis": "An autonomous agent’s permission ceiling should be set by the half-life of the doctrine it executes: if doctrine expires faster than the organization can update it, autonomy must fall.",
+            "angle": "Introduce doctrine half-life as a missing variable in AI permissioning. Treat high-stakes autonomy as contingent on doctrine freshness, not as a permanent reward for passing evaluations once.",
+            "hook": "An agent can pass every evaluation and still be unfit for autonomy a week later.",
+            "body_text": "An agent can pass every evaluation and still be unfit for autonomy a week later.\n\nThe missing variable is Doctrine Half-Life: how long doctrine remains valid, current, and understood before the world changes or the organization drifts.\n\nAn evaluation proves the agent can execute today’s map. It does not prove the map will remain true. A customer-facing agent may follow refund policy perfectly after pricing, risk tolerance, or contractual obligations have changed. That is coherent execution of stale doctrine—and it can create commitments at machine speed.\n\nSo permissions should not rise permanently because an agent passed once. The shorter the Doctrine Half-Life, the tighter the blast radius, the faster the review cadence, and the lower the autonomy ceiling.\n\nHigh-stakes autonomy is not a credential. It is a lease, renewed only while the doctrine stays fresh.",
+            "footer_text": "The Dionysus Program is a free book about what happens when knowledge moves faster than identity. It is not theory. It is survival equipment. dionysusprogram.com",
+            "footer_index": 13,
+            "footer_divider": "---",
+            "final_text": "An agent can pass every evaluation and still be unfit for autonomy a week later.\n\nThe missing variable is Doctrine Half-Life: how long doctrine remains valid, current, and understood before the world changes or the organization drifts.\n\nAn evaluation proves the agent can execute today’s map. It does not prove the map will remain true. A customer-facing agent may follow refund policy perfectly after pricing, risk tolerance, or contractual obligations have changed. That is coherent execution of stale doctrine—and it can create commitments at machine speed.\n\nSo permissions should not rise permanently because an agent passed once. The shorter the Doctrine Half-Life, the tighter the blast radius, the faster the review cadence, and the lower the autonomy ceiling.\n\nHigh-stakes autonomy is not a credential. It is a lease, renewed only while the doctrine stays fresh.\n\n---\n\nThe Dionysus Program is a free book about what happens when knowledge moves faster than identity. It is not theory. It is survival equipment. dionysusprogram.com",
+            "winning_candidate_id": "6316914b392c",
+            "winning_score": 8.9,
+            "source_refs": [],
+            "research_bundle_id": null,
+            "timely_subject": null
+          },
+          "prepared_note": {
+            "body": "An agent can pass every evaluation and still be unfit for autonomy a week later.\n\nThe missing variable is Doctrine Half-Life: how long doctrine remains valid, current, and understood before the world changes or the organization drifts.\n\nAn evaluation proves the agent can execute today’s map. It does not prove the map will remain true. A customer-facing agent may follow refund policy perfectly after pricing, risk tolerance, or contractual obligations have changed. That is coherent execution of stale doctrine—and it can create commitments at machine speed.\n\nSo permissions should not rise permanently because an agent passed once. The shorter the Doctrine Half-Life, the tighter the blast radius, the faster the review cadence, and the lower the autonomy ceiling.\n\nHigh-stakes autonomy is not a credential. It is a lease, renewed only while the doctrine stays fresh.",
+            "sourceMode": "canonical_package"
+          },
+          "x_preflight": {
+            "status": "dry_run",
+            "reason": null,
+            "payload": {
+              "source_channel": "linkedin",
+              "source_final_text_hash": "75a5f9c987316386f7360c116b0fe94fd4406007edb9884b8037445e968760f5",
+              "source_winning_candidate_id": "6316914b392c",
+              "text": "The safest autonomous system may need the most frequent review.\n\nNot because the model is weak. Because pricing, contracts, and risk tolerance move faster than its doctrine. Review cadence should be set by organizational volatility, not benchmark confidence.",
+              "winning_candidate_id": "316be02ee308",
+              "winning_score": 8.4
+            },
+            "winnerCandidate": {
+              "id": "316be02ee308",
+              "writer_model": "gpt-5.6-sol",
+              "prompt_variant": "sharp_claim",
+              "post_text": "The safest autonomous system may need the most frequent review.\n\nNot because the model is weak. Because pricing, contracts, and risk tolerance move faster than its doctrine. Review cadence should be set by organizational volatility, not benchmark confidence.",
+              "self_notes": "Uses a counterintuitive claim to separate model quality from the rate of business change."
+            },
+            "winnerScore": {
+              "id": "df9ea7f0577f",
+              "candidate_id": "316be02ee308",
+              "clarity_score": 8.9,
+              "compression_score": 8.8,
+              "diagnostic_score": 8.8,
+              "anti_cheese_score": 8.3,
+              "x_fit_score": 8.8,
+              "novelty_score": 8.4,
+              "engagement_score": 7.7,
+              "overall_score": 8.4,
+              "pass": true,
+              "pass_fail_reasons": [
+                "Freshly locates review cadence in organizational volatility rather than model quality.",
+                "Compact and precise, though the opening has a mildly manufactured counterintuitive shape."
+              ]
+            }
+          },
+          "winner_candidate": {
+            "id": "6316914b392c",
+            "writer_model": "gpt-5.6-sol",
+            "prompt_variant": "diagnosis_forward",
+            "post_text": "An agent can pass every evaluation and still be unfit for autonomy a week later.\n\nThe missing variable is Doctrine Half-Life: how long doctrine remains valid, current, and understood before the world changes or the organization drifts.\n\nAn evaluation proves the agent can execute today’s map. It does not prove the map will remain true. A customer-facing agent may follow refund policy perfectly after pricing, risk tolerance, or contractual obligations have changed. That is coherent execution of stale doctrine—and it can create commitments at machine speed.\n\nSo permissions should not rise permanently because an agent passed once. The shorter the Doctrine Half-Life, the tighter the blast radius, the faster the review cadence, and the lower the autonomy ceiling.\n\nHigh-stakes autonomy is not a credential. It is a lease, renewed only while the doctrine stays fresh.",
+            "self_notes": "Live candidate in diagnosis_forward mode."
+          },
+          "winner_score": {
+            "id": "832bf2fc17df",
+            "candidate_id": "6316914b392c",
+            "voice_score": 9,
+            "novelty_score": 8.6,
+            "engagement_score": 8.8,
+            "clarity_score": 9.2,
+            "risk_score": 1.1,
+            "citation_score": 8.5,
+            "linkedin_native_score": 9.1,
+            "overall_score": 8.9,
+            "pass": true,
+            "pass_fail_reasons": [
+              "Strong substantive opener: evaluation success is separated from continuing fitness for autonomy.",
+              "Sustains attention with a concrete customer-facing consequence and the sharp distinction between executing the map and validating the map.",
+              "The lease metaphor gives the ending force without becoming clickbait or decorative rhetoric.",
+              "Adds a practical permissioning rule through blast radius, review cadence, and autonomy ceiling.",
+              "Meaningfully distinct from recent published ideas despite thematic adjacency to Context Checksum and Coherent Wrongness.",
+              "No links, hashtags, emojis, unsupported external claims, or length violations.",
+              "Minor weakness: the sequence of blast radius, cadence, and autonomy ceiling slightly broadens beyond the single core concept, but remains controlled."
+            ]
+          },
+          "package_gate": {
+            "pass": true,
+            "attempted_candidates": 1,
+            "note_linkedin_novelty_score": 8.6,
+            "note_linkedin_engagement_score": 8.8,
+            "x_status": "dry_run",
+            "x_novelty_score": 8.4,
+            "x_engagement_score": 7.7
+          },
+          "selection_reason": "memory_safe_top_choice",
+          "research_bundle": null
+        }
+      },
+      "fallback": {
+        "attempt": 1,
+        "selected_at": "2026-11-20T07:20:43.219Z",
+        "from_content_type": "ritual_recipe",
+        "from_seed_topic_thesis": "The Weekly Crossing is a practical recurring ritual for metabolizing drift before it hardens."
+      },
+      "skip_reason": null
     }
   ]
 }
