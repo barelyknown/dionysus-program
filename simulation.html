@@ -217,9 +217,11 @@ const DEFAULT_PARAMS = {
   lambda: 0.20,
   A: 10.0,
   Va: 1.2,
-  Coh0: 45.0,
+  K0: 45.0,
   Vr: 1.2,
-  F: 0.85,
+  specificationQuality: 0.85,
+  humanShare: 0.5,
+  priorUpdateCost: 0.2,
   H: 40.0
 };
 
@@ -236,6 +238,7 @@ function SliderControl({ label, symbol, value, min, max, step, desc, onChange })
     h('p', { className: 'sim-slider-desc' }, desc),
     h('input', {
       type: 'range',
+      'aria-label': label,
       min: min,
       max: max,
       step: step,
@@ -304,7 +307,7 @@ function EpimetabolicSimulation() {
     var S_threshold = 10.0; // Competitive threshold starts at initial S
     var R = inputs.R0;
     var C = 1.0;
-    var Coh = inputs.Coh0;
+    var baseCapacity = inputs.K0;
     var doctrineAge = 0;
     var inversionStreak = 0;
     var collapse = null;
@@ -330,9 +333,12 @@ function EpimetabolicSimulation() {
       var safeRegulation = Math.max(0.05, inputs.Vr);
       var safeHalfLife = Math.max(1, inputs.H);
       var doctrineFreshness = Math.pow(0.5, doctrineAge / safeHalfLife);
-      var doctrineFidelity = Math.max(0.05, inputs.F * (0.25 + 0.75 * doctrineFreshness));
+      var agentFidelity = inputs.specificationQuality * (0.25 + 0.75 * doctrineFreshness);
+      var assimilation = safeBeta / (safeBeta + mu * inputs.priorUpdateCost);
+      var actorFidelity = agentFidelity * assimilation;
+      var doctrineFidelity = (1 - inputs.humanShare) * agentFidelity + inputs.humanShare * actorFidelity;
       var agencyLoad = inputs.A * safeVariety;
-      var regulatedCoherence = Coh * Math.min(1, safeRegulation / safeVariety) * doctrineFidelity;
+      var regulatedCoherence = baseCapacity * Math.min(1, safeRegulation / safeVariety) * doctrineFidelity;
       var coherenceGap = Math.max(0, agencyLoad - regulatedCoherence);
       var coherentAgency = Math.min(agencyLoad, regulatedCoherence);
       var agencyGain = coherentAgency * 0.08;
@@ -352,7 +358,6 @@ function EpimetabolicSimulation() {
 
       var isReset = randomVals[t] < inputs.rho;
       var C_prev = C;
-      var Coh_prev = Coh;
 
       if (isReset) {
         C = 1.0;
@@ -363,7 +368,7 @@ function EpimetabolicSimulation() {
       }
 
       var doctrineRefresh = isReset ? (inputs.beta * safeRegulation) : 0;
-      Coh = Math.max(0, Math.min(100, Coh + (0.04 * G) + doctrineRefresh - (0.08 * IncoherenceTax)));
+      baseCapacity = Math.max(0, Math.min(100, baseCapacity + (0.04 * G) + doctrineRefresh - (0.08 * IncoherenceTax)));
 
       var agencyInverted = IncoherenceTax > agencyGain + (baseG * 0.2);
       if (agencyInverted) {
@@ -378,7 +383,9 @@ function EpimetabolicSimulation() {
         S_threshold: parseFloat(S_threshold.toFixed(2)),
         R: parseFloat(R.toFixed(2)),
         C: parseFloat(C_prev.toFixed(2)),
-        Coh: parseFloat(Coh_prev.toFixed(2)),
+        Coh: parseFloat(regulatedCoherence.toFixed(2)),
+        agentFidelity: agentFidelity,
+        actorFidelity: actorFidelity,
         I: parseFloat(IncoherenceTax.toFixed(2)),
         agencyLoad: parseFloat(agencyLoad.toFixed(2))
       });
@@ -409,7 +416,7 @@ function EpimetabolicSimulation() {
     });
   }
 
-  var lastData = simulationData[simulationData.length - 1] || { S: 0, R: 0, S_threshold: 10, Coh: 0, I: 0, agencyLoad: 0 };
+  var lastData = simulationData[simulationData.length - 1] || { S: 0, R: 0, S_threshold: 10, Coh: 0, I: 0, agencyLoad: 0, agentFidelity: 0, actorFidelity: 0 };
   var internalCollapse = collapseType === 'internal';
   var competitiveCollapse = collapseType === 'competitive';
   var agencyCollapse = collapseType === 'agency';
@@ -468,7 +475,7 @@ function EpimetabolicSimulation() {
             h(Line, { yAxisId: 'left', type: 'monotone', dataKey: 'S', name: 'Explanatory Reach (S)', stroke: '#41403b', strokeWidth: 2.5, dot: false, activeDot: { r: 5, fill: '#41403b', stroke: '#fff', strokeWidth: 2 }, isAnimationActive: true, animationDuration: 1000 }),
             h(Line, { yAxisId: 'left', type: 'monotone', dataKey: 'S_threshold', name: 'Competitive Threshold (S̄)', stroke: '#dc2626', strokeWidth: 1.5, strokeDasharray: '2 2', dot: false, activeDot: { r: 4, fill: '#dc2626', stroke: '#fff', strokeWidth: 2 }, isAnimationActive: true, animationDuration: 1000 }),
             h(Line, { yAxisId: 'left', type: 'monotone', dataKey: 'R', name: 'Ren (Trust)', stroke: '#b45309', strokeWidth: 2, strokeDasharray: '4 4', dot: false, activeDot: { r: 5, fill: '#b45309', stroke: '#fff', strokeWidth: 2 }, isAnimationActive: true, animationDuration: 1000 }),
-            h(Line, { yAxisId: 'left', type: 'monotone', dataKey: 'Coh', name: 'Coherence Capacity (Coh)', stroke: '#047857', strokeWidth: 2, dot: false, activeDot: { r: 5, fill: '#047857', stroke: '#fff', strokeWidth: 2 }, isAnimationActive: true, animationDuration: 1000 }),
+            h(Line, { yAxisId: 'left', type: 'monotone', dataKey: 'Coh', name: 'Effective Coherence Capacity (Coh)', stroke: '#047857', strokeWidth: 2, dot: false, activeDot: { r: 5, fill: '#047857', stroke: '#fff', strokeWidth: 2 }, isAnimationActive: true, animationDuration: 1000 }),
             h(Line, { yAxisId: 'right', type: 'stepAfter', dataKey: 'C', name: 'Stewardship (C)', stroke: '#d4d4d4', strokeWidth: 1.5, dot: false, isAnimationActive: false })
           )
         )
@@ -494,10 +501,13 @@ function EpimetabolicSimulation() {
         )
       ),
       h('div', { className: 'sim-metric sim-metric-coherence ' + (agencyCollapse ? 'collapsed' : '') },
-        h('h5', { className: 'sim-metric-title' }, 'Coherence (', h('em', null, 'Coh'), ')'),
+        h('h5', { className: 'sim-metric-title' }, 'Effective Coherence Capacity (', h('em', null, 'Coh'), ')'),
         h('div', { className: 'sim-metric-value' }, lastData.Coh.toFixed(1)),
         h('div', { className: 'sim-metric-status ' + (agencyCollapse ? 'danger' : 'ok') },
           agencyCollapse ? 'Agency inversion' : 'Load ' + lastData.agencyLoad.toFixed(1) + ', tax ' + lastData.I.toFixed(1)
+        ),
+        h('div', { className: 'sim-metric-hint' },
+          'Fidelity · Agent ' + (100 * lastData.agentFidelity).toFixed(0) + '% · Actor ' + (100 * lastData.actorFidelity).toFixed(0) + '%'
         )
       )
     ),
@@ -510,7 +520,7 @@ function EpimetabolicSimulation() {
         h(SliderControl, { label: 'Initial Ren (Trust)', symbol: 'R₀', value: inputs.R0, min: 10, max: 200, step: 10, desc: 'Starting social capital / trust.', onChange: function(v) { updateInput('R0', v); } }),
         h(SliderControl, { label: 'Li (Ritual)', symbol: 'L', value: inputs.L, min: 1, max: 20, step: 0.5, desc: 'Architectural capacity of the forms.', onChange: function(v) { updateInput('L', v); } }),
         h(SliderControl, { label: 'Rotation Rate', symbol: 'ρ', value: inputs.rho, min: 0, max: 1, step: 0.05, desc: 'Frequency of stewardship reset.', onChange: function(v) { updateInput('rho', v); } }),
-        h(SliderControl, { label: 'Beauty', symbol: 'β', value: inputs.beta, min: 0.1, max: 5, step: 0.1, desc: 'Thermal buffer and multiplier.', onChange: function(v) { updateInput('beta', v); } }),
+        h(SliderControl, { label: 'Beauty', symbol: 'β', value: inputs.beta, min: 0.1, max: 5, step: 0.1, desc: 'Form helps people face error and absorb a revised rule.', onChange: function(v) { updateInput('beta', v); } }),
         h(SliderControl, { label: 'Toxicity', symbol: 'τ', value: inputs.tau, min: 0.5, max: 5, step: 0.1, desc: 'Penalty for unprocessed error.', onChange: function(v) { updateInput('tau', v); } })
       ),
       h('div', { className: 'sim-controls-col' },
@@ -525,9 +535,11 @@ function EpimetabolicSimulation() {
         h('h4', { className: 'sim-section-title' }, 'Agency & Coherence'),
         h(SliderControl, { label: 'Deployed Agency', symbol: 'A', value: inputs.A, min: 0, max: 40, step: 1, desc: 'Action-capacity currently active.', onChange: function(v) { updateInput('A', v); } }),
         h(SliderControl, { label: 'Agency Variety', symbol: 'Vᵃ', value: inputs.Va, min: 0.2, max: 5, step: 0.1, desc: 'Range of possible actions.', onChange: function(v) { updateInput('Va', v); } }),
-        h(SliderControl, { label: 'Initial Coherence', symbol: 'Coh₀', value: inputs.Coh0, min: 5, max: 100, step: 5, desc: 'Capacity to preserve intent.', onChange: function(v) { updateInput('Coh0', v); } }),
+        h(SliderControl, { label: 'Initial Base Capacity', symbol: 'K₀', value: inputs.K0, min: 5, max: 100, step: 5, desc: 'Starting capacity before losses to variety and fidelity.', onChange: function(v) { updateInput('K0', v); } }),
         h(SliderControl, { label: 'Regulatory Variety', symbol: 'Vʳ', value: inputs.Vr, min: 0.2, max: 5, step: 0.1, desc: 'Doctrine, evals, permissions, feedback.', onChange: function(v) { updateInput('Vr', v); } }),
-        h(SliderControl, { label: 'Doctrine Fidelity', symbol: 'F', value: inputs.F, min: 0.1, max: 1, step: 0.05, desc: 'How faithfully action follows doctrine.', onChange: function(v) { updateInput('F', v); } }),
+        h(SliderControl, { label: 'Specification Quality', symbol: h('span', null, 'D', h('sub', null, 'func')), value: inputs.specificationQuality, min: 0.1, max: 1, step: 0.05, desc: 'How precisely the fresh specification conveys intent.', onChange: function(v) { updateInput('specificationQuality', v); } }),
+        h(SliderControl, { label: 'Human Judgment Share', symbol: 'ω', value: inputs.humanShare, min: 0.05, max: 1, step: 0.05, desc: 'Share of decisions that depend on human judgment.', onChange: function(v) { updateInput('humanShare', v); } }),
+        h(SliderControl, { label: 'Prior-Update Cost', symbol: 'θ', value: inputs.priorUpdateCost, min: 0, max: 1, step: 0.05, desc: 'Cost of changing a practiced response per unit of melt.', onChange: function(v) { updateInput('priorUpdateCost', v); } }),
         h(SliderControl, { label: 'Doctrine Half-Life', symbol: 'H', value: inputs.H, min: 5, max: 80, step: 1, desc: 'How long doctrine stays fresh.', onChange: function(v) { updateInput('H', v); } }),
         h('div', { className: 'sim-reroll' },
           h('button', { onClick: function() { setSeed(Date.now()); }, className: 'sim-reroll-btn' },
@@ -551,10 +563,13 @@ function EpimetabolicSimulation() {
             '—fall below it and you\'re outpaced. The gold dashed line is ',
             h('em', null, 'Ren / Trust (R)'),
             '. The green line is ',
-            h('em', null, 'Coherence Capacity (Coh)'),
+            h('em', null, 'Effective Coherence Capacity (Coh)'),
             '. The faint gray line tracks ',
             h('em', null, 'Stewardship (C)'),
             '.'
+          ),
+          h('p', null,
+            'To see the Agent–Actor prior split, hold specification quality fixed and lower Beauty while melt is positive. Compare the two fidelity readings. The green line shows how much agency the organization can carry after accounting for both.'
           ),
           h('p', null,
             h('strong', null, 'Failure modes:'),

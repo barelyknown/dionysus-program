@@ -284,6 +284,7 @@ agency load
 agency WIP limits
 agency-variety
 Agentic Autophagy
+Agent–Actor prior split
 Agentic Decoherence
 agentic error
 agentic workflows
@@ -299,6 +300,7 @@ Coherence Assay
 Coherence Audit
 Coherence Ceiling
 Coherence Gate
+Cold Doctrine
 coherence priesthood
 coherence without conformity
 coherent agency
@@ -309,14 +311,18 @@ decision memory
 deployed agency
 doctrine
 Doctrine Capture
+Doctrinal Coherence
 Doctrine Half-Life
 Doctrine Reconstitution
 doctrine packet
 doctrine rot
 doctrine-to-agent interface
+Dual-Rendering
 dominant scaling constraint
+Effective Coherence
 Eliyahu M. Goldratt
 factory electrification
+Form Check
 Galbraith
 Goldratt
 Herbert Simon

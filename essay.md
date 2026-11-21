@@ -381,7 +381,7 @@ Now the trade-off has flipped. The bottleneck is no longer epistemic—we know h
 
 **The core claim:** Error correction in organizations requires both rigorous criticism and conditions in which people can give and receive it honestly.
 
-The program combines public critique, falsification, and replication with attention to the people conducting the work and the rules protecting them. Its purpose is to turn error into greater explanatory reach without consuming the trust that makes truth-telling possible.
+The program combines public critique, falsification, and replication with attention to the people conducting the work and the rules protecting them. Its purpose is to turn error into greater explanatory reach without consuming the trust that makes truth-telling possible. That takes two kinds of work. People have to be able to look at the evidence that killed an explanation. Then they need a way to act on what replaces it.
 
 AGI expands the error surface in two directions. Epistemic error means the map is wrong. Agentic error means action is no longer faithful to the map. A model can be false; an agent can also execute a true model at the wrong boundary, under stale permissions, from a local optimization that betrays the whole. Ritual Time metabolizes epistemic error. Run Time prevents agentic error from compounding while the current map still holds.
 
@@ -410,6 +410,10 @@ To understand why, we need the distinction made by Confucius between *Li* (ritua
 * **Ren:** the current—the density of trust, benevolence, and shared history that flows between people.
 
 Doctrine is a form of Li. It can organize action, bound agents, and make strategy executable. It cannot, by itself, create Ren. A doctrine packet can tell a person or machine how to act; it cannot make the people living under that doctrine trust each other enough to revise it honestly when it fails.
+
+Beauty works on both sides of that revision. In Ritual Time, error comes in cold. Reading a failed project's first proposal aloud can bring back the good reasons people had for believing it would work. They can grieve what they hoped for and examine what went wrong without putting its author on trial. Call that *catabolic heat*. It helps a group take an old explanation apart.
+
+New knowledge comes in cold, too. You can understand the replacement rule perfectly on Friday and still reach for the old one on Monday. Think of cooking. Heat unfolds proteins before the food reaches the gut. A story told in the language of the work, or a phrase with a cadence you can recall under pressure, does some of the work of digestion in advance. This is *anabolic heat*. It begins in reconstitution and does its work in Run Time, when someone has to make the next call alone.
 
 The *Dionysus Program* provides the Li. It offers the structural containers to process conflict and change. It cannot provide the Ren. You must bring that with you.
 
@@ -763,6 +767,18 @@ Coherence is intent surviving the passage from vision into strategy, strategy in
 
 Coherence also requires obligations to have accepted owners. Shared doctrine can guide every action while leaving an obligation unattended. The organization must know who will ensure execution, observe consequences, and respond.
 
+### The Form and Function of Coherence
+
+Imagine a dispatch office that used to promise delivery as soon as a slot opened on the board. After sending a crew to wait for a truck that never came, dispatch changes the rule. A slot is an estimate. Dispatch can promise a time once the carrier accepts the load.
+
+On Monday the booking agent gets the revised specification. It can check for acceptance on the very next quote. It has no pride invested in last year's habit of finding a truck after promising one. The dispatcher who saved a hundred loads that way has earned some pride. At two in the morning a foreman calls. “I've got eight people to call in. Are you coming at six?” The dispatcher sees an open slot and says yes.
+
+The rule has *doctrinal coherence*. Its terms fit together, the tradeoff is explicit, and a reviewer can tell whether a given promise was allowed. *Effective coherence* is how much of that intent survives into decisions like the dispatcher's. Sound instructions that people can explain in a meeting but cannot draw on under pressure are **cold doctrine**. Machine execution can switch to Monday's rule across every account while the people handling exceptions still steer by the old one. That is the **Agent–Actor prior split**. The booking screen still says “estimated.” The foreman has called in the crew.
+
+When a change traveled one shift at a time, the incoming dispatcher heard the story of the stranded crew at handoff. Now a fleet can update between shifts. Give the dispatcher six words to carry back to the phone. “The carrier confirms. Then we promise.” They recall the crew and the one thing to check before answering the foreman.
+
+### The Limit on Useful Agency
+
 The **Coherence Ceiling** is the point at which added agency stops increasing useful throughput, because shared intent, context, trust, and correction can no longer keep pace with the actions being generated. Below it, agency becomes throughput; above it, agency becomes contradiction. Past the ceiling, every new agent is a faster way to be wrong. The organization produces more documents, variants, tickets, campaigns, dashboards, code, decisions, meetings, summaries, confident local answers—and outputs collide while other obligations go unattended. Each new channel creates fresh obligations to interpret, supervise, review, handle exceptions, delete, and repair trust. Activity increases while the organization becomes harder to direct. Call the sign flip *agency inversion*: the point beyond the ceiling where marginal agency becomes harmful.
 
 The rest of the controlled vocabulary is small:
@@ -845,6 +861,10 @@ The Auteur function generates, preserves, and revises the organization's source 
 
 The Auteur need not be one person. It may be a founder, executive group, creative lead, board, council, model, constitution, governance process, or some combination. Whatever the form, some part of the system must author the premises that make action meaningfully "ours."
 
+Why *Auteur*? A policy engineer could specify what the booking agent may promise and write the tests that catch it breaking the rule. The Auteur also owes something to the person answering the phone. A film director tells the crew, “Stay with the woman waiting for the call.” The camera operator lets her son walk out of frame. The editor holds on her face when the caller speaks. Two people making different decisions know whose scene it is.
+
+That is the craft of **dual-rendering**. Give one intent a specification a machine can execute and a form a person can carry into a situation the Auteur never saw.
+
 Auteurship gives the organization standards for accepting and rejecting work. Plausible output is not enough; the output must fit the organization’s purpose and taste. But the Auteur should not have to interpret every decision. If every significant action returns to the center, doctrine has not made independent action possible.
 
 ---
@@ -853,17 +873,7 @@ Auteurship gives the organization standards for accepting and rejecting work. Pl
 
 Doctrine is strategy made executable. A strategy says where the organization intends to go; doctrine says how distributed agency should act now, under the current diagnosis, with current tradeoffs, while reality stays uncertain. Strategy that agents cannot execute is not yet doctrine.
 
-A useful doctrine packet contains:
-
-* Current diagnosis and guiding policy.
-* Tradeoffs and anti-goals.
-* Responsibilities, decision rights, and handoffs.
-* Instructions, evals, and examples of good and bad judgment.
-* Stop and escalation rules.
-* Known contradictions.
-* Version history and update owner.
-
-Doctrine should be memorable enough to use and precise enough to execute. Examples should convey the Auteur’s judgment; permissions and stop conditions should make the boundaries clear.
+A useful doctrine packet gives both renderings together. Put the tradeoff beside the rule that enforces it. Include the case people will tell a new colleague when following the rule costs a sale. In the dispatch office, that might be the dispatcher who gave an honest estimate, lost the order, and had the boss's backing. An agent needs a test for an unconfirmed load. The next dispatcher needs to know what happened to the last person who told the truth about one. Appendix B gives the packet and interface requirements.
 
 Doctrine must establish which responsibilities need coverage and how Actors acquire, accept, transfer, and relinquish them. Actors need authority to intervene, capacity to follow through, and evidence of execution and consequences. Doctrine must name who ensures coverage and resolves gaps and conflicting claims. An inventory of existing workflows can miss obligations nobody has undertaken.
 
@@ -1205,7 +1215,7 @@ Before entering Act II, audit your readiness.
 
 1. **The Truth Test:** When was the last time a junior person contradicted a senior person without consequence? If the answer is "never," you are not ready for a Crossing.
 2. **The Mercy Test:** When a project failed, was the team protected or purged? If they were purged, you are not ready for a Tragic Postmortem.
-3. **The Naming Test:** Do you use language to reveal reality or obscure it? If you use euphemisms for pain, you are not ready for the Rite of Redress.
+3. **The Naming Test:** Do you use language to reveal reality or obscure it? Ask someone to name the loss in the words the group has chosen. If “a learning experience” is as close as anyone can come to “the crew waited two hours,” the language is sugarcoating the error. You are not ready for the Rite of Redress.
 4. **The Recovery Test:** Is this group merely afraid, or is it also depleted? If people are exhausted, overstimulated, or coming directly out of prolonged Run Time, you are not ready for a high-heat rite. Lower the heat first. Sleep, food, daylight, silence, ordinary kindness, and a temporary reduction in demands are not luxuries here; they are prerequisites.
 
 Add a Coherence Gate before deploying high-agency workflows. Do not ask only whether the team can tolerate truth. Ask whether the organization can preserve intent through action.
@@ -1334,11 +1344,9 @@ Ritual Time is not finished when the room reaches insight.
 
 Insight alone does not change operations. If the new recognition does not enter Run Time, the old structure will keep acting through old prompts, old dashboards, old incentives, old approval rules, old definitions of success, and old customer promises. The group will feel transformed and behave unchanged.
 
-After Ritual Time produces new knowledge, the organization must encode it into doctrine, agent instructions, evals, decision memory, permissions, workflows, and promises. What changed? Where does it live? Which agents need new context? Which workflows are now invalid? Which commitments must be revised? Which responsibilities change, and who accepts them? Who ensures coverage until handoffs are complete? Who owns the update?
+Reconstitution closes with four questions. What died? What survived? What is the new functional rule? Is the new truth warm enough to eat? The first two let people bury a premise with honor and name the commitment they still share. The third puts the change into instructions, permissions, promises, and the hands of people who accept responsibility for carrying it out.
 
-A lesson not encoded into doctrine is a future incoherence.
-
-Doctrine Reconstitution turns recognition into instructions, permissions, and commitments that people and agents can use in Run Time.
+The fourth is the **Form Check**. Before the group leaves Ritual Time, give an Actor a fresh case where the old reflex would have paid off. Let them answer in their own words, with the packet closed. Can they make the call, explain what they are giving up, and show where the rule would have them stop? If the old reflex still wins, rework the phrase, the story, or the practice and try another case. Appendix B gives the closing protocol.
 
 ### Retraining Order: The Anti-Scapegoat
 
@@ -1439,9 +1447,7 @@ Make that operational:
 
 At home: memorize a poem about a loss that taught you. Read it aloud before you begin a hard change. In class: set a “Gallery of Attempts” with student failures honored as stepping stones. In law: publish dissenting opinions as civic art, not just legal text.
 
-Beauty can help people acknowledge a loss before they are ready to explain it.
-
-Doctrine needs similar care in its expression. Clear examples, concise language, and a recognizable voice help people remember and use it. It must also remain precise enough to guide action.
+Carry one of these forms back into ordinary work. At shift change, have the outgoing dispatcher tell the incoming one about the promise they declined to make and why. Tomorrow the load and the names will change. The handoff is already part of the job. It gives a new rule some of the otherness the Durkheim Constraint requires. People encounter it in a practice they inherited and will pass on.
 
 ### The Fallow Interval
 
@@ -1552,6 +1558,8 @@ In a captured *Dionysus Program*, you see a “ritual team” or “culture offi
 The post-AGI variant is doctrine capture. The people who maintain doctrine, evals, agent permissions, and context gates can become a coherence priesthood. They can preserve control under the language of coherence, decide which contradictions count as valid, and frame dissent as misalignment. Stale doctrine protected by status becomes more dangerous than stale ritual because agents can reproduce it at scale.
 
 Doctrine capture has recognizable symptoms: agents are forced to reproduce leadership’s preferred account; Actor feedback is treated as noise; dissent is called incoherence; coherence is weaponized against reality-contact.
+
+A memorable phrase can be captured too. Watch what happens when an Actor brings a case the phrase gets wrong. Can they put the rule back on trial? If the steward answers by having them repeat the words, the rite now protects the wording from the people who know its cost.
 
 ### Symptoms of Ritual Oligarchy
 
@@ -2099,7 +2107,7 @@ A system with low public availability of Ritual Time may appear stable because m
 
 * $\rho$ — Rotation Rate: The frequency of stewardship turnover (probability of a reset per cycle).
 
-* $\beta_t$ — Beauty: The thermal buffer and amplifier at time $t$. High aesthetics allow the group to extract more meaning from loss. ($\beta_t \ge 0.1$)
+* $\beta_t$ — Beauty: the form that helps people face error in Ritual Time and act on what they learned in Run Time. It amplifies growth from metabolized loss, buffers the damage from theater, and helps human Actors absorb revised doctrine ($\beta_t \ge 0.1$).
 
 * $\tau_t$ — Tau: The toxicity penalty for unprocessed error at time $t$. Defaults to high ($\approx 1.5$).
 
@@ -2215,7 +2223,7 @@ AGI adds a second operating constraint to the model: agency load.
 
 * $A_t$ — Deployed Agency: the amount of action-capacity currently active across substrates.
 
-* $Coh_t$ — Coherence Capacity: the organization's capacity to preserve low-loss intent across distributed agency.
+* $Coh_t$ — Effective Coherence Capacity: the agency load the organization can carry this cycle, given its regulatory variety and fidelity to current doctrine.
 
 * $F_t$ — Doctrine Fidelity: how accurately local actors and agents act from current doctrine.
 
@@ -2227,9 +2235,27 @@ AGI adds a second operating constraint to the model: agency load.
 
 * $V^r_t$ — Regulatory Variety: the variety of doctrine, evals, permissions, feedback paths, rituals, and human judgment available to regulate action.
 
-The proposed relationship can be sketched as:
+Suppose a fresh specification has functional quality $D_{\text{func}}$ between zero and one. As the specification ages, the simulator discounts that quality by $0.25 + 0.75 \cdot 2^{-a_t/H_t}$, where $a_t$ counts cycles since refresh. Call the quality available this cycle $D_{\text{func},t}$. At refresh it returns to $D_{\text{func}}$.
 
-$$A_t \cdot V^a_t > Coh_t \Rightarrow \text{marginal agency turns negative}$$
+A machine Agent can act on the specification directly. A human Actor also has to displace old habits. Let $\theta$ be the cost of updating a prior per unit of melt. As melt rises, more of what the Actor knows has to change.
+
+$$F_t^{\text{agent}} = D_{\text{func},t}$$
+
+$$F_t^{\text{actor}} = D_{\text{func},t} \cdot \bigl(\beta_t / (\beta_t + \theta \mu_t)\bigr)$$
+
+Here $\mu_t$ includes both environmental and chosen melt. At zero melt the two fidelities coincide. Let $\omega$ be the share of decisions that depend on human judgment ($0 < \omega \le 1$). Weighting the two fidelities gives the fraction of intent that survives into action.
+
+$$F_t = (1-\omega) F_t^{\text{agent}} + \omega F_t^{\text{actor}}$$
+
+If $K_t$ is capacity before losses to limited regulatory variety and imperfect fidelity, the effective ceiling is
+
+$$Coh_t = K_t \cdot \min(1, V^r_t / V^a_t) \cdot F_t$$
+
+For example, take a fresh, perfectly specified rule, with half the decisions in human hands. Set total melt to five and the update cost to $0.2$. With cold form ($\beta_t = 0.2$), the Agent's fidelity is one and the Actor's is one-sixth. Together they carry about 58 percent of intent into action. Raise Beauty to four and the Actor's fidelity rises to four-fifths, bringing the combined share to 90 percent. The wording can raise the ceiling even when the machine instructions stay fixed. Whether the underlying rule is true remains a separate question.
+
+When agency load exceeds this ceiling, additional actions incur an incoherence tax. With enough excess load the tax can outweigh the gain from deploying more agency.
+
+$$A_t \cdot V^a_t > Coh_t \Rightarrow I_t > 0$$
 
 The Ashby-compatible version is:
 
@@ -2610,17 +2636,18 @@ You do not need a reorganization to begin. You need enough doctrine, responsibil
 
 ### I. Publish a Doctrine Packet
 
-Every team needs a short, current doctrine packet:
+Every team needs a short, current doctrine packet. For each major change, publish the specification and the human handle together:
 
 * Current diagnosis and guiding policy.
 * Tradeoffs and anti-goals.
 * Responsibilities, decision rights, and handoffs.
 * Instructions, evals, and examples of good and bad judgment.
+* A name for the tradeoff that an Actor can say in one breath. Pair it with a short story of an honorable miss, when someone followed the rule and took a real loss the organization was willing to bear.
 * Stop and escalation rules.
 * Known contradictions.
 * Version history and update owner.
 
-It should let people and agents act without returning every question to the center.
+Keep the wording short enough to survive paraphrase. An Actor should be able to explain the decision to an angry customer with the packet closed.
 
 Actors may claim work and arrange their own handoffs within these rules. Doctrine must name who ensures coverage, including obligations no current workflow addresses.
 
@@ -2635,6 +2662,7 @@ Every significant agentic workflow should answer:
 * What must it escalate?
 * What is its blast radius?
 * How is it evaluated?
+* Which case tests the tradeoff named in the Actor's handle? Give the agent the facts without the answer. Compare its action and escalation with the judgment the packet teaches.
 * How does feedback return?
 
 If those questions cannot be answered, the workflow is not bounded agency. It is private judgment with tooling attached.
@@ -2739,20 +2767,26 @@ When reality falsifies doctrine, do not merely patch the prompt.
 
 Run Ritual Time.
 
-The output should be:
+Close reconstitution by answering four questions:
 
-* What died?
-* What survived?
-* What changed?
-* What is now binding?
-* Where does it live in Run Time?
-* Which agents and workflows must be updated?
-* Which responsibilities change, and who accepts them?
-* Who ensures coverage until handoffs are complete?
+1. **What died?** Name the assumption and the evidence that falsified it. Acknowledge what made it reasonable yesterday. Protect the people who acted on it in good faith.
+2. **What survived?** Name the promise people can still count on from one another. What part of who we are did the old rule serve? How will we honor it now?
+3. **What is the new functional rule?** State the binding tradeoff. Name the update owner. Record the change in decision memory and revise the affected promises, permissions, evals, and agent interfaces. Retire invalid workflows. Name who accepts each changed responsibility and who covers it until the handoff is complete.
+4. **Is the new truth warm enough to eat?** Run the Form Check. Ask an Actor to use the handle on an unfamiliar case without consulting the packet. Check the same case against the agent specification. If the two yield different commitments, find out why. Revise the rendering that lost the intent and try a fresh case before closing Ritual Time.
 
 Ritual Time that does not update Run Time becomes theater. Run Time that cannot receive the update becomes drift.
 
 The minimum viable coherence program has one purpose: raise the span of coherence so more agency across substrates can act without ceasing to be one organization.
+
+\newpage
+
+### Decoder Ring
+
+**Cold Doctrine.** Sound instructions whose form gives people little to draw on when an old habit would settle a hard call.
+
+**Doctrinal Coherence vs. Effective Coherence.** Doctrinal coherence asks whether the strategy and its rules fit together on paper. Effective coherence asks how much of that intent survives into distributed decisions under pressure.
+
+**Dual-Rendering.** The Auteur's discipline of expressing one intent as testable instructions for machine Agents and as a memorable phrase, case, or practice for human Actors. Both renderings must preserve the same tradeoff.
 
 ---
 
