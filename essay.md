@@ -702,76 +702,60 @@ An organization scales until its agency exceeds its coherence. Past that point, 
 
 ## The Coherence Ceiling
 
-An organization can have more power to act than it can coordinate. To see why, separate agency from coherence.
+A company can end up with more power to act than it can hold together. That sounds backward if you spent your career scrambling for enough good people to get the work done, so it helps to separate two things that used to travel together: agency and coherence.
 
-Epistemic melt is about whether your map is true. Agentic abundance is about whether action stays faithful to the map and whether someone owns the results. A coherent organization can still be wrong; a smart organization can still pull itself in six directions at once. AGI increases both risks.
+Epistemic melt asks whether your picture of the world is still right. Agentic abundance asks whether daily action still matches that picture, and whether anyone owns what happens next. A tight, aligned company can still march off a cliff; a smart company can still pull itself in six directions at once. AI raises both risks at the same time.
 
-**Agency:** the capacity to perceive, choose, act, and create commitments in the world.
+**Agency** is the power to make something happen in the real world. It is different from output. Output is a slide deck or a draft sitting in a folder; agency changes what a customer expects, what code ships, or what promise your company is now on the hook for. A sales agent emailing a prospect, a coding agent opening a pull request, a support bot issuing a refund, a manager changing a policy, or a founder making a public promise all exercise agency. It shows up in three states. *Latent* agency sits unused on the shelf because nothing calls on it. *Bounded* agency operates inside clear rules, permissions, tests, stop signs, and feedback loops, so everyone knows what map it follows, what it can touch, and who owns the outcome. *Unbounded* agency runs faster than the company can check or correct, looking great on local dashboards while creating contradictions everywhere else.
 
-Agency is different from output. Output is an artifact; agency changes the world. A sales agent emailing a customer, a coding agent opening a pull request, a support workflow issuing a credit, a manager changing a policy, or a founder making a public promise all exercise agency. It shows up in three states. *Latent* agency sits unused: the model can do the job, but nothing calls on it. *Bounded* agency works inside doctrine, permissions, evals, stop rules, and feedback paths. The organization knows what map it follows, what it may touch, who owns the outcome, and when it must stop. *Unbounded* agency moves faster than the organization can review or correct, looking productive locally while breeding contradiction across the firm.
+**Coherence** is whether all of that action still adds up to one company. Intent has to survive every handoff: from leadership to written rules, from rules to daily decisions, and from real-world results back into updated rules. Coherence does not mean everyone agrees. Healthy teams argue and push back. The opposite of coherence is drift, where people and software stay busy without serving the same goal. Coherence also means every real obligation has a named owner. Clean rules can steer active software all day while an unglamorous duty sits untouched, so everyone needs to know who makes sure the work lands, watches what actually happened, and steps in when something breaks.
 
-**Coherence:** low-loss intent across distributed agency.
+---
 
-Coherence means intent survives every handoff: from vision to strategy, strategy to doctrine, doctrine to action, and real-world feedback back into doctrine. Coherence does not mean conformity. A coherent organization makes room for disagreement, rivalry, and local judgment. The opposite of coherence is drift: local action that stops serving the shared whole.
+Take a plain example. Suppose a company decides to stop giving away free rush work. Last quarter, a few last-minute rush favors threw off schedules for two bigger customers. Leadership writes a clean new rule: standard turnaround is five days; rush work carries a fee and needs an operations sign-off before anyone promises a date.
 
-Coherence also means every obligation has a real owner. Shared doctrine can steer active workflows while an important duty sits untouched. Everyone needs to know who ensures execution, watches the results, and steps in when something breaks.
+On Monday morning, the quoting agent gets the new rule. On the very next hundred quotes, it checks capacity and sticks to five days without blinking. Software has no pride invested in last year's heroics.
 
-### The Form and Function of Coherence
+Your best account manager does. Over the last three years, she saved twenty renewals by telling upset clients, "Leave it with me, we'll get it out Monday." At 4:45 on a Friday afternoon, a longtime customer calls in a panic. She sat in the Monday meeting and could recite the new policy word for word. Under pressure, though, the old reflex wins: "Don't worry, I'll make sure it ships Monday." Now the customer has an automated quote promising five days, a personal promise for Monday, and an operations team that knows nothing about either.
 
-Imagine a dispatch office that used to promise delivery as soon as a slot opened on the board. After sending a crew to wait for a truck that never came, dispatch changes the rule. A slot is an estimate. Dispatch can promise a time once the carrier accepts the load.
+On paper, the new rule had *doctrinal coherence*: the terms fit together, the tradeoff was clear, and any reviewer could tell what was allowed. *Effective coherence* is how much of that rule actually survives into Friday afternoon calls. Good rules that people can explain in a meeting but never reach for under pressure are **cold doctrine**. Software can flip to Monday's rule across every account in a second while the people handling exceptions keep steering by the habits that used to make them heroes. Call that gap the **Agent–Actor prior split**.
 
-On Monday the booking agent gets the revised specification. It can check for acceptance on the very next quote. It has no pride invested in last year's habit of finding a truck after promising one. The dispatcher who saved a hundred loads that way has earned some pride. At two in the morning a foreman calls. “I've got eight people to call in. Are you coming at six?” The dispatcher sees an open slot and says yes.
+When changes used to travel slowly, people learned a new rule through the stories they heard around the office: who got burned, which customer got bumped, and how leadership backed the first rep who said no. Now agents update between shifts. If you want people to update too, the rule has to travel in words they can actually carry into a hard call ("We don't steal Tuesday from one customer to save Friday"), backed by watching leadership stand behind the first person who loses a small order by telling the truth.
 
-The rule has *doctrinal coherence*. Its terms fit together, the tradeoff is explicit, and a reviewer can tell whether a given promise was allowed. *Effective coherence* is how much of that intent survives into decisions like the dispatcher's. Sound instructions that people can explain in a meeting but cannot draw on under pressure are **cold doctrine**. Machine execution can switch to Monday's rule across every account while the people handling exceptions still steer by the old one. That is the **Agent–Actor prior split**. The booking screen still says “estimated.” The foreman has called in the crew.
+---
 
-When a change traveled one shift at a time, the incoming dispatcher heard the story of the stranded crew at handoff. Now a fleet can update between shifts. Give the dispatcher six words to carry back to the phone. “The carrier confirms. Then we promise.” They recall the crew and the one thing to check before answering the foreman.
+Now multiply that Friday afternoon gap across a whole company, and you hit the **Coherence Ceiling**: the point where adding more agency stops producing useful work, because shared intent, context, trust, and correction can no longer keep up. Below the ceiling, more agents mean more gets done. Above it, more agents mean more collisions. Past the ceiling, every new agent is a faster way to be wrong.
 
-### The Limit on Useful Agency
+You can feel when a company crosses that line. Output shoots up (more docs, tickets, campaigns, code changes, and confident local answers) while customer promises clash and basic duties fall through the cracks. Every new automated workflow also piles on extra work to review, supervise, clean up, and explain. That flip is *agency inversion*: extra agency starts hurting instead of helping, and the company pays an **incoherence tax** in rework, conflicting promises, duplicated effort, dropped obligations, and trust repair. Once labor and compute stop being the main choke point, coherence becomes the **dominant scaling constraint**. It sets your **span of coherence**: how much independent human and machine action can run at once while staying one organization.
 
-The **Coherence Ceiling** is the point where adding more agency stops increasing useful throughput, because shared intent, context, trust, and correction can no longer keep up with the actions being taken. Below the ceiling, agency produces throughput; above it, agency produces contradiction. Past the ceiling, every new agent is a faster way to be wrong. Output climbs (more docs, tickets, campaigns, code changes, and confident local answers) while promises collide and critical duties slip through the cracks. Every new automated channel also creates fresh work to review, supervise, clean up, and explain to customers. Call that sign flip *agency inversion*: the point past the ceiling where marginal agency turns harmful.
+Holding that ceiling is hard because the ground keeps shifting underneath it. Every working rule has a **doctrine half-life**, how long it stays true and understood before the market moves or habits drift. When reality changes faster than your rules refresh, you pile up **context debt**: a growing gap between what leadership says the strategy is, what incentives actually reward, and what people and agents are doing on Tuesday morning.
 
-Five companion terms round out the vocabulary:
+It is tempting to think smarter AI models will fix this on their own. They won't, for a reason Herbert Simon saw decades ago. Bounded rationality was never just about slow human brains; it is about deciding with limited time, incomplete facts, and shared assumptions. Better models let each agent search wider and draft faster, yet someone still has to decide which assumptions hold, which tradeoffs we accept, and what promises we stand behind. If fifty agents reason sharply from fifty different sets of assumptions, you haven't built a smarter company. It has become many rationalities competing under one logo.
 
-**Dominant scaling constraint:** the bottleneck that most limits useful scale once earlier bottlenecks have been relieved.
+That is what doctrine is for. Doctrine is not a strategy deck or a wall poster; it is the working set of rules and tradeoffs that live action runs on: what we are doing right now, what we are turning down, which local wins hurt the whole company, and what evidence would make us change course. It bounds rationality without dumbing anything down.
 
-**Incoherence tax:** the drag created by excess agency: rework, contradictory promises, duplicated effort, uncovered duties, and trust repair.
+Even with solid doctrine, AI creates a simple overload trap that Jay Galbraith's work on organization design lays out cleanly. As uncertainty rises, a company has three choices: cut how much information people have to process, add capacity to process it, or redesign the work so teams need less coordination. AI adds huge processing capacity, and then creates even more stuff to process. Agents churn out plans, memos, objections, code, and customer emails faster than humans can review them. Connecting doctrine straight to agents strips out slow middle layers, as long as the work is modular and the rules are current. If either is messy, direct execution just spreads confusion faster.
 
-**Doctrine half-life:** how long doctrine stays accurate, current, and understood before world-change or drift makes it stale.
+Deciding where agents can run on their own and where humans need to stay close comes down to how the work connects, a split James D. Thompson mapped plainly. Work that stands alone can follow standard rules. Step-by-step work needs clean handoffs. Back-and-forth work, where one choice immediately shifts the next, needs people adjusting in real time. So send modular work straight through doctrine-guided agents, and keep Actors coordinating the messy, high-stakes calls with agents backing them up. Either way, an Actor owns the result without having to approve every routine click.
 
-**Context debt:** the gap between stated strategy, real incentives, operating reality, and the instructions people and agents actually follow.
+Ross Ashby summed up the deeper rule in five words: only variety can absorb variety. If AI widens the range of actions your company can take, your guardrails (doctrine, tests, permissions, feedback loops, decision memory, and Ritual Time) have to widen right alongside it. The answer is not less variety but regulated variety—coherence without conformity, shared premises with divergent probes.
 
-**Span of coherence:** how much autonomous human and machine agency can act while staying one organization.
+---
 
-Herbert Simon explains why AGI doesn't solve this by itself. Bounded rationality was never just about slow human brains; it is about deciding under real limits on attention, information, search, and shared premises. AGI expands local rationality (testing more options, summarizing faster, drafting more plans) without removing organizational limits. Someone still has to decide which premises hold, which tradeoffs win, which customer promises count, and what action counts as "us." If every agent reasons sharply from a different premise set, the organization hasn't become more rational. It has become many rationalities competing under one logo.
+Once coherence becomes your bottleneck, Eliyahu Goldratt's Theory of Constraints gives you the exact sequence, starting with what *not* to do: stop adding agents and hoping the rest of the company will catch up.
 
-Doctrine bounds rationality without throttling intelligence. It is strategy made executable: the working set of premises that tells distributed agency what diagnosis applies right now, which tradeoffs are accepted, what local wins are globally wrong, when to escalate, and what evidence would change the plan. It is not a strategy deck or wall poster; it is what action actually runs on.
-
-Jay Galbraith framed organization design as information processing under uncertainty: as uncertainty rises, a firm must lower its coordination needs, raise its processing capacity, or redesign the work. AGI boosts processing capacity, yet it can raise demand even faster. Agents spin up plans, objections, memos, code, and customer messages at a pace that swamps human review.
-
-Direct doctrine-to-agent execution helps by cutting out unnecessary middle layers, provided the work is modular and the doctrine is fresh. When either fails, it simply spreads ambiguity faster.
-
-James D. Thompson shows where to draw the line. Different kinds of interdependence call for different coordination: pooled work can be standardized; sequential work needs clear plans and handoffs; reciprocal work, where parts constantly affect each other, needs live mutual adjustment. In a post-AGI company, route modular work through doctrine-guided agents, and have Actors coordinate reciprocal, ambiguous, high-stakes work with agent help. Actors own execution and consequences either way, without having to approve every routine step.
-
-Ross Ashby adds one more rule: only variety can absorb variety. As AGI multiplies the range of actions an organization can take, its regulatory tools (doctrine, evals, permissions, feedback loops, decision memory, and Ritual Time) have to grow to match. The answer is not less variety but regulated variety—coherence without conformity, shared premises with divergent probes.
-
-Eliyahu Goldratt's Theory of Constraints turns this into an operating sequence. When coherence is the bottleneck, don't keep adding agents and hope the system catches up. Run the five focusing steps:
-
-1. **Identify the coherence constraint.** Find where intent breaks down or duties go unclaimed: between Auteur and doctrine, doctrine and agent, execution and consequence, or customer feedback and revision.
-2. **Exploit coherence.** Stop burning it on stale decisions, unclear handoffs, duplicate docs, and unsupervised agent sprawl.
-3. **Subordinate agency to coherence.** Deploy no more autonomous agency than your current doctrine, evals, and feedback loops can absorb.
-4. **Elevate coherence.** Build living doctrine packets, ownership rules, agent evals, Actor feedback loops, decision memory, and a Ritual Time cadence.
-5. **Repeat.** Once coherence stops being the constraint, the bottleneck will move to demand, regulation, capital, compute, physical operations, or outside trust.
+Find where intent actually breaks down or where duties go unclaimed: between leadership and doctrine, doctrine and agent, execution and customer reality, or feedback and revision. Stop wasting the coherence you already have on stale decisions, murky handoffs, duplicate docs, and unsupervised side workflows. Hold off on rolling out more autonomous agents than your current rules, tests, and feedback loops can absorb. Then raise the ceiling itself: sharper doctrine packets, explicit owners, honest customer feedback, decision memory, and steady Ritual Time. Once coherence stops holding you back, start looking again, because the bottleneck will simply have moved to demand, regulation, capital, compute, physical operations, or outside trust.
 
 Do not add agency to a coherence-constrained system. Exploit and elevate coherence first.
 
-That brings us back to the two modes at the center of this book. Run Time turns current doctrine into coherent action; Ritual Time updates doctrine when reality breaks it and repairs the trust damaged along the way. A group can end up in any of four states:
+That brings us back to the two modes at the center of this book. Run Time turns current doctrine into coherent action; Ritual Time updates doctrine when reality breaks it and repairs the trust damaged along the way. Put both dimensions together, and an organization lands in one of four states:
 
 |  | High coherence | Low coherence |
 | --- | --- | --- |
 | Valid knowledge | Productive Run Time | Agentic decoherence |
 | Invalid knowledge | Coherent wrongness | Collapse, churn, anomie |
 
-Productive Run Time is the target: a sound map and faithful execution. Agentic decoherence means the map is fine, yet distributed action has drifted off it. Coherent wrongness is scarier: everyone executing smoothly from a false premise. Collapse is both at once. Coherence cannot replace epimetabolism: coherence sets how much agency Run Time can carry, while epimetabolism updates the map and raises that ceiling after reality breaks it.
+Productive Run Time is the ordinary goal: a sound map and faithful execution. Agentic decoherence means the map is fine, yet daily action has drifted off it. Coherent wrongness is scarier: everyone executing smoothly from a false premise. Collapse is both at once. Coherence cannot replace epimetabolism: coherence sets how much agency Run Time can carry, while epimetabolism updates the map and raises that ceiling after reality breaks it.
 
 ```{=latex}
 \iffalse
@@ -808,7 +792,7 @@ The Auteur sets, protects, and updates the organization's intent: its vision, ta
 
 The Auteur doesn't have to be one person. It can be a founder, an executive team, a creative lead, a board, a council, or a governance process. Whatever its form, some part of the organization has to own the premises that make its actions recognizably ours.
 
-Why call it *Auteur*? A policy engineer can specify what a booking agent may promise and write the tests to enforce it. The Auteur owes something to the person answering the phone as well. Think of a film director telling a crew, “Stay with the woman waiting for the call.” The camera operator lets her son walk out of frame; the editor holds on her face when the phone rings. Two people making independent calls still know whose scene it is.
+Why call it *Auteur*? A policy engineer can specify what a quoting agent may promise and write the tests to enforce it. The Auteur owes something to the account manager answering the phone on Friday afternoon as well. Think of a film director telling a crew, “Stay with the woman waiting for the call.” The camera operator lets her son walk out of frame; the editor holds on her face when the phone rings. Two people making independent calls still know whose scene it is.
 
 That craft is **dual-rendering**: expressing one intent as a specification a machine can execute and as a form a person can carry into a situation the Auteur never predicted.
 
@@ -820,7 +804,7 @@ Auteurship gives the firm a real standard of taste; plausible output isn't enoug
 
 Doctrine is strategy made executable. Strategy says where you want to go; doctrine says how distributed agents should act today under the current diagnosis and tradeoffs. Strategy that an agent cannot act on is not doctrine yet.
 
-A good doctrine packet puts both renderings side by side: the rule and the tradeoff behind it, paired with the story people will tell a new hire when following the rule costs a sale. In the dispatch office, that might be the dispatcher who gave an honest estimate, lost the order, and had the boss back them up anyway. The agent needs a test for an unconfirmed load; the next dispatcher needs to know what happened to the last person who told the truth about one. Appendix B lays out the packet and interface requirements.
+A good doctrine packet puts both renderings side by side: the rule and the tradeoff behind it, paired with the story people will tell a new hire when following the rule costs a sale. With the rush-work policy, that is the account manager who refused a free rush favor, lost the order, and had leadership back her up anyway. The quoting agent needs a test for an unapproved rush request; the next account manager needs to know what happened to the last person who told a longtime customer no. Appendix B lays out the packet and interface requirements.
 
 Doctrine also defines which duties must be covered and how Actors claim, transfer, and drop them. Actors need the authority to intervene, the capacity to follow through, and visibility into real outcomes. Doctrine has to name who ensures coverage and breaks ties when claims collide, because an inventory of running workflows will miss obligations nobody has picked up yet.
 
@@ -1309,7 +1293,7 @@ Put that to work directly:
 
 The same habit translates anywhere: read a poem about a hard lesson before starting a difficult personal change; hang a "Gallery of Attempts" in a classroom so failed drafts count as stepping stones; publish dissenting opinions as real prose, not dry boilerplate.
 
-Carry one small form back into ordinary work, too. At shift change, have the outgoing dispatcher tell the incoming one about a promise they turned down and why. Tomorrow the loads and names will be different, yet the handoff is already part of the job. Passing the rule along inside an inherited habit gives it the durability the Durkheim Constraint asks for.
+Carry one small form back into ordinary work, too. At the weekly pipeline review, have one rep share a rush favor or bad-fit promise they turned down and why. Next week the accounts and numbers will change, yet the review is already part of the job. Passing the rule along inside an existing weekly habit gives it the durability the Durkheim Constraint asks for.
 
 ### The Fallow Interval
 
