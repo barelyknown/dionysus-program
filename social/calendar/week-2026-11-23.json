@@ -12,20 +12,168 @@
       "weekday": "monday",
       "slot_type": "baseline",
       "status": "planned",
-      "content_type": "decoder_ring",
-      "pillar": "Decoder Ring",
-      "topic_thesis": "Epimetabolic Rate is the only scoreboard that really matters in periods of fast change.",
-      "seed_topic_thesis": "Epimetabolic Rate is the only scoreboard that really matters in periods of fast change.",
-      "idea_status": "pending",
-      "angle": "Do not summarize the news; diagnose the pattern underneath it.",
-      "hook": "Most people are misreading what this story is actually about. epimetabolic rate is the only scoreboard that really matters in periods of fast change.",
+      "content_type": "extracted_insight",
+      "pillar": "Extracted Insights",
+      "topic_thesis": "Autonomous permissions should expire with the doctrine that justified them; otherwise a well-aligned agent becomes a confident executor of stale strategy.",
+      "seed_topic_thesis": "Run Time and Ritual Time require different forms of accountability.",
+      "idea_status": "developed",
+      "angle": "Shift agent governance from one-time approval to version-bound autonomy: permissions must be reviewed when the underlying doctrine ages, changes, or meets contradictory evidence.",
+      "hook": "The most dangerous permission in an AI system is the one that outlived its premise.",
       "source_bundle_id": null,
       "timely_subject": null,
       "draft_ref": null,
       "winner_id": null,
       "risk_level": "low",
       "freshness_deadline": null,
-      "publish_payload": null
+      "publish_payload": null,
+      "novel_idea": {
+        "pass": true,
+        "topic_thesis": "Autonomous permissions should expire with the doctrine that justified them; otherwise a well-aligned agent becomes a confident executor of stale strategy.",
+        "angle": "Shift agent governance from one-time approval to version-bound autonomy: permissions must be reviewed when the underlying doctrine ages, changes, or meets contradictory evidence.",
+        "hook": "The most dangerous permission in an AI system is the one that outlived its premise.",
+        "argument_summary": "Organizations commonly evaluate an agent, confirm shared context, and then grant broader permissions. But doctrine has a half-life: its premises become stale as markets, obligations, and operating reality change. An agent can therefore remain technically capable and perfectly faithful while executing yesterday’s strategy against customers, money, production code, or other consequential systems. Permissions should be bound to a specific doctrine version and reconsidered when that doctrine expires or reality contradicts it. This is distinct from checking alignment before granting access; it governs what happens after a previously valid authorization becomes unsafe.",
+        "novelty_score": 9.1,
+        "closest_post_id": "019ff648-1a52-a05b-2c6a-0622be944bdc",
+        "novelty_rationale": "The closest prior post argues that humans and machines should pass the same Context Checksum before autonomous permissions expand. This argument addresses a different lifecycle failure and operator decision: permissions that were valid when granted but remain active after their governing doctrine has aged. The substantive delta is from initial alignment testing to ongoing authorization expiry tied to doctrine freshness.",
+        "source_grounding": "The source defines doctrine half-life as how long doctrine remains valid, current, and understood before drift or world change makes it stale. It states that agents require current doctrine, bounded permissions, evaluations, stop conditions, escalation triggers, and feedback paths; asks who is accountable when doctrine ages but an agent keeps acting; and warns that stale doctrine can regulate confidently from a false model. The Minimum Viable Coherence Program also ties permission levels to doctrine maturity and requires reality-driven doctrine updates.",
+        "gate_version": 2,
+        "model": "gpt-5.6-sol",
+        "history_count": 98,
+        "history_fingerprint": "d02c4080f9fb0855ba21cc5bab0fcb7e0dd48b4b0a813562c532f840f8d18e20",
+        "developed_at": "2026-11-23T07:44:01.173Z"
+      },
+      "preparation": {
+        "status": "ready",
+        "prepared_at": "2026-11-23T07:45:31.878Z",
+        "history_fingerprint": "d02c4080f9fb0855ba21cc5bab0fcb7e0dd48b4b0a813562c532f840f8d18e20",
+        "attempts": [
+          {
+            "content_type": "decoder_ring",
+            "seed_topic_thesis": "Epimetabolic Rate is the only scoreboard that really matters in periods of fast change.",
+            "status": "failed",
+            "reason": "unexpected_error",
+            "error": "Gemini Deep Research create failed (404): {\"error\":{\"message\":\"The preview agent 'deep-research-pro-preview-12-2025' has been shut down. Please migrate your workloads to 'deep-research-preview-04-2026' instead.\",\"code\":\"not_found\"}}",
+            "details": null
+          },
+          {
+            "content_type": "extracted_insight",
+            "seed_topic_thesis": "Run Time and Ritual Time require different forms of accountability.",
+            "status": "prepared",
+            "reason": null,
+            "error": null,
+            "details": null
+          }
+        ],
+        "package": {
+          "version": 1,
+          "prepared_at": "2026-11-23T07:45:31.878Z",
+          "history_fingerprint": "d02c4080f9fb0855ba21cc5bab0fcb7e0dd48b4b0a813562c532f840f8d18e20",
+          "payload": {
+            "item_id": "6cb5d41f9e9f",
+            "scheduled_at": "2026-11-23T13:30:00.000Z",
+            "content_type": "extracted_insight",
+            "pillar": "Extracted Insights",
+            "topic_thesis": "Autonomous permissions should expire with the doctrine that justified them; otherwise a well-aligned agent becomes a confident executor of stale strategy.",
+            "angle": "Shift agent governance from one-time approval to version-bound autonomy: permissions must be reviewed when the underlying doctrine ages, changes, or meets contradictory evidence.",
+            "hook": "An agent can be perfectly aligned and still do damage.",
+            "body_text": "An agent can be perfectly aligned and still do damage.\n\nThe failure is Doctrine Half-Life: the strategy changes, but the permission survives. A workflow approved once keeps acting from premises the organization no longer believes.\n\nImagine a pricing agent authorized to discount aggressively under a growth strategy. Margin pressure later changes the doctrine. If the agent retains its permission, it will execute yesterday’s strategy with today’s speed and confidence.\n\nAutonomy should therefore be bound to a specific doctrine version. When that doctrine ages past review, changes materially, or meets contradictory evidence, the permission expires until reauthorized.\n\nThe dangerous agent is not always the rogue one. It is often the faithful executor of a dead map.",
+            "footer_text": "The Dionysus Program is a free book about building cultures that can learn without end and remain human. HTML, PDF, and EPUB at dionysusprogram.com.",
+            "footer_index": 17,
+            "footer_divider": "---",
+            "final_text": "An agent can be perfectly aligned and still do damage.\n\nThe failure is Doctrine Half-Life: the strategy changes, but the permission survives. A workflow approved once keeps acting from premises the organization no longer believes.\n\nImagine a pricing agent authorized to discount aggressively under a growth strategy. Margin pressure later changes the doctrine. If the agent retains its permission, it will execute yesterday’s strategy with today’s speed and confidence.\n\nAutonomy should therefore be bound to a specific doctrine version. When that doctrine ages past review, changes materially, or meets contradictory evidence, the permission expires until reauthorized.\n\nThe dangerous agent is not always the rogue one. It is often the faithful executor of a dead map.\n\n---\n\nThe Dionysus Program is a free book about building cultures that can learn without end and remain human. HTML, PDF, and EPUB at dionysusprogram.com.",
+            "winning_candidate_id": "f700acf62e77",
+            "winning_score": 8.7,
+            "source_refs": [],
+            "research_bundle_id": null,
+            "timely_subject": null
+          },
+          "prepared_note": {
+            "body": "An agent can be perfectly aligned and still do damage.\n\nThe failure is Doctrine Half-Life: the strategy changes, but the permission survives. A workflow approved once keeps acting from premises the organization no longer believes.\n\nImagine a pricing agent authorized to discount aggressively under a growth strategy. Margin pressure later changes the doctrine. If the agent retains its permission, it will execute yesterday’s strategy with today’s speed and confidence.\n\nAutonomy should therefore be bound to a specific doctrine version. When that doctrine ages past review, changes materially, or meets contradictory evidence, the permission expires until reauthorized.\n\nThe dangerous agent is not always the rogue one. It is often the faithful executor of a dead map.",
+            "sourceMode": "canonical_package"
+          },
+          "x_preflight": {
+            "status": "dry_run",
+            "reason": null,
+            "payload": {
+              "source_channel": "linkedin",
+              "source_final_text_hash": "2eb7e16b6cfdab20c129ceb1f09cd60ded9be043a2064d2c7d0b69e6a6a69c58",
+              "source_winning_candidate_id": "f700acf62e77",
+              "text": "Leadership freezes expansion on Monday. On Friday, a procurement agent renews three annual contracts—correctly, within its approved scope.\n\nThe loss came from a permission that survived the strategy behind it. Approval without an expiry date is a standing bet.",
+              "winning_candidate_id": "c5adecc87b81",
+              "winning_score": 8.2
+            },
+            "winnerCandidate": {
+              "id": "c5adecc87b81",
+              "writer_model": "gpt-5.6-sol",
+              "prompt_variant": "concrete_consequence",
+              "post_text": "Leadership freezes expansion on Monday. On Friday, a procurement agent renews three annual contracts—correctly, within its approved scope.\n\nThe loss came from a permission that survived the strategy behind it. Approval without an expiry date is a standing bet.",
+              "self_notes": "Shows a direct financial consequence while preserving the key point that the agent acted correctly."
+            },
+            "winnerScore": {
+              "id": "36a617005c79",
+              "candidate_id": "c5adecc87b81",
+              "clarity_score": 8.5,
+              "compression_score": 9.1,
+              "diagnostic_score": 8.7,
+              "anti_cheese_score": 8.6,
+              "x_fit_score": 9,
+              "novelty_score": 7.7,
+              "engagement_score": 8.5,
+              "overall_score": 8.2,
+              "pass": true,
+              "pass_fail_reasons": [
+                "Concrete chronology makes authorized damage immediately legible.",
+                "The expiry-date conclusion provides a distinct governance mechanism rather than merely repeating the need to propagate strategy changes.",
+                "Minor weakness: the connection between freezing expansion and renewing existing contracts is slightly underexplained."
+              ]
+            }
+          },
+          "winner_candidate": {
+            "id": "f700acf62e77",
+            "writer_model": "gpt-5.6-sol",
+            "prompt_variant": "diagnosis_forward",
+            "post_text": "An agent can be perfectly aligned and still do damage.\n\nThe failure is Doctrine Half-Life: the strategy changes, but the permission survives. A workflow approved once keeps acting from premises the organization no longer believes.\n\nImagine a pricing agent authorized to discount aggressively under a growth strategy. Margin pressure later changes the doctrine. If the agent retains its permission, it will execute yesterday’s strategy with today’s speed and confidence.\n\nAutonomy should therefore be bound to a specific doctrine version. When that doctrine ages past review, changes materially, or meets contradictory evidence, the permission expires until reauthorized.\n\nThe dangerous agent is not always the rogue one. It is often the faithful executor of a dead map.",
+            "self_notes": "Live candidate in diagnosis_forward mode."
+          },
+          "winner_score": {
+            "id": "33c2a7aac25d",
+            "candidate_id": "f700acf62e77",
+            "voice_score": 9,
+            "novelty_score": 8.2,
+            "engagement_score": 8.7,
+            "clarity_score": 9.2,
+            "risk_score": 1.2,
+            "citation_score": 9,
+            "linkedin_native_score": 8.9,
+            "overall_score": 8.7,
+            "pass": true,
+            "pass_fail_reasons": [
+              "Makes a sufficiently distinct governance move: permissions expire when their doctrine version changes, ages, or meets contradiction.",
+              "The pricing-agent example gives the abstraction a concrete operational consequence without padding.",
+              "Strong final distinction between rogue behavior and faithful execution of stale strategy.",
+              "Concise, source-grounded, under the word limit, and compliant with the no-link, no-emoji, and no-hashtag policy."
+            ]
+          },
+          "package_gate": {
+            "pass": true,
+            "attempted_candidates": 1,
+            "note_linkedin_novelty_score": 8.2,
+            "note_linkedin_engagement_score": 8.7,
+            "x_status": "dry_run",
+            "x_novelty_score": 7.7,
+            "x_engagement_score": 8.5
+          },
+          "selection_reason": "memory_safe_top_choice",
+          "research_bundle": null
+        }
+      },
+      "fallback": {
+        "attempt": 1,
+        "selected_at": "2026-11-23T07:43:43.402Z",
+        "from_content_type": "decoder_ring",
+        "from_seed_topic_thesis": "Epimetabolic Rate is the only scoreboard that really matters in periods of fast change."
+      },
+      "skip_reason": null
     },
     {
       "id": "76b68fe18caa",
