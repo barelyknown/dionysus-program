@@ -186,18 +186,168 @@
       "status": "planned",
       "content_type": "extracted_insight",
       "pillar": "Extracted Insights",
-      "topic_thesis": "Run Time and Ritual Time require different forms of accountability.",
-      "seed_topic_thesis": "Run Time and Ritual Time require different forms of accountability.",
-      "idea_status": "pending",
-      "angle": "Name the concept, explain it plainly, and show why it matters now.",
-      "hook": "The mistake leaders keep making is thinking run time and ritual time require different forms of accountability.",
+      "topic_thesis": "Agent permissions should expire when the doctrine they depend on expires.",
+      "seed_topic_thesis": "Knowledge and myth solve different problems, and organizations fail when they confuse them.",
+      "idea_status": "developed",
+      "angle": "Treat autonomous permission as conditional on doctrine freshness, not as a permanent capability granted after one successful review.",
+      "hook": "The most dangerous AI permission may be one approved under a strategy that no longer exists.",
       "source_bundle_id": null,
       "timely_subject": null,
       "draft_ref": null,
       "winner_id": null,
       "risk_level": "low",
       "freshness_deadline": null,
-      "publish_payload": null
+      "publish_payload": null,
+      "novel_idea": {
+        "pass": true,
+        "topic_thesis": "Agent permissions should expire when the doctrine they depend on expires.",
+        "angle": "Treat autonomous permission as conditional on doctrine freshness, not as a permanent capability granted after one successful review.",
+        "hook": "The most dangerous AI permission may be one approved under a strategy that no longer exists.",
+        "argument_summary": "An agent can remain technically accurate, pass evaluations, and stay perfectly aligned with its instructions while the doctrine behind those instructions becomes stale. That makes one-time permission reviews insufficient: faithful execution of an expired map can scale obsolete promises and tradeoffs into customer, financial, or production consequences. Permission levels should therefore be revalidated whenever the governing doctrine reaches its review date, changes version, or is contradicted by reality. This differs from checking alignment before granting access; it makes continued autonomy depend on the continuing validity of the organizational map.",
+        "novelty_score": 9,
+        "closest_post_id": "019ff648-1a52-a05b-2c6a-0622be944bdc",
+        "novelty_rationale": "The closest post argues that humans and machines should pass the same Context Checksum before permissions expand. That is a grant-time alignment test. This argument introduces a different temporal mechanism and operator decision: permission can become unsafe without any loss of alignment because doctrine itself has a half-life. The substantive delta is from “verify shared context before granting authority” to “automatically reconsider authority when its governing context ages.”",
+        "source_grounding": "The source defines doctrine half-life as how long doctrine remains valid, current, and understood before drift or world-change makes it stale. It states that agents require current doctrine, bounded permissions, stop conditions, escalation triggers, and risk-proportional review; asks who is accountable when doctrine ages but an agent keeps acting; and warns that stale doctrine can regulate confidently from a false model. The Minimum Viable Coherence Program also ties higher permission levels to explicit doctrine, evaluations, feedback, and doctrine-update loops.",
+        "gate_version": 2,
+        "model": "gpt-5.6-sol",
+        "history_count": 98,
+        "history_fingerprint": "d02c4080f9fb0855ba21cc5bab0fcb7e0dd48b4b0a813562c532f840f8d18e20",
+        "developed_at": "2026-11-25T08:42:50.474Z"
+      },
+      "preparation": {
+        "status": "ready",
+        "prepared_at": "2026-11-25T08:44:23.386Z",
+        "history_fingerprint": "d02c4080f9fb0855ba21cc5bab0fcb7e0dd48b4b0a813562c532f840f8d18e20",
+        "attempts": [
+          {
+            "content_type": "extracted_insight",
+            "seed_topic_thesis": "Run Time and Ritual Time require different forms of accountability.",
+            "status": "skipped",
+            "reason": "package_gate_failed",
+            "error": null,
+            "details": null
+          },
+          {
+            "content_type": "extracted_insight",
+            "seed_topic_thesis": "Knowledge and myth solve different problems, and organizations fail when they confuse them.",
+            "status": "prepared",
+            "reason": null,
+            "error": null,
+            "details": null
+          }
+        ],
+        "package": {
+          "version": 1,
+          "prepared_at": "2026-11-25T08:44:23.386Z",
+          "history_fingerprint": "d02c4080f9fb0855ba21cc5bab0fcb7e0dd48b4b0a813562c532f840f8d18e20",
+          "payload": {
+            "item_id": "76b68fe18caa",
+            "scheduled_at": "2026-11-25T13:30:00.000Z",
+            "content_type": "extracted_insight",
+            "pillar": "Extracted Insights",
+            "topic_thesis": "Agent permissions should expire when the doctrine they depend on expires.",
+            "angle": "Treat autonomous permission as conditional on doctrine freshness, not as a permanent capability granted after one successful review.",
+            "hook": "An agent can pass every review on Monday and become dangerous by Friday—without changing a line of code.",
+            "body_text": "An agent can pass every review on Monday and become dangerous by Friday—without changing a line of code.\n\nDoctrine Half-Life is how long the premises governing action remain valid, current, and understood. When that doctrine expires, the permission built on it should expire too.\n\nConsider an agent authorized to issue customer credits. The workflow may still function perfectly after pricing policy changes. That is precisely the problem: it can execute yesterday’s judgment at machine speed, touching customers and money with confidence.\n\nAutonomous permission should never become permanent capability after one successful review. Tie it to a doctrine version and its freshness. When the doctrine ages past its limit, the agent falls back to suggest-only until the map is renewed.\n\nStale doctrine should revoke autonomy before it scales error.",
+            "footer_text": "The Dionysus Program is free at dionysusprogram.com. It was written for anyone whose head is out of the sand about what is coming next.",
+            "footer_index": 15,
+            "footer_divider": "---",
+            "final_text": "An agent can pass every review on Monday and become dangerous by Friday—without changing a line of code.\n\nDoctrine Half-Life is how long the premises governing action remain valid, current, and understood. When that doctrine expires, the permission built on it should expire too.\n\nConsider an agent authorized to issue customer credits. The workflow may still function perfectly after pricing policy changes. That is precisely the problem: it can execute yesterday’s judgment at machine speed, touching customers and money with confidence.\n\nAutonomous permission should never become permanent capability after one successful review. Tie it to a doctrine version and its freshness. When the doctrine ages past its limit, the agent falls back to suggest-only until the map is renewed.\n\nStale doctrine should revoke autonomy before it scales error.\n\n---\n\nThe Dionysus Program is free at dionysusprogram.com. It was written for anyone whose head is out of the sand about what is coming next.",
+            "winning_candidate_id": "890a0863552b",
+            "winning_score": 9,
+            "source_refs": [],
+            "research_bundle_id": null,
+            "timely_subject": null
+          },
+          "prepared_note": {
+            "body": "An agent can pass every review on Monday and become dangerous by Friday—without changing a line of code.\n\nDoctrine Half-Life is how long the premises governing action remain valid, current, and understood. When that doctrine expires, the permission built on it should expire too.\n\nConsider an agent authorized to issue customer credits. The workflow may still function perfectly after pricing policy changes. That is precisely the problem: it can execute yesterday’s judgment at machine speed, touching customers and money with confidence.\n\nAutonomous permission should never become permanent capability after one successful review. Tie it to a doctrine version and its freshness. When the doctrine ages past its limit, the agent falls back to suggest-only until the map is renewed.\n\nStale doctrine should revoke autonomy before it scales error.",
+            "sourceMode": "canonical_package"
+          },
+          "x_preflight": {
+            "status": "dry_run",
+            "reason": null,
+            "payload": {
+              "source_channel": "linkedin",
+              "source_final_text_hash": "c975159f2f1dbdd16e1b148a023a56052d779c1881e9abe432f8c1574b0a543e",
+              "source_winning_candidate_id": "890a0863552b",
+              "text": "We routinely expire passwords and API tokens, then let an agent’s business authority live forever.\n\nThat is backwards. Credentials prove what may connect. Doctrine defines what may be done. The second can go stale faster—and carries the customer consequence.",
+              "winning_candidate_id": "7c3d849ff723",
+              "winning_score": 8.2
+            },
+            "winnerCandidate": {
+              "id": "7c3d849ff723",
+              "writer_model": "gpt-5.6-sol",
+              "prompt_variant": "surprising_contrast",
+              "post_text": "We routinely expire passwords and API tokens, then let an agent’s business authority live forever.\n\nThat is backwards. Credentials prove what may connect. Doctrine defines what may be done. The second can go stale faster—and carries the customer consequence.",
+              "self_notes": "Contrasts mature credential hygiene with neglected expiration of business authority."
+            },
+            "winnerScore": {
+              "id": "29d296707124",
+              "candidate_id": "7c3d849ff723",
+              "clarity_score": 8.5,
+              "compression_score": 9,
+              "diagnostic_score": 8.8,
+              "anti_cheese_score": 7.8,
+              "x_fit_score": 8.6,
+              "novelty_score": 8.5,
+              "engagement_score": 7.8,
+              "overall_score": 8.2,
+              "pass": true,
+              "pass_fail_reasons": [
+                "Pass: the credential-expiration comparison is a fresh, specific operational angle.",
+                "Cleanly distinguishes access from business authority without recycling the recent customer-credit scene.",
+                "“That is backwards” is generic and the customer consequence is underspecified, but the diagnosis remains sharp."
+              ]
+            }
+          },
+          "winner_candidate": {
+            "id": "890a0863552b",
+            "writer_model": "gpt-5.6-sol",
+            "prompt_variant": "hook_forward",
+            "post_text": "An agent can pass every review on Monday and become dangerous by Friday—without changing a line of code.\n\nDoctrine Half-Life is how long the premises governing action remain valid, current, and understood. When that doctrine expires, the permission built on it should expire too.\n\nConsider an agent authorized to issue customer credits. The workflow may still function perfectly after pricing policy changes. That is precisely the problem: it can execute yesterday’s judgment at machine speed, touching customers and money with confidence.\n\nAutonomous permission should never become permanent capability after one successful review. Tie it to a doctrine version and its freshness. When the doctrine ages past its limit, the agent falls back to suggest-only until the map is renewed.\n\nStale doctrine should revoke autonomy before it scales error.",
+            "self_notes": "Live candidate in hook_forward mode."
+          },
+          "winner_score": {
+            "id": "5683df8ade47",
+            "candidate_id": "890a0863552b",
+            "voice_score": 9.1,
+            "novelty_score": 8.1,
+            "engagement_score": 9,
+            "clarity_score": 9.4,
+            "risk_score": 1.5,
+            "citation_score": 9.5,
+            "linkedin_native_score": 9.2,
+            "overall_score": 9,
+            "pass": true,
+            "pass_fail_reasons": [
+              "Strong consequence-led opener that explains how risk can change without code changing.",
+              "Defines Doctrine Half-Life clearly and grounds it in the supplied book context.",
+              "Concrete customer-credit example sustains attention without padding.",
+              "Ends with a sharp, operational implication.",
+              "Distinct enough from the recent Context Checksum post: this addresses permission expiration after doctrine ages, not permission expansion after alignment checks.",
+              "Within length and formatting limits; no links, hashtags, or emojis."
+            ]
+          },
+          "package_gate": {
+            "pass": true,
+            "attempted_candidates": 1,
+            "note_linkedin_novelty_score": 8.1,
+            "note_linkedin_engagement_score": 9,
+            "x_status": "dry_run",
+            "x_novelty_score": 8.5,
+            "x_engagement_score": 7.8
+          },
+          "selection_reason": "memory_safe_top_choice",
+          "research_bundle": null
+        }
+      },
+      "fallback": {
+        "attempt": 1,
+        "selected_at": "2026-11-25T08:40:24.619Z",
+        "from_content_type": "extracted_insight",
+        "from_seed_topic_thesis": "Run Time and Ritual Time require different forms of accountability."
+      },
+      "skip_reason": null
     },
     {
       "id": "3c985a2ae9db",
